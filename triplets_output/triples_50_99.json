@@ -1,0 +1,3476 @@
+[
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "船体构件放样展开",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "制作样板",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "制作样箱",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "冷热加工",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "装配画线",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "has",
+        "object": "精度要求",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "based_on",
+        "object": "横剖型线图",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨号",
+        "relation": "has",
+        "object": "编排顺序",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨号",
+        "relation": "determined_by",
+        "object": "民用船舶",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨号",
+        "relation": "determined_by",
+        "object": "军用舰船",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "0号肋骨位置线",
+        "relation": "determined_by",
+        "object": "图纸要求",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋位线",
+        "relation": "determined_by",
+        "object": "肋距",
+        "chunk_id": "50"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "钢盘尺",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "型值样棒",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "样条",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "applied_to",
+        "object": "肋骨型线图",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "inputs",
+        "object": "肋骨间距",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "outputs",
+        "object": "肋骨型线图",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "acts_on",
+        "object": "肋骨型线图",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "affects",
+        "object": "光顺性",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "refines",
+        "object": "肋骨型线图",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "precedes",
+        "object": "肋骨型线图的检验",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "纵剖型线图",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "半宽水线图",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "中线",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "基线",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "肋位线",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "肋位号码",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "格子线",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "肋号",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "水线",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "纵剖线",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "located_at",
+        "object": "三向光顺",
+        "chunk_id": "51"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "uses",
+        "object": "斜剖线检验法",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "connects_to",
+        "object": "船体型线",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "affects",
+        "object": "光顺性",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "supports",
+        "object": "肋骨型线",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "斜剖线",
+        "relation": "applied_to",
+        "object": "肋骨型线图",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "斜剖线",
+        "relation": "applied_to",
+        "object": "船体型线",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "斜剖线",
+        "relation": "located_at",
+        "object": "型线曲率变化较大的地方",
+        "chunk_id": "52"
+    },
+    {
+        "subject": "尾轴出口处的型线放样",
+        "relation": "applied_to",
+        "object": "船体中线面",
+        "chunk_id": "53"
+    },
+    {
+        "subject": "尾轴出口处的型线放样",
+        "relation": "applied_to",
+        "object": "基线",
+        "chunk_id": "53"
+    },
+    {
+        "subject": "尾轴出口处的型线放样",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "53"
+    },
+    {
+        "subject": "尾轴出口",
+        "relation": "affects",
+        "object": "船体曲面",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "尾轴出口",
+        "relation": "affects",
+        "object": "肋骨型线",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "肋骨型线",
+        "relation": "requires",
+        "object": "放样",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "轴壳",
+        "relation": "connects_to",
+        "object": "船体曲面",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "轴壳",
+        "relation": "requires",
+        "object": "反圆弧",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "轴壳",
+        "relation": "requires",
+        "object": "圆弧半径",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "纵向斜剖面",
+        "relation": "supports",
+        "object": "圆弧半径",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "纵向斜剖面",
+        "relation": "has",
+        "object": "投影直线",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "投影直线",
+        "relation": "passes_through",
+        "object": "轴心",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "投影直线",
+        "relation": "is_perpendicular_to",
+        "object": "原肋骨线",
+        "chunk_id": "54"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "轴系布置图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "轴壳图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "肋骨型线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "样棒",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "样条",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "纵剖线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "uses",
+        "object": "横剖线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "轴中心线",
+        "relation": "located_at",
+        "object": "肋骨型线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "轴中心线",
+        "relation": "connects_to",
+        "object": "轴壳",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "轴壳",
+        "relation": "located_at",
+        "object": "肋骨型线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "轴壳",
+        "relation": "connects_to",
+        "object": "船体",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "轴中心线",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "斜剖船体曲线",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "轴中心线",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "横剖线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "纵剖线图",
+        "chunk_id": "55"
+    },
+    {
+        "subject": "斜剖轴壳曲线",
+        "relation": "connects_to",
+        "object": "斜剖船体曲线",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "斜剖轴壳曲线",
+        "relation": "determines",
+        "object": "轴壳圆弧半径",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "轴壳圆弧半径",
+        "relation": "located_at",
+        "object": "肋骨线",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "反圆弧",
+        "relation": "connects_to",
+        "object": "轴壳圆弧",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "反圆弧",
+        "relation": "connects_to",
+        "object": "肋骨线",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "反圆弧的圆心",
+        "relation": "connects_to",
+        "object": "光顺曲线",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "光顺曲线",
+        "relation": "affects",
+        "object": "反圆弧的纵向光顺性",
+        "chunk_id": "56"
+    },
+    {
+        "subject": "肋骨型线放样",
+        "relation": "precedes",
+        "object": "结构线放样",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "inputs",
+        "object": "基本结构图",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "inputs",
+        "object": "中横剖面图",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "inputs",
+        "object": "外板展开图",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "inputs",
+        "object": "首尾柱结构图",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "inputs",
+        "object": "分段划分图",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "outputs",
+        "object": "构件展开",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "outputs",
+        "object": "样板",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "outputs",
+        "object": "样箱钉制",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "outputs",
+        "object": "加工",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "outputs",
+        "object": "装配",
+        "chunk_id": "57"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "外板接缝线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "内底板线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "平台线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "船底纵桁线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "舷侧纵桁线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "甲板纵桁线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "舷龙骨线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "纵舱壁线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "主机座位置线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "肋板顶线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "结构线放样",
+        "relation": "contains",
+        "object": "舷肘板顶线",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "横向构件",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "结构线放样",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "纵向构件放样",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "横向构件放样",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "结构线放样",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "外板展开",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "肋骨弯度计算",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "测地线法展开",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "结构线放样",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_by",
+        "object": "船体结构设计",
+        "chunk_id": "58"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "connects_to",
+        "object": "船体型表面",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "connects_to",
+        "object": "肋骨剖面",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "甲板纵桁",
+        "relation": "connects_to",
+        "object": "甲板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "甲板纵桁",
+        "relation": "connects_to",
+        "object": "腹板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "甲板纵桁",
+        "relation": "connects_to",
+        "object": "面板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "舷侧纵桁",
+        "relation": "connects_to",
+        "object": "船体外板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "舷侧纵桁",
+        "relation": "connects_to",
+        "object": "腹板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "舷侧纵桁",
+        "relation": "connects_to",
+        "object": "面板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "底部纵桁",
+        "relation": "connects_to",
+        "object": "船底板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "底部纵桁",
+        "relation": "connects_to",
+        "object": "腹板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "底部纵桁",
+        "relation": "connects_to",
+        "object": "面板",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "肋骨剖线",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "纵向弯曲",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "扭曲",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "肋骨剖线",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "纵向弯曲",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "扭曲",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "肋骨剖线",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "纵向弯曲",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "has",
+        "object": "扭曲",
+        "chunk_id": "59"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "acts_on",
+        "object": "半宽水线图",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "connects_to",
+        "object": "船体外板",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "下口线",
+        "relation": "acts_on",
+        "object": "横剖线图",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "acts_on",
+        "object": "肋骨线",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "acts_on",
+        "object": "腹板",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "connects_to",
+        "object": "基线",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "connects_to",
+        "object": "外板",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "上口线",
+        "relation": "acts_on",
+        "object": "肋骨线",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "acts_on",
+        "object": "横剖线图",
+        "chunk_id": "60"
+    },
+    {
+        "subject": "外板接缝线",
+        "relation": "part_of",
+        "object": "结构线",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板接缝线",
+        "relation": "part_of",
+        "object": "分段接缝线",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "contains",
+        "object": "接缝线",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "contains",
+        "object": "板缝",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "船壳",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "船底",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "舷侧",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "甲板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "肋骨型线图",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "结构线放样",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "放样",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "分段",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "分段建造",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "分段接缝",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "纵接缝线",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "横接缝线",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "纵接缝",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "横接缝",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "舷侧外板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "舷列板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "舷顶列板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "龙骨底板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "底板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "S行板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "A行板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "B行板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "C行板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "外板",
+        "relation": "part_of",
+        "object": "K行板",
+        "chunk_id": "61"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "affects",
+        "object": "船舶外表美观",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "affects",
+        "object": "钢材利用率",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "affects",
+        "object": "零件加工",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "affects",
+        "object": "分段装配",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "affects",
+        "object": "焊接工艺",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "affects",
+        "object": "船体建造质量",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "requires",
+        "object": "钢板的规格和数量",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "requires",
+        "object": "外板的装配方法及步骤",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "板缝排列",
+        "relation": "requires",
+        "object": "加工设备的能力、尺度",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "parallel_to",
+        "object": "肋骨线",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "located_at",
+        "object": "肋骨型线图",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "calculated_by",
+        "object": "比例计算",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "connected_by",
+        "object": "样条",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "results_in",
+        "object": "光顺曲线",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "外板接缝线排列",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "肋骨线",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "端接缝线位置计算",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "外板展开",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "肋骨弯度计算",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "外板展开形状确定",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "测地线法展开",
+        "chunk_id": "62"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "contains",
+        "object": "龙骨底板",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "contains",
+        "object": "舷顶列板",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "contains",
+        "object": "般列板",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "contains",
+        "object": "外板",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "connects_to",
+        "object": "肋骨线",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "connects_to",
+        "object": "甲板边线",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "connects_to",
+        "object": "企口",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "connects_to",
+        "object": "圆角",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "uses",
+        "object": "钢板",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "applied_to",
+        "object": "加工设备",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "affects",
+        "object": "钢材利用率",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "located_at",
+        "object": "船中",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "located_at",
+        "object": "船体中心线",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "located_at",
+        "object": "肋骨型线",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "纵接缝线",
+        "relation": "located_at",
+        "object": "光顺曲线",
+        "chunk_id": "63"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "located_at",
+        "object": "肋距",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "affects",
+        "object": "局部弯曲应力",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "affects",
+        "object": "板的初挠度",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "端接缝线",
+        "relation": "affects",
+        "object": "船体强度",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "纵接缝",
+        "relation": "located_at",
+        "object": "设计水线",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "纵接缝",
+        "relation": "affects",
+        "object": "外表美观",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "纵接缝",
+        "relation": "located_at",
+        "object": "船中",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "菱形板",
+        "relation": "affects",
+        "object": "钢材利用率",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "菱形板",
+        "relation": "affects",
+        "object": "外板展开",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "菱形板",
+        "relation": "affects",
+        "object": "加工成型",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "外板纵接缝线",
+        "relation": "has",
+        "object": "肋骨型线",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "外板纵接缝线",
+        "relation": "affects",
+        "object": "肋骨线",
+        "chunk_id": "64"
+    },
+    {
+        "subject": "外板纵接缝线",
+        "relation": "located_at",
+        "object": "分段",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "外板纵接缝线",
+        "relation": "has",
+        "object": "距离",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "外板围板长尺寸",
+        "relation": "max",
+        "object": "600 mm",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "外板围板长尺寸",
+        "relation": "min",
+        "object": "300 mm",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "槽型龙骨底板",
+        "relation": "located_at",
+        "object": "折角线",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "槽型龙骨底板",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "槽型龙骨底板",
+        "relation": "affects",
+        "object": "加工成型",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "船体结构线",
+        "relation": "located_at",
+        "object": "外板纵接缝线",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "船体结构线",
+        "relation": "has",
+        "object": "距离",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "船体结构线",
+        "relation": "min",
+        "object": "100 mm",
+        "chunk_id": "65"
+    },
+    {
+        "subject": "分段建造",
+        "relation": "enables",
+        "object": "板缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "横向分段接缝",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "横向分段接缝",
+        "relation": "determines",
+        "object": "横缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "纵向分段接缝线",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "纵向分段接缝线",
+        "relation": "determines",
+        "object": "纵缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "affects",
+        "object": "纵缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "板缝线",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "板缝线",
+        "relation": "used_in",
+        "object": "外板接缝排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段建造",
+        "relation": "applied_to",
+        "object": "外板接缝排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "supports",
+        "object": "纵缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "supports",
+        "object": "横缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "determines",
+        "object": "分段接缝线",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "分段接缝线",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段接缝线",
+        "relation": "affects",
+        "object": "纵缝线排列",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "底部分段",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "底部分段",
+        "relation": "connects_to",
+        "object": "舷侧分段",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "舷侧分段",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "舷侧分段",
+        "relation": "supports",
+        "object": "船体结构",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "船体构件",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "船体构件",
+        "relation": "used_in",
+        "object": "展开",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "展开",
+        "relation": "outputs",
+        "object": "号料草图",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "展开",
+        "relation": "outputs",
+        "object": "样板",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "投影图",
+        "relation": "used_in",
+        "object": "展开",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_in",
+        "object": "展开",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "肋骨型线",
+        "relation": "used_in",
+        "object": "展开",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "号料草图",
+        "relation": "inputs",
+        "object": "钢板切割",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "钢板",
+        "relation": "used_in",
+        "object": "号料",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "号料",
+        "relation": "outputs",
+        "object": "零件加工",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "零件加工",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "66"
+    },
+    {
+        "subject": "可展曲面",
+        "relation": "contains",
+        "object": "船体内部构件",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "可展曲面",
+        "relation": "contains",
+        "object": "舾装件",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "不可展曲面",
+        "relation": "contains",
+        "object": "船体外板曲面",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "几何作图法",
+        "relation": "applied_to",
+        "object": "船体构件展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "准线法",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "applied_to",
+        "object": "纵向构件展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "十字线法",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "测地线法",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "inputs",
+        "object": "展开船体构件",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "投影线实长",
+        "relation": "determines",
+        "object": "展开船体构件",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "展开船体构件",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "准线",
+        "relation": "acts_on",
+        "object": "外板展开",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "实长",
+        "relation": "determines",
+        "object": "展开图",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "展开误差",
+        "relation": "affects",
+        "object": "展开图",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "余量",
+        "relation": "used_for",
+        "object": "补偿展开误差",
+        "chunk_id": "67"
+    },
+    {
+        "subject": "船体构件",
+        "relation": "contains",
+        "object": "投影线实长",
+        "chunk_id": "68"
+    },
+    {
+        "subject": "外板纵缝线",
+        "relation": "has",
+        "object": "投影线实长",
+        "chunk_id": "68"
+    },
+    {
+        "subject": "纵向结构线",
+        "relation": "has",
+        "object": "投影线实长",
+        "chunk_id": "68"
+    },
+    {
+        "subject": "船体表面",
+        "relation": "has",
+        "object": "曲度",
+        "chunk_id": "68"
+    },
+    {
+        "subject": "曲度",
+        "relation": "affects",
+        "object": "投影线实长",
+        "chunk_id": "68"
+    },
+    {
+        "subject": "船体",
+        "relation": "contains",
+        "object": "纵向曲线",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "纵向曲线",
+        "relation": "has",
+        "object": "实长",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "纵向曲线投影",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨间距",
+        "relation": "connects_to",
+        "object": "纵向曲线",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_in",
+        "object": "实长计算",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "实长",
+        "relation": "determined_by",
+        "object": "直角三角形斜边",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨间距",
+        "relation": "affects",
+        "object": "实长计算",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "纵向曲线",
+        "relation": "projected_on",
+        "object": "肋骨型线图",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "肋骨线",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "纵向曲线",
+        "chunk_id": "69"
+    },
+    {
+        "subject": "肋骨站线",
+        "relation": "connects_to",
+        "object": "光顺曲线",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "光顺曲线",
+        "relation": "determines",
+        "object": "实长线",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "船体纵向构件",
+        "relation": "uses",
+        "object": "准线",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "外板",
+        "relation": "uses",
+        "object": "准线",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "四边形",
+        "relation": "constrained_by",
+        "object": "准线",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "准线",
+        "relation": "affects",
+        "object": "展开图形",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "外板展开图",
+        "chunk_id": "70"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "外板展开",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "affects",
+        "object": "肋骨线",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "展开图",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "has",
+        "object": "拱度",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "affects",
+        "object": "准线",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "肋骨剖面",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "affects",
+        "object": "外板曲面",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "肋骨型线",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "affects",
+        "object": "肋骨线",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "展开线",
+        "chunk_id": "71"
+    },
+    {
+        "subject": "准线法",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "基准肋骨",
+        "relation": "part_of",
+        "object": "外板",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "外板展开形状",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "uses",
+        "object": "作图法",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "uses",
+        "object": "计算法",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "准线",
+        "relation": "used_in",
+        "object": "外板展开",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "acts_on",
+        "object": "外板展开",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "弦线",
+        "relation": "used_in",
+        "object": "肋骨弯度计算",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "used_in",
+        "object": "外板展开",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "纵缝线",
+        "relation": "used_in",
+        "object": "外板展开",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "肋骨型线图",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "弦线",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "法面",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "准线",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "外板面",
+        "chunk_id": "72"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determines",
+        "object": "外板展开",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "肋骨型线图",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "affects",
+        "object": "外板展开图",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "准线",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "基准肋骨线",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "纵接缝",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "肋骨线",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "弦线",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "肋骨型线",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "四边形",
+        "chunk_id": "73"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "located_at",
+        "object": "肋位",
+        "chunk_id": "74"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "准线",
+        "chunk_id": "74"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "74"
+    },
+    {
+        "subject": "纵向构件",
+        "relation": "does_not_have",
+        "object": "肋骨弯度",
+        "chunk_id": "74"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "applied_to",
+        "object": "船体纵向构件展开",
+        "chunk_id": "74"
+    },
+    {
+        "subject": "准线",
+        "relation": "used_in",
+        "object": "肋骨弯度计算",
+        "chunk_id": "74"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "applied_to",
+        "object": "船体纵向构件",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "uses",
+        "object": "准线投影线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "uses",
+        "object": "纵缝线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "uses",
+        "object": "实长",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "垂直准线法",
+        "relation": "produces",
+        "object": "展开图",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "肋骨剖面",
+        "relation": "perpendicular_to",
+        "object": "肋骨型线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "肋骨剖面",
+        "relation": "perpendicular_to",
+        "object": "基线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "非扭曲型纵向构件",
+        "relation": "has",
+        "object": "肋骨剖线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "非扭曲型纵向构件",
+        "relation": "has",
+        "object": "柱型面",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "非扭曲型纵向构件",
+        "relation": "has",
+        "object": "平面",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "准线",
+        "relation": "perpendicular_to",
+        "object": "肋骨剖线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "准线",
+        "relation": "perpendicular_to",
+        "object": "肋骨剖线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "旁底桁",
+        "relation": "belongs_to",
+        "object": "纵向构件",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "旁底桁",
+        "relation": "has",
+        "object": "上口线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "旁底桁",
+        "relation": "has",
+        "object": "下口线",
+        "chunk_id": "75"
+    },
+    {
+        "subject": "准线",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "准线实长",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "肋距",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "肋骨剖线",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "垂直准线",
+        "relation": "applied_to",
+        "object": "分段展开",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "分段展开",
+        "relation": "applied_to",
+        "object": "扭曲状舷侧纵桁",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_in",
+        "object": "分段展开",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "四边形",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "下口线",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "上口线",
+        "relation": "used_in",
+        "object": "展开图",
+        "chunk_id": "76"
+    },
+    {
+        "subject": "四边形",
+        "relation": "uses",
+        "object": "垂直准线",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "四边形",
+        "relation": "contains",
+        "object": "展开图形",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "applied_to",
+        "object": "展开图",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "肋骨剖线",
+        "relation": "connects_to",
+        "object": "垂直准线",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "纵桁",
+        "relation": "uses",
+        "object": "垂直准线",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "展开图",
+        "relation": "part_of",
+        "object": "船体构件",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "垂直准线",
+        "relation": "acts_on",
+        "object": "四边形",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "outputs",
+        "object": "展开图",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "肋骨剖线",
+        "relation": "affects",
+        "object": "展开图形",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "四边形",
+        "relation": "determines",
+        "object": "展开图形",
+        "chunk_id": "77"
+    },
+    {
+        "subject": "舷侧纵桁",
+        "relation": "uses",
+        "object": "样条",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "舷侧纵桁",
+        "relation": "applied_to",
+        "object": "分段垂直准线法",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "船体外板",
+        "relation": "applied_to",
+        "object": "十字线法",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "十字线法",
+        "relation": "is_a",
+        "object": "垂直准线法",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_in",
+        "object": "十字线法",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "十字线",
+        "relation": "is_a",
+        "object": "准线",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "十字线",
+        "relation": "acts_on",
+        "object": "肋骨型线",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "弦线",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "肋位",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "投影线实长",
+        "chunk_id": "78"
+    },
+    {
+        "subject": "样条",
+        "relation": "uses",
+        "object": "肋骨型线图",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "投影线实长",
+        "relation": "determined_by",
+        "object": "样条",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "准线",
+        "relation": "used_in",
+        "object": "外板展开",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "measured_on",
+        "object": "准线",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "applied_to",
+        "object": "十字线法",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "准线",
+        "relation": "used_in",
+        "object": "肋骨弯度计算",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "contains",
+        "object": "投影线实长",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "located_between",
+        "object": "肋位",
+        "chunk_id": "79"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "acts_on",
+        "object": "外板展开",
+        "chunk_id": "80"
+    },
+    {
+        "subject": "准线",
+        "relation": "connects_to",
+        "object": "垂线",
+        "chunk_id": "80"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_in",
+        "object": "外板展开",
+        "chunk_id": "80"
+    },
+    {
+        "subject": "实长",
+        "relation": "used_in",
+        "object": "外板展开",
+        "chunk_id": "80"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "results_in",
+        "object": "平面图形",
+        "chunk_id": "80"
+    },
+    {
+        "subject": "肋骨弯度方向",
+        "relation": "affects",
+        "object": "外板展开",
+        "chunk_id": "80"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "测地线",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线法",
+        "relation": "applied_to",
+        "object": "船体外板",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线",
+        "relation": "acts_on",
+        "object": "外板展开",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_for",
+        "object": "测地线投影线",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线法",
+        "relation": "requires",
+        "object": "测地线投影线",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线",
+        "relation": "approximates",
+        "object": "直线",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线法",
+        "relation": "is",
+        "object": "近似测地线法",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "扇形板",
+        "relation": "uses",
+        "object": "测地线展开法",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线",
+        "relation": "perpendicular_to",
+        "object": "弦线",
+        "chunk_id": "81"
+    },
+    {
+        "subject": "测地线",
+        "relation": "uses",
+        "object": "弦线",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "测地线",
+        "relation": "uses",
+        "object": "垂线",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "测地线",
+        "relation": "applied_to",
+        "object": "船体外板展开",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "纵缝线",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "弦线",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "测地线",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "纵缝线",
+        "relation": "connects_to",
+        "object": "肋骨线",
+        "chunk_id": "82"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "测地线",
+        "chunk_id": "83"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "测地线",
+        "chunk_id": "83"
+    },
+    {
+        "subject": "弦线",
+        "relation": "connects_to",
+        "object": "测地线",
+        "chunk_id": "83"
+    },
+    {
+        "subject": "垂线",
+        "relation": "connects_to",
+        "object": "肋骨线",
+        "chunk_id": "83"
+    },
+    {
+        "subject": "垂线",
+        "relation": "connects_to",
+        "object": "弦线",
+        "chunk_id": "83"
+    },
+    {
+        "subject": "样条",
+        "relation": "uses",
+        "object": "测地线",
+        "chunk_id": "84"
+    },
+    {
+        "subject": "样条",
+        "relation": "acts_on",
+        "object": "肋骨型线图",
+        "chunk_id": "84"
+    },
+    {
+        "subject": "纵缝线",
+        "relation": "uses",
+        "object": "样条",
+        "chunk_id": "84"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "measured_by",
+        "object": "样条",
+        "chunk_id": "84"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "acts_on",
+        "object": "肋骨型线图",
+        "chunk_id": "84"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "测地线",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "垂线",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "肋骨弯度",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "样杆",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "肋骨型线图",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "光顺曲线",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "determines",
+        "object": "外板展开",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "acts_on",
+        "object": "外板展开",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "测地线",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "垂线",
+        "relation": "applied_to",
+        "object": "外板展开",
+        "chunk_id": "85"
+    },
+    {
+        "subject": "肋骨",
+        "relation": "connects_to",
+        "object": "上纵缝",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "肋骨",
+        "relation": "connects_to",
+        "object": "下纵缝",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "肋骨型线图",
+        "relation": "used_to",
+        "object": "确定交点",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "样条",
+        "relation": "used_to",
+        "object": "光顺连接交点",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "外板展开图",
+        "relation": "produced_by",
+        "object": "光顺连接肋骨线",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connected_to",
+        "object": "外板展开图",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "上纵缝",
+        "relation": "intersects_with",
+        "object": "肋骨",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "下纵缝",
+        "relation": "intersects_with",
+        "object": "肋骨",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "实长",
+        "relation": "used_to",
+        "object": "确定交点",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "测地线",
+        "relation": "used_to",
+        "object": "确定交点",
+        "chunk_id": "86"
+    },
+    {
+        "subject": "菱形板",
+        "relation": "uses",
+        "object": "测地线法",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "菱形板",
+        "relation": "requires",
+        "object": "准线法",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "测地线",
+        "relation": "applied_to",
+        "object": "菱形板",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "测地线",
+        "relation": "constrained_by",
+        "object": "肋骨线",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "测地线",
+        "relation": "acts_on",
+        "object": "肋骨线",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "准线法",
+        "relation": "applied_to",
+        "object": "菱形板",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "准线法",
+        "relation": "requires",
+        "object": "肋骨线",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "菱形板",
+        "relation": "has",
+        "object": "肋骨型线图",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "测地线",
+        "relation": "has",
+        "object": "弦线",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "测地线",
+        "relation": "affects",
+        "object": "展开形状",
+        "chunk_id": "88"
+    },
+    {
+        "subject": "测地线",
+        "relation": "uses",
+        "object": "垂线",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "测地线",
+        "relation": "uses",
+        "object": "样条",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "测地线",
+        "relation": "applied_to",
+        "object": "肋骨型线图",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connects_to",
+        "object": "测地线",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "弦线",
+        "relation": "connects_to",
+        "object": "肋骨线",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "纵缝线",
+        "relation": "connects_to",
+        "object": "肋骨线",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "实长",
+        "relation": "determines",
+        "object": "测地线",
+        "chunk_id": "89"
+    },
+    {
+        "subject": "纵缝线",
+        "relation": "has",
+        "object": "实长",
+        "chunk_id": "90"
+    },
+    {
+        "subject": "测地线",
+        "relation": "has",
+        "object": "实长",
+        "chunk_id": "90"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "located_at",
+        "object": "垂线",
+        "chunk_id": "90"
+    },
+    {
+        "subject": "肋骨弯度",
+        "relation": "determined_by",
+        "object": "肋骨型线图",
+        "chunk_id": "90"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "测地线",
+        "chunk_id": "90"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "测地线",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "肋骨线",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "实长",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "肋骨弯度",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "垂线",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "uses",
+        "object": "弦线",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "外板展开",
+        "relation": "applied_to",
+        "object": "扇形板",
+        "chunk_id": "91"
+    },
+    {
+        "subject": "统一测地线",
+        "relation": "applied_to",
+        "object": "船体外板",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "统一测地线",
+        "relation": "refines",
+        "object": "测地线法",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "测地线法",
+        "relation": "applied_to",
+        "object": "船体外板",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "测地线",
+        "relation": "used_in",
+        "object": "船体外板展开",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "测地线",
+        "relation": "used_in",
+        "object": "肋骨型线图",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connected_to",
+        "object": "纵缝线",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "肋骨线",
+        "relation": "connected_to",
+        "object": "弦线",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "applied_to",
+        "object": "船体构件",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "used_in",
+        "object": "船体构件展开",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体构件",
+        "relation": "contains",
+        "object": "外板",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体构件",
+        "relation": "contains",
+        "object": "肋骨",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体外板",
+        "relation": "contains",
+        "object": "扇形板",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体外板",
+        "relation": "contains",
+        "object": "菱形板",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体外板",
+        "relation": "connected_to",
+        "object": "纵缝",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体外板",
+        "relation": "connected_to",
+        "object": "肋骨线",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "船体外板",
+        "relation": "connected_to",
+        "object": "弦线",
+        "chunk_id": "92"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "applied_to",
+        "object": "船体构件",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "uses",
+        "object": "准线",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "acts_on",
+        "object": "四边形",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "uses",
+        "object": "对角线",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "produces",
+        "object": "展开图",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "展开图",
+        "relation": "contains",
+        "object": "四边形",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "展开图",
+        "relation": "uses",
+        "object": "实长",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "展开图",
+        "relation": "refines",
+        "object": "船体构件",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "半宽水线图",
+        "relation": "contains",
+        "object": "下口线",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "纵剖线图",
+        "relation": "contains",
+        "object": "对角线",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "舷墙板",
+        "relation": "part_of",
+        "object": "船体构件",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "舷墙板",
+        "relation": "applied_to",
+        "object": "撑线法",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "下口线",
+        "relation": "acts_on",
+        "object": "展开图",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "上口线",
+        "relation": "acts_on",
+        "object": "展开图",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "对角线",
+        "relation": "acts_on",
+        "object": "展开图",
+        "chunk_id": "93"
+    },
+    {
+        "subject": "四边形",
+        "relation": "contains",
+        "object": "三角形",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "三角形",
+        "relation": "uses",
+        "object": "实长",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "展开图",
+        "relation": "acts_on",
+        "object": "四边形",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "展开图",
+        "relation": "connects_to",
+        "object": "光顺曲线",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "光顺曲线",
+        "relation": "belongs_to",
+        "object": "舷墙板展开图",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "四边形",
+        "relation": "applied_to",
+        "object": "展开图",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "对角线",
+        "relation": "used_in",
+        "object": "三角形",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "上下口垂线",
+        "relation": "used_in",
+        "object": "三角形",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "上口线",
+        "relation": "used_in",
+        "object": "三角形",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "下口线",
+        "relation": "used_in",
+        "object": "三角形",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "展开四边形",
+        "relation": "precedes",
+        "object": "光顺曲线",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "展开图",
+        "relation": "produces",
+        "object": "舷墙板展开图",
+        "chunk_id": "94"
+    },
+    {
+        "subject": "舷墙板",
+        "relation": "has",
+        "object": "曲度",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "舷墙板",
+        "relation": "has",
+        "object": "等分数",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "撑线法",
+        "relation": "applied_to",
+        "object": "船体构件展开",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "展开图",
+        "relation": "used_in",
+        "object": "号料",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "inputs",
+        "object": "展开图形",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "uses",
+        "object": "样板",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "uses",
+        "object": "投影图",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "uses",
+        "object": "仿形图",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "uses",
+        "object": "数控加工信息",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "outputs",
+        "object": "切割线",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "outputs",
+        "object": "加工线",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "outputs",
+        "object": "构件图样",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "located_at",
+        "object": "钢板",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "located_at",
+        "object": "型钢",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "prepares_for",
+        "object": "加工",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "prepares_for",
+        "object": "装配",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "prepares_for",
+        "object": "检验",
+        "chunk_id": "95"
+    },
+    {
+        "subject": "号料",
+        "relation": "inputs",
+        "object": "放样资料",
+        "chunk_id": "96"
+    },
+    {
+        "subject": "样板号料",
+        "relation": "uses",
+        "object": "样板",
+        "chunk_id": "96"
+    },
+    {
+        "subject": "草图号料",
+        "relation": "inputs",
+        "object": "放样资料",
+        "chunk_id": "96"
+    },
+    {
+        "subject": "放样",
+        "relation": "outputs",
+        "object": "样板",
+        "chunk_id": "96"
+    },
+    {
+        "subject": "样板",
+        "relation": "used_in",
+        "object": "号料",
+        "chunk_id": "96"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "uses",
+        "object": "计算机处理",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "applied_to",
+        "object": "船体外板加工",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质三角加工样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "improves",
+        "object": "加工质量",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "enables",
+        "object": "造船生产取消1：1肋骨型线",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "扁铁样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "塑料样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "油毛毡样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "硬纸板样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "薄钢样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "固定样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "活络样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "replaces",
+        "object": "木质样板",
+        "chunk_id": "97"
+    },
+    {
+        "subject": "活络三角样板",
+        "relation": "contains",
+        "object": "高度基准点",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "applied_to",
+        "object": "曲面外板加工",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "uses",
+        "object": "准线",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "connects_to",
+        "object": "肋位",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "supports",
+        "object": "外板成形加工",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "used_in",
+        "object": "检验",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "contains",
+        "object": "曲线边",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "has",
+        "object": "定位准线",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "外板",
+        "relation": "supports",
+        "object": "三角样板",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "外板",
+        "relation": "processed_with",
+        "object": "成形加工",
+        "chunk_id": "98"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "uses",
+        "object": "肋骨型线图",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "connects_to",
+        "object": "外板",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "has",
+        "object": "高度基准点",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "高度基准点",
+        "relation": "connects_to",
+        "object": "高度基准线",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "高度基准线",
+        "relation": "affects",
+        "object": "外板",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "located_at",
+        "object": "外板",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "marks",
+        "object": "船名",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "marks",
+        "object": "构件名",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "marks",
+        "object": "肋骨号",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "marks",
+        "object": "准线",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "marks",
+        "object": "纵缝线",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "uses",
+        "object": "木材",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "applied_to",
+        "object": "外板",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "supports",
+        "object": "外板",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "三角样板",
+        "relation": "has",
+        "object": "等分点",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "等分点",
+        "relation": "connects_to",
+        "object": "高度基准点",
+        "chunk_id": "99"
+    },
+    {
+        "subject": "等分点",
+        "relation": "affects",
+        "object": "三角样板",
+        "chunk_id": "99"
+    }
+]

@@ -1,0 +1,4058 @@
+[
+    {
+        "subject": "气囊",
+        "relation": "has",
+        "object": "承载能力",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "has",
+        "object": "直径",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "has",
+        "object": "数量",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "acts_on",
+        "object": "船体",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "uses",
+        "object": "重力",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "determines",
+        "object": "船舶重量",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "affects",
+        "object": "船体强度",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "has",
+        "object": "试验",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "precedes",
+        "object": "船舶下水",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "船舶重量",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "重量分布",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "船体强度",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "方形系数",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "船舶自重",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊允许承载能力",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊囊体与船底接触的长度",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊工作压力",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "船舶自重",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊直径",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "船台墩木高度",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "机舱",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "特殊船型",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "特殊加重部位",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊承载力",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊数量",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊布置方案",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊承载力计算",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊直径",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊数量",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊布置方案",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊",
+        "relation": "inputs",
+        "object": "气囊承载力计算",
+        "chunk_id": "401"
+    },
+    {
+        "subject": "气囊间距",
+        "relation": "determines",
+        "object": "结构强度",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "气囊间距",
+        "relation": "affects",
+        "object": "气囊压叠",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "气囊间距",
+        "relation": "uses",
+        "object": "校核",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "底部可布置气囊长度",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫下水",
+        "relation": "uses",
+        "object": "水膜",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫下水",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫",
+        "relation": "uses",
+        "object": "水",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫",
+        "relation": "uses",
+        "object": "橡胶",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫下水",
+        "relation": "replaces",
+        "object": "气囊下水",
+        "chunk_id": "402"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "uses",
+        "object": "高压水管",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "part_of",
+        "object": "水垫下水设施",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "has",
+        "object": "水膜",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水膜",
+        "relation": "has",
+        "object": "膜厚",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "located_at",
+        "object": "船底",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "applied_to",
+        "object": "水垫下水工艺",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "precedes",
+        "object": "下水",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "水垫装置",
+        "relation": "belongs_to",
+        "object": "下水设施",
+        "chunk_id": "403"
+    },
+    {
+        "subject": "船台",
+        "relation": "part_of",
+        "object": "水平船台",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "纵向机械化下水滑道",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "水平船台",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "船台",
+        "relation": "part_of",
+        "object": "多船位水平船台",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "下水",
+        "relation": "applied_to",
+        "object": "内河小型船厂",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "纵向机械化下水滑道",
+        "relation": "supports",
+        "object": "船舶下水",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "水平船台",
+        "relation": "supports",
+        "object": "船舶下水",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "变坡度横移区",
+        "relation": "supports",
+        "object": "船舶下水",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "船厂",
+        "relation": "located_at",
+        "object": "水平船台",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "船厂",
+        "relation": "located_at",
+        "object": "纵向机械化下水滑道",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "船厂",
+        "relation": "located_at",
+        "object": "变坡度横移区",
+        "chunk_id": "404"
+    },
+    {
+        "subject": "中型以上内河船厂",
+        "relation": "uses",
+        "object": "横向机械化下水滑道",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "中型以上内河船厂",
+        "relation": "uses",
+        "object": "水平船台",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "中型船舶的沿海船厂",
+        "relation": "uses",
+        "object": "纵向涂油滑道下水",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "中型船舶的沿海船厂",
+        "relation": "uses",
+        "object": "横向滑道机械化下水",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "中型船舶的沿海船厂",
+        "relation": "uses",
+        "object": "升船机",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "纵向倾斜船台",
+        "relation": "has",
+        "object": "水平船台",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "大型远洋船舶",
+        "relation": "uses",
+        "object": "纵向倾斜船台",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "大型远洋船舶",
+        "relation": "uses",
+        "object": "重力式下水",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "大型远洋船舶",
+        "relation": "uses",
+        "object": "造船坞",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "大型远洋船舶",
+        "relation": "uses",
+        "object": "漂浮式下水",
+        "chunk_id": "405"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "requires",
+        "object": "下水计算",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "analyzes",
+        "object": "船舶浮性",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "analyzes",
+        "object": "稳性",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "analyzes",
+        "object": "冲程",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "analyzes",
+        "object": "船台受力",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "船尾",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船尾",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "冲程",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "船台",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "滑道",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "支撑",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "摩擦力",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "重力",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "尾浮",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船舶纵向下水",
+        "relation": "has",
+        "object": "下水静力学计算",
+        "chunk_id": "406"
+    },
+    {
+        "subject": "船体",
+        "relation": "acts_on",
+        "object": "滑道",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑程",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "浮力",
+        "relation": "acts_on",
+        "object": "船首支点",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "重力",
+        "relation": "acts_on",
+        "object": "船首支点",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "浮力",
+        "relation": "determines",
+        "object": "船尾起浮",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "极限弯矩",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "支墩反力",
+        "relation": "affects",
+        "object": "船体结构",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "supports",
+        "object": "滑道末端",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "connects_to",
+        "object": "滑道末端",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "仰倾现象",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "支墩",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "船台滑道",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端水深",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑程",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端反力",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面局部结构",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏程度",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏风险",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏可能性",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏概率",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏频率",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏情况",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏程度",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏风险",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏可能性",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏概率",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏频率",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "滑道末端截面结构损坏情况",
+        "chunk_id": "407"
+    },
+    {
+        "subject": "阶段",
+        "relation": "contains",
+        "object": "首跌落",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "阶段",
+        "relation": "contains",
+        "object": "横向移动",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "自由度",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "acts_on",
+        "object": "滑道",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "平衡位置",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "平衡位置",
+        "relation": "determines",
+        "object": "全浮",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "全浮",
+        "relation": "has",
+        "object": "排水量",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "排水量",
+        "relation": "equals",
+        "object": "下水重量",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "惯性",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "acts_on",
+        "object": "水",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "acts_on",
+        "object": "制动措施",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "自由冲程",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "自由冲程",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船厂",
+        "relation": "located_at",
+        "object": "水域",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "锚",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "下水计算",
+        "chunk_id": "408"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑程",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "浮力矩",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑道压力",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑行速度",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "纵向下水",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "龙骨坡度",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "船台坡度",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑道末端",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "重心",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "排水量",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑道",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "船台",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "墩木",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "前支架",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "支架",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "中心线",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "船中",
+        "chunk_id": "409"
+    },
+    {
+        "subject": "船台坡度",
+        "relation": "determines",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "船台坡度",
+        "relation": "has",
+        "object": "正切",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "龙骨坡度",
+        "relation": "determines",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "龙骨坡度",
+        "relation": "has",
+        "object": "正切",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "船台坡度",
+        "relation": "equals",
+        "object": "龙骨坡度",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "船台坡度",
+        "relation": "constrained_by",
+        "object": "船舶大小",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "前支架",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "后支架",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "滑板",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "墩木",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "滑道",
+        "relation": "used_by",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "滑板",
+        "relation": "used_by",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "墩木",
+        "relation": "used_by",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "静摩擦系数",
+        "relation": "affects",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "速度系数",
+        "relation": "affects",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "吃水量",
+        "relation": "affects",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "吃水",
+        "relation": "affects",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "重心",
+        "relation": "affects",
+        "object": "下水",
+        "chunk_id": "410"
+    },
+    {
+        "subject": "滑板",
+        "relation": "determines",
+        "object": "滑板总长",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "滑板总长",
+        "relation": "determined_by",
+        "object": "船舶垂线间长",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "下水重量",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "下水重量",
+        "relation": "has",
+        "object": "共同重心",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "船台",
+        "relation": "has",
+        "object": "反作用力",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "反作用力",
+        "relation": "decomposed_into",
+        "object": "摩擦力",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "反作用力",
+        "relation": "decomposed_into",
+        "object": "法线方向反作用力",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "摩擦力",
+        "relation": "determined_by",
+        "object": "下水重量",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "法线方向反作用力",
+        "relation": "determined_by",
+        "object": "下水重量",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "摩擦力",
+        "relation": "related_to",
+        "object": "法线方向反作用力",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "船台滑道",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "重心",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "载荷",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "下水装置",
+        "relation": "has",
+        "object": "运动部分",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "下水装置",
+        "relation": "has",
+        "object": "重量",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑程",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "浮力",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "浮力矩",
+        "chunk_id": "411"
+    },
+    {
+        "subject": "摩擦系数",
+        "relation": "has",
+        "object": "静摩擦系数",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "摩擦系数",
+        "relation": "has",
+        "object": "动摩擦系数",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "静摩擦系数",
+        "relation": "has",
+        "object": "范围",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "has",
+        "object": "范围",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "仰倾",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "浮起",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "单位压力",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "滑道润滑剂的成分",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "下水装置的状况和安装的仔细度",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "空气温度",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "动摩擦系数",
+        "relation": "affects",
+        "object": "船舶经过的路程及运动速度",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "浮力",
+        "relation": "composed_of",
+        "object": "船舶水下部分的浮力",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "浮力",
+        "relation": "composed_of",
+        "object": "下水装置水下部分的浮力",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "浮力",
+        "relation": "affects",
+        "object": "下水计算",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "浮力",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "浮力",
+        "relation": "acts_on",
+        "object": "下水装置",
+        "chunk_id": "412"
+    },
+    {
+        "subject": "下水装置",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "浮力",
+        "relation": "acts_on",
+        "object": "下水装置水下部分",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "总浮心",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "浮力",
+        "relation": "acts_on",
+        "object": "总浮心",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "邦戎曲线",
+        "relation": "used_to_calculate",
+        "object": "γ·v0",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "邦戎曲线",
+        "relation": "used_to_calculate",
+        "object": "M",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "邦戎曲线",
+        "relation": "used_to_calculate",
+        "object": "γ·v",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "邦戎曲线",
+        "relation": "used_to_calculate",
+        "object": "m",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "下滑力",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "下滑力",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "下滑力",
+        "relation": "determined_by",
+        "object": "重力",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "下滑力",
+        "relation": "determined_by",
+        "object": "摩擦力",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "has",
+        "object": "阶段",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "阶段",
+        "relation": "part_of",
+        "object": "船舶下水",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "has",
+        "object": "滑道",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "滑道",
+        "relation": "part_of",
+        "object": "船舶下水",
+        "chunk_id": "413"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "下水油脂",
+        "relation": "affects",
+        "object": "船舶",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "静摩擦系数",
+        "relation": "determines",
+        "object": "船舶",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "船舶",
+        "relation": "acts_on",
+        "object": "滑道",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "尾浮",
+        "relation": "precedes",
+        "object": "船尾自由起浮",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "吃水",
+        "relation": "affects",
+        "object": "浮力",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "浮力",
+        "relation": "affects",
+        "object": "前支架",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "浮力",
+        "relation": "affects",
+        "object": "力矩",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "吃水",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "浮力",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "浮力矩",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "下滑速度",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "前支架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "前支架",
+        "relation": "affects",
+        "object": "力矩",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "吃水",
+        "relation": "affects",
+        "object": "浮力矩",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "吃水",
+        "relation": "affects",
+        "object": "重力矩",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "吃水",
+        "relation": "affects",
+        "object": "船舶平衡",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "浮力",
+        "relation": "affects",
+        "object": "船舶平衡",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "浮力矩",
+        "relation": "affects",
+        "object": "船舶平衡",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "重力",
+        "relation": "affects",
+        "object": "船舶平衡",
+        "chunk_id": "414"
+    },
+    {
+        "subject": "吃水",
+        "relation": "determines",
+        "object": "滑程",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "排水量",
+        "relation": "acts_on",
+        "object": "滑程",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "浮心距船中值",
+        "relation": "determines",
+        "object": "滑程",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "浮心距",
+        "relation": "determines",
+        "object": "滑程",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "反力",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "反力",
+        "relation": "acts_on",
+        "object": "首支架",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "首支架",
+        "relation": "supports",
+        "object": "船体",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "接触面积",
+        "relation": "affects",
+        "object": "反力",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "尾浮滑程",
+        "relation": "precedes",
+        "object": "尾浮",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "尾浮",
+        "relation": "requires",
+        "object": "滑程",
+        "chunk_id": "415"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "船舶仰倾",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "船舶重心",
+        "relation": "affects",
+        "object": "船舶仰倾",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "船舶重心",
+        "relation": "affects",
+        "object": "支反力",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "船舶重心",
+        "relation": "affects",
+        "object": "船舶损坏",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "重力作用线",
+        "relation": "determines",
+        "object": "船舶仰倾",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "支反力",
+        "relation": "affects",
+        "object": "船体",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "支反力",
+        "relation": "affects",
+        "object": "下水装置",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "下水重量",
+        "relation": "has",
+        "object": "支反力",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "inputs",
+        "object": "船舶仰倾",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "outputs",
+        "object": "支反力",
+        "chunk_id": "416"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "首端压力",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "仰倾",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "浮力",
+        "relation": "affects",
+        "object": "首端压力",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "浮心",
+        "relation": "affects",
+        "object": "首端压力",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "龙骨坡度",
+        "relation": "determines",
+        "object": "浮力",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "滑道末端水深",
+        "relation": "determines",
+        "object": "浮力",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "inputs",
+        "object": "龙骨坡度",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "inputs",
+        "object": "下水时间",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "下水时间",
+        "relation": "affects",
+        "object": "滑道末端水深",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "潮位",
+        "relation": "affects",
+        "object": "滑道末端水深",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "尾浮",
+        "relation": "precedes",
+        "object": "全船浮起",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "平衡位置",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "排水量",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "排水量",
+        "relation": "determines",
+        "object": "全船浮起",
+        "chunk_id": "417"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "逐步等分法",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "龙骨坡度",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "浮力对前支架的力矩",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "尾浮",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "逐步等分法",
+        "relation": "applied_to",
+        "object": "船舶平衡位置计算",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "龙骨坡度",
+        "relation": "affects",
+        "object": "浮力",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "龙骨坡度",
+        "relation": "affects",
+        "object": "浮力对前支架的力矩",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "浮力",
+        "relation": "determines",
+        "object": "排水量",
+        "chunk_id": "418"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "平衡位置",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "全船浮起",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "吃水",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "坡度",
+        "relation": "affects",
+        "object": "平衡位置",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "全浮",
+        "relation": "has",
+        "object": "首吃水",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "全浮",
+        "relation": "has",
+        "object": "尾吃水",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "全浮",
+        "relation": "has",
+        "object": "前支架处吃水",
+        "chunk_id": "419"
+    },
+    {
+        "subject": "全浮时的龙骨坡度",
+        "relation": "determines",
+        "object": "首跌落",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "滑道末端",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "滑板首支点",
+        "relation": "has",
+        "object": "吃水",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "滑道末端标高",
+        "relation": "determines",
+        "object": "首跌落",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "潮位",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "precedes",
+        "object": "避免首跌落",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "工艺措施",
+        "relation": "enables",
+        "object": "避免首跌落",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "滑道末端",
+        "relation": "has",
+        "object": "水深",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "滑板首支点",
+        "relation": "affects",
+        "object": "滑道末端水深",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "首跌落",
+        "relation": "causes",
+        "object": "首部结构与滑道末端碰撞",
+        "chunk_id": "420"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "惯性",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "自由冲程",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "自由冲程",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "滑道压力",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "acts_on",
+        "object": "滑道",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "determines",
+        "object": "滑道接触长度",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "船舶重心",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "反力",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "力矩",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "船舶重心",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "滑道",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "滑道接触长度",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "前支架",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "后支架",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力",
+        "relation": "affects",
+        "object": "滑道压力计算",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力计算",
+        "relation": "uses",
+        "object": "力矩平衡条件",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力计算",
+        "relation": "uses",
+        "object": "支反力",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力计算",
+        "relation": "uses",
+        "object": "船舶重心",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力计算",
+        "relation": "uses",
+        "object": "滑道接触长度",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道压力计算",
+        "relation": "uses",
+        "object": "滑道宽度",
+        "chunk_id": "421"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "船舶下水",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "船体",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "滑程",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "摩擦力",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "反力",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "船舶下水动力学",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "船舶末速度",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "全浮",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "船舶下水",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "滑程",
+        "relation": "affects",
+        "object": "船舶下水动力学",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "滑道",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "滑程",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "船舶下水",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "船舶下水动力学",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "affects",
+        "object": "滑道",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "affects",
+        "object": "滑程",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "affects",
+        "object": "船舶下水动力学",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水动力学",
+        "relation": "affects",
+        "object": "滑道",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水动力学",
+        "relation": "affects",
+        "object": "滑程",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水动力学",
+        "relation": "affects",
+        "object": "船舶下水",
+        "chunk_id": "422"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "uses",
+        "object": "船底墩木",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "船底墩木",
+        "relation": "causes",
+        "object": "船底局部结构受损",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "传统下水计算方法",
+        "relation": "ignores",
+        "object": "船底墩木的弹性作用",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "传统下水计算方法",
+        "relation": "ignores",
+        "object": "水动力",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "水动力",
+        "relation": "includes",
+        "object": "浮力",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "水动力",
+        "relation": "includes",
+        "object": "粘压阻力",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "水动力",
+        "relation": "includes",
+        "object": "附加惯性力",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "船体尾部入水",
+        "relation": "affects",
+        "object": "船体运动姿态",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "航道侧流",
+        "relation": "causes",
+        "object": "船体横向漂移",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "横向漂移",
+        "relation": "affects",
+        "object": "船体下水",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "横向漂移",
+        "relation": "affects",
+        "object": "最大压力值和位置",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "横向漂移",
+        "relation": "affects",
+        "object": "船体与船台的接触情况",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "横向漂移",
+        "relation": "affects",
+        "object": "各支墩对船底作用力的数值及其变化情况",
+        "chunk_id": "423"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "improves",
+        "object": "建造质量控制",
+        "chunk_id": "424"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "constrained_by",
+        "object": "现代船舶建造质量控制高标准",
+        "chunk_id": "424"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "油脂涂层",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "钢珠",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "油压顶推装置",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "钢索滑轮组",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "applied_to",
+        "object": "滑道",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "applied_to",
+        "object": "滑板",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "applied_to",
+        "object": "止滑器",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "affects",
+        "object": "静摩擦系数",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "determines",
+        "object": "冲程",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "affects",
+        "object": "仰倾",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "工艺措施",
+        "relation": "applied_to",
+        "object": "下水",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "工艺措施",
+        "relation": "prevents",
+        "object": "事故",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "工艺措施",
+        "relation": "enables",
+        "object": "处理事故",
+        "chunk_id": "426"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "affects",
+        "object": "仰倾",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "下水计算",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "加大滑道坡度",
+        "relation": "enables",
+        "object": "消除仰倾",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "加大滑道坡度",
+        "relation": "affects",
+        "object": "尾浮时间",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "加大滑道坡度",
+        "relation": "affects",
+        "object": "首端压力",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "加大滑道坡度",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "首部加压载",
+        "relation": "enables",
+        "object": "消除仰倾",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "首部加压载",
+        "relation": "affects",
+        "object": "重心",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "首部加压载",
+        "relation": "affects",
+        "object": "首端压力",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "首部加压载",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "尾部加浮箱",
+        "relation": "enables",
+        "object": "消除仰倾",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "尾部加浮箱",
+        "relation": "affects",
+        "object": "浮力力矩",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "尾部加浮箱",
+        "relation": "affects",
+        "object": "首端压力",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "尾部加浮箱",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "大潮位下水",
+        "relation": "enables",
+        "object": "消除仰倾",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "大潮位下水",
+        "relation": "affects",
+        "object": "滑道末端水深",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "大潮位下水",
+        "relation": "affects",
+        "object": "尾吃水",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "大潮位下水",
+        "relation": "affects",
+        "object": "浮力力矩",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "大潮位下水",
+        "relation": "affects",
+        "object": "重力力矩",
+        "chunk_id": "427"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "尾部",
+        "relation": "uses",
+        "object": "压载",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "压载",
+        "relation": "affects",
+        "object": "船舶重心",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "船舶重心",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "大潮位下水",
+        "relation": "applied_to",
+        "object": "滑道末端水深",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "滑道末端水深",
+        "relation": "affects",
+        "object": "浮力",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "浮力",
+        "relation": "affects",
+        "object": "首跌落",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "盾板",
+        "relation": "uses",
+        "object": "水",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "盾板",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "制动措施",
+        "relation": "precedes",
+        "object": "自由冲程",
+        "chunk_id": "428"
+    },
+    {
+        "subject": "缆索制动",
+        "relation": "uses",
+        "object": "锚链",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "缆索制动",
+        "relation": "uses",
+        "object": "钢丝绳",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "缆索制动",
+        "relation": "connects_to",
+        "object": "甲板",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "阻荷制动",
+        "relation": "uses",
+        "object": "锚链",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "阻荷制动",
+        "relation": "uses",
+        "object": "废铁块",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "阻荷制动",
+        "relation": "connects_to",
+        "object": "船体",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "阻荷制动",
+        "relation": "affects",
+        "object": "船台",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "摩擦力",
+        "relation": "determines",
+        "object": "制动效果",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "摩擦系数",
+        "relation": "affects",
+        "object": "摩擦力",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "重力",
+        "relation": "affects",
+        "object": "摩擦力",
+        "chunk_id": "429"
+    },
+    {
+        "subject": "锚制动",
+        "relation": "uses",
+        "object": "锚",
+        "chunk_id": "430"
+    },
+    {
+        "subject": "锚制动",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "430"
+    },
+    {
+        "subject": "锚制动",
+        "relation": "affects",
+        "object": "摩擦力",
+        "chunk_id": "430"
+    },
+    {
+        "subject": "钢丝绳制动",
+        "relation": "uses",
+        "object": "钢丝绳",
+        "chunk_id": "430"
+    },
+    {
+        "subject": "钢丝绳制动",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "430"
+    },
+    {
+        "subject": "钢丝绳制动",
+        "relation": "located_at",
+        "object": "码头",
+        "chunk_id": "430"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "制造要求",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "船厂生产条件",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "outputs",
+        "object": "生产设计",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "outputs",
+        "object": "生产计划",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "outputs",
+        "object": "施工组织",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "造船生产准备",
+        "relation": "prepares_for",
+        "object": "船舶建造",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "造船生产准备",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "船体建造阶段",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "分（总）段的制造方法",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "部件和组合件的制作方式",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "船舶在船台上的建造方法",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "船舶舾装的阶段",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "分段舾装",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "单元舾装",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "船台舾装",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "码头舾装",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "contains",
+        "object": "技术组织措施",
+        "chunk_id": "431"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "生产设计",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "工艺准备",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "生产计划",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "生产过程",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "inputs",
+        "object": "技术改造规划",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "可行性",
+        "relation": "affects",
+        "object": "船厂生产条件",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "可行性",
+        "relation": "affects",
+        "object": "建造计划完成",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "可行性",
+        "relation": "affects",
+        "object": "建造总周期",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "可行性",
+        "relation": "affects",
+        "object": "船台周期",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "可行性",
+        "relation": "affects",
+        "object": "船舶下水前的完工量",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "合理性",
+        "relation": "affects",
+        "object": "现有设备",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "合理性",
+        "relation": "affects",
+        "object": "场地",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "合理性",
+        "relation": "affects",
+        "object": "平行施工",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "合理性",
+        "relation": "affects",
+        "object": "生产节奏",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "机械化",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "自动化",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "辅助作业量",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "技术经济指标",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "质量",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "成本",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "材料消耗",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "造船周期",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "先进性",
+        "relation": "affects",
+        "object": "生产效率",
+        "chunk_id": "432"
+    },
+    {
+        "subject": "专用胎架",
+        "relation": "uses",
+        "object": "分段制造方法",
+        "chunk_id": "434"
+    },
+    {
+        "subject": "分段制造方法",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "434"
+    },
+    {
+        "subject": "通用胎架",
+        "relation": "belongs_to",
+        "object": "胎架",
+        "chunk_id": "434"
+    },
+    {
+        "subject": "分段制造方法",
+        "relation": "replaces",
+        "object": "专用胎架",
+        "chunk_id": "434"
+    },
+    {
+        "subject": "分段制造方法",
+        "relation": "affects",
+        "object": "工时",
+        "chunk_id": "434"
+    },
+    {
+        "subject": "分段制造方法",
+        "relation": "affects",
+        "object": "辅助材料",
+        "chunk_id": "434"
+    },
+    {
+        "subject": "船体装焊车间",
+        "relation": "affects",
+        "object": "分段制造方法",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船体装焊车间",
+        "relation": "affects",
+        "object": "分段装焊场地布置",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "affects",
+        "object": "船体建造方案",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "affects",
+        "object": "总段建造法",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "affects",
+        "object": "上层建筑整体吊装",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "affects",
+        "object": "主机舾装单元整体吊装",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船体装焊车间",
+        "relation": "affects",
+        "object": "分段划分",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船体装焊车间",
+        "relation": "affects",
+        "object": "分段制造",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "affects",
+        "object": "分段制造",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "affects",
+        "object": "分段装焊",
+        "chunk_id": "435"
+    },
+    {
+        "subject": "船台",
+        "relation": "uses",
+        "object": "船台小车",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "船台",
+        "relation": "applied_to",
+        "object": "总段建造法",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "船台",
+        "relation": "applied_to",
+        "object": "串联建造法",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "affects",
+        "object": "生产线布置",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "located_at",
+        "object": "分段装焊",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "supports",
+        "object": "分段舾装",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "precedes",
+        "object": "舾装作业",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "enables",
+        "object": "预舾装",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "located_at",
+        "object": "分段划分",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "located_at",
+        "object": "吊装顺序",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "分段装焊场地",
+        "relation": "located_at",
+        "object": "船台吊装",
+        "chunk_id": "436"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "分（总）段制造",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "船体总装",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "码头舾装",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "劳动力",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "劳动力",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船厂",
+        "relation": "has",
+        "object": "生产节拍",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "岛式建造法",
+        "relation": "requires",
+        "object": "船台（船坞）总装",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "岛式建造法",
+        "relation": "requires",
+        "object": "各岛的合拢",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "岛式建造法",
+        "relation": "requires",
+        "object": "分段",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "先进性",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "机械化、自动化加工百分率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "部、组件装焊工作量百分率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "钢材利用率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "半自动和自动焊工作量百分率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "平面装焊工作量百分率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "分段舾装和单元舾装工作量百分率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "船体装配现场修割率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "has",
+        "object": "辅助作业工时比率",
+        "chunk_id": "437"
+    },
+    {
+        "subject": "机械化、自动化加工百分率",
+        "relation": "uses",
+        "object": "机械化自动化加工工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "机械化、自动化加工百分率",
+        "relation": "uses",
+        "object": "全部零件加工工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "部、组件装焊工作量百分率",
+        "relation": "uses",
+        "object": "部件组合件装焊工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "部、组件装焊工作量百分率",
+        "relation": "uses",
+        "object": "船体装焊总工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "钢材利用率",
+        "relation": "uses",
+        "object": "实际使用钢材量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "钢材利用率",
+        "relation": "uses",
+        "object": "计划使用钢材量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "半自动和自动焊工作量百分率",
+        "relation": "uses",
+        "object": "半自动和自动焊接工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "半自动和自动焊工作量百分率",
+        "relation": "uses",
+        "object": "全船焊接工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "平面装焊工作量百分率",
+        "relation": "uses",
+        "object": "平面装焊作业工作量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "平面装焊工作量百分率",
+        "relation": "uses",
+        "object": "船体装焊工作总量",
+        "chunk_id": "438"
+    },
+    {
+        "subject": "分段舾装和单元舾装工作量百分率",
+        "relation": "applied_to",
+        "object": "全船舾装工作总量",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "船体装配现场修割率",
+        "relation": "applied_to",
+        "object": "船体装配总长度",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "辅助作业工时比率",
+        "relation": "applied_to",
+        "object": "全船生产总工时",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "分段舾装和单元舾装工作量百分率",
+        "relation": "improves",
+        "object": "方案先进性",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "船体装配现场修割率",
+        "relation": "affects",
+        "object": "方案先进性",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "辅助作业工时比率",
+        "relation": "affects",
+        "object": "方案先进性",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "分（总）段建造方法",
+        "relation": "belongs_to",
+        "object": "建造方法",
+        "chunk_id": "439"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "affects",
+        "object": "产品质量",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "affects",
+        "object": "生产效率",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "affects",
+        "object": "生产成本",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "affects",
+        "object": "船厂设备潜力",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "affects",
+        "object": "劳动条件",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "influenced_by",
+        "object": "船舶特点",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "influenced_by",
+        "object": "船厂生产条件",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "preceded_by",
+        "object": "船体详细设计",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "preceded_by",
+        "object": "船体基本结构图完成",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "preceded_by",
+        "object": "船台（船坞）建造方案确定",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "produces",
+        "object": "船体分段划分图",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "produces",
+        "object": "分段施工图纸",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "produces",
+        "object": "生产场地布置",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "produces",
+        "object": "分段的船台（船坞）装配程序",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "船体分段划分",
+        "relation": "prepares_for",
+        "object": "生产设计工作",
+        "chunk_id": "440"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "分段重量",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "分段尺寸",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "船台装焊工作量",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "高空作业量",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "工效",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "劳动条件",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "constrained_by",
+        "object": "船厂生产条件",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "constrained_by",
+        "object": "船体结构刚性",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "舾装件",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "临时加强材",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "起重运输能力",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船台起重能力",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "装焊车间起重能力",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "分段翻身条件",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "分段从车间运往船台的负载能力",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船底",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船首",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船尾",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "上层建筑立体分段",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "甲板",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "舷侧",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "分段结构刚性",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "分段吊运翻身",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "生产负荷",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "生产负荷",
+        "relation": "has",
+        "object": "均衡性",
+        "chunk_id": "441"
+    },
+    {
+        "subject": "分段",
+        "relation": "precedes",
+        "object": "船台吊装",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段制造周期",
+        "relation": "constrained_by",
+        "object": "船台吊装进度计划",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段",
+        "relation": "connects_to",
+        "object": "船台",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "岛式建造法",
+        "relation": "requires",
+        "object": "分段划分",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "上层建筑分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "舱室",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "船中",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "船梁剖面突变处",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "肋骨间距的中点",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "甲板大开口角隅",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "机座纵桁末端",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "上层建筑端部",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "located_at",
+        "object": "双底向单底结构过渡部分",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "刚性",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "变形",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "焊接",
+        "relation": "acts_on",
+        "object": "分段大接头",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "火工矫正",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "翻身",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "吊运",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "残余应力",
+        "relation": "affects",
+        "object": "分段大接头",
+        "chunk_id": "442"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "刚性",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "变形",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "precedes",
+        "object": "施工工艺的合理性",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "belongs_to",
+        "object": "船舶建造",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "inputs",
+        "object": "舾装",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "outputs",
+        "object": "壳舾涂一体化",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "enables",
+        "object": "区域造船",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段制造",
+        "relation": "uses",
+        "object": "机械化生产线",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段制造",
+        "relation": "improves",
+        "object": "装配焊接生产效率",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "located_at",
+        "object": "机械化生产线",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "located_at",
+        "object": "分段划分",
+        "chunk_id": "443"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "belongs_to",
+        "object": "分段",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "affects",
+        "object": "船台装配工作",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "affects",
+        "object": "施工条件",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "外板接缝线",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "内部骨架接缝线",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "determines",
+        "object": "分段划分",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "affects",
+        "object": "分段制造",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "affects",
+        "object": "结构强度",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "affects",
+        "object": "结构连续性",
+        "chunk_id": "444"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "肘板",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "横骨架式结构",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "纵骨架式结构",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "舱口围板",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "基座",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "水密门窗",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "人孔",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "扶梯",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "箱柜",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "电路",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "电缆",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "舾装件",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段大接缝",
+        "relation": "connects_to",
+        "object": "嵌补",
+        "chunk_id": "445"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "横剖面",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "affects",
+        "object": "肋位线错开",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "affects",
+        "object": "装配质量",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "水密肋板",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "横舱壁",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "肋距内",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "舷侧",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "横舱壁所在的肋距内",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "1/4（或3/4）肋距处",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "1/2肋距处",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "1/3（或2/3）肋距处",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "located_at",
+        "object": "尖舱舱壁外",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "affects",
+        "object": "工作空间",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段横向大接缝",
+        "relation": "affects",
+        "object": "人孔",
+        "chunk_id": "446"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "中桁材附近",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "旁桁材处",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "肋肘板上口向下 $100sim 150~mathrm{mm}$ 处",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "肋肘板上口向上 $100sim 150~mathrm{mm}$ 处",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "中间甲板或平台甲板以上 $100sim 150~mathrm{mm}$ 处",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "甲板与围壁接缝处",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "located_at",
+        "object": "甲板上 $100sim 150~mathrm{mm}$ 处",
+        "chunk_id": "447"
+    },
+    {
+        "subject": "舱壁分段",
+        "relation": "connects_to",
+        "object": "甲板",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "舱壁分段",
+        "relation": "connects_to",
+        "object": "角接缝",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "舱壁分段",
+        "relation": "connects_to",
+        "object": "大接缝",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "分段接头形式",
+        "relation": "has",
+        "object": "平断面接头",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "分段接头形式",
+        "relation": "has",
+        "object": "阶梯形接头",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "平断面接头",
+        "relation": "applied_to",
+        "object": "船体总段",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "平断面接头",
+        "relation": "applied_to",
+        "object": "上层建筑分段",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "阶梯形接头",
+        "relation": "applied_to",
+        "object": "底部分段",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "阶梯形接头",
+        "relation": "applied_to",
+        "object": "舷侧分段",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "横向大接缝",
+        "relation": "connects_to",
+        "object": "阶梯形接头",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "纵向大接缝",
+        "relation": "connects_to",
+        "object": "阶梯形接头",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "分段接头形式",
+        "relation": "affects",
+        "object": "船台(船坞)装配的施工工艺性",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "分段接头形式",
+        "relation": "affects",
+        "object": "分段大接缝的布置",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "分段接头形式",
+        "relation": "affects",
+        "object": "分段的吊装作业",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "分段接头形式",
+        "relation": "affects",
+        "object": "分段的强度",
+        "chunk_id": "448"
+    },
+    {
+        "subject": "舷侧分段",
+        "relation": "uses",
+        "object": "阶梯形接头",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "甲板分段",
+        "relation": "uses",
+        "object": "阶梯形接头",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "箱形结构的舷侧分段",
+        "relation": "uses",
+        "object": "平断面接头",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "岛式建造法的嵌补分段",
+        "relation": "uses",
+        "object": "倒阶梯形接头",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "接头",
+        "relation": "affects",
+        "object": "吊装顺序",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "底部分段",
+        "relation": "precedes",
+        "object": "吊装旁边两个分段",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "uses",
+        "object": "外板展开图的列板纵缝",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段纵向大接缝",
+        "relation": "uses",
+        "object": "新的列板纵接缝",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "工艺余量",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "长度",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "外板展开长度",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "大接头工艺余量",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "affects",
+        "object": "材料消耗",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "uses",
+        "object": "外板展开图",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "uses",
+        "object": "钢材规格",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "uses",
+        "object": "列板纵缝",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "uses",
+        "object": "外板展开长度",
+        "chunk_id": "449"
+    },
+    {
+        "subject": "分段划分",
+        "relation": "uses",
+        "object": "工艺余量",
+        "chunk_id": "449"
+    }
+]

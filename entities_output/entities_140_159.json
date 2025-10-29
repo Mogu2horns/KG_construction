@@ -1,0 +1,5402 @@
+[
+    {
+        "entity_name": "吊梁",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊运分段（总段）的设备，通过吊索相互平行在舱壁分段上不产生水平分力，避免分段在刚性较弱的方向上丧失稳性。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "分段（总段）",
+        "type": [
+            "部件结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中被划分出来的大型结构单元，用于吊运和安装，需考虑其重量、吊运方式及稳定性。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "吊车",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊运分段（总段）的起重设备，其许可负荷能力直接影响吊运安全，需注意起吊高度和力臂长度。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "吊环",
+        "type": [
+            "设备工具",
+            "材料部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段（总段）吊运和翻身的主要属具，一般由钢板制成，包括无肘板和有肘板两种形式，用于承受吊装力并保证吊运平稳。 | 用于船体分段吊装的结构部件，根据设计载荷分为A型、B型、C型等多种类型，具有不同的结构尺寸和安装要求。 | 用于船舶吊装作业的金属构件，其材料一般选用Q235-A或可焊接的普通低合金钢，制作过程中需进行数控切割或光电切割，装配和焊接需严格按照图纸施工。 | 用于分（总）段吊运翻身的主要设备，根据分（总）段重量及吊运翻身方式确定数量和位置。",
+        "chunk_ids": [
+            140,
+            141,
+            142,
+            147
+        ]
+    },
+    {
+        "entity_name": "吊索",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接吊车和分段（总段）的工具，与吊环配合使用，确保吊运过程中的稳定性和安全性。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "卸扣",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接吊索和吊环的工具，确保吊装过程中的连接牢固和操作安全。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "空中翻身",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段（总段）翻身的一种方式，适用于重量在一台吊车许可负荷范围内的分段，通过吊车在空中完成翻身操作。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "落地滚翻",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段（总段）翻身的一种方式，适用于重量超过一台吊车许可负荷但可在两台吊车联吊范围内的分段，需设置滚翻装置。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "滚翻装置",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于落地滚翻作业的辅助设备，确保分段（总段）在翻身过程中稳定、安全。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "纵翻",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段（总段）翻身的一种方式，按分段朝尺度小的方向进行，适用于只作横向划分的分段。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "横翻",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段（总段）翻身的一种方式，按分段朝尺度小的方向进行，适用于作纵向划分的分段。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "吊环规格",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环的尺寸和类型，根据分段（总段）的结构形式和吊运要求确定，包括A型、B型、C型等标准类型。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "吊环安装位置",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环应安装在分段（总段）的纵、横骨架交叉处或刚性构件上，以保证吊运平稳和受力均衡。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "吊环剪切强度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环强度校核的关键指标，通过剪切强度公式校核，确保吊环在吊装过程中不会发生剪切破坏。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "吊环允许负荷",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环允许承受的最大负荷，根据分段（总段）总重量、不均匀受力系数和同时受力吊环数计算。",
+        "chunk_ids": [
+            140
+        ]
+    },
+    {
+        "entity_name": "A型吊环",
+        "type": [
+            "设备工具",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设计载荷为10t~50t，适用于所有船体分段的吊环类型。 | 设计载荷为10t~50t，适用于所有船体分段，其结构和尺寸如图4-59和表4-5所示。",
+        "chunk_ids": [
+            140,
+            141
+        ]
+    },
+    {
+        "entity_name": "B型吊环",
+        "type": [
+            "设备工具",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设计载荷为10t~50t，适用于甲板分段、机舱分段、首部分段的吊环类型。 | 设计载荷为10t~50t，适用于甲板分段、机舱分段、首部分段，其结构和尺寸如图4-60和表4-6所示。",
+        "chunk_ids": [
+            140,
+            141
+        ]
+    },
+    {
+        "entity_name": "C型吊环",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设计载荷为10t~30t，适用于上层建筑分段、机舱分段及槽形舱壁分段，其结构和尺寸如图4-61和表4-7所示。",
+        "chunk_ids": [
+            141
+        ]
+    },
+    {
+        "entity_name": "Q235-A",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环常用材料，具有良好的焊接性能，适用于一般吊环结构。 | 一种常用的碳素结构钢，用于吊环的材料选择，具有良好的焊接性能。",
+        "chunk_ids": [
+            141,
+            142
+        ]
+    },
+    {
+        "entity_name": "可焊接的普通低合金钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环可选用的替代材料，适用于特殊吊环结构，具体选择依据母材及工艺要求。",
+        "chunk_ids": [
+            141
+        ]
+    },
+    {
+        "entity_name": "设计载荷",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环设计时所承受的最大载荷，用于确定吊环类型和结构尺寸，单位为吨（t）。",
+        "chunk_ids": [
+            141
+        ]
+    },
+    {
+        "entity_name": "开焊接坡口",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在吊环结构中，标有△符号的焊接坡口，表示需要开焊处理，以确保焊接质量。",
+        "chunk_ids": [
+            141
+        ]
+    },
+    {
+        "entity_name": "腹板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊环结构中用于增强强度的部件，根据安装要求可单面或双面安装。",
+        "chunk_ids": [
+            141
+        ]
+    },
+    {
+        "entity_name": "船体分段",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中按结构划分的模块，吊环根据分段类型选择相应类型。 | 指船体结构中按一定规则划分的独立结构单元，用于分阶段进行建造和装配。 | 船舶建造过程中被划分出来的独立结构单元，用于分段建造法，便于控制焊接变形。",
+        "chunk_ids": [
+            141,
+            153,
+            154
+        ]
+    },
+    {
+        "entity_name": "普通低合金钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种可焊接的钢材，用于吊环的材料选择，具有较高的强度和韧性。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "数控切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种加工吊环的工艺方法，用于吊环的加工，确保外形光顺。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "光电切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种加工吊环的工艺方法，用于吊环的加工，确保外形光顺。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "钻床",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊环孔的加工，确保圆孔的光洁度达到要求。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "焊脚高度",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接时焊缝的高度参数，通用吊环焊脚高度为吊环板厚的0.7倍，或与母材板厚的0.8倍。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "坡口焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于吊环与母材连接的角焊缝，坡口焊平后再加大6~8mm的焊脚。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "包角焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于吊环眼板、肘板的端头，其焊脚高度为其他部位的1.2倍。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "连续焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，所有吊环的焊接都必须连续焊，确保结构强度。 | 焊接过程中连续进行的焊接方式，热输入大，变形相对较大。",
+        "chunk_ids": [
+            142,
+            153
+        ]
+    },
+    {
+        "entity_name": "碱性焊条",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接吊环的焊条，型号为SH507.01，或取略高于吊环强度的焊条。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的上部结构，整体吊装是当前深化造船生产设计的重要内容，要求达到完整性状态，区域内的舾装工作要全部完成。 | 船舶上部结构，安装顺序通常安排在最后，可整体吊装或分段预舾装。",
+        "chunk_ids": [
+            142,
+            150
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船方法，船舶上层建筑整体吊装是其实现的前提条件。 | 现代造船模式中采用的区域造船法，将船舶舾装划分为甲板舾装、住舱舾装、机舱舾装和电气舾装，并采用区域导向型的组织方式。 | 现代造船模式中的一种集成化工艺，将船体结构（壳）、舾装（设备安装）和涂装（表面处理）三者结合进行。 | 一种现代造船模式，船舶涂装作业方式与船体建造的分段建造法和船舶舾装的区域舾装法相协调。",
+        "chunk_ids": [
+            142,
+            157,
+            158,
+            159
+        ]
+    },
+    {
+        "entity_name": "密性试验",
+        "type": [
+            "检验方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检查外板、舱壁等处焊缝有无渗漏现象，以保证船舶的航行安全，同时分析焊接缺陷产生的原因。 | 密性试验是船舶建造中用于检测水密焊缝密封性的试验方法，包括水压试验、冲水试验、气压试验和煤油试验等多种形式。各国船级社均认可这些方法，且试验需在舱室完整的情况下进行，试验前需对船体结构进行核算，试验后需进行清理。 | 用于检测船舶水密焊缝是否渗漏的试验方法，各国造船规范均规定在船体未经密性试验前不得进行涂装作业。",
+        "chunk_ids": [
+            142,
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "水压试验",
+        "type": [
+            "检验方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "各国船级社认可的密性试验方法之一，通过逐舱灌水并在舱外观察焊缝处有无渗漏现象。 | 水压试验是各国船级社认可的密性试验方法之一，通过逐舱灌水并在舱外观察焊缝处有无渗漏现象。试验时需满足规范要求，外界气温低于0°C时需采取加热措施，使试验介质温度保持在+5°C。水压达到规定值并在10分钟内保持水位稳定后进行渗漏检查，若1小时后水面无下降且无漏水现象则认为合格。 | 通过向焊缝一侧充水并在另一侧检测渗漏的试验方法，通常用于建造批量生产的第一艘船。",
+        "chunk_ids": [
+            142,
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的主体结构，密性试验用于检验其在静载荷作用下的强度好坏。 | 船舶的整体骨架和承载系统，包括龙骨、肋骨、甲板等，焊接变形会影响其强度和性能。",
+        "chunk_ids": [
+            142,
+            154
+        ]
+    },
+    {
+        "entity_name": "焊缝",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的连接部位，密性试验用于检查其有无渗漏现象。 | 焊缝是船舶结构中通过焊接连接的接合部位，其密封性需通过密性试验进行验证。焊缝的类型和厚度会影响密性试验方法的选择，如煤油试验和气压试验适用于不同厚度的焊缝。 | 连接船体结构的金属接合部位，其布置和尺寸直接影响焊接变形和结构强度。",
+        "chunk_ids": [
+            142,
+            143,
+            154
+        ]
+    },
+    {
+        "entity_name": "船级社",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "原文中提及的船级社，用于认可密性试验方法。 | 船级社是各国认可的船舶建造标准和规范的制定机构，其认可的密性试验方法包括水压试验、冲水试验、气压试验和煤油试验。船级社对密性试验有明确的技术要求和规范。",
+        "chunk_ids": [
+            142,
+            143
+        ]
+    },
+    {
+        "entity_name": "吊装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的重要工艺，包括吊环的安装和上层建筑的整体吊装。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "结构变形",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊装过程中可能产生的结构变形，对上层建筑影响较大，需严格控制。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "弹性变形",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "结构在外力消失后自动恢复初始形状的变形，对普通分段吊装影响较小。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "预舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在吊装前完成的舾装工作，对上层建筑整体吊装的结构变形控制有重要影响。 | 在分段制造阶段提前进行的舾装工作，以提高总装效率。",
+        "chunk_ids": [
+            142,
+            144
+        ]
+    },
+    {
+        "entity_name": "吊点",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊装时用于支撑结构的点，需合理布置以控制结构变形。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "加强",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对吊环反面的纵横结构进行局部加短横梁或肘板的方法，以防止结构损坏。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "管路",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑中的重要组成部分，吊装变形可能导致管道漏水。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "窗户",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑中的重要组成部分，吊装变形可能导致窗户渗水。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "壁板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑中的结构部件，吊装变形可能对其造成影响。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "天棚",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑中的结构部件，吊装变形可能对其造成影响。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "绝缘材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑中的材料，吊装变形可能对其造成影响。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "吊装变形衡准",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑整体吊装的变形控制标准，需严格计算和合理布置吊点。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "负压试验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "适应分段预舾装要求的密性试验方法，近年来被广泛应用。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "超声波",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于密性试验的无损探伤方法，近年来被广泛应用。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "X光射线",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于密性试验的无损探伤方法，近年来被广泛应用。",
+        "chunk_ids": [
+            142
+        ]
+    },
+    {
+        "entity_name": "冲水试验",
+        "type": [
+            "检验方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查外板、舱壁等处焊缝有无渗漏现象。 | 冲水试验是各国船级社认可的密性试验方法之一，通过在板缝一侧冲水，在另一侧观察焊缝处有无渗漏现象。技术条件包括喷水高度不少于10m，喷嘴直径不小于16mm，冲水距离不得大于3m。主要用于水密门和窗、舱盖、舷侧板等水密构件的密性试验。",
+        "chunk_ids": [
+            142,
+            143
+        ]
+    },
+    {
+        "entity_name": "冲气试验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查外板、舱壁等处焊缝有无渗漏现象。 | 通过在焊缝一侧冲气并在另一侧涂肥皂液检测焊缝渗漏的试验方法，要求气压不低于0.4~0.5MPa，喷嘴距焊缝50~100mm。",
+        "chunk_ids": [
+            142,
+            144
+        ]
+    },
+    {
+        "entity_name": "油雾试验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查外板、舱壁等处焊缝有无渗漏现象。 | 利用煤油和压缩空气生成油雾检测焊缝渗漏的试验方法，喷嘴距焊缝50~100mm，喷嘴移动速度为5~10m/min。",
+        "chunk_ids": [
+            142,
+            144
+        ]
+    },
+    {
+        "entity_name": "煤油试验",
+        "type": [
+            "检验方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查外板、舱壁等处焊缝有无渗漏现象。 | 煤油试验是各国船级社认可的密性试验方法之一，通过在焊缝一侧涂白粉，另一侧涂煤油，观察白粉上有无油渍。技术条件包括焊缝反面涂白粉溶液并干燥后检查，试验时间根据气温和焊缝厚度调整，焊缝厚度在6mm以下时需立即检查，6mm以上则需10分钟后检查。白粉层上无煤油痕迹者为合格。 | 通过在焊缝一侧涂抹煤油并观察另一侧是否有渗漏的试验方法，常用于密性试验。",
+        "chunk_ids": [
+            142,
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "气压试验",
+        "type": [
+            "工艺流程",
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气压试验是各国船级社认可的密性试验方法之一，通过密封试验舱并充以一定压力的压缩空气，在焊缝另一面涂以起泡剂（肥皂液）观察有无渗漏起泡现象。技术要求包括试验构件板厚大于6mm时可用气压试验代替水压试验，试验压力为1.5×10⁴~5×10⁴ Pa，时间不少于1小时，1小时后气压下降小于试验压力且焊缝检查面无气泡则合格。 | 通过向焊缝一侧充气并在另一侧检测渗漏的试验方法，常用于双层底或首、尾尖舱区域。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "水密焊缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密焊缝是指在船舶建造中用于确保舱室水密性的焊缝，其密封性需通过密性试验进行验证。在密性试验前，不得对水密焊缝进行涂刷油漆或敷设绝缘材料，以确保试验结果的准确性。 | 指船舶中要求具有水密性能的焊缝，需在密性试验前避免涂装，以确保其密封性。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "起泡剂",
+        "type": [
+            "设备材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起泡剂（肥皂液）是气压试验中用于检测焊缝渗漏的辅助材料，通过在焊缝另一面涂刷起泡剂，观察是否有气泡产生以判断是否存在渗漏。起泡剂需在试验时使用，且在低温环境下需加热或使用不冻溶液。 | 用于密性试验中检测焊缝渗漏的化学试剂，通常为肥皂液，需具有适当浓度。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "白粉",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "白粉是煤油试验中用于检测焊缝密封性的辅助材料，涂在焊缝一侧，另一侧涂煤油后观察是否有油渍渗出。白粉需在试验前涂刷并干燥，试验后需清除。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "压缩空气",
+        "type": [
+            "设备材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "压缩空气是气压试验中用于密封试验舱并施加压力的介质，通过压力调节器或减压阀充入试验舱，用于检测焊缝的密封性。试验压力需符合规范要求，且需安装压力表和安全阀。 | 用于密性试验中的气源，要求压力不低于0.3MPa，用于冲气试验和油雾试验。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "肥皂液",
+        "type": [
+            "设备材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肥皂液是气压试验中用于检测焊缝渗漏的起泡剂，涂在焊缝另一面，观察是否有气泡产生以判断是否存在渗漏。肥皂液在低温环境下需加热或使用不冻溶液。 | 用于密性试验中检测焊缝渗漏的起泡剂，需具有适当的表面张力系数。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "分段建造工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段建造工艺是船舶建造中的一种工艺方法，将船体分为多个分段进行建造，最后在船台上或船坞内进行合拢。该工艺在密性试验前需对水密焊缝进行特殊处理，如留出或覆盖，以确保试验的准确性。 | 船舶建造中的一种工艺，将船体分为若干分段进行制造和装配，再在船台进行大合拢。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "水密构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密构件是指船舶中用于确保水密性的结构部件，如水密门和窗、舱盖、舷侧板、甲板、轴隧、舱壁、甲板室顶的露天部分和外围壁等。这些构件需通过密性试验进行验证。 | 水密构件是船舶中用于确保水密性的结构部件，如水密门和窗、舱盖、舷侧板等，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验压力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验压力是密性试验中施加在试验舱上的压力值，用于检测焊缝的密封性。气压试验的试验压力为1.5×10⁴~5×10⁴ Pa，需保持1小时以上，且气压下降需小于试验压力。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "安全阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安全阀是气压试验中用于防止试验压力过高而发生舱室破损事故的安全装置，安装在试验构件上，确保试验过程的安全性。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "压力表",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "压力表是气压试验中用于监测试验压力的设备，安装在试验构件上，确保试验压力符合规范要求。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "温度",
+        "type": [
+            "参数",
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "温度是密性试验中的重要参数，影响试验介质的物理状态和试验结果。例如，水压试验中当外界气温低于0°C时需采取加热措施，使试验介质温度保持在+5°C。 | 密性试验中的外部环境因素，影响试验的进行。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "湿度",
+        "type": [
+            "参数",
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "湿度是密性试验中的环境参数，影响试验过程的进行。例如，水压试验受湿度影响，试验时需注意环境条件。 | 密性试验中的外部环境因素，影响试验的进行。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "脚手架",
+        "type": [
+            "设备",
+            "设施设备",
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "脚手架是船舶建造过程中用于支撑和作业的临时结构，影响水压试验的进行，试验通常在船台上或船坞内作业，需考虑脚手架对试验的影响。 | 用于密性试验中的临时支撑结构，影响试验的进行。 | 船舶总装作业多数是高空作业，必须设置供人员往来和作业用的工作台架，称为脚手架或作业台，通常有舷外脚手架和舱内脚手架两种。 | 船舶总装作业多数是高空作业，必须设置供人员往来和作业用的工作台架，称为脚手架或作业台。通常有舷外脚手架和舱内脚手架两种。 | 用于高空作业的临时支撑结构，提高焊接作业的安全性和效率。",
+        "chunk_ids": [
+            143,
+            144,
+            145,
+            146,
+            153
+        ]
+    },
+    {
+        "entity_name": "照明",
+        "type": [
+            "设备",
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "照明是船舶建造过程中用于确保作业安全和质量的设备，影响水压试验的进行，试验通常在船台上或船坞内作业，需注意照明条件。 | 密性试验中的辅助设施，影响试验的进行。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "附加墩木",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "附加墩木是水压试验中用于支撑船体的临时结构，以确保试验过程的安全和稳定。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "临时支撑",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "临时支撑是水压试验中用于支撑船体的辅助结构，以确保试验过程的安全和稳定。 | 用于保证分（总）段在船舶总装时的位置和型线的支承装置，通常由废旧钢管或型钢制成。",
+        "chunk_ids": [
+            143,
+            147
+        ]
+    },
+    {
+        "entity_name": "排水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "排水是密性试验结束后对试验舱进行处理的步骤，试验完毕后需排水，但排水后在骨架之间会留有不易排净的积水，增加焊缝的锈蚀。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "锈蚀",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锈蚀是金属材料在潮湿环境下发生的腐蚀现象，密性试验结束后排水不彻底可能导致焊缝锈蚀。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装是船舶建造中的表面处理工艺，用于保护船体结构。密性试验前不得对水密焊缝进行涂装，以确保试验的准确性。 | 船舶建造中的表面处理工艺，包括除锈和涂漆，需在密性试验完成后进行。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "除锈是涂装前的表面处理工艺，用于清除船体表面的锈迹。密性试验前需对水密焊缝进行特殊处理，如留出或覆盖，以确保试验的准确性。 | 船舶涂装前的表面处理工艺，需在密性试验完成后进行。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "手工除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "手工除锈是涂装前的表面处理工艺，用于清除船体表面的锈迹。密性试验前需对水密焊缝进行特殊处理，如留出或覆盖，以确保试验的准确性。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "自动焊焊缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自动焊焊缝是船舶建造中通过自动焊接工艺形成的焊缝，其密封性在密性试验前可例外处理，即无需留出或覆盖。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "胶纸",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "胶纸是密性试验前用于覆盖水密焊缝的临时材料，以确保试验的准确性。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "设备",
+            "设施设备",
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台是船舶建造过程中用于支撑和组装船体的平台，密性试验通常在船台上或船坞内进行。 | 船舶建造中用于船体总装、舾装和涂装的场地，是船舶建造的重要资源。 | 船台是将分（总）段组装成整个船体的工作场所，应具有坚实的地基，一般设置在船体装焊车间附近同时又靠近船舶下水水域的地方。 | 用于船舶建造过程中分段吊装、定位和装配的平台，分为水平船台和倾斜船台。 | 用于船舶分段吊装和焊接的建造场地，是船舶总装工艺的重要组成部分。",
+        "chunk_ids": [
+            143,
+            144,
+            145,
+            147,
+            148
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "设备",
+            "设施设备",
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船坞是船舶建造过程中用于进行密性试验的场所，通常与船台一起使用。 | 用于船舶建造和下水的水工建筑物，与船台共同构成船舶总装的主要场所。 | 船坞是低于水平面，端部设有闸门，在闸门关闭后能将水排干以从事船舶修造的水工建筑物，具有水平船台的一些优点，船舶呈水平状态建造。 | 用于船舶建造和下水的水工建筑物，可同时建造多艘船舶，并通过进水、排水等方式实现船舶下水。",
+        "chunk_ids": [
+            143,
+            144,
+            145,
+            148
+        ]
+    },
+    {
+        "entity_name": "舱室",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱室是船舶结构中的封闭空间，密性试验需在舱室完整的情况下进行。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "水密门和窗",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密门和窗是船舶中用于确保水密性的结构部件，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "舱盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱盖是船舶中用于封闭舱室的结构部件，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "舷侧板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷侧板是船舶结构中的纵向板，用于支撑船体并确保水密性，需通过密性试验进行验证。 | 船舶侧面的板结构，通常采用油雾试验进行密性检测。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板是船舶结构中的上层结构，用于承载货物和人员，需通过密性试验进行验证。 | 船舶上层的平台结构，通常采用油雾试验进行密性检测。",
+        "chunk_ids": [
+            143,
+            144
+        ]
+    },
+    {
+        "entity_name": "轴隧",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "轴隧是船舶中用于容纳轴系的通道，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱壁是船舶结构中的横向板，用于分隔舱室并确保水密性，需通过密性试验进行验证。 | 船体结构中的分隔构件，用于划分船体内部空间，分段安装时需确定舱壁位置线。",
+        "chunk_ids": [
+            143,
+            147
+        ]
+    },
+    {
+        "entity_name": "甲板室顶",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板室顶是船舶中用于覆盖甲板室的结构部件，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "外围壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外围壁是船舶中用于围护结构的部件，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "水密性",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密性是船舶结构中确保舱室不漏水的特性，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "密性",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性是船舶结构中确保舱室不漏水的特性，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "密封性",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密封性是船舶结构中确保舱室不漏水的特性，需通过密性试验进行验证。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "密封试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密封试验是船舶建造中用于检测水密焊缝密封性的试验方法，包括水压试验、冲水试验、气压试验和煤油试验等多种形式。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验介质",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验介质是密性试验中用于检测焊缝密封性的液体或气体，如水、压缩空气等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验时间",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验时间是密性试验中进行渗漏检查的时间，如水压试验需保持水位稳定10分钟，气压试验需保持1小时以上。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验条件",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验条件是密性试验中需满足的技术要求，如水压试验需满足规范要求，气压试验需安装压力表和安全阀。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验方法是密性试验中用于检测焊缝密封性的方法，包括水压试验、冲水试验、气压试验和煤油试验等多种形式。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验结果",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验结果是密性试验中对焊缝密封性的判断，如水压试验需水面无下降且无漏水现象，气压试验需气压下降小于试验压力且无气泡。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验合格",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验合格是密性试验中对焊缝密封性的判断，如水压试验需水面无下降且无漏水现象，气压试验需气压下降小于试验压力且无气泡。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验失败",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验失败是密性试验中对焊缝密封性的判断，如水压试验需水面下降或漏水，气压试验需气压下降超过试验压力或有气泡。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验过程是密性试验中进行检测的步骤，包括试验准备、施加压力、观察渗漏、记录数据等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验设备是密性试验中使用的工具和装置，如压力表、安全阀、起泡剂、肥皂液等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验环境",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验环境是密性试验中进行检测的外部条件，如温度、湿度、照明、脚手架等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验人员",
+        "type": [
+            "人员"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "试验人员是进行密性试验的工作人员，负责操作试验设备、记录试验数据等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验记录",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验记录是密性试验中对试验过程和结果的记录，用于后续分析和存档。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验报告",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验报告是密性试验中对试验过程和结果的总结，用于评估焊缝密封性。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验标准是密性试验中需遵循的技术规范，如各国船级社的标准。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验规范",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验规范是密性试验中需遵循的技术要求，如水压试验、冲水试验、气压试验和煤油试验的具体操作规范。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验要求",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验要求是密性试验中需满足的技术条件，如试验介质温度、试验压力、试验时间等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验操作",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验操作是密性试验中进行检测的具体步骤，包括试验准备、施加压力、观察渗漏、记录数据等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验检查",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验检查是密性试验中对焊缝密封性的检测步骤，包括观察渗漏、记录数据等。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验分析",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验分析是密性试验中对试验结果的评估步骤，包括判断焊缝密封性是否合格。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验评估",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验评估是密性试验中对试验结果的综合判断，包括判断焊缝密封性是否合格。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "试验结论",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "试验结论是密性试验中对焊缝密封性的最终判断，如合格或不合格。",
+        "chunk_ids": [
+            143
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "材料部件",
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中按一定规则划分的船体部分，用于分段制造和装配，便于后续总装。 | 船舶总装过程中划分的结构单元，用于确定在船台上的位置，以保证船体尺度的正确性。 | 船舶建造过程中按一定规则划分的结构单元，用于吊装和焊接，是总装工艺中的基本组成部分。 | 船舶建造过程中被预制并吊装到船台上的结构单元，用于最终组装成完整船体。 | 船体建造中预先组装好的结构单元，用于增大船体刚性，减少焊接变形。 | 船体建造中按一定规则划分的结构单元，用于分阶段进行装配和焊接。 | 指船舶建造过程中被划分出来的独立结构单元，用于分段建造法，便于控制焊接变形。",
+        "chunk_ids": [
+            144,
+            147,
+            148,
+            149,
+            150,
+            153,
+            154
+        ]
+    },
+    {
+        "entity_name": "总装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的最后阶段，包括整体装焊、舾装和涂装，通常在船台或船坞进行。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "预涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段制造阶段提前进行的涂装工作，以提高总装效率。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "舱室涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶总装过程中对舱室区域进行的涂装作业，可在密性试验完成后进行。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "喷嘴",
+        "type": [
+            "设备材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于密性试验中喷射气体或油雾的装置，要求喷嘴距焊缝50~100mm。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "表面张力系数",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肥皂液在20°C时的表面张力系数为4×10⁻³ N/m，用于确保密性试验的敏感性。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "水密舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中要求具有水密性能的舱壁结构，其纵骨穿过处的补板焊缝需特别关注。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的双层结构，用于增强船舶的强度和水密性，常采用气压试验进行密性检测。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "首、尾尖舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首尾端的舱室结构，通常采用气压试验进行密性检测。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "涂漆",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装中的表面涂覆工艺，需在密性试验完成后进行。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "天气",
+        "type": [
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验中的外部环境因素，影响试验的进行。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "建造周期",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的时间长度，受密性试验的影响。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "建造成本",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的经济指标，受密性试验的影响。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "密性试验范围",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验的覆盖区域，受密性试验方法和建造阶段的影响。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "船台周期",
+        "type": [
+            "技术参数",
+            "建造周期"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台使用的周期，受密性试验范围的影响。 | 船体建造过程中船台装配所需的时间，船台无余量装配可有效缩短该周期。",
+        "chunk_ids": [
+            144,
+            150
+        ]
+    },
+    {
+        "entity_name": "工作条件",
+        "type": [
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验进行时的环境条件，影响试验质量。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "劳动强度",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验进行时的体力消耗，影响工作效率。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "涂装质量",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业的质量，受密性试验进行时间的影响。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "生产效率",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业的效率，受密性试验进行时间的影响。",
+        "chunk_ids": [
+            144
+        ]
+    },
+    {
+        "entity_name": "船舶总装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶总装是在部件装焊、分（总）段装焊及预舾装、预涂装的基础上，于船台（船坞）完成船舶整体装焊、舾装和涂装的工艺阶段。",
+        "chunk_ids": [
+            145
+        ]
+    },
+    {
+        "entity_name": "倾斜船台",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "倾斜船台是陆地上船舶建造的场所，能够依靠下水装置将船舶移至水域，一般可分为纵向倾斜船台和横向倾斜船台，平面与水平面具有一定的倾斜度。",
+        "chunk_ids": [
+            145
+        ]
+    },
+    {
+        "entity_name": "水平船台",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水平船台的地基与水平面平行，地基上铺设供船台小车（或随船架）移动的钢轨，船舶处于水平状态下建造，下水较为安全可靠。",
+        "chunk_ids": [
+            145
+        ]
+    },
+    {
+        "entity_name": "半坞式船台",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "半坞式船台是由纵向滑道和倾斜船台派生出来的一种新式船台，在使用纵向滑道的倾斜船台上建造大型船舶时，将船台尾端伸入水中，在滑道后端加一坞门。",
+        "chunk_ids": [
+            145
+        ]
+    },
+    {
+        "entity_name": "船台中心线槽钢",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由槽钢或钢板条制成，嵌埋在船台中心线的地面上，供造船时画船台中心线和肋骨检验线使用，作为合拢时分段和总段定位的依据。",
+        "chunk_ids": [
+            145
+        ]
+    },
+    {
+        "entity_name": "高度标杆",
+        "type": [
+            "工艺装备",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "垂直于水平面设置在船台两侧，标杆上刻有基线、水线、甲板线以及其他高度理论线，作为船台上应用激光经纬仪和激光水准仪进行船台铺墩、分（总）段定位和检验的高度标准。 | 用于在船台上画出基线、水线、甲板边线等高度线的垂直测量装置，用于船台铺墩、分段吊装定位和检验。",
+        "chunk_ids": [
+            145,
+            147
+        ]
+    },
+    {
+        "entity_name": "船台拉桩",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "又称为“地牛”，埋置在船台两侧及中线面处，供分段定位时拉曳用。 | 又称为‘地牛’，埋置在船台两侧及中线面处，供分段定位时拉曳用。",
+        "chunk_ids": [
+            145,
+            146
+        ]
+    },
+    {
+        "entity_name": "墩木",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台上支撑船体的主要装备，按布置位置分为龙骨墩和边墩，按材料分为金属墩、水泥墩和木墩。龙骨墩铺放在中底桁的下方，高度为 $1sim 1.8mathrm{m}$，间距为 $1sim 1.5mathrm{m}$，承载能力不得超过 $50\times 10^{6}mathrm{Pa}$。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "船台肋骨槽钢",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "沿全船的基准肋骨线上，横向嵌埋在船台两侧的槽钢，作为分段或总段安装定位时，决定其纵向位置用。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "移船设备",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一般由船台小车和钢轨组成（或用钢柱滚道代替船台小车）。船台小车分为自动船台小车和非自动船台小车两大类。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "船台中心线",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通常可用激光经纬仪在船台中心线槽钢上画出船台中心线，用于确定首、尾尖点，画出首、尾尖点位置线，并在中心线上标记分段大合拢前后肋骨位置。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "船台半宽线",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为方便船台合拢对宽度的测量，应绘制船台半宽线，一般船台半宽线应小于船舶的半宽值，通常采用激光经纬仪绘制，并在半宽线上标记合拢缝前后肋骨位置。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "肋骨检验线",
+        "type": [
+            "工艺装备",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段纵向位置的定位，按船台安装定位线图，在中心线槽钢上画出肋骨检验线，并用色漆标上肋位号。当船体基线倾斜时，需根据龙骨坡度与船台平面间的夹角决定肋骨检验线的位置。 | 用于分段纵向位置定位的标记线，按船台安装定位线图绘制，并用色漆标上肋位号。",
+        "chunk_ids": [
+            146,
+            147
+        ]
+    },
+    {
+        "entity_name": "液压千斤顶",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机械调整式墩木，带动斜楔平移，使上斜楔作升降移动，以调节墩木高度。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "船台小车",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "移船设备的一部分，分为自动船台小车和非自动船台小车两大类。",
+        "chunk_ids": [
+            146
+        ]
+    },
+    {
+        "entity_name": "激光经纬仪",
+        "type": [
+            "设备",
+            "测量设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在船台上画出船台中心线的测量设备，具有高精度定位功能。 | 用于分段预修整的高精度测量工具，广泛应用于分段定位和余量切割。",
+        "chunk_ids": [
+            147,
+            150
+        ]
+    },
+    {
+        "entity_name": "高度线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台上绘制的基线、水线、甲板边线等标记线，作为使用水平软管、激光水平仪或激光经纬仪进行船台铺墩、分段吊装定位和检验的高度标准。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "分（总）段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶总装过程中划分的结构单元，用于确定在船台上的位置，以保证船体尺度的正确性。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "船台安装定位线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定分（总）段在船台上的位置的标记线，包括分段中心线、肋骨检验线、水平检验线、舱壁位置线等。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "船台安装对合线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段与分段对接时对准的标记线，一般在分段两端左、右（或上、下）各画一根与分段接缝线垂直的短直线。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "假舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于总段建造法中增加总段吊运时的刚性，保持总段大接头处型线的正确性的临时结构，通常用废旧钢材制成。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "总段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将总段作为船体总装单元的建造方法，能减少船台工作量和焊接变形，提高预舾装和预涂装作业的完整性。 | 一种总装工艺，以塔式建造法为例，讨论船台装焊顺序和工艺，包括分段吊装、定位、焊接等步骤。",
+        "chunk_ids": [
+            147,
+            148
+        ]
+    },
+    {
+        "entity_name": "塔式建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以中间偏后的底部分段为基准分段，向首尾和两舷自下而上依次吊装各分段的建造方法，安装区域呈下宽上窄的宝塔形状。 | 一种船舶建造方法，以中间偏后的底部分段为基准分段，向首尾和两舷自下而上依次吊装各分段，形成下宽上窄的宝塔形状。 | 一种船舶建造方法，与岛式建造法类似，但未提及具体差异，仅作为岛式建造法的对比项。",
+        "chunk_ids": [
+            147,
+            148,
+            149
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向构件，用于支撑船体并保持结构强度，肋骨检验线用于分段纵向位置的定位。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "船体基线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的基准线，用于确定船体各部分的相对位置，倾斜时需根据龙骨坡度与船台平面间的夹角调整肋骨检验线位置。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "水线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的水平基准线，用于确定船体在水中的位置，绘制在船台上作为高度线的一部分。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "甲板边线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的甲板边缘线，用于确定甲板的边界位置，绘制在船台上作为高度线的一部分。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "船体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的主体结构，包含船底、舷侧、甲板等部分，其基线倾斜时需调整肋骨检验线位置。",
+        "chunk_ids": [
+            147
+        ]
+    },
+    {
+        "entity_name": "岛式建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体划分成2~3个建造区（简称‘岛’），每个岛选择一个基准分段，按塔式建造法的施工方法同时进行建造，岛与岛之间用嵌补分段连接，能够充分利用船台面积，缩短船台周期。 | 一种船舶建造方法，每个建造区的装焊顺序与塔式建造法相同，但在最后增加吊装嵌补分段的工作，将各个建造区连接起来。",
+        "chunk_ids": [
+            148,
+            149
+        ]
+    },
+    {
+        "entity_name": "串联建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台尾端建造第一艘船舶的同时，在船台首端建造第二艘船的尾部，待第一艘船下水后，将第二艘船的后部移至船台尾端继续建造，能提高船台利用率，缩短建造周期。",
+        "chunk_ids": [
+            148
+        ]
+    },
+    {
+        "entity_name": "嵌补分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接不同建造区的分段，其装配定位作业较为复杂。",
+        "chunk_ids": [
+            148
+        ]
+    },
+    {
+        "entity_name": "基准分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为建造起始点的分段，用于定位和固定其他分段，通常选择在机舱及其附近。",
+        "chunk_ids": [
+            148
+        ]
+    },
+    {
+        "entity_name": "装焊顺序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台装焊过程中分段吊装的先后顺序，包括基准分段、舱壁分段、舷侧分段、甲板分段等的吊装和焊接顺序。",
+        "chunk_ids": [
+            148
+        ]
+    },
+    {
+        "entity_name": "装焊工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台装焊中的技术问题，包括分段定位、余量画线、切割、大接头固定、大接缝焊接等。",
+        "chunk_ids": [
+            148
+        ]
+    },
+    {
+        "entity_name": "分段定位",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台上对分段进行精确安装和固定，确保后续焊接和装配的准确性。",
+        "chunk_ids": [
+            148
+        ]
+    },
+    {
+        "entity_name": "吊装嵌补分段",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在岛式建造法中，用于连接各个建造区的分段，通过吊装完成。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "船台装焊工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中，分段在船台上进行定位、余量画线、切割、大接头固定及焊接等操作的综合工艺。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "定位",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在船台上的安装位置确定过程，包括一次定位和二次定位两种方式。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "一次定位",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "直接通过分段在船体中的长度、宽度、高度方向的位置及水平检验线等要素确定其在船体中的正确位置。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "二次定位",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当分段带余量上船台时，通过多次定位和切割余量，最终确定分段的正确位置。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "余量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在船台装配时为保证对接精度而预留的多余部分，需在合拢时进行画线和切割。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "余量画线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段余量切割前，根据分段与已装配分段的相对位置关系，画出余量线以指导切割操作。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "余量切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段余量画线后，按照余量线进行切割，以消除余量并完成分段对接。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "分段大接头",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段之间的连接部位，通常需要预留余量并在合拢时进行余量画线和切割。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "分段大接头余量布置原则",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段大接头余量的布置规则，包括只许一边留余量、基准分段不留余量、嵌补分段两端留余量等。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "叠盖法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种分段余量画线方法，通过将待装配分段叠盖在已装配分段上，确定合拢焊缝位置。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "分离法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种分段余量画线方法，通过测量分段与已装配分段之间的距离差，确定合拢焊缝位置。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "分段拉拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段余量切割后，通过液压千斤顶和松紧螺旋扣等工具将分段拉拢至正确位置。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "定位焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段对接前进行的临时焊接，用于固定分段位置并检查接缝间隙。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "松紧螺旋扣",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段拉拢和定位的工具，又称为花篮螺丝。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "弹子盘液压千斤顶",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支承分段并协助拉拢分段的液压设备，常用于底部分段和总段的装配。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台装配中的关键工艺，包括外板定位焊、内面先焊、外面封底焊等操作。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "梳状马",
+        "type": [
+            "设备",
+            "工装设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于防止焊接变形的辅助工具，焊接前加装以增强船体刚性。 | 用于外板定位焊后防止焊接变形的辅助工具，通过左右对称焊接以减少变形。",
+        "chunk_ids": [
+            149,
+            150
+        ]
+    },
+    {
+        "entity_name": "分段大接缝焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段吊装作业与焊接作业平行进行，以减小船体上翘变形。",
+        "chunk_ids": [
+            149
+        ]
+    },
+    {
+        "entity_name": "焊接变形",
+        "type": [
+            "工艺问题",
+            "工艺现象",
+            "现象/问题",
+            "分析对象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热应力引起的结构变形，需通过合理装配和焊接顺序进行控制。 | 焊接过程中由于热应力和材料收缩引起的结构变形，影响船体装配和质量。 | 在焊接过程中由于热应力和材料收缩引起的结构变形，包括纵向和横向收缩、翘曲、角变形等。 | 焊接过程中由于收缩、弯曲、角变形等作用使结构产生变形。 | 焊接过程中由于热胀冷缩和材料塑性变形引起的结构尺寸变化，是焊接工艺设计和质量控制的重要指标。",
+        "chunk_ids": [
+            150,
+            153,
+            154,
+            155,
+            156
+        ]
+    },
+    {
+        "entity_name": "船体刚性",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构抵抗变形的能力，通过分段装配和焊接顺序来增强。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "分段纵向大接缝",
+        "type": [
+            "结构接缝"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段纵向连接处的焊缝，焊接顺序为先焊横向构件间的连续焊缝，再焊板与板的舱内纵向大接缝、骨架与板材的角接缝，最后在外表面焊接板材纵向大接缝。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "总段环形接缝",
+        "type": [
+            "结构接缝"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "总段之间环形连接处的焊缝，焊接顺序为先焊总段间纵向构件的对接焊缝，再焊环形接缝，最后焊内部构件与船体外板、甲板、内底板等的角接焊缝。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "垂直焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体大接缝焊接的自动化设备，提高焊接速度和质量，如图5-19所示。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "胎架",
+        "type": [
+            "工装设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于上层建筑分段建造和舾装的支撑结构，便于整体吊装上船台。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "分段无余量装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船体装配工艺，分段制造时无余量，直接上船台合拢，减少工时和提高装配精度。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "经纬仪",
+        "type": [
+            "测量设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段预修整的精密测量工具，辅助进行分段余量线的画线和定位。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "分段预修整",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造完成后，通过画线和切割去除余量，以实现船台无余量装配。 | 通过分段的预修整达到船台无余量装配，是实现船台无余量装配的一种途径。",
+        "chunk_ids": [
+            150,
+            151
+        ]
+    },
+    {
+        "entity_name": "船体建造质量",
+        "type": [
+            "质量特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中对结构尺寸精度和整体性能的要求，船台无余量装配有助于提高该质量。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "分段制造误差",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造过程中产生的尺寸偏差，需通过预修整和无余量装配工艺进行控制。",
+        "chunk_ids": [
+            150
+        ]
+    },
+    {
+        "entity_name": "船台无余量装配工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种先进的船体装配工艺，通过分段预修整和无余量上船台合拢，提高建造效率和质量。 | 一种船体建造工艺，通过减少装配余量来控制分段合拢的尺寸精度，对保证船体建造质量起重要作用。",
+        "chunk_ids": [
+            150,
+            151
+        ]
+    },
+    {
+        "entity_name": "分段无余量制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过分段无余量制造达到船台无余量装配，是实现船台无余量装配的另一种途径。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "船体快速搭载工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种旨在缩短造船周期的工艺，通过高效焊接、自动切割、先进工装等技术手段提高搭载效率。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "高效焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船中关键的工艺，焊接工时占整个船体建造工时的30%~40%，直接影响整船质量，是加快搭载速度、缩短船坞周期的关键环节。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "移动焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于替代人在恶劣环境下进行焊接作业的设备，包括焊接系统、操作系统、移动平台和监视系统，由操作人员通过电脑终端控制。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "焊接变形模拟",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为实现船舶搭载精度控制而进行的焊接变形模拟，通过有限元分析解决焊接过程中热传导和弹塑性等问题，提高分段建造精度和自动化作业率。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "焊接新技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提高焊接效率和质量的新技术，是船厂快速发展的重要课题，也是一流船厂的必要条件。 | 指船厂在焊接领域采用的新技术，如多电极焊接机、等离子焊接机、多层高效率焊接机、海底管线敷设自动焊接机、半自动CO₂焊接技术、双丝或多丝埋弧自动焊接技术、激光焊接技术及激光复合焊技术等。",
+        "chunk_ids": [
+            151,
+            152
+        ]
+    },
+    {
+        "entity_name": "焊接新设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提高焊接效率和质量的新设备，是船厂快速发展的重要课题，也是先进船厂研发和应用的重点。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "韩国现代重工",
+        "type": [
+            "公司"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "一家韩国造船企业，是第一家设立焊接研究所的造船企业，研发了船用焊接设备并形成系列。",
+        "chunk_ids": [
+            151
+        ]
+    },
+    {
+        "entity_name": "焊接设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指用于船舶焊接的专用设备，如多电极焊接机、等离子焊接机、多层高效率焊接机、海底管线敷设自动焊接机、半自动CO₂焊接机、双丝或多丝埋弧自动焊接机、激光焊接机及激光复合焊设备等。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "摆动式CO₂自动角焊机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶焊接的自动角焊机，能够将甲板、内底纵横缝的焊接应用推广到角接缝的焊接，解决了焊工人数短缺问题，使焊缝质量稳定可靠。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "自动切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶分段建造过程中，为提高搭载精度和质量而采用的自动化切割技术，包括水平切割和垂直切割系统，能够减少切割时间、提高切割质量、减少二次修割量等。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "切割系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指用于船舶搭载过程中进行切割的专用系统，包括水平切割系统和垂直切割系统，均为标准化制造，使用方便，能够提高切割质量和效率。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "工装",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶分段总组和搭载过程中使用的工艺装备，如活络支墩、箱式胎架、可调支撑工装、液压小车、作业吊篮等，用于提高分段定位精度和施工效率。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "活络支墩",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种可调支撑工装，用于分段定位和精度调节，相比传统的水泥墩子具有更强的适应性，便于总组场地清洁和施工。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "可调支撑工装",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶分段总组和搭载的支撑设备，能够根据需要进行调整，减少工装拆装时间，提高总组的可操作性。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "液压小车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶分段搭载的辅助设备，替代脚手架，提高总组的可操作性，减少工装拆装时间。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "作业吊篮",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶分段搭载的辅助设备，替代脚手架，提高总组的可操作性，减少工装拆装时间。",
+        "chunk_ids": [
+            152
+        ]
+    },
+    {
+        "entity_name": "总组范围",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶分段总组过程中，分段的覆盖范围，通过合理设定总组范围，可以减少甚至去掉一些工装，提高总组的可操作性。 | 指在船舶建造中，将多个分段组合成总段时所覆盖的结构范围，用于提高装配效率。",
+        "chunk_ids": [
+            152,
+            153
+        ]
+    },
+    {
+        "entity_name": "吊装顺序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中，分段吊装的先后顺序，合理的吊装顺序有助于提高总组效率和减少工装使用。 | 指在船舶建造过程中，各分段或总段按照一定逻辑和优先级进行吊装的顺序安排。",
+        "chunk_ids": [
+            152,
+            153
+        ]
+    },
+    {
+        "entity_name": "总段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指由多个分段组合而成的较大船体结构单元，用于提高建造效率和装配精度。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接质量",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺和操作水平所决定的焊缝成型、强度和完整性，直接影响船体建造周期和使用性能。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接参数",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中控制焊接质量的关键参数，包括焊接电流、电弧电压和焊接速度等。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接工艺方法",
+        "type": [
+            "工艺流程",
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊接过程中采用的具体技术手段，如自动焊、手工焊、CO₂气体保护焊等，影响焊接变形和效率。 | 焊接过程中采用的具体技术手段，如焊缝形式、焊接参数等，对焊接变形和残余应力有重要影响。",
+        "chunk_ids": [
+            153,
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接残余变形",
+        "type": [
+            "工艺问题",
+            "现象/问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热应力和冷却收缩引起的永久性变形，影响船体结构的装配和质量。 | 由极不均匀的焊接温度场导致的塑性应变与相变应变产生的焊接残余应力与变形。",
+        "chunk_ids": [
+            153,
+            155
+        ]
+    },
+    {
+        "entity_name": "焊接热变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于不均匀加热和冷却引起的临时性变形，影响船体结构的装配精度。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件刚性",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件抵抗变形的能力，受构件尺寸、形状和装配焊接程序等因素影响。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "胎夹具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定和定位焊接构件的辅助设备，提高焊接精度和减少变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "装配焊接程序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊接构件在装配过程中的焊接顺序和方法，对控制焊接变形有重要影响。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "分段装焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船体建造中，将分段结构进行装配和焊接的过程，可能引起焊接变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "纵向收缩",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热应力引起的船体结构沿长度方向的收缩变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "横向收缩",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热应力引起的船体结构沿宽度方向的收缩变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "翘曲变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于不对称加热和冷却引起的船体结构局部弯曲变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "角变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于焊缝不对称引起的船体结构局部角度变化。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "波浪变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于局部热应力引起的船体结构表面波浪状变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "中拱",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在焊接后沿纵向出现的向上弯曲变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "中垂",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在焊接后沿纵向出现的向下弯曲变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "扭曲变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于不对称加热和冷却引起的船体结构整体扭曲变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "整体变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后整个船体结构尺寸或形状的变化，包括纵向和横向收缩、弯曲和扭曲变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "局部变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后船体结构局部区域的变形，包括角变形和波浪变形等。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "CO₂气体保护焊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，使用CO₂气体作为保护介质，防止焊缝氧化，适用于薄板结构焊接。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接速度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中焊枪移动的速度，影响焊接变形和效率。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接电流",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中通过焊枪的电流大小，影响焊接质量和变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "电弧电压",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中电弧两端的电压，影响焊接热输入和变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "线能量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中单位长度焊缝所消耗的能量，影响焊接变形和效率。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "断续焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中间断进行的焊接方式，减少热输入和变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "自动焊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过自动化设备进行的焊接工艺，加热集中，变形较小。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "手工焊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由人工操作进行的焊接工艺，热输入分布较广，变形相对较大。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接断面尺寸",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝的截面尺寸，影响焊接变形和强度。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊缝数量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中焊缝的数量，影响焊接变形和效率。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊缝接头形式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝的连接方式，如对接焊和角接焊，影响焊接变形和热输入。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在焊接过程中被连接和固定的船体结构单元，其刚性和装配方式影响焊接变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接热物理性能",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接材料的导热系数、比热和膨胀系数等热物理特性，影响焊接变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件刚性条件",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件抵抗变形的能力，受构件尺寸、形状和装配焊接程序等因素影响。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件尺寸",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件的几何尺寸，影响其刚性和焊接变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件形状",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件的几何形状，影响其刚性和焊接变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件重心",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件的重心位置，影响装配焊接程序和焊接变形。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件拘束",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的约束条件，影响焊接变形的大小。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的定位和固定方式，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接程序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接顺序和方法，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接顺序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接顺序，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接方法，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接参数",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接参数，包括电流、电压和速度等，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接热输入",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接热输入，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接温度场",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接温度场，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接应力",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接应力，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接残余应力",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接残余应力，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接残余变形",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接残余变形，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接热影响区",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接热影响区，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接熔深",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接熔深，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接熔宽",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接熔宽，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接熔合线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接熔合线，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝质量",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝质量，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝成型",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝成型，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝强度",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝强度，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝韧性",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝韧性，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝硬度",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝硬度，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝脆性",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝脆性，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝裂纹",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝裂纹，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝气孔",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝气孔，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝夹渣",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝夹渣，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未熔合",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未熔合，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊透",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊透，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊满",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊满，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊穿",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊穿，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊平",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊平，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊齐",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊齐，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊实",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊实，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "焊接构件焊接焊缝未焊牢",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接构件在装配过程中的焊接焊缝未焊牢，影响焊接变形和质量。",
+        "chunk_ids": [
+            153
+        ]
+    },
+    {
+        "entity_name": "船体龙骨线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的主要结构线，是船体结构的基础，焊接后可能因应力分布不均而向下挠曲。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "中和轴",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体剖面中受力平衡的轴线，焊接时焊缝位置相对于中和轴的分布会影响变形方向和程度。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体结构设计",
+        "type": [
+            "设计领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造前的结构规划，包括焊缝布置、分段划分、材料选择等，直接影响焊接变形控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "焊接工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接操作的具体方法和参数设置，是减少焊接变形和应力集中的有效手段。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "分段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体划分为多个分段进行建造，便于控制焊接变形和装配精度。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "刚性固定法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过将构件固定在刚性平台上，限制焊接时的自由变形，减少焊接变形量。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "反变形法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在焊接前预先给船体分段或构件施加反向变形，以抵消焊后变形，减少变形量。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "机械矫正法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在室温下通过施加外力对焊接构件进行矫正，适用于塑性良好的材料。 | 在室温条件下，对焊接构件施加外力，使构件压缩塑性变形区的金属伸展，减少或消除焊缝区的塑性变形，达到矫正变形的目的。",
+        "chunk_ids": [
+            154,
+            155
+        ]
+    },
+    {
+        "entity_name": "火焰矫正法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用火焰加热局部金属，使其膨胀并产生塑性变形，从而矫正焊接变形。 | 通过对变形构件金属进行有规则的火焰集中加热，冷却后，焊接构件这部分金属获得不可逆的压缩塑性变形，使整个焊接构件变形得到矫正。",
+        "chunk_ids": [
+            154,
+            155
+        ]
+    },
+    {
+        "entity_name": "船体总长",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶整体长度，焊接变形可能导致其缩短，需通过装配时的余量补偿。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上部的承载结构，焊接后可能因应力分布不均而发生下榻或变形。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体剖面",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体横截面的几何形状，其中和轴位置影响焊接变形的方向和程度。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段或构件按设计要求组装成整体船体的过程，需考虑焊接变形控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段剖面中性轴",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段横截面中受力平衡的轴线，焊缝布置应尽量对称于该轴线以减少变形。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体接缝",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中相邻部件之间的连接部位，焊接后可能因收缩产生凹凸变形。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体大接缝",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体中较长且重要的接缝，焊接后可能因收缩导致型线曲率变化。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体余量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体装配和下料时预留的尺寸，用于补偿焊接变形导致的总长缩短。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体重量分布",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体各部分的重量分布影响焊接变形的方向，如中间重、两端轻易导致两端上翘。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体上层建筑",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上部的非主结构部分，如甲板室、桅杆等，焊接后易发生较大变形。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体下榻",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板梁拱减少的现象，是焊接变形的一种表现形式。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体横向收缩",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于焊缝收缩导致的横向尺寸变化，可能引起船体总长缩短。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体纵向收缩",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于焊缝收缩导致的纵向尺寸变化，可能引起船体总长缩短。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体角变形",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后构件出现的角部变形，是焊接变形的一种常见形式。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体波浪变形",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后构件表面出现的波浪状不平整，是焊接变形的一种表现形式。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体弯曲变形",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后构件整体发生弯曲，是焊接变形的一种常见形式。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体装配应力",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体装配过程中产生的应力，可能影响焊接变形的控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段变形",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在焊接过程中产生的变形，包括上翘、下榻、横向收缩等。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段剖面",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段的横截面形状，其中性轴位置影响焊接变形的方向。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段余量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段下料和装配时预留的尺寸，用于补偿焊接变形。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段内部的焊接过程，是船体建造中的关键环节，直接影响变形控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对分段焊接后产生的变形进行矫正，包括机械矫正和火焰矫正。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段按设计要求组装成整体船体的过程，需考虑焊接变形控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段刚性固定",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过将分段固定在刚性平台上，限制焊接时的自由变形，减少焊接变形量。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段反变形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段焊接前预先施加反向变形，以抵消焊后变形，减少变形量。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接顺序",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段内部焊缝的焊接顺序，影响焊接变形的分布和控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接参数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段焊接时的电流、电压、焊接速度等参数，影响焊接变形和质量。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段内部焊接的具体方法和操作流程，是控制焊接变形的重要手段。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接变形",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在焊接过程中产生的变形，包括上翘、下榻、横向收缩等。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接余量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段下料和装配时预留的尺寸，用于补偿焊接变形。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对分段焊接后产生的变形进行矫正，包括机械矫正和火焰矫正。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段按设计要求组装成整体船体的过程，需考虑焊接变形控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接装配应力",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配过程中产生的应力，可能影响焊接变形的控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接装配顺序",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段内部焊缝的装配顺序，影响焊接变形的分布和控制。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接装配参数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段装配时的焊接参数，如电流、电压、焊接速度等，影响焊接变形和质量。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接装配工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段内部焊接的具体方法和操作流程，是控制焊接变形的重要手段。",
+        "chunk_ids": [
+            154
+        ]
+    },
+    {
+        "entity_name": "焊接余量",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在板构件上预留的一部分焊接余量，用于避免焊接变形的发生。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "经验法",
+        "type": [
+            "预测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过经验（查找焊接手册上的经验公式和数据曲线）、实验及实测资料来给出焊接余量，用于估算简单结构的特定变形。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "解析法",
+        "type": [
+            "预测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以焊接热传导理论、结构力学理论、残余塑变理论或弯曲理论为基础，忽略热弹-塑性过程，仅考虑残余塑性应变，适用于简单焊接构件。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "数值模拟法",
+        "type": [
+            "预测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过有限差分法、有限单元法、数值积分法、蒙特卡洛法等数值分析法进行焊接变形预测，目前有限元法已占据主导地位。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "热弹塑性有限元法",
+        "type": [
+            "预测方法",
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "跟踪整个焊接热循环过程，可以同时考虑许多重要因素的影响，用于预测焊接残余应力和变形，也可用于分析裂纹、疲劳、断裂等现象。 | 一种焊接数值模拟方法，跟踪整个焊接热循环过程，可同时考虑多种因素的影响，用于预测焊接残余应力、变形、裂纹、疲劳、断裂等现象。",
+        "chunk_ids": [
+            155,
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接温度场",
+        "type": [
+            "物理场"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中，焊接区以远高于周围区域的速度被急剧加热，形成不均匀的温度场，导致热膨胀和热应力。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "残余应力",
+        "type": [
+            "物理现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于不均匀的温度场和相变应变导致的焊接区拉伸残余应力和周围区域压缩残余应力。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "焊接区",
+        "type": [
+            "结构区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中被急剧加热并局部熔化的区域，其材料受热膨胀并形成塑性热压缩。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "热应力",
+        "type": [
+            "物理现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热膨胀受到周围较冷区域的约束而产生的弹性热应力。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "塑性应变",
+        "type": [
+            "物理现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由极不均匀的焊接温度场导致的塑性应变，是产生焊接残余应力与变形的根本原因之一。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "相变应变",
+        "type": [
+            "物理现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接冷却过程中显微组织转变引起的体积增加，是产生焊接残余应力与变形的根本原因之一。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "有限元法",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接数值模拟的主要方法，用于预测焊接残余应力和变形，也可用于分析裂纹、疲劳、断裂等现象。",
+        "chunk_ids": [
+            155
+        ]
+    },
+    {
+        "entity_name": "焊接残余应力",
+        "type": [
+            "分析对象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于不均匀加热和冷却导致的内部应力，是焊接变形和裂纹形成的重要因素。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "固有应变法",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过将焊接过程的瞬态影响归纳为固有应变参数，进行静载弹塑性分析的方法，用于预测焊接残余应力和变形。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "固有应变量",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表征焊接过程中材料在自由状态下与基准状态相比的应变，包括塑性应变、温度应变和相变应变的残余量。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "弹簧单元法",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过在弹性体上施加线性弹簧单元来模拟焊接变形的方法，其关键在于弹簧单元参数及其位置的确定。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "收缩力法",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与弹簧单元法类似，但将弹簧单元替换为根据经验公式计算的焊缝收缩力，用于模拟焊接变形。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "线弹性体积收缩法",
+        "type": [
+            "分析方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "假设熔化金属冷却过程中的热收缩是导致焊接变形的主要因素，通过施加温度初始条件模拟冷却过程，得到残余变形量。 | 一种焊接变形计算方法，假定熔化金属冷却过程中的热收缩是导致焊接变形的主要因素，通过实验或数值模拟获取接头处垂直于焊缝方向的熔化部分截面形状，并在有限元模型中施加900°C的温度初始条件，模拟冷却过程以得到残余变形量。",
+        "chunk_ids": [
+            156,
+            157
+        ]
+    },
+    {
+        "entity_name": "焊接热循环",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中材料经历的加热和冷却过程，对残余应力和变形有重要影响。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接顺序",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中各焊缝的施焊顺序，对焊接变形和残余应力分布有显著影响。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接接头",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中两个或多个构件连接的部位，其类型和形式对焊接变形和残余应力有重要影响。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "材料性能",
+        "type": [
+            "材料属性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料在焊接过程中的物理和力学特性，如热膨胀系数、塑性变形能力等，对焊接变形和残余应力有重要影响。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "热膨胀系数",
+        "type": [
+            "材料属性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料在温度变化时的膨胀或收缩程度，是焊接热弹塑性分析中的重要参数。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "有限元分析",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种数值模拟方法，用于求解复杂工程问题中的应力、应变和变形，广泛应用于焊接过程模拟。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "残余变形",
+        "type": [
+            "分析对象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接完成后结构中存在的永久性变形，是焊接工艺设计和质量控制的重要指标。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接实验",
+        "type": [
+            "实验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过实际焊接过程测量应变、应力等参数，用于建立焊接数据库和验证分析方法。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "应变测量",
+        "type": [
+            "实验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过实验手段测量焊接过程中材料的应变变化，用于分析焊接变形和残余应力。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接数据库",
+        "type": [
+            "数据资源"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "存储焊接过程中关键参数（如固有应变）的集合，用于支持焊接分析和模拟。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "焊接结构",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由焊接连接而成的船舶或机械结构，其形式和连接方式对焊接变形和残余应力有重要影响。",
+        "chunk_ids": [
+            156
+        ]
+    },
+    {
+        "entity_name": "船舶舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体结构之外的船舶所有设备、装置和设施的安装工作，是对船体进行系统化处理和安装的生产活动。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "船舶涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为了防止材料腐蚀、延长船舶寿命，对原材料、器件和船体等进行除锈、清理和涂装等处理工程，具有外表装饰和船底防污等作用。 | 船舶涂装是为防止钢材腐蚀、延长船舶使用寿命而进行的表面处理工程，包括除锈、涂漆处理，具有防腐蚀、外表装饰和防污等作用。",
+        "chunk_ids": [
+            157,
+            159
+        ]
+    },
+    {
+        "entity_name": "机舱部分",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶产生动力用的各种设备和附属设施，例如主机和轴系装置，发电机和附属装置，各种辅机、泵、锅炉、箱柜和各种铁舾装件等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "航行设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶航行用的各种设备，包括各种航海仪器，通讯设备以及声、光、形（如球形、锥形等）和旗等信号装置。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "舱设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶操纵用的设备，包括舵叶、舵轴、舵机和转舵机等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "锚设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在锚地停泊用的设备，包括锚机、锚链、掣链器、导链轮、弃链器、锚链管和锚等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "系泊与拖曳设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在泊位停泊用的设备，包括导缆孔、导缆器、带缆柱、卷车和绞车系泊设备，拖钩、弓架、承梁、拖缆孔和拖缆绞车等拖曳设备。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "起货设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶装卸货物用的设备，包括起货机、起重桅、吊杆、钢索、滑车和吊钩等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "通道与关启设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船上通行和通孔关启用的设备，包括梯子、栏杆、各种门窗、人孔盖、舱口盖和货舱盖等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "舱室设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船员和旅客生活用的各种设备，包括家具、装具、卫生用具、厨房设备、冷库设备和空调装置等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "救生设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在海难中救生用的设备，包括救生艇、吊艇架、起艇机、救生筏、救生圈和救生衣等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "消防设备",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船上发生火灾时报警和灭火用的设备，包括报警装置、自动喷水灭火系统、消防水龙、灭火器和消防杂件等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "横向侧推装置",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶操纵的辅助设备，可提供横向推力以辅助船舶转向或保持航向。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "防摇鳍",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶底部的鳍状结构，用于减少船舶在航行中的摇摆，提高稳定性。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "滚装跳板",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滚装船装卸货物的跳板结构，允许车辆直接驶入和驶出船舱。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "集装箱绑扎装置",
+        "type": [
+            "部件分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定集装箱在船舶上的装置，确保货物在航行过程中安全固定。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "船体表面工程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用各种材料对船体表面直接进行工程处理的工作，涉及的材料包括油漆、合成树脂、有机溶剂、水泥、瓷砖、陶砖、橡胶、塑料、玻璃纤维、陶瓷棉、岩棉、珍珠岩棉、硅酸钙板、木板、钢板和有色金属等。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "防腐蚀处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装的作业内容，用于防止材料腐蚀，延长船舶寿命。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "防火绝缘处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在舱壁、甲板、甲板顶面和围壁等表面涂敷防火材料或隔热隔音材料，使舱室与火源、热源和噪声源等隔离。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "舱室装饰处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对墙壁、天花板和地板等涂敷适当的涂料或敷料，或者选用和安装合适的预制板或复合板，以便美化环境，增强舱室的适居性。",
+        "chunk_ids": [
+            157
+        ]
+    },
+    {
+        "entity_name": "复合岩棉镶板系统",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于舱室分隔的新型材料和工艺，同时具有防腐蚀、绝缘和装饰功能。 | 用于分隔居住舱室的新型材料系统，具有防腐蚀、绝缘和装饰功能。",
+        "chunk_ids": [
+            157,
+            158
+        ]
+    },
+    {
+        "entity_name": "区域造船法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船模式，采用壳、舾、涂一体化的区域导向型组织方式，将舾装划分为甲板舾装、住舱舾装、机舱舾装和电气舾装。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "舾装单元",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由若干个舾装件组合而成的舾装组合体，用于在车间内组装成舾装组合体。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "分段舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段或总段制造阶段，将舾装件或舾装单元安装在分段或总段上的工艺，具有提高生产效率、安装质量和作业安全性等优点。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "船内舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船台舾装，包括不能在分段或总段上安装的舾装件、易受天气影响的舾装件以及分段之间的连接件，按区域平行进行。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "托盘",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为作业单位和器材集配单位，用于组织生产、进行物资配套和工程进度安排。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "托盘管理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以托盘为单位进行生产组织、物资配套和工程进度安排的科学管理方法，包括托盘划分、集配和发送。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "舾装件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装中需要安装的零部件，如柴油机、发电机、雷达、螺旋桨、锚、管子、风管、基座等。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "区域舾装法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船舶舾装划分为甲板、住舱、机舱等区域，按区域导向型组织设计与生产的作业模式。",
+        "chunk_ids": [
+            158
+        ]
+    },
+    {
+        "entity_name": "舾装区域划分",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造过程中，对舾装区域进行中、小区域划分，需考虑船体分段和船舶总装方案对区域划分的影响。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "托盘划分",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "托盘划分是舾装工作中的重要步骤，需按阶段时间、安装位置、作业顺序和工作量大小进行划分，每个托盘的工作量原则上为两个工人一周的工作量。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "托盘对象品",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指可以列入托盘管理的物品，如管件、设备、基座、支架等，与非托盘对象品相对。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "非托盘对象品",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指不宜列入托盘管理的物品，如过大过重的物品、贵重物品、过小或易损的物品等，其备料和交付采用其他方式进行管理。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "托盘集配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "托盘集配包括托盘器材的准备和集中两个阶段，器材准备涉及订货、采购和生产安排，器材集中则按托盘交付期计划将舾装件装入托盘。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "托盘发送",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "托盘发送是根据托盘交付期计划的日程安排，将舾装托盘运至生产现场，交给施工人员。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "钢材预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材预处理是对钢材进行矫平、除锈(含氧化皮)和涂防护漆等作业，是船舶涂装作业的一部分。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "分段涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段涂装是船舶涂装作业的一种制造级，包括对与船体连接的支架、基座、马脚等舾装件的涂装。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "船上涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船上涂装是船舶涂装作业的一种制造级，通常在舾装单元和舾装件制作的后期完成相应的涂装作业。",
+        "chunk_ids": [
+            159
+        ]
+    },
+    {
+        "entity_name": "完工涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "完工涂装是船舶涂装作业的一种制造级，通常在船舶建造完成后进行，以完成整体涂装工作。",
+        "chunk_ids": [
+            159
+        ]
+    }
+]

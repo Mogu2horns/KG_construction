@@ -1,0 +1,4592 @@
+[
+    {
+        "subject": "B型船舶",
+        "relation": "determines",
+        "object": "干舷",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "B-60型船舶",
+        "relation": "belongs_to",
+        "object": "B型船舶",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "散货船",
+        "relation": "belongs_to",
+        "object": "B-60型船舶",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "belongs_to",
+        "object": "B型船舶",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "矿砂船",
+        "relation": "belongs_to",
+        "object": "B-100型船舶",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "纵向舱壁",
+        "relation": "contains",
+        "object": "边舱",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "边舱",
+        "relation": "contains",
+        "object": "压载水",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "机舱",
+        "relation": "belongs_to",
+        "object": "可浸舱室",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "分舱要求",
+        "relation": "constrained_by",
+        "object": "船舶类型",
+        "chunk_id": "900"
+    },
+    {
+        "subject": "A型船舶",
+        "relation": "has",
+        "object": "分舱要求",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "B-60型船舶",
+        "relation": "has",
+        "object": "分舱要求",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "has",
+        "object": "分舱要求",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "渗透率",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "渗透率",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "横舱壁",
+        "relation": "has",
+        "object": "浸透率",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "水线",
+        "relation": "has",
+        "object": "开口",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "稳心高度",
+        "relation": "has",
+        "object": "最大横倾角",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "船型",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "舵杆水线",
+        "relation": "used_in",
+        "object": "干舷计算",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "型深",
+        "relation": "used_in",
+        "object": "干舷计算",
+        "chunk_id": "901"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "平甲板",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "方形系数",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "方形系数",
+        "relation": "determines",
+        "object": "干舷",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "吃水",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "型排水量",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "型排水量",
+        "relation": "determines",
+        "object": "方形系数",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "干舷长度",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷长度",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "affects",
+        "object": "平甲板",
+        "chunk_id": "902"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "型深",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "稳性",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "载重线",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "抗沉性",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "吃水",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "浮性",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "自由板",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "舱口盖安装",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "风雨密要求",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑有效长度",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "甲板开口保护",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑修正",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船长",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "线性插值",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "上层建筑",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "凸形甲板",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "舷弧",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "规范",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "木材干舷规范",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "国际散化准则",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "国际载重线公约",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "B型船",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船首楼",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体强度",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体变形",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体应力",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体结构",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体设计",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体建造",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体工艺",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体材料",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体焊接",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体装配",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体涂装",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体舾装",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体检验",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体测试",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体维护",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体安全",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体可靠性",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体寿命",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体性能",
+        "chunk_id": "903"
+    },
+    {
+        "subject": "规范",
+        "relation": "contains",
+        "object": "B型船首楼尺寸的修正",
+        "chunk_id": "904"
+    },
+    {
+        "subject": "规范",
+        "relation": "contains",
+        "object": "舷弧修正",
+        "chunk_id": "904"
+    },
+    {
+        "subject": "舷弧",
+        "relation": "affects",
+        "object": "干舷甲板",
+        "chunk_id": "904"
+    },
+    {
+        "subject": "船楼",
+        "relation": "affects",
+        "object": "干舷甲板",
+        "chunk_id": "904"
+    },
+    {
+        "subject": "船尾",
+        "relation": "has",
+        "object": "纵坐标值",
+        "chunk_id": "904"
+    },
+    {
+        "subject": "船首",
+        "relation": "has",
+        "object": "纵坐标值",
+        "chunk_id": "904"
+    },
+    {
+        "subject": "舷弧",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "舷弧",
+        "relation": "determines",
+        "object": "修正值",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "标准舷弧",
+        "relation": "compared_to",
+        "object": "实际舷弧",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "修正值",
+        "relation": "applied_to",
+        "object": "干舷",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "located_at",
+        "object": "船中前后各 0.1L",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "covers",
+        "object": "船中",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "线性插值",
+        "relation": "applied_to",
+        "object": "减除量",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "多余量",
+        "relation": "reduces",
+        "object": "干舷",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "船中",
+        "relation": "covers",
+        "object": "上层建筑",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "船首高度",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "船首高度",
+        "relation": "determined_by",
+        "object": "夏季干舷水线",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "船东",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determined_by",
+        "object": "季节和航区",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "干舷",
+        "relation": "matches_with",
+        "object": "最大几何夏季吃水",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "船首高度",
+        "relation": "constrained_by",
+        "object": "公约规范值",
+        "chunk_id": "905"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "夏季干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "热带干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "冬季干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "北大西洋冬季干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "木材干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "夏季干舷",
+        "relation": "affects",
+        "object": "热带干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "夏季干舷",
+        "relation": "affects",
+        "object": "冬季干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "夏季干舷",
+        "relation": "affects",
+        "object": "木材干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "夏季型吃水",
+        "relation": "affects",
+        "object": "热带干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "夏季型吃水",
+        "relation": "affects",
+        "object": "冬季干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "夏季型吃水",
+        "relation": "affects",
+        "object": "木材干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "TPC",
+        "relation": "affects",
+        "object": "淡水区船舶的最小干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "排水量",
+        "relation": "affects",
+        "object": "淡水区船舶的最小干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "冬季木材干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "热带木材干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "淡水木材干舷",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "affects",
+        "object": "上层建筑",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "affects",
+        "object": "干舷计算",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "affects",
+        "object": "船舶规范",
+        "chunk_id": "906"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "稳性",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "上层建筑端壁",
+        "relation": "part_of",
+        "object": "上层建筑",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "上层建筑端壁",
+        "relation": "has",
+        "object": "基线高度",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "part_of",
+        "object": "舱口",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "has",
+        "object": "建造高度",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "防水油布",
+        "relation": "used_by",
+        "object": "舱口盖",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "防水油布",
+        "relation": "used_by",
+        "object": "舱口",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "舱口围板",
+        "chunk_id": "907"
+    },
+    {
+        "subject": "舱口盖支承表面",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "木质舱口盖",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "木质舱口盖",
+        "relation": "has",
+        "object": "跨度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "可拆低碳钢舱口盖",
+        "relation": "determines",
+        "object": "强度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "船长",
+        "relation": "determines",
+        "object": "设定载荷",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "设定载荷",
+        "relation": "affects",
+        "object": "最大应力",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "最大应力",
+        "relation": "constrained_by",
+        "object": "材料的最小极限强度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "挠度",
+        "relation": "constrained_by",
+        "object": "跨距",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "低碳钢可拆梁",
+        "relation": "applied_to",
+        "object": "载荷计算",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "最大应力",
+        "relation": "constrained_by",
+        "object": "材料的最小极限强度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "挠度",
+        "relation": "constrained_by",
+        "object": "跨距",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "低碳钢镀层",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "低碳钢镀层",
+        "relation": "has",
+        "object": "加强筋间距",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "活动梁",
+        "relation": "has",
+        "object": "建造强度",
+        "chunk_id": "908"
+    },
+    {
+        "subject": "舱口楔耳",
+        "relation": "uses",
+        "object": "楔子",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "舱口楔耳",
+        "relation": "has",
+        "object": "斜度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "楔子",
+        "relation": "has",
+        "object": "斜度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "楔子",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "楔子",
+        "relation": "made_of",
+        "object": "硬质木材",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "requires",
+        "object": "钢制压条",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "防水油布",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "防水油布",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "舱口栏板",
+        "relation": "related_to",
+        "object": "舱口盖",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "低碳钢舱口盖",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "低碳钢舱口盖",
+        "relation": "has",
+        "object": "挠度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "低碳钢舱口盖",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "加强筋",
+        "relation": "related_to",
+        "object": "舱口盖",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "硬度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "affects",
+        "object": "舱口栏板高度",
+        "chunk_id": "909"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "密封性",
+        "chunk_id": "910"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "requires",
+        "object": "主管机关认可",
+        "chunk_id": "910"
+    },
+    {
+        "subject": "舱棚",
+        "relation": "contains",
+        "object": "钢门",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "钢门",
+        "relation": "located_at",
+        "object": "舱棚出入口",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "钢门",
+        "relation": "has",
+        "object": "门槛",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "高度",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "位置1",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "高度600mm",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "位置2",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "高度380mm",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "has",
+        "object": "支撑",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "located_at",
+        "object": "通风筒",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "has",
+        "object": "高度",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "位置1",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "900mm",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "位置2",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "760mm",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "has",
+        "object": "水密装置",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "空气管",
+        "relation": "has",
+        "object": "结构",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "空气管",
+        "relation": "has",
+        "object": "加强",
+        "chunk_id": "911"
+    },
+    {
+        "subject": "空气管",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "空气管",
+        "relation": "has",
+        "object": "密闭装置",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "空气管",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "空气管",
+        "relation": "located_at",
+        "object": "上层建筑",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "水密门",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "水密门",
+        "relation": "supports",
+        "object": "结构完整性",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "开口",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "开口",
+        "relation": "has",
+        "object": "水密门",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "排水口",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "排水口",
+        "relation": "has",
+        "object": "水密门",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "排水口",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "part_of",
+        "object": "排水口",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "used_by",
+        "object": "排水口",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "located_at",
+        "object": "排污管",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "has",
+        "object": "反向截止功能",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "located_at",
+        "object": "夏季水线",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "part_of",
+        "object": "机器处所",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "机器处所",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "has",
+        "object": "就地控制",
+        "chunk_id": "912"
+    },
+    {
+        "subject": "机器处所",
+        "relation": "contains",
+        "object": "排水孔",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "船壳",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "uses",
+        "object": "自动止回阀",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "has",
+        "object": "水密内侧窗盖",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "affects",
+        "object": "干舷甲板平行线",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "located_at",
+        "object": "舷墙",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "applied_to",
+        "object": "舷弧",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "has",
+        "object": "面积",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "面积",
+        "relation": "determined_by",
+        "object": "舷墙长度",
+        "chunk_id": "913"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "located_at",
+        "object": "舷墙",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "supports",
+        "object": "排水",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "connects_to",
+        "object": "栏杆",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "栏杆",
+        "relation": "applied_to",
+        "object": "舷墙排水口",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "护栏",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "护栏",
+        "relation": "located_at",
+        "object": "上层建筑甲板",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "护栏",
+        "relation": "has",
+        "object": "间隙",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "located_at",
+        "object": "上层建筑",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "船员",
+        "relation": "protected_by",
+        "object": "护栏",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "船员",
+        "relation": "protected_by",
+        "object": "舷窗",
+        "chunk_id": "914"
+    },
+    {
+        "subject": "机舱棚",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "机舱棚",
+        "relation": "uses",
+        "object": "水密门",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "舷梯步桥",
+        "relation": "located_at",
+        "object": "上层建筑甲板",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "舷梯步桥",
+        "relation": "connects_to",
+        "object": "甲板下过道",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "舱口",
+        "relation": "has",
+        "object": "水密舱盖",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "舱口",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "排水装置",
+        "relation": "located_at",
+        "object": "露天甲板",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "排水装置",
+        "relation": "uses",
+        "object": "栏杆",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "凸形甲板",
+        "relation": "connects_to",
+        "object": "上层建筑",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "凸形甲板",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "国际海上人命安全公约",
+        "relation": "affects",
+        "object": "结构防火",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "结构防火",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "规范",
+        "relation": "determines",
+        "object": "船舶建造",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "客轮",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "货轮",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "油船",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "915"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "不燃性材料",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "自动防火监测和报警系统",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "自动喷水的报警系统",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "主船体",
+        "relation": "part_of",
+        "object": "A类区域",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "part_of",
+        "object": "A类区域",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "甲板室",
+        "relation": "part_of",
+        "object": "A类区域",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "A类主水平区域",
+        "relation": "has",
+        "object": "喷水和非喷水区域的屏障",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "主竖区",
+        "relation": "has",
+        "object": "A、B、C三级舱壁",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "B类封闭舱壁",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "自动防火监测和报警系统",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "烟雾探测",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "手动报警按钮",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "greater_than",
+        "object": "500t",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "散货船",
+        "relation": "uses",
+        "object": "钢制材料",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "居住空间",
+        "relation": "uses",
+        "object": "防火方法",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "Ic法",
+        "relation": "requires",
+        "object": "B级或C级分隔",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "Ic法",
+        "relation": "requires",
+        "object": "自动喷水装置",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "Ic法",
+        "relation": "requires",
+        "object": "火灾检测和报警系统",
+        "chunk_id": "916"
+    },
+    {
+        "subject": "固定式火灾检测和报警系统",
+        "relation": "contains",
+        "object": "可能发生火源的所有处所",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "居住舱",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "居住舱",
+        "relation": "determines",
+        "object": "A、B、C三级分隔",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "钢制隔热",
+        "relation": "used_in",
+        "object": "主要机舱顶棚",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "气体灭火系统",
+        "relation": "located_at",
+        "object": "货舱区域",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "主管机关",
+        "relation": "approves",
+        "object": "安装类似灭火系统",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "located_at",
+        "object": "面向油舱",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "甲板室",
+        "relation": "located_at",
+        "object": "面向油舱",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "A60隔热标准",
+        "relation": "applied_to",
+        "object": "居住舱边界",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "钢盖",
+        "relation": "used_in",
+        "object": "主甲板第一层窗户",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "固定泡沫灭火系统",
+        "relation": "located_at",
+        "object": "油舱和货舱甲板区域",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "固定惰性气体系统",
+        "relation": "located_at",
+        "object": "油舱和货舱甲板区域",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "A、B、C三级分隔",
+        "relation": "used_for",
+        "object": "划分不同火灾风险的相连区域",
+        "chunk_id": "917"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "uses",
+        "object": "钢材",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "applied_to",
+        "object": "标准耐火试验",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "has",
+        "object": "温度限制",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "has",
+        "object": "测试时间",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "connects_to",
+        "object": "钢制舱壁",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "connects_to",
+        "object": "甲板",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "B级防火分隔",
+        "relation": "applied_to",
+        "object": "标准耐火试验",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "B级防火分隔",
+        "relation": "has",
+        "object": "温度限制",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "B级防火分隔",
+        "relation": "has",
+        "object": "测试时间",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "C级防火分隔",
+        "relation": "uses",
+        "object": "不燃材料",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "C级防火分隔",
+        "relation": "has",
+        "object": "温度限制",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "C级防火分隔",
+        "relation": "has",
+        "object": "测试时间",
+        "chunk_id": "918"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "belongs_to",
+        "object": "材料部件",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "determines",
+        "object": "防火级别",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "标准耐火试验",
+        "relation": "applied_to",
+        "object": "防火分隔",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "标准耐火试验",
+        "relation": "has",
+        "object": "时间-温度关系点",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "客舱走廊",
+        "relation": "has",
+        "object": "防火分隔",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "客舱走廊",
+        "relation": "determines",
+        "object": "防火级别",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "防火分区",
+        "relation": "has",
+        "object": "开口",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "affects",
+        "object": "烟气扩散",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "affects",
+        "object": "温度上升",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "affects",
+        "object": "明火扩散",
+        "chunk_id": "919"
+    },
+    {
+        "subject": "防火门",
+        "relation": "belongs_to",
+        "object": "永久性封闭舱室",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "防火等级",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "倾斜角度",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "控制闭合功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "独立性",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "通风管",
+        "relation": "contains",
+        "object": "防火气阀",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火气阀",
+        "relation": "has",
+        "object": "自动关闭功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火气阀",
+        "relation": "has",
+        "object": "故障保护功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火阀",
+        "relation": "has",
+        "object": "人工控制功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火阀",
+        "relation": "has",
+        "object": "状态指示功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "belongs_to",
+        "object": "舱壁甲板",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "运输功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "通行功能",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "非垂直防火分区",
+        "chunk_id": "920"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "contains",
+        "object": "固定灭火系统",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "contains",
+        "object": "防火隔离区",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "防火隔离区",
+        "relation": "uses",
+        "object": "耐火材料",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "自动火灾监测系统",
+        "relation": "uses",
+        "object": "固定式压力水雾灭火系统",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "特殊排水口",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "特殊排水口",
+        "relation": "affects",
+        "object": "船舶稳性",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "IMO高速船规范（HSC规范）",
+        "relation": "applied_to",
+        "object": "防火保护安排",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "IMO高速船规范（HSC规范）",
+        "relation": "replaces",
+        "object": "SOLAS钢制船公约",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "防火等级",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "耐火材料",
+        "relation": "acts_on",
+        "object": "热应力",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "防火隔离",
+        "relation": "determines",
+        "object": "规定时间",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "防火隔离",
+        "relation": "connects_to",
+        "object": "区域",
+        "chunk_id": "921"
+    },
+    {
+        "subject": "计算机集成制造",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "设备",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "CIM",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "CIM",
+        "relation": "belongs_to",
+        "object": "技术理念",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "集成制造",
+        "relation": "belongs_to",
+        "object": "制造模式",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "计算机集成制造",
+        "relation": "enables",
+        "object": "三维设计",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "计算机集成制造",
+        "relation": "applied_to",
+        "object": "造船领域",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "计算机集成制造",
+        "relation": "applied_to",
+        "object": "设计到制造、管理的全过程信息化集成",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "计算机集成制造",
+        "relation": "applied_to",
+        "object": "现代化造船模式的高级状态",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "计算机集成制造",
+        "relation": "applied_to",
+        "object": "生产管理、施工工作要领、工作基准和基本设计、详细设计、生产设计的全面一体化",
+        "chunk_id": "922"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "uses",
+        "object": "信息技术",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "uses",
+        "object": "计算机技术",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "信息集成",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "功能集成",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "过程集成",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "并行工程",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "敏捷制造",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "企业间集成",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "数字化",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "虚拟现实",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "虚拟产品开发",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "虚拟制造",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "contains",
+        "object": "虚拟企业",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "applied_to",
+        "object": "造船领域",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "applied_to",
+        "object": "设计到制造、管理的全过程信息化集成",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "计算机集成制造系统",
+        "relation": "applied_to",
+        "object": "生产管理、施工工作要领、工作基准和基本设计、详细设计、生产设计的全面一体化",
+        "chunk_id": "923"
+    },
+    {
+        "subject": "全球制造",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "敏捷制造",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "网络制造",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "动态联盟技术",
+        "relation": "applied_to",
+        "object": "船舶敏捷制造",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "敏捷设计生产技术",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "柔性可重组机器技术",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "STEP",
+        "relation": "belongs_to",
+        "object": "标准化技术",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "EDI",
+        "relation": "belongs_to",
+        "object": "标准化技术",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "P-LIB",
+        "relation": "belongs_to",
+        "object": "标准化技术",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "绿色制造",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "清洁化生产",
+        "relation": "belongs_to",
+        "object": "绿色制造",
+        "chunk_id": "924"
+    },
+    {
+        "subject": "CIM",
+        "relation": "contains",
+        "object": "功能集成",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "contains",
+        "object": "信息集成",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "uses",
+        "object": "信息技术",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "improves",
+        "object": "企业适应市场竞争的能力",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "belongs_to",
+        "object": "技术理念",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "applied_to",
+        "object": "造船领域",
+        "chunk_id": "925"
+    },
+    {
+        "subject": "CIM",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIM",
+        "relation": "belongs_to",
+        "object": "技术理念",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "设备",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/标准",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统/技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "belongs_to",
+        "object": "系统",
+        "chunk_id": "926"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "计算机辅助经营决策与生产管理技术",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "计算机辅助设计和分析技术",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "计算机辅助制造技术",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "计算机辅助质量管理与控制技术",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "人/机构",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "经营管理",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "技术",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "工作流",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "物质流",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "信息流",
+        "chunk_id": "927"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "人/机构",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "经营管理",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "技术",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "人/机构",
+        "relation": "applied_to",
+        "object": "经营管理",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "技术",
+        "relation": "applied_to",
+        "object": "经营管理",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "人/机构",
+        "relation": "applied_to",
+        "object": "技术",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "determines",
+        "object": "整体优化",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "人/机构",
+        "relation": "improves",
+        "object": "经营管理",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "技术",
+        "relation": "improves",
+        "object": "经营管理",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "人/机构",
+        "relation": "improves",
+        "object": "技术",
+        "chunk_id": "928"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "经营管理信息分系统",
+        "chunk_id": "929"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "工程设计自动化系统",
+        "chunk_id": "929"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "制造自动化系统",
+        "chunk_id": "929"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "质量保证信息系统",
+        "chunk_id": "929"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "数据库管理",
+        "chunk_id": "929"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "计算机网络",
+        "chunk_id": "929"
+    },
+    {
+        "subject": "经营管理信息分系统",
+        "relation": "contains",
+        "object": "MRPⅡ",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "生产经营计划",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "产品数据",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "物料需求计划",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "生产作业计划",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "能力需求计划",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "库存管理",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "财务管理",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "采购管理",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "MRPⅡ",
+        "relation": "contains",
+        "object": "销售管理",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "uses",
+        "object": "计算机技术",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "contains",
+        "object": "CAD",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "contains",
+        "object": "CAPP",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "contains",
+        "object": "CAM",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "inputs",
+        "object": "产品概念设计",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "inputs",
+        "object": "工程结构分析",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "inputs",
+        "object": "详细设计",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "inputs",
+        "object": "工艺设计",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "工程设计自动化分系统",
+        "relation": "inputs",
+        "object": "数控编程",
+        "chunk_id": "930"
+    },
+    {
+        "subject": "CAD",
+        "relation": "contains",
+        "object": "有限元分析",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAD",
+        "relation": "contains",
+        "object": "产品造型",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAD",
+        "relation": "contains",
+        "object": "图形分析处理",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAD",
+        "relation": "contains",
+        "object": "优化设计",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAD",
+        "relation": "contains",
+        "object": "动态分析与仿真",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAD",
+        "relation": "contains",
+        "object": "物料清单生成",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "inputs",
+        "object": "产品设计",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "outputs",
+        "object": "工时定额计算",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "contains",
+        "object": "工装夹具选择或设计",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "contains",
+        "object": "加工余量分配",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "contains",
+        "object": "切削用量选择",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "contains",
+        "object": "工序图生成",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "contains",
+        "object": "机床和刀具选择",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAM",
+        "relation": "contains",
+        "object": "刀具路径确定",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAM",
+        "relation": "contains",
+        "object": "刀位文件生成",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAM",
+        "relation": "contains",
+        "object": "刀具轨迹仿真",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CAM",
+        "relation": "contains",
+        "object": "NC代码生成",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CIM",
+        "relation": "enables",
+        "object": "CAD、CAPP、CAM集成",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "CIM",
+        "relation": "enables",
+        "object": "产品数据交换和共享",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "制造自动化分系统",
+        "relation": "part_of",
+        "object": "CIMS",
+        "chunk_id": "931"
+    },
+    {
+        "subject": "制造自动化分系统",
+        "relation": "contains",
+        "object": "机械加工系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化分系统",
+        "relation": "contains",
+        "object": "控制系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化分系统",
+        "relation": "contains",
+        "object": "物流系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化分系统",
+        "relation": "contains",
+        "object": "监控系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "机械加工系统",
+        "relation": "contains",
+        "object": "数控机床",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "机械加工系统",
+        "relation": "contains",
+        "object": "加工中心",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "机械加工系统",
+        "relation": "contains",
+        "object": "柔性制造单元",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "机械加工系统",
+        "relation": "contains",
+        "object": "柔性制造系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "机械加工系统",
+        "relation": "contains",
+        "object": "测量设备",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "机械加工系统",
+        "relation": "contains",
+        "object": "装配设备",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "控制系统",
+        "relation": "part_of",
+        "object": "制造自动化分系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "控制系统",
+        "relation": "enables",
+        "object": "制造自动化系统集成",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "物流系统",
+        "relation": "part_of",
+        "object": "制造自动化分系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "物流系统",
+        "relation": "enables",
+        "object": "制造自动化系统集成",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "监控系统",
+        "relation": "part_of",
+        "object": "制造自动化分系统",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "监控系统",
+        "relation": "enables",
+        "object": "制造自动化工作质量保证",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "uses",
+        "object": "NC代码",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "produces",
+        "object": "合格的零件",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "produces",
+        "object": "部件",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "produces",
+        "object": "产品",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "inputs",
+        "object": "毛坯",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "outputs",
+        "object": "制造现场的各种信息",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "制造自动化系统",
+        "relation": "feedbacks_to",
+        "object": "相关部门",
+        "chunk_id": "932"
+    },
+    {
+        "subject": "质量保证分系统",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "933"
+    },
+    {
+        "subject": "质量保证分系统",
+        "relation": "covers",
+        "object": "产品生命周期",
+        "chunk_id": "933"
+    },
+    {
+        "subject": "质量保证分系统",
+        "relation": "contains",
+        "object": "质量保证规划",
+        "chunk_id": "933"
+    },
+    {
+        "subject": "质量保证分系统",
+        "relation": "contains",
+        "object": "工况监控采集",
+        "chunk_id": "933"
+    },
+    {
+        "subject": "质量保证分系统",
+        "relation": "contains",
+        "object": "质量分析评价",
+        "chunk_id": "933"
+    },
+    {
+        "subject": "质量保证分系统",
+        "relation": "contains",
+        "object": "控制",
+        "chunk_id": "933"
+    },
+    {
+        "subject": "质量计划子系统",
+        "relation": "contains",
+        "object": "质量标准",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量计划子系统",
+        "relation": "contains",
+        "object": "监测计划",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量计划子系统",
+        "relation": "contains",
+        "object": "检测规程",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量监测管理子系统",
+        "relation": "contains",
+        "object": "进厂材料",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量监测管理子系统",
+        "relation": "contains",
+        "object": "外购件",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量监测管理子系统",
+        "relation": "contains",
+        "object": "外协议",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量监测管理子系统",
+        "relation": "contains",
+        "object": "设计质量模块",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量分析评价子系统",
+        "relation": "contains",
+        "object": "产品设计质量",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量分析评价子系统",
+        "relation": "contains",
+        "object": "外购外协件质量",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量分析评价子系统",
+        "relation": "contains",
+        "object": "工序控制点质量",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量分析评价子系统",
+        "relation": "contains",
+        "object": "供应商能力",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量分析评价子系统",
+        "relation": "contains",
+        "object": "质量成本",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量信息综合管理与反馈控制子系统",
+        "relation": "contains",
+        "object": "质量报表生成",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量信息综合管理与反馈控制子系统",
+        "relation": "contains",
+        "object": "质量综合查询",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量信息综合管理与反馈控制子系统",
+        "relation": "contains",
+        "object": "产品使用过程质量综合管理",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "质量信息综合管理与反馈控制子系统",
+        "relation": "contains",
+        "object": "信息反馈",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "数据库管理分系统",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "数据库管理分系统",
+        "relation": "applied_to",
+        "object": "信息集成",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "数据库管理分系统",
+        "relation": "supports",
+        "object": "信息交换",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "数据库管理分系统",
+        "relation": "supports",
+        "object": "信息共享",
+        "chunk_id": "934"
+    },
+    {
+        "subject": "数据库管理分系统",
+        "relation": "uses",
+        "object": "分布式异型数据库技术",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "工程数据库管理系统",
+        "relation": "applied_to",
+        "object": "CAD/CAM信息处理",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "计算机网络分系统",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "计算机网络分系统",
+        "relation": "enables",
+        "object": "信息集成",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "计算机网络分系统",
+        "relation": "has",
+        "object": "通信协议",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "计算机网络分系统",
+        "relation": "has",
+        "object": "硬件共享功能",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "计算机网络分系统",
+        "relation": "has",
+        "object": "软件共享功能",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "计算机网络分系统",
+        "relation": "has",
+        "object": "数据共享功能",
+        "chunk_id": "935"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "uses",
+        "object": "局域网",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "uses",
+        "object": "广域网",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "数据库管理分系统",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "计算机网络分系统",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "supports",
+        "object": "功能集成",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "递阶控制系统",
+        "relation": "has",
+        "object": "工厂层",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "递阶控制系统",
+        "relation": "has",
+        "object": "车间层",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "递阶控制系统",
+        "relation": "has",
+        "object": "单元层",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "递阶控制系统",
+        "relation": "has",
+        "object": "工作站层",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "递阶控制系统",
+        "relation": "has",
+        "object": "设备层",
+        "chunk_id": "936"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "工厂层",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "CIMS",
+        "relation": "contains",
+        "object": "车间层",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "长期生产计划",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "生产资源需求",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "产品开发",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "工艺过程规划",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "成本核算",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "库存统计",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "工厂层",
+        "relation": "inputs",
+        "object": "用户订单处理",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "产品物料清单",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "工艺过程数据",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "生产计划",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "物料需求计划",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "作业订单",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "加工设备",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "刀具",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "夹具",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "机器人",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "物料运输设备",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "车间层",
+        "relation": "inputs",
+        "object": "工作站",
+        "chunk_id": "937"
+    },
+    {
+        "subject": "单元层",
+        "relation": "contains",
+        "object": "零件",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "单元层",
+        "relation": "contains",
+        "object": "工作站",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "单元层",
+        "relation": "contains",
+        "object": "质量",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "单元层",
+        "relation": "contains",
+        "object": "技术规范",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "工作站层",
+        "relation": "contains",
+        "object": "加工工作站",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "工作站层",
+        "relation": "contains",
+        "object": "检验工作站",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "工作站层",
+        "relation": "contains",
+        "object": "刀具管理工作站",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "工作站层",
+        "relation": "contains",
+        "object": "物料储运工作站",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "加工工作站",
+        "relation": "acts_on",
+        "object": "零件",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "检验工作站",
+        "relation": "acts_on",
+        "object": "零件",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "刀具管理工作站",
+        "relation": "acts_on",
+        "object": "刀具",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "物料储运工作站",
+        "relation": "acts_on",
+        "object": "物料",
+        "chunk_id": "938"
+    },
+    {
+        "subject": "设备层",
+        "relation": "contains",
+        "object": "加工机床",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "contains",
+        "object": "机器人",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "contains",
+        "object": "坐标测量机",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "contains",
+        "object": "无人小车",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "contains",
+        "object": "控制器",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "acts_on",
+        "object": "加工",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "acts_on",
+        "object": "测量",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "acts_on",
+        "object": "运输",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "设备层",
+        "relation": "part_of",
+        "object": "CIMS递阶控制结构",
+        "chunk_id": "939"
+    },
+    {
+        "subject": "CIMS/OSA体系结构",
+        "relation": "belongs_to",
+        "object": "CIMS",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "CIMS/OSA体系结构",
+        "relation": "applied_to",
+        "object": "制造业CIMS",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "CIMS/OSA体系结构",
+        "relation": "enables",
+        "object": "规划、设计、实施和运行",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "CIMS/OSA体系结构",
+        "relation": "has",
+        "object": "三维坐标",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "三维坐标",
+        "relation": "belongs_to",
+        "object": "CIMS/OSA体系结构",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "结构方向",
+        "relation": "belongs_to",
+        "object": "三维坐标",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "建模方向",
+        "relation": "belongs_to",
+        "object": "三维坐标",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "视图方向",
+        "relation": "belongs_to",
+        "object": "三维坐标",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "通用程度维",
+        "relation": "corresponds_to",
+        "object": "结构方向",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "生命周期维",
+        "relation": "corresponds_to",
+        "object": "建模方向",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "视图维",
+        "relation": "corresponds_to",
+        "object": "视图方向",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "从一般到特殊",
+        "relation": "corresponds_to",
+        "object": "通用程度维",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "推导求解",
+        "relation": "corresponds_to",
+        "object": "生命周期维",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "逐步生成",
+        "relation": "corresponds_to",
+        "object": "视图维",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "CIMS/OSA立方体",
+        "relation": "is_a",
+        "object": "结构模型",
+        "chunk_id": "940"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "contains",
+        "object": "通用层",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "contains",
+        "object": "部分通用层",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "contains",
+        "object": "专用层",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "通用层",
+        "relation": "contains",
+        "object": "结构模块",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "通用层",
+        "relation": "contains",
+        "object": "组件",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "通用层",
+        "relation": "contains",
+        "object": "约束规划",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "通用层",
+        "relation": "contains",
+        "object": "服务功能",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "通用层",
+        "relation": "contains",
+        "object": "协议",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "部分通用层",
+        "relation": "contains",
+        "object": "部分通用模型",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "部分通用层",
+        "relation": "contains",
+        "object": "工业类型",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "部分通用层",
+        "relation": "contains",
+        "object": "行业",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "部分通用层",
+        "relation": "contains",
+        "object": "企业规模",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "专用层",
+        "relation": "part_of",
+        "object": "参考结构",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "参考结构",
+        "relation": "composed_of",
+        "object": "通用层",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "参考结构",
+        "relation": "composed_of",
+        "object": "部分通用层",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "专用层",
+        "relation": "applied_to",
+        "object": "特定企业",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "专用层",
+        "relation": "belongs_to",
+        "object": "参考结构",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "contains",
+        "object": "需求定义",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "contains",
+        "object": "设计说明",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "contains",
+        "object": "实施描述",
+        "chunk_id": "941"
+    },
+    {
+        "subject": "实施描述层",
+        "relation": "contains",
+        "object": "物理元件",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "物理元件",
+        "relation": "contains",
+        "object": "制造技术元件",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "CAD",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "CAQ",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "MRP",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "CAM",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "DNC",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "FMC",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "机器人",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "包装机",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "制造技术元件",
+        "relation": "contains",
+        "object": "传送机",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "物理元件",
+        "relation": "contains",
+        "object": "信息技术元件",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "信息技术元件",
+        "relation": "contains",
+        "object": "计算机硬件",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "信息技术元件",
+        "relation": "contains",
+        "object": "通信网络",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "信息技术元件",
+        "relation": "contains",
+        "object": "系统软件",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "信息技术元件",
+        "relation": "contains",
+        "object": "数据库系统",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "信息技术元件",
+        "relation": "contains",
+        "object": "系统服务器",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "信息技术元件",
+        "relation": "contains",
+        "object": "应用软件",
+        "chunk_id": "942"
+    },
+    {
+        "subject": "功能视图",
+        "relation": "belongs_to",
+        "object": "CIMS/OSA",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "信息视图",
+        "relation": "belongs_to",
+        "object": "CIMS/OSA",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "资源视图",
+        "relation": "belongs_to",
+        "object": "CIMS/OSA",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "组织视图",
+        "relation": "belongs_to",
+        "object": "CIMS/OSA",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "has",
+        "object": "功能视图",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "has",
+        "object": "信息视图",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "has",
+        "object": "资源视图",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "CIMS/OSA",
+        "relation": "has",
+        "object": "组织视图",
+        "chunk_id": "943"
+    },
+    {
+        "subject": "863计划",
+        "relation": "contains",
+        "object": "CIMS主题",
+        "chunk_id": "944"
+    },
+    {
+        "subject": "CIMS主题",
+        "relation": "belongs_to",
+        "object": "863计划",
+        "chunk_id": "944"
+    },
+    {
+        "subject": "CIMS主题",
+        "relation": "applied_to",
+        "object": "计算机集成制造技术",
+        "chunk_id": "944"
+    },
+    {
+        "subject": "CIMS主题",
+        "relation": "enables",
+        "object": "制造业现代化",
+        "chunk_id": "944"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "CIMS总体集成技术",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "CAD/CAPP/CAM技术",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "质量",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "柔性制造",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "管理决策",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "网络数据库",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用基础研究",
+        "relation": "contains",
+        "object": "系统技术",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "关键技术攻关",
+        "relation": "contains",
+        "object": "集成平台与原型系统",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "关键技术攻关",
+        "relation": "contains",
+        "object": "企业管理模式",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "关键技术攻关",
+        "relation": "contains",
+        "object": "企业间集成技术",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "关键技术攻关",
+        "relation": "contains",
+        "object": "复杂过程建模与优化集成控制技术",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "关键技术攻关",
+        "relation": "contains",
+        "object": "现代优化设计",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "目标产品开发",
+        "relation": "contains",
+        "object": "离散工业单元技术目标产品",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "目标产品开发",
+        "relation": "contains",
+        "object": "离散工业重大产品",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "目标产品开发",
+        "relation": "contains",
+        "object": "流程工业单元技术",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "目标产品开发",
+        "relation": "contains",
+        "object": "重大目标产品",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "目标产品开发",
+        "relation": "contains",
+        "object": "目标产品集成系统",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "飞机",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "机床",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "鼓风机",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "纺织机",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "汽车",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "家电",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "应用示范工程",
+        "relation": "contains",
+        "object": "服装",
+        "chunk_id": "945"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "improves",
+        "object": "企业竞争力",
+        "chunk_id": "946"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "enables",
+        "object": "制造业现代化发展",
+        "chunk_id": "946"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "replaces",
+        "object": "计算机集成制造系统",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "现代集成制造系统",
+        "relation": "replaces",
+        "object": "计算机集成制造系统",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "enables",
+        "object": "制造业信息化",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "现代集成制造系统",
+        "relation": "applied_to",
+        "object": "传统产业",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "improves",
+        "object": "制造业综合竞争能力",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "develops",
+        "object": "制造业信息化软件产业",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "develops",
+        "object": "制造业咨询服务业",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "supports",
+        "object": "制造业技术创新",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "supports",
+        "object": "制造业跨越式发展",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "CIMS技术",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "947"
+    },
+    {
+        "subject": "数字化设计与制造",
+        "relation": "applied_to",
+        "object": "重大复杂产品和设备的设计与制造过程",
+        "chunk_id": "948"
+    },
+    {
+        "subject": "过程自动化系统",
+        "relation": "applied_to",
+        "object": "石化、冶金、化工和制药等流程工业企业",
+        "chunk_id": "948"
+    },
+    {
+        "subject": "企业管理与电子商务系统",
+        "relation": "applied_to",
+        "object": "企业经营管理、重组优化与电子商务",
+        "chunk_id": "948"
+    },
+    {
+        "subject": "现代集成制造系统平台",
+        "relation": "applied_to",
+        "object": "企业建模与诊断系统、制造业整体解决方案集成平台软件工具、集成支撑系统",
+        "chunk_id": "948"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "船舶设计与建造",
+        "chunk_id": "948"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "CAD",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "CAPP",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "CAM",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "CAE",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "DFM/DFA",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "DFM/DFA",
+        "relation": "applied_to",
+        "object": "零件加工",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "DFM/DFA",
+        "relation": "applied_to",
+        "object": "装配",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "inputs",
+        "object": "CAD",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "CAM",
+        "relation": "inputs",
+        "object": "CAPP",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "CAPP",
+        "relation": "outputs",
+        "object": "加工路线",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "CAD",
+        "relation": "outputs",
+        "object": "设计结果",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "contains",
+        "object": "CAD/CAPP/CAM/CAE集成系统",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "CAD/CAPP/CAM/CAE集成系统",
+        "relation": "enables",
+        "object": "设计与制造协同",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "产品导向型工程分解",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "产品导向型工程分解",
+        "relation": "produces",
+        "object": "船体建造",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "产品导向型工程分解",
+        "relation": "produces",
+        "object": "舾装",
+        "chunk_id": "949"
+    },
+    {
+        "subject": "产品导向型工程分解",
+        "relation": "produces",
+        "object": "涂装",
+        "chunk_id": "949"
+    }
+]

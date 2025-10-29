@@ -1,0 +1,3068 @@
+[
+    {
+        "subject": "串行工程",
+        "relation": "precedes",
+        "object": "并行工程",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "串行工程",
+        "relation": "inputs",
+        "object": "市场人员",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "串行工程",
+        "relation": "outputs",
+        "object": "设计改动",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "串行工程",
+        "relation": "affects",
+        "object": "产品开发周期",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "串行工程",
+        "relation": "affects",
+        "object": "产品成本",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "enables",
+        "object": "快速设计",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "enables",
+        "object": "高质量产品",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "产品设计",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "工艺设计",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "质量保证",
+        "chunk_id": "950"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "belongs_to",
+        "object": "制造技术",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "belongs_to",
+        "object": "工作模式",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "belongs_to",
+        "object": "设计方法",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "质量",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "成本",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "进度",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "用户要求",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "概念设计",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "产品设计",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "船舶设计",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "造船领域",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "enables",
+        "object": "CAD/CAPP/CAM/CAE系统集成",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "传统串行工程模式",
+        "chunk_id": "951"
+    },
+    {
+        "subject": "产品设计",
+        "relation": "refines",
+        "object": "工艺设计",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "产品设计",
+        "relation": "refines",
+        "object": "装配设计",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "产品设计",
+        "relation": "refines",
+        "object": "检验方式",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "产品设计",
+        "relation": "refines",
+        "object": "售后服务方案",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "contains",
+        "object": "产品设计",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "contains",
+        "object": "工艺设计",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "contains",
+        "object": "装配设计",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "contains",
+        "object": "检验方式",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "contains",
+        "object": "售后服务方案",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "CAD",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "工作站",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "enables",
+        "object": "协同设计",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "制造",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "装配",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "检验",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "销售",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "维护",
+        "chunk_id": "952"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "装配",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "检验",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "维护",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "产品设计",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "replaces",
+        "object": "串行工程",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "生产工艺",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "工装",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "质量系统",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "产品开发",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "enables",
+        "object": "CAD/CAPP/CAM/CAE系统集成",
+        "chunk_id": "953"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "has",
+        "object": "协同效益",
+        "chunk_id": "954"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "信息",
+        "chunk_id": "954"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "产品开发过程",
+        "chunk_id": "954"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "整体最优",
+        "chunk_id": "954"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "enables",
+        "object": "协同工作",
+        "chunk_id": "954"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "has",
+        "object": "多功能的协同组织形式",
+        "chunk_id": "954"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "precedes",
+        "object": "概念设计",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "has",
+        "object": "协同效益",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "has",
+        "object": "集成特征",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "概念设计",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "信息集成",
+        "relation": "part_of",
+        "object": "集成特征",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "功能集成",
+        "relation": "part_of",
+        "object": "集成特征",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "技术集成",
+        "relation": "part_of",
+        "object": "集成特征",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "人员集成",
+        "relation": "part_of",
+        "object": "集成特征",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "协同设计",
+        "relation": "part_of",
+        "object": "并行工程",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "协同效益",
+        "relation": "affects",
+        "object": "整体效益",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "三块钢板",
+        "relation": "connects_to",
+        "object": "工字钢带",
+        "chunk_id": "955"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "信息论",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "控制论",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "系统论",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "applied_to",
+        "object": "产品开发过程",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "信息流动关系",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "资源和逻辑制约关系",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "outputs",
+        "object": "动态可变的开发任务流程",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "refines",
+        "object": "产品开发过程",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "全面质量管理",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "产品特征",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "开发活动的安排",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "开发队伍的组织结构",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "开发资源的配置",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "开发计划",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "inputs",
+        "object": "全面的调度策略",
+        "chunk_id": "956"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "uses",
+        "object": "STEP标准",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "uses",
+        "object": "Express语言",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "applied_to",
+        "object": "产品设计",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "applied_to",
+        "object": "工艺设计",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "applied_to",
+        "object": "制造过程",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "applied_to",
+        "object": "装配",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "applied_to",
+        "object": "检验",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "enables",
+        "object": "信息共享",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "enables",
+        "object": "并行",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "用户要求",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "产品功能",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "设计",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "制造",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "材料",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "装配",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "费用",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "集成产品信息模型",
+        "relation": "contains",
+        "object": "评价",
+        "chunk_id": "957"
+    },
+    {
+        "subject": "并行设计",
+        "relation": "uses",
+        "object": "产品数据管理",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "产品数据管理",
+        "relation": "supports",
+        "object": "并行设计",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "requires",
+        "object": "设计团队",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "并行工程",
+        "relation": "uses",
+        "object": "全数字化定义的计算机辅助设计工具",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "全数字化定义的计算机辅助设计工具",
+        "relation": "contains",
+        "object": "计算机辅助设计",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "全数字化定义的计算机辅助设计工具",
+        "relation": "contains",
+        "object": "计算机辅助工程分析",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "全数字化定义的计算机辅助设计工具",
+        "relation": "contains",
+        "object": "计算机辅助工艺规划",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "全数字化定义的计算机辅助设计工具",
+        "relation": "contains",
+        "object": "计算机辅助制造",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "全数字化定义的计算机辅助设计工具",
+        "relation": "contains",
+        "object": "计算机辅助质量检测",
+        "chunk_id": "958"
+    },
+    {
+        "subject": "面向制造的设计",
+        "relation": "belongs_to",
+        "object": "面向X的设计",
+        "chunk_id": "959"
+    },
+    {
+        "subject": "面向装配的设计",
+        "relation": "belongs_to",
+        "object": "面向X的设计",
+        "chunk_id": "959"
+    },
+    {
+        "subject": "产品数据管理",
+        "relation": "belongs_to",
+        "object": "并行工程",
+        "chunk_id": "959"
+    },
+    {
+        "subject": "协同的网络通信手段",
+        "relation": "belongs_to",
+        "object": "并行工程",
+        "chunk_id": "959"
+    },
+    {
+        "subject": "产品数据管理",
+        "relation": "supports",
+        "object": "并行工程",
+        "chunk_id": "959"
+    },
+    {
+        "subject": "协同的网络通信手段",
+        "relation": "supports",
+        "object": "并行工程",
+        "chunk_id": "959"
+    },
+    {
+        "subject": "协同的网络通信手段",
+        "relation": "contains",
+        "object": "多媒体邮件",
+        "chunk_id": "960"
+    },
+    {
+        "subject": "协同的网络通信手段",
+        "relation": "contains",
+        "object": "电子公告板",
+        "chunk_id": "960"
+    },
+    {
+        "subject": "协同的网络通信手段",
+        "relation": "contains",
+        "object": "基于网络的视频会议系统",
+        "chunk_id": "960"
+    },
+    {
+        "subject": "多媒体邮件",
+        "relation": "uses",
+        "object": "计算机网络",
+        "chunk_id": "961"
+    },
+    {
+        "subject": "电子公告板",
+        "relation": "uses",
+        "object": "计算机网络",
+        "chunk_id": "961"
+    },
+    {
+        "subject": "基于网络的视频会议系统",
+        "relation": "uses",
+        "object": "计算机网络",
+        "chunk_id": "961"
+    },
+    {
+        "subject": "基于网络的视频会议系统",
+        "relation": "enables",
+        "object": "协同设计",
+        "chunk_id": "961"
+    },
+    {
+        "subject": "多媒体邮件",
+        "relation": "applied_to",
+        "object": "协同设计",
+        "chunk_id": "961"
+    },
+    {
+        "subject": "电子公告板",
+        "relation": "applied_to",
+        "object": "协同设计",
+        "chunk_id": "961"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "船舶制造",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "acts_on",
+        "object": "零部件",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "enables",
+        "object": "柔性建造技术",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "管件族制造法",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "生产管理",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "设计",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "工艺设计",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "工厂设计",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "市场预测",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "劳动量测定",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "工资管理",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "中间产品导向型作业分解",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "相似性原理",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "多品种、少批量生产",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "批量生产效益",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "相似类型",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "标准化",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "计算机辅助设计",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "设计模式",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "标准件",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "重复使用件",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "设计效率",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "相似性分析",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "中间产品",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "流水生产",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "虚拟流水生产",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "分类与编码",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "生产率",
+        "chunk_id": "963"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "零件设计",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "制造",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "管理",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "生产系统",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "经济效益",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件",
+        "relation": "belongs_to",
+        "object": "零件族",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件族",
+        "relation": "has",
+        "object": "相似的设计和加工特点",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件族",
+        "relation": "acts_on",
+        "object": "生产设备",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "enables",
+        "object": "计算机辅助制造",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "相似性",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "is_part_of",
+        "object": "成组技术",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "applied_to",
+        "object": "零件设计",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "applied_to",
+        "object": "制造",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "applied_to",
+        "object": "管理",
+        "chunk_id": "964"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "零件加工",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "装配",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "零件",
+        "relation": "has",
+        "object": "作用相似性",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "零件",
+        "relation": "has",
+        "object": "结构相似性",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "作用相似性",
+        "relation": "determined_by",
+        "object": "零件间的装配关系",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "结构相似性",
+        "relation": "determined_by",
+        "object": "零件图的信息",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "结构相似性",
+        "relation": "divided_into",
+        "object": "结构、材料和工艺",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "零件设计",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "工艺设计",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "工厂设计",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "市场预测",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "劳动量测定",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "生产管理",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "工资管理",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "used_for",
+        "object": "零件分组和分类",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "used_for",
+        "object": "检索标准件",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "used_for",
+        "object": "检索相似类型",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "used_for",
+        "object": "检索重复使用件",
+        "chunk_id": "965"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "uses",
+        "object": "GT码",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "件类型",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "代码所表示的详细程度",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "码的结构",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "码使用的数制",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "代码的构成方式",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "非二义性",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "完整性",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "简明性",
+        "chunk_id": "966"
+    },
+    {
+        "subject": "OPITZ码",
+        "relation": "has",
+        "object": "9位数字",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "日本KK-3码",
+        "relation": "has",
+        "object": "21位",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "荷兰MCLASS码",
+        "relation": "has",
+        "object": "30位",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "德意志民主共和国",
+        "relation": "has",
+        "object": "72位数字组成的分类编码系统",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "树式结构",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "链式结构",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "has",
+        "object": "混合式结构",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "柔性码",
+        "relation": "improves",
+        "object": "传统GT码",
+        "chunk_id": "967"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "树式结构",
+        "chunk_id": "968"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "链式结构",
+        "chunk_id": "968"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "混合式结构",
+        "chunk_id": "968"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "has",
+        "object": "链式结构",
+        "chunk_id": "968"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "belongs_to",
+        "object": "分类编码系统",
+        "chunk_id": "968"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "developed_by",
+        "object": "德国阿亨工业大学Opitz教授",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "used_by",
+        "object": "单位",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "OPITZ码",
+        "relation": "composed_of",
+        "object": "码位",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "OPITZ码",
+        "relation": "has",
+        "object": "形状码",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "OPITZ码",
+        "relation": "has",
+        "object": "尺寸码",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "OPITZ码",
+        "relation": "can_be_extended",
+        "object": "生产操作类型和顺序",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "类型码",
+        "relation": "part_of",
+        "object": "OPITZ分类编码系统",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "类型码",
+        "relation": "describes",
+        "object": "长径比",
+        "chunk_id": "969"
+    },
+    {
+        "subject": "回转体",
+        "relation": "determines",
+        "object": "长径比",
+        "chunk_id": "970"
+    },
+    {
+        "subject": "回转体",
+        "relation": "has",
+        "object": "长径比",
+        "chunk_id": "970"
+    },
+    {
+        "subject": "非回转类零件",
+        "relation": "has",
+        "object": "长宽高",
+        "chunk_id": "970"
+    },
+    {
+        "subject": "长宽高",
+        "relation": "represented_by",
+        "object": "A、B、C",
+        "chunk_id": "970"
+    },
+    {
+        "subject": "形状码",
+        "relation": "applied_to",
+        "object": "非回转类零件",
+        "chunk_id": "970"
+    },
+    {
+        "subject": "形状码",
+        "relation": "has",
+        "object": "长宽高",
+        "chunk_id": "970"
+    },
+    {
+        "subject": "形状码",
+        "relation": "belongs_to",
+        "object": "OPITZ分类编码系统",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "形状码",
+        "relation": "contains",
+        "object": "外表面",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "形状码",
+        "relation": "contains",
+        "object": "内表面",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "形状码",
+        "relation": "contains",
+        "object": "平面和槽",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "形状码",
+        "relation": "contains",
+        "object": "辅助孔",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "形状码",
+        "relation": "contains",
+        "object": "齿形",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "回转体零件",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "非回转体零件",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "台阶孔",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "圆锥孔",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "平面和槽",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "辅助孔",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "齿形",
+        "relation": "belongs_to",
+        "object": "形状码",
+        "chunk_id": "971"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "has",
+        "object": "尺寸码",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "has",
+        "object": "形状码",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "OPITZ分类编码系统",
+        "relation": "has",
+        "object": "辅助码",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "辅助码",
+        "relation": "contains",
+        "object": "基本尺寸",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "辅助码",
+        "relation": "contains",
+        "object": "材料",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "辅助码",
+        "relation": "contains",
+        "object": "毛坯形状",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "辅助码",
+        "relation": "contains",
+        "object": "高精度加工要求",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "based_on",
+        "object": "OPITZ分类编码系统",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "has",
+        "object": "形状特征主码",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "has",
+        "object": "副码",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "differs_from",
+        "object": "OPITZ分类编码系统",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "has",
+        "object": "非回转类零件",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "has",
+        "object": "尺寸码",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM分类编码系统",
+        "relation": "has",
+        "object": "材料和毛坯形状",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM-1分类编码系统",
+        "relation": "belongs_to",
+        "object": "JCBM分类编码系统",
+        "chunk_id": "972"
+    },
+    {
+        "subject": "JCBM-1分类编码系统",
+        "relation": "belongs_to",
+        "object": "分类编码系统",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "JCBM-1分类编码系统",
+        "relation": "refines",
+        "object": "产品设计",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "JCBM-1分类编码系统",
+        "relation": "refines",
+        "object": "工艺设计",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "JCBM-1分类编码系统",
+        "relation": "refines",
+        "object": "加工",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "JCBM-1分类编码系统",
+        "relation": "refines",
+        "object": "生产管理",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "belongs_to",
+        "object": "分类编码系统",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "has",
+        "object": "计算机程序",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "applied_to",
+        "object": "机床",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "applied_to",
+        "object": "飞机",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "applied_to",
+        "object": "电器设备",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "applied_to",
+        "object": "重型机械",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "has",
+        "object": "主辅码分段式总体结构",
+        "chunk_id": "973"
+    },
+    {
+        "subject": "主码",
+        "relation": "contains",
+        "object": "零件形状",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "主码",
+        "relation": "contains",
+        "object": "尺寸",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "主码",
+        "relation": "contains",
+        "object": "精度",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "主码",
+        "relation": "contains",
+        "object": "材料",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "主码",
+        "relation": "has",
+        "object": "永久性特征",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "主码",
+        "relation": "belongs_to",
+        "object": "MICCLASS分类编码系统",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "contains",
+        "object": "零件批量",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "contains",
+        "object": "工时",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "contains",
+        "object": "材料加工性",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "contains",
+        "object": "主要工序",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "contains",
+        "object": "工装",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "contains",
+        "object": "装夹",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "辅码",
+        "relation": "belongs_to",
+        "object": "MICCLASS分类编码系统",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "enables",
+        "object": "自动编码",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "enables",
+        "object": "设计检索",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "enables",
+        "object": "分类编组",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "enables",
+        "object": "工艺规程设计",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "enables",
+        "object": "机应负荷计算",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "enables",
+        "object": "成本估算",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "uses",
+        "object": "计算机程序",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "improves",
+        "object": "编码效率",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "MICCLASS分类编码系统",
+        "relation": "replaces",
+        "object": "人工编码",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "belongs_to",
+        "object": "分类编码系统",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "has",
+        "object": "多段式结构",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "has",
+        "object": "多层次结构",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "has",
+        "object": "柔性化结构",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "enables",
+        "object": "CAD/CAPP/CAM一体化",
+        "chunk_id": "974"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "零件分类编码系统",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "零件分类编码系统",
+        "relation": "applied_to",
+        "object": "结构相似的零件组",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "零件分类编码系统",
+        "relation": "has",
+        "object": "码位",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "码位",
+        "relation": "has",
+        "object": "通用码",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "码位",
+        "relation": "has",
+        "object": "专用码",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "通用码",
+        "relation": "has",
+        "object": "主码",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "通用码",
+        "relation": "has",
+        "object": "辅码",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "belongs_to",
+        "object": "零件分类编码系统",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "applied_to",
+        "object": "CAD/CAPP/CAM一体化",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "has",
+        "object": "多段式结构",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "has",
+        "object": "多层次结构",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "has",
+        "object": "柔性化结构",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "inputs",
+        "object": "零件几何形状信息",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "inputs",
+        "object": "加工工艺信息",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "outputs",
+        "object": "零件分组和分类",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "柔性分类编码系统",
+        "relation": "inputs",
+        "object": "CIMS各环节",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "传统零件分类编码系统",
+        "relation": "has",
+        "object": "表格式刚性结构",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "传统零件分类编码系统",
+        "relation": "has",
+        "object": "固定码位长度",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "传统零件分类编码系统",
+        "relation": "affects",
+        "object": "CAPP自动生成工艺设计",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "传统零件分类编码系统",
+        "relation": "affects",
+        "object": "CAD/CAPP/CAM一体化",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "特征造型 CAD 系统",
+        "relation": "belongs_to",
+        "object": "CAD 技术发展方向",
+        "chunk_id": "975"
+    },
+    {
+        "subject": "通用码",
+        "relation": "contains",
+        "object": "主码",
+        "chunk_id": "976"
+    },
+    {
+        "subject": "通用码",
+        "relation": "contains",
+        "object": "辅码",
+        "chunk_id": "976"
+    },
+    {
+        "subject": "专用码",
+        "relation": "belongs_to",
+        "object": "编码结构",
+        "chunk_id": "976"
+    },
+    {
+        "subject": "系统",
+        "relation": "uses",
+        "object": "多级代码",
+        "chunk_id": "976"
+    },
+    {
+        "subject": "码位",
+        "relation": "belongs_to",
+        "object": "分类编码系统",
+        "chunk_id": "976"
+    },
+    {
+        "subject": "柔性化",
+        "relation": "contains",
+        "object": "通用码",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "通用码",
+        "relation": "part_of",
+        "object": "柔性码",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "通用码",
+        "relation": "contains",
+        "object": "主码",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "通用码",
+        "relation": "contains",
+        "object": "辅码",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "主码",
+        "relation": "has",
+        "object": "零件类别",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "主码",
+        "relation": "has",
+        "object": "尺寸",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "主码",
+        "relation": "has",
+        "object": "材料",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "主码",
+        "relation": "has",
+        "object": "毛坯",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "主码",
+        "relation": "has",
+        "object": "标准件",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "辅码",
+        "relation": "has",
+        "object": "热处理",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "辅码",
+        "relation": "has",
+        "object": "精度",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "柔性码",
+        "relation": "uses",
+        "object": "CAD系统",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "柔性码",
+        "relation": "inputs",
+        "object": "CAPP系统",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "柔性码",
+        "relation": "enables",
+        "object": "工艺设计",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "refines",
+        "object": "成组技术",
+        "chunk_id": "977"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "uses",
+        "object": "特征数据法",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "uses",
+        "object": "特征矩阵",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "uses",
+        "object": "特征编码分组法",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "uses",
+        "object": "生产流程法",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "uses",
+        "object": "视检法",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "applied_to",
+        "object": "零件分类",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件相似性",
+        "relation": "acts_on",
+        "object": "零件分组",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "978"
+    },
+    {
+        "subject": "特征数据法",
+        "relation": "uses",
+        "object": "零件编码",
+        "chunk_id": "979"
+    },
+    {
+        "subject": "特征数据法",
+        "relation": "applied_to",
+        "object": "零件分组",
+        "chunk_id": "979"
+    },
+    {
+        "subject": "特征数据法",
+        "relation": "affects",
+        "object": "零件组",
+        "chunk_id": "979"
+    },
+    {
+        "subject": "特征数据法",
+        "relation": "uses",
+        "object": "特征矩阵",
+        "chunk_id": "979"
+    },
+    {
+        "subject": "特征数据法",
+        "relation": "determines",
+        "object": "码域",
+        "chunk_id": "979"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "980"
+    },
+    {
+        "subject": "零件代码排序",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "980"
+    },
+    {
+        "subject": "零件代码排序",
+        "relation": "产生",
+        "object": "零件代码顺序表",
+        "chunk_id": "980"
+    },
+    {
+        "subject": "零件结构特征统计分析",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "980"
+    },
+    {
+        "subject": "零件结构特征统计分析",
+        "relation": "用于",
+        "object": "特征矩阵",
+        "chunk_id": "980"
+    },
+    {
+        "subject": "特征矩阵",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "980"
+    },
+    {
+        "subject": "特征矩阵",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "用于",
+        "object": "零件分类",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件结构信息分布",
+        "relation": "用于",
+        "object": "统计分析",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件结构信息分布",
+        "relation": "用于",
+        "object": "零件分组",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "特征矩阵",
+        "relation": "用于",
+        "object": "划分零件组",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件代码",
+        "relation": "匹配",
+        "object": "特征矩阵",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件代码",
+        "relation": "不匹配",
+        "object": "特征矩阵",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "需要",
+        "object": "人工干预",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "用于",
+        "object": "计算机处理",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "用于",
+        "object": "排序",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "用于",
+        "object": "统计分析",
+        "chunk_id": "981"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "uses",
+        "object": "分类编码系统",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "applied_to",
+        "object": "零件分类成组",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "inputs",
+        "object": "工艺规程",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "outputs",
+        "object": "零件族",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "improves",
+        "object": "加工组和加工单元的配置",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "replaces",
+        "object": "手工分组",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "生产流程法",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "OPTIZ分类编码系统",
+        "relation": "used_in",
+        "object": "生产流程法",
+        "chunk_id": "982"
+    },
+    {
+        "subject": "OPTIZ分类编码系统",
+        "relation": "used_to",
+        "object": "零件编码",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "OP代码",
+        "relation": "represents",
+        "object": "工序计划",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "OP代码",
+        "relation": "applied_to",
+        "object": "工艺规程表示",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "OP代码",
+        "relation": "enables",
+        "object": "工艺规程存储和检索",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "OP代码",
+        "relation": "affects",
+        "object": "零件分组",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "零件",
+        "relation": "encoded_with",
+        "object": "简单编码系统",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "钻床",
+        "relation": "acts_on",
+        "object": "工件",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "装夹",
+        "relation": "described_by",
+        "object": "分类编码系统",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "based_on",
+        "object": "零件编码",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "关联矩阵",
+        "relation": "represents",
+        "object": "零件与工序代码关系",
+        "chunk_id": "983"
+    },
+    {
+        "subject": "关联矩阵",
+        "relation": "contains",
+        "object": "OP代码",
+        "chunk_id": "984"
+    },
+    {
+        "subject": "关联矩阵",
+        "relation": "contains",
+        "object": "零件",
+        "chunk_id": "984"
+    },
+    {
+        "subject": "分组算法",
+        "relation": "uses",
+        "object": "排序聚类分析算法",
+        "chunk_id": "984"
+    },
+    {
+        "subject": "排序聚类分析算法",
+        "relation": "applied_to",
+        "object": "零件组",
+        "chunk_id": "984"
+    },
+    {
+        "subject": "总权",
+        "relation": "acts_on",
+        "object": "列",
+        "chunk_id": "984"
+    },
+    {
+        "subject": "总权",
+        "relation": "acts_on",
+        "object": "行",
+        "chunk_id": "984"
+    },
+    {
+        "subject": "总权",
+        "relation": "determines",
+        "object": "列的总权",
+        "chunk_id": "985"
+    },
+    {
+        "subject": "总权",
+        "relation": "determines",
+        "object": "行的总权",
+        "chunk_id": "985"
+    },
+    {
+        "subject": "总权",
+        "relation": "affects",
+        "object": "排序状态",
+        "chunk_id": "985"
+    },
+    {
+        "subject": "零件组",
+        "relation": "uses",
+        "object": "零件族矩阵",
+        "chunk_id": "987"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "987"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "applied_to",
+        "object": "零件族编码系统",
+        "chunk_id": "987"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "has",
+        "object": "码位",
+        "chunk_id": "987"
+    },
+    {
+        "subject": "码位",
+        "relation": "belongs_to",
+        "object": "参数",
+        "chunk_id": "987"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "uses",
+        "object": "码位",
+        "chunk_id": "988"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "contains",
+        "object": "零件族",
+        "chunk_id": "988"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "belongs_to",
+        "object": "OP代码序列",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "belongs_to",
+        "object": "OP计划",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件族矩阵",
+        "relation": "belongs_to",
+        "object": "信息",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "模糊聚类法",
+        "relation": "applied_to",
+        "object": "零件分组",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件",
+        "relation": "acts_on",
+        "object": "设备",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件1",
+        "relation": "has",
+        "object": "设备",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件2",
+        "relation": "has",
+        "object": "设备",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件3",
+        "relation": "has",
+        "object": "设备",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件4",
+        "relation": "has",
+        "object": "设备",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件3",
+        "relation": "has",
+        "object": "亲密度",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "零件4",
+        "relation": "has",
+        "object": "亲密度",
+        "chunk_id": "989"
+    },
+    {
+        "subject": "模糊聚类法",
+        "relation": "uses",
+        "object": "相似系数统计量",
+        "chunk_id": "990"
+    },
+    {
+        "subject": "零件分组",
+        "relation": "uses",
+        "object": "模糊聚类法",
+        "chunk_id": "990"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "机械加工",
+        "chunk_id": "990"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "零件设计",
+        "chunk_id": "990"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "related_to",
+        "object": "CIM",
+        "chunk_id": "990"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "part_of",
+        "object": "成组技术",
+        "chunk_id": "990"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "developed_from",
+        "object": "工艺规程典型化",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "零件",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "uses",
+        "object": "设备",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "uses",
+        "object": "工艺装备",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "acts_on",
+        "object": "零件",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组生产单元",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "belongs_to",
+        "object": "成组生产单元",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "applied_to",
+        "object": "零件",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "uses",
+        "object": "设备",
+        "chunk_id": "991"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "成组加工单机",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "applied_to",
+        "object": "成组技术",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "part_of",
+        "object": "生产组织形式",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "acts_on",
+        "object": "零件",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "contains",
+        "object": "机床",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "成组加工单机",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "加工中心",
+        "relation": "belongs_to",
+        "object": "成组加工单机",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "加工中心",
+        "relation": "applied_to",
+        "object": "成组技术",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "加工中心",
+        "relation": "enables",
+        "object": "单机封闭",
+        "chunk_id": "992"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "applied_to",
+        "object": "多工序零件",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "contains",
+        "object": "机床",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "contains",
+        "object": "生产工人",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "acts_on",
+        "object": "零件组",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "uses",
+        "object": "夹具",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "uses",
+        "object": "刀具",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "improves",
+        "object": "生产成本",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "replaces",
+        "object": "普通机床",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "located_at",
+        "object": "车间",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组加工单元",
+        "relation": "belongs_to",
+        "object": "生产组织形式",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组流水线",
+        "relation": "belongs_to",
+        "object": "生产组织形式",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组流水线",
+        "relation": "applied_to",
+        "object": "工艺规程相似程度高、产量较大的零件",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组流水线",
+        "relation": "contains",
+        "object": "流水线",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组流水线",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "993"
+    },
+    {
+        "subject": "成组流水线",
+        "relation": "applied_to",
+        "object": "零件加工",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "成组流水线",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "CAD",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "标准化",
+        "relation": "belongs_to",
+        "object": "产品设计方法",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "系列化",
+        "relation": "belongs_to",
+        "object": "产品设计方法",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "通用化",
+        "relation": "belongs_to",
+        "object": "产品设计方法",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "inputs",
+        "object": "设计周期",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "outputs",
+        "object": "生产效率",
+        "chunk_id": "994"
+    },
+    {
+        "subject": "标准件",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "标准件",
+        "relation": "has",
+        "object": "全部特征",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "产品系列化",
+        "relation": "has",
+        "object": "品种规格",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "产品系列化",
+        "relation": "has",
+        "object": "功能范围",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "产品系列化",
+        "relation": "has",
+        "object": "结构",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "产品系列化",
+        "relation": "has",
+        "object": "尺寸",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "产品通用化",
+        "relation": "has",
+        "object": "部件",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "产品通用化",
+        "relation": "has",
+        "object": "零件",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "零件族",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "生产率",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "功能要素",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "尺寸",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "零件",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "has",
+        "object": "产品三化",
+        "chunk_id": "995"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "分类编码系统",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "产品设计",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "产品设计的标准化工作",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "enables",
+        "object": "检索标准件",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "enables",
+        "object": "检索相似类型",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "分类编码系统",
+        "relation": "enables",
+        "object": "检索重复使用件",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "inputs",
+        "object": "相似类型",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "inputs",
+        "object": "标准件",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "inputs",
+        "object": "重复使用件",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "outputs",
+        "object": "计算机辅助设计模型",
+        "chunk_id": "996"
+    },
+    {
+        "subject": "零件",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "设计自由度",
+        "relation": "determines",
+        "object": "标准化程度",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "零件",
+        "relation": "classified_by",
+        "object": "标准化程度",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "标准化程度",
+        "relation": "has",
+        "object": "标准件",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "标准化程度",
+        "relation": "has",
+        "object": "相似类型",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "标准化程度",
+        "relation": "has",
+        "object": "基本类型",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "标准化程度",
+        "relation": "has",
+        "object": "重复使用件",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "重复使用件",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "重复使用件",
+        "relation": "has",
+        "object": "标准化程度",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "相似性设计指导图册",
+        "relation": "applied_to",
+        "object": "成组技术",
+        "chunk_id": "997"
+    },
+    {
+        "subject": "相似性设计指导图册",
+        "relation": "uses",
+        "object": "零件分类编码系统",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "相似性设计指导图册",
+        "relation": "uses",
+        "object": "频数分布直方图",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "零件分类编码系统",
+        "relation": "applied_to",
+        "object": "相似性设计",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "设计族",
+        "relation": "belongs_to",
+        "object": "相似性设计指导图册",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "零件组",
+        "relation": "belongs_to",
+        "object": "相似性设计指导图册",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "标准化工作",
+        "relation": "inputs",
+        "object": "频数分析",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "重复使用件",
+        "relation": "belongs_to",
+        "object": "相似性设计指导图册",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "相似类型",
+        "relation": "belongs_to",
+        "object": "相似性设计指导图册",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "频数分布直方图",
+        "relation": "inputs",
+        "object": "标准化工作",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "applied_to",
+        "object": "相似性分析",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "相似性分析",
+        "relation": "refines",
+        "object": "标准化工作",
+        "chunk_id": "998"
+    },
+    {
+        "subject": "设计族",
+        "relation": "contains",
+        "object": "零件",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "标准化工作",
+        "relation": "applied_to",
+        "object": "功能要素",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "标准化工作",
+        "relation": "applied_to",
+        "object": "基本形式",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "标准化工作",
+        "relation": "applied_to",
+        "object": "布置形式",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "标准件",
+        "relation": "belongs_to",
+        "object": "零件",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "重复使用件",
+        "relation": "belongs_to",
+        "object": "零件",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "相似类型",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "标准化程度",
+        "relation": "determines",
+        "object": "设计自由度",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "标准件",
+        "relation": "has",
+        "object": "标准化程度",
+        "chunk_id": "999"
+    },
+    {
+        "subject": "预印图纸",
+        "relation": "used_by",
+        "object": "设计人员",
+        "chunk_id": "999"
+    }
+]

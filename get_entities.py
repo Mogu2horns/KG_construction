@@ -1,0 +1,286 @@
+# get_entities.py
+import argparse
+import json
+import jsonlines
+import logging
+import os
+import re
+from typing import List, Dict, Any, Optional
+from pydantic import BaseModel, Field
+from langchain_core.prompts import PromptTemplate
+from langchain_core.runnables import RunnableSequence
+
+from prompts import Prompts, Entity
+from llm_model import VLLMModel
+from tqdm import tqdm
+
+class EntityExtractor:
+    """
+    Entity extractor using LLM and structured output parsing.
+    Input: jsonl file with text chunks.
+    Output: entities for knowledge graph construction.
+    """
+    
+    def __init__(self, log_dir: str = "logs", log_level: int = logging.INFO):
+        self.model = VLLMModel().get_local_model()
+        self.log_dir = log_dir
+        os.makedirs(log_dir, exist_ok=True)
+        self._setup_logger(log_level)
+        
+        self.prompt, self.parser = Prompts.get_entity_extraction_prompt()
+        self.entity_extraction_chain: RunnableSequence = self.prompt | self.model
+        
+    def _setup_logger(self, level: int):
+        log_file = os.path.join(self.log_dir, "entity_extraction.log")
+        logging.basicConfig(
+            level=level,
+            format="%(asctime)s [%(levelname)s] %(message)s",
+            handlers=[
+                logging.FileHandler(log_file, encoding="utf-8"),
+                logging.StreamHandler()
+            ],
+            force=True
+        )
+        self.logger = logging.getLogger(__name__)
+    
+    def _validate_and_fix_json(self, text: str) -> str:
+        """验证并尝试修复 JSON 字符串"""
+        fixes = [
+            (r'\\x([0-9a-fA-F]{2})', lambda m: chr(int(m.group(1), 16))),
+            (r'\\([^"\\/bfnrtu])', r'\1'),
+            (r'\\u([0-9a-fA-F]{0,3}[^0-9a-fA-F])', r'\\\\u\1'),
+        ]
+        
+        fixed_text = text
+        for pattern, replacement in fixes:
+            if callable(replacement):
+                fixed_text = re.sub(pattern, replacement, fixed_text)
+            else:
+                fixed_text = re.sub(pattern, replacement, fixed_text)
+        
+        return fixed_text
+    
+    def _cleaned_parser(self, raw_output: str, chunk_id: str) -> List[Dict[str, Any]]:
+        """
+        Clean and parse raw LLM output to extract entities.
+        """
+        # 1. Clean <think> and Markdown
+        cleaned = re.sub(r"<think>.*?</think>", "", raw_output, flags=re.DOTALL)
+        cleaned = re.sub(r"```(?:json)?\s*", "", cleaned)
+        cleaned = re.sub(r"```\s*$", "", cleaned)
+        cleaned = cleaned.strip()
+        
+        if not cleaned:
+            raise ValueError("Cleaned output is empty.")
+        
+        # 打印调试信息
+        # print(cleaned)
+        
+        # 2. 尝试修复 JSON
+        try:
+            data = json.loads(cleaned)
+        except json.JSONDecodeError as e:
+            self.logger.warning(f"First JSON parse failed for chunk {chunk_id}, attempting fixes...")
+            cleaned = self._validate_and_fix_json(cleaned)
+            
+            try:
+                data = json.loads(cleaned)
+                self.logger.info(f"JSON fix successful for chunk {chunk_id}")
+            except json.JSONDecodeError as e2:
+                debug_dir = "debug_output"
+                os.makedirs(debug_dir, exist_ok=True)
+                debug_file = os.path.join(debug_dir, f"entity_chunk_{chunk_id}_error.json")
+                
+                with open(debug_file, "w", encoding="utf-8") as f:
+                    f.write(cleaned)
+                
+                self.logger.error(f"JSON decoding error after fixes: {e2}")
+                self.logger.error(f"Problematic JSON saved to: {debug_file}")
+                return []
+        
+        # print(data)
+        # print(type(data))
+        if not isinstance(data, List):
+            raise ValueError("Parsed data is not List.")
+        
+        # 3. Validate each entity
+        entities = []
+        for item in data:
+            if not isinstance(item, dict):
+                continue
+            item["chunk_id"] = str(chunk_id)
+            try:
+                ent = Entity(**item)
+                entities.append(ent.model_dump())
+            except Exception as e:
+                continue
+                
+        return entities
+    def extract_entities_from_range(
+        self,
+        input_file: str,
+        output_dir: Optional[str] = None,
+        start_index: int = 0,
+        end_index: Optional[int] = None
+    ) -> List[Dict[str, Any]]:
+        """
+        Extract entities from a specified range of chunks in the input JSONL file.
+        
+        Args:
+            input_file (str): Path to the input JSONL file with text chunks.
+            output_dir (Optional[str]): Directory to save the extracted entities.
+            start_index (int): Starting chunk index (inclusive).
+            end_index (Optional[int]): Ending chunk index (exclusive).
+        """
+        
+        self.logger.info(f"Loading chunks from {input_file}")
+        if not os.path.exists(input_file):
+            raise FileNotFoundError(f"Input file {input_file} does not exist.")
+        
+        previous_entities_file = None
+        
+        # 读取指定范围的chunks
+        chunks = []
+        with jsonlines.open(input_file, mode='r') as reader:
+            for i, chunk in enumerate(reader):
+                if i >= start_index:
+                    if end_index is None or i < end_index:
+                        chunks.append(chunk)
+                    elif i >= end_index:
+                        break
+        
+        if not chunks:
+            self.logger.warning(f"No chunks found in range [{start_index}:{end_index}]")
+            return []
+        
+        actual_end_index = start_index + len(chunks) - 1
+        self.logger.info(f"Processing chunks from index {start_index} to {actual_end_index} (total: {len(chunks)} chunks)")
+        
+        # 初始化结果存储
+        entity_kb: Dict[str, Dict[str, Any]] = {}
+        
+        # 处理chunks
+        for index_in_range, chunk in enumerate(tqdm(chunks, desc=f"Processing chunks {start_index}-{actual_end_index}", unit="chunk")):
+            global_index = start_index + index_in_range
+            content = chunk.get("chunk_content", "").strip()
+            meta_data = chunk.get("metadata", global_index)
+            source = chunk.get("source", "")
+            
+            if not content:
+                self.logger.warning(f"Chunk {global_index} is empty, skipping.")
+                continue
+                
+            try:
+                raw_output = self.entity_extraction_chain.invoke(
+                    {"text": content, "chunk_id": meta_data}
+                )
+                
+                cleaned_entities = self._cleaned_parser(raw_output.content, str(meta_data))
+                self.logger.info(f"Chunk {global_index} extracted {len(cleaned_entities)} entities.")
+                
+                # 处理实体
+                for ent in cleaned_entities:
+                    key = ent["entity_name"]
+                    if key in entity_kb:
+                        if ent["type"] not in entity_kb[key]["type"]:
+                            entity_kb[key]["type"].append(ent["type"])
+                        old_summary = entity_kb[key]["summary"]
+                        new_summary = ent["summary"]
+                        new_relevance = ent["domain_relevance"]
+                        if old_summary != new_summary:
+                            entity_kb[key]["summary"] = f"{old_summary} | {new_summary}".strip()
+                        if meta_data not in entity_kb[key]["chunk_ids"]:
+                            entity_kb[key]["chunk_ids"].append(meta_data)
+                        if new_relevance not in entity_kb[key]["domain_relevance"]:
+                            entity_kb[key]["domain_relevance"].append(new_relevance)
+                    else:
+                        entity_kb[key] = {
+                            "entity_name": ent["entity_name"],
+                            "type": [ent["type"]],
+                            "domain_relevance": [ent["domain_relevance"]],
+                            "summary": ent["summary"],
+                            "chunk_ids": [meta_data],
+                        }
+                
+                self.logger.debug(f"Chunk {global_index} processed successfully.")
+                
+                # 保存中间结果
+                if output_dir:
+                    os.makedirs(output_dir, exist_ok=True)
+                    current_entities_file = os.path.join(output_dir, f"entities_{start_index}_{global_index}.json")
+                    
+                    current_entities = list(entity_kb.values())
+                    
+                    with open(current_entities_file, "w", encoding="utf-8") as f:
+                        json.dump(current_entities, f, ensure_ascii=False, indent=4)
+                        
+                    # 删除上一个保存的文件
+                    if previous_entities_file and os.path.exists(previous_entities_file):
+                        os.remove(previous_entities_file)
+                        self.logger.debug(f"Removed previous entities file: {previous_entities_file}")
+                    
+                    # 更新previous文件名
+                    previous_entities_file = current_entities_file
+                    self.logger.debug(f"Saved current results to {current_entities_file}")
+                
+            except Exception as e:
+                self.logger.error(f"Error processing chunk {global_index}: {e}")
+                continue
+        
+        final_entities = list(entity_kb.values())
+        self.logger.info(f"Extracted total {len(final_entities)} unique entities from chunks {start_index}-{actual_end_index}.")
+        
+        # 保存结果，文件名包含处理的chunk范围
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
+            entities_file = os.path.join(output_dir, f"entities_{start_index}_{actual_end_index}.json")
+            
+            with open(entities_file, "w", encoding="utf-8") as f:
+                json.dump(final_entities, f, ensure_ascii=False, indent=4)
+        
+        return final_entities
+
+    # 添加一个辅助方法用于获取文件总行数
+    def get_total_chunks(self, input_file: str) -> int:
+        """
+        Get the total number of chunks in the input file.
+        
+        Args:
+            input_file (str): Path to the input JSONL file.
+            
+        Returns:
+            int: Total number of chunks.
+        """
+        count = 0
+        with jsonlines.open(input_file, mode='r') as reader:
+            for _ in reader:
+                count += 1
+        return count
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Extract entities from text chunks')
+    parser.add_argument('--start', type=int, default=0, help='Start chunk index (inclusive)')
+    parser.add_argument('--end', type=int, default=None, help='End chunk index (exclusive)')
+    parser.add_argument('--input_file', type=str, default="./chunks_output/chunks.jsonl", 
+                       help='Input JSONL file path')
+    parser.add_argument('--output_dir', type=str, default="./entities_output", 
+                       help='Output directory path')
+    parser.add_argument('--batch-size', type=int, default=10, help='Batch size for processing')
+    
+    args = parser.parse_args()
+    
+    extractor = EntityExtractor(log_level=logging.INFO)
+
+    # 如果没有指定end参数，则处理从start开始的batch-size个chunks
+    if args.end is None:
+        args.end = args.start + args.batch_size
+    
+    entities = extractor.extract_entities_from_range(
+        input_file=args.input_file,
+        output_dir=args.output_dir,
+        start_index=args.start,
+        end_index=args.end
+    )
+    
+    extractor.logger.info(f"Entity extraction completed for chunks {args.start}-{args.end-1}.")
+    extractor.logger.info(f"Extracted {len(entities)} entities.")

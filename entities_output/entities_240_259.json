@@ -1,0 +1,4663 @@
+[
+    {
+        "entity_name": "肋板母材基准线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于肋板部件装配的基准线，是船体安装基准线的重要组成部分，用于保证船体建造质量和提高安装效率。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "肋骨母材基准线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于肋骨部件装配的基准线，是船体安装基准线的重要组成部分，用于保证船体建造质量和提高安装效率。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "部件安装基准线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体安装基准线的重要部分，用于保证船体建造质量和提高安装效率，是船舶建造过程中各工序、各专业工种安装定位作业的标准。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "理论线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "构件厚度安装方向定位用的理论基准线，根据船体理论线标准确定，用于部件安装定位，各船厂有不同设置方法。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "定形基准线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于部件拼接成形和装焊变形后的校正工作，长度大于1500mm且长度之比大于3的部件必须设置，通常利用水线和直剖线，基准线贯通于整个部件全长。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "CO₂气体保护焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，焊接效率高、质量好，薄板部件更显现其优越性，用于部件装焊过程中提高焊接质量和工作效率。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "重力焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于部件装焊过程中提高焊接质量和工作效率。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "弹力焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于部件装焊过程中提高焊接质量和工作效率。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "腹板母材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "框架结构中的腹板部分，用于拼接和焊接，是框架部件制造的重要组成部分。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "T形部件短管部装专用平台",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于T形部件短管部装的专用平台，用于构架装配和防止型材倾倒。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "构架线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于构架装配的基准线，用于定位和安装构件，如大肘板和桁材。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "面板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "框架结构中的面板部分，通常带有弯曲部分，安装时不设置防倾肘板，中心部位划有腹板安装位置线。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "腹板安装位置线",
+        "type": [
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于面板安装的定位基准线，划于面板中心部位，作为腹板安装的定位基准。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "角度样板",
+        "type": [
+            "工具设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于安装有倾角的部件时，根据放样提供的角度样板或角度数值进行构架安装。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "框架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体的一种典型结构，以横向为多，由各种船体结构零件组成平面封闭型或立体型结构，用于分段安装的成形内模。 | 船体的一种典型结构，以横向为多，由各种船体结构零件组成平面封闭型或立体型结构，作为分段安装的成形内模。",
+        "chunk_ids": [
+            240,
+            241
+        ]
+    },
+    {
+        "entity_name": "肋骨框架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的一种框架形式，用于部装和焊接，作为分段安装的成形内模。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "数控切割机",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于划线和切割作业的设备，数控信息通过电算后进入纸带，由数控切割机完成划线和切割作业。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "翻身作业平台",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于部件焊接、检查、修正和马脚批平磨光后翻身搁置的作业平台。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "分段制造区",
+        "type": [
+            "制造区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于完成部件制造和安装的区域，部件制造完成后送至分段制造区进行后续加工。",
+        "chunk_ids": [
+            240
+        ]
+    },
+    {
+        "entity_name": "肋骨框",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由肋骨、横梁、肋板和肘板等零件组装而成的平面形框架，作为安装外板的内模，使外板完工时具有光顺的线型。 | 船体结构中的纵向构件，用于支撑甲板和外板，安装时需与甲板中心线对准。",
+        "chunk_ids": [
+            241,
+            246
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框结构中的主要构件之一，与横梁、肋板和肘板等零件组装成框架。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "横梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框结构中的主要构件之一，与肋骨、肋板和肘板等零件组装成框架。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "肋板",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框结构中的主要构件之一，与肋骨、横梁和肘板等零件组装成框架。 | 双层底框架部件中的主要构件，与纵桁、纵骨和肘板等构件组成立体型部件。 | 分段结构中的横向支撑构件，采用数控切割，零件精度高，安装间隙小，安装时允许与理论线偏差2mm。",
+        "chunk_ids": [
+            241,
+            245
+        ]
+    },
+    {
+        "entity_name": "肘板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框结构中的主要构件之一，用于连接肋骨与横梁，使整个框架平整且无扭曲现象。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "平面框架",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由各种船体结构零件组成平面封闭型结构，如艏艉部横向肋骨框、油船油舱横框架等。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "立体框架",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由各种船体结构零件组成立体型结构，如散货船双层底纵桁肋板纵骨组合框架等。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "整体肋骨框",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框按形状分为整体肋骨框和半肋骨框。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "半肋骨框",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框按形状分为整体肋骨框和半肋骨框。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "角钢型肋骨框",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框按构件形式分为角钢型肋骨框和T形组合型材肋骨框等。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "T形组合型材肋骨框",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框按构件形式分为角钢型肋骨框和T形组合型材肋骨框等。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "肋骨线型",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨框拼装时依据的线型，通过平板平台划出，用于定位肋骨板。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "铁跑台",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于划出肋骨线型的平板平台，由放样台上的线型用样棒和型值表搬划到平台上而成。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "平板平台",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于拼装肋骨框的平台，划出肋骨线型并进行部装。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "小角尺",
+        "type": [
+            "工艺工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检查肋骨曲线的光顺度，并加以修正。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "马",
+        "type": [
+            "工艺工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定肋骨板，使其在拼装过程中保持稳定。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "纵桁",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底框架部件中的主要构件，作为框架的基面进行中组装。 | 分段结构中的纵向支撑构件，安装时采用从中心区向四周扩展的方式，精度高，安装间隙小。",
+        "chunk_ids": [
+            241,
+            245
+        ]
+    },
+    {
+        "entity_name": "纵骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底框架部件中的主要构件，安装在肋板上，用于增强结构强度。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "补板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于填补纵骨与肋板连接处的间隙，确保结构完整性。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "临时支撑角钢",
+        "type": [
+            "工艺工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定肋板，确保其垂直度偏差在2mm以内。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "火工校正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于校正肋板、纵骨和纵桁之间的垂直度偏差，确保框架平整。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "纵桁定位基准平台",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于设置纵桁定位基准，水平度偏差为±1mm。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "加强筋",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在纵桁上进行部装的零件，用于增强结构强度。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "间断肋板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在小组装焊接和火工校正结束后吊至纵桁上对合基准线并定位。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "型材插装轮滚托架",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提高纵骨插装效率，使纵骨顺利、迅速地插进各道肋板。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船底采用的结构形式，提高船舶航行时的抗沉性，并兼做压载舱。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "纵骨架式",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构形式，用于大型船舶，如散货船、客货船和油船等。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "横骨架式",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构形式，用于小型船舶。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "分段制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体制造过程中将船体分为若干分段进行制造，提高效率。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "框架法",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造双层底分段的方法，将框架部件在车间内场进行中组装。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "中组装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "框架部件在车间内场进行的组装过程，以降低分段制造工作量。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "分段胎架",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于安装肋板和纵桁的平面型部件，进行分段制造。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "立焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段胎架上进行的焊接方式，装配和焊接工作量大，周期长。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "分段制造平台",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段制造的平台，利用率低，影响制造效率。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "部装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体结构零件组装成框架或分段的过程。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接肋骨、横梁、肋板等构件，形成框架结构。 | 改善舾装作业，特别是焊接的位置，使之从难以施焊的位置改变到易于焊接的俯焊位置，从而减少所需的工时和施工时间。 | 在单元装配或分段舾装中进行的作业，仅在存在大量或特殊焊接作业时进行。 | 船舶建造中用于连接金属构件的工艺，分为敞开空间内焊接和封闭空间内焊接，仅在存在特殊或大量焊接作业时设置焊接阶段。",
+        "chunk_ids": [
+            241,
+            251,
+            255,
+            256
+        ]
+    },
+    {
+        "entity_name": "临时加强型材",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于防止由于焊接收缩力引起肋骨框变形。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "翻身封底焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "框架翻身并进行封底焊，确保结构稳定性。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "分段区",
+        "type": [
+            "制造区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "框架制造完成后运送至分段区进行后续加工。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "外底板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底框架部件中的外层板，用于保护内部结构。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "纵桁肋板纵骨组合框架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "散货船双层底的立体型框架，由纵桁、肋板和纵骨组成。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "双层底分段",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构的分段，占船长的80%左右，制造工作量大。 | 在大中型船舶中占底部分段的60%以上，结构比平面分段和曲面分段复杂，正确选择装配焊接方法很重要，目前一般采用反造法，可以省去制造胎架的工作量。 | 大中型船舶中占底部分段60%以上的结构，其结构比平面分段和曲面分段复杂，采用反造法制造，以省去制造胎架的工作量。",
+        "chunk_ids": [
+            241,
+            244,
+            245
+        ]
+    },
+    {
+        "entity_name": "船台安装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体制造的最后阶段，将分段安装到船台上。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "部装、分段制造和船台安装",
+        "type": [
+            "工艺阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船的三个主要工艺阶段，通过框架法实现负荷平衡。",
+        "chunk_ids": [
+            241
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "结构部件",
+            "结构单元",
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由零、部件组装而成的船体局部结构，是船体装配焊接工作中的重要组成部分，对船舶建造周期和建造质量有很大影响。 | 由零件和部件按生产设计图经过装配、焊接等工序制成的船体局部结构物，是船体建造过程中的重要单元体，其工作量平均占整个船体装焊作业量的35%左右，是完成船体建造计划的关键。 | 船体建造中按一定规则划分的结构单元，用于吊装、焊接和舾装作业。 | 船体建造的关键区域，与单元组装并列，是舾装的关键区域。 | 船体建造中的限定区域，用于安装舾装件、小单元和大单元，分段翻身以提高安全性和效率。",
+        "chunk_ids": [
+            242,
+            243,
+            248,
+            254,
+            255
+        ]
+    },
+    {
+        "entity_name": "平面直线型分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指平直板列上装有骨材的单层平面板架，如舱壁分段、舱口围分段、平台甲板分段、平行中体处的舷侧分段。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "平面曲线型分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指除边缘是曲线而其他部位是平面的分段，一般是指靠近艏艉部分区域的纵、横隔壁等分段，零件由NC数控切割机加工成形，适宜在平台上进行装焊作业。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "曲面分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在一个维度以上的方向上具有曲率的分段，如脐舰部带曲面的外板的舷侧分段和底部分段，制造时在支柱式胎架上按工作图的高度型值调整支柱高度，组成所需的曲面形状，然后将外板在胎架上进行拼装焊接。 | 由曲面列板与相应的月架所组成的单层结构的船体分段，通常在胎架上建造，分段线型在脱胎架后有所缩小，火工矫正一般仅改善外板线型的光顺性，而难以复位至胎架线型，因此对精度要求高的曲面分段，只能在胎架制造时采取反变形措施。",
+        "chunk_ids": [
+            242,
+            244
+        ]
+    },
+    {
+        "entity_name": "半立体分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指两层或两层以上板架所组成的非封闭分段，或者是单层板架带有一列与其成交角的板架所构成的分段，如带舱壁的甲板分段、带舷侧的甲板槽型分段等。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "立体分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指两层或两层以上板架所组成的封闭分段，或者是由平面(或曲面)板架所组成的非环形立体分段，如双层底分段、双层舷侧分段、艏立体分段、艉立体分段等。 | 由两个或多个平面分段或曲面分段及船体零件、部件进行再组合而形成的具有立体形状的分段，检验内容包括外形尺寸、构件尺寸、构架位置、零件数量、装配精度和焊接质量，是确保船体大接缝线型光顺、缩短船体建造船台周期的关键。",
+        "chunk_ids": [
+            242,
+            244
+        ]
+    },
+    {
+        "entity_name": "特殊分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指艉柱、艏柱和烟囱等分段，由于结构的特殊性，一般都设置专用的侧胎架进行施工，制造时的完工精度要求比较高。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "NC数控切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加工平面曲线型分段零件的设备，适宜在平台上进行装焊作业。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "平台",
+        "type": [
+            "工艺装备",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段装配焊接的工艺装备之一，与胎架并列作为分段装配基准面的选择内容。 | 船体结构中用于支撑和承载的平台结构，是密性试验前需完成的安装内容之一。",
+        "chunk_ids": [
+            242,
+            248
+        ]
+    },
+    {
+        "entity_name": "胎架",
+        "type": [
+            "工艺装备",
+            "制造设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段装配焊接的工艺装备之一，与平台并列作为分段装配基准面的选择内容。 | 用于支撑和定位分段制造的结构物，正造法需要专用胎架或通用胎架，反造法使用通用平台，侧(卧)造法胎架数量多。 | 船体分段装配和焊接必需的工艺装备，用于使分段的装配和焊接工作具有良好的条件，尤其对于中小型船舶，要求其具有足够的强度和刚度来控制分段的外形。",
+        "chunk_ids": [
+            242,
+            243,
+            244
+        ]
+    },
+    {
+        "entity_name": "支柱式胎架",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造曲面分段的胎架，通过调整支柱高度组成所需的曲面形状，然后将外板在胎架上进行拼装焊接。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "装焊顺序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造中的关键工艺内容，直接影响分段制造的质量、装焊作业的难易程度、辅助材料的消耗量以及分段制造的周期。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "分段装焊工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段装配焊接的基本工艺内容，包括选择装配基准面和工艺装备、决定合理的装焊顺序、提出施工技术要求。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "分段装配方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造中的具体实施方法，分段工作量平均占整个船体装焊作业量的35%左右，是完成船体建造计划的关键。",
+        "chunk_ids": [
+            242
+        ]
+    },
+    {
+        "entity_name": "正造法",
+        "type": [
+            "装配方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段建造时的位置与其在实船上的位置一致，制造时分段处于正态位置，以外板为基面在胎架上铺板焊接和划线后，在上面安装和焊接构架，外板的主焊缝是俯位作业，工作效率高，焊工劳动条件好。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "反造法",
+        "type": [
+            "装配方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段建造时的位置与其在实船上的位置相反，胎架简单，以平面构件作为基面，在通用平台上制造，省去了制作正造线型胎架的材料和工作量，且在平板上进行构架划线和装焊工作，效率高，可一次翻身，改仰焊为平焊。 | 一种装配焊接方法，用于双层底分段的制造，可以省去制造胎架的工作量。 | 一种用于双层底分段制造的装配方法，通过反向制造以省去胎架的使用。",
+        "chunk_ids": [
+            243,
+            244,
+            245
+        ]
+    },
+    {
+        "entity_name": "侧(卧)造法",
+        "type": [
+            "装配方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段建造时的位置与其在实船上的位置成一定的角度或垂直，改善施工条件，但胎架数量多，通常用于舷侧分段、舱壁分段等。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "分离装配法",
+        "type": [
+            "装配方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配基准面的板列上，先安装布置较密的主向构件并进行焊接，再安装交叉构件并进行焊接，装配与焊接交替进行，有利于扩大自动焊、半自动焊的范围，减小分段的总体变形。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "放射装配法",
+        "type": [
+            "装配方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配基准面的板列上，按照从中央向四周的放射状方向，依次交替地装配纵、横构件并焊接，引起的分段变形小，适用于曲率变化大、钢板稍薄的小型船舶分段制造。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "插入装配法",
+        "type": [
+            "装配方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配基准面的板列上，先安装间断的纵向构件，再装插横向构件，然后将连续的纵向桁材插入横向构件中，最后进行焊接，可使构件吊装的时间缩短，不需吊车随时配合。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "框架装配法",
+        "type": [
+            "装配方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "先将所有的纵、横构件组装成箱形框架并焊好，再与板列组装在一起形成分段，可变立焊为俯焊，便于框架焊接采用机械化，使工作面得以扩展，缩短分段制造周期。 | 一种用于双层底分段制造的装配方法，通过框架装配实现装配和焊接的平行作业，提高俯向平角焊百分比，缩短制造周期。 | 一种施工方法，通过分段的装配和焊接进行平行作业，提高了俯向平角焊的百分比，从25%提高到75%左右，使分段制造周期显著缩短。",
+        "chunk_ids": [
+            243,
+            245,
+            246
+        ]
+    },
+    {
+        "entity_name": "小分段组装法",
+        "type": [
+            "组装方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "如立体和半立体分段制造时，将外板、隔壁和甲板分别经过组装后成一独立的小分段，再进一步组装成分段，优点是小分段组装定位方便，安装精度容易控制，总体变形小。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "外板散装法",
+        "type": [
+            "组装方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在艏艉部L形、Ⅱ形和封闭型立体分段上，由于线型和结构上的原因不能逐一划分成小分段制造时，采用舷侧肋骨按距中半宽型值定位，然后将外板单件贴装，分段制造所需的场地面积小，外板主焊缝和封底焊缝施焊时分段不需要翻身。",
+        "chunk_ids": [
+            243
+        ]
+    },
+    {
+        "entity_name": "画线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在胎架经验收合格后进行的工序，操作时对照分段工作图，依据草图、样条、样板等，先用激光经纬仪画出角尺基准线，然后画出各种结构线、开口线和大接缝线，并按分段焊接表，画出断续焊焊段尺寸，提交检验。",
+        "chunk_ids": [
+            244
+        ]
+    },
+    {
+        "entity_name": "平面分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由平直的列板与相应的骨材装配组合而成的船体分段，建造过程中始终处于敞开状态装焊，施工条件好，便于使用高效焊接，应尽可能提前装焊成平面分段，且经火工矫正后再提供组装成立体分段。",
+        "chunk_ids": [
+            244
+        ]
+    },
+    {
+        "entity_name": "分段完工检验",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在完成全部施工，包括对分段进行尺度和外形测量之后的完整性检验，是船体建造过程中必须检验的项目，检验包括工厂检验部门的检验、工厂报请验船部门和船东的检验，对不合格的项目用工艺符号或文字标出并签名，事后督促施工部门修复。",
+        "chunk_ids": [
+            244
+        ]
+    },
+    {
+        "entity_name": "平台准备",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据分段尺度选择型钢式通用空心平台或通用支柱式平台，检查并修正其平面度，确保水平误差控制在±5mm以内。",
+        "chunk_ids": [
+            245
+        ]
+    },
+    {
+        "entity_name": "铺板划线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将拼接好的内底板吊上平台，检查平面度，局部不平处用重物压平，下侧用“马”局部固定，并划出中心线、肋骨检验线、纵桁和肋板等构架线。",
+        "chunk_ids": [
+            245
+        ]
+    },
+    {
+        "entity_name": "纵材",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指内底纵骨，用于支撑分段结构，安装时需根据肋位和端部定位基准线进行定位，误差控制在±2mm以内。",
+        "chunk_ids": [
+            245
+        ]
+    },
+    {
+        "entity_name": "外底纵骨",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在分段外底板上的纵向支撑构件，用于增强结构强度，安装后通过型材与水泥平台刚性点固定。",
+        "chunk_ids": [
+            245
+        ]
+    },
+    {
+        "entity_name": "构架焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段钢性固定后进行的焊接作业，采用重力焊等高效率焊接法，由8~12个焊工分四组在分段1/4区域中心部位进行。 | 立体分段焊接的第一步，先进行构架间的角焊。",
+        "chunk_ids": [
+            245,
+            246
+        ]
+    },
+    {
+        "entity_name": "预舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段外板未盖前进行的舾装作业，包括管系、人孔、直梯、放水塞和踏步等舾装件的预安装。",
+        "chunk_ids": [
+            245
+        ]
+    },
+    {
+        "entity_name": "激光经纬仪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于划出分段中心线、肋骨检验线、水平线和分段两端正足线，以进行补偿值切割。 | 用于在总段大接头端划线切割正足的测量设备，以提高水中对合效率。",
+        "chunk_ids": [
+            245,
+            248
+        ]
+    },
+    {
+        "entity_name": "翻身焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段一次翻身，完成外底板构架的平角焊和内底板上面的封底焊，进行分段完工测量和结构性验收。",
+        "chunk_ids": [
+            245
+        ]
+    },
+    {
+        "entity_name": "分段制造周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "采用框架装配法后，分段制造周期显著缩短，俯向平角焊百分比从25%提高到75%。 | 指分段制造所需的时间，采用框架装配法后，制造周期显著缩短。",
+        "chunk_ids": [
+            245,
+            246
+        ]
+    },
+    {
+        "entity_name": "脐立体分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体结构中线型变化较大、底部较瘦削的分段，通常采用倒装法制造。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "倒装法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种制造方法，用于制造脐立体分段，以甲板为基面进行零、部件的制造。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "托底小分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于脐立体分段底部结构的装配方法，先在正造胎架上制造后，再吊上主立体分段安装。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "甲板胎架",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于甲板铺板划线工作的支撑结构，划出中心线、肋骨检验线、纵横构架线和外形轮廓线。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "纵桁材",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向构件，用于增强船体强度，安装时需与甲板中心线对准。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "横隔壁",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的横向构件，用于分隔船体空间，安装时需检查左右舷水平基准线的平面度。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "企口外板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板的一种，与甲板构架连接，其上缘的构架角焊缝留出300mm不焊，以减少外板边缘的波浪式变形。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "满挡板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板中最后一块未安装的板，待立体段内部构架焊接结束后再安装。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "肋骨间距",
+        "type": [
+            "部件/参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板安装时需注意的肋骨间距和位置线是否正确。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "外板纵缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板接缝，一般开出坡口，边缘不留余量，但在最后一列板的两边应留放20mm余量，便于封板时修割。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "外板接对缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板之间的接缝，顺次接焊。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "外板企口角焊缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板企口处的角焊缝，因分段不能翻身搁平，一般在分段吊上船台安装后进行焊接。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "分段火工校正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接结束后进行的校正工序，用于勘察中心线、水平线和肋骨检验线，测量完工型值后提交结交结构性验收。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体总装的大型工作场地，具有大型吊车、焊接电源设备及各种能源供应设施，并具有将船体送入水中的下水装置。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "纵向倾斜船台",
+        "type": [
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台平面与水平面呈一定角度的船台，倾斜度通常取1/14~1/24，适用于中小型船舶建造。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "水平船台",
+        "type": [
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台平面与水平面平行的船台，适用于中、小型船舶修造厂，建造5000吨级以下船舶。",
+        "chunk_ids": [
+            246
+        ]
+    },
+    {
+        "entity_name": "半坞式船台",
+        "type": [
+            "设备/设施",
+            "船台类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在纵向滑道倾斜船台上建造大型船舶时，为充分利用船台水上部分而设置的新型船台，设有坞门以防止船台后端浸水。 | 一种纵向滑道和纵向倾斜船台派生出来的新式船台，通过在滑道后端加一坞门，使船台后端浸水不影响操作，建造时关闭坞门抽干水进行总装作业。",
+        "chunk_ids": [
+            246,
+            247
+        ]
+    },
+    {
+        "entity_name": "钢珠下水装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水的装置，适用于半坞式船台，因其承受船重时间较长，对油脂下水装置有较大影响。",
+        "chunk_ids": [
+            247
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "船台类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "低于水面、端部设有闸门、在闸门关闭后能将水排干以从事船舶修造的水工建筑物，船舶呈水平状态建造，可配置大跨距龙门式起重机，提高机械化程度。",
+        "chunk_ids": [
+            247
+        ]
+    },
+    {
+        "entity_name": "浅坞",
+        "type": [
+            "船坞类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船坞的一种，只能用于造船，成为造船坞。",
+        "chunk_ids": [
+            247
+        ]
+    },
+    {
+        "entity_name": "深坞",
+        "type": [
+            "船坞类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船坞的一种，既能用于造船又能用于修船。",
+        "chunk_ids": [
+            247
+        ]
+    },
+    {
+        "entity_name": "总段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "又称箱形建造法，分段从船底到主甲板吊装，有利于缩短建造周期，减小焊接变形，提高预舾装比例。",
+        "chunk_ids": [
+            247
+        ]
+    },
+    {
+        "entity_name": "层次建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以船底分段为基准，分三个层次进行安装，初期即可全面展开工作，工作负荷均衡，便于控制船体基线挠曲精度。",
+        "chunk_ids": [
+            247
+        ]
+    },
+    {
+        "entity_name": "塔式建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以基准分段为起点，自下而上依次吊装分段，形成阶梯形安装区域，适用于斜船台上建造大、中型船舶。 | 船体总装常用的一种建造方法，其分段吊装顺序和定位固定方法在不同建造区内相同，具体包括定位基准分段、吊装舱壁分段和底部分段、舷侧分段、甲板分段等步骤，以及分段大接缝的焊接和舾装作业。",
+        "chunk_ids": [
+            247,
+            248
+        ]
+    },
+    {
+        "entity_name": "岛式建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体划分为2或3个区域，每个区域按塔式建造法施工，区域间通过嵌补分段连接，能充分利用船台面积，缩短建造周期。 | 一种船舶建造方法，建造区域长度比塔式建造法短，船体刚度大，不容易产生船体基线挠度超差，但嵌补分段的安装定位工作比较复杂，施工难度大，一般适用于建造船长为 $100mathrm{m}$ 以上的大型船舵。",
+        "chunk_ids": [
+            247,
+            248
+        ]
+    },
+    {
+        "entity_name": "串联建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在同一船台和船坞内，建造第一艘船舱时，在船台的另一端建造第二艘船的艉部，待第一艘船下水后，将第二艘船的艉部总段移至船台第一艘的位置，或在原位继续吊装其他分段，形成整个船体。该方法能提高船台利用率，缩短建造周期，但需船台长度大于建造船舵长度，且在倾斜船台上需配置总段位移设备，适用于批量建造中、大型船舵。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "两段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用原有尺度较小的船台或造船坞建造大型船舶的方法，将整艘船舶划分成艏艉两段分别建造后下水，再在坞内或码头上进行合拢。该方法能扩大现有船厂的造船能力，提高经济效益，施工时需在总段大接头端采用激光经纬仪划线切割正足，以提高水中对合效率。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "混合建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将两种以上建造方法结合进行的工艺，如串联建造法与总段建造法结合、层次建造法与两段建造法结合，以适应不同船厂的生产条件，取得良好的建造效果。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "密性试验",
+        "type": [
+            "检验流程",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造完毕或部分区域装配、焊接与火工矫正结束后进行的试验，目的是检查船体结构防止水、石油产品等液态物质渗漏或气态物质溢漏的能力，消除缺陷，保证航行安全，并分析焊接缺陷原因，检验结构静载荷强度。试验对象包括装载液体的舱柜和要求密性的其他舱柜，试验前需完成结构装配、焊接、焊缝检查、安装相关构件等。 | 用于检测船舶结构或部件密封性能的试验方法，常用的方法包括水压试验、冲水试验、气压试验、冲气试验、煤油试验、冲油（油雾）试验。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "水压试验",
+        "type": [
+            "检验方法",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查船体结构防止液体渗漏的能力。 | 密性试验的一种，通过向被测结构内注入水并加压，检测其密封性能是否符合要求。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "冲水试验",
+        "type": [
+            "检验方法",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查船体结构防止液体渗漏的能力。 | 密性试验的一种，通过向被测结构内注入水并加压，检测其密封性能是否符合要求。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "气压试验",
+        "type": [
+            "检验方法",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查船体结构防止气体溢漏的能力。 | 密性试验的一种，通过向被测结构内注入气体并加压，检测其密封性能是否符合要求。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "冲气试验",
+        "type": [
+            "检验方法",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查船体结构防止气体溢漏的能力。 | 密性试验的一种，通过向被测结构内注入气体并加压，检测其密封性能是否符合要求。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "煤油试验",
+        "type": [
+            "检验方法",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查船体结构防止液体渗漏的能力。 | 密性试验的一种，通过向被测结构内注入煤油并观察渗漏情况，检测其密封性能是否符合要求。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "冲油（油雾）试验",
+        "type": [
+            "检验方法",
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验常用方法之一，用于检查船体结构防止液体渗漏的能力。 | 密性试验的一种，通过向被测结构内注入油或油雾并观察渗漏情况，检测其密封性能是否符合要求。",
+        "chunk_ids": [
+            248,
+            249
+        ]
+    },
+    {
+        "entity_name": "分段密性试验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验的一种形式，可在分段完工后进行，用于检查分段结构的密性。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "单个舱室密性试验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "密性试验的一种形式，可在某个舱室工程完工后进行，用于检查该舱室的密性。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "焊缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中连接各部件的接合部位，密性试验前需清除焊渣、油污、锈蚀等，并保持清洁。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "总段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中由多个分段组合而成的大型结构单元，用于在船台或船坞内建造后下水。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "舱壁分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于分隔舱室的分段，通常在分段吊装顺序中优先吊装。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "底部分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中位于船底部分的分段，通常在分段吊装顺序中优先吊装。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "舷侧分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中位于船舷侧的分段，用于形成船体侧壁结构。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "甲板分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中位于甲板部分的分段，用于形成船体上部结构。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "舱口围板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱口周围的结构板，用于防止液体渗漏，是密性试验检查对象之一。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "舱口盖",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱口上的封闭结构，用于防止液体渗漏，是密性试验检查对象之一。 | 带围板的舱口盖，属于单元的一种类型，用于船舶结构中。",
+        "chunk_ids": [
+            248,
+            255
+        ]
+    },
+    {
+        "entity_name": "水密舱口盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有水密性能的舱口盖，用于防止水进入舱室，是密性试验检查对象之一。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "舱内钢质直梯",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱室内的钢质直梯，用于人员通行，是密性试验前需完成的安装内容之一。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "伸入舱内的通风管主体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱室内的通风管主体，用于通风，是密性试验前需完成的安装内容之一。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "材料部件",
+            "部件",
+            "部件区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中位于船体上部的平面结构，是密性试验前需完成的安装内容之一。 | 船舶结构的一部分，用于分类舾装件和任务包，按舾装件数量分为大量或少量。 | 船舶上部的平面结构，用于承载各种设备和人员活动，作业类型包括少量、大量或技术要求高的相似作业。",
+        "chunk_ids": [
+            248,
+            255,
+            256
+        ]
+    },
+    {
+        "entity_name": "舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于分隔舱室的垂直结构，是密性试验前需完成的安装内容之一。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "木板紧固螺钉",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定甲板和舱壁上木板的紧固螺钉，是密性试验前需完成的安装内容之一。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "火工矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在密性试验前需完成的工艺，用于消除船体结构的变形，确保结构密性。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "装配马脚",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体装配过程中产生的多余结构，需清除和焊补，以确保密性试验前结构完整。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "舾装作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体分段装配完成后进行的设备安装和系统集成工作，通常在密性试验后进行。 | 船舶建造过程中，将管子零件安装到船体上的作业，对管子车间的生产负荷有直接影响。",
+        "chunk_ids": [
+            248,
+            253
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中位于甲板以上的建筑部分，如驾驶室、桅杆等，需在密性试验后进行吊装和焊接。",
+        "chunk_ids": [
+            248
+        ]
+    },
+    {
+        "entity_name": "船体工程",
+        "type": [
+            "工程领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的三大组成部分之一，主要涉及船体结构的设计、制造和安装。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "舾装工程",
+        "type": [
+            "工程领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的三大组成部分之一，主要涉及船舶内部设备、系统及舾装件的安装。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "涂装工程",
+        "type": [
+            "工程领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的三大组成部分之一，主要涉及船舶表面的涂装工艺和防腐处理。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "船体舾装件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装的一部分，包括门、窗、梯、盖、扶手、栏杆、系缆桩等。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "动力装置",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装的一部分，包括主机、轴系、柴油发电机、锅炉，以及为它们服务的泵、箱柜、热交换器、分油机等。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "甲板机械",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装的一部分，包括起货机、锚机、舵机、绞车、舱口盖系统等。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "电气舾装件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装的一部分，包括电气设备、导架、衬圈、接头等。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "房舱舾装件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装的一部分，包括里子板、绝缘材料、家具、厨房设备、冷藏空调设备、铁零件、焊接件等。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "管系",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装的一部分，包括动力系统、船舶系统、冷藏空调管系、通风管系等。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "传统船内取样舾装法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种落后的舾装方法，管系舾装件的制造和安装在船体成形后进行，其他舾装件安装也基本在船体建造完成后进行。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "综合放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种舾装方法，通过将机械设备、电气设备、风管、部分舾装件及它们的系统表达在一张图上，以统筹协调的方法解决各系统之间的矛盾。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "分段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船体建造技术，以焊接技术为中心，将船体分为若干分段进行建造。 | 指在船舶建造过程中，将船体划分为若干分段进行建造的工艺方式，与涂装作业相协调，是现代造船模式的重要组成部分。",
+        "chunk_ids": [
+            249,
+            257
+        ]
+    },
+    {
+        "entity_name": "区域预制预装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种舾装方法，通过在船体建造过程中进行分段预舾装和单元组装，提高施工效率。",
+        "chunk_ids": [
+            249
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化施工法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种深化生产设计的舾装方法，实现船体、舾装和涂装的同步施工，即模块化造船。 | 一种改变船舶建造中船体、舾装、涂装分离现象的施工方法，以舾装为主体、船体追随式工艺为基础，最终发展为模块化造船。",
+        "chunk_ids": [
+            249,
+            250
+        ]
+    },
+    {
+        "entity_name": "舾装生产设计",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将成组技术和统筹协调技术应用到船舶舾装设计中的设计方法，使施工设计阶段的设计内容、方法、手段发生极大改变，并形成生产设计这一全新设计阶段。",
+        "chunk_ids": [
+            250
+        ]
+    },
+    {
+        "entity_name": "托盘管理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在舾装生产设计中采用的管理方法，按区域、分阶段编制托盘管理表和绘制图纸，使单元组装、分段预装和总预装的舾装方法得到推广应用。",
+        "chunk_ids": [
+            250
+        ]
+    },
+    {
+        "entity_name": "模块化造船",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造主要采用各种大小模块的方法，包括功能性舾装小模块和综合性壳、舾、涂一体化的大模块，当全船模块数达到一定数量并形成标准化模块时，称为模块化造船。",
+        "chunk_ids": [
+            250
+        ]
+    },
+    {
+        "entity_name": "区域舾装法",
+        "type": [
+            "工艺流程",
+            "工艺方法",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在船体分道建造法实施后的舾装方法，舾装件的装配与船体分段无关，形成单元后再装在船体分段上，适用于新船的合同设计。 | 一种舾装组织方法，按制造级和产品生产特征进行分类，用于安排单元组装和提高生产效率。 | 按产品生产特征分类的舾装方法，将舾装件按类型和数量细分，以提高生产效率和组织管理。 | 指在船舶建造过程中，将舾装作业按区域进行组织的工艺方式，与涂装作业相协调，是实现壳舾涂一体化的重要手段。",
+        "chunk_ids": [
+            250,
+            254,
+            255,
+            257
+        ]
+    },
+    {
+        "entity_name": "单元舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在车间内装配舾装件的方法，与船体结构无关，能提高工作安全性，减少工时，缩短舾装作业周期。",
+        "chunk_ids": [
+            250
+        ]
+    },
+    {
+        "entity_name": "分段舾装",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在小分段、分段和大分段等船体结构件上安装舾装件的方法，介于分段和区域之间，具有相当的柔性。 | 在小分段、分段和大分段等船体结构件上安装舾装件的工艺，介于分段和区域之间，具有相当的柔性。 | 舾装的一种方式，按分段进行安装作业。 | 在分段区域内进行的舾装作业，包括安装、焊接等，按阶段划分并控制制造流程。",
+        "chunk_ids": [
+            250,
+            251,
+            254,
+            255
+        ]
+    },
+    {
+        "entity_name": "船上舾装",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体合拢期间和下水后安装舾装件的方法，适用于舱室、货舱、液舱、机舱等区域，避免资源分散和频繁重新分配。 | 在船体合拢期间和下水后安装舾装件的一个部分或区域，理想的船上舾装应避免分散和频繁地重新分配资源，特别是工人。 | 用于安装无法装入分段的大型舾装件、舱室封闭后才能安装的易损件，以及完成分段或船上的连接作业。",
+        "chunk_ids": [
+            250,
+            251,
+            255
+        ]
+    },
+    {
+        "entity_name": "管系分段预舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段上预先安装管系舾装件的方法，管系分段预舾装率可达全船管系工作量的70%左右。",
+        "chunk_ids": [
+            250
+        ]
+    },
+    {
+        "entity_name": "集配中心",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门负责舾装件生产流程管理的中心，逐步建立起来以强化舾装件的生产计划。",
+        "chunk_ids": [
+            250
+        ]
+    },
+    {
+        "entity_name": "区域",
+        "type": [
+            "工艺流程",
+            "设计要素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "需要舾装的部位，舾装件安装在一个倒置分段的底板上即成为区域，分段翻身后舾装件安装在甲板上也称为区域。 | 在产品导向型设计中，区域是划分安装作业的单位，其意义在托盘集配之后才变得明确。",
+        "chunk_ids": [
+            251,
+            254
+        ]
+    },
+    {
+        "entity_name": "舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱室的舾装区域按外板、舱壁、甲板或其他隔壁确定，一般是合适的。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "任务包",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将舾装作业分解为任务包的原则，用于平衡作业量，提高生产率。 | 按问题类型划分的作业单元，用于安排专业组、作业量和技能要求，包括甲板、生活舱室、机舱和电气等类型。",
+        "chunk_ids": [
+            251,
+            255
+        ]
+    },
+    {
+        "entity_name": "作业量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作业量的平衡需要考虑按产品生产特征状态(区域、类型和阶段)分类的元件组，影响劳动力分配、作业日程安排等因素。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "管件族制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从20世纪70年代初开始，国外造船厂根据管子加工的特点，运用成组技术原理，对管子加工工艺流程进行改造。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "管子加工技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "广泛应用管子无余量下料和先焊后弯的先进工艺，并且根据船厂的实施情况建立了半自动或自动化的管子加工生产线。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "MAPS系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本三井公司下属的千叶船厂建立的管子加工自动流水线，分为三个子系统：NC系统、ND系统和PP系统。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "NC系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "数控管子车间，用来控制管子送入、切割、法兰装配与点焊、焊接清理和管子弯曲等工作。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "ND系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "数据系统，将管子作业信息转换成数值，输出每根管子的形状、材料、规格、试验压力、是否涂装、法兰种类等信息。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "PP系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子配套系统，将舾装作业中所需的管子、阀件及其他舾装件装在输送平台上一并送出。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "管子加工线",
+        "type": [
+            "设备",
+            "制造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "适用于公称通径为 $15sim 100mathrm{mm}$ 的管子，加工效率为每小时30根，全加工线仅需四五名工人进行操作。 | 德国奥斯得利公司研制的管子加工线，具备从按钮控制到直接数字控制的多种控制方式，用于管子加工。",
+        "chunk_ids": [
+            251,
+            252
+        ]
+    },
+    {
+        "entity_name": "NK-PIPES系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本钢管公司津船厂建成的新型管子加工车间，命名为NK-PIPES系统。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "先焊后弯",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "先焊(法兰)后弯(管子)的新工艺，广泛应用于中小型船厂的管子加工车间。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "法兰",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在法兰装配工区，把指定的法兰点焊在管子上，用于管子加工。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "管子",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子加工线适用于公称通径为 $15sim 100mathrm{mm}$ 的管子，加工效率为每小时30根。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "输送平台",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "电子计算机中输出输送平台指令信息，用于将舾装作业中所需的管子、阀件及其他舾装件装在输送平台上一并送出。",
+        "chunk_ids": [
+            251
+        ]
+    },
+    {
+        "entity_name": "管子加工车间",
+        "type": [
+            "制造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本中小型船厂用于加工管子的车间，采用先焊(法兰)后弯(管子)的新工艺，并结合流水线或生产线进行加工。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "先焊(法兰)后弯(管子)工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种管子加工工艺，先对法兰进行焊接，再对管子进行弯曲加工，以提高加工效率和质量。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "流水线",
+        "type": [
+            "制造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管子加工的连续生产系统，涵盖自上料、存管、下料、切割、法兰定位和焊接等工序。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "成组技术",
+        "type": [
+            "制造方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种生产管理方法，通过合理安排生产流程和资源，实现负荷量平衡和经济合理，提高整体生产效率。 | 一种通过分析和分类管件，实现高效生产的方法，广泛应用于管件族制造法中。 | 一种管理原理，通过识别制造问题的相似性，将具有工艺相似性的不同产品的零件归类成组，形成一个‘族’，以实现多品种、少批量生产的批量生产效益。",
+        "chunk_ids": [
+            252,
+            253
+        ]
+    },
+    {
+        "entity_name": "存放库(料架)",
+        "type": [
+            "制造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自动化管子储存及提取系统，保证材料能连续供应到所需的工作站，以满足管子处理生产线的要求。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "打磨",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用磨光机或喷砂对管子两端进行处理，使其满足焊接工艺要求。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "切割及标签",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用特制锯和数字输入自动长度测量的管子切割机进行切割，也可进行开孔和管端形状切割，同时进行标签喷印。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "法兰焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "采用自动法兰焊接机，包括管子装卸、对法兰同时用四支焊枪点焊及焊接，另增设法兰仓匣及排烟系统。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "弯管加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "新式弯管机配备下料组合工具和自动换模装置，软件系统可正确标出焊接法兰和直管前的法兰孔预定角度及其他弯曲数据。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "计算机辅助制造系统(CAM)",
+        "type": [
+            "软件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管子加工的计算机辅助制造系统，支持材料管理、流程控制、数据存取和直接数控控制。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "材料管理及存货控制",
+        "type": [
+            "软件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管理材料库存和控制存货的软件系统，确保材料供应的及时性和经济性。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "材料流程控制",
+        "type": [
+            "软件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制材料在生产线上的流动，确保各工序的衔接和效率。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "材料编制及车间工作量的控制",
+        "type": [
+            "软件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于编制材料清单并控制车间工作量的软件系统，以优化生产计划。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "直接数控个别机器",
+        "type": [
+            "软件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于直接控制个别机器的数控系统，附有DNC控制单一处理的制造控制系统。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "管件族制造法",
+        "type": [
+            "制造方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种综合方法，通过成组技术简化混合品种、混合批量的产品制造过程，提高生产效率。 | 一种先进的生产原理，通过将管子零件按工艺过程分类，形成‘族’，并利用成组技术进行制造，以提高生产效率和简化计划。 | 一种制造组织方法，通过管件族、生产线和合理使用设备的工艺流程，实现畅通无阻的管子零件生产。",
+        "chunk_ids": [
+            252,
+            253,
+            254
+        ]
+    },
+    {
+        "entity_name": "管子车间",
+        "type": [
+            "制造设施",
+            "设施场所"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加工船用管子的车间，其生产好坏取决于计划和设计人员，需按照管件族制造法进行工作。 | 用于船舶管子生产制造的车间，面积为9450平方米，采用成组技术理论进行管子加工工艺流程和设备平面布置设计。",
+        "chunk_ids": [
+            252,
+            253
+        ]
+    },
+    {
+        "entity_name": "管件涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管件制造过程中的一部分，用于保护管件表面，防止腐蚀。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "托盘集配",
+        "type": [
+            "物流管理",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将管件按需集中配发至指定区域，以支持区域舾装的安装作业。 | 一种制造级，用于将管件按区域舾装要求进行集配，形成托盘，是支持船舶区域舾装的必要步骤。",
+        "chunk_ids": [
+            252,
+            254
+        ]
+    },
+    {
+        "entity_name": "统计管理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于持续改进设计细节和工作方法的管理方法，以提高生产效率。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "江南造船厂",
+        "type": [
+            "制造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "中国船舶工业集团公司造船成组技术课题组的试点单位，用于研究船舶管子生产应用成组技术。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "管系零件设计",
+        "type": [
+            "设计流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子车间设计过程中的一部分，涉及管件的结构和制造工艺设计。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "制造工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子制造过程中涉及的多种工艺，包括切割、焊接、弯管、打磨等。 | 船舶管子制造过程中涉及的工艺方法，包括下料、焊接、弯曲、装配等步骤。",
+        "chunk_ids": [
+            252,
+            253
+        ]
+    },
+    {
+        "entity_name": "生产管理",
+        "type": [
+            "管理方法",
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子车间的生产管理方法，包括计划、进度控制、材料控制等。 | 管子车间生产过程中的管理活动，包括生产进度编制、进料、出料、管子集配、信息形式和各种管理图表等。",
+        "chunk_ids": [
+            252,
+            253
+        ]
+    },
+    {
+        "entity_name": "管系工程",
+        "type": [
+            "工程领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及管子系统的设计和制造工程，对造船生产率有重要影响。",
+        "chunk_ids": [
+            252
+        ]
+    },
+    {
+        "entity_name": "管子加工与安装编码系统",
+        "type": [
+            "系统工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包含4段21个码位的编码系统，用于管子加工与安装的标准化管理，与之相适应的计算机信息处理软件也被制定。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管段划分原则",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管系设计的划分原则，是管子车间生产管理的重要依据。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "标准管尺寸",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管系设计的标准尺寸，是管子制造和加工的重要依据。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子要素的标准尺寸",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管系设计的管子要素标准尺寸，是管子制造和加工的重要依据。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "先焊后弯管设计要领",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管子制造的设计要领，强调先进行焊接再进行弯曲加工。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "无余量下料工艺数据",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管子制造的无余量下料工艺数据，是管子加工的重要技术参数。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "成组工艺规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管子制造的成组工艺规程，是管子车间生产管理的重要依据。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "生产线",
+        "type": [
+            "设施场所",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管子制造的生产线，通过将设备成组，形成固定工艺路线，提高生产效率。 | 一种制造组织方式，要求工艺过程标准化、操作简单化和专业化、建立固定工位、工件沿固定工艺路线输送，并指定工人或生产小组的工作位置。",
+        "chunk_ids": [
+            253,
+            254
+        ]
+    },
+    {
+        "entity_name": "工艺过程分类法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将工艺过程分类的方法，应用于管子车间时称为‘管件族制造法’，通过一组机器完成全部工序。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子零件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶管系中的基本组成单元，用于连接和输送流体，数量繁多，制造和管理复杂。 | 船舶制造中的关键部件，需经过托盘集配和涂装，以支持区域舾装。",
+        "chunk_ids": [
+            253,
+            254
+        ]
+    },
+    {
+        "entity_name": "管件制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶管系制造过程，涉及管子零件的设计、加工、装配和管理，是造船生产的重要环节。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "生产效率",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶制造过程中管子车间和舾装作业效率的重要指标，成组技术的应用有助于提高该指标。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "设备平面布置",
+        "type": [
+            "设施场所"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子车间内设备的布局设计，是管子加工工艺流程的重要组成部分。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子加工工艺流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶管子制造的工艺流程，包括下料、焊接、弯曲、装配等步骤，是管子车间生产管理的重要依据。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子车间生产管理",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子车间的生产管理包括生产进度编制、进料、出料、管子集配、信息形式和各种管理图表等。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "材料管理",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子车间生产过程中对材料的管理，包括材料选用、采办顺序和库存控制，是提高生产效率的重要环节。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "生产进度编制方法",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管子车间生产计划编制的方法，是生产管理的重要组成部分。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子集配",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子车间生产过程中对管子零件的集中配发和管理，是提高生产效率的重要手段。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "信息形式",
+        "type": [
+            "系统工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管子车间生产管理的信息形式，包括各种管理图表和数据格式。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管理图表",
+        "type": [
+            "系统工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于管子车间生产管理的图表工具，是生产计划和进度控制的重要手段。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子零件设计",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶管系中管子零件的设计，是管子制造和加工的重要依据。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "管子制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶管系制造过程，涉及管子零件的设计、加工、装配和管理，是造船生产的重要环节。",
+        "chunk_ids": [
+            253
+        ]
+    },
+    {
+        "entity_name": "制造级",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示制造过程中的一个阶段或层级，用于组织生产线和工艺流程，如涂装和托盘集配各为一个制造级。 | 按相似性划分的装配级别，用于组织生产，提高生产率和均衡作业线负荷。",
+        "chunk_ids": [
+            254,
+            255
+        ]
+    },
+    {
+        "entity_name": "涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种制造级，用于对管件进行油漆处理，是支持船舶区域舾装的必要步骤。 | 船舶建造中对船体和舾装件进行除锈、涂漆等表面处理的工程，用于防止腐蚀、装饰和防污，贯穿船舶建造全过程。 | 指船舶建造过程中对船体及舾装件进行表面处理和涂料涂覆的作业，是实现壳舾涂一体化的重要环节，直接影响船舶质量与建造效率。",
+        "chunk_ids": [
+            254,
+            256,
+            257
+        ]
+    },
+    {
+        "entity_name": "产品导向型工程分解",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种设计分类方法，用于描述产品状况，表中没有“系统”，而“区域”在托盘集配之后才变得有意义。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "系统材料表",
+        "type": [
+            "设计文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种表格，用于按船舶功能系统或采购范围编制物资明细，指出何时、何地需要何种材料，用于支持管件族制造法。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "功能设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品导向型设计的第一阶段，用于确定管子零件的关键要素，如直径、材料、工作压力、系统试验要求和表面处理。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "转换设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将系统图纸转换为区域图纸的过程，用于分析设备安全、管子与船体结构位置、管路布置等，影响舾装成本和维修费用。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "平行直管束",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在转换设计中采用的管路布置方式，有助于提高管件制造和舾装单元安装的生产效率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "单元组装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装的关键区域，按制造级和相似性成组安排计划，以提高生产率和均衡分道作业线的负荷。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "系统",
+        "type": [
+            "设计要素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在产品导向型设计中，系统是描述船舶整体结构的单位，但其意义在托盘集配之后才变得明确。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "区域舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种舾装组织方式，按区域划分安装作业，是船舶建造中的关键区域。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "管件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造中的关键部件，需经过托盘集配和涂装，以支持区域舾装。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "管路布置",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在转换设计中，管路布置需考虑设备安全、管子与船体结构位置、管路等量分布、直线管路布置等。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "管压降",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在转换设计中，管压降是影响管子总长度和材料成本的重要因素，需通过合理布置减少。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "管径",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子的直径，大于或等于15mm的管子需用示意图进行初步布置。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "直管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在转换设计中，尽可能采用直管以提高制造和安装效率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "弯头",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接直线管路的部件，通常为45°和90°弯头。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "阀门",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制管路流体的部件，应设在操作设备的一侧。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "支管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从主管延伸出的管路，应布置在机械设备的电源或水源一侧。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "主机",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶动力系统的核心设备，直线管路应布置在其周围的走道下面。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "辅机",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "辅助船舶运行的设备，直线管路应布置在其周围的走道下面。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "走道",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部供人员通行的区域，直线管路布置在其下面。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "平面图",
+        "type": [
+            "设计文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "转换设计中通常绘制的图纸，用于表达管路布置。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "剖面图",
+        "type": [
+            "设计文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "仅用于表达复杂管路布置的图纸，通常在转换设计中使用。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "总图",
+        "type": [
+            "设计文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "转换设计中提供的总图，用于控制施工设计（生产设计）的分配。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "施工设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据总图分配给多个设计人员进行的详细设计工作。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "生产设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据总图分配给多个设计人员进行的详细设计工作。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "制造标准",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按制造标准安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "零件数量",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按零件数量安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "体积",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按体积安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "质量",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按质量安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "装配工时",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按装配工时安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "分道作业线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按相似性成组安排计划，以均衡分道作业线的负荷。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "相似性",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按相似性成组安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "成组",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按相似性成组安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "均衡",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按相似性成组安排计划，以均衡分道作业线的负荷。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的关键工艺，涉及安装作业的组织和执行。 | 船舶建造过程中安装舾装件、小单元和大单元的作业，分为分段舾装和船上舾装两种方式。 | 船舶建造过程中安装设备、管系、舾装件等的作业过程，分为敞开空间内安装、封闭空间内安装等类型。",
+        "chunk_ids": [
+            254,
+            255,
+            256
+        ]
+    },
+    {
+        "entity_name": "单元",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装的关键区域，按制造级和相似性成组安排计划，以提高生产率。 | 在舾装过程中，单元是指按制造级划分的装配单元，包括机械单元、管子单元及其他带围板的舱口盖、枪杆等，按相似性成组以提高生产率。",
+        "chunk_ids": [
+            254,
+            255
+        ]
+    },
+    {
+        "entity_name": "制造相似性",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按制造相似性成组安排计划，以提高生产率。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "制造负荷",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组装中，按相似性成组安排计划，以均衡分道作业线的负荷。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "制造流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造中的关键流程，涉及设计、材料选用、工艺安排、装配和检验等环节。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "制造要求",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在管件族制造法中，制造要求包括管件族、生产线和合理使用设备的工艺流程。",
+        "chunk_ids": [
+            254
+        ]
+    },
+    {
+        "entity_name": "机械单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包含所有相关零件的单元，如基座、管子、阀、支架、走道、扶梯及其他零件，是标准系列的一部分，适用于各种类型和大小的船舶。",
+        "chunk_ids": [
+            255
+        ]
+    },
+    {
+        "entity_name": "管子单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "仅包含管子与阀、支架、走道的组合，具有特殊性，因不同船主的船舶管路布置和细节而异。",
+        "chunk_ids": [
+            255
+        ]
+    },
+    {
+        "entity_name": "枪杆",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "属于单元的一种类型，可能用于船舶结构或舾装中。",
+        "chunk_ids": [
+            255
+        ]
+    },
+    {
+        "entity_name": "单元装配",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单元装配分为装配和焊接（或无）两个阶段，装配工承担常规装配，焊接阶段处理大量或特殊焊接作业。",
+        "chunk_ids": [
+            255
+        ]
+    },
+    {
+        "entity_name": "分段翻身",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段状态的改变，用于在倒置状态下完成舱顶板内侧的舾装作业，随后在底板上完成安装。",
+        "chunk_ids": [
+            255
+        ]
+    },
+    {
+        "entity_name": "阶段",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按分段状态划分的作业阶段，包括倒置安装、倒置焊接、翻身后安装和翻身后焊接。",
+        "chunk_ids": [
+            255
+        ]
+    },
+    {
+        "entity_name": "生活舱室",
+        "type": [
+            "部件",
+            "部件区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一部分，用于分类舾装件和任务包，按舾装件数量分为大量或少量。 | 船舶内部供船员和乘客居住的区域，作业类型包括少量、大量或技术要求高的相似作业。",
+        "chunk_ids": [
+            255,
+            256
+        ]
+    },
+    {
+        "entity_name": "机舱",
+        "type": [
+            "部件",
+            "部件区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一部分，用于分类舾装件和任务包，按舾装件数量分为大量或少量。 | 船舶中安装主机、辅机及其他动力设备的区域，作业类型包括少量、大量或技术要求高的相似作业。",
+        "chunk_ids": [
+            255,
+            256
+        ]
+    },
+    {
+        "entity_name": "电气",
+        "type": [
+            "部件",
+            "部件区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一部分，用于分类舾装件和任务包，按舾装件数量分为大量或少量。 | 船舶中涉及电气系统安装和布线的区域，作业类型包括少量、大量或技术要求高的相似作业。",
+        "chunk_ids": [
+            255,
+            256
+        ]
+    },
+    {
+        "entity_name": "除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装前对船体和舾装件表面进行的清洁处理，以去除锈迹和杂质，为涂漆提供良好基础。 | 对钢材表面进行锈蚀清除的工艺，包括去除氧化皮和铁锈，确保涂装质量。",
+        "chunk_ids": [
+            256,
+            257
+        ]
+    },
+    {
+        "entity_name": "涂漆",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装过程中在除锈后的表面进行的涂层施工，用于防腐、装饰和防污。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "抛丸预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装前对钢材表面进行的机械处理，通过抛丸去除锈迹和杂质，提高涂层附着力。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "车间预涂底漆",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在车间对钢材进行的底漆喷涂处理，用于增强涂层与基材的结合力，减少后续涂装工作量。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "涂层配套系统",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装中使用的多层涂层体系，包含底漆、中间漆和面漆等，具有复涂间隔和保养周期等时间要求。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "环境温度",
+        "type": [
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响船舶涂装作业进程的重要环境参数，对涂层质量和施工安全有直接影响。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "环境湿度",
+        "type": [
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响船舶涂装作业进程的重要环境参数，对涂层质量和施工安全有直接影响。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "涂装成本",
+        "type": [
+            "经济指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中涂装作业的费用，占总船价的 $8% sim 10%$，在先进造船厂中比例较低。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "涂装质量",
+        "type": [
+            "质量指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装作业的工艺水平和最终效果，直接影响船舶使用寿命、维修费用和外观质量。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "涂装工程体系",
+        "type": [
+            "系统结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装从设计到建造全过程的组织体系，贯穿船舶建造全过程，与船体舾装密切相关。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "分段合拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中将各分段组装成整体的过程，涂装作业通常在合拢前在敞开空间完成。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "封闭舱室",
+        "type": [
+            "部件区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部封闭空间，用于安装设备或进行特殊作业，涂装作业在此进行时需更多工时和吊运服务。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "舾装区域",
+        "type": [
+            "部件区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中用于舾装作业的区域，与船体建造中的合拢级区域相同，作为独立作业区域。",
+        "chunk_ids": [
+            256
+        ]
+    },
+    {
+        "entity_name": "区域涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中，将涂装作业与船体结构设计、舾装布置等紧密结合，实现涂装与壳舾作业同步进行的工艺方式，是现代造船模式的重要组成部分。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "涂装技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造中应用的涂装相关技术，包括涂装设计、涂料选择、施工工艺等，是现代化造船技术发展的重要基础。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "涂装合同设计",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造合同设计阶段，充分考虑涂装技术要求，确保涂装作业的可行性与质量，是实现涂装与船体结构设计协调的重要环节。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "涂装生产设计",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中，根据涂装作业的具体要求进行的详细设计，包括涂装工艺、涂料配置、施工安排等，确保涂装质量与效率。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "涂料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶涂装作业的材料，包括底漆、面漆等，其选择与使用直接影响涂装质量、成本及船舶防腐性能。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "车间底漆",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在钢材预处理阶段喷涂的保护性涂料，用于防止钢材在加工过程中发生腐蚀，是涂装作业的重要组成部分。 | 喷涂在钢材预处理后的保护性涂层，漆膜厚度通常为 $10sim 15mu mathrm{m}$，具有良好的力学性能、耐磨、耐冲击，保养期可达10个月～1年。 | 用于抛丸处理后钢材表面的保护涂层，若使用干性良好的车间底漆（如无机硅酸锌车间底漆），则可免除烘干工序。",
+        "chunk_ids": [
+            257,
+            258,
+            259
+        ]
+    },
+    {
+        "entity_name": "钢材预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指对船舶建造用钢材进行表面处理的工艺，包括除锈、去污、校平等，确保钢材表面清洁并喷涂车间底漆，以防止腐蚀。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "分段涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中，对船体分段进行涂装作业的工艺方式，通常包括对舾装件的涂装，是区域涂装的重要组成部分。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "舾装件涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指对船舶舾装件（如支架、基座、马脚等）进行涂装作业的工艺，通常在分段涂装阶段完成，以确保舾装件与船体连接部位的防腐性能。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "内场作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中，对舾装单元和舾装件进行涂装的作业，通常在单元舾装和舾装件制作的后期完成，属于区域涂装的一部分。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "氧化皮",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材在高温热轧过程中形成的表面氧化层，易导致钢材腐蚀，需在涂装前进行清除。 | 钢材表面在氧化过程中形成的层状物质，需通过磨料喷射或抛丸除锈的方法清除。",
+        "chunk_ids": [
+            257,
+            258
+        ]
+    },
+    {
+        "entity_name": "铁锈",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材表面因氧化皮破裂或腐蚀产生的锈蚀产物，需在涂装前清除以确保涂装质量。 | 钢材表面因氧化产生的锈蚀产物，需通过磨料喷射或抛丸除锈的方法清除。",
+        "chunk_ids": [
+            257,
+            258
+        ]
+    },
+    {
+        "entity_name": "灰尘",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材在运输过程中附着的杂质，需在涂装前清除以确保涂装质量。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "油脂",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材在运输或加工过程中附着的油类物质，需在涂装前清除以确保涂装质量。 | 在钢材预处理过程中需要去除的表面污染物之一，通常使用氧炔焰进行清除。",
+        "chunk_ids": [
+            257,
+            258
+        ]
+    },
+    {
+        "entity_name": "水分",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材表面附着的水分，需在涂装前清除以防止腐蚀和影响涂装效果。 | 在钢材预处理过程中需要去除的表面污染物之一，通常使用氧炔焰进行清除。",
+        "chunk_ids": [
+            257,
+            258
+        ]
+    },
+    {
+        "entity_name": "校平",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对钢材进行表面平整处理的工艺，确保钢材表面符合涂装要求。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "防护漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护钢材表面免受腐蚀的涂料，通常在钢材预处理阶段喷涂。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "二次除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在涂装过程中因加工或施工导致钢材表面再次出现锈蚀，需进行的除锈处理，钢材预处理可有效减少此类成本。",
+        "chunk_ids": [
+            257
+        ]
+    },
+    {
+        "entity_name": "磨料喷射",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种钢材表面清理工艺，通过磨料的高速喷射去除氧化皮、铁锈等表面污染物，能适应各种高性能涂料的要求。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "抛丸除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种钢材表面清理工艺，通过高速抛射金属丸粒去除氧化皮、铁锈等表面污染物，能适应各种高性能涂料的要求。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "自动高压无气喷涂装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于车间底漆喷涂的设备，通常在钢材预处理流水线上完成喷涂工作。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "表面清洁度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量清除氧化皮、锈斑和其他污物的程度，是表面清理的主要指标。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "表面粗糙度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在表面清理时因磨料的撞击使钢材表面获得的粗糙度，有利于底漆对钢材的附着作用。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "除锈标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "我国船舶标准化技术委员会制定的专业标准，对钢材除锈质量规定了三个等级，即一级、二级和三级，分别相当于美国标准的接近出白级、工业级和清扫级，以及瑞典标准的Sa2.5、Sa2和Sa1。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "钢板校平",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于消除钢板在运输或堆积过程中产生的形变，通常采用七星辊或九星辊校平机完成。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "七星辊校平机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板校平的设备，通常设置在钢板预处理工位之前，用于消除钢板形变。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "九星辊校平机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板校平的设备，通常设置在钢板预处理工位之前，用于消除钢板形变。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "辊道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板输送的结构，通常为圆柱形，两端有轴承座，辊道间距为 $500sim 750mathrm{mm}$。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "链式点接触型辊道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种特殊结构的辊道，用于在喷漆工序后托住经过预处理和涂有车间底漆的钢板，避免车间底漆受损。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "八字形辊道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种特殊结构的辊道，仅钢板的两边与辊道接触，完全避免车间底漆在干燥前受到破坏。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "预热",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在抛丸前将钢板升温，除去表面水分、部分油污，使钢板升温至一定的温度以利于喷漆后的干燥。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "中频感应加热",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种预热设备，结构较简单，感应线圈安装在两个辊道之间，不占地位，能耗较小，但对除去钢板上的油污、垃圾的效果不佳。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "液化石油气加热",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种预热设备，用火焰直接加热钢板，可除去钢板上的水分、油污，但必须有充足的石油气供给。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "热水喷淋加热",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种预热设备，除去油污、垃圾的效果最好，但设备较复杂，需要蒸汽源、热水泵和热水蒸发的通风室。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "车间底漆干燥",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "车间底漆干燥快，不影响气割、焊接质量，无毒，能耐强溶剂，与船用漆有良好的配套性。",
+        "chunk_ids": [
+            258
+        ]
+    },
+    {
+        "entity_name": "抛丸",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种钢材预处理工艺，通过抛丸机将磨料以高速射向钢材表面，去除氧化皮和锈蚀，使表面呈现一定粗糙度以利于涂料粘附。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "抛丸处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用抛丸机的叶轮高速旋转产生离心力，将磨料射向钢材表面，以去除氧化皮和锈蚀，使钢材表面露出金属本色并呈现一定粗糙度。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "抛丸预处理流水线",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢材预处理的流水线，分为钢板预处理流水线和型钢预处理流水线，两者工作原理一致，但型钢流水线因表面复杂，抛丸机安装角度和数量有所不同。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "抛丸室",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "抛丸处理的作业空间，安装有抛丸器、磨料循环装置、磨料清扫装置、通风除尘装置等。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "抛丸器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由叶轮、护罩、定向套、分丸轮、轴承座及电动机等组成，通过高速旋转产生离心力，将磨料以60~80m/s的速度抛出，打击钢板表面以去除氧化皮和锈蚀。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "磨料循环系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于输送磨料的系统，包括机械输送（螺旋输送机加斗式提升机）和气动输送两种方式，机械输送因能耗低而被广泛采用。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "磨料清扫装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清除抛丸处理后钢材表面积聚的磨料，由刮板或滚刷刮除大部分积料，后部分用压缩空气喷吹或真空吸尘装置清除残余磨料及尘埃。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "通风除尘装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吸收抛丸时产生的粉尘和分离回收磨料中的粉尘，由吸尘管系接入除尘器，通风量与抛丸室容积及磨料抛射量有关，换气次数为300~350次/h。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "磨料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清除钢材表面氧化皮与锈蚀的材料，包括铁丸、钢丸、钢丝段和棱角钢砂，其中钢丸与钢丝段或钢砂的组合使用效果最佳。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "喷漆",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "抛丸处理后的钢材表面需立即涂覆车间底漆，采用自动化方式进行，由高压无气喷漆机、自动喷枪、通风去雾装置等组成。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "自动喷枪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于喷漆的装置，通过链条传动或汽缸传动控制移动，喷枪与钢板距离通常为300mm左右，上下喷枪运行方向相反。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "喷漆室",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于喷漆作业的封闭空间，安装有吸风管道、漆雾过滤器、风机及排气管道，以防止环境污染。",
+        "chunk_ids": [
+            259
+        ]
+    },
+    {
+        "entity_name": "烘干炉",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板喷漆后快速干燥的装置，采用远红外辐射或蒸汽为热源，不能采用明火直接加热，需设排风装置以防止溶剂气体积聚引发燃爆。",
+        "chunk_ids": [
+            259
+        ]
+    }
+]

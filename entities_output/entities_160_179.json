@@ -1,0 +1,6488 @@
+[
+    {
+        "entity_name": "钢材预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材预处理是对钢材进行矫平、除锈(含氧化皮)和涂防护漆等作业，是涂装工艺的前期准备步骤。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "除锈",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "除锈是钢材预处理中的关键步骤，用于清除钢材表面的氧化皮、锈斑和其他污物，以提高后续涂装质量。 | 船舶舾装钢结构件和管系等的涂装作业前的处理步骤，根据其规格、重量和体积等特征选用不同的除锈方法。 | 为确保箱柜表面清洁度而进行的表面处理工艺，根据箱柜类型采用抛丸、酸洗或二次除锈等方式。",
+        "chunk_ids": [
+            160,
+            161,
+            162
+        ]
+    },
+    {
+        "entity_name": "表面清洁度",
+        "type": [
+            "工艺指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表面清洁度是衡量清除氧化皮、锈斑和其他污物的程度，是表面清理的主要指标。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "表面粗糙度",
+        "type": [
+            "工艺指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表面粗糙度是在表面清理时因磨料的撞击，使钢材表面获得的粗糙度，它有利于底漆对钢材的附着作业。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "喷射清理",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "喷射清理是一种除锈方法，通过喷射磨料清除钢材表面的氧化皮、锈迹和其他污物，分为不同等级。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "车间底漆",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "车间底漆是涂装工艺中用于钢材表面的防护涂层，其漆膜厚度一般为 $10sim 15~mu mathrm{m}$，保养期可达 $10sim 12$ 个月。 | 主船体外表面涂层中最内层一道，残留在钢材表面，用于后续涂层的附着。 | 船舶涂装前用于保护钢板表面的底涂层，需具有耐热性好、防腐蚀、与后道涂层兼容性好、不影响焊接性能等特性。",
+        "chunk_ids": [
+            160,
+            161,
+            164
+        ]
+    },
+    {
+        "entity_name": "分段涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段涂装是预处理后的钢材经构件加工和结构预装焊制成分段后，进行的二次除锈和底漆喷涂作业。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "喷丸除锈",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "喷丸除锈是利用压缩空气使铁丸冲击金属表面实现除锈的方法，铁丸直径一般为 $0.8 sim 1.5 mathrm{~mm}$，风压为 $3.92 \times 10^{5} sim 4.9 \times 10^{5} mathrm{~Pa}$。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "喷丸房",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "喷丸房是进行喷丸除锈作业的专用场所，内设喷丸装置、轨道、分段装载车、铁丸回收装置和抽吸锈尘装置等。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "分段调运设备",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段调运设备用于在喷丸房外进行分段的搬运和转移，是分段涂装作业的重要辅助设备。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "便携式无气喷漆设备",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "便携式无气喷漆设备用于在外场平台上进行分段底漆喷涂作业，适用于条件受限的涂装场景。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "船上涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船上涂装是在船舶下水前在船台上或下水后在码头边进行的涂装作业，包括船体大接缝处的除锈、清理、补漆和外表面喷涂。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "完工涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "完工涂装是交船前的涂装作业，包括上层建筑外围壁、甲板、甲板机械等表面的清理和补漆，以及船体外表面最后一道面漆的喷涂。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "船体外表面",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外表面是船舶结构的一部分，需根据其接触介质的不同进行相应的涂装处理，以防止腐蚀。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "电化学腐蚀",
+        "type": [
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "电化学腐蚀是钢质船体在海水中的主要腐蚀形式，其腐蚀速度与钢板浸在海水中的深度有关。",
+        "chunk_ids": [
+            160
+        ]
+    },
+    {
+        "entity_name": "船底部",
+        "type": [
+            "结构部位",
+            "部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船底部是船体结构的一部分，处于海水直接接触的环境，对涂料保护要求较高。 | 船体外部轻载水线以下的表面，常年浸泡在海水中，主要受海水腐蚀，平均腐蚀速度为0.1~0.15 mm/a，需具有很好的耐水性、缓蚀性和防污性。",
+        "chunk_ids": [
+            160,
+            161
+        ]
+    },
+    {
+        "entity_name": "水线部",
+        "type": [
+            "部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体轻载水线以上，满载水线以下的外表面，干湿交替，经常遭受波浪冲击和浮物撞击，是受海水腐蚀最严重的部位，平均腐蚀速度为0.3~0.6 mm/a。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "外舷部",
+        "type": [
+            "部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体满载水线以上，舷墙顶线以下的外表面，经常遭受海浪拍击、日光暴晒和干湿交替，容易遭受机械磨损，总腐蚀情况与水线部类似。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "甲板部",
+        "type": [
+            "部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "不涂敷甲板敷料的露天甲板表面，由于船员行走和操作频繁，甲板表面漆膜磨损比较严重，同时还常年遭受日晒雨淋，需具有很好的防滑性和耐磨性。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "上层建筑部",
+        "type": [
+            "部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "桥楼、甲板室和枪杆等外表面，主要遭受海洋大气腐蚀，腐蚀速度为0.03~0.06 mm/a，还经常受紫外线照射和盐雾的侵蚀，要求涂料有较强的耐候性、耐久性和耐盐性。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "船舱部",
+        "type": [
+            "部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客舱、货舱和液舱等表面，船体内表面，其腐蚀情况比船体外表面轻微得多，涂料要求根据实际用途而异，如货舱要耐磨，油舱要耐油，压载水舱要防蚀。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "防蚀漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船底涂层，具有耐水性强的特性，与防污漆配合使用，涂层厚度应大于250 μm。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "防污漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船底涂层，能毒杀海洋生物，与防蚀漆配合使用，涂层厚度应大于250 μm。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "水线漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于水线部涂层，具有良好的漆膜机械性能，与防蚀漆配合使用，涂层厚度应大于180 μm。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "防锈漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外舷部、甲板部、上层建筑部和船舱部的涂层，具有较好的耐水性、耐候性和防锈性能。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "船壳漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外舷部涂层，具有较好的颜色和光泽，与防锈漆配合使用，总厚度应大于150 μm。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "甲板漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于甲板部涂层，与防锈漆配合使用，总厚度应大于150 μm。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "枪杆漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于上层建筑部涂层，具有良好的颜色和光泽，与防锈漆配合使用。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "船舱漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舱部涂层，根据实际用途不同，如油舱要耐油，压载水舱要防蚀。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "洗涤底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "主船体外表面涂层中最内层一道，残留在钢材表面，用于后续涂层的附着。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "舾装钢结构件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装中的管系、箱柜和各种舾装钢结构件，如锚系统、舵叶、桅杆、扶梯、各种基座、格栅、固定架、支架和吊架等，需进行除锈、清理和涂漆等涂装作业。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "锚系统",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "舵叶",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。 | 安装锌块以保护其免受腐蚀的船体部件。",
+        "chunk_ids": [
+            161,
+            163
+        ]
+    },
+    {
+        "entity_name": "桅杆",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "扶梯",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "基座",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "格栅",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "固定架",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "支架",
+        "type": [
+            "部件",
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。 | 用于支撑船舶的结构，前支架和后支架分别位于船体的前后端，用于控制船舶下水过程。",
+        "chunk_ids": [
+            161,
+            175
+        ]
+    },
+    {
+        "entity_name": "吊架",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装钢结构件的一种，需根据其规格、重量和体积等特征选用不同的除锈方法，并喷涂适应其安装部位的底漆。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "管系",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装中的管系，不同类型和不同作用的管系，涂漆要求各不相同，其差别仅在于不同类型和用途的管件所涂底漆的品种不同。 | 船舶内部的管道系统，用于输送液体或气体，是壳舾涂一体化造船中需要预装的重要舾装件。",
+        "chunk_ids": [
+            161,
+            166
+        ]
+    },
+    {
+        "entity_name": "分油柜",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶箱柜的一种，其涂漆要求各不相同，板厚和外形尺寸不同导致除锈方式不同。 | 用于储存和分离油类的箱柜，其除锈方式和涂装方案需根据具体类型进行分类。",
+        "chunk_ids": [
+            161,
+            162
+        ]
+    },
+    {
+        "entity_name": "水柜",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶箱柜的一种，其涂漆要求各不相同，板厚和外形尺寸不同导致除锈方式不同。 | 用于储存水的箱柜，其除锈方式和涂装方案需根据具体类型进行分类。",
+        "chunk_ids": [
+            161,
+            162
+        ]
+    },
+    {
+        "entity_name": "镀锌柜",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶箱柜的一种，其涂漆要求各不相同，板厚和外形尺寸不同导致除锈方式不同。 | 表面经过镀锌处理的箱柜，其除锈方式和涂装方案需根据具体类型进行分类。",
+        "chunk_ids": [
+            161,
+            162
+        ]
+    },
+    {
+        "entity_name": "非镀锌柜",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶箱柜的一种，其涂漆要求各不相同，板厚和外形尺寸不同导致除锈方式不同。 | 未经过镀锌处理的箱柜，其除锈方式和涂装方案需根据具体类型进行分类。",
+        "chunk_ids": [
+            161,
+            162
+        ]
+    },
+    {
+        "entity_name": "清理",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装钢结构件和管系等的涂装作业前的处理步骤，与除锈结合进行。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "涂漆",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装钢结构件和管系等的涂装作业，需根据生产设计提供的除锈与底漆涂装要求分类清单进行施工。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶舾装钢结构件和管系等的涂装作业，需适应其安装部位的油漆配套要求。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "生产设计",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "提供除锈与底漆涂装要求分类清单，用于指导船舶舾装钢结构件和管系等的涂装作业。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "分类清单",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于指导船舶舾装钢结构件和管系等的涂装作业，包含除锈与底漆涂装要求。",
+        "chunk_ids": [
+            161
+        ]
+    },
+    {
+        "entity_name": "箱柜",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上的储油或储水容器，根据其功能和材质（如镀锌或非镀锌）分为不同类型，其涂漆要求和除锈方式各不相同。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "内场涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造过程中，对箱柜内部进行的涂装作业，根据箱柜类型采用不同的底漆和面漆组合。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "抛丸除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过高速喷射金属丸粒去除箱柜表面锈蚀和杂质的除锈方式，常用于锅炉燃油日用柜、柴油发电机滑油沉淀柜等。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "酸洗除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过酸性溶液去除箱柜表面锈蚀的除锈方式，常用于尾管滑油重力油柜和前尾轴管密封循环油柜。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "二次除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "针对箱柜外部白锈的去除工艺，常用于燃油净化水柜和滑油净化水柜（镀锌）。 | 船舶涂装前的再次表面处理工艺，需达到特定的清洁度等级（如Sa2.5或St3），并控制盐分、灰尘等级、粗糙度等参数。 | 钢结构表面处理的二次工序，若盐分值或其他指标不合格需返工，影响建造周期。",
+        "chunk_ids": [
+            162,
+            164,
+            165
+        ]
+    },
+    {
+        "entity_name": "OT底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于箱柜内部的底漆类型，常见于锅炉燃油日用柜、柴油发电机滑油沉淀柜等。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "RP底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于箱柜外部的底漆类型，常见于锅炉燃油日用柜、柴油发电机滑油沉淀柜等。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "FP面漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于箱柜外部的面漆类型，常见于锅炉燃油日用柜、柴油发电机滑油沉淀柜等。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "WP油漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于燃油净化水柜和滑油净化水柜（镀锌）的外部涂装材料。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "SB底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于淡水冷却膨胀水箱、凝水检查贮存柜与化学清洗柜的内部底漆类型。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "PE底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于饮水压力柜与淡水压力柜的内部底漆类型。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "PE面漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于饮水压力柜与淡水压力柜的内部面漆类型。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "醇酸树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种由多元醇和多元酸缩聚而成的高分子树脂，具有优良的耐候性和耐久性，常用于船舶上层建筑部和外舷部。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "乙烯树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过乙酸乙烯聚合而成的树脂，具有良好的耐水性、耐候性和耐化学品性，广泛用于船舶涂装。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "环氧树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分子中含有环氧基的高分子聚合物，具有优良的耐化学品性、耐水性和耐盐性，常用于油舱、货舱和船底部。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "氯化橡胶",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由天然橡胶经氧化处理制成的涂料材料，具有优良的耐化学品性、耐水性和耐久性，常用于甲板、甲板室等大气区。",
+        "chunk_ids": [
+            162
+        ]
+    },
+    {
+        "entity_name": "聚氨酯树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多异氰酸酯与多羟基化合物反应而成的树脂，具有优良的快干性、耐磨性、耐油性和耐化学品性，常用于外舷部和甲板部。 | 由多异氰酸酯与多羟基化合物反应而得的聚氨基甲酸酯，简称聚氨酯。聚氨酯涂料具有优良的快干性、耐磨性、耐油性、耐水性和耐化学品性，且附着力强。",
+        "chunk_ids": [
+            162,
+            163
+        ]
+    },
+    {
+        "entity_name": "无机锌漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由无机锌化合物制成的涂料，具有优良的防锈性能，常用于船舶的防腐涂装。 | 由硅酸钠、硝酸钾（俗称水玻璃）作为成膜材料，并加入锌粉制作而成。含锌量超过70%的称为富锌漆，低于70%的称为低锌漆。涂层坚韧，耐磨性好，对多种石油产品和有机溶剂作用稳定，锌粉具有阴极保护作用。",
+        "chunk_ids": [
+            162,
+            163
+        ]
+    },
+    {
+        "entity_name": "聚氨酯涂料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由聚氨酯树脂制成的涂料，具有优良的快干性、耐磨性、耐油性、耐水性和耐化学品性，且附着力强。其品种有单组份和双组份之分，其中双组份漆需要固化。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "富锌漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "无机锌漆的一种，含锌量超过70%。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "低锌漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "无机锌漆的一种，含锌量低于70%。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "阴极保护",
+        "type": [
+            "设备/工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船体防腐蚀的辅助手段，通过使被保护金属极化为阴极，捕获电子而得到保护。根据极化原理的不同，分为牺牲阳极法和外加电流法。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "牺牲阳极法",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "阴极保护的一种方法，用电极电位比被保护金属更低的金属作为阳极，使其释放电子而遭到腐蚀，从而保护被保护金属。常用材料有锌、铝及其合金。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "外加电流法",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "阴极保护的一种方法，通过设置直流稳压电源和控制设备，由不溶性阳极向船体发送电流，使船体表面极化，从而获得防蚀保护。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "不溶性阳极",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由电极电位很高的铂、钽等贵重金属制成，用于外加电流法阴极保护中，向船体发送电流。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "阳极屏",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂在不溶性阳极附近的高性能涂层（如环氧磁漆或聚氨酯磁漆），目的是让电流发送得远一些，并防止漆膜老化。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "国际海事组织",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "制定压载舱涂层性能标准（PSPC）的国际组织，负责船舶防腐蚀相关标准的制定与推广。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "压载舱涂层性能标准(PSPC)",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由国际海事组织制定的强制性标准，用于规范专用海水压载舱和散货船双舷侧处所保护涂层的性能要求。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "专用海水压载舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载海水的船体舱室，其腐蚀状况严重威胁船舶的航行和结构安全，需采用高性能涂层进行防护。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "龙骨",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体的主结构，用于安装牺牲阳极以保护船底和舷侧钢板，特别是在漆膜破损的情况下。 | 船舶的主骨架，支撑船体结构，其坡度影响船舶下水时的受力和平衡。",
+        "chunk_ids": [
+            163,
+            177
+        ]
+    },
+    {
+        "entity_name": "舷侧外板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体侧面的外板，局部漆膜擦伤可能导致电化学腐蚀，需进行防腐蚀处理。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "螺旋桨",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "铜质螺旋桨裸露在水中，与桨轴和尾柱等钢结构件接触，可能产生电池作用，导致尾部钢质部件腐蚀。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "尾柱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与螺旋桨接触的钢结构件，可能因电池作用导致腐蚀，需安装锌块进行保护。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "船舶的主体结构，需通过阴极保护等手段进行防腐蚀处理。 | 船舶的主体结构，是下水过程中承受浮力、重力和力矩作用的主要部分。 | 船舶的主体结构，其在下水过程中与滑道、滑板等接触，承受各种受力和运动状态。 | 被视作弹性变形体，通过船底局部结构、船底支墩和滑道板支持在船台滑道上，在下水滑行过程中发生变形，并与支持逐渐脱离。",
+        "chunk_ids": [
+            163,
+            174,
+            178,
+            179
+        ]
+    },
+    {
+        "entity_name": "锌块",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牺牲阳极法阴极保护的金属块，由锌制成，用于保护船体部件免受腐蚀。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "阳极芯脚",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "牺牲阳极与船体连接的部分，需焊接牢固以保证电气接触。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "电介质接触",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在安装牺牲阳极时，需清除阳极表面油脂等异物，以保证与船体的电介质接触。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "电镀电位",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "电化学原理中用于判断金属腐蚀倾向的参数，电镀电位较低的金属将作为阳极而释放电子。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "极化电位",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护中，船体表面的极化电位通常取-0.85V（铜/饱和硫酸铜溶液）左右。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "参考阳极",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流法阴极保护中，采样保护电位并由控制设备自动调节的阳极。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "控制设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护系统中，用于调节保护电位的设备。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "阳极水密箱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护系统中，用于保证阳极密封性的装置。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "螺旋桨轴",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与螺旋桨连接的轴，需与船体良好接地以保证阴极保护系统的正常运行。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "电源",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护系统中，用于向船体发送电流的装置。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "接地安装",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护系统中，确保螺旋桨轴、电源和控制设备等与船体良好连接的安装过程。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体牺牲阳极",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体阴极保护的阳极装置，需根据船舶特点进行设计和布置。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体极化",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过阴极保护使船体表面极化，从而获得防蚀保护。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体设计设备分委会(DE)",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责制定国际涂层性能标准（PSPC）的国际海事组织下属分委会。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船舶设计",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涉及船体牺牲阳极的选用、数量和布置，需由专业人员通过设计和计算来决定。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体建造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涉及阴极保护系统的安装，需保证阳极水密箱的密性，以及螺旋桨轴、电源和控制设备等与船体的接地安装。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体检验",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护系统的运行过程中，需由专业人员定期进行检查和保养。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体维护",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流法阴极保护系统的运行过程中，需由专业人员定期进行检查和保养。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体防腐蚀",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过阴极保护等手段，防止船体因电化学腐蚀而受损。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体表面处理",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为保证锌粉与钢材表面具有良好的电气接触，要求钢材表面处理应达到Sa2.5级以上。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体涂层",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体防腐蚀的涂层，如无机锌漆、聚氨酯涂料等，需满足国际海事组织压载舱涂层性能标准(PSPC)。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体的主结构，包括龙骨、舷侧外板、肋骨等，需进行防腐蚀处理。 | 船舶的主体结构，包括双层底、单层舷侧、单层甲板等，是壳舾涂一体化造船中分段划分的重要依据。 | 船舶的主体结构，包括船底、舷侧、甲板等，是下水过程中承受各种力和力矩作用的关键部分。 | 船舶的主体结构，包括龙骨、肋骨、外板等，影响船舶的浮力和稳定性。",
+        "chunk_ids": [
+            163,
+            166,
+            174,
+            177
+        ]
+    },
+    {
+        "entity_name": "船体腐蚀",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于漆膜不良、局部擦伤等原因，船体在海洋环境中可能因电化学腐蚀而受损。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体防护",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过阴极保护、涂层防护等手段，防止船体因腐蚀而受损。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构所用的金属材料，如钢材，需进行防腐蚀处理。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "船体工艺",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涉及船体建造、涂装、阴极保护等工艺，需符合国际海事组织相关标准。",
+        "chunk_ids": [
+            163
+        ]
+    },
+    {
+        "entity_name": "涂层性能标准",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由国际海事组织采纳并强制执行的标准，适用于2008年7月1日以后签订合同的船舶，或2009年1月1日以后铺设龙骨的船舶，或2012年7月1日以后交工的船舶。该标准提高了船舶涂层寿命期至15年，并对分段表面处理、结构表面缺陷处理、涂装前表面可溶性盐限制、灰尘等级、涂层厚度与控制、合拢后的表面处理、涂层检查人员的资质、涂层的合格预试验和验证、车间底漆要求和涂装技术文档(CTF)等十个关键方面提出了更高要求。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "PSPC标准",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "即《涂层性能标准》的简称，是国际海事组织强制执行的标准，对船舶涂装技术文件、表面处理、涂装过程、涂层厚度、盐分限制、灰尘等级、涂层检查人员资质、车间底漆与主涂层体系的相容性、表面处理等级等提出了具体要求。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装技术文件",
+        "type": [
+            "文件/文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述船舶涂装过程的技术文件，需提交主管机关或其认可的组织复查，并包含涂层检查人员签发的涂装日记。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "表面处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装前的预处理工艺，包括分段表面处理、结构表面缺陷处理、二次除锈等，需达到ISO8501-3中P2等级，且需控制盐分、灰尘等级、粗糙度等参数。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂层检查人员",
+        "type": [
+            "人员"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶涂层质量检查的专业人员，需具备NACEⅡ级、FROSIO级或主管机关认可的相同级别资质。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "ISO8501-3",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际标准化组织制定的表面处理等级标准，用于规定钢板表面处理达到的清洁度等级，如P2等级。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "盐分",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指钢板表面处理后残留的可溶性盐分，需控制在小于50mg/m²NaCl，以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "灰尘等级",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于衡量涂装前钢板表面灰尘污染程度的指标，要求达到一级标准，且需使用大功率真空吸尘设备进行处理。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "粗糙度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指钢板表面处理后的不平整程度，需控制在30~75μm范围内，以确保涂层附着力。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "磨料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表面处理的材料，如钢砂、钢丸等，其尺寸和比例影响预处理效果及粗糙度。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装前的表面处理工艺，包括火焰清洁、抛丸、清洁度控制、盐分测试、温度湿度控制等。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装施工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂层施工过程，需控制膜厚、避免漏涂、控制温度湿度等施工条件。 | 对船舶建造过程中涂装施工的条件和过程控制要求，包括大气温度、湿度、露点、风速等环境条件的控制，以及膜厚控制、预涂和修补、涂层质量控制、分段边口涂层预留及密性焊缝保护等具体施工要求。",
+        "chunk_ids": [
+            164,
+            165
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "部件",
+            "材料部件",
+            "部件划分"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中按一定规则划分的结构单元，用于表面处理和涂装，需满足特定的表面处理等级和盐分限制。 | 船体建造过程中形成的中间产品，由分道作业形成，为后续舾装和涂装提供基础。 | 船体建造过程中按工艺流程划分的单元，用于实现分道建造和舾装作业，是壳舾涂一体化造船的重要组成部分。 | 船舶建造过程中将船体划分为若干部分进行制造和装配的单元，分段划分方式直接影响建造工艺、焊接量和作业安全性。",
+        "chunk_ids": [
+            164,
+            165,
+            166,
+            167
+        ]
+    },
+    {
+        "entity_name": "压载舱",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶用于装载压载物的舱室，其涂层厚度和检测标准有特殊要求，如名义干膜厚度为320μm，检测标准为90/10惯例。 | 船舶内部用于装载压载物的舱室，PSPC标准对其膜厚和检测要求提高，影响涂料使用成本。 | 船舶内部用于调整吃水和稳性的舱室，其涂装完整性在分段阶段和合拢阶段均需保证。",
+        "chunk_ids": [
+            164,
+            165,
+            167
+        ]
+    },
+    {
+        "entity_name": "涂层厚度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶涂层的干膜厚度，需根据标准要求进行控制，如压载舱涂层厚度为320μm。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "膜厚",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指涂层的干膜厚度，需在涂装过程中进行控制，以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "温度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指涂装施工时的环境温度，需控制在合理范围内以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "湿度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指涂装施工时的环境湿度，需控制在合理范围内以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "保养期",
+        "type": [
+            "时间参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指车间底漆涂装后需要等待的时间，以确保其性能稳定，通常为几天。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "NACEⅡ级",
+        "type": [
+            "资质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂层检查人员需具备的资质等级，用于确保涂层质量符合标准要求。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "FROSIO",
+        "type": [
+            "资质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂层检查人员需具备的资质等级，用于确保涂层质量符合标准要求。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "主管机关",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶涂装技术文件、表面处理、涂装过程等复查的机构，或其认可的组织。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "第三方认可",
+        "type": [
+            "认证"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指车间底漆与主涂层体系的相容性需由第三方机构认可，以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装日记",
+        "type": [
+            "文件/文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由涂层检查人员签发的记录涂装过程的文件，需包含在涂装技术文件中。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "合拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中将各分段连接在一起的过程，需进行表面处理以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "接头",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中连接各部分的部位，其表面处理等级需达到St3或Sa2.5。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部用于装载货物或人员的区域，其表面处理和涂层要求需符合标准。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "破坏区域",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶表面处理过程中出现的损坏区域，需根据面积大小决定处理等级。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装前表面可溶性盐限制",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指涂装前钢板表面可溶性盐分的限制，需控制在小于50mg/m²NaCl。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装前表面处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶涂装前的表面处理工艺，包括分段表面处理、结构表面缺陷处理等，需达到ISO8501-3中P2等级。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装前施工条件",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指涂装前的温度、湿度等施工条件，需控制在合理范围内以确保涂层质量。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂装技术文档(CTF)",
+        "type": [
+            "文件/文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述船舶涂装技术的文档，需提交主管机关或其认可的组织复查。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂层检查",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶涂层质量进行检查的过程，需由具备NACEⅡ级、FROSIO级或主管机关认可的人员完成。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂层合格预试验和验证",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对涂层质量进行预试验和验证的过程，确保其符合标准要求。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂层检查人员资质",
+        "type": [
+            "资质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂层检查人员需具备的资质，包括NACEⅡ级、FROSIO级或主管机关认可的相同级别。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "涂层检查人员签发的涂装日记",
+        "type": [
+            "文件/文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由涂层检查人员签发的记录涂装过程的文件，需包含在涂装技术文件中。",
+        "chunk_ids": [
+            164
+        ]
+    },
+    {
+        "entity_name": "膜厚控制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工过程中对漆膜厚度的控制，包括喷涂过程中的均匀性，以及漆膜厚度检测达到规格书要求，PSPC要求增加压载舱内的检测点分布，增加检测工作量及测厚仪费用。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "预涂",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工中的预涂工艺，PSPC明确要求压载舱内需做两度预涂，以提高涂层质量。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "涂层质量控制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工过程中对涂层质量的控制，要求避免涂层流挂、漏底、针孔、开裂、橘皮等缺陷的发生。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "分段边口涂层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在冲砂分段的边口及密性焊缝区域，要求先涂车间底漆后，预留边口再喷主涂层或用塑料胶带保护，以减少后期涂层修补。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "PSPC",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "PSPC是船舶建造中对涂装施工、膜厚检测、预涂要求等技术标准的规范，对船厂建造周期和成本产生显著影响。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船方法，将船体制造、舾装和涂装三类作业有机结合，实现空间分道、时间有序、责任明确、相互协调的作业优化排序，以提高造船效率、产品质量和市场竞争力。 | 壳舾涂一体化（IHOP）是造船技术发展的第四级水平，指不同类型作业达到各自和整体的和谐运行、互不干扰，通过集成制造系统实现造船全过程的人、技术、管理三要素及其信息与物流的有机集成和优化运行。 | 一种船舶建造方法，要求船体、舾装和涂装作业在分段阶段合二为一，实现三大作业类型在空间上分道、时间上有序，形成立体优化排序。",
+        "chunk_ids": [
+            165,
+            166,
+            167
+        ]
+    },
+    {
+        "entity_name": "分道建造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化的基础技术之一，指船体建造按分道进行，形成中间产品——分段，为后续舾装和涂装提供有序的生产流程。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "区域舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化的基础技术之一，指舾装作业按区域进行，以中间产品为导向，提高生产效率和作业协调性。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "区域涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化的基础技术之一，指涂装作业按区域进行，渗透到船体和舾装作业各阶段，实现作业的有序和协调。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "管件族制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化的基础技术之一，指对管件进行成组制造，提高生产效率和标准化程度。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "中间产品",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化中的关键概念，指船体分段、舾装托盘等，作为各作业流程的导向和组织基础。 | 在船舶建造过程中，各作业线制造的半成品或组件，固定在施工区域内进行封闭作业。",
+        "chunk_ids": [
+            165,
+            167
+        ]
+    },
+    {
+        "entity_name": "托盘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业中的中间产品，以不按船舶系统分类为导向，用于实现壳舾涂一体化的作业协调。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "涂装房",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶涂装施工的专用厂房，需满足特定环境条件如湿度、温度等，是PSPC标准实施的重要设施。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "除尘设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于涂装施工过程中控制灰尘污染的设备，是PSPC标准实施中对施工环境要求的一部分。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "除湿设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于涂装施工过程中控制湿度的设备，是PSPC标准实施中对施工环境要求的一部分。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "测厚仪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检测漆膜厚度的仪器，PSPC标准要求增加检测点分布，提高检测精度和工作量。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "涂层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工形成的保护层，需满足PSPC标准对流挂、漏底、针孔、开裂、橘皮等缺陷的控制要求。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "盐分值",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢结构表面处理阶段的检测指标，若不合格需返工，影响建造周期和成本。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "钢结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的主要结构部分，表面处理阶段需达到PSPC要求，影响建造周期。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "涂装周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工所需的时间，受膜厚检测标准提高、涂装程序规范（如两度预涂）等因素影响。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "舱室修补",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工后对舱室涂层的修补工作，若修补工作量大于2%，需进行冲砂，严重影响压载舱修补涂装周期。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "过程记录",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工过程中对各项操作和检测的记录，是PSPC标准实施中对质量控制的要求之一。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "文档管理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装施工过程中对相关文档的管理，是PSPC标准实施中对质量控制的要求之一。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "信息",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "施工过程中涉及的信息，用于协调各作业流程。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "物资",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "施工过程中涉及的物资，按中间产品导向调集，为现场作业服务。",
+        "chunk_ids": [
+            165
+        ]
+    },
+    {
+        "entity_name": "分段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据成组技术制造原理制造船体零件、部件和分段，按工艺流程组建生产线，是壳舾涂一体化造船的重要特征之一。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "单元舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化新方法中的三个基本阶段之一，指在特定区域和阶段内进行舾装作业，以精确划分的区域和阶段控制舾装。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "分段舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化新方法中的三个基本阶段之一，指在分段阶段进行舾装作业，以提高舾装效率和作业安全性。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "船上舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "壳舾涂一体化新方法中的三个基本阶段之一，指在船舶整体装配阶段进行舾装作业，以实现舾装工作的高效完成。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "族制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以成组技术原理制造多品种、小批量产品，通过标准化和模块化手段提高生产效率，是壳舾涂一体化造船的重要特征之一。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "产品导向型工程分解",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过强调专业内容，将船舶创造性地划分为许多理想化的中间产品，如零件和部件，以实现协调分道生产，简化不同类型作业的一体化。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "机舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的心脏区域，包含动力系统和相关设备，其底区域的舾装量较大，是壳舾涂一体化造船中重点考虑的分段划分区域。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，位于船底，用于支撑船舶的机械设备和管路系统，是壳舾涂一体化造船中重点划分的区域。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "盆舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段建造过程中进行的舾装作业，通过将分段翻转正转，使舾装件能够预装于分段内部，提高预装率和作业效率。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "预舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段建造阶段完成的舾装作业，以减少船台期的舾装工作量，提高整体建造效率。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "分段缝线",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段划分的边界线，用于确定分段的范围和结构完整性，是壳舾涂一体化造船中分段划分的重要依据。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "脚手架",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑和辅助船舶建造过程中作业的临时结构，壳舾涂一体化原则可显著减少其使用。 | 用于船舶建造过程中支撑和作业的临时结构，壳舾涂一体化建造法可显著减少其使用数量。",
+        "chunk_ids": [
+            166,
+            167
+        ]
+    },
+    {
+        "entity_name": "分段稳定性和刚度",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段结构在建造过程中的稳定性和刚度，是壳舾涂一体化原则对分段划分的重要要求之一。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "舾装件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中安装的设备、管路、支架等部件，壳舾涂一体化原则强调其在分段阶段的预装。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "铁舾装",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中安装的金属结构和设备，如梯子、踏步、人孔等，是壳舾涂一体化中分段预装的重要内容。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "预装率",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段阶段完成的舾装工作量比例，壳舾涂一体化原则可使机舱底区域的预装率达到85%以上。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "货舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶用于装载货物的舱室，由槽形横壁划分，是壳舾涂一体化造船中分段划分的重要区域。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "槽形横壁",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于划分货舱的结构部件，具有槽形截面，是壳舾涂一体化造船中分段划分的重要组成部分。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "球鼻首",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首部的特殊结构，用于减少水阻力，是壳舾涂一体化造船中船型设计的重要特征。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "垂直方尾",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部的垂直结构，是壳舾涂一体化造船中船型设计的重要特征。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "无限航区",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶可航行的区域范围，是壳舾涂一体化造船中船型设计的重要参数。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "设计吃水",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在设计状态下的吃水深度，是壳舾涂一体化造船中船型设计的重要参数。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "结构吃水",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在结构设计状态下的吃水深度，是壳舾涂一体化造船中船型设计的重要参数。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "设计航速",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在设计状态下的航行速度，是壳舾涂一体化造船中船型设计的重要参数。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "单螺旋桨",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶推进系统中使用的单个螺旋桨，是壳舾涂一体化造船中船型设计的重要特征。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "柴油机驱动",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶推进系统中使用的柴油机，是壳舾涂一体化造船中船型设计的重要特征。",
+        "chunk_ids": [
+            166
+        ]
+    },
+    {
+        "entity_name": "盆舾装方案",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种舾装方案，虽然增加了船体施工的工作量与工作难度，但可以使机舱区域的舾装、涂装工作近于完整，同时保证涂装的完整性在后续工作中也可以得到保证，又可以避免船舶下水时机舱区域的倒墩工作。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "货舱区分段",
+        "type": [
+            "部件划分"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "货舱区域的分段划分方式，传统划分方法将每个环形段划分为7个分段，包括中底分段、边底分段、舷侧分段、横壁分段和甲板分段，但存在涂装完整性受损的问题。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "分段划分",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船舶建造一体化原则划分的分段方式，具有分段数量少、合拢焊接量减少、分段稳定性增强等优点，更适合壳舾涂一体化建造方法。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "舷侧外板肋骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷侧结构中的肋骨构件，用于增强船体结构强度，其末端倾斜部位在合拢时与压载舱结构对位困难，返工量较大。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中对船体表面进行防腐和美观处理的工艺，涂装完整性在分段阶段和后续工作中均需保证。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中安装设备、管路、电气系统等非结构部件的工艺，与壳舾涂一体化建造法密切相关。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "船舶下水",
+        "type": [
+            "工艺流程",
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造完成后，利用下水设备将船舶从建造区域移至水域并漂浮于水中的工艺过程，通常在下水前完成大部分舾装工作。 | 船舶在建造完成后，沿特定滑道或设施进入水中的过程，是船舶建造的重要环节。 | 船舶从船台滑道上滑入水中并完全浮起的过程，涉及复杂的动力学分析。 | 船舶从船台滑行至水中完成浮起的过程，涉及多种力学和结构问题，需进行详细计算和分析。",
+        "chunk_ids": [
+            167,
+            168,
+            175,
+            178
+        ]
+    },
+    {
+        "entity_name": "下水方式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时采用的不同方法，包括重力式、漂浮式、机械式、气囊式、水垫式等，每种方式需要特定的下水设施。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "气囊下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种现代船舶下水方式，利用气囊作为支撑和滑行装置，将船舶从建造区域移至水域。 | 一种船舶下水方式，利用气囊作为衬垫支撑船舶，使其滑入水中。 | 一种利用气囊作为支承和滑动介质的下水工艺，适用于中小型船舶，具有省工省时、适应性强等优点。",
+        "chunk_ids": [
+            167,
+            168,
+            172
+        ]
+    },
+    {
+        "entity_name": "水垫下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种现代船舶下水方式，利用水垫作为支撑和滑行装置，将船舶从建造区域移至水域。 | 一种船舶下水方式，利用水垫作为衬垫支撑船舶，使其滑入水中。 | 一种船舶下水方法，利用水垫装置通过高压水流形成水膜，使船舶浮起并沿地面滑行至水中。",
+        "chunk_ids": [
+            167,
+            168,
+            173
+        ]
+    },
+    {
+        "entity_name": "重力式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统船舶下水方式之一，利用船舶自重沿滑道滑入水中。 | 船舶在自身重力作用下沿倾斜滑道进入水中的下水方式，入水方向有纵向和横向两种。",
+        "chunk_ids": [
+            167,
+            168
+        ]
+    },
+    {
+        "entity_name": "漂浮式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统船舶下水方式之一，利用船舶自身的浮力和辅助设施将船舶移至水域。 | 船舶通过浮船坞或造船坞等设施实现下水的方式，入水方向为垂向下水。",
+        "chunk_ids": [
+            167,
+            168
+        ]
+    },
+    {
+        "entity_name": "机械式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统船舶下水方式之一，利用机械设备如小车、钢珠等将船舶移至水域。 | 利用升船机、起重机等机械装置实现船舶下水的方式。",
+        "chunk_ids": [
+            167,
+            168
+        ]
+    },
+    {
+        "entity_name": "涂油滑道下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种传统船舶下水方式，利用涂油的滑道减少摩擦力，使船舶沿滑道滑入水中。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "钢珠滑道下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种传统船舶下水方式，利用钢珠减少滑道与船舶之间的摩擦力，使船舶沿滑道滑入水中。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "小车下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种传统船舶下水方式，利用小车将船舶从建造区域移至水域。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "船舶平地建造下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种现代船舶下水方式，船舶在平地上建造，下水时直接移至水域。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "下水设施",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中使用的设备，如滑道、气囊、水垫、小车等，根据下水方式不同而有所区别。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "舾装码头",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水后进行最后舾装作业的码头，通常比船台或船坞的施工条件更优越。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "设施",
+            "设备设施",
+            "设备",
+            "设备结构",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中用于支撑和定位船体的平台，通常用于下水前的建造和装配。 | 用于船舶下水前的临时停放和准备的平台，与气囊下水工艺中的起墩操作相关。 | 船舶建造过程中用于支撑和滑动船舶的平台，通常与滑道配合使用。 | 船舶下水过程中使用的支撑结构，用于支撑船舶并引导其下滑。 | 船舶下水时的支撑平台，用于支撑船舶并引导其滑行。 | 船舶建造过程中用于支撑和滑行的平台，其设计影响船舶下水过程中的受力和滑行状态。 | 船舶下水时的支撑平台，船体通过滑道板和支墩支持在滑道上，下水过程中发生变形。",
+        "chunk_ids": [
+            167,
+            172,
+            174,
+            175,
+            177,
+            178,
+            179
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造和下水的水工建筑物，通常用于船体的建造和下水作业。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "预舾装工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶下水前完成大部分舾装工作的工艺，提高了建造效率和施工便利性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "分道作业线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在壳舾涂一体化建造中，各作业类型（壳、舾、涂）按区域划分的独立作业线，配置专用设备进行封闭作业。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "流水定位作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在各作业单元内实施的作业方式，通过定位或定员实现生产流程的连续性和效率。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "支柱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于增强分段稳定性和刚性的支撑结构，壳舾涂一体化建造法可减少其使用。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "撑杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于增强分段稳定性和刚性的支撑结构，壳舾涂一体化建造法可减少其使用。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "分段翻身",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造过程中需要进行的翻转作业，壳舾涂一体化建造法提高了其作业的安全性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "边底压载舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "货舱区域中位于底部的压载舱，其四周在合拢时无焊接作业，可减少涂装破坏。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "合拢缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段之间的连接缝，壳舾涂一体化建造法通过上移合拢缝位置，减少焊接作业和涂装破坏。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "分段稳定性",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段结构在制造和装配过程中的稳定性，壳舾涂一体化建造法通过优化分段划分提高了其稳定性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "分段刚性",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段结构在制造和装配过程中的刚性，壳舾涂一体化建造法通过优化分段划分增强了其刚性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "分段装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造完成后，将其装配到整体船体结构中的过程，壳舾涂一体化建造法提高了其装配效率和安全性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中连接结构部件的工艺，壳舾涂一体化建造法减少了焊接量和困难位置的焊接作业。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "返工量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于结构对位困难导致的焊接返工量，壳舾涂一体化建造法通过优化分段划分减少了返工量。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构对位",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段装配过程中结构部件之间的对位作业，壳舾涂一体化建造法通过优化分段划分提高了对位效率。 | 结构部件之间的对位作业，壳舾涂一体化建造法通过优化分段划分提高了对位效率。 | 结构部件之间的对位作业，壳舾涂一体化建造法通过优化分段划分提高了对位效率。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构强度",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的承载能力，通过肋骨、舷侧外板等构件增强结构强度。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构部件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中使用的结构构件，如肋骨、舷侧外板、横壁等，用于增强船体强度和稳定性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构完整性",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在制造和装配过程中的完整性，壳舾涂一体化建造法通过优化分段划分和焊接工艺保证了结构完整性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构稳定性",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在制造和装配过程中的稳定性，壳舾涂一体化建造法通过优化分段划分提高了结构稳定性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构刚性",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在制造和装配过程中的刚性，壳舾涂一体化建造法通过优化分段划分增强了结构刚性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构部件的装配过程，壳舾涂一体化建造法提高了结构装配的效率和安全性。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构部件之间的焊接工艺，壳舾涂一体化建造法减少了焊接量和困难位置的焊接作业。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "结构返工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于结构对位困难导致的焊接返工，壳舾涂一体化建造法通过优化分段划分减少了返工量。",
+        "chunk_ids": [
+            167
+        ]
+    },
+    {
+        "entity_name": "衬垫式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将气囊下水和水垫下水归类为一种下水方式，其特点是利用衬垫支撑船舶滑入水中。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "纵向下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶沿船长方向滑入水中的下水方式，适用于不同船型和下水重量。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "横向下水",
+        "type": [
+            "工艺流程",
+            "下水方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶沿船宽方向滑入水中的下水方式，船舶首先进入水中的一侧。 | 一种船舶下水方式，船舶沿船宽方向滑动，首先进入水中的不是船尾，而是船舷的一侧。",
+        "chunk_ids": [
+            168,
+            169
+        ]
+    },
+    {
+        "entity_name": "涂油滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由方木铺成的滑道，下水前涂抹油脂以减少滑板与滑道间的摩擦力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "钢珠滑道",
+        "type": [
+            "设备设施",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由滑道、钢珠、保距器、组合滑板等构成的下水设施，利用钢珠滚动摩擦代替滑动摩擦。 | 一种滑道类型，使用钢珠作为支撑点，需进行试压实验以确保钢珠负载能力，并合理选择数量和布置位置。",
+        "chunk_ids": [
+            168,
+            179
+        ]
+    },
+    {
+        "entity_name": "滑道",
+        "type": [
+            "设备设施",
+            "工艺装备",
+            "设备",
+            "结构部件",
+            "设备结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时的支撑和滑行通道，根据滑动介质分为涂油滑道和钢珠滑道。 | 支承滑板、下水支架和船舶等重量的基础，决定滑道的主要参数包括坡度、中心距、末端水深等。 | 船舶下水时使用的轨道或路径，用于引导船舶滑动下水。 | 船台的一部分，用于引导船舶下滑，是船舶下水过程中的关键结构。 | 船舶下水时与滑板接触的轨道结构，用于引导船舶滑行。 | 船舶下水时使用的倾斜轨道，用于支撑和引导船舶滑行。 | 船舶下水时与船体接触的结构，用于支撑和引导船舶滑行，其设计影响船舶下水过程中的受力分布。 | 船体下水时的支撑结构，船底支墩和滑道板支持在滑道上，滑道可能变形，影响船舶下滑过程。",
+        "chunk_ids": [
+            168,
+            169,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+        ]
+    },
+    {
+        "entity_name": "滑板",
+        "type": [
+            "设备设施",
+            "工艺装备",
+            "结构部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "下水架的底板，与滑道接触，用于减少摩擦力，实现船舶滑入水中。 | 由松方木用螺栓连接而成，用于承载船舶和下水支架，端部加工成圆角以防止卡住。 | 滑道的一部分，与滑道接触，用于支撑船舶并减少摩擦，其总长约为船舶垂线间长的0.8倍。 | 与滑道接触的部件，用于船舶下水过程中承受和传递滑道反作用力。 | 船舶下水时与船体接触的滑行部件，其设计和安装影响船舶下水过程中的受力和滑行状态。 | 与滑道配合支撑船体，滑道板支持在滑道上，在下水滑行过程中发生变形，并与支持逐渐脱离。",
+        "chunk_ids": [
+            168,
+            169,
+            175,
+            176,
+            178,
+            179
+        ]
+    },
+    {
+        "entity_name": "下水架",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "下水过程中与船舶一起滑入水中的结构，由滑板和支架组成。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "止滑装置",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制船舶在下水前不滑动的装置，防止船舶过早入水。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "油脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂抹在滑道上的润滑剂，用于减少滑板与滑道间的滑动摩擦力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "钢珠",
+        "type": [
+            "材料",
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢珠滑道的滚动摩擦介质，材料包括高铬钢、铸铁等，具有承载能力。 | 用于承载船舶重量和滑行时的冲击力，材料一般为高铬钢或优质碳素钢，也可用铸铁，但负载能力较低。",
+        "chunk_ids": [
+            168,
+            169
+        ]
+    },
+    {
+        "entity_name": "保距器",
+        "type": [
+            "设备设施",
+            "工艺装备",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "控制钢珠滚动时相互间距和位置的装置，确保滑道运行稳定。 | 防止钢珠滚动混乱，保持各钢珠相对位置的装置。 | 用于防止钢珠在滑行过程中发生混乱滚动，保持各钢珠的相对位置。",
+        "chunk_ids": [
+            168,
+            169,
+            170
+        ]
+    },
+    {
+        "entity_name": "回收坑",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于收集下水过程中掉落的钢珠和保距器的设施。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "钢架网袋",
+        "type": [
+            "设备设施",
+            "工艺装备",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于收集下水过程中掉落的钢珠和保距器的设施，通常设置在滑道末端。 | 设置在滑道末端，用于承接下落的钢珠，防止其在水中滚失。 | 设置在滑道末端，用于承接下落的钢珠装置，防止钢珠在水中滚失。",
+        "chunk_ids": [
+            168,
+            169,
+            170
+        ]
+    },
+    {
+        "entity_name": "龙骨墩",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支撑船舶建造的结构，下水前需拆除以使船舶重量完全作用于滑板和滑道。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "边墩",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支撑船舶建造的结构，下水前需拆除以使船舶重量完全作用于滑板和滑道。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "支撑",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶建造的结构，下水前需拆除以使船舶重量完全作用于滑板和滑道。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "船体密性试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶下水前完成的船体密性检验，确保船体结构的密封性。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "海底阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接船体与水下设备的阀门，需在下水前完成安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "推进器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶动力系统的重要组成部分，需在下水前完成安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "舵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "控制船舶方向的装置，需在下水前完成安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "尾轴出口",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接尾轴与船体的出口，需在下水前完成安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "带缆设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶系缆的设备，需在下水前完成安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "救生设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶安全的设备，需在下水前完成安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "船体型线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中测量和检验船体外形的工艺，确保符合设计要求。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "主尺度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中测量和检验船体主要尺寸的工艺，确保符合设计要求。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "船体外壳水下部分",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在水下部分的结构，需在下水前完成涂装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "载重线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中绘制的载重线标记，用于控制船舶装载重量。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "吃水标志",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中绘制的吃水标记，用于指示船舶吃水深度。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "下水过程受力分析",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水前进行的力学分析，确保下水过程的安全性。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "运动学分析",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水前进行的运动学分析，确保下水过程的可控性。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "制动设施",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制船舶下水过程中滑行速度的设施，必要时需安装。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "纵向倾斜船台滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于纵向下水的滑道，根据滑动介质分为涂油滑道和钢珠滑道。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "纵向涂油滑道下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用油脂减少滑动摩擦力的纵向下水方式，适用于各种船型。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "纵向钢珠滑道下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用钢珠滚动摩擦代替滑动摩擦的纵向下水方式，具有环保和高效优点。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滑动摩擦系数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量滑动摩擦大小的参数，用于控制船舶下水时的滑动阻力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滑动介质",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道与滑板之间的介质，如油脂或钢珠，影响摩擦力大小。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滑动摩擦力",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道与滑板之间由于滑动产生的阻力，需通过润滑或滚动摩擦减少。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "润滑能力",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "润滑剂（如油脂）在滑道上的润滑效果，受环境温度影响较大。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "环境温度",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响油脂润滑能力的重要因素，可能导致润滑效果下降。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "环境保护",
+        "type": [
+            "工艺要求"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中需考虑的环保因素，如油脂污染问题。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "政策",
+        "type": [
+            "工艺要求"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响船舶下水方式选择的重要因素，如环保政策的改变。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "润滑剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少滑道与滑板之间摩擦力的物质，如油脂。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "油脂污染",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油脂在滑道上使用后可能对作业环境和水域造成污染。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "重复利用",
+        "type": [
+            "工艺要求"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "润滑剂（如油脂）是否可重复利用，影响其环保性和经济性。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "摩擦系数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量摩擦大小的参数，影响船舶下水时的滑动阻力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "承载能力",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢珠等材料需具备足够的承载能力，以承受船舶下水时的应力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "首部",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的前端部分，下水时可能承受较大的压力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "尾部",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的后端部分，下水时可能承受较大的压力。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滑程",
+        "type": [
+            "工艺参数",
+            "力学参数",
+            "物理量",
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时滑行的距离，影响水域宽度要求。 | 船舶在下水过程中沿滑道滑行的距离，用于计算吃水、浮力、浮力矩和下滑速度。 | 船舶下水过程中沿滑道的移动距离，影响船舶的平衡位置和受力。 | 船舶下水过程中不同阶段的滑行距离，用于计算船舶速度变化和受力情况。 | 船舶下水过程中滑行的距离，影响浮力力矩和重力力矩的相对关系。",
+        "chunk_ids": [
+            168,
+            176,
+            177,
+            178,
+            179
+        ]
+    },
+    {
+        "entity_name": "水域宽度",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时所需水域的宽度，通常不小于三倍船长。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滑动摩擦",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道与滑板之间由于滑动产生的摩擦，需通过润滑或滚动摩擦减少。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滚动摩擦",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢珠等滚动介质与滑道之间的摩擦，比滑动摩擦更小。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "滑板与滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑板与滑道之间的接触面，需减少摩擦力以实现船舶顺利下水。",
+        "chunk_ids": [
+            168
+        ]
+    },
+    {
+        "entity_name": "横向浮起式下水",
+        "type": [
+            "下水方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种横向下水方式，船舶沿滑道横向滑入水中，始终保持水平状态。",
+        "chunk_ids": [
+            169
+        ]
+    },
+    {
+        "entity_name": "横向坠落式下水",
+        "type": [
+            "下水方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种横向下水方式，滑道不伸入水中，船舶连同滑板、下水架一起坠入水中，依靠自身浮力和稳性趋于平衡。",
+        "chunk_ids": [
+            169
+        ]
+    },
+    {
+        "entity_name": "重力式横向下水",
+        "type": [
+            "下水方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种横向下水方式，船舶下水后受力很大，横摇剧烈，对船体强度和稳性要求较高。",
+        "chunk_ids": [
+            169
+        ]
+    },
+    {
+        "entity_name": "下水墩木",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶重量并便于拆除的临时支撑装置，常见类型包括砂箱下水墩木和活络铁墩。",
+        "chunk_ids": [
+            169
+        ]
+    },
+    {
+        "entity_name": "砂箱下水墩木",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由侧面开有插门的凸底铁箱和箱内砂石组成，拆墩时砂石外流，使墩木下降，船舶坐落到下水架上。",
+        "chunk_ids": [
+            169
+        ]
+    },
+    {
+        "entity_name": "活络铁墩",
+        "type": [
+            "工艺装备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过安全插销和止动闸刀控制拆卸，滑箱沿斜面滑下，降低墩木高度，可同时作为建造墩木。",
+        "chunk_ids": [
+            169
+        ]
+    },
+    {
+        "entity_name": "止滑器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "装设在滑板外侧，用于控制船舶下水过程，保证下水操作的安全。",
+        "chunk_ids": [
+            170
+        ]
+    },
+    {
+        "entity_name": "干船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "陆地上建造的利用漂浮原理进行船舶下水和上墩的水工建筑物，由坞室、坞门和水泵站等组成。",
+        "chunk_ids": [
+            170
+        ]
+    },
+    {
+        "entity_name": "浮船坞",
+        "type": [
+            "设施",
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于修、造船的工程船舶，具有凹字形船舱和箱形结构的水舱，可注水和排水以实现沉浮。 | 用于船舶下水作业的浮动结构，可与水平船台联合使用，通过轨道对接实现船舶移入，并可下沉以完成下水作业。",
+        "chunk_ids": [
+            170,
+            171
+        ]
+    },
+    {
+        "entity_name": "船台小车",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于承载船舶并将其移入浮船坞或滑道的移动设备，可在水平船台与滑道之间转移船舶。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "纵向船排滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种机械化下水设施，通过滚轮整体船排或分节船排沿倾斜轨道将船舶送入水中，适用于小型船厂。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "液压摇架",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于调整船排倾斜角度的装置，通过千斤顶控制，使船排与滑道坡度一致，便于船舶移入水中。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "横移车",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将船舶从水平船台横向移动至滑道区的设备，具有变坡功能，可实现与滑道的衔接。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "两支点纵向滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由两辆下水车支承船舶的滑道，通过圆弧连接水平与斜坡部分，适用于小型船舶下水。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "楔形下水车",
+        "type": [
+            "设备设施",
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "架面呈水平或微倾斜的楔形车，用于下水时避免产生首端压力，适用于较大船舶下水。 | 用于梳式滑道中托住船舶底部的下水车，由单独卷扬机牵引，用于将船舶沿斜坡轨道移入水中。",
+        "chunk_ids": [
+            171,
+            172
+        ]
+    },
+    {
+        "entity_name": "变坡度横移区纵向滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横移区由水平段和变坡段组成，通过变坡轨道实现船舶从水平船台到倾斜滑道的转移，适用于中小型船舶。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "高低轨横向滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由斜坡部分与水平横移区组成，下水车在高低不同轨道上行走以保持架面水平，适用于机械化程度较高的下水方式。",
+        "chunk_ids": [
+            171
+        ]
+    },
+    {
+        "entity_name": "高低腿横向滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过高低腿结构实现下水车在斜坡部分的水平移动，适用于机械化下水，但轨道基础复杂。 | 一种机械化下水设备，由水平横移区和斜坡滑道区组成，每组轨道设有低腿和高腿走轮，用于船舶下水和上墩。",
+        "chunk_ids": [
+            171,
+            172
+        ]
+    },
+    {
+        "entity_name": "走轮",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "下水车上的滚动部件，分为低腿走轮和高腿走轮，用于在不同轨道段（水平轨道和斜坡轨道）上移动。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "低腿走轮",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高低腿横向滑道中用于水平轨道段的走轮，当车辆进入斜坡段时会脱离水平轨道。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "高腿走轮",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高低腿横向滑道中用于斜坡轨道段的走轮，当车辆进入斜坡段时会进入斜坡轨道。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "斜坡轨道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高低腿横向滑道中用于船舶下水的倾斜轨道段，与水平横移区轨道衔接，采用圆弧过渡。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "水平轨道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高低腿横向滑道中用于船舶横移的水平轨道段，与斜坡轨道衔接，采用圆弧过渡。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "过渡段",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高低腿横向滑道中连接水平轨道与斜坡轨道的区域，轨道采用圆弧衔接以保证下水车平稳过渡。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "下水车",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水的机械设备，设有走轮系统，可在水平轨道和斜坡轨道上移动。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "液压千斤顶",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船台小车转向和船舶升高操作的液压装置，可使走轮悬空或落下。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "梳式滑道",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种机械化下水设施，由斜坡滑道和水平横移区组成，轨道错开排列形成梳齿结构，便于船舶转运。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "升船机",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水和上墩的垂直升降设备，由液压或卷扬式绞缆机驱动，平台保持水平。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "绞缆机",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "升船机中用于驱动平台升降的设备，需多台同步工作以保证平台水平。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "气囊",
+        "type": [
+            "材料部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶衬垫式下水的柔性支承介质，具有承载力高、适应性强等特点，适用于中小型船舶。 | 用于船舶下水的充气装置，通过气囊的承载能力支撑船体并实现滑动下水，具有不同压力等级和直径规格。",
+        "chunk_ids": [
+            172,
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊下水工艺过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊下水的具体操作步骤，包括气囊铺设、充气、牵引移动、下水及回收等环节。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "船底气囊",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑和滑动船舶的气囊，数量随船舶移动过程逐渐减少，直至船舶完全浮起。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "绞车",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牵引船舶移动的机械设备，在气囊下水过程中用于牵引船舶至预定位置。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "钢丝绳",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牵引船舶移动的柔性连接装置，在气囊下水过程中用于牵引船舶至预定位置。",
+        "chunk_ids": [
+            172
+        ]
+    },
+    {
+        "entity_name": "气囊下水工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶下水方法，利用气囊作为承载和滑动装置，通过气囊的充气使船舶浮起并沿地面滑行至水中。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "低压气囊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊的一种类型，适用于中小型船舶的移位和下水，具有较低的工作压强和载重量。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "中压气囊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊的一种类型，适用于中小型船舶的移位和下水，具有中等的工作压强和载重量。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "高压气囊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊的一种类型，适用于大型船舶的移位和下水，具有较高的工作压强和载重量。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊承载能力",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊能够承受的载重量，决定了可下水船舶的重量，是选择气囊类型和规格的重要依据。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊直径",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊的横截面直径，影响其承载能力和适用范围，需大于船台墩木高度以确保支撑能力。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊压强",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊工作时内部的压力值，影响其承载能力和适用范围，通常为工作压力的1.25倍用于无载充气试验。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊工作高度",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊在承载时的支撑高度，影响船舶的浮起和滑动过程，需根据船舶结构强度进行计算。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊载重量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊沿长度方向均被压成同一工作高度时每米长度的承载能力，是选择气囊类型和数量的重要依据。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "水垫装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于水垫下水的装置，由高压水管和橡胶囊组成，通过注入水形成水膜支撑船舶并实现滑动。 | 用于水垫下水工艺的装置，与高压水管相连，通过注入高压水流在装置与地面之间形成水垫，托起船舶。",
+        "chunk_ids": [
+            173,
+            174
+        ]
+    },
+    {
+        "entity_name": "水垫",
+        "type": [
+            "设备",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水垫下水的核心装置，通过高压水流形成水膜，使船舶浮起并沿地面滑行至水中。 | 由高压水流在水垫装置与地面之间形成的液体层，用于托起船舶并使其在平坦地面上滑动下水。",
+        "chunk_ids": [
+            173,
+            174
+        ]
+    },
+    {
+        "entity_name": "水垫橡胶囊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水垫装置中的关键部件，用于形成水膜，其厚度一般为1~3mm，耗水量较小，运行阻力低。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "水垫工作原理",
+        "type": [
+            "工艺原理"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水垫滑动装置利用水代替空气作为承压介质，通过注入水形成水膜支撑船舶并实现滑动。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "水膜",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水垫装置中形成的薄层水膜，厚度一般为1~3mm，用于减少滑动阻力并保持支撑力稳定。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊数量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水的气囊数量，根据船舶自重、方形系数、气囊承载能力等因素计算得出。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊间距",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊之间的中心距离，需满足船舶结构强度要求并防止气囊压叠，通常通过公式校核。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊承载力计算",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船舶重量、重量分布和船体强度要求，计算气囊承载力以选择合适类型和规格的气囊。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "气囊布置方案",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船舶重量分布和结构强度要求，确定气囊的数量和布置位置，防止特殊部位发生意外。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "无载充气试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气囊每次用于船舶下水前的试验，充气压力取该直径气囊工作压力的1.25倍，以确保安全。",
+        "chunk_ids": [
+            173
+        ]
+    },
+    {
+        "entity_name": "水垫下水工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶下水方法，通过在船底下方设置水垫装置并注入高压水流形成水垫，将船舶托起并在平坦地面上滑动下水。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "高压水管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接水垫装置的管道，用于输送高压水流以形成水垫，托起船舶。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的关键步骤，指将船舶从船台上滑入水中或移动至预定位置的过程。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "纵向机械化下水滑道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶下水设施，用于纵向滑动船舶下水，适用于小型船厂，具有安全可靠、便于批量生产的优点。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "横向机械化下水滑道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶下水设施，用于横向滑动船舶下水，适用于中型以上船厂，能适应较大船舶的下水需求。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "卷扬式升船机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶下水的机械装置，通过卷扬系统提升或移动船舶，适用于河岸陡高的船厂。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "纵向倾斜船台",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种倾斜的船台，用于船舶纵向下水，适用于沿海船厂，但其装配焊接机械化程度低于水平船台。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "水平船台",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种水平布置的船台，用于船舶下水，通常与滑道或升船机配合使用，适用于多种船厂类型。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "下水计算",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水前进行的力学分析，用于预测船舶在下水过程中的受力和运动状态，是船台工艺设计的重要依据。 | 船舶下水前的计算过程，用于确定下水时的受力、平衡位置及是否产生仰倾。",
+        "chunk_ids": [
+            174,
+            177
+        ]
+    },
+    {
+        "entity_name": "下水静力学计算",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种传统的船舶下水分析方法，用于预测船舶在下水过程中的受力和运动状态。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船尾",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的后部结构，通常较肥大，具有较大的浮力，便于在纵向下水时首先入水。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船首",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的前部结构，是船舶下水过程中绕其旋转的支点之一。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "浮力",
+        "type": [
+            "物理特性",
+            "力",
+            "力学作用",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水对船舶施加的向上作用力，是船舶下水过程中使船体浮起的关键因素。 | 船舶在水中受到的向上的力，当浮力等于船舶下水重量时，船舶完全浮起。 | 船舶水下部分及下水装置水下部分所受的水的向上作用力，由水的密度与排水体积的乘积决定。 | 船舶排开水的重量，决定船舶的浮起和平衡状态。",
+        "chunk_ids": [
+            174,
+            175,
+            176,
+            177
+        ]
+    },
+    {
+        "entity_name": "重力",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶所受的地球引力，是船舶下水过程中与浮力相互作用的力。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "力矩",
+        "type": [
+            "物理特性",
+            "力学作用",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "力对支点产生的旋转作用，是船舶下水过程中影响船体平衡和结构安全的重要因素。 | 力与力臂的乘积，用于计算船舶在不同吃水状态下的浮力矩和重力矩。 | 船舶下水过程中浮力和重力对支撑点的力矩，影响船舶的平衡和稳定性。",
+        "chunk_ids": [
+            174,
+            176,
+            177
+        ]
+    },
+    {
+        "entity_name": "冲程",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中滑行的距离，是影响船舶浮起和稳定性的关键参数。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船台受力",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船台所承受的力，是船台设计和安全评估的重要依据。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "仰倾",
+        "type": [
+            "现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中船体前倾的现象，可能导致结构损坏，是下水过程中的危险状态。 | 船舶在下水过程中因浮力和重心位置不匹配而发生的向上的倾斜现象，可能导致船体损坏。 | 船舶下水过程中船体前部抬高的现象，可能由浮力力矩小于重力力矩引起。",
+        "chunk_ids": [
+            174,
+            177,
+            179
+        ]
+    },
+    {
+        "entity_name": "首跌落",
+        "type": [
+            "现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中船首支点提前通过滑道末端，导致船体下跌的现象，可能造成船首与滑道末端碰撞。 | 船舶在下水过程中，若前支架已通过滑道末端而船体尚未浮起，船首会猛然下沉的现象，可能导致首部结构与滑道末端碰撞，造成损坏。 | 船舶下水过程中首部突然脱离滑道的现象，可能由重心后移或滑道末端水深不足引起。",
+        "chunk_ids": [
+            174,
+            178,
+            179
+        ]
+    },
+    {
+        "entity_name": "横向移动",
+        "type": [
+            "现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中由于潮流冲击作用而发生的横向位移，可能影响船舶的稳定性和结构安全。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "极限弯矩",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在滑道末端截面处能够承受的最大弯矩，超过该值可能导致结构损坏。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "支墩反力",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船底在滑道末端处受到的支撑力，过大可能导致船体结构损坏。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "滑道末端",
+        "type": [
+            "部件",
+            "位置"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道的终点位置，是船舶下水过程中船体可能接触或通过的关键点。 | 滑道的末端位置，用于计算滑道末端的水深和滑程。",
+        "chunk_ids": [
+            174,
+            175
+        ]
+    },
+    {
+        "entity_name": "船厂",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "进行船舶建造和维修的工厂，其布置和工艺流程对船舶下水方法的选择有重要影响。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船厂布置",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂内船舶建造设施的布局，与下水方法和设施的选择密切相关。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "工艺流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶建造过程中的操作步骤和方法，包括下水、装配、焊接等。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船体装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中将各部件组装成整体船体的过程，与船台和滑道的使用密切相关。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船体焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中将船体各部分通过焊接连接的过程，是船体结构完整性的重要保障。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船体结构设计",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造前对船体结构进行设计和规划的过程，包括船体强度、稳定性、受力分析等。",
+        "chunk_ids": [
+            174
+        ]
+    },
+    {
+        "entity_name": "船舶",
+        "type": [
+            "船舶"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "原文中提及的船舶，指正在下水过程中的船舶。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "龙骨坡度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶龙骨与水平面的倾斜角度，通常与船台坡度相同或相近，正切值范围为 $\frac{1}{12}sim \frac{1}{24}$。 | 指船舶下水过程中龙骨的倾斜角度，影响船舶浮力、浮心位置及下水时的受力情况。 | 全浮时的龙骨坡度，用于计算下水过程中船体受力和滑行状态。",
+        "chunk_ids": [
+            175,
+            177,
+            178
+        ]
+    },
+    {
+        "entity_name": "船台坡度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台的倾斜角度，用于控制船舶下水过程，其正切值范围根据船舶大小不同而变化。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "下水重量",
+        "type": [
+            "参数",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时的总重量，包括船舶自身重量和下水装置运动部分的重量，其作用点为共同重心。 | 船舶的总重量，用于计算下水时的受力和平衡状态。",
+        "chunk_ids": [
+            175,
+            177
+        ]
+    },
+    {
+        "entity_name": "下水重量重心",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "下水重量的重心位置，用于计算船舶在下水过程中的受力和运动状态。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "摩擦力",
+        "type": [
+            "力",
+            "力学作用",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台反作用力的切线方向分力，由静摩擦系数或动摩擦系数与下水重量的乘积决定。 | 作用于滑板和滑道接触面上的切线方向力，由摩擦系数与法向反作用力的乘积决定。 | 阻荷制动中计算的摩擦力，公式为 $ R_f = f cdot w $，用于评估制动效果。",
+        "chunk_ids": [
+            175,
+            176,
+            179
+        ]
+    },
+    {
+        "entity_name": "法线方向反作用力",
+        "type": [
+            "力",
+            "力学作用"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台反作用力的法线方向分力，方向与摩擦力垂直，由下水重量与船台坡度的余弦值决定。 | 作用于滑板和滑道接触面的垂直方向力，与摩擦力相互垂直，共同构成滑板与滑道间的合力。",
+        "chunk_ids": [
+            175,
+            176
+        ]
+    },
+    {
+        "entity_name": "静摩擦系数",
+        "type": [
+            "参数",
+            "物理参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述滑板与滑道之间静止状态下的摩擦特性，用于计算摩擦力。 | 船舶开始滑动时滑板与滑道之间的摩擦系数，其值范围为0.03~0.07。",
+        "chunk_ids": [
+            175,
+            176
+        ]
+    },
+    {
+        "entity_name": "动摩擦系数",
+        "type": [
+            "参数",
+            "物理参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述滑板与滑道之间运动状态下的摩擦特性，用于计算摩擦力。 | 船舶滑动过程中滑板与滑道之间的摩擦系数，其值范围为0.015~0.04，且在仰倾和浮起时可能达到0.15。",
+        "chunk_ids": [
+            175,
+            176
+        ]
+    },
+    {
+        "entity_name": "速度系数",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由实验确定的系数，用于描述船舶下水过程中的速度特性。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "吃水量",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中前支架首端和后支架尾端的吃水深度，用于计算船舶受力状态。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶滑程",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中沿滑道滑行的距离，用于计算船舶运动状态。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "浮力矩",
+        "type": [
+            "力矩"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中由于浮力作用产生的力矩，影响船舶的旋转运动。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "滑道压力",
+        "type": [
+            "力",
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在滑道上滑行时对滑道施加的压力，由船舶重量和船台坡度决定。 | 船舶在滑道上滑行时，船体与滑道之间的接触压力，其分布和大小影响船舶下水过程中的受力状态。",
+        "chunk_ids": [
+            175,
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶滑行速度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中沿滑道滑行的速度，受水阻力和制动措施影响。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶滑行加速度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中沿滑道滑行的加速度，由受力状态决定。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶自由冲程",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在完全浮起后由于惯性继续滑行的距离，约为船长的 $2sim 3$ 倍。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "制动措施",
+        "type": [
+            "措施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少船舶滑行距离的措施，如在下水准备时采取的制动装置。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶下水计算",
+        "type": [
+            "计算方法",
+            "方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估和预测船舶下水过程的计算方法，通常将船体和船台视为刚性体进行分析。 | 用于预测和分析船舶下水过程中受力和运动状态的计算方法，传统方法存在简化和忽略部分受力过程的问题。",
+        "chunk_ids": [
+            175,
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶纵向下水",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶沿船台滑道纵向滑入水中的下水过程，涉及复杂的受力和运动分析。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶完工程度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的完成状态，影响下水重量和重心位置的确定。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶载荷",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中承受的载荷，用于确定力的作用范围和作用点。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶垂线间长",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶两柱间（船中）的长度，用于计算滑板总长等参数。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "滑板厚度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑板的厚度，通常作为前支架处船舶基线至滑道的距离。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶下水装置",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于辅助船舶下水的装置，包括滑道、支架等结构。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶下水装置运动部分",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水装置中运动的部分，其重量计入下水重量中。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "船舶下水装置施工图纸",
+        "type": [
+            "图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定下水装置结构和力的作用点的施工图纸。",
+        "chunk_ids": [
+            175
+        ]
+    },
+    {
+        "entity_name": "共同重心",
+        "type": [
+            "力学概念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶在下水过程中，考虑船舶载荷和下水装置施工图纸确定的力的范围及其作用点的综合重心概念。",
+        "chunk_ids": [
+            176
+        ]
+    },
+    {
+        "entity_name": "浮心",
+        "type": [
+            "力学概念",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "浮力的作用点，用于计算船舶在不同吃水状态下的浮力矩。 | 船舶水下部分的重心，其位置影响船舶的浮力和稳定性。",
+        "chunk_ids": [
+            176,
+            177
+        ]
+    },
+    {
+        "entity_name": "总浮心",
+        "type": [
+            "力学概念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水装置和船舶水下部分浮力合力的作用点，用于计算总浮力矩。",
+        "chunk_ids": [
+            176
+        ]
+    },
+    {
+        "entity_name": "邦戎曲线",
+        "type": [
+            "计算工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算船舶水下部分浮力及其力矩的曲线，依据下水装置施工图纸进行计算。",
+        "chunk_ids": [
+            176
+        ]
+    },
+    {
+        "entity_name": "下滑力",
+        "type": [
+            "力学作用"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶开始滑动时，由重力沿滑道方向的分力与静摩擦力的差值决定的滑动驱动力。",
+        "chunk_ids": [
+            176
+        ]
+    },
+    {
+        "entity_name": "吃水",
+        "type": [
+            "力学参数",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中各剖面处的浸水深度，用于计算浮力和浮力矩。 | 船舶在水中的下沉深度，用于计算船舶的浮力和平衡状态。",
+        "chunk_ids": [
+            176,
+            177
+        ]
+    },
+    {
+        "entity_name": "排水量",
+        "type": [
+            "力学参数",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中所排开水的重量，由水的密度与水下部分体积的乘积决定。 | 船舶排开水的重量，用于计算船舶的浮力和平衡位置。",
+        "chunk_ids": [
+            176,
+            177
+        ]
+    },
+    {
+        "entity_name": "浮心距船中值",
+        "type": [
+            "力学参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "浮心相对于船中位置的横坐标，用于计算浮力矩。",
+        "chunk_ids": [
+            176
+        ]
+    },
+    {
+        "entity_name": "前支架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中用于支撑和平衡的结构部件，用于计算浮力矩和重力矩。",
+        "chunk_ids": [
+            176
+        ]
+    },
+    {
+        "entity_name": "下水装置",
+        "type": [
+            "结构系统",
+            "设备结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中使用的滑道和滑板等结构系统，用于引导和支撑船舶滑行。 | 船舶下水时使用的支撑和引导装置，包括滑道、支架等。",
+        "chunk_ids": [
+            176,
+            177
+        ]
+    },
+    {
+        "entity_name": "滑道末端水深",
+        "type": [
+            "参数",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道末端的水深，影响船舶下水时的浮力和平衡位置。 | 滑道末端的水深，影响船舶重心离开滑道时的尾吃水，进而影响浮力力矩和重力力矩的相对关系。",
+        "chunk_ids": [
+            177,
+            179
+        ]
+    },
+    {
+        "entity_name": "重心",
+        "type": [
+            "结构部件",
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的重心位置，影响船舶在下水过程中的受力和稳定性。 | 船舶下水过程中影响纵倾和浮态的关键参数，通过调整重心位置可消除仰倾或首跌落。",
+        "chunk_ids": [
+            177,
+            179
+        ]
+    },
+    {
+        "entity_name": "首支架",
+        "type": [
+            "设备结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时支撑船体前部的装置，承受较大的瞬时动载荷。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "尾浮",
+        "type": [
+            "工艺阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船尾开始上浮的阶段，此时船体沿滑道下滑并绕前支架转动。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "全浮",
+        "type": [
+            "工艺阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶完全浮起的状态，此时船舶的排水量等于其总重量。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "反力",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中滑道对船体的支撑力，可能产生较大的瞬时动载荷。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "下水时间",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水的具体时间，影响滑道末端水深及下水过程的稳定性。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "潮位",
+        "type": [
+            "环境参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水位高度，影响滑道末端水深及船舶下水时的浮力。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "平衡位置",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中某一滑程下的稳定位置，由浮力和重力的平衡决定。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "首吃水",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首部在水中的下沉深度，用于计算船舶的浮力和平衡状态。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "尾吃水",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部在水中的下沉深度，用于计算船舶的浮力和平衡状态。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "首端压力",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时作用在首支架端点的瞬时压力，可能对船体和支架造成损坏。 | 船舶下水过程中首部受到的压力，可能由滑道坡度加大或滑道末端水深不足引起。",
+        "chunk_ids": [
+            177,
+            179
+        ]
+    },
+    {
+        "entity_name": "坡度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时滑道的倾斜角度，影响船舶的浮力和平衡位置。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "浮力对前支架的力矩",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶浮力对前支架的力矩，影响船舶的平衡和稳定性。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "重心至S点的力矩",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶重心至支撑点S的力矩，影响船舶的平衡和稳定性。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "浮力至S点的力矩",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶浮力至支撑点S的力矩，影响船舶的平衡和稳定性。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "首支架处吃水",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首部在滑道支撑点处的吃水深度，用于计算船舶的浮力和平衡状态。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "尾浮滑程",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部开始上浮时的滑程，用于计算船舶的平衡位置和受力。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "全船浮起",
+        "type": [
+            "状态"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶完全浮起的状态，此时船舶的排水量等于其总重量。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "全浮时的龙骨坡度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶完全浮起时的龙骨坡度，影响船舶的平衡和受力。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "逐步等分法",
+        "type": [
+            "计算方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水计算中用于确定平衡位置的方法，通过逐步调整坡度进行迭代计算。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "迭代计算",
+        "type": [
+            "计算方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水计算中通过重复调整参数以达到平衡状态的方法。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "下水重量的30%~50%",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时首支架处的反力可能达到下水重量的30%~50%，对船体和下水装置构成危险。",
+        "chunk_ids": [
+            177
+        ]
+    },
+    {
+        "entity_name": "滑道末端标高",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船台设计中滑道末端的垂直高度，用于控制船舶下水时的受力状态，防止首跌落现象。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "滑道接触长度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在滑道上滑行时，船体与滑道接触的长度，其变化影响滑道压力分布和船舶受力状态。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "滑板首支点",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水时滑板与船体接触的前支点，其吃水深度影响滑道末端水深与首跌落现象的发生。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船底墩木",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中用于支撑船体的临时支撑结构，其支反力可能对船底结构造成局部损伤。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船底结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中承受支反力和水动力作用的结构部分，其强度和稳定性直接影响船舶安全。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船体下水",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶从船台滑行至水中完成浮起的过程，涉及多种力学和结构问题，需进行详细计算和分析。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船体受力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中承受的多种力，包括支反力、水动力、惯性力等，影响船舶结构安全和滑行状态。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船体运动姿态",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中在水中的运动状态，包括姿态变化和滑行轨迹，受水动力和附体影响较大。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船体尾部入水",
+        "type": [
+            "现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船尾首先接触水面的阶段，其形状和过程影响船舶滑行状态和受力分布。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船体重心",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶质量分布的中心点，其位置影响船舶在滑道上的受力分布和滑行状态。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水动力学",
+        "type": [
+            "领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "研究船舶下水过程中受力、运动和结构响应的学科，涉及多种力学和工程问题。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水过程",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶从船台滑行至水中完成浮起的全过程，包括多个阶段和受力变化。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水传统计算方法",
+        "type": [
+            "方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统用于预测船舶下水过程的计算方法，存在对部分受力过程简化和忽略的问题。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水受力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中承受的多种力，包括支反力、水动力、惯性力等，影响船舶结构安全和滑行状态。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水速度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在下水过程中不同阶段的速度变化，影响滑行距离和受力状态。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水支墩反力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船底墩木对船体的反作用力，可能造成船底结构局部屈服和失稳。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水支墩",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中用于支撑船体的临时支撑结构，其反力可能对船底结构造成局部损伤。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水支反力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体与支撑结构之间的反作用力，影响船体结构安全和滑行状态。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水支反力分布",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体与支撑结构之间反作用力的分布情况，影响滑道和船台的受力分析。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水支反力峰值",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船底墩木对船体的峰值反作用力，可能造成船底结构局部屈服和失稳。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "船舶下水支反力计算",
+        "type": [
+            "方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算船舶下水过程中船体与支撑结构之间反作用力的方法，传统方法存在简化和忽略部分受力过程的问题。",
+        "chunk_ids": [
+            178
+        ]
+    },
+    {
+        "entity_name": "弹性入水计算方法",
+        "type": [
+            "计算方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船舶下水过程视为结构物入水，基于近似平板理论和附加质量力观点，运用动量守恒定律求解流体作用力，建立考虑动量传输引起的附加力影响的船体运动方程。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "等效弹性变断面梁",
+        "type": [
+            "结构模型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体视为一根等效的弹性变断面梁，用于结构受力分析，考虑浮力、分布重力、支墩反力作用下的垂直平面内弯曲状态。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "有限元分析",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于求解船梁变形，将变形结果反映到船体所受浮力的变化上，通过迭代计算满足力的平衡条件、变形协调条件和弹性支持接触脱离状态的协调性。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "滑道板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与滑道配合支撑船体，支持在滑道上，在下水滑行过程中发生变形，并与支持逐渐脱离。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "支墩",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与滑道板配合支撑船体，支持在滑道上，在下水滑行过程中发生变形，并与支持逐渐脱离。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "油脂涂层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滑道表面，减少摩擦，防止船舶下滑时因摩擦系数过大导致不能下滑或中途停滑。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "油压顶推装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在滑板首端，用于在船舶不能下滑或中途停滑时提供推动作用，以便及时处理事故。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "钢索滑轮组",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船台上，用于拖带船舶，防止船舶不能下滑或中途停滑，吸收滑动能量。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "盾板",
+        "type": [
+            "制动装置"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舵后或尾部两侧，依靠入水后产生的水阻力起制动作用，但制动效果有限。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "缆索制动",
+        "type": [
+            "制动装置"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过主索（锚链或钢丝绳）固定在岸上和船首，利用绳索依次被拉断吸收滑动能量，达到制动目的。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "阻荷制动",
+        "type": [
+            "制动装置"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过锚链或废铁块串联或并联与船体相连，借助拖动阻荷消耗船舶滑行能量，达到制动目的。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "浮力力矩",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算船舶下水过程中浮力对船体的力矩作用，影响船舶的纵倾和浮态。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "重力力矩",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算船舶下水过程中重力对船体的力矩作用，影响船舶的纵倾和浮态。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "大潮位下水",
+        "type": [
+            "工艺措施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过增加滑道末端水深，使船舶重心离开滑道时的尾吃水增加，达到浮力力矩大于重力力矩的目的。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "浮箱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于尾部加浮力，以消除仰倾，但工艺复杂。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "压载",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于首部或尾部加压，调整船舶重心位置，以消除仰倾或首跌落。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "滑道坡度",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道的倾斜角度，通过加大坡度可增加船舶纵倾度，影响浮力力矩和重力力矩的相对关系。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "尾浮时间",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中尾部浮起的时间，受滑道坡度和滑道末端水深影响。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船台强度",
+        "type": [
+            "结构性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过计算求得整个下水过程中船台的受力分布情况，用于判断船台是否满足强度要求。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体下水强度",
+        "type": [
+            "结构性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过计算求得整个下水过程中船体所受的弯矩、剪力和变形，用于校核船体下水强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受弯矩",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体受到的弯曲力矩，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受剪力",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体受到的剪切力，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受变形",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体发生的变形，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受浮力",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体受到的浮力，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受重力",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体受到的重力，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受支墩反力",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体受到的支墩反力，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受力的平衡条件",
+        "type": [
+            "物理条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体所受力的平衡条件，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受变形协调条件",
+        "type": [
+            "物理条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体所受变形协调条件，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    },
+    {
+        "entity_name": "船体所受弹性支持接触脱离状态的协调性",
+        "type": [
+            "物理条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船体所受弹性支持接触脱离状态的协调性，用于校核船体结构强度。",
+        "chunk_ids": [
+            179
+        ]
+    }
+]

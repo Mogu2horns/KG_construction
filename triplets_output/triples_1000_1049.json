@@ -1,0 +1,4646 @@
+[
+    {
+        "subject": "相似类型图册",
+        "relation": "contains",
+        "object": "设计族的名称",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似类型图册",
+        "relation": "contains",
+        "object": "相似性码域（特征矩阵）的检索码",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似类型图册",
+        "relation": "contains",
+        "object": "主要类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "主要类型",
+        "relation": "contains",
+        "object": "一览表",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "主要类型",
+        "relation": "contains",
+        "object": "推荐数据",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "主要类型",
+        "relation": "contains",
+        "object": "预印图纸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "主要类型",
+        "relation": "has",
+        "object": "预印图纸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "预印图纸",
+        "relation": "has",
+        "object": "主要尺寸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "主要尺寸",
+        "relation": "determined_by",
+        "object": "推荐数据",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似类型图册",
+        "relation": "contains",
+        "object": "基本类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "基本类型",
+        "relation": "contains",
+        "object": "一览表",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "基本类型",
+        "relation": "contains",
+        "object": "推荐数据",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似类型图册",
+        "relation": "contains",
+        "object": "单一类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "单一类型",
+        "relation": "contains",
+        "object": "标准功能要素一览表",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "新零件的设计",
+        "relation": "uses",
+        "object": "相似性设计指导图纸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "新零件的设计",
+        "relation": "inputs",
+        "object": "GT码",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索工作",
+        "relation": "uses",
+        "object": "GT码",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索的顺序",
+        "relation": "starts_with",
+        "object": "标准件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索的顺序",
+        "relation": "follows",
+        "object": "标准件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索的顺序",
+        "relation": "follows",
+        "object": "重复使用件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索的顺序",
+        "relation": "follows",
+        "object": "主要类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索的顺序",
+        "relation": "follows",
+        "object": "基本类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "检索的顺序",
+        "relation": "follows",
+        "object": "单一类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "标准件",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计自由度",
+        "relation": "is_zero",
+        "object": "标准件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "重复使用件",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计自由度",
+        "relation": "is_zero",
+        "object": "重复使用件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "主要类型",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计自由度",
+        "relation": "is_non_zero",
+        "object": "主要类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "基本类型",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计自由度",
+        "relation": "is_non_zero",
+        "object": "基本类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "单一类型",
+        "relation": "has",
+        "object": "设计自由度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计自由度",
+        "relation": "is_non_zero",
+        "object": "单一类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "新零件的设计",
+        "relation": "has",
+        "object": "设计模式",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计模式",
+        "relation": "includes",
+        "object": "标准件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计模式",
+        "relation": "includes",
+        "object": "重复使用件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计模式",
+        "relation": "includes",
+        "object": "主要类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计模式",
+        "relation": "includes",
+        "object": "基本类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "设计模式",
+        "relation": "includes",
+        "object": "单一类型",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "新零件的设计",
+        "relation": "has",
+        "object": "推荐数据",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "推荐数据",
+        "relation": "used_for",
+        "object": "设计人员",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "推荐数据",
+        "relation": "used_for",
+        "object": "零件尺寸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "新零件的设计",
+        "relation": "has",
+        "object": "预印图纸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "预印图纸",
+        "relation": "used_for",
+        "object": "设计人员",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "预印图纸",
+        "relation": "used_for",
+        "object": "零件尺寸",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "新零件的设计",
+        "relation": "has",
+        "object": "相似性设计",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "新零件",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "设计模式",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "检索",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "设计自由度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "标准化程度",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "设计模式",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "设计族",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "特征矩阵",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "相似性码域",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "相似性设计",
+        "relation": "used_for",
+        "object": "GT码",
+        "chunk_id": "1000"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "设计继承性",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "工艺继承性",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "reduces",
+        "object": "重复劳动",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "reduces",
+        "object": "新绘制工作图纸",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "increases",
+        "object": "开发新产品速度",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "increases",
+        "object": "企业灵活性",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "increases",
+        "object": "企业适应性",
+        "chunk_id": "1001"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "柔性制造线（FML）",
+        "chunk_id": "1002"
+    },
+    {
+        "subject": "换箱组合机床",
+        "relation": "requires",
+        "object": "成组技术分析",
+        "chunk_id": "1002"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "enables",
+        "object": "柔性制造技术",
+        "chunk_id": "1002"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "少品种大批量自动化生产",
+        "chunk_id": "1002"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": " FML配置",
+        "chunk_id": "1002"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "设备订购",
+        "chunk_id": "1002"
+    },
+    {
+        "subject": "柔性制造技术",
+        "relation": "improves",
+        "object": "系统效益",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "柔性制造技术",
+        "relation": "replaces",
+        "object": "成组技术",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "柔性制造技术",
+        "relation": "applied_to",
+        "object": "FMS",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "加工中心",
+        "relation": "used_by",
+        "object": "柔性制造技术",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "刀库",
+        "relation": "affects",
+        "object": "FMS利用率",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "FMS",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "enables",
+        "object": "系统效益",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "replaces",
+        "object": "工装",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "零件加工",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "生产管理",
+        "chunk_id": "1003"
+    },
+    {
+        "subject": "船体钢材",
+        "relation": "uses",
+        "object": "压力机",
+        "chunk_id": "1004"
+    },
+    {
+        "subject": "塑性成形",
+        "relation": "improves",
+        "object": "材料内部组织及产品性能",
+        "chunk_id": "1004"
+    },
+    {
+        "subject": "省力成形",
+        "relation": "refines",
+        "object": "塑性成形",
+        "chunk_id": "1004"
+    },
+    {
+        "subject": "塑性成形",
+        "relation": "acts_on",
+        "object": "船体钢材",
+        "chunk_id": "1004"
+    },
+    {
+        "subject": "应力状态系数",
+        "relation": "affects",
+        "object": "塑性成形所需载荷",
+        "chunk_id": "1004"
+    },
+    {
+        "subject": "拘束系数",
+        "relation": "affects",
+        "object": "塑性成形所需载荷",
+        "chunk_id": "1004"
+    },
+    {
+        "subject": "流动应力",
+        "relation": "determines",
+        "object": "变形力",
+        "chunk_id": "1005"
+    },
+    {
+        "subject": "拘束系数",
+        "relation": "affects",
+        "object": "变形力",
+        "chunk_id": "1005"
+    },
+    {
+        "subject": "接触面积",
+        "relation": "affects",
+        "object": "变形力",
+        "chunk_id": "1005"
+    },
+    {
+        "subject": "变形温度",
+        "relation": "affects",
+        "object": "流动应力",
+        "chunk_id": "1005"
+    },
+    {
+        "subject": "变形程度",
+        "relation": "affects",
+        "object": "流动应力",
+        "chunk_id": "1005"
+    },
+    {
+        "subject": "变形速率",
+        "relation": "affects",
+        "object": "流动应力",
+        "chunk_id": "1005"
+    },
+    {
+        "subject": "流动应力",
+        "relation": "affects",
+        "object": "变形力",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "流动应力",
+        "relation": "affects",
+        "object": "变形力",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "应变速率",
+        "relation": "replaces",
+        "object": "流动应力",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "温度",
+        "relation": "replaces",
+        "object": "流动应力",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "接触面积",
+        "relation": "affects",
+        "object": "总压力",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "接触面积",
+        "relation": "affects",
+        "object": "变形力",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "接触面积",
+        "relation": "affects",
+        "object": "摩擦",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "摆碾",
+        "relation": "applied_to",
+        "object": "成形",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "旋压",
+        "relation": "applied_to",
+        "object": "成形",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "楔横轧",
+        "relation": "applied_to",
+        "object": "成形",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "数控增量",
+        "relation": "applied_to",
+        "object": "成形",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "局部加载",
+        "relation": "applied_to",
+        "object": "成形",
+        "chunk_id": "1006"
+    },
+    {
+        "subject": "柔性成形",
+        "relation": "applied_to",
+        "object": "构件",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "柔性成形",
+        "relation": "uses",
+        "object": "模具",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "柔性成形",
+        "relation": "replaces",
+        "object": "传统模具成形",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "柔性成形",
+        "relation": "improves",
+        "object": "制造柔性",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "单模成形",
+        "relation": "belongs_to",
+        "object": "柔性成形",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "多点成形",
+        "relation": "belongs_to",
+        "object": "柔性成形",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "液压成形",
+        "relation": "belongs_to",
+        "object": "柔性成形",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "软模成形",
+        "relation": "applied_to",
+        "object": "构件",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "塑性成形",
+        "relation": "uses",
+        "object": "模具",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "塑性成形",
+        "relation": "improves",
+        "object": "内部组织",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "塑性成形",
+        "relation": "applied_to",
+        "object": "构件",
+        "chunk_id": "1007"
+    },
+    {
+        "subject": "单点成形",
+        "relation": "applied_to",
+        "object": "外板",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "数控技术",
+        "relation": "improves",
+        "object": "单点成形",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "无模胀球",
+        "relation": "applied_to",
+        "object": "球体成形",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "拼焊成形",
+        "relation": "belongs_to",
+        "object": "轻量化成形",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "轻量化成形",
+        "relation": "uses",
+        "object": "铝合金",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "轻量化成形",
+        "relation": "uses",
+        "object": "高强钢",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "轻量化成形",
+        "relation": "uses",
+        "object": "液压成形",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "内高压成形",
+        "relation": "applied_to",
+        "object": "阶梯轴",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "拼焊板成形",
+        "relation": "applied_to",
+        "object": "轻量化成形",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "热冲压成形",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "激光加热",
+        "chunk_id": "1008"
+    },
+    {
+        "subject": "内高压成形",
+        "relation": "applied_to",
+        "object": "阶梯轴",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "热冲压成形",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "淬火",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "激光加热",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "磁脉冲",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "喷射成形",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "连续挤压成形",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "铸锻成形",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "复合成形",
+        "relation": "uses",
+        "object": "焊接",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "高强钢",
+        "relation": "applied_to",
+        "object": "热冲压成形",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "热冲压成形",
+        "relation": "applied_to",
+        "object": "高强钢板",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "淬火",
+        "relation": "applied_to",
+        "object": "热冲压成形",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "高效焊接技术",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "1009"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "improves",
+        "object": "焊接生产效率",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "improves",
+        "object": "焊接接头力学性能",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "reduces",
+        "object": "生产成本",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "窄间隙焊接技术",
+        "relation": "applied_to",
+        "object": "厚板",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "窄间隙焊接技术",
+        "relation": "replaces",
+        "object": "传统焊接方法",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "窄间隙焊接技术",
+        "relation": "improves",
+        "object": "焊接生产效率",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "窄间隙焊接技术",
+        "relation": "improves",
+        "object": "焊接接头力学性能",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "窄间隙焊接技术",
+        "relation": "reduces",
+        "object": "生产成本",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "uses",
+        "object": "电弧",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "uses",
+        "object": "电弧焊",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "uses",
+        "object": "焊接设备",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "厚板",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船厂",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接接头",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "接头",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接规范",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接工艺",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接方法",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接生产",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接生产效率",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接接头力学性能",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "厚板",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接设备",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接规范",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接工艺",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接方法",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接生产",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接生产效率",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "焊接接头力学性能",
+        "chunk_id": "1010"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "uses",
+        "object": "I形坡口",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "uses",
+        "object": "窄U形坡口",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "uses",
+        "object": "窄V形坡口",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "applied_to",
+        "object": "厚板",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "焊接时间",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "残余应力",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙埋弧焊",
+        "relation": "belongs_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙钨极氩弧焊",
+        "relation": "belongs_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙熔化极气体保护焊",
+        "relation": "belongs_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙手工电弧焊",
+        "relation": "belongs_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙药芯焊丝电弧焊",
+        "relation": "belongs_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙激光焊",
+        "relation": "belongs_to",
+        "object": "窄间隙焊接",
+        "chunk_id": "1011"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "焊接生产率",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "焊接生产成本",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "焊接热影响区的塑、韧性",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "improves",
+        "object": "焊缝组织",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "applied_to",
+        "object": "厚板焊缝",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "uses",
+        "object": "特殊设计的焊枪喷嘴",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "requires",
+        "object": "高精度焊丝对中",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "深而窄的坡口",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "acts_on",
+        "object": "焊缝金属",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "affects",
+        "object": "残余应力",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "affects",
+        "object": "残余变形",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "affects",
+        "object": "焊接线能量",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "affects",
+        "object": "熔池冷却速度",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "affects",
+        "object": "缺口韧性",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "窄U形坡口",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "窄V形坡口",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "I形坡口",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "多层焊接",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "每层1至2道",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "has",
+        "object": "气体保护焊",
+        "chunk_id": "1012"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "applied_to",
+        "object": "厚壁结构",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "applied_to",
+        "object": "大厚壁结构",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "acts_on",
+        "object": "焊接工件",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "焊接工件",
+        "relation": "has",
+        "object": "间隙",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "焊接工件",
+        "relation": "has",
+        "object": "坡口角度",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "affects",
+        "object": "焊接变形",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "窄间隙焊接",
+        "relation": "requires",
+        "object": "自适应控制",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "uses",
+        "object": "气体喷嘴",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "uses",
+        "object": "导电嘴",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "belongs_to",
+        "object": "双丝焊",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "belongs_to",
+        "object": "双丝焊",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "Max法",
+        "relation": "belongs_to",
+        "object": "双丝焊",
+        "chunk_id": "1013"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "uses",
+        "object": "导电嘴",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "uses",
+        "object": "气体喷嘴",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "affects",
+        "object": "电弧",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "affects",
+        "object": "飞溅",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Twin arc法",
+        "relation": "affects",
+        "object": "焊缝成形",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Max法",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Max法",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Max法",
+        "relation": "affects",
+        "object": "熔池",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Max法",
+        "relation": "affects",
+        "object": "焊缝合金化",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "uses",
+        "object": "焊枪",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "affects",
+        "object": "电弧",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "affects",
+        "object": "熔池",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "affects",
+        "object": "焊缝成形",
+        "chunk_id": "1014"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "uses",
+        "object": "焊机",
+        "chunk_id": "1015"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1015"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "uses",
+        "object": "脉冲电弧",
+        "chunk_id": "1015"
+    },
+    {
+        "subject": "Tandem法",
+        "relation": "applied_to",
+        "object": "双丝MAG/MIG焊接",
+        "chunk_id": "1015"
+    },
+    {
+        "subject": "焊枪",
+        "relation": "used_in",
+        "object": "Tandem法",
+        "chunk_id": "1015"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "applied_to",
+        "object": "碳钢",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "applied_to",
+        "object": "低合金钢",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "applied_to",
+        "object": "不锈钢",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "applied_to",
+        "object": "铝",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "熔敷效率",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "焊接速度",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "送丝速度",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "acts_on",
+        "object": "熔池",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "affects",
+        "object": "焊接变形",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "焊缝成形",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "热输入",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "熔滴过渡",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "飞溅",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "气孔",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "焊缝组织",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "薄板",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "双丝焊",
+        "relation": "has",
+        "object": "厚板",
+        "chunk_id": "1016"
+    },
+    {
+        "subject": "焊缝成形",
+        "relation": "acts_on",
+        "object": "焊缝",
+        "chunk_id": "1017"
+    },
+    {
+        "subject": "焊缝成形",
+        "relation": "affects",
+        "object": "焊接变形",
+        "chunk_id": "1017"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "applied_to",
+        "object": "造船",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "applied_to",
+        "object": "机车车辆",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "applied_to",
+        "object": "军工战车",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "applied_to",
+        "object": "电站建设",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "uses",
+        "object": "焊枪",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "uses",
+        "object": "送丝技术",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "uses",
+        "object": "协调控制技术",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "affects",
+        "object": "焊缝强度",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "affects",
+        "object": "热输入",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "双丝GMA焊接",
+        "relation": "affects",
+        "object": "熔池",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "applied_to",
+        "object": "厚板",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "uses",
+        "object": "钨极",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "uses",
+        "object": "氩气",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "uses",
+        "object": "大电流",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "uses",
+        "object": "粗电极",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "acts_on",
+        "object": "母材",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "acts_on",
+        "object": "熔融金属",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "produces",
+        "object": "焊缝",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "replaces",
+        "object": "手工焊接",
+        "chunk_id": "1018"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "applied_to",
+        "object": "厚板工件",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "uses",
+        "object": "背部衬板",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "affects",
+        "object": "焊缝正面宽度",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "affects",
+        "object": "热影响区晶粒粗大",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "affects",
+        "object": "抗拉强度",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "affects",
+        "object": "疲劳性能",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "applied_to",
+        "object": "不锈钢",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "applied_to",
+        "object": "钛合金",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "钛合金",
+        "relation": "has",
+        "object": "密度",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "钛合金",
+        "relation": "has",
+        "object": "黏性",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "潜弧焊",
+        "relation": "applied_to",
+        "object": "钛合金厚板",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "applied_to",
+        "object": "大坡口TIG填丝焊接",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "has",
+        "object": "熔敷率",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "has",
+        "object": "生产效率",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "has",
+        "object": "适用母材范围",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "has",
+        "object": "质量",
+        "chunk_id": "1019"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "applied_to",
+        "object": "大坡口TIG填丝焊接",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "acts_on",
+        "object": "焊丝",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "replaces",
+        "object": "冷丝焊",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "affects",
+        "object": "熔敷效率",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "affects",
+        "object": "焊接速度",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝电弧焊技术",
+        "relation": "affects",
+        "object": "熔敷速度",
+        "chunk_id": "1020"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "improves",
+        "object": "熔敷效率",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "improves",
+        "object": "焊接效率",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "reduces",
+        "object": "焊接变形",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "reduces",
+        "object": "气孔",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "affects",
+        "object": "焊丝强度",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "affects",
+        "object": "焊丝挺度",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "applied_to",
+        "object": "高性能材料",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "affects",
+        "object": "焊接线能量",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "replaces",
+        "object": "冷丝焊",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "热丝焊",
+        "relation": "has",
+        "object": "温度",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "温度",
+        "relation": "constrained_by",
+        "object": "热丝焊",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "钢焊丝",
+        "relation": "has",
+        "object": "温度",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "温度",
+        "chunk_id": "1021"
+    },
+    {
+        "subject": "电阻热丝",
+        "relation": "uses",
+        "object": "热丝加热电源",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "热丝加热电源",
+        "relation": "applied_to",
+        "object": "电阻热丝",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "热丝加热电源",
+        "relation": "uses",
+        "object": "恒流源",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "热丝加热电源",
+        "relation": "uses",
+        "object": "脉冲电源",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "热丝加热电源",
+        "relation": "affects",
+        "object": "电弧",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "uses",
+        "object": "焊丝",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "acts_on",
+        "object": "熔池",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "depends_on",
+        "object": "热丝电流",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "depends_on",
+        "object": "焊丝电阻率",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "depends_on",
+        "object": "焊丝伸出长度",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "depends_on",
+        "object": "焊丝截面积",
+        "chunk_id": "1022"
+    },
+    {
+        "subject": "电阻热丝",
+        "relation": "applied_to",
+        "object": "细径钢焊丝",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "电阻热丝",
+        "relation": "not_applied_to",
+        "object": "粗焊丝",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "电阻热丝",
+        "relation": "not_applied_to",
+        "object": "铜",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "电阻热丝",
+        "relation": "not_applied_to",
+        "object": "铝",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "acts_on",
+        "object": "焊丝",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "电阻加热",
+        "relation": "affects",
+        "object": "加热效果",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "成组技术",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "中间产品",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "区域",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "设计、生产、管理一体化",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "均衡",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "总装造船",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "船体建造",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "舾装",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "涂装",
+        "chunk_id": "1023"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "uses",
+        "object": "成组技术",
+        "chunk_id": "1024"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "uses",
+        "object": "系统工程技术",
+        "chunk_id": "1024"
+    },
+    {
+        "subject": "日本船厂",
+        "relation": "applied_to",
+        "object": "成组技术",
+        "chunk_id": "1024"
+    },
+    {
+        "subject": "美国",
+        "relation": "combined_with",
+        "object": "日本先进的造船方法",
+        "chunk_id": "1024"
+    },
+    {
+        "subject": "国家造船研究计划",
+        "relation": "promotes",
+        "object": "现代造船模式",
+        "chunk_id": "1024"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "中间产品导向型的作业分解原理",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "uses",
+        "object": "相似性原理",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "中间产品导向型的作业分解原理",
+        "relation": "applied_to",
+        "object": "船舶制造",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "相似性原理",
+        "relation": "applied_to",
+        "object": "船舶制造",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "船舶制造",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "多品种、少批量生产",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "相似性原理",
+        "relation": "applied_to",
+        "object": "批量性流水定位",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "相似性原理",
+        "relation": "applied_to",
+        "object": "批量性流水定员",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "中间产品导向型的作业分解原理",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "applied_to",
+        "object": "相似性原理",
+        "chunk_id": "1025"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "belongs_to",
+        "object": "成组技术",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "制造",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "装配",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "生产",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "经营",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "成组工艺",
+        "relation": "applied_to",
+        "object": "管理",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "系统工程技术",
+        "relation": "uses",
+        "object": "统筹优化理论",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "系统工程技术",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "系统工程技术",
+        "relation": "applied_to",
+        "object": "壳舾涂作业系统",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "系统工程技术",
+        "relation": "applied_to",
+        "object": "区域",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "系统工程技术",
+        "relation": "applied_to",
+        "object": "阶段",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "系统工程技术",
+        "relation": "applied_to",
+        "object": "类型",
+        "chunk_id": "1026"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "uses",
+        "object": "成组技术",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "区域造船",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "设计、生产、管理一体化",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "contains",
+        "object": "壳舾涂一体化",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "belongs_to",
+        "object": "造船模式",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "uses",
+        "object": "生产设计",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "uses",
+        "object": "科学管理",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "improves",
+        "object": "传统造船模式",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "based_on",
+        "object": "区域造船",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "中间产品",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "系统",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "两个‘一体化’",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "设计、生产、管理一体化",
+        "relation": "belongs_to",
+        "object": "现代造船模式",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "belongs_to",
+        "object": "现代造船模式",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "生产设计",
+        "relation": "belongs_to",
+        "object": "现代造船模式",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "科学管理",
+        "relation": "belongs_to",
+        "object": "现代造船模式",
+        "chunk_id": "1027"
+    },
+    {
+        "subject": "质量控制循环活动",
+        "relation": "contains",
+        "object": "计划",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "质量控制循环活动",
+        "relation": "contains",
+        "object": "实施",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "质量控制循环活动",
+        "relation": "contains",
+        "object": "校核",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "质量控制循环活动",
+        "relation": "contains",
+        "object": "改进",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "质量控制循环活动",
+        "relation": "contains",
+        "object": "再计划",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船舶建造标准化",
+        "relation": "contains",
+        "object": "产品设计",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船舶建造标准化",
+        "relation": "contains",
+        "object": "加工",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船舶建造标准化",
+        "relation": "contains",
+        "object": "装配",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船舶建造标准化",
+        "relation": "contains",
+        "object": "安装",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船舶建造标准化",
+        "relation": "contains",
+        "object": "检验",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船舶建造标准化",
+        "relation": "contains",
+        "object": "管理工作",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "设计标准",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "建造标准",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "造船方法",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "质量指标",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "分段划分",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "精度数据",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "焊接",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "建造合同技术谈判",
+        "relation": "contains",
+        "object": "工艺通道",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "产品导向工程分解",
+        "relation": "contains",
+        "object": "区域",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "产品导向工程分解",
+        "relation": "contains",
+        "object": "作业类型",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "产品导向工程分解",
+        "relation": "contains",
+        "object": "施工阶段",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "产品导向工程分解",
+        "relation": "contains",
+        "object": "中间产品",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "产品导向工程分解",
+        "relation": "contains",
+        "object": "物资",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船体分道建造技术",
+        "relation": "contains",
+        "object": "生产线",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船体分道建造技术",
+        "relation": "contains",
+        "object": "精度控制技术",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船体分道建造技术",
+        "relation": "contains",
+        "object": "热校正",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "船体分道建造技术",
+        "relation": "contains",
+        "object": "成形技术",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "区域舾装技术",
+        "relation": "contains",
+        "object": "单元舾装",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "区域舾装技术",
+        "relation": "contains",
+        "object": "分段舾装",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "区域舾装技术",
+        "relation": "contains",
+        "object": "模块",
+        "chunk_id": "1028"
+    },
+    {
+        "subject": "物资采购系统",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "托盘集配系统",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "托盘集配系统",
+        "relation": "produces",
+        "object": "中间产品",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "区域涂装技术",
+        "relation": "applied_to",
+        "object": "制造级",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "关键族制造技术",
+        "relation": "uses",
+        "object": "托盘",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "关键族制造技术",
+        "relation": "applied_to",
+        "object": "舾装现场",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "壳、舾、涂一体化",
+        "relation": "uses",
+        "object": "统计控制技术",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "壳、舾、涂一体化",
+        "relation": "enables",
+        "object": "计算机全面辅助",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "一体化的柔性造船设计、生产、管理系统",
+        "relation": "uses",
+        "object": "物流控制技术",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "一体化的柔性造船设计、生产、管理系统",
+        "relation": "produces",
+        "object": "船舶",
+        "chunk_id": "1029"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "成组技术",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "计算机技术",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "虚拟制造技术",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "现代造船模式",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "生产管理",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "生产设计",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "技术设计",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "组织体制",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "信息数字化",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "造船编码技术",
+        "relation": "applied_to",
+        "object": "STEP",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "uses",
+        "object": "中间产品",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "replaces",
+        "object": "工种专业化",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "区域建造体制",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "replaces",
+        "object": "工种建造体制",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "壳舾涂一体化",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "分道生产",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "生产单元",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "生产计划",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "生产管理",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "applied_to",
+        "object": "作业排序",
+        "chunk_id": "1030"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "连续流水线型",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "独立分离型",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "连续流水线型",
+        "relation": "applied_to",
+        "object": "同类型船批量建造",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "独立分离型",
+        "relation": "applied_to",
+        "object": "多种类型船舶同时建造",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "独立分离型",
+        "relation": "uses",
+        "object": "液压分段车",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "船体分道建造生产线",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "晒装场地",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "分段堆场",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "总段组装场地",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "管装车间",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "舾装件集配中心",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "I形",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "T形",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "L形",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "U形",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "has",
+        "object": "分离形",
+        "chunk_id": "1031"
+    },
+    {
+        "subject": "现代造船模式",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "uses",
+        "object": "托盘技术",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "applied_to",
+        "object": "区域舾装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "applied_to",
+        "object": "区域涂装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "produces",
+        "object": "模块",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "contains",
+        "object": "船体建造",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "contains",
+        "object": "区域舾装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "contains",
+        "object": "区域涂装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "applied_to",
+        "object": "托盘技术",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "contains",
+        "object": "托盘",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域舾装",
+        "relation": "applied_to",
+        "object": "托盘技术",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域舾装",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域涂装",
+        "relation": "applied_to",
+        "object": "托盘技术",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域涂装",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域涂装",
+        "relation": "contains",
+        "object": "船体涂装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域涂装",
+        "relation": "contains",
+        "object": "铁舾件涂装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "区域涂装",
+        "relation": "contains",
+        "object": "特殊涂装",
+        "chunk_id": "1032"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "inputs",
+        "object": "中间产品",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "outputs",
+        "object": "托盘管理",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "uses",
+        "object": "集配中心",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "托盘管理",
+        "relation": "part_of",
+        "object": "深化生产设计",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "托盘管理",
+        "relation": "contains",
+        "object": "辅助材料",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "托盘管理",
+        "relation": "contains",
+        "object": "工装材料",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "托盘管理",
+        "relation": "contains",
+        "object": "特殊紧固件",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "托盘管理",
+        "relation": "located_at",
+        "object": "集配中心",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "precedes",
+        "object": "分段预舾装",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "precedes",
+        "object": "缩短码头周期",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "precedes",
+        "object": "提高建造质量",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "precedes",
+        "object": "缩短造船周期",
+        "chunk_id": "1033"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "refines",
+        "object": "标准化设计",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "contains",
+        "object": "标准化设计",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "深化生产设计",
+        "relation": "inputs",
+        "object": "标准化",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "生产体制",
+        "relation": "enables",
+        "object": "现代造船模式",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "生产体制",
+        "relation": "part_of",
+        "object": "造船模式",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "船坞",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "吊车",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "焊接",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "切割",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "生产体制",
+        "relation": "replaces",
+        "object": "传统生产体制",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "生产体制",
+        "relation": "supports",
+        "object": "现代造船模式",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化设计",
+        "relation": "applied_to",
+        "object": "设计、制造、工艺、管理",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化设计",
+        "relation": "improves",
+        "object": "设计效率",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化设计",
+        "relation": "improves",
+        "object": "设计进度",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化",
+        "relation": "applied_to",
+        "object": "技术、工艺、图形",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化",
+        "relation": "used_in",
+        "object": "设计标准",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化",
+        "relation": "replaces",
+        "object": "重复设计",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化",
+        "relation": "improves",
+        "object": "设计可靠性",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化",
+        "relation": "improves",
+        "object": "设计继承性",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化设计",
+        "relation": "used_in",
+        "object": "新产品技术设计",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化设计",
+        "relation": "replaces",
+        "object": "重走弯路",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "标准化设计",
+        "relation": "improves",
+        "object": "效率",
+        "chunk_id": "1034"
+    },
+    {
+        "subject": "设计体制",
+        "relation": "requires",
+        "object": "生产体制",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "设计体制",
+        "relation": "supports",
+        "object": "生产计划",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "设计体制",
+        "relation": "supports",
+        "object": "配套计划",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "设计体制",
+        "relation": "requires",
+        "object": "中间产品",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "设计体制",
+        "relation": "requires",
+        "object": "管理图表",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "设计体制",
+        "relation": "requires",
+        "object": "劳动力",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "新技术新工艺",
+        "relation": "applied_to",
+        "object": "船舶作业流程",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "新技术新工艺",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "新技术新工艺",
+        "relation": "reduces",
+        "object": "劳动强度",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "新技术新工艺",
+        "relation": "reduces",
+        "object": "安全事故",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "新技术新工艺",
+        "relation": "supports",
+        "object": "生产设计",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "新技术新工艺",
+        "relation": "supports",
+        "object": "造船模式转换",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "requires",
+        "object": "新技术新工艺",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "supports",
+        "object": "生产管理水平",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "区域造船",
+        "relation": "supports",
+        "object": "现代造船模式",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "船体分道作业",
+        "relation": "part_of",
+        "object": "总装造船",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "船体分道作业",
+        "relation": "part_of",
+        "object": "现代造船模式",
+        "chunk_id": "1035"
+    },
+    {
+        "subject": "总装造船",
+        "relation": "belongs_to",
+        "object": "现代造船模式",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "船体分道作业",
+        "relation": "belongs_to",
+        "object": "总装造船",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "part_of",
+        "object": "总装造船",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "uses",
+        "object": "加工设备",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "precedes",
+        "object": "部件装配作业",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "applies_to",
+        "object": "船体钢结构零件",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "refines",
+        "object": "生产效率",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "produces",
+        "object": "船体分段",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "connects_to",
+        "object": "部件装配作业",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "prepares_for",
+        "object": "部件装配作业",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "has",
+        "object": "平直板切割加工流程",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "has",
+        "object": "弯曲板切割加工流程",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "has",
+        "object": "板条及小零件切割加工流程",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "has",
+        "object": "型材切割加工流程",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "零件切割加工作业",
+        "relation": "has",
+        "object": "内部构件切割加工流程",
+        "chunk_id": "1036"
+    },
+    {
+        "subject": "部件装配作业",
+        "relation": "contains",
+        "object": "拼板部件装配流程",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "部件装配作业",
+        "relation": "contains",
+        "object": "T形部件装配流程",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "部件装配作业",
+        "relation": "contains",
+        "object": "桁材部件装配流程",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "部件装配作业",
+        "relation": "contains",
+        "object": "腹板部件装配流程",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "平直板切割",
+        "relation": "uses",
+        "object": "等离子切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "平直板切割",
+        "relation": "uses",
+        "object": "高速铣边机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "平直板切割",
+        "relation": "uses",
+        "object": "三星辊",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "平直板切割",
+        "relation": "uses",
+        "object": "油压机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "弯曲板切割",
+        "relation": "uses",
+        "object": "等离子切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "弯曲板切割",
+        "relation": "uses",
+        "object": "三星辊",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "弯曲板切割",
+        "relation": "uses",
+        "object": "油压机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "弯曲板切割",
+        "relation": "uses",
+        "object": "火工平台",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "板条及小零件切割",
+        "relation": "uses",
+        "object": "板条切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "板条及小零件切割",
+        "relation": "uses",
+        "object": "光电跟踪切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "板条及小零件切割",
+        "relation": "uses",
+        "object": "手工切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "板条及小零件切割",
+        "relation": "uses",
+        "object": "三星辊",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "板条及小零件切割",
+        "relation": "uses",
+        "object": "折边机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "板条及小零件切割",
+        "relation": "uses",
+        "object": "剪板机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "型材切割",
+        "relation": "uses",
+        "object": "型材自动切割线",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "型材切割",
+        "relation": "uses",
+        "object": "肋骨冷弯机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "型材切割",
+        "relation": "uses",
+        "object": "撑床机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "内部构件切割",
+        "relation": "uses",
+        "object": "等离子切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "内部构件切割",
+        "relation": "uses",
+        "object": "光电跟踪切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "内部构件切割",
+        "relation": "uses",
+        "object": "手工切割机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "内部构件切割",
+        "relation": "uses",
+        "object": "矫平机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "内部构件切割",
+        "relation": "uses",
+        "object": "油压机",
+        "chunk_id": "1037"
+    },
+    {
+        "subject": "拼板部件装配",
+        "relation": "uses",
+        "object": "HIVAS高效焊接系统",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "拼板部件装配",
+        "relation": "uses",
+        "object": "焊机",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "T形部件装配",
+        "relation": "uses",
+        "object": "T形材生产线",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "T形部件装配",
+        "relation": "uses",
+        "object": "焊机",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "桁材部件装配",
+        "relation": "uses",
+        "object": "部件流水线",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "桁材部件装配",
+        "relation": "uses",
+        "object": "焊机",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "腹板部件装配",
+        "relation": "uses",
+        "object": "部件流水线",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "腹板部件装配",
+        "relation": "uses",
+        "object": "焊机",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "组件装配作业",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "组件装配作业",
+        "relation": "has",
+        "object": "框架构件装配流程",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "组件装配作业",
+        "relation": "has",
+        "object": "平面板架装配流程",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "组件装配作业",
+        "relation": "has",
+        "object": "曲面板架装配流程",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "分段装配作业",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "分段装配作业",
+        "relation": "has",
+        "object": "平面分段装配流程",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "分段装配作业",
+        "relation": "has",
+        "object": "曲面分段装配流程",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "分段装配作业",
+        "relation": "has",
+        "object": "上层建筑分段装配流程",
+        "chunk_id": "1038"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "曲面分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "上层建筑分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "总段组合",
+        "relation": "uses",
+        "object": "吊装",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "总段组合",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "precedes",
+        "object": "总段组合",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "refines",
+        "object": "舾装作业",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "part_of",
+        "object": "总段组合",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "applied_to",
+        "object": "平面分段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "applied_to",
+        "object": "曲面分段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "applied_to",
+        "object": "上层建筑分段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "总段组合",
+        "relation": "improves",
+        "object": "预舾装率",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "总段组合",
+        "relation": "replaces",
+        "object": "船坞合拢",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "enables",
+        "object": "分道作业",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "acts_on",
+        "object": "舾装件",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "located_at",
+        "object": "分段",
+        "chunk_id": "1039"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "uses",
+        "object": "托盘",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "uses",
+        "object": "单元",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "uses",
+        "object": "模块",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "located_at",
+        "object": "船舶",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "has",
+        "object": "机舱舾装区",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "has",
+        "object": "甲板舾装区",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "区域舾装作业",
+        "relation": "has",
+        "object": "上层建筑舾装区",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "托盘集配流程",
+        "relation": "belongs_to",
+        "object": "区域舾装作业",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "托盘集配流程",
+        "relation": "has",
+        "object": "管舾件托盘集配流程",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "托盘集配流程",
+        "relation": "has",
+        "object": "铁件托盘集配流程",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "单元舾装流程",
+        "relation": "belongs_to",
+        "object": "区域舾装作业",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "分段舾装流程",
+        "relation": "belongs_to",
+        "object": "区域舾装作业",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "总段舾装流程",
+        "relation": "belongs_to",
+        "object": "区域舾装作业",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "船上舾装流程",
+        "relation": "belongs_to",
+        "object": "区域舾装作业",
+        "chunk_id": "1040"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "舾装",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "分段",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "船体建造",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "中间产品",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "区域性单元",
+        "relation": "part_of",
+        "object": "单元",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "功能性单元",
+        "relation": "part_of",
+        "object": "单元",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块",
+        "relation": "part_of",
+        "object": "中间产品",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块",
+        "relation": "part_of",
+        "object": "部件",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块",
+        "relation": "part_of",
+        "object": "标准元件",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块",
+        "relation": "part_of",
+        "object": "附件",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块技术",
+        "relation": "applied_to",
+        "object": "中间产品",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块技术",
+        "relation": "enables",
+        "object": "通用化",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "模块技术",
+        "relation": "enables",
+        "object": "标准化",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元制造",
+        "relation": "precedes",
+        "object": "单元安装",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元制造",
+        "relation": "part_of",
+        "object": "单元舾装",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元安装",
+        "relation": "part_of",
+        "object": "单元舾装",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "壳舾涂一体化",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "分段舾装",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "区域",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "托盘集配",
+        "chunk_id": "1041"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "precedes",
+        "object": "船上舾装",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "reduces",
+        "object": "船上舾装工作量",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "improves",
+        "object": "生产率",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "applied_to",
+        "object": "分段",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "contains",
+        "object": "A面预装",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "contains",
+        "object": "B面预装",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "A面预装",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "B面预装",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段舾装",
+        "relation": "applied_to",
+        "object": "总段",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段舾装",
+        "relation": "precedes",
+        "object": "船上舾装",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段舾装",
+        "relation": "reduces",
+        "object": "船上舾装工作量",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段舾装",
+        "relation": "improves",
+        "object": "生产率",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段组合",
+        "relation": "precedes",
+        "object": "总段舾装",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段组合",
+        "relation": "precedes",
+        "object": "舾装后总段组合",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "船上舾装",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "船上舾装",
+        "relation": "has",
+        "object": "较差的工作环境",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "船上舾装",
+        "relation": "has",
+        "object": "较高的舾装成本",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "船上舾装",
+        "relation": "reduces",
+        "object": "生产率",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "分段舾装",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "总段舾装",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "1042"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "船体涂装",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "铁舾件涂装",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "特殊涂装",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "钢材预处理",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "分段涂装",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "船台涂装",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "码头涂装",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "applied_to",
+        "object": "船体作业",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "applied_to",
+        "object": "舾装作业",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "uses",
+        "object": "生产设计",
+        "chunk_id": "1043"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "钢材预处理作业流程",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "分段涂装作业流程",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "船台涂装作业流程",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "区域涂装作业",
+        "relation": "contains",
+        "object": "码头涂装作业流程",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "外板",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "压载舱",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "封闭舱室",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "上层建筑",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "机舱",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "货舱",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "船台涂装作业流程",
+        "relation": "applied_to",
+        "object": "油舱",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "码头涂装作业流程",
+        "relation": "applied_to",
+        "object": "货舱",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "码头涂装作业流程",
+        "relation": "applied_to",
+        "object": "油舱",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "钢材预处理作业流程",
+        "relation": "applied_to",
+        "object": "钢材",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "钢材预处理作业流程",
+        "relation": "applied_to",
+        "object": "分段",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "分段涂装作业流程",
+        "relation": "applied_to",
+        "object": "分段",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "分段涂装作业流程",
+        "relation": "applied_to",
+        "object": "舾装件",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "分段涂装作业流程",
+        "relation": "applied_to",
+        "object": "外板",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "分段涂装作业流程",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "1044"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "prepares_for",
+        "object": "号料",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "uses",
+        "object": "防锈涂料",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "钢材",
+        "relation": "has",
+        "object": "变形",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "钢材",
+        "relation": "has",
+        "object": "锈蚀",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "矫正",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "矫正",
+        "relation": "improves",
+        "object": "加工质量",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "钢材",
+        "relation": "affects",
+        "object": "号料质量",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "钢材",
+        "relation": "affects",
+        "object": "加工质量",
+        "chunk_id": "1045"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "钢板矫正",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "型材矫正",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "钢板矫正",
+        "relation": "uses",
+        "object": "多辊机",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "多辊机",
+        "relation": "contains",
+        "object": "轴辊",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "轴辊",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "钢板矫正",
+        "relation": "applied_to",
+        "object": "钢板",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "型材矫正",
+        "relation": "applied_to",
+        "object": "型材",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "型材矫直机",
+        "relation": "contains",
+        "object": "支撑",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "型材矫直机",
+        "relation": "contains",
+        "object": "推撑",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "推撑",
+        "relation": "acts_on",
+        "object": "型材",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "推撑",
+        "relation": "uses",
+        "object": "电机",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "钢板",
+        "relation": "affects",
+        "object": "矫正难度",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "薄板",
+        "relation": "affects",
+        "object": "矫正难度",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "钢板矫正",
+        "relation": "precedes",
+        "object": "检验",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "检验",
+        "relation": "part_of",
+        "object": "钢材预处理",
+        "chunk_id": "1046"
+    },
+    {
+        "subject": "钢板",
+        "relation": "acts_on",
+        "object": "抛丸除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "型材",
+        "relation": "acts_on",
+        "object": "抛丸除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材",
+        "relation": "acts_on",
+        "object": "抛丸除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "抛丸除锈",
+        "relation": "uses",
+        "object": "铁丸",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "抛丸除锈",
+        "relation": "uses",
+        "object": "磨料",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "化学除锈法",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "化学除锈法",
+        "relation": "applied_to",
+        "object": "薄板",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "带锈底漆法",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "带锈底漆法",
+        "relation": "applied_to",
+        "object": "二次除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材表面清理与防护",
+        "relation": "contains",
+        "object": "抛丸除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材表面清理与防护",
+        "relation": "contains",
+        "object": "化学除锈法",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材表面清理与防护",
+        "relation": "contains",
+        "object": "带锈底漆法",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "contains",
+        "object": "抛丸除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "contains",
+        "object": "化学除锈",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "contains",
+        "object": "涂防护底漆",
+        "chunk_id": "1047"
+    },
+    {
+        "subject": "船体零件加工",
+        "relation": "contains",
+        "object": "边缘加工",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "船体零件加工",
+        "relation": "contains",
+        "object": "成形加工",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "边缘加工",
+        "relation": "acts_on",
+        "object": "船体钢材",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "边缘加工",
+        "relation": "acts_on",
+        "object": "焊接坡口",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "成形加工",
+        "relation": "uses",
+        "object": "机械",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "成形加工",
+        "relation": "uses",
+        "object": "工具",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "成形加工",
+        "relation": "applied_to",
+        "object": "钢材",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "成形加工",
+        "relation": "improves",
+        "object": "船体结构",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "成形加工",
+        "relation": "replaces",
+        "object": "传统加工技术",
+        "chunk_id": "1048"
+    },
+    {
+        "subject": "边缘加工",
+        "relation": "contains",
+        "object": "机械切割法",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "边缘加工",
+        "relation": "contains",
+        "object": "化学切割法",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "边缘加工",
+        "relation": "contains",
+        "object": "物理切割法",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "机械切割法",
+        "relation": "acts_on",
+        "object": "金属",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "机械切割法",
+        "relation": "has",
+        "object": "弹性变形",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "机械切割法",
+        "relation": "has",
+        "object": "塑性变形",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "机械切割法",
+        "relation": "has",
+        "object": "断裂",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "机械切割法",
+        "relation": "uses",
+        "object": "加工机床",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "加工机床",
+        "relation": "contains",
+        "object": "斜刃龙门剪床",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "加工机床",
+        "relation": "contains",
+        "object": "压力剪切机",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "化学切割法",
+        "relation": "uses",
+        "object": "氧炔气割",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "has",
+        "object": "预热",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "has",
+        "object": "燃烧",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "has",
+        "object": "氧化物的排除",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "applied_to",
+        "object": "直线边缘气割",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "applied_to",
+        "object": "曲线边缘气割",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "uses",
+        "object": "手工气割炬",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "uses",
+        "object": "半自动气割机",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "氧炔气割",
+        "relation": "uses",
+        "object": "门式自动气割机",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "物理切割法",
+        "relation": "contains",
+        "object": "等离子切割",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "物理切割法",
+        "relation": "contains",
+        "object": "激光切割",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "物理切割法",
+        "relation": "contains",
+        "object": "水射流切割",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "等离子切割",
+        "relation": "applied_to",
+        "object": "板材",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "等离子切割",
+        "relation": "applied_to",
+        "object": "型材",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "等离子切割",
+        "relation": "improves",
+        "object": "切口质量",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "激光切割",
+        "relation": "applied_to",
+        "object": "钢板",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "激光切割",
+        "relation": "applied_to",
+        "object": "型材",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "激光切割",
+        "relation": "improves",
+        "object": "切割质量",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "水射流切割",
+        "relation": "applied_to",
+        "object": "钢",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "水射流切割",
+        "relation": "applied_to",
+        "object": "铝合金",
+        "chunk_id": "1049"
+    },
+    {
+        "subject": "水射流切割",
+        "relation": "improves",
+        "object": "切口质量",
+        "chunk_id": "1049"
+    }
+]

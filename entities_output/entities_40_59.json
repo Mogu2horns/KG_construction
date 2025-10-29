@@ -1,0 +1,5814 @@
+[
+    {
+        "entity_name": "滑道导轨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水时引导船舶滑动的轨道结构，需要防止石油基油脂渗透，因此需涂上底涂层。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "止滑木",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在导轨和固定滑道之间的对角构件，用于通过敲击释放船舶滑动。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "触发器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水时释放船舶的装置，有液压、机械和电子机械三种形式，通常位于船舶中部。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "液压启动装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在支架前端的装置，用于在船舶无法在重力作用下启动时辅助初始运动。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "拖索",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制船舶下水时运动的装置，以马蹄形铺设，通过桩固定，防止冲击载荷。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "木质挡板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在船舶尾部用于增加下水时阻力的装置，由横向板条制成，留有空隙以加大阻力。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "锚链",
+        "type": [
+            "设备",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶入水后快速定向的设备，放置在造滑道一侧，通过拖绳拴紧在船尾。 | 锚链是用于船舶锚泊的钢链，需要布置在锚链舱内，并通过锚链管引导至锚。",
+        "chunk_ids": [
+            40,
+            54
+        ]
+    },
+    {
+        "entity_name": "横向下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水的一种方式，滑道垂直于龙骨线横向布置，适用于水域宽度受限的情况。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "陆上滑道",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于横向下水的滑道结构，通常平行于龙骨线布置，形成支船架。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "造船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的设施，可以灌水使船舶浮起，允许同时建造两艘船，并优化起重机使用。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "分段楔起",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在下水前用楔子将船舶从建造结构上抬起，需要多人协作完成。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "龙骨墩",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶的结构构件，在下水过程中逐步拆除以允许船舶滑动。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "滚筒支架",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在船舶后方的支架，用于在船舶开始滑动前使其倾斜。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "舷墩木",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶的结构构件，在下水过程中被移除以允许船舶滑动。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "杠杆原理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于触发器释放装置的原理，允许小载荷平衡巨大载荷，实现船舶释放。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "电磁螺线管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于触发器控制装置的元件，通过电路开启实现触发器瞬间释放。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "底涂层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂在滑道导轨上的涂层，用于防止石油基油脂渗透。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "油脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滑道导轨的润滑材料，需防止渗透到滑道导轨中。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "滑道",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水时引导船舶滑动的轨道结构，通常延伸至水中。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的一部分结构，用于下水前的楔起操作。",
+        "chunk_ids": [
+            40
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "建造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造和下水船舶的设施，可以灌水使船舶浮起，同时允许在干燥状态下进行建造和舾装作业。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "水平底座",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船坞中的结构部件，用于简化结构单元或分段的对齐以及船舶尺寸的管理。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "稳性",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在灌水过程中需要计算校核的稳定性指标，涉及船舶在不同载荷状态下的平衡能力。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "载荷",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在灌水过程中可能产生的结构载荷，需进行校核以确保安全。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "建造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统布置在河边的造船设施，配有坞门，有利于船舶尾部作业和航道布置。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "坞门",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船坞的入口结构，用于控制水流进出，允许在关闭状态下保持干燥工作环境，开启时允许船舶下水。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "吊船架",
+        "type": [
+            "建造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提升和下水船舶的设施，由横梁、钢丝或链条支撑，可升降平台以实现船舶的上下水操作。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "浮船坞",
+        "type": [
+            "建造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "临时用于船舶下水的设施，可沉入水中使船舶漂浮，常用于无法使用滑道或船台的场合。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "驳船",
+        "type": [
+            "辅助船舶"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输船舶的辅助船只，需具备储备浮力以保持操作期间的稳性，通常由角落的“塔”提供浮力。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "船排",
+        "type": [
+            "建造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由导轨组成的滑道结构，用于船舶下水，支船架沿滑道下降使船舶浮起，可控制下水过程。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "单层底",
+        "type": [
+            "结构形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部结构的一种形式，仅有一层底板，常见于小型船舶，如拖船、渡船和总吨位小于500t的货船。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "结构形式",
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部结构的一种形式，由两层底板组成，提高安全性并为液舱提供空间，常见于远洋货船。 | 船舶底部的结构层，用于支撑重载货物，通常采用纵骨架式结构，规定实肋板的最大间隔不超过2.5m，并设置额外旁桁材。 | 船舶底部的结构，水密舱壁连接在双层底上，以确保水密性。",
+        "chunk_ids": [
+            41,
+            43,
+            47
+        ]
+    },
+    {
+        "entity_name": "龙骨",
+        "type": [
+            "结构部件",
+            "材料部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船舶底部中心线的纵向构件，形成船的支柱，有助于纵向强度和分配局部载荷，常见形式包括平板龙骨、矩形龙骨和箱型龙骨。 | 船底结构的一部分，其材料级别要求根据船长和厚度不同而有所区别。 | 在许多杂货船中，实心圆柱状的艏柱被安装在龙骨与水线之间的区域。 | 油船结构中的一种板材，厚度需在40毫米以上，用于支撑船体结构。 | 中纵桁与重龙骨板构成媒介结构，当船舶停在龙骨墩上该结构可以用来传递坐墩力。",
+        "chunk_ids": [
+            41,
+            44,
+            53,
+            58,
+            59
+        ]
+    },
+    {
+        "entity_name": "平板龙骨",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "龙骨的一种常见形式，安装在大部分远洋船舶上，用于支撑双层底结构，常与组合肘板方式安装。 | 安装在船底中部的纵向构件，宽度和厚度保持不变，厚度不少于相邻底板的厚度。",
+        "chunk_ids": [
+            41,
+            43
+        ]
+    },
+    {
+        "entity_name": "矩形龙骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "龙骨的一种形式，常见于小型船舶，如拖网渔船、拖船和小型渡船，常与肋板组合安装。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "箱型龙骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "龙骨的一种形式，出现在部分双层底结构中，用于支撑管道系统，从机舱舱壁向前至防撞舱壁。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "组合肋板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单层底结构中用于加强肋位的部件，与上边缘加强件组合使用，增强结构强度。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "中纵桁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单层底结构中的纵向加强构件，用于增强船体纵向强度，通常安装在中线位置。 | 纵向支撑结构，用于加强船体纵向强度，与旁纵桁共同构成双层底结构，中纵桁在中线两边小于10m的梁上安装一个旁纵桁。",
+        "chunk_ids": [
+            41,
+            42
+        ]
+    },
+    {
+        "entity_name": "旁纵桁",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单层底结构中的纵向加强构件，安装在中纵桁两侧，用于增强船体纵向强度。 | 横向支撑结构，用于加强船体横向强度，安装在中纵桁两侧，根据船宽不同安装数量不同，机舱和冲击区域需额外安装。 | 安装在左右舷的纵向构件，用于增强船体结构强度，特别是在船宽超过一定尺寸时，需在船首和船尾延伸，覆盖机舱全长并延伸3个肋位。 | 横向布置的构件，垂直间隔大约为2m，由每隔一个肋位的支柱或横梁支撑，用于增强结构强度。",
+        "chunk_ids": [
+            41,
+            42,
+            43,
+            45
+        ]
+    },
+    {
+        "entity_name": "肋间骨材",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单层底结构中用于增强肋位强度的附加构件，安装在底板宽长比大于4的区域。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "管弄",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑管道系统的纵向通道，宽度不超过2米，加强件安装在内底板和龙骨上以维持横向实肋板的强度连续性。",
+        "chunk_ids": [
+            41
+        ]
+    },
+    {
+        "entity_name": "单层底结构",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶底部结构形式，适用于较小的船舶，每个肋位安装组合肋板和上边缘加强，中纵桁在中线两边小于10m的梁上安装一个旁纵桁，梁长在10~17m的地方安装两个旁纵桁，若底板宽长比大于4则需安装附加的连续肋间骨材。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "双层底结构",
+        "type": [
+            "结构类型",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部结构形式，由内底板和外底板组成，提供水密舱壁支撑和安全裕度，用于装载液体燃料、淡水和压载水，其最小深度由船级社对中纵桁的深度要求决定。 | 油船中用于防止燃油泄漏的结构，要求2005年后建造的1类油轮和2010年后建造的2、3类油轮具备该结构。",
+        "chunk_ids": [
+            42,
+            58
+        ]
+    },
+    {
+        "entity_name": "内底板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于外底板上方的结构板，为水密舱壁提供支撑，用于装载液体燃料、淡水和压载水，其高度增加不是受力结构骤然的间断，而是纵向缓变切面。 | 双层底结构中的内层板，与外底板和桁材共同支撑重载货物。",
+        "chunk_ids": [
+            42,
+            43
+        ]
+    },
+    {
+        "entity_name": "外底板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船底最外侧的结构板，与内底板共同构成双层底结构，用于防止水密舱壁破坏时水进入船体。 | 双层底结构中的外层板，与内底板和桁材共同支撑重载货物。",
+        "chunk_ids": [
+            42,
+            43
+        ]
+    },
+    {
+        "entity_name": "实肋板",
+        "type": [
+            "结构部件",
+            "材料部件",
+            "部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强船体结构的纵向构件，安装在机舱、冲击区域、锅炉基座、横舱壁等位置，肘板紧贴其上，间距不超过3m。 | 在冲击区域的肋位上设置的加强构件，用于增强船底结构强度，特别是在双层底为纵骨架式结构时，每个肋距都需要设置。 | 用于加强巡洋舰型船尾的结构部件，安装在每个肋位处。 | 与双孔构架刚性连接的横向结构，用于增强船体强度。 | 支撑船底板和内底的纵向构件，含有加强构件的横向腹板支撑舷侧外板、内壳纵向构件、甲板纵向构件和纵向舱壁的加强构件。",
+        "chunk_ids": [
+            42,
+            43,
+            55,
+            57,
+            59
+        ]
+    },
+    {
+        "entity_name": "肘板",
+        "type": [
+            "结构部件",
+            "材料部件",
+            "部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接肋板与中纵桁的横向构件，用于加强结构强度，宽度至少为中纵桁深度的75%，在肋骨跨度大于2.5m时需安装角钢或槽钢。 | 连接结构部件的加强构件，用于增强连接部位的强度，如连接舷肘板与舱顶或斜边舱。 | 垂向型材端部焊接或与板上的其他型材焊接的构件，用于加强结构。 | 用于加强支柱端部或连接结构的金属板，通常焊接在支柱或型材上，以增强承载能力。 | 用于连接结构部件的加强板，常见于甲板加强结构中，如连接强横梁与舷侧肋骨。 | 用于连接结构部件的加强板，常见于甲板加强结构中，如连接强横梁与舷侧肋骨。 | 安装在纵向舱壁和内底板中间，用于保护中心储油舱，由带有肘板的甲板横骨支撑甲板纵向构件。",
+        "chunk_ids": [
+            42,
+            45,
+            48,
+            49,
+            50,
+            59
+        ]
+    },
+    {
+        "entity_name": "框架肋板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在中纵桁侧面的短横向构件，用于加强横骨架式底板和支撑内底板，安装在实肋板之间的肋位上。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "横骨架式",
+        "type": [
+            "结构类型",
+            "结构形式",
+            "工艺结构",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种双层底结构形式，由横向肋板和横向框架的肘板对内底板和外底板提供主要支持力，适用于船长不超过120m的船舶。 | 船底结构的一种类型，采用横向加强构件，与纵骨架式相比可设置较少的旁纵桁。 | 一种船舶结构形式，舷侧外板可以采用横骨架式，尤其在要求舱容的船舶中常见。 | 甲板的一种结构形式，通常用于甲板整体结构，与纵骨架式相对，用于支撑横向结构。 | 一种甲板结构形式，每个肋位上安装甲板梁，其尺寸取决于跨距和相对船中的位置，肋骨间距减小以适应装载和支柱布置。",
+        "chunk_ids": [
+            42,
+            43,
+            44,
+            50,
+            51
+        ]
+    },
+    {
+        "entity_name": "纵骨架式",
+        "type": [
+            "结构类型",
+            "结构形式",
+            "工艺结构",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种双层底结构形式，由纵向肋板和纵向构件构成，适用于船长超过120m的船舶，肋板安装在主机下和机座外的交替肋位。 | 船底结构的一种类型，采用纵向加强构件，适用于装载重载货物的船舶。 | 一种船舶结构形式，大型船舶偏向于纵骨架式，当船长超过 $120mathrm{m}$ 时要求纵骨架式。 | 甲板的一种结构形式，能够支撑横向结构，在横向深度方向布置纵向框架，通常用于开口线外侧，以更好地适应强力甲板。 | 一种甲板结构形式，适用于开口线外侧，能更好地适应强力甲板，其纵骨尺寸取决于跨距、载荷、空间大小和船长。",
+        "chunk_ids": [
+            42,
+            43,
+            44,
+            50,
+            51
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向构件，用于支撑船体，肋骨跨度大于2.5m时需在肘板上安装角钢或槽钢。 | 船体结构中的纵向构件，用于支撑船底和舷侧外板，与肋位相关。",
+        "chunk_ids": [
+            42,
+            43
+        ]
+    },
+    {
+        "entity_name": "水密板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭肋板和焊接通过的船底构件之间的孔，确保船体水密性，安装在底舱空间末端和主舱壁下方。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "油密板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭肋板和焊接通过的船底构件之间的孔，确保船体油密性，安装在底舱空间末端和主舱壁下方。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "排水孔",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在实肋板顶部和底部的小孔，用于排水，设置在舱室里的实肋板上。 | 位于舵底部的孔，用于排水，防止内部腐蚀。 | 位于舵底部的孔，用于排水，防止内部腐蚀。",
+        "chunk_ids": [
+            42,
+            56
+        ]
+    },
+    {
+        "entity_name": "肋位",
+        "type": [
+            "结构部件",
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中纵向排列的支撑点，用于安装肋板、实肋板、肘板等构件，肋位间距根据所承受的载荷和局部应力变化。 | 船体结构中用于定位和加强的纵向位置，旁纵桁和实肋板的安装间隔以肋位为单位。",
+        "chunk_ids": [
+            42,
+            43
+        ]
+    },
+    {
+        "entity_name": "船首",
+        "type": [
+            "结构部位",
+            "结构区域",
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的前端部分，双层底结构在船首和船尾延伸以提供复原力矩。 | 船体前端部分，受到波浪冲击力较大的区域，需进行额外加强。 | 船舶的前端部分，强横梁间距较小，纵骨尺寸增加，以避免船舶在海上受到挤压而产生的屈曲变形。 | 在许多杂货船中，实心圆柱状的艏柱被安装在龙骨与水线之间的区域，而在水线之上装有一个圆角板来构成船首的上层部分。 | 船舶的前端部分，根据船舶类型不同，可能采用实心船柱、钢铸件、锻件或球鼻艏等结构形式。",
+        "chunk_ids": [
+            42,
+            43,
+            50,
+            53,
+            54
+        ]
+    },
+    {
+        "entity_name": "船尾",
+        "type": [
+            "结构部位",
+            "结构区域",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的后端部分，双层底结构在船首和船尾延伸以提供复原力矩。 | 船体末端部分，框架连接处和锚链管磨损区域需增加板厚。 | 船舶的末端部分，甲板板厚在该区域可减小到最小厚度。",
+        "chunk_ids": [
+            42,
+            43,
+            50
+        ]
+    },
+    {
+        "entity_name": "中线",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的纵向中心线，中纵桁和中内底板位于中线处。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "舷侧",
+        "type": [
+            "结构部位",
+            "结构区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的左右两侧，内底板延伸到舷侧以提供更大的安全性。 | 船体侧面部分，舷侧外板在此区域安装，厚度在船中部40%船长范围内增加。",
+        "chunk_ids": [
+            42,
+            43
+        ]
+    },
+    {
+        "entity_name": "舱口",
+        "type": [
+            "结构部位",
+            "部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的开口，用于装卸货物，内底板厚度可能因舱口下方的木质天花板而增大。 | 舱室的开口部分，通常由舱口围板和舱口端梁构成，需设置支撑结构以承受载荷。 | 油密性舱口位于露天甲板，可通过舱口进入储油舱，开口应尽量小，拐角尽量为圆角，有时也会采用圆形开口。",
+        "chunk_ids": [
+            42,
+            49,
+            59
+        ]
+    },
+    {
+        "entity_name": "链钩",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于从货船上释放货物的设备，其安装位置需要增加内底板厚度或安装双层天花板。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船级社",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "制定船舶建造标准的机构，双层底的最小深度由其对中纵桁的深度要求决定。 | 船级社出于增加横向强度和舱室数量的考虑要求增加水密舱壁的数量。表18.1阐述了劳氏船级社对于不同货船的水密舱壁数目要求。",
+        "chunk_ids": [
+            42,
+            46
+        ]
+    },
+    {
+        "entity_name": "压载底舱",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载压载水的舱室，通过调整压载水来提供船首和船尾复原力矩。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "机舱",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的动力装置所在区域，双层底深度在此区域增加以提供润滑油和燃油的装载能力。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "锅炉基座",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装锅炉的支撑结构，实肋板建议设置在锅炉基座、横舱壁、加强深舱骨材的肘板趾端。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "横舱壁",
+        "type": [
+            "结构部件",
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横向支撑结构，用于分隔船体内部空间，实肋板建议设置在横舱壁以下。 | 平直的横舱壁通常以水平列板的形式进行焊接，预制合适的二维单元，其厚度从上到下逐渐增加，以承受舱室破损时产生的压力。 | 支撑顶边舱的构件，布置在主要货舱口尽头的位置。 | 支撑顶边舱的结构，布置在主要货舱口尽头，用于分隔舱室并增强结构强度。",
+        "chunk_ids": [
+            42,
+            47,
+            48,
+            49
+        ]
+    },
+    {
+        "entity_name": "深舱",
+        "type": [
+            "结构部位",
+            "材料部件",
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载液体燃料、淡水和压载水的舱室，加强深舱骨材的肘板趾端建议设置实肋板。 | 通常布置在船中的机舱区域附近，提供压载舱容，用于装载普通或特殊液体货物。 | 用于装载货物或压载水的舱室，其检验需承受运营中可能的最大水头压力，水头高度不应少于舱室顶部2.45m。 | 船舶中用于装载货物的舱室，甲板板在该区域的厚度会因载荷增加而增加。",
+        "chunk_ids": [
+            42,
+            48,
+            49,
+            50
+        ]
+    },
+    {
+        "entity_name": "水密舱壁",
+        "type": [
+            "结构部件",
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防止水进入船体的舱壁结构，由内底板和外底板共同支撑。 | 船体沿纵向和横向布置时的垂向分隔被称为舱壁。这些舱壁分为纵向和横向水密舱壁，它们最重要的作用是将船体分割成许多水密舱室的。主船体强度较高的舱壁通常被制成水密的以便在舱室的一侧舱壁破损时承受足够的水压。这些水密舱壁不仅承受船体的垂向载荷，而且还能作为强度构件防止船体横向变形。 | 用于分隔船体内部舱室，防止水进入其他舱室的结构，其构造包括横舱壁、垂向型材、压筋舱壁和槽型舱壁等，具有较高的水密性和结构强度。 | 用于分隔船体内部空间，防止水进入其他舱室，轴隧的厚度选取与水密舱壁相同。 | 用于分隔船舶内部空间的结构，加强件可安排在其下方以支撑甲板室的舷侧板和尾板。",
+        "chunk_ids": [
+            42,
+            46,
+            47,
+            49,
+            52
+        ]
+    },
+    {
+        "entity_name": "油密舱壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防止油进入船体的舱壁结构，由内底板和外底板共同支撑。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船宽",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的横向宽度，影响旁纵桁的安装数量和位置，船宽超过10m但不超过20m时左右舷设置间断的旁纵桁。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "肋骨跨度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨之间的横向距离，肋骨跨度大于2.5m时需在肘板上安装角钢或槽钢。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "肋距",
+        "type": [
+            "结构参数",
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋板之间的纵向距离，肋距不超过3m时在肋板之间每个肋位设置肘板。 | 影响艏楼边板和尾板厚度的参数，与船长和骨材间距相关。",
+        "chunk_ids": [
+            42,
+            52
+        ]
+    },
+    {
+        "entity_name": "纵向构件",
+        "type": [
+            "结构部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向支撑构件，如中纵桁、实肋板、肘板等。 | 用于加强船底梁面板的构件，承受较大载荷，尺寸最大。在甲板和船底的纵向构件尺寸最大，舷侧外板的上舷纵向构件尺寸最小。",
+        "chunk_ids": [
+            42,
+            59
+        ]
+    },
+    {
+        "entity_name": "横向构件",
+        "type": [
+            "结构部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的横向支撑构件，如旁纵桁、框架肋板、肘板等。 | 由腹板和重扁钢构成，其深度要满足纵向构件穿过的贯穿孔能够有足够的材料并排，支撑甲板纵向构件和纵向舱壁构件。",
+        "chunk_ids": [
+            42,
+            59
+        ]
+    },
+    {
+        "entity_name": "船体",
+        "type": [
+            "结构部位",
+            "结构整体",
+            "结构特征",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "船舶的整体结构，包含单层底、双层底、内底板、外底板等部分。 | 船舶的整体结构，包含外板、框架、双层底等部分。 | 舭龙骨不是船体结构的重要强度构件，但是由于它距中性轴很远，所以连接的区域是高应力区。舭龙骨可能会产生裂纹并传递到舱底上，引起主要结构的破坏。 | 船舶的整体结构，水密甲板用于维持其完整性，强度甲板对船体强度贡献最大。",
+        "chunk_ids": [
+            42,
+            43,
+            46,
+            50
+        ]
+    },
+    {
+        "entity_name": "船底板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的结构板，纵向横向肋板设置在底部，用于加强船体结构。 | 油船结构中的一种板材，厚度需在40毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            42,
+            58
+        ]
+    },
+    {
+        "entity_name": "水密",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防止水进入船体的特性，由水密板和水密舱壁实现。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "油密",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防止油进入船体的特性，由油密板和油密舱壁实现。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "压载水",
+        "type": [
+            "功能材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于调整船舶吃水和稳性的液体，装载在压载底舱中。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "润滑油",
+        "type": [
+            "功能材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于润滑船舶机械装置的液体，装载在机舱处的双层底中。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "燃油",
+        "type": [
+            "功能材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶动力装置的燃料，装载在机舱处的双层底中。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "木材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶舱口下方的天花板，但内底板厚度可能因木材使用而增大。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "双层天花板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于替代木质天花板的结构，安装在链钩卸货位置以增加内底板厚度。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "舱底",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的内部空间，内底板延伸到舷侧以形成排水舱，提供更大的安全性。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "污水井",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于排水的结构，个别污水井被用来排水，内底板不延伸到舷侧时使用。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "排水",
+        "type": [
+            "功能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部的排水功能，通过内底板延伸到舷侧形成排水舱实现。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "复原力矩",
+        "type": [
+            "功能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶调整吃水和保持平衡的力矩，通过压载底舱提供船首和船尾复原力矩。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船宽超过10m",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶宽度超过10m但不超过20m时，左右舷设置间断的旁纵桁。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船宽超过14m",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶宽度超过14m时，左右舷安装一个旁纵桁，超过21m时安装两个。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船宽超过21m",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶宽度超过21m时，左右舷安装两个旁纵桁，这些旁纵桁尽可能延伸到船首和船尾。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船长超过120m",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶长度超过120m时，应考虑采用纵骨架式双层底结构，以避免外底板和内底板弯曲。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体纵向弯曲",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在纵向受力时的弯曲现象，可能导致屈曲，可通过纵向加强的板避免。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体屈曲",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在纵向弯曲时的失稳现象，可通过纵向加强的板避免。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "结构类型",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的整体结构，包括单层底、双层底、内底板、外底板、肋板、肋骨等。 | 船舶的整体结构，包括甲板、肋骨、强横梁、纵骨等，用于维持船体强度和水密性。",
+        "chunk_ids": [
+            42,
+            50
+        ]
+    },
+    {
+        "entity_name": "船体强度",
+        "type": [
+            "结构特性",
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体抵抗外力的能力，通过中纵桁、旁纵桁、实肋板、肘板等结构实现。 | 船舶结构的承载能力，由强度甲板、纵骨架式、横骨架式等结构共同维持。",
+        "chunk_ids": [
+            42,
+            50
+        ]
+    },
+    {
+        "entity_name": "船体稳定性",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体保持平衡的能力，通过压载水、复原力矩等实现。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体结构设计",
+        "type": [
+            "设计领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的设计过程，包括单层底、双层底、内底板、外底板、肋板、肋骨等结构的设计。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体建造",
+        "type": [
+            "建造领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的建造过程，包括肋板、实肋板、肘板、旁纵桁等构件的安装。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体装配",
+        "type": [
+            "建造领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的装配过程，包括肋板、实肋板、肘板、旁纵桁等构件的安装。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "船体检验",
+        "type": [
+            "检验领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的检验过程，包括水密性、油密性、结构强度等的检查。",
+        "chunk_ids": [
+            42
+        ]
+    },
+    {
+        "entity_name": "纵骨",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船底结构中的纵向构件，用于纵向加强船底板，与横骨架式船底相比可设置较少的旁纵桁以抵抗波浪拍击力下的底板变形。 | 甲板结构中的纵向支撑构件，尺寸取决于跨距大小、甲板载荷、空间大小和船长，用于增强甲板的纵向强度。 | 甲板结构中的纵向构件，尺寸取决于跨距、载荷、空间大小和船长，用于支撑甲板梁，防止屈曲变形。",
+        "chunk_ids": [
+            43,
+            50,
+            51
+        ]
+    },
+    {
+        "entity_name": "冲击区域",
+        "type": [
+            "结构区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船长的30%船首范围内，由于波浪冲击而需要进行额外加强的区域，特别是在最小设计吃水小于船长4.5%的情况下。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "压载水容量",
+        "type": [
+            "功能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构需要具备的容量，用于装载压载水，以增强船舶的稳性和结构强度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "管隧",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在双层底结构中的通道，用于通过压载水或其他液体，同时需要大尺寸的内底板、外底板和桁材支撑。 | 连接隔离舱与机舱的通道，用于装载污水管，避免污水管通过装油料的深舱。",
+        "chunk_ids": [
+            43,
+            48
+        ]
+    },
+    {
+        "entity_name": "隔舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构中的分隔空间，需用代表最大压头的水头进行测试，测试压力为0.21kg/cm²至0.14kg/cm²。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "空气测试",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于测试隔舱密性的方法，在防护涂料使用前进行，通过空气压力测试和肥皂溶液测试可疑节点。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "机械支座",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑机械装置的结构，通常与双层底结构一体，主机基座处的内底板厚度大幅增加，通过纵梁和防倾肘板横向支撑。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "外板",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "形成船的水密外壳，增强船体纵向强度和抵抗垂直方向剪切力，由平面板和曲面板对接焊组成。 | 船舶的外层板，受到局部应力和拍击作用，需在首部进行加强，厚度根据船长和冰区条件调整。",
+        "chunk_ids": [
+            43,
+            45
+        ]
+    },
+    {
+        "entity_name": "舷侧外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体侧面的外板，厚度在船中部40%船长范围内增加，末端逐渐减少，高垂向剪切力区域和抨击区域需增加板厚。 | 在船中部 $40%$ 船长范围内，舷侧外板板厚需要增加，在末端逐渐减少到规范板厚。高垂向剪切力区域厚度要增大，且在抨击区域厚度要增大。 | 覆盖球形船首的船壳板的厚度是逐渐增加的，特别是在可能被锚或锚链破坏的区域，且在锚链管处需要额外的加强结构。 | 船舶外壳的一部分，锚链管安装在其上并需要额外加强结构。 | 船体外侧的钢板结构，通常与船尾构架直接焊接在一起，有时在船壳板上设有凹槽以便安装带有艉柱零件的平甲板。",
+        "chunk_ids": [
+            43,
+            44,
+            54,
+            55,
+            56
+        ]
+    },
+    {
+        "entity_name": "横缝",
+        "type": [
+            "工艺结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板焊接节点中竖直方向的焊接缝，用于连接平面板和曲面板。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "纵缝",
+        "type": [
+            "工艺结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板焊接节点中水平方向的焊接缝，用于连接平面板和曲面板。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "角焊缝",
+        "type": [
+            "工艺结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接纵向和横向加强构件与外板的连续焊缝。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "船底外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船底的外板结构，厚度在船中部40%船长范围内最大，向船两端逐渐减小，抨击区域需增加厚度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "船长",
+        "type": [
+            "尺寸参数",
+            "结构特征",
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的总长度，用于计算设计吃水、冲击区域范围等参数。 | 英国劳氏船级社要求：对于船长小于 $200mathrm{m}$ 的船的防撞舱壁位置为距设计水线最前端 $5% sim 8%$ 船长。 | 船舶的总长度，用于确定强度甲板纵桁的钢材等级，如船长不超过260m时使用不同级别的钢材。",
+        "chunk_ids": [
+            43,
+            46,
+            50
+        ]
+    },
+    {
+        "entity_name": "设计吃水",
+        "type": [
+            "功能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在设计载重下的吃水深度，用于判断是否需要在冲击区域进行额外加强。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "船尾框",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船尾部分的框架结构，连接处需注意轴架和锚链管的磨损问题。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "防倾肘板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于横向支撑纵梁的构件，与外底板旁纵桁对齐，增强结构刚度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "减振器",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少机械装置振动和噪声的设备，常见于客船等对减振要求较高的船舶。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "缓冲接头",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少机械振动和冲击的连接部件，常见于客船等对减振要求较高的船舶。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "主机",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶动力系统的核心设备，其基座处的内底板厚度大幅增加，以增强结构强度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "锅炉座",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑锅炉的结构，由横向肘板和纵向构件组成。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "轴架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接船尾框架的结构，与锚链管磨损区域相关，需增加板厚。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "锚链管",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于通过锚链的管道，位于船尾框架连接处，需注意磨损问题。 | 锚链管是锚链舱中用于引导锚链进入舱室的结构，通常为管状结构或其他圆端面结构，以减小摩擦。 | 管状结构，通过焊接、装配得到，用于减少摩擦，安装在舷侧外板上并需要额外加强结构。",
+        "chunk_ids": [
+            43,
+            54,
+            55
+        ]
+    },
+    {
+        "entity_name": "桁材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构中的横向或纵向支撑构件，用于增强结构强度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "角钢",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑纵骨的构件，通常与小槽钢配合使用，以减少纵骨的无支护跨度。 | 用于支撑轴隧通道和支柱的型材，具有较高的强度和结构稳定性。",
+        "chunk_ids": [
+            43,
+            49
+        ]
+    },
+    {
+        "entity_name": "小槽钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑纵骨的构件，通常与角钢配合使用，以减少纵骨的无支护跨度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "肋板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的横向构件，用于支撑纵骨和增强结构强度。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "船底",
+        "type": [
+            "结构区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部结构，由底板、舷侧外板和肋骨等组成，需进行冲击区域加强。",
+        "chunk_ids": [
+            43
+        ]
+    },
+    {
+        "entity_name": "船底列板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船底，厚度在船中部 $40%$ 船长范围内最大，此处弯曲应力最大。",
+        "chunk_ids": [
+            44
+        ]
+    },
+    {
+        "entity_name": "舷顶列板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "靠近强力甲板的上层列板，由于距中性轴远，比其他舷侧外板更厚。在高应力区域要避免设置焊接附件或通焊孔，上边缘要光滑，且在船中部不允许焊接。 | 油船结构中的一种板材，厚度需在15毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            44,
+            58
+        ]
+    },
+    {
+        "entity_name": "圆弧舷缘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接舷顶列板和水平强为甲板边板的结构，其半径必须不少于厚度的15倍，且在大型油船和散货船舶中常见。",
+        "chunk_ids": [
+            44
+        ]
+    },
+    {
+        "entity_name": "外板钢板等级",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船舶结构部件的类型、位置及板材厚度，其材料级别要求不同。例如，船长超过250米的船舶在船中超过船长40%的舷顶列板或圆弧舷缘，厚度小于15毫米时为D级，否则为E级。",
+        "chunk_ids": [
+            44
+        ]
+    },
+    {
+        "entity_name": "强肋骨",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "普通货船横向框架的一部分，与顶部、底部肘板一起支撑结构。 | 用于支撑旁纵桁的结构部件，作为抗拍击结构的一部分。 | 用于加强船桥结构和甲板室的结构件，安装在上层建筑甲板上以支撑舷侧板和尾板。 | 强肋骨或部分舱壁会有额外的加强，这些地方在桥楼甲板上有突起物。这些加强会支撑甲板室的舷侧板和尾板，能完美安排在水密舱壁下方。 | 在上甲板的上边界加强，通过间距不超过1.5m的强肋骨来支撑。",
+        "chunk_ids": [
+            44,
+            45,
+            52,
+            53
+        ]
+    },
+    {
+        "entity_name": "边肋骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在舱室（如油舱或货物深舱）中，除了安装旁纵桁的地方，要加上边肋骨以增强结构。",
+        "chunk_ids": [
+            44
+        ]
+    },
+    {
+        "entity_name": "腹板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强由腹板和面板组成的结构，通常沿着舷侧外板布置，用于增加船横剖面的刚度。 | 强横梁的一部分，由带有折边或焊接面板的大尺寸腹板组成。 | 用于加强舵结构的内部板材，通常与钢板焊接在一起，作为加强材。 | 用于加强舵结构的内部板材，通常与钢板焊接在一起，作为加强材。",
+        "chunk_ids": [
+            44,
+            50,
+            56
+        ]
+    },
+    {
+        "entity_name": "球扁钢",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在舷侧外板下部通常采用更大截面尺寸的球扁钢，用于保持强度的连续性。 | 用于大型船舶的纵向构件，有时采用球扁钢以满足尺寸要求。",
+        "chunk_ids": [
+            44,
+            59
+        ]
+    },
+    {
+        "entity_name": "横向桁材",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于双层壳体船舶的舷侧结构，与双层底的肘板呈直线布置，水平穿孔铺板安装在舷侧内外板之间为其提供支持。 | 横向布置的构件，与双层底的肘板呈直线布置，用于保证横向强度的连续性。",
+        "chunk_ids": [
+            44,
+            45
+        ]
+    },
+    {
+        "entity_name": "双层壳体",
+        "type": [
+            "结构形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "大型船舶采用的结构形式，舷侧为纵向结构，横向桁材与双层底的肘板呈直线布置以保证横向强度连续性。 | 用于大型船舶的结构形式，具有内外两层船壳，以提高结构强度和安全性。",
+        "chunk_ids": [
+            44,
+            45
+        ]
+    },
+    {
+        "entity_name": "纵向结构",
+        "type": [
+            "结构形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一种布置方式，主要承受纵向载荷，常见于滚装船和双体船。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "穿孔铺板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舷侧内外板之间的横向构件，用于为横向桁材提供支持，间隔不超过2.5m，开孔面积不少于板面积的10%。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "滚装船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶类型，具有纵向框架结构，船侧空舱位于最大的车辆甲板上，类似于双层船壳。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "双体快速渡轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船型，船体形状不同于传统船舶，采用铝合金作为建造材料，具有基本纵向框架结构。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "铝合金",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于双体快速渡轮的建造材料，以减轻结构重量。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "抗拍击梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于增强船舶首部结构抗拍击能力的构件，通常连接到带肘板的肋骨上，并由局部缓冲舱壁支撑。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "穿孔平板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于抗拍击结构的构件，间隔不超过2.5m，开孔面积不少于板面积的10%。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "艏尖舱",
+        "type": [
+            "舱室结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首部的舱室，结构中设置额外的加强，横向舷侧肋骨被旁纵桁、强肋骨或穿孔平板联合支撑。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "冰区航行",
+        "type": [
+            "使用条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在冰区航行时需进行额外的结构加强，包括板厚增加、水线区域和船首底部结构尺寸增加。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "冰带区",
+        "type": [
+            "结构区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在冰区航行时的特定结构区域，外板厚度和构件尺寸根据冰级严重程度和距首部距离而增加。",
+        "chunk_ids": [
+            45
+        ]
+    },
+    {
+        "entity_name": "舭龙骨",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船底舭部的纵向构件，用于减少横摇运动，增加舱底纵向强度，通常超过船中部分并向尾部延伸。 | 安装在船底舭部的纵向构件，用于减少船的横摇运动。舭龙骨相对较小的好处是可为舱底触地时提供保护，并且增加舱底的纵向强度。舭龙骨产生的阻尼运动相对很小，但是作用很大，实际上不会导致船舶造价的增加。在船的航行中，它被放置在船上可避免阻力的增加；为了获得最小阻力，舭龙骨的不同位置的阻力可通过动力船模的测试得到。舭龙骨一般超过船体的船中部分，通常向尾部延伸得更多一些，并几乎垂直于舱部转弯处。",
+        "chunk_ids": [
+            45,
+            46
+        ]
+    },
+    {
+        "entity_name": "舭龙骨复板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舭龙骨复板厚度至少是股部外板厚度或者 $14mathrm{mm}$ 中较小值，材料同股部外板一样。复板和外板连接应该用连续角焊，舭龙骨和复板连接应该用轻连续焊或者交错断续焊。后者能确保舭龙骨被腐蚀时候股部外板不会被破坏。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "对接焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舭龙骨用对接焊连接到外板复板上，复板和舭龙骨相互交错（见图17.5）。要避免在复板对接焊缝、部外板对接缝、舭龙骨对接焊缝和复板之间的直接连接。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "连续角焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "复板和外板连接应该用连续角焊。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "轻连续焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舭龙骨和复板连接应该用轻连续焊或者交错断续焊。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "交错断续焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舭龙骨和复板连接应该用轻连续焊或者交错断续焊。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "锥形",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舭龙骨在末端会逐渐变成锥形（至少3：1），需要以内部加强构件的方式结束。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "防撞舱壁",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在干货船上的水密舱壁的最小数量是有规定的。船首必须安装防碰撞舱壁，艉尖舱舱壁必须安装，每一个机舱的端部都必须安装水密舱壁。对于一个中部机舱型船来说可能的最小水密舱壁数目是4。对于尾部机舱型船最小数目减小为3，艉尖舱被布置在机舱的尾部。防撞舱舱壁延伸到最上层连续甲板。 | 本章中描述了防撞舱壁前的艏端结构。",
+        "chunk_ids": [
+            46,
+            53
+        ]
+    },
+    {
+        "entity_name": "艉尖舱舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "艉尖舱舱壁尽可能地接近水密舱室中艉部管系以防止螺旋桨贯穿船体处引起的漏水。艉尖舱舱壁必须布置在较好的位置上以使艉尖舱破损时不会产生较大的艉倾。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "机舱舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机舱舱壁提供了一个独立舱室以保护发动机和蒸汽机等这些船体重要部件不受周围舱室破损漏水的影响。它们也同样阻止火灾蔓延到这些舱室。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "干舷甲板",
+        "type": [
+            "结构特征",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横向水密舱壁的强度是与主甲板强度保持一致的，同时要高于干舷甲板强度。 | 最上面的甲板，具有永久封闭作用，用于封闭暴露部分，是船舶的重要结构部分。",
+        "chunk_ids": [
+            46,
+            50
+        ]
+    },
+    {
+        "entity_name": "最上层连续甲板",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "每个主要水密舱壁都与最上层连续甲板相连；但当干舷从二层甲板算起的地方水密舱壁与二层甲板相连即可。防撞舱舱壁延伸到最上层连续甲板。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "设计水线",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "艉尖舱舱壁延伸到设计水线以上第一层甲板以保证尾部水密或尾部船楼水密。",
+        "chunk_ids": [
+            46
+        ]
+    },
+    {
+        "entity_name": "劳氏船级社",
+        "type": [
+            "标准/机构",
+            "标准机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社要求：对于船长小于 $200mathrm{m}$ 的船的防撞舱壁位置为距设计水线最前端 $5% sim 8%$ 船长。表18.1阐述了劳氏船级社对于不同货船的水密舱壁数目要求。 | 提供舱口骨材最小尺寸计算公式的船级社，符合国际载重线公约要求。",
+        "chunk_ids": [
+            46,
+            51
+        ]
+    },
+    {
+        "entity_name": "水密舱室",
+        "type": [
+            "结构特征",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密舱壁将船体分割成许多水密舱室，这些舱壁的结构和尺寸都是论证过的。主船体舱壁还有一个重要作用是有效阻止火灾向控制室和机舱蔓延。 | 在水密舱壁下方需要开门孔处必须保持的舱室，用于维持船舶水密性。",
+        "chunk_ids": [
+            46,
+            48
+        ]
+    },
+    {
+        "entity_name": "干舷",
+        "type": [
+            "结构特征",
+            "通用实体",
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "船东希望减少干舷，就需要进一步考虑水密舱壁的间隔。1996国际载重线公约规定中，如果一舱或数舱破损不会引起船体倾覆就可以让货船拥有较小的干舷。 | 船舶的自由板，船东希望减少干舷以获得最大允许吃水。 | 船舶设计中的关键参数，影响舱口盖的安装和风雨密要求，B型干舷应用需满足特定强度条件。",
+        "chunk_ids": [
+            46,
+            47,
+            52
+        ]
+    },
+    {
+        "entity_name": "货舱",
+        "type": [
+            "结构特征",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1996国际载重线公约规定中，如果一舱或数舱破损不会引起船体倾覆就可以让货船拥有较小的干舷。最新的修正安全公约规定1991年6月以后建成的货船、 $150mathrm{m}$ 以上的单体船以及用来运输密度超过 $1000mathrm{kg / m}^3$ 的固体货物的船舶装载至夏季水线时任何一个货舱破损不致倾覆。 | 船舶中用于装载货物的空间，甲板板在货舱区域的厚度根据板厚和温度选择不同级别的钢材。",
+        "chunk_ids": [
+            46,
+            50
+        ]
+    },
+    {
+        "entity_name": "垂向型材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在水密横舱壁上的垂直支撑结构，通常采用焊接普通角钢或球扁钢的形式，其尺寸取决于支撑的结构长度、型材间距和端部的连接刚性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "压筋舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种具有压筋结构的舱壁，用于提供足够的刚度，以省去传统的加强筋，通常沿垂直方向布置，厚度一致。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "槽型舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由预先制成的压筋板或槽形板构成的舱壁，沿垂向采用一致的厚度，厚度等于舱壁底部所需的厚度，实际舱壁会比理论合理舱壁重。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "底凳",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在横舱壁底端的结构，为货物移动提供可移动界面，避免在舱壁和双层底之间产生死角。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "防积板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在底凳上方沟槽之间的倾斜板，用于防止货物积聚，同时与垂向肘板共同加强舱壁在压载荷下的强度。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "垂向肘板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在防积板下沟槽中点处的垂直支撑结构，用于加强和支撑舱壁在压载荷下不被破坏。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "水密舱壁边缘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密舱壁的边缘通过双倍连续焊接连接在船壳、甲板和双层底上，以确保水密性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "隔板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱壁上的板，用于在安装二层甲板时使舱壁扩展 $300sim 400mathrm{mm}$，甲板搭接焊在隔板上。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "填充块",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在槽型舱壁之间安装的结构，用于代替隔板，以实现舱壁的扩展。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "通风管道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "穿过水密舱壁的管道，为了维持舱壁的完整性，管道在舱壁处采用法兰连接，并安装挡水板。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "通水管道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "穿过水密舱壁的管道，为了维持舱壁的完整性，管道在舱壁处采用法兰连接，并安装挡水板。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "挡水板",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在通风管道通过处的结构，用于防止水进入舱室，维持水密舱壁的完整性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "水密舱壁检验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密舱壁的检验包括冲水试验，用于验证舱壁的水密性，非货舱边界的防撞舱壁和艉尖舱壁需通过装载水线范围最大水量检验。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "水密门",
+        "type": [
+            "设备",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于联通水密舱壁两边舱室的通道，常见于货船中，如主机室和轴隧之间，或相邻客舱之间。 | 水线以下的低碳钢或铸钢水密门，采用垂直或水平滑动形式，用于保持水密舱室的水密性。 | 布置在机舱壁前端的滑动水密门，用于在轴隧发生泄漏时防止水进入机舱。",
+        "chunk_ids": [
+            47,
+            48,
+            49
+        ]
+    },
+    {
+        "entity_name": "开口",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密舱壁下方需要开门孔处的结构，必须保持水密舱室的强度，若垂向型材被切断，需加强边框和型材尺寸。 | 甲板上的开口，用于装货、卸货或人员通过，需保持最小且明晰的角隅，大开口需有规则的圆角和嵌入板。",
+        "chunk_ids": [
+            47,
+            50
+        ]
+    },
+    {
+        "entity_name": "轴隧",
+        "type": [
+            "设备",
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中用于容纳轴系的通道，通常需要在水密舱壁上设置开口，开口尺寸约为 $1000sim 1250mathrm{mm}$ 高、 $700mathrm{mm}$ 宽。 | 原文中提及的轴隧。 | 包裹螺旋桨轴和艉尖舱尾部与机舱之间水密管道的结构，防止漏水并提供检查和安装轴系的空间，顶部圆形地方板厚可减小，但顶部平坦地方需增加板厚。",
+        "chunk_ids": [
+            47,
+            48,
+            49
+        ]
+    },
+    {
+        "entity_name": "客舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中用于容纳乘客的舱室，通常需要在水密舱壁上设置较大的开口。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "肘板连接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱室中的垂向型材采用肘板连接或者直接焊接到内底或甲板下面，用于增强结构连接的刚性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "水平纵桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水平纵桁通常出现在舱室边界上，用于支撑型材，允许减少型材尺寸和间距。 | 用于进一步加强船尾板的结构部件，延伸至第一横肋骨。",
+        "chunk_ids": [
+            47,
+            55
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接舱壁、甲板、隔板等结构的工艺，如水密舱壁边缘的双倍连续焊接。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "冲水试验",
+        "type": [
+            "工艺流程",
+            "检验"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检验水密舱壁的水密性，代替用货物填充检验，被认为是满足要求的试验方法。 | 所有水密门必须进行的试验，客船上的水密门需在水漫过甲板高度的情况下进行检验。 | 轴隧建造完成后进行的试验，用于检验其水密性和结构完整性。",
+        "chunk_ids": [
+            47,
+            48,
+            49
+        ]
+    },
+    {
+        "entity_name": "法兰连接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接穿过水密舱壁的管道，以维持舱壁的完整性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "双倍连续焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水密舱壁边缘的焊接方式，通过双倍连续焊接连接在船壳、甲板和双层底上，以确保水密性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "搭接焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板搭接焊在隔板上，重叠宽度大约 $25mathrm{mm}$，用于连接舱壁和甲板。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "预制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱壁在甲板安装前预制期安装在垂向位置处或组成建造模块，以提高建造效率。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "建造模块",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱壁在甲板安装前预制期组成建造模块，用于提高建造效率和结构完整性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "材料部件",
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的上层结构，安装在舱壁上并搭接焊在隔板上，重叠宽度大约 $25mathrm{mm}$。 | 船舶上部的平台结构，支撑甲板以上载荷，由支柱、纵桁、横梁等组成。 | 船舶的甲板是弧形的，可能是抛物线或直的，用于支撑船体结构，不同高度的甲板具有不同作用，如水密甲板、强度甲板、货物或乘客住所甲板等，其中强度甲板是主船体梁的上翼缘，对船体强度贡献最大。 | 船舶上层结构，锚链管焊接在其上以达到减小摩擦的目的。",
+        "chunk_ids": [
+            47,
+            49,
+            50,
+            55
+        ]
+    },
+    {
+        "entity_name": "船壳",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的外板结构，水密舱壁边缘双倍连续焊接在船壳上，以确保水密性。 | 船舶的外壳结构，轴包套是其一部分，用于保护桨轴。",
+        "chunk_ids": [
+            47,
+            57
+        ]
+    },
+    {
+        "entity_name": "内底",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的内部结构，舱壁型材直接焊接到内底或甲板下面，以增强结构连接的刚性。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "二层甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的第二层甲板，安装在舱壁上并扩展 $300sim 400mathrm{mm}$，甲板搭接焊在隔板上。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "船东",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的所有者，希望减少干舷并考虑水密舱壁的间隔。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "吃水",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶浸入水中的深度，船东希望获得最大允许吃水。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "舱壁间隔",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "水密舱壁之间的距离，对船舶的干舷和结构强度有重要影响。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "国际载重线公约",
+        "type": [
+            "标准/机构",
+            "标准规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1996年国际载重线公约规定，如果一舱或数舱破损不会引起船体倾覆，货船可以拥有较小的干舷。 | 规定舱口密闭方式和骨材最小尺寸的国际标准，影响船舶干舷设计和钢材使用。",
+        "chunk_ids": [
+            47,
+            51
+        ]
+    },
+    {
+        "entity_name": "国际海上人命安全条约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1974年《国际海上人命安全条约》规定了客船的舱室划分要求。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "海岸警备局",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "英国管理当局，负责管理客船的舱室划分。",
+        "chunk_ids": [
+            47
+        ]
+    },
+    {
+        "entity_name": "铰链摆动型门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体进水时被认为不可能关闭的门，因此不允许采用。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "滑动门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "必须在船体倾斜15°时仍能操控，并能在门周围或舱壁甲板以上打开和关闭的门。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "垂直滑动门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过舱壁以上的一个手摇曲柄带动轴和螺丝扣来关闭，门上安装手摇曲柄以保证可以在门前关闭。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "水平滑动门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在甲板以上有一个垂向连接轴，使门附近和甲板以上的人能操作，也可通过电力驱动或齿轮传动。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "液压泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于为水平滑动门提供液压动力，实现开启和关闭。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "舱壁",
+        "type": [
+            "材料部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "深舱的舱壁与普通货仓的舱壁不同，要求更大的刚度以承受液体压头。 | 运输舱室的舱壁布置方式由舱室的允许长度决定，MARPOL要求每个运输舱室的长度不能超过10m，或舱室长度与船长的比例受纵向舱壁数目和与最外层纵向舱壁的最小距离限制。",
+        "chunk_ids": [
+            48,
+            59
+        ]
+    },
+    {
+        "entity_name": "垂向骨材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "构成深舱边界的舱壁的垂向型材，随着舱室深度和型材间距的增加，板厚和型材尺寸会随之增加。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "横梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与面板相连的水平构件，在趾端和间隔三个型材或三个肋位处由防弯肘板支撑。 | 在较大长度的球形船首中，每5个肋骨要安装一个横梁，用于结构支撑。",
+        "chunk_ids": [
+            48,
+            54
+        ]
+    },
+    {
+        "entity_name": "防弯肘板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支撑横梁的构件，布置在趾端和间隔三个型材或三个肋位处。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "自由液面",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当深舱装载油料或布置在油船上时，舱室从船的一端扩展到另一端时需要安装的舱壁。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "压筋板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在建造深舱时使用的加强构件，用于增强舱室结构。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "波形板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在建造深舱时使用的加强构件，用于增强舱室结构。",
+        "chunk_ids": [
+            48
+        ]
+    },
+    {
+        "entity_name": "隔离舱",
+        "type": [
+            "材料部件",
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载不同液体货物的货船中，在深舱之间布置的舱室。 | 与压载水舱的入口与甲板舱口类似，有时还会构建水密人孔，用一定厚度的材料覆盖。",
+        "chunk_ids": [
+            48,
+            59
+        ]
+    },
+    {
+        "entity_name": "顶边舱",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "标准货船安装的舱室，用于装载压载水或轻型谷物，其倾斜舱壁厚度与深舱舱壁相似。 | 标准货船上安装的舱室，用于装载压载水或轻型谷物，其倾斜舱壁厚度与深舱舱壁相似，通常由纵向骨材加强，横舱壁支撑。",
+        "chunk_ids": [
+            48,
+            49
+        ]
+    },
+    {
+        "entity_name": "支柱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "承受甲板和甲板以上载荷，使结构在垂直方向更紧密，货舱中支柱主要承受压力，机舱中支柱承受拉伸力，通常采用空心矩形或圆形截面。",
+        "chunk_ids": [
+            49
+        ]
+    },
+    {
+        "entity_name": "支柱间距",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱室中支柱的布置方式，通常采用间距较宽、横截面积较大的支柱，以提供空旷舱室或加强甲板纵桁。",
+        "chunk_ids": [
+            49
+        ]
+    },
+    {
+        "entity_name": "支柱建造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支柱的建造需考虑截面和长度以避免屈曲，通常采用空心矩形或圆形截面，首尾部需焊接加强板，尾部安装在二层甲板加强板或肋板和侧桁交界处。",
+        "chunk_ids": [
+            49
+        ]
+    },
+    {
+        "entity_name": "小支柱",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "直径不超过150mm的实心圆钢支柱，用于居住舱或小型船舶，端部焊接在支撑甲板的纵向角钢或倒角梁上，也可使用滚制空心钢截面代替。 | 安装在居住舱内或相对较小的船中，直径不超过150mm的实心圆钢支柱，首尾部可能是锻造的，端部焊接在支撑甲板的纵向连续角钢、倒角梁或甲板梁上，并在连接处焊接合适的肘板，根部直接焊接在适当加强的甲板上。",
+        "chunk_ids": [
+            49,
+            50
+        ]
+    },
+    {
+        "entity_name": "纵桁",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的纵向构件，用于支撑甲板和舱室，与立柱连接处通常设有支撑结构。 | 在长船桥上层建筑会传递主船体梁压力，因此在船尾需要相当的强度。上甲板的纵桁的厚度会增加20%。",
+        "chunk_ids": [
+            49,
+            53
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "部件",
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于甲板上的结构，用于容纳船员生活和工作空间，通常由甲板、舱壁、支撑结构等组成。 | 船舶上的建筑结构，用于提供住处和导航空间，其甲板板厚通常比甲板室更小，且可能覆盖保护层。 | 在干舷甲板上竖立的建筑物，几乎延伸到舷侧，对载重线设计和干舷甲板开口保护有重要作用。",
+        "chunk_ids": [
+            49,
+            50,
+            52
+        ]
+    },
+    {
+        "entity_name": "高强度钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造机舱支柱等结构的材料，具有较高的强度和承载能力。 | 用于大型油船的甲板和底部区域，如DH级和EH级高强度钢，可减小结构构件尺寸，但需注意腐蚀和疲劳问题。 | 用于大型油船的甲板和底部区域，DH级和EH级高强度钢用于厚板。高强度钢的使用可以减小结构构件的尺寸，这对船舶建造方和所有方都有好处。",
+        "chunk_ids": [
+            49,
+            58,
+            59
+        ]
+    },
+    {
+        "entity_name": "槽钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑轴隧板架和支柱的型材，具有良好的承载能力和焊接性能。",
+        "chunk_ids": [
+            49
+        ]
+    },
+    {
+        "entity_name": "热轧工字钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造机舱支柱的型材，具有较高的承载能力和结构强度。",
+        "chunk_ids": [
+            49
+        ]
+    },
+    {
+        "entity_name": "高强度肘板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强机舱支柱端部的金属板，焊接在合适的型材上，以增强承载能力。",
+        "chunk_ids": [
+            49
+        ]
+    },
+    {
+        "entity_name": "强度甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中最重要的甲板，位于主船体梁的上翼缘，对船体强度有主要贡献，其下层甲板不是水密甲板，但可作为乘客住所或货物装载空间。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "水密甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于维持整个水密船体完整性的甲板，最上面的干舷甲板具有永久封闭作用，所有甲板对船体强度有贡献，但水密甲板在维持船体水密性方面尤为重要。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "甲板板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板的组成部分，最重的甲板板并列建立在强度甲板的货舱开口旁，货舱开口线以内的甲板对纵向强度无贡献，因此较轻，板厚在船中部位最大，可达船中部位板厚的40%，在船尾部可减小到最小厚度。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "强横梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支撑纵骨的结构部件，由带有折边或焊接面板的大尺寸腹板组成，并通过肘板连接到舷侧肋骨，用于增强甲板结构强度。 | 支撑纵骨的结构部件，由带有折边或焊接面板的大尺寸腹板组成，并通过肘板连接到舷侧肋骨。",
+        "chunk_ids": [
+            50,
+            51
+        ]
+    },
+    {
+        "entity_name": "B级钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船中部位甲板板的钢材，当板厚超过30mm时使用，适用于普通货船的强度甲板。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "D级钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于货舱区域甲板板的钢材，当板厚超过40mm时使用，适用于普通货船的强度甲板。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "E级钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船长不超过260m的强度甲板纵桁，当设计厚度超过25mm时使用。 | 用于油船船中部分的止裂列板，厚度要求在不同位置达到15毫米以上、25毫米以上或40毫米以上。",
+        "chunk_ids": [
+            50,
+            58
+        ]
+    },
+    {
+        "entity_name": "防腐蚀物质",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在甲板与保护层之间添加的材料，用于防止腐蚀，特别是在安装保护层之前。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "保护层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖甲板的材料，如木质铺板或其他允许成分，用于美观和隔热保护，同时提供一定强度，使甲板厚度可以减少。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "角隅",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板开口处的转角部分，若为断开形式需采取补强措施，若为抛物线或椭圆形则可减少应力集中。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "船楼",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于最上层连续甲板前端的结构，用于保护船舶在海上。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "冷藏货物",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "需要低温储存的货物，其货舱甲板板在温度低于0°C时需根据板厚选择B、D、E级钢。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "叉车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在甲板上工作的设备，其载荷会导致甲板板厚增加。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "轮式车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在甲板上工作的设备，其载荷会导致甲板板厚增加。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "船中剖面",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的中心剖面，最大总纵弯曲应力发生在该区域，甲板板厚在此区域占船中部位板厚的40%。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "舷侧肋骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舷侧结构中的纵向构件，强横梁通过肘板连接到其上。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "折边",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "强横梁的一部分，由带有折边或焊接面板的大尺寸腹板组成。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "焊接面板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "强横梁的一部分，由带有折边或焊接面板的大尺寸腹板组成。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "纵骨尺寸",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纵骨的尺寸取决于跨距大小、甲板载荷、空间大小和船长，用于增强甲板的纵向强度。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "强横梁间距",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "强横梁之间的距离，船首部位间距较小，纵骨尺寸增加，以避免船舶在海上受到挤压而产生的屈曲变形。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "屈曲变形",
+        "type": [
+            "结构现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在海上受到挤压时可能发生的结构变形，通过增加强横梁和纵骨来避免。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "应力集中",
+        "type": [
+            "结构现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在甲板开口处可能发生的应力集中，通过采用抛物线或椭圆形角隅来减少。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "嵌入板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于大开口的嵌入板，以减少应力集中。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "圆角",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板开口处的圆角设计，用于减少应力集中。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "船体完整性",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的完整性，由水密甲板维持。",
+        "chunk_ids": [
+            50
+        ]
+    },
+    {
+        "entity_name": "甲板加强",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板通常采用横骨架式或纵骨架式结构，开口线外侧多采用纵骨架式以适应强力甲板。纵骨尺寸取决于跨距、载荷、空间大小和船长，强横梁支撑纵骨，通过肘板连接到舷侧肋骨。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "甲板梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的横向构件，尺寸较大，肋骨间距减小以适应装载和支柱布置，与纵桁支撑，连接梁肘板和舱盖半尺寸梁。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口围板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口周围的结构部件，高度根据舱口位置不同而变化，位置1至少600mm，位置2至少450mm，高度从甲板开始计算，用于防止海水进入。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口盖",
+        "type": [
+            "设备部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭舱口的结构部件，有多种类型，如单向拉力、折叠、驮式等，符合国际载重线公约和船级社要求，通过水密性检验和定期调查确保安全。 | 安装在舱口上的盖板，用于封闭舱口，通常带有橡胶密封圈以实现风雨密关闭，手动或自动夹扣用于关闭舱口。",
+        "chunk_ids": [
+            51,
+            52
+        ]
+    },
+    {
+        "entity_name": "钢质舱口盖",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自支撑式舱口盖，符合国际载重线公约和船级社要求，用于防止海水进入，可能配备网状结构。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "单向拉力舱口盖",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过电力自动开启和关闭的舱口盖，利用引导板驱动轮子，沿舱口围板移动，实现舱口的开闭。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "折叠舱口盖",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由外部液压装置驱动引导板实现开启和关闭的舱口盖，适用于需要起降的大型舱口。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "驮式舱口盖",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由哑铃型板组成，通过起重油缸举起，适用于大型货轮或油轮，避免起降装置弄脏舱室。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口围板高度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口围板的高度根据舱口位置不同而变化，位置1至少600mm，位置2至少450mm，用于防止海水进入。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "水平球钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强舱口围板上边缘的材料，当围板高度为600mm或更高时使用。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "模板或扁钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强舱口围板上边缘的材料，当围板高度小于600mm时使用。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口围板延伸",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口围板延伸到甲板梁的底部边界，与甲板梁有效连接，增强结构稳定性。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口盖类型",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口盖的多种类型，包括单向拉力、合并、载货车厢、浮箱及滚边，适用于不同船舶和操作需求。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "引导板",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于驱动舱口盖开启和关闭的部件，通过轮子沿舱口围板移动，实现舱口的开闭。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "起重油缸",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于举起驮式舱口盖的液压装置，实现舱口盖的开启和关闭。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口围板连接",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口围板与强横梁在相交处通过水平节点板连接，增强结构整体性。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口盖水密性",
+        "type": [
+            "检验标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口盖必须通过水密性检验，确保在各种海况下防止海水进入。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "舱口盖定期调查",
+        "type": [
+            "检验标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口盖需定期进行调查，确保其安全性和功能性。",
+        "chunk_ids": [
+            51
+        ]
+    },
+    {
+        "entity_name": "箱型舱口盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种舱口盖类型，通常在集装箱船上应用，由船舶或岸上的起重机起吊，内部可能安装有加强筋以实现自我支撑，截面跨整个舱口的宽度和1/4的长度。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "橡胶密封圈",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱口盖和舱口围板上的密封装置，用于实现风雨密关闭。 | 防风雨性是由门框架上的橡胶密封圈提供的。",
+        "chunk_ids": [
+            52,
+            53
+        ]
+    },
+    {
+        "entity_name": "手动夹扣",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于关闭舱口的机械装置，与橡胶密封圈配合使用。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "自动夹扣",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于关闭舱口的机械装置，与橡胶密封圈配合使用。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "加强筋",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在箱型舱口盖内部的结构件，用于增强舱口盖的自我支撑能力，使其不依赖活动梁。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "舷墙",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在露天甲板上的结构，为人员提供保护，尺寸较小，顶部通过轨道截面（如圆头角钢或板）加强，由甲板支柱支撑。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "排水口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舷墙上的开口，用于排出甲板上的积水，位置需符合载重线公约的要求。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "甲板室",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在甲板上船舷线以内的建筑，与上层建筑共同对载重线设计和干舷甲板开口保护有重要作用。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "桥楼",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "上层建筑的一部分，承受海上运输时的各种载荷，其末端舱壁特别重要，需符合相关法规规定。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "艏楼",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在首柱后的结构，长度至少为7%船长，夏季载重线上的艏楼甲板上的船首弯曲部有最小高度规定。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "船桥结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船桥上层建筑的舷侧长度超过15%船长时，其厚度与船体舷侧外板相同，设有厚重的中部前壁，首端加强构件尺寸大于尾端。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "载重线公约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "规定船舶排水口位置和舷墙设计的国际公约，确保船舶安全和适航性。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "船体总纵强度",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构设计中的关键参数，影响上层建筑和甲板室尾部不连续处的补强设计。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "骨材间距",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响艏楼边板和尾板厚度的参数，与肋距和船长相关。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "船体系数",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算船体总纵强度的参数，影响上层建筑和甲板室尾部不连续处的尺寸设计。",
+        "chunk_ids": [
+            52
+        ]
+    },
+    {
+        "entity_name": "船桥上层建筑",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船桥上层建筑的舷侧长度超过15%船长时厚度会比其他舱室的侧板厚，尺寸与船体舷侧外板的要求相同。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "中部上层建筑前壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "所有的船桥上层建筑和船中甲板室都有很厚重的中部上层建筑前壁，尾端的板就会比前壁板轻。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "上甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在长船桥上层建筑会传递主船体梁压力，因此在船尾需要相当的强度。上甲板的舷侧顶列板的厚度会增加20%，上甲板的纵桁的厚度会增加20%。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "舷侧顶列板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在长船桥上层建筑会传递主船体梁压力，因此在船尾需要相当的强度。上甲板的舷侧顶列板的厚度会增加20%。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "桥楼边板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在长船桥上层建筑会传递主船体梁压力，因此在船尾需要相当的强度。桥楼边板厚度增加25%。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "半径削斜",
+        "type": [
+            "结构工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "后者的板会用充分的半径被削斜以适应上甲板的舷侧顶列板，如图19.8中展示。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "艉楼",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船中没有甲板室或者船桥上层建筑的情况下，艉楼前端会很厚重，它的尺寸会与桥楼前端的要求一致。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "艉楼甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "艉楼甲板由腹板和短横舱壁来支撑，就像在船中安装的甲板室一样。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "上层建筑甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在传统梁理论中，长上层建筑的应力分布保持线性，充当强度甲板的就是上甲板上面的上层建筑甲板。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "有效上层建筑",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "长上层建筑被称为‘有效上层建筑’，它对船体梁的总强度有贡献，因此它们被大量的建造。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "伸缩接头",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在一些老旧的船上，在横截面上安装了带有伸缩接头的装置，以便减小舱室的船体弯曲应力。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "防风雨门",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能保护开口的干舷和其他甲板上舱室的完整性必须得到维护。防风雨门是钢材门，并且两面都是防水的。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "锚链舱",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锚链舱通常位于防撞舱壁前第二层甲板或上甲板以下或艏楼内。 | 在防撞舱壁前方和主甲板或二甲板下方的位置经常要布置一个锚链舱，用于存放锚链，且必须具备良好的水密性和排水系统。",
+        "chunk_ids": [
+            53,
+            54
+        ]
+    },
+    {
+        "entity_name": "起锚机底座",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在腊楼甲板上的重型起锚机底座需要安全加固，并给予足够的支撑。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "艏柱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在许多杂货船中，实心圆柱状的艏柱被安装在龙骨与水线之间的区域，而在水线之上装有一个圆角板来构成船首的上层部分。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "弯鼻型艏柱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "这种结构通常被称为‘弯鼻型艏柱’船首，它能够避免在发生碰撞事故时发生屈曲，以最大限度地减小冲击产生的破坏。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "铆接的矩形截面的实心船柱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在过去船型中，都装有铆接的矩形截面的实心船柱，由于这种船首没有斜度，产生的刚性在遭受冲击时会造成较大的破坏。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "钢铸件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一些现存的大型客船会采用钢铸件或锻件构造船首的下部。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "锻件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一些现存的大型客船会采用钢铸件或锻件构造船首的下部。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "破冰船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "目前，破冰船需要一种特殊的艏舷设计，一些航行于其他冰级的船舶艏部需要更大的结构尺寸。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "水线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在许多杂货船中，实心圆柱状的艏柱被安装在龙骨与水线之间的区域。",
+        "chunk_ids": [
+            53
+        ]
+    },
+    {
+        "entity_name": "实心船柱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "接的矩形截面的实心船柱，由于这种船首没有斜度，产生的刚性在遭受冲击时会造成较大的破坏。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "球鼻艏",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高速船舶和具有较大方形系数的船舶经常会在水线以下装有球鼻艏或凸出形艏，用于减小在特定海况下的船舶阻力。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "船底肋板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "球形船首的每一个肋距都要安装船底肋板，用于支撑和结构加强。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "缓冲舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当球形船首较大时在中心线处还要有缓冲舱壁，用于结构支撑和减震。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "水平隔板板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "多数球鼻艏都要安装水平的隔板板，用于结构分隔和支撑。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "圆角板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖球形船首的船壳板的厚度是逐渐增加的，特别是在可能被锚或锚链破坏的区域。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "锚链筒",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锚链筒的构造相当重要，用于快捷地将锚索从起锚机引导至锚，通常通过焊接、装配得到。 | 用于储存锚的结构，见图20.5。",
+        "chunk_ids": [
+            54,
+            55
+        ]
+    },
+    {
+        "entity_name": "假底",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "布置在锚链舱肋板上端的多孔板构成的假底，用于承载和支撑锚链。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "泥箱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在假底底板向内侧的泥箱，含有抽吸装置，用于清洁和排水。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "中舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "中舱壁可以将锚链舱划分成左舷侧和右舷侧两个舱室，且舱壁上的底孔使人员能够通往锚链舱的底部。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "锚链舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锚链舱壁的加强材是竖直半圆型材形式，且中舱壁的上边缘与舱壁的加强结构类似。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "锚链管口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锚链管口处必须要有比较直接的引导结构，以方便锚链的装载和引导。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "锚链舱冠",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锚链舱冠的甲板处设有舱口，用于人员进出和锚链的装载。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "锚链引导结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锚链筒的构造用于快捷地将锚索从起锚机引导至锚，且通过CAD建模可以优化其结构。 | 用于储存锚的结构，通过CAD建模完成设计。",
+        "chunk_ids": [
+            54,
+            55
+        ]
+    },
+    {
+        "entity_name": "船首转向装置",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "首尾同型渡船在其中任意一端有一个船舵，当船舶在航行时，设在船首端的船舵被锁定在适当的位置。",
+        "chunk_ids": [
+            54
+        ]
+    },
+    {
+        "entity_name": "船首推进装置",
+        "type": [
+            "材料部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船首推进装置是船舶推进系统的一部分，通常位于船首端。 | 用于船舶低速航行时的精确定位，通常由横向水密隧道内的可变螺距桨或可逆桨组成，推力一般不超过16tf。",
+        "chunk_ids": [
+            54,
+            55
+        ]
+    },
+    {
+        "entity_name": "船壳板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶外壳的主要结构部分，锚链管焊接在其上以达到减小摩擦的目的。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "整流罩",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于横向隧道端面，依托于船壳板，用于减少船体阻力和能量消耗。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "嵌装",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于关闭推进装置隧道两端的方案之一。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "蝴蝶动作",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于关闭推进装置隧道两端的方案之一。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "液压门",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于关闭推进装置隧道两端的方案之一。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "船尾结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部结构，影响船舶进出螺旋桨的流形态，常见类型包括巡洋舰型船尾和方形船尾。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "巡洋舰型船尾",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有优良剖面形状和水动力性能的船尾结构，但需要大量加强结构。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "方形船尾",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "提供更大的艉甲板面积、构造简单和改善尾流的船尾结构，不需要斜肋骨作为加强结构。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "船舵",
+        "type": [
+            "设备",
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶操纵的装置，船尾形状和舵机种类是决定船尾结构形式的主要因素。 | 用于控制船舶方向的装置，现今多为流线型，由钢板装配建造，钢板边缘采用内部腹板作为加强材。",
+        "chunk_ids": [
+            55,
+            56
+        ]
+    },
+    {
+        "entity_name": "推进器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于产生船舶推力的装置，通常由可变螺距桨或可逆桨组成，有时也使用喷水推进器。 | 船舶推进装置，包括螺旋桨和导管推进器，用于提供船舶前进动力。",
+        "chunk_ids": [
+            55,
+            57
+        ]
+    },
+    {
+        "entity_name": "螺旋桨",
+        "type": [
+            "设备",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "推进器的核心部件，产生的推力一般较小，一般不超过16tf。 | 船舶推进装置，一般含有3~6个桨叶，需适当浸没在水中，与桨轴通过键结构固定。",
+        "chunk_ids": [
+            55,
+            57
+        ]
+    },
+    {
+        "entity_name": "船尾构架",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船尾结构的支撑框架，形式受艉部剖面形状和舵机种类影响，可通过铸造、锻造和装配得到。 | 用于支撑螺旋桨并连接船体结构的部件，其形式包括铸造和装配两种，通常与船壳板直接焊接，有时在船壳板上设有凹槽以便安装带有艉柱零件的平甲板。",
+        "chunk_ids": [
+            55,
+            56
+        ]
+    },
+    {
+        "entity_name": "重中线面梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船壳板和甲板正船尾处的加强结构。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "斜肋骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强船尾板的结构部件，或作为腹板加强结构的一部分。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "短斜梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支撑甲板并延伸至邻近的重甲板横梁的结构部件。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "竖直加强结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强方形船尾平舰板的结构部件。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "加强肋板",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强方形船尾下部区域的结构部件。 | 用于增强船体结构强度的部件，通常与龙骨板相连接，有时用于连接螺旋桨柱。",
+        "chunk_ids": [
+            55,
+            56
+        ]
+    },
+    {
+        "entity_name": "中线面梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加强船尾结构的部件，安装在船尾板下部区域。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "船尾柱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船尾结构的一部分，截面通常为流线形式以避免涡流。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "焊接节点",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢铸件的连接部位，需要经过细致的预处理和预热。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "水平隔板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑铸件和装配件的结构部件。",
+        "chunk_ids": [
+            55
+        ]
+    },
+    {
+        "entity_name": "艉柱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船尾柱后端，通常为流线型以避免涡流增大船舶阻力，与具有较大板厚的艉肋板连接，有时延伸进船体并与加强肋板连接。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "螺旋桨柱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接螺旋桨与船体结构的部件，有时延伸进船体后与加强肋板连接，该加强肋板与龙骨板相连接。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "半平衡式船舵",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵杆前方部分占整体侧面积小于20%的船舵类型，设计目的是减小扭矩。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "平衡式船舵",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵杆前方部分占整体侧面积25%~30%的船舵类型，设计目的是减小扭矩。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "舵销",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵轴绕其转动的锥状体，具有大于直径的承载长度，传统上用黄铜或青铜材料的衬里包裹，现代多采用人造材料或合成材料制造轴承。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "舵轴",
+        "type": [
+            "设备部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由铸造或锻造钢构造，其尺度由承受的扭矩和弯矩决定，下端面通过水平或竖直螺栓连接器与舵连接。 | 舵机的核心部件，直径大于230mm时需从应急能源或独立电源中分离出部分作为替换能源。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "舵承",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于承载船舵重量的部件，通常含有位于舵杆筒上端面的水密压盖，当舵销过度磨损时，舵承会承担大部分舵重量。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "舵杆筒",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵轴悬挂的容器，下端面一般非水密，上端面有水密压盖，由板材焊接成箱型，前端由艉肋板组成。 | 舵轴悬挂的容器，下端面一般非水密，上端面有水密压盖，由板材焊接成箱型。 | 舵轴悬挂的容器，下端面一般非水密，上端面有水密压盖，由板材焊接成箱型，前端由艉肋板组成。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "舵机装置",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于驱动舵转动的装置，通常为电动液压形式，主舵机需在最大吃水和服务航速时实现70°舱角，并在28秒内转舵65°。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "主舵机",
+        "type": [
+            "设备部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的主要舵机装置，用于在最大吃水和服务航速时实现70°舱角，并在28秒内转舵65°，通常为动力驱动。 | 用于控制船舶舵的主动力装置，需配备两个以上相同动力单元，且所有动力单元能够同时工作。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "辅助舵机",
+        "type": [
+            "设备部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于辅助舵机操作的装置，转舵能力为30°，在最大吃水、航速为服务航速的一半或7kn时在60秒内转舵30°，若舵轴直径超过230mm，也需为动力驱动。 | 与主舵机控制指令相互独立的舵机，用于辅助主舵机控制船舶舵。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "舵杆",
+        "type": [
+            "设备部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接舵与舵轴的部件，通常位于舵杆筒内，其直径和强度需满足舵机操作要求。 | 连接舵与舵轴的部件，通常位于舵杆筒内。 | 连接舵与舵轴的部件，通常位于舵杆筒内，其直径和强度需满足舵机操作要求。 | 连接舵机与舵的部件，用于传递控制指令。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "水密压盖",
+        "type": [
+            "设备部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于密封舵杆筒上端面的部件，确保舵轴能够进入完好的船体。 | 安装在艉轴管末端的密封装置，防止水进入轴管。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "封闭板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭舵结构的板材，通常从外部与内肋板焊接在一起，安装前可将扁钢与腹板焊接以辅助焊接。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "槽焊板",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于连接舵的钢板与加强材，图21.4为槽焊板示意图。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "起吊孔",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "贯穿舵的小管状孔，用于起吊舵，侧衬板和封闭板上设有防护板。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "惰性塑料泡沫",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于填充舵内部以防止内部腐蚀的材料。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "水下测试",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舵建造完成后在2.45m深的水下进行的测试，用于验证其性能。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "螺栓连接器",
+        "type": [
+            "连接部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接舵轴与舵的部件，螺栓横截面面积需足够大以承受作用于舵轴的扭矩。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "铁梨木",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统用于制造舵销轴承的硬木材料，现代多被人造材料或合成材料替代。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "黄铜",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统用于包裹舵销的材料，现代多被人造材料或合成材料替代。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "青铜",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统用于包裹舵销的材料，现代多被人造材料或合成材料替代。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "防锈钢材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造舵机内管的材料，具有防锈性能。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "合成材料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代用于制造舵销轴承和内管的材料，具有良好的性能。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "人造材料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代用于制造舵销轴承和内管的材料，具有良好的性能。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "水润滑",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵销轴承的润滑方式，由轴承周围的水产生。 | 尾轴管的一种润滑方式，使用水作为润滑介质，常用于暴露于海洋中的尾端。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "铁椎铸件",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减小舵销磨损的部件，安装在舵承中。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "观察孔",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在舵杆筒一侧的孔，平时用水密材料密封，紧急时可观察舵轴情况。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "艉肋板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接舵轴和舵杆筒的部件，通常由板材焊接成箱型。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "龙骨板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体底部的主要结构板，与加强肋板相连接。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "平甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体上部的甲板，有时在船壳板上设有凹槽以便安装带有艉柱零件的平甲板。",
+        "chunk_ids": [
+            56
+        ]
+    },
+    {
+        "entity_name": "船桥",
+        "type": [
+            "设备部件",
+            "舱室"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制舵机的装置，主舵机和辅助舵机的动力控制指令来源于船桥。 | 船舶的驾驶室，与舵机舱共同控制舵机的控制指令。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "舵机舱",
+        "type": [
+            "设备部件",
+            "舱室"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于安装舵机的舱室，主舵机和辅助舵机的控制指令来源于船桥和舵机舱。 | 舵机安装的舱室，与船桥共同控制舵机的控制指令。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "舵机",
+        "type": [
+            "设备部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于驱动舵转动的装置，通常为电动液压形式，主舵机需在最大吃水和服务航速时实现70°舱角，并在28秒内转舵65°。 | 包括主舵机和辅助舵机，用于控制船舶舵的装置，其控制指令来自船桥和舵机舱。",
+        "chunk_ids": [
+            56,
+            57
+        ]
+    },
+    {
+        "entity_name": "电动液压舵机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "海船常用的舵机类型，通过电动液压系统实现舵的控制。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "艉轴管",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "螺旋桨传动轴的后轴承，包括水密压盖，分为水润滑和油脂润滑两种形式。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "轴包套",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑螺旋桨轴向船尾方向伸出的悬垂部分，是船壳的一部分，提供保护。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "A形架",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑螺旋桨轴向船尾方向伸出的悬垂部分，其支柱剖面影响船舶阻力和空泡。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "可调螺距螺旋桨",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "桨叶螺距可改变甚至颠倒的螺旋桨，用于柴油拖船和拖网渔船，适应不同工况。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "导管推进器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于低速、高滑率情况下增大推力的推进器，常安装在拖船和拖网渔船中。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "导流管",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于改善推进器性能的导管，直径在尾部收缩，长度相对于直径较小。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "锁紧螺帽",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定螺旋桨在桨轴上的装置，有时配备内置液压起重器以产生摩擦粘着力。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "毂",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "螺旋桨与桨轴连接的部分，其钻孔具有锥度，用于安装螺旋桨。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "双孔构架",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "轴包套的末端铸件，为桨轴提供最接近船尾的尾轴轴承。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "挂臂",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从双孔构架延伸出的部件，用于承载桨轴，有时分为多段以保证线形。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "锥形整流罩",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在保护螺母外部的部件，用于减少水流扰动，提高推进效率。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "白合金材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于油脂润滑尾轴管支架的表面材料，具有良好的耐磨性和润滑性能。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "油脂润滑",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尾轴管的一种润滑方式，通过储油池供应油脂，防止泄漏和外界水进入轴管。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "尾机型船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尾部安装主机和螺旋桨的船舶，常采用油脂润滑尾轴管形式。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "双桨船舶",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "配备两个螺旋桨的船舶，通常安装轴包套或A形架支撑桨轴。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "多桨船舶",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "配备多个螺旋桨的船舶，通常安装轴包套或A形架支撑桨轴。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "可控螺距推进器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "可调节螺距的推进器，用于大型柴油散货船，提高推进效率。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "局部加强材",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于增强A形架与船体连接处的结构强度，常见于大型船舶。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "上掌面",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "A形架与船体连接的表面，小型船舶中简单焊接，大型船舶中需加强。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "舵",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶转向装置，由舵机控制，通过舵杆和舵叶实现转向。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "舵叶",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵的可动部分，通过舵杆控制，实现船舶转向。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "舵柄",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于手动操作舵的部件，与舵杆连接。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "轮杆",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于手动操作舵机的部件，与舵杆连接。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "舵机控制指令",
+        "type": [
+            "控制信号"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "来自船桥和舵机舱的控制信号，用于控制主舵机和辅助舵机。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "应急能源",
+        "type": [
+            "能源"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在舵轴直径大于230mm时，作为替换能源供应的备用能源。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "独立电源",
+        "type": [
+            "能源"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在舵轴直径大于230mm时，作为替换能源供应的备用电源。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "船舶",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "原文中提及的船舶类型。",
+        "chunk_ids": [
+            57
+        ]
+    },
+    {
+        "entity_name": "导管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶底部，用于引导水流至螺旋桨的结构，分为固定导管和转向导管两种类型，具有支撑内、外板的作用。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "螺旋桨导管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种导管结构，直径为 $2.5sim 3mathrm{m}$，其内板在螺旋桨叶尖位置前后一定距离处设置巨大的覆板，截面包含两个完整的环形肋板和一个半深环形肋板。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "电力吊舱式推进器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种推进系统，包括推进模块和转向模块，用于大型巡洋舰、集装箱船和快速滚装客船，具有增大装载空间、减小阻力、提供稳定水流等优点。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "吊舱式推进器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种推进器布置形式，小型船舶一般配备一个推进模块，大型船舶如玛丽皇后2号安装2个固定吊舱式推进器，每个推进器配备直径6m的4桨叶螺旋桨。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "底座",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船底结构内，用于将吊舱的载荷分散至船体中的大片区域，支撑固定推进器和转向模块。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "油轮",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门装载运输液体的船舶，通常装载原油，也有运输多种液体物或化学品的油船，分为大型海油船和小型油船。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "储油舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油轮中用于储存液体货物的舱室，大型油船通常有多个储油舱室和复杂的管路布置，部分油船配备专用压载水舱。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "专用压载水舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油轮中用于存放压载水的舱室，位于储油舱室长度内，防止油产品泄漏，并满足防止船舶污染国际公约的要求。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "低碳钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "全船结构中常用的材料，用于承受最大载荷的主船体强度构件，如B级、D级和E级钢作为厚板材料。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "防止船舶污染国际公约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际公约，要求油船在货舱长度内布置压载水舱或其他保护措施，防止燃油污染，并对不同类别的油轮设定建造要求。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "纵桁板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中的一种板材，厚度需在15毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "弧形舷缘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中的一种板材，厚度需在15毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "舷列板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中的一种板材，厚度需在25毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "纵向舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中的一种板材，厚度需在25毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "主甲板板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中的一种板材，厚度需在40毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "纵向舱壁顶列板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中的一种板材，厚度需在40毫米以上，用于支撑船体结构。",
+        "chunk_ids": [
+            58
+        ]
+    },
+    {
+        "entity_name": "纵骨架式双层底",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由横向船底板支撑的结构，用于海洋原油油轮的储油舱室，与上承桁架支撑的纵骨架式甲板共同构成储油舱的支撑体系。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "纵骨架式甲板",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由上承桁架支撑的结构，用于海洋原油油轮的储油舱室，与纵骨架式双层底共同构成储油舱的支撑体系。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "纵骨架式舷侧外板",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由横向桁材支撑的结构，用于海洋原油油轮的储油舱室，是船舶纵向骨架系统的一部分。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "焊接T型材",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由腹板和对称的面板组成的特殊焊接型材，常用于许多油轮的纵向构件。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "中桁梁",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于双层底空间内，由中纵桁与重龙骨板构成媒介结构，用于传递坐墩力。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "横向舱壁",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油密的舱壁，必须安装加强材或安装垂向或水平的波形板，由水平纵梁支撑垂向加强材和波形板，垂向腹板支撑水平波纹板。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "水密性纵向舱壁",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "需要主要加强的结构，或采用水平波形的波形板，有时也会采用垂向波纹的中舱壁。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "舱口栏板",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "采用钢材，高度为600mm以上，采用钢板粘贴或其他材料覆盖表面。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "压载舱",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板的其他开口主要作用为排水和清洁舱室，这些开口都是在露天甲板而不是封闭甲板空间。",
+        "chunk_ids": [
+            59
+        ]
+    },
+    {
+        "entity_name": "空隔舱",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "运输舱室的端面要求布置一个空隔舱，空隔舱有两个间隔760mm以上的油密横向舱壁构成，有时也用作管路室或压载舱。",
+        "chunk_ids": [
+            59
+        ]
+    }
+]

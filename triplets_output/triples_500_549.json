@@ -1,0 +1,4592 @@
+[
+    {
+        "subject": "船舶绿色制造技术",
+        "relation": "replaces",
+        "object": "传统制造技术",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "焊接",
+        "relation": "affects",
+        "object": "环境保护",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "切割",
+        "relation": "affects",
+        "object": "环境保护",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "涂装",
+        "relation": "affects",
+        "object": "环境保护",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "绿色加工工艺",
+        "relation": "contains",
+        "object": "成形制造",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "成形制造",
+        "relation": "improves",
+        "object": "资源利用效率",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "绿色制造技术",
+        "relation": "enables",
+        "object": "可持续发展战略",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "劳动力",
+        "relation": "belongs_to",
+        "object": "资源",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "材料",
+        "relation": "belongs_to",
+        "object": "材料部件",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "船舶",
+        "relation": "belongs_to",
+        "object": "对象",
+        "chunk_id": "500"
+    },
+    {
+        "subject": "干式加工",
+        "relation": "applied_to",
+        "object": "船舶制造",
+        "chunk_id": "501"
+    },
+    {
+        "subject": "工艺模拟技术",
+        "relation": "applied_to",
+        "object": "水火弯板",
+        "chunk_id": "501"
+    },
+    {
+        "subject": "工艺模拟技术",
+        "relation": "improves",
+        "object": "加工工件质量",
+        "chunk_id": "501"
+    },
+    {
+        "subject": "水火弯板",
+        "relation": "belongs_to",
+        "object": "热加工",
+        "chunk_id": "501"
+    },
+    {
+        "subject": "网络技术",
+        "relation": "applied_to",
+        "object": "敏捷制造",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "applied_to",
+        "object": "产品模型预测",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "applied_to",
+        "object": "性能评估",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "applied_to",
+        "object": "成本降低",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "网络技术",
+        "relation": "applied_to",
+        "object": "虚拟公司",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "belongs_to",
+        "object": "虚拟化技术",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "绿色焊接工艺",
+        "relation": "uses",
+        "object": "节能焊机",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "绿色焊接工艺",
+        "relation": "uses",
+        "object": "高效焊接材料",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "绿色焊接工艺",
+        "relation": "uses",
+        "object": "无弧光焊接方法",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "绿色焊接工艺",
+        "relation": "uses",
+        "object": "无粉尘污染焊接方法",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "绿色制造",
+        "relation": "contains",
+        "object": "绿色焊接工艺",
+        "chunk_id": "502"
+    },
+    {
+        "subject": "节能逆变焊机",
+        "relation": "uses",
+        "object": "电",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "improves",
+        "object": "焊接质量",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "replaces",
+        "object": "手工焊接",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "uses",
+        "object": "气体保护焊",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "uses",
+        "object": "埋弧焊",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "uses",
+        "object": "电渣焊",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "uses",
+        "object": "气电自动焊",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "uses",
+        "object": "激光焊",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "高效焊接",
+        "relation": "uses",
+        "object": "电子束焊",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "节能逆变焊机",
+        "relation": "belongs_to",
+        "object": "焊接设备",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "节能逆变焊机",
+        "relation": "part_of",
+        "object": "焊机",
+        "chunk_id": "503"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "applied_to",
+        "object": "金属板材",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "applied_to",
+        "object": "铝合金",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "applied_to",
+        "object": "钢板",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "has",
+        "object": "无飞溅",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "has",
+        "object": "无烟尘",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "has",
+        "object": "无气孔",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "has",
+        "object": "无裂纹",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "has",
+        "object": "高焊缝强度",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "搅拌摩擦焊",
+        "relation": "has",
+        "object": "小变形",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "applied_to",
+        "object": "不锈钢",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "applied_to",
+        "object": "低碳钢",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "has",
+        "object": "低热量输入",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "has",
+        "object": "几乎无变形",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "applied_to",
+        "object": "夹层平面分段结构",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "has",
+        "object": "高焊缝拉伸强度",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "has",
+        "object": "低成本",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "has",
+        "object": "施工方便",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "improves",
+        "object": "船舶建造质量",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "激光焊接",
+        "relation": "improves",
+        "object": "造船周期",
+        "chunk_id": "504"
+    },
+    {
+        "subject": "室内造船",
+        "relation": "improves",
+        "object": "环境影响",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "分段建造",
+        "relation": "uses",
+        "object": "手工电弧焊",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "曲面分段建造",
+        "relation": "uses",
+        "object": "手工电弧焊",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "分段建造",
+        "relation": "located_at",
+        "object": "露天平台",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "曲面分段建造",
+        "relation": "located_at",
+        "object": "露天平台",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "弧光",
+        "relation": "affects",
+        "object": "环境",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "烟尘",
+        "relation": "affects",
+        "object": "环境",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "上海船厂崇明基地",
+        "relation": "belongs_to",
+        "object": "船厂",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "江南造船（集团）公司长兴岛基地",
+        "relation": "belongs_to",
+        "object": "船厂",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "室内分段建造",
+        "relation": "replaces",
+        "object": "传统露天作业方式",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "室内分段建造",
+        "relation": "reduces",
+        "object": "露天焊接作业量",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "空气循环处理系统",
+        "relation": "acts_on",
+        "object": "焊接烟尘",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "绿色涂装工艺",
+        "relation": "applied_to",
+        "object": "涂装作业",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "绿色涂装工艺",
+        "relation": "uses",
+        "object": "环保型涂装工艺",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "绿色涂装工艺",
+        "relation": "uses",
+        "object": "环保型涂装设施",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "绿色涂装工艺",
+        "relation": "uses",
+        "object": "跟踪补涂",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "现代造船理念",
+        "relation": "applied_to",
+        "object": "涂装作业",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "涂装生产设计",
+        "relation": "refines",
+        "object": "详细设计",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "钢材预处理",
+        "relation": "prepares_for",
+        "object": "零件加工",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "分段制造周期",
+        "relation": "improves",
+        "object": "建造效率",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "预舾装",
+        "relation": "increases",
+        "object": "分段完整性",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "区域涂装",
+        "relation": "applied_to",
+        "object": "涂装作业",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "区域舾装",
+        "relation": "applied_to",
+        "object": "涂装作业",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "区域舾装",
+        "relation": "applied_to",
+        "object": "涂装作业",
+        "chunk_id": "505"
+    },
+    {
+        "subject": "涂料",
+        "relation": "uses",
+        "object": "热加工",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂料",
+        "relation": "reduces",
+        "object": "锈蚀",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂料",
+        "relation": "reduces",
+        "object": "涂装次数",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂料",
+        "relation": "requires",
+        "object": "除锈等级",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂料",
+        "relation": "replaces",
+        "object": "多种涂料",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂装设计",
+        "relation": "inputs",
+        "object": "涂装作业计划",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂装设计",
+        "relation": "outputs",
+        "object": "涂装标准",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂装工程",
+        "relation": "uses",
+        "object": "计算机辅助管理",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "进气管道模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "除尘设备接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "除漆雾接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "喷砂设备接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "吸砂设备接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "温湿度控制设备接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "传感系统接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "移动式涂装系统",
+        "relation": "contains",
+        "object": "动力设备接口模块",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "环保型分段涂装房",
+        "relation": "has",
+        "object": "自动控制空气温度和湿度的系统",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "环保型分段涂装房",
+        "relation": "has",
+        "object": "粉尘和漆雾分离技术",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂装房",
+        "relation": "has",
+        "object": "湿度控制",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "涂装房",
+        "relation": "has",
+        "object": "温度控制",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "除尘设备",
+        "relation": "used_in",
+        "object": "涂装施工",
+        "chunk_id": "506"
+    },
+    {
+        "subject": "环保型分段涂装房",
+        "relation": "controls",
+        "object": "温度",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "环保型分段涂装房",
+        "relation": "controls",
+        "object": "湿度",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "环保型分段涂装房",
+        "relation": "applied_to",
+        "object": "分段涂装",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "环保型分段涂装房",
+        "relation": "uses",
+        "object": "粉尘和漆雾分离技术",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "绿色制造技术",
+        "relation": "enables",
+        "object": "环保型分段涂装",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "绿色制造技术",
+        "relation": "replaces",
+        "object": "传统制造模式",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "绿色制造技术",
+        "relation": "affects",
+        "object": "生产成本",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "绿色制造技术",
+        "relation": "improves",
+        "object": "资源利用率",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "绿色制造技术",
+        "relation": "supports",
+        "object": "政策制定",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "refines",
+        "object": "生产流程",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "reduces",
+        "object": "生产成本",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "improves",
+        "object": "产品质量",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "产品价值链",
+        "relation": "analyzes",
+        "object": "生产过程",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "产品价值链",
+        "relation": "reduces",
+        "object": "无效时间",
+        "chunk_id": "507"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "contains",
+        "object": "有效时间",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "contains",
+        "object": "无效时间",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "传统造船模式",
+        "relation": "has",
+        "object": "无效时间",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "无效时间",
+        "relation": "affects",
+        "object": "生产效率",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "无效时间",
+        "relation": "affects",
+        "object": "质量",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "无效时间",
+        "relation": "affects",
+        "object": "成本",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "improves",
+        "object": "质量",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "improves",
+        "object": "成本",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "replaces",
+        "object": "传统造船模式",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "belongs_to",
+        "object": "精益造船",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "contains",
+        "object": "零库存管理",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "reduces",
+        "object": "生产过剩",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "生产过剩",
+        "relation": "affects",
+        "object": "库存",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "生产过剩",
+        "relation": "affects",
+        "object": "质量",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "库存",
+        "relation": "affects",
+        "object": "生产效率",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "库存",
+        "relation": "affects",
+        "object": "质量",
+        "chunk_id": "508"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "replaces",
+        "object": "传统造船模式",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "零库存管理",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "applied_to",
+        "object": "构件装配",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "applied_to",
+        "object": "平面分段",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "applied_to",
+        "object": "曲面分段",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "板材",
+        "relation": "acts_on",
+        "object": "切割",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "型材",
+        "relation": "acts_on",
+        "object": "切割",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "构件装配",
+        "relation": "inputs",
+        "object": "板材",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "构件装配",
+        "relation": "inputs",
+        "object": "型材",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "inputs",
+        "object": "板材",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "inputs",
+        "object": "型材",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "曲面分段",
+        "relation": "inputs",
+        "object": "板材",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "曲面分段",
+        "relation": "inputs",
+        "object": "型材",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "enables",
+        "object": "单件流水作业",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "replaces",
+        "object": "传统造船模式",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "reduces",
+        "object": "生产过剩",
+        "chunk_id": "509"
+    },
+    {
+        "subject": "切割",
+        "relation": "acts_on",
+        "object": "材料",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "装配",
+        "relation": "uses",
+        "object": "切割",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "分段",
+        "relation": "prepares_for",
+        "object": "总装",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "拉动计划体系",
+        "relation": "replaces",
+        "object": "推动计划体系",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "质量",
+        "relation": "affects",
+        "object": "生产效率",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "库存",
+        "relation": "reduces",
+        "object": "资金占用",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "enables",
+        "object": "快速反馈",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "质量",
+        "relation": "precedes",
+        "object": "解决问题",
+        "chunk_id": "510"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "拉动计划体系",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "订货计划",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "平面分段",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "曲面分段",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "预涂装",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "预晒装",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "板材",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "型材",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "单件流水作业",
+        "relation": "uses",
+        "object": "管子加工",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "uses",
+        "object": "大合拢计划",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "uses",
+        "object": "分段制造计划",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "belongs_to",
+        "object": "精益造船",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "belongs_to",
+        "object": "精益造船",
+        "chunk_id": "511"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "reduces",
+        "object": "库存",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "reduces",
+        "object": "劳动力",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "uses",
+        "object": "单件流水作业",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "applied_to",
+        "object": "板材加工",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "applied_to",
+        "object": "型材加工",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "applied_to",
+        "object": "管材加工",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "applied_to",
+        "object": "构件装配",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "applied_to",
+        "object": "平面分段",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "applied_to",
+        "object": "曲面分段",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "uses",
+        "object": "成组技术",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "JIT生产",
+        "relation": "uses",
+        "object": "族制造原理",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "improves",
+        "object": "产品质量",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "reduces",
+        "object": "人工检验",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "reduces",
+        "object": "缺陷返修成本",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "requires",
+        "object": "精度管理",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "requires",
+        "object": "全员质量管理",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "acts_on",
+        "object": "作业者",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "无缺陷施工",
+        "relation": "ensures",
+        "object": "产品质量100%合格",
+        "chunk_id": "512"
+    },
+    {
+        "subject": "均衡生产",
+        "relation": "applied_to",
+        "object": "单件流水生产",
+        "chunk_id": "513"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "defines",
+        "object": "客户需求周期",
+        "chunk_id": "513"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "calculated_as",
+        "object": "总生产时间除以客户需求数量",
+        "chunk_id": "513"
+    },
+    {
+        "subject": "成组技术",
+        "relation": "used_in",
+        "object": "作业量设计",
+        "chunk_id": "513"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "produces",
+        "object": "托盘的管子",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "produces",
+        "object": "标准分段",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "belongs_to",
+        "object": "生产管理",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "improves",
+        "object": "生产流畅性",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "affects",
+        "object": "生产能力",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "affects",
+        "object": "库存",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "affects",
+        "object": "成本",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "requires",
+        "object": "均衡生产",
+        "chunk_id": "514"
+    },
+    {
+        "subject": "生产节拍",
+        "relation": "组织",
+        "object": "单件流水作业",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "分段",
+        "relation": "需要",
+        "object": "预舾装",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "A分段",
+        "relation": "安装",
+        "object": "管子",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "B分段",
+        "relation": "安装",
+        "object": "结构件",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "交货次序",
+        "relation": "导致",
+        "object": "前道工序忙闲不均",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "分段装配次序",
+        "relation": "调整为",
+        "object": "A,A,B,A,A,B,A,A,B",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "管子",
+        "relation": "实现",
+        "object": "均衡有节拍的生产",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "结构件",
+        "relation": "实现",
+        "object": "均衡有节拍的生产",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "A分段",
+        "relation": "实现",
+        "object": "均衡有节拍的生产",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "B分段",
+        "relation": "实现",
+        "object": "均衡有节拍的生产",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "分段制造",
+        "relation": "组织",
+        "object": "节拍生产",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "劳动组织形式",
+        "relation": "按照",
+        "object": "阶段、类型、区域",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "内业",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "构件",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "外业",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "管子",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "机装",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "船装",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "电装",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "内装",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "涂装",
+        "relation": "属于",
+        "object": "劳动组织形式",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "一工多能",
+        "relation": "属于",
+        "object": "岗位技能制度",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "劳动力",
+        "relation": "合理使用",
+        "object": "一工多能",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "作业量",
+        "relation": "合理调整",
+        "object": "一工多能",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "属于",
+        "object": "管理方法",
+        "chunk_id": "515"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "belongs_to",
+        "object": "精益造船",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "contains",
+        "object": "整理",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "contains",
+        "object": "整顿",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "contains",
+        "object": "清扫",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "contains",
+        "object": "清洁",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "contains",
+        "object": "修养",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "整理",
+        "relation": "precedes",
+        "object": "整顿",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "整顿",
+        "relation": "precedes",
+        "object": "清扫",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "清扫",
+        "relation": "precedes",
+        "object": "清洁",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "清洁",
+        "relation": "precedes",
+        "object": "修养",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "整理",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "整顿",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "清扫",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "清洁",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "修养",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "516"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "refines",
+        "object": "JIT生产",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "inputs",
+        "object": "作业标准化",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "作业标准化",
+        "relation": "part_of",
+        "object": "5S管理",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "affects",
+        "object": "作业环境",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "enables",
+        "object": "持续改进",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "applied_to",
+        "object": "作业流程",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "improves",
+        "object": "作业标准",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "5S管理",
+        "relation": "precedes",
+        "object": "持续改进",
+        "chunk_id": "517"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "uses",
+        "object": "数理统计方法",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "acts_on",
+        "object": "加工公差",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "acts_on",
+        "object": "焊接热变形",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "replaces",
+        "object": "余量",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "improves",
+        "object": "产品质量",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "contains",
+        "object": "5S管理",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "belongs_to",
+        "object": "管理方法",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "enables",
+        "object": "高效焊接",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "affects",
+        "object": "产品质量",
+        "chunk_id": "518"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "uses",
+        "object": "团队工作精神",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "船厂",
+        "relation": "establishes",
+        "object": "适合于团队作业的组织结构",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "requires",
+        "object": "均衡生产",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "作业者",
+        "relation": "can_perform",
+        "object": "不同区域、工种的作业",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "作业者",
+        "relation": "requires",
+        "object": "多种作业技能",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "生产现场",
+        "relation": "establishes",
+        "object": "板报制度",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "板报制度",
+        "relation": "contains",
+        "object": "进度报表",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "板报制度",
+        "relation": "contains",
+        "object": "负荷报表",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "板报制度",
+        "relation": "contains",
+        "object": "质量报表",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "板报制度",
+        "relation": "contains",
+        "object": "5S检查报表",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "板报制度",
+        "relation": "contains",
+        "object": "设备点检报表",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "板报制度",
+        "relation": "contains",
+        "object": "人员出勤报表",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "requires",
+        "object": "精简机构",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "requires",
+        "object": "全员参与",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "精益造船",
+        "relation": "requires",
+        "object": "自主管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "includes",
+        "object": "全员精度管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "includes",
+        "object": "全员5S管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "includes",
+        "object": "全员生产管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "includes",
+        "object": "全员安全管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "includes",
+        "object": "全员质量管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "全员工厂管理",
+        "relation": "includes",
+        "object": "全员设备管理",
+        "chunk_id": "519"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "分段划分",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "improves",
+        "object": "船坞利用率",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "improves",
+        "object": "造船速度",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "预舾装",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "涂装",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "分段建造",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "总装造船",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "现代造船模式",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "区域",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "阶段",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船舶超大型总段制造技术",
+        "relation": "applied_to",
+        "object": "类型",
+        "chunk_id": "520"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "大型龙门吊车",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "分段制造",
+        "relation": "applied_to",
+        "object": "船台",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "分段制造",
+        "relation": "applied_to",
+        "object": "船坞",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "并行制造",
+        "relation": "applied_to",
+        "object": "分段制造",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "分段制造",
+        "relation": "produces",
+        "object": "分段",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "总段",
+        "relation": "assembles_into",
+        "object": "超大型总段",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "uses",
+        "object": "吊车",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "prepares_for",
+        "object": "下水",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "VLCC",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "VLCC",
+        "relation": "has",
+        "object": "坞内周期",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "船台",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "船坞",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "船台",
+        "relation": "uses",
+        "object": "大型龙门吊车",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "船坞",
+        "relation": "uses",
+        "object": "大型龙门吊车",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "吊车",
+        "relation": "used_by",
+        "object": "分段",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "吊车",
+        "relation": "used_by",
+        "object": "总段",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "吊车",
+        "relation": "used_by",
+        "object": "超大型总段",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造周期",
+        "relation": "affects",
+        "object": "船台",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造周期",
+        "relation": "affects",
+        "object": "船坞",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造周期",
+        "relation": "affects",
+        "object": "VLCC",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "分段堆放",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "船台",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "船坞",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "吊车",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "分段制造",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "总段制造",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "超大型总段制造",
+        "chunk_id": "521"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "超大型总段建造法",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "VLCC",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "阿芙拉型油船",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "has",
+        "object": "重量",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "has",
+        "object": "长度",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "船坞",
+        "relation": "contains",
+        "object": "干式合拢",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "船坞",
+        "relation": "contains",
+        "object": "湿式合拢",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "分段建造法",
+        "relation": "applied_to",
+        "object": "VLCC",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "分段建造法",
+        "relation": "applied_to",
+        "object": "阿芙拉型油船",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "VLCC",
+        "relation": "has",
+        "object": "分段数量",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "阿芙拉型油船",
+        "relation": "has",
+        "object": "分段数量",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "韩国三星巨济船厂",
+        "relation": "develops",
+        "object": "超大型总段造船法",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "韩国三星重工",
+        "relation": "applies",
+        "object": "超大型总段造船法",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段造船法",
+        "relation": "replaces",
+        "object": "分段建造法",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "船坞周期",
+        "relation": "reduces",
+        "object": "建造周期",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "总段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "合拢",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "下水",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "舾装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "涂装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "焊接",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "预舾装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "合拢",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "船坞内建造",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "干坞利用率",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "建造周期",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "船坞周期",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段重量",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段长度",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段数量",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段装配",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段吊装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段焊接",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段舾装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段涂装",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段合拢",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段下水",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造周期",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造效率",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造质量",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造成本",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造工艺",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造技术",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造方法",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造流程",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造阶段",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造过程",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造结果",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造目标",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造需求",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造条件",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造环境",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造设施",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造设备",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造工具",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造材料",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造工艺",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造技术",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造方法",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造流程",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造阶段",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造过程",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造结果",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造目标",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造需求",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造条件",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造环境",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造设施",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造设备",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造工具",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "总段建造材料",
+        "chunk_id": "522"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "precedes",
+        "object": "船坞周期",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "韩国造船企业",
+        "relation": "purchases",
+        "object": "超大型浮吊",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "现代蔚山船厂",
+        "relation": "constructs",
+        "object": "大型总段车间",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "超大型分段",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "LNG-RV船",
+        "relation": "uses",
+        "object": "超大型总段",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "LNG-RV船",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "船首",
+        "relation": "assembles_into",
+        "object": "超大型分段",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "improves",
+        "object": "建造周期",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "improves",
+        "object": "施工安全性",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "LNG-RV船",
+        "relation": "requires",
+        "object": "高超的技术水平",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "LNG-RV船",
+        "relation": "has",
+        "object": "复杂结构",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型浮吊",
+        "relation": "used_for",
+        "object": "船体组装",
+        "chunk_id": "523"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "uses",
+        "object": "超大型浮吊",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "produces",
+        "object": "船体",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "超大型总段",
+        "relation": "located_at",
+        "object": "修船坞",
+        "chunk_id": "524"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "超大型总段建造法",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "大段分体建造",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "坞内漂浮合拢",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大连船舶重工集团有限公司",
+        "relation": "uses",
+        "object": "大段分体建造",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大连船舶重工集团有限公司",
+        "relation": "uses",
+        "object": "坞内漂浮合拢",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型油船",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型油船",
+        "relation": "part_of",
+        "object": "VLCC",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "船坞",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "船台",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "小船台",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "下水",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "船厂",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "场地资源",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "船坞周期",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "大段分体建造",
+        "relation": "applied_to",
+        "object": "串行组装模式",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "船厂",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "船坞",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "小船台",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "下水",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "超大型总段建造法",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "525"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "applied_to",
+        "object": "分段/总段",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "半潜驳船",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "浮船坞",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "专用拖移和滑动设备",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "precedes",
+        "object": "下水",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "assembles_into",
+        "object": "船舶或海洋工程结构物",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "located_at",
+        "object": "平地区域",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "enables",
+        "object": "扩大造船能力",
+        "chunk_id": "526"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "半潜驳船",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "浮船坞",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "倾斜水泥地面",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "气囊",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "专用拖移装备",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "船舶平地建造技术",
+        "relation": "uses",
+        "object": "专用下水设施装备",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "下水",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "滑移",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "合拢",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "拖移",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "半潜驳船",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "浮船坞",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "倾斜水泥地面",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "气囊",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "专用拖移装备",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "专用下水设施装备",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "uses",
+        "object": "滑道",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "uses",
+        "object": "重力",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "uses",
+        "object": "下滑力",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "平地建造区域",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "半潜驳船",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "浮船坞",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "倾斜水泥地面",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "气囊",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "专用拖移装备",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "滑移",
+        "relation": "applied_to",
+        "object": "专用下水设施装备",
+        "chunk_id": "527"
+    },
+    {
+        "subject": "下水方式",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_in",
+        "object": "下水",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "半潜驳船",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "半潜驳船",
+        "relation": "has",
+        "object": "载重量",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "半潜驳船",
+        "relation": "requires",
+        "object": "驳船造型",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "驳船",
+        "relation": "has",
+        "object": "调载能力",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "下水",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "下水",
+        "relation": "located_at",
+        "object": "平地区域",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "belongs_to",
+        "object": "工艺",
+        "chunk_id": "528"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "半潜驳",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "下水",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "水平船台",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "半潜驳",
+        "relation": "located_at",
+        "object": "码头",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "半潜驳",
+        "relation": "connects_to",
+        "object": "码头",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "滑道",
+        "relation": "located_at",
+        "object": "水平船台",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "滑道",
+        "relation": "located_at",
+        "object": "半潜驳甲板",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "拖移设备",
+        "relation": "uses",
+        "object": "船舶",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "半潜驳",
+        "relation": "has",
+        "object": "浮态",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "半潜驳",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "半潜驳",
+        "relation": "prepares_for",
+        "object": "下水",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "吃水",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "船舶",
+        "relation": "acts_on",
+        "object": "浮力",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "半潜驳",
+        "relation": "uses",
+        "object": "拖轮",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "水面",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "码头",
+        "chunk_id": "529"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "电动卷扬机",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "配套设备",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "电动卷扬机",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "电动卷扬机",
+        "relation": "uses",
+        "object": "钢丝绳",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "跟进式液压顶推及配套设备",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "跟进式液压顶推及配套设备",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "滑道",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "滑动摩擦",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "滚动摩擦",
+        "chunk_id": "530"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "高分子材料",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "液压式顶推设备",
+        "relation": "uses",
+        "object": "气垫",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "滚动式拖移",
+        "relation": "uses",
+        "object": "滚轴式工装滑道",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "滚动式拖移",
+        "relation": "uses",
+        "object": "滚珠",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "滚动式拖移",
+        "relation": "uses",
+        "object": "气囊",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "uses",
+        "object": "顶升气囊",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "uses",
+        "object": "滚动气囊",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "applied_to",
+        "object": "平地造船",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "has",
+        "object": "较低的地面承载力要求",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "has",
+        "object": "经济安全",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "requires",
+        "object": "底部结构平整",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "气囊拖移",
+        "relation": "requires",
+        "object": "重量不能过大",
+        "chunk_id": "532"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "海洋工程产品",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "applied_to",
+        "object": "船舶产品",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "韩国现代重工",
+        "relation": "uses",
+        "object": "平地造船技术",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "韩国现代重工",
+        "relation": "calls",
+        "object": "陆地总组装工法",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "陆地总组装工法",
+        "relation": "belongs_to",
+        "object": "平地造船",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "improves",
+        "object": "船坞和船台使用效率",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "improves",
+        "object": "陆地生产设备和资源利用率",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "belongs_to",
+        "object": "虚拟制造",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "applied_to",
+        "object": "新技术、新设备评估",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "船厂决策制定",
+        "chunk_id": "533"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "applied_to",
+        "object": "产品设计",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "applied_to",
+        "object": "工艺规划",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "applied_to",
+        "object": "加工制造",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "applied_to",
+        "object": "质量检验",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "applied_to",
+        "object": "企业管理与控制",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "数字化信息技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "计算机技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "图形图像处理",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "智能接口技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "人工智能技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "多传感器技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "网络技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "uses",
+        "object": "并行处理技术",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造",
+        "relation": "applied_to",
+        "object": "产品开发",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造",
+        "relation": "applied_to",
+        "object": "制造过程",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造",
+        "relation": "enables",
+        "object": "制造过程的决策与控制",
+        "chunk_id": "534"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "applied_to",
+        "object": "产品建造",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "inputs",
+        "object": "设计生产过程",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "inputs",
+        "object": "生产工艺",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "inputs",
+        "object": "工程管理",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "inputs",
+        "object": "物资配套",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "outputs",
+        "object": "优化",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "enables",
+        "object": "视觉、听觉、触觉等感觉信息",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "enables",
+        "object": "预测产品的功能",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "enables",
+        "object": "预测制造厂生产系统的状况",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "虚拟制造技术",
+        "relation": "enables",
+        "object": "实时优化方案",
+        "chunk_id": "535"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "applied_to",
+        "object": "船舶建造过程",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "建造工艺规划",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "建造过程演示",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "建造过程评估",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "part_of",
+        "object": "船舶虚拟建造技术",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "uses",
+        "object": "物流控制仿真",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "uses",
+        "object": "生产调度仿真",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "uses",
+        "object": "建造工艺仿真",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "inputs",
+        "object": "船舶建造过程",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "outputs",
+        "object": "流程模型",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "affects",
+        "object": "生产成本",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "affects",
+        "object": "产品质量",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "improves",
+        "object": "资源配置",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "improves",
+        "object": "设备使用率",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造工艺规划",
+        "relation": "improves",
+        "object": "劳动力使用率",
+        "chunk_id": "536"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "based_on",
+        "object": "建造工艺规划",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "零部件的加工",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "船体结构的焊接",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "舾装",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "涂装",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "工人的工作过程",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "机器设备的工作过程",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "物流控制",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的虚拟演示",
+        "relation": "contains",
+        "object": "生产调度",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的评估",
+        "relation": "part_of",
+        "object": "船舶虚拟建造",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的评估",
+        "relation": "includes",
+        "object": "生产过程评估",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的评估",
+        "relation": "includes",
+        "object": "制造成本估算",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "建造过程的评估",
+        "relation": "includes",
+        "object": "制造时间评估",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "生产过程评估",
+        "relation": "involves",
+        "object": "具体建造工艺仿真验证",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造成本估算",
+        "relation": "includes",
+        "object": "材料",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造成本估算",
+        "relation": "includes",
+        "object": "人工",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造成本估算",
+        "relation": "includes",
+        "object": "配套设备",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造成本估算",
+        "relation": "includes",
+        "object": "项目管理",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造时间评估",
+        "relation": "includes",
+        "object": "零部件的加工",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造时间评估",
+        "relation": "includes",
+        "object": "配套设备的采购",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造时间评估",
+        "relation": "includes",
+        "object": "结构焊接",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造时间评估",
+        "relation": "includes",
+        "object": "舾装",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "制造时间评估",
+        "relation": "includes",
+        "object": "涂装",
+        "chunk_id": "537"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "applied_to",
+        "object": "新技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "applied_to",
+        "object": "新设备",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "applied_to",
+        "object": "船厂",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "采购策略制定",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "规划制定",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造技术",
+        "relation": "enables",
+        "object": "投资决策制定",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "虚拟企业建模技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "运行和操作的仿真技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "综合可视化技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "模型部件的组织技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "工作和信息流程控制技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "碰撞的求解技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "验证技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "数据库技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "人工智能技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "系统集成技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "船舶虚拟建造",
+        "relation": "contains",
+        "object": "协同求解技术",
+        "chunk_id": "538"
+    },
+    {
+        "subject": "数学建模技术",
+        "relation": "contains",
+        "object": "工艺信息的特征模型",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "数学建模技术",
+        "relation": "contains",
+        "object": "设备加工能力模型",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "数学建模技术",
+        "relation": "contains",
+        "object": "生产能力模型",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "工艺信息的特征模型",
+        "relation": "enables",
+        "object": "建造工艺分析",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "工艺信息的特征模型",
+        "relation": "enables",
+        "object": "加工过程仿真",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "设备加工能力模型",
+        "relation": "used_for",
+        "object": "零件可制造性分析",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "设备加工能力模型",
+        "relation": "used_for",
+        "object": "加工单元布局",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "设备加工能力模型",
+        "relation": "used_for",
+        "object": "制造成本估算",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "设备加工能力模型",
+        "relation": "used_for",
+        "object": "生产能力平衡",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "设备加工能力模型",
+        "relation": "used_for",
+        "object": "优化生产布局",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "设备加工能力模型",
+        "relation": "used_for",
+        "object": "优化调度方案",
+        "chunk_id": "539"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "切割",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "辊轧",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "线加热",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "焊接",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "喷涂",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "合拢",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "applied_to",
+        "object": "吊装",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "uses",
+        "object": "可制造性分析",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "uses",
+        "object": "计算机辅助工艺规划",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学描述技术",
+        "relation": "uses",
+        "object": "制造过程的动态描述",
+        "chunk_id": "540"
+    },
+    {
+        "subject": "数学仿真技术",
+        "relation": "uses",
+        "object": "三维模型",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数学仿真技术",
+        "relation": "uses",
+        "object": "数学模型",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数学仿真技术",
+        "relation": "uses",
+        "object": "虚拟现实技术",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数学仿真技术",
+        "relation": "applied_to",
+        "object": "船舶建造过程",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数学仿真技术",
+        "relation": "acts_on",
+        "object": "可操作性",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数学仿真技术",
+        "relation": "acts_on",
+        "object": "可维护性",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数字接口技术",
+        "relation": "enables",
+        "object": "数据共享",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数字接口技术",
+        "relation": "enables",
+        "object": "数据转换",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "数字接口技术",
+        "relation": "applied_to",
+        "object": "船舶虚拟建造系统",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "enables",
+        "object": "三维显示",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "enables",
+        "object": "漫游",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "applied_to",
+        "object": "船舶产品设计评估",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "applied_to",
+        "object": "方案评审",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "applied_to",
+        "object": "优化",
+        "chunk_id": "541"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "enables",
+        "object": "三维设计",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "uses",
+        "object": "数学建模软件平台",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "uses",
+        "object": "投影系统",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "uses",
+        "object": "用户交互系统",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "船舶产品虚拟漫游系统",
+        "relation": "uses",
+        "object": "图形与计算系统",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "SPNavis系统",
+        "relation": "belongs_to",
+        "object": "船舶产品虚拟漫游系统",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "SPNavis系统",
+        "relation": "enables",
+        "object": "碰撞检测",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "数学建模软件平台",
+        "relation": "part_of",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "投影系统",
+        "relation": "part_of",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "用户交互系统",
+        "relation": "part_of",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "图形与计算系统",
+        "relation": "part_of",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "542"
+    },
+    {
+        "subject": "数学建模软件平台",
+        "relation": "contains",
+        "object": "数学建模软件",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "数学建模软件平台",
+        "relation": "contains",
+        "object": "数学描述和仿真软件",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "数学建模软件平台",
+        "relation": "contains",
+        "object": "数据接口软件",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "投影系统",
+        "relation": "contains",
+        "object": "投影机",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "投影系统",
+        "relation": "contains",
+        "object": "投影屏幕",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "用户交互系统",
+        "relation": "contains",
+        "object": "跟踪器",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "用户交互系统",
+        "relation": "contains",
+        "object": "数据手套",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "用户交互系统",
+        "relation": "contains",
+        "object": "操纵杆",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "用户交互系统",
+        "relation": "contains",
+        "object": "力反馈设备",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "用户交互系统",
+        "relation": "contains",
+        "object": "立体声音像设备",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "图形与计算系统",
+        "relation": "enables",
+        "object": "虚拟环境",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "图形与计算系统",
+        "relation": "acts_on",
+        "object": "用户交互信息",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "图形与计算系统",
+        "relation": "requires",
+        "object": "高图形能力",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "图形与计算系统",
+        "relation": "requires",
+        "object": "高计算能力",
+        "chunk_id": "543"
+    },
+    {
+        "subject": "背投弧形屏幕系统",
+        "relation": "belongs_to",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "544"
+    },
+    {
+        "subject": "CA-VE系统",
+        "relation": "belongs_to",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "544"
+    },
+    {
+        "subject": "HOLOSPACE系统",
+        "relation": "belongs_to",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "544"
+    },
+    {
+        "subject": "MoVE系统",
+        "relation": "belongs_to",
+        "object": "船舶产品虚拟沉浸式漫游环境",
+        "chunk_id": "544"
+    },
+    {
+        "subject": "船舶产品虚拟沉浸式漫游环境",
+        "relation": "developed_by",
+        "object": "数字化造船",
+        "chunk_id": "544"
+    },
+    {
+        "subject": "商船",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "LNG船",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "散货船",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "船舶设计",
+        "relation": "precedes",
+        "object": "船舶建造",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "概念设计",
+        "relation": "refines",
+        "object": "初步设计",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "refines",
+        "object": "合同设计",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "设计螺旋线",
+        "relation": "used_in",
+        "object": "初始设计",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "设计螺旋线",
+        "relation": "describes",
+        "object": "设计过程",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "船舶建造",
+        "relation": "requires",
+        "object": "设计准备",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "设计准备",
+        "relation": "contains",
+        "object": "概念设计",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "设计准备",
+        "relation": "contains",
+        "object": "初步设计",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "设计准备",
+        "relation": "contains",
+        "object": "合同设计",
+        "chunk_id": "545"
+    },
+    {
+        "subject": "概念设计",
+        "relation": "outputs",
+        "object": "信息",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "商船",
+        "relation": "has",
+        "object": "净现值",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "商船",
+        "relation": "has",
+        "object": "贴现现金流",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "商船",
+        "relation": "has",
+        "object": "要求运费率",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "refines",
+        "object": "概念设计",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "outputs",
+        "object": "主尺度",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "outputs",
+        "object": "排水量",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "outputs",
+        "object": "稳性",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "outputs",
+        "object": "推进特性",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "outputs",
+        "object": "船型",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "初步设计",
+        "relation": "outputs",
+        "object": "总布置",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "precedes",
+        "object": "船舶建造",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "inputs",
+        "object": "概念设计",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "inputs",
+        "object": "初步设计",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "outputs",
+        "object": "船舶布置",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "outputs",
+        "object": "船舶系统",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "affects",
+        "object": "建造周期",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "合同设计",
+        "relation": "affects",
+        "object": "建造成本",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "船舶设计",
+        "relation": "outputs",
+        "object": "信息",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "船舶建造",
+        "relation": "inputs",
+        "object": "合同设计",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "船舶建造",
+        "relation": "affects",
+        "object": "建造周期",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "船舶建造",
+        "relation": "affects",
+        "object": "建造成本",
+        "chunk_id": "546"
+    },
+    {
+        "subject": "船舶",
+        "relation": "determines",
+        "object": "主尺度",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "横稳性",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "船体强度",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "纵向弯曲应力",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "排水量",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船宽",
+        "relation": "determines",
+        "object": "横稳性",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "最小型深",
+        "relation": "determines",
+        "object": "吃水",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "型深",
+        "relation": "affects",
+        "object": "纵向弯曲应力",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "型深",
+        "relation": "affects",
+        "object": "船体强度",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "型深",
+        "relation": "affects",
+        "object": "构件",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "吃水",
+        "relation": "constrained_by",
+        "object": "航行水域",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船舶",
+        "relation": "constrained_by",
+        "object": "巴拿马运河",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船舶",
+        "relation": "constrained_by",
+        "object": "圣劳伦斯水道",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船舶",
+        "relation": "constrained_by",
+        "object": "马六甲海峡",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "船舶",
+        "relation": "constrained_by",
+        "object": "苏伊士运河",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "集装箱船",
+        "relation": "constrained_by",
+        "object": "杰拉德德斯蒙德大桥",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "集装箱船",
+        "relation": "constrained_by",
+        "object": "加利福尼亚长滩大桥",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "集装箱船",
+        "relation": "constrained_by",
+        "object": "纽约巴约纳大桥",
+        "chunk_id": "547"
+    },
+    {
+        "subject": "苏伊士运河",
+        "relation": "constrained_by",
+        "object": "主尺度",
+        "chunk_id": "548"
+    },
+    {
+        "subject": "博斯普鲁斯海峡",
+        "relation": "constrained_by",
+        "object": "主尺度",
+        "chunk_id": "548"
+    },
+    {
+        "subject": "排水量",
+        "relation": "determines",
+        "object": "载重量",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "排水量",
+        "relation": "determines",
+        "object": "空船重量",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "空船重量",
+        "relation": "composes",
+        "object": "排水量",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "composes",
+        "object": "排水量",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "货物重量",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "燃油",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "压载水",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "淡水",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "海员",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "乘客",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "载重量",
+        "relation": "includes",
+        "object": "行李",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "主尺度",
+        "relation": "affects",
+        "object": "静稳性",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "船宽",
+        "relation": "affects",
+        "object": "静稳性",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "船深",
+        "relation": "affects",
+        "object": "静稳性",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "法定干舷",
+        "relation": "affects",
+        "object": "静稳性",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "舷弧",
+        "relation": "affects",
+        "object": "静稳性",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "铁矿石",
+        "relation": "affects",
+        "object": "强度",
+        "chunk_id": "549"
+    },
+    {
+        "subject": "强度",
+        "relation": "affects",
+        "object": "空船重量",
+        "chunk_id": "549"
+    }
+]

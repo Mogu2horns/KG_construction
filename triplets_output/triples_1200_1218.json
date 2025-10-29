@@ -1,0 +1,2444 @@
+[
+    {
+        "subject": "船底漆",
+        "relation": "contains",
+        "object": "船底防锈漆",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底漆",
+        "relation": "contains",
+        "object": "船底防污漆",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底防锈漆",
+        "relation": "uses",
+        "object": "沥青",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底防锈漆",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底防锈漆",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底防污漆",
+        "relation": "uses",
+        "object": "松香",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底防污漆",
+        "relation": "uses",
+        "object": "沥青",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船底防污漆",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "水线漆",
+        "relation": "uses",
+        "object": "酚醛树脂",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "水线漆",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "水线漆",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "水线漆",
+        "relation": "uses",
+        "object": "松香",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "uses",
+        "object": "干性油",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "uses",
+        "object": "酚醛树脂",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "uses",
+        "object": "醇酸树脂",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "1200"
+    },
+    {
+        "subject": "甲板漆",
+        "relation": "uses",
+        "object": "酚醛树脂",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "甲板漆",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "甲板漆",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "聚氨酯",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "沥青",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "干性油",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "醇酸树脂",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "防火漆",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "标志漆",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "舱室漆",
+        "relation": "uses",
+        "object": "锚链漆",
+        "chunk_id": "1201"
+    },
+    {
+        "subject": "物理干燥涂料",
+        "relation": "uses",
+        "object": "溶剂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "物理干燥涂料",
+        "relation": "contains",
+        "object": "氯化橡胶",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "物理干燥涂料",
+        "relation": "contains",
+        "object": "乙烯",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "物理干燥涂料",
+        "relation": "contains",
+        "object": "沥青",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "物理干燥涂料",
+        "relation": "contains",
+        "object": "合成树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "化学干燥涂料",
+        "relation": "uses",
+        "object": "固化剂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "化学干燥涂料",
+        "relation": "contains",
+        "object": "环氧树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "化学干燥涂料",
+        "relation": "contains",
+        "object": "聚氨酯",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "粘结剂",
+        "relation": "contains",
+        "object": "天然树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "粘结剂",
+        "relation": "contains",
+        "object": "矿物质沥青",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "粘结剂",
+        "relation": "contains",
+        "object": "合成树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "contains",
+        "object": "醇酸树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "contains",
+        "object": "乙烯树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "contains",
+        "object": "环氧树脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "contains",
+        "object": "氯化橡胶",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "contains",
+        "object": "聚氨酯",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "contains",
+        "object": "硅酸脂",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "has",
+        "object": "耐化学性",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "belongs_to",
+        "object": "高性能涂料",
+        "chunk_id": "1202"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "used_in",
+        "object": "上层建筑部",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "used_in",
+        "object": "外舷部",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "耐盐水性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "可挠性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "光泽保持力",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "耐脂肪族溶剂性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "耐热性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "has",
+        "object": "耐冲击性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "used_in",
+        "object": "船舶涂装",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "耐化学品性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "附着力",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "耐热性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "柔韧性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "has",
+        "object": "混溶性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "used_in",
+        "object": "油舱",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "used_in",
+        "object": "货舱",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "used_in",
+        "object": "船底部",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "耐化学品性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "耐盐性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "粘附性",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "双组分",
+        "chunk_id": "1203"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "uses",
+        "object": "油舱",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "uses",
+        "object": "货舱",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "uses",
+        "object": "船底部",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "耐化学品性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "耐盐性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "附着力",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "has",
+        "object": "力学性能",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "affects",
+        "object": "环境温度",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "uses",
+        "object": "甲板",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "uses",
+        "object": "甲板室",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "uses",
+        "object": "枪杆",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "uses",
+        "object": "吊杆",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "has",
+        "object": "耐化学品性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "has",
+        "object": "耐久性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "has",
+        "object": "复涂性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "has",
+        "object": "干燥快",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "uses",
+        "object": "外舷部",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "uses",
+        "object": "甲板部",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "uses",
+        "object": "液舱",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "快干性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "耐油性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "耐化学品性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "附着力",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "聚氨酯树脂",
+        "relation": "has",
+        "object": "复涂性",
+        "chunk_id": "1204"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "applied_to",
+        "object": "外舷部",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "applied_to",
+        "object": "甲板部",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "applied_to",
+        "object": "液舱",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "applied_to",
+        "object": "甲板漆",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "applied_to",
+        "object": "车间底漆",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "applied_to",
+        "object": "底漆",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "has",
+        "object": "阴极保护",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "contains",
+        "object": "锌粉",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "contains",
+        "object": "硅酸钠",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "无机锌漆",
+        "relation": "contains",
+        "object": "硝酸钾",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "富锌漆",
+        "relation": "belongs_to",
+        "object": "无机锌漆",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "低锌漆",
+        "relation": "belongs_to",
+        "object": "无机锌漆",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "锌粉",
+        "relation": "has",
+        "object": "阴极保护",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "锌粉",
+        "relation": "used_in",
+        "object": "阴极保护",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "钢材",
+        "relation": "requires",
+        "object": "表面处理",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "表面处理",
+        "relation": "has",
+        "object": "Sa2.5级",
+        "chunk_id": "1205"
+    },
+    {
+        "subject": "船舶涂料",
+        "relation": "belongs_to",
+        "object": "涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "常规涂料",
+        "relation": "part_of",
+        "object": "船舶涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "高性能涂料",
+        "relation": "part_of",
+        "object": "船舶涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "沥青",
+        "relation": "used_in",
+        "object": "常规涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "油脂",
+        "relation": "used_in",
+        "object": "常规涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "used_in",
+        "object": "常规涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "酚醛树脂",
+        "relation": "used_in",
+        "object": "常规涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "天然树脂",
+        "relation": "used_in",
+        "object": "常规涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "合成树脂",
+        "relation": "used_in",
+        "object": "高性能涂料",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "有机溶剂",
+        "relation": "used_in",
+        "object": "船舶漆",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "水性化",
+        "relation": "applied_to",
+        "object": "船舶漆",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "无溶剂化",
+        "relation": "applied_to",
+        "object": "船舶漆",
+        "chunk_id": "1206"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "uses",
+        "object": "水",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "分段涂装",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "狭窄处",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "通风不良区域",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "机舱",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "锅炉舱",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "泵舱",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "货舱",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "居住舱室",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "水系漆",
+        "relation": "applied_to",
+        "object": "走廊",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "带锈底漆",
+        "relation": "applied_to",
+        "object": "轻微锈蚀的钢材表面",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "带锈底漆",
+        "relation": "has",
+        "object": "转化型",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "带锈底漆",
+        "relation": "has",
+        "object": "稳定型",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "带锈底漆",
+        "relation": "has",
+        "object": "渗透型",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "转化型",
+        "relation": "acts_on",
+        "object": "铁锈",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "渗透型",
+        "relation": "acts_on",
+        "object": "铁锈",
+        "chunk_id": "1207"
+    },
+    {
+        "subject": "底漆",
+        "relation": "has",
+        "object": "韧性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "底漆",
+        "relation": "has",
+        "object": "硬度",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "底漆",
+        "relation": "has",
+        "object": "干燥收缩性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "底漆",
+        "relation": "has",
+        "object": "结合力",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "底漆",
+        "relation": "has",
+        "object": "相互适应性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "底漆",
+        "relation": "has",
+        "object": "耐强溶剂性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "面漆",
+        "relation": "has",
+        "object": "韧性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "面漆",
+        "relation": "has",
+        "object": "硬度",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "面漆",
+        "relation": "has",
+        "object": "干燥收缩性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "缓蚀性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "防污性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "防锈性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐干湿交替性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "缓蚀性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "漆膜韧性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "装饰性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "附着力",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "防滑性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "has",
+        "object": "耐久性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "has",
+        "object": "耐盐性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "has",
+        "object": "耐油性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "has",
+        "object": "防蚀性",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "阴极保护",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "预处理",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "涂漆",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "腐蚀",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "电化学腐蚀",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "温度",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "涂料",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "底漆",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "面漆",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "溶剂",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "漆膜",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "钢板",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "船体钢材",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "钢材",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "船底",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "水线",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "水线部",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "外舷部",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "甲板部",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "上层建筑部",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "船舱部",
+        "chunk_id": "1208"
+    },
+    {
+        "subject": "船底部",
+        "relation": "affects",
+        "object": "腐蚀作用",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "affects",
+        "object": "表面粗糙度",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "affects",
+        "object": "航速",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "affects",
+        "object": "油耗",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "affects",
+        "object": "经济性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "uses",
+        "object": "牺牲阳极",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "uses",
+        "object": "外加电流",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "防锈性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "耐碱性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "缓蚀性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "防污性",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "contains",
+        "object": "防蚀漆",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "contains",
+        "object": "防污漆",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "船底部",
+        "relation": "has",
+        "object": "涂层厚度",
+        "chunk_id": "1209"
+    },
+    {
+        "subject": "水线部",
+        "relation": "contains",
+        "object": "水",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "contains",
+        "object": "波浪",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "contains",
+        "object": "码头",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "contains",
+        "object": "浮物",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "防锈性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐干湿交替性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "缓蚀性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "漆膜韧性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "机械强度",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐摩擦",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐冲击",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "耐碱性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "uses",
+        "object": "防蚀漆",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "uses",
+        "object": "水线漆",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "水线部",
+        "relation": "has",
+        "object": "涂层厚度",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "contains",
+        "object": "干舷",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "contains",
+        "object": "上层建筑",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "contains",
+        "object": "露天甲板",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "contains",
+        "object": "甲板舾装件",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "has",
+        "object": "防锈性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "has",
+        "object": "抗冲击",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "has",
+        "object": "耐摩擦",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "has",
+        "object": "保色性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "大气曝露部",
+        "relation": "has",
+        "object": "保光性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "甲板漆",
+        "relation": "has",
+        "object": "防滑性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "甲板漆",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1210"
+    },
+    {
+        "subject": "液舱",
+        "relation": "contains",
+        "object": "压载水舱",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "液舱",
+        "relation": "contains",
+        "object": "饮水舱",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "液舱",
+        "relation": "contains",
+        "object": "燃油舱",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "液舱",
+        "relation": "contains",
+        "object": "滑油舱",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "液舱",
+        "relation": "contains",
+        "object": "货油舱",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "压载水舱",
+        "relation": "requires",
+        "object": "耐水性",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "压载水舱",
+        "relation": "requires",
+        "object": "耐盐雾",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "压载水舱",
+        "relation": "requires",
+        "object": "耐干湿交替",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "压载水舱",
+        "relation": "requires",
+        "object": "抗腐蚀性能",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "饮水舱",
+        "relation": "requires",
+        "object": "耐水性",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "饮水舱",
+        "relation": "requires",
+        "object": "不污染水质",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "燃油舱",
+        "relation": "requires",
+        "object": "清洁表面",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "燃油舱",
+        "relation": "uses",
+        "object": "石油树脂漆",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "燃油舱",
+        "relation": "uses",
+        "object": "车间底漆",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "滑油舱",
+        "relation": "requires",
+        "object": "清洁表面",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "滑油舱",
+        "relation": "uses",
+        "object": "石油树脂漆",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "滑油舱",
+        "relation": "uses",
+        "object": "车间底漆",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "循环滑油舱",
+        "relation": "uses",
+        "object": "环氧树脂类耐油涂料",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "货油舱",
+        "relation": "requires",
+        "object": "耐油性",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "货油舱",
+        "relation": "requires",
+        "object": "耐水性",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "货油舱",
+        "relation": "requires",
+        "object": "耐交替装载性能",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "成品油船货油舱",
+        "relation": "requires",
+        "object": "特涂处理",
+        "chunk_id": "1211"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "燃油舱",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "滑油舱",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "防锈性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "耐油性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "涂料",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "涂料",
+        "relation": "requires",
+        "object": "船检部门许可证",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "房舱",
+        "relation": "has",
+        "object": "防锈性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "房舱",
+        "relation": "has",
+        "object": "装饰性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "房舱",
+        "relation": "has",
+        "object": "防火安全",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "房舱",
+        "relation": "has",
+        "object": "涂料",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "房舱",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "房舱",
+        "relation": "has",
+        "object": "涂料",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "装饰性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "附着力",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "防锈漆",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "船壳漆",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "防锈漆",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "has",
+        "object": "颜色",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "船壳漆",
+        "relation": "has",
+        "object": "光泽",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "外舷部",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1212"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "uses",
+        "object": "防锈漆",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "uses",
+        "object": "甲板漆",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "防滑性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "耐水性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "甲板部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "uses",
+        "object": "防锈漆",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "uses",
+        "object": "枪杆漆",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "has",
+        "object": "耐候性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "has",
+        "object": "耐久性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "上层建筑部",
+        "relation": "has",
+        "object": "耐盐性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "uses",
+        "object": "防锈漆",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "uses",
+        "object": "船舱漆",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "has",
+        "object": "耐磨性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "has",
+        "object": "耐油性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "船舱部",
+        "relation": "has",
+        "object": "防蚀性",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "has",
+        "object": "涂层性能标准",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "has",
+        "object": "PSPC",
+        "chunk_id": "1213"
+    },
+    {
+        "subject": "PSPC",
+        "relation": "belongs_to",
+        "object": "国际海事组织",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "PSPC",
+        "relation": "applied_to",
+        "object": "专用海水压载舱",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "PSPC",
+        "relation": "applied_to",
+        "object": "散货船双舷侧处所",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "produces",
+        "object": "PSPC",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "refines",
+        "object": "专用海水压载舱防腐系统的选择应用和指南",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "refines",
+        "object": "压载水舱的涂层防护体系和表面处理指导原则",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "国际船级社协会",
+        "relation": "collaborates_with",
+        "object": "航运工业界",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "国际船级社协会",
+        "relation": "collaborates_with",
+        "object": "国际海事组织",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "船舶设计与设备分委会",
+        "relation": "responsible_for",
+        "object": "制定PSPC",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "联合工作组",
+        "relation": "develops",
+        "object": "PSPC草案",
+        "chunk_id": "1214"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "专用海水压载舱",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "散货船",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "双舷侧",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "散货船",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "油船",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "PSPC标准",
+        "relation": "applied_to",
+        "object": "龙骨",
+        "chunk_id": "1215"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "使用寿命",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "水溶性盐含量",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "颗粒大小",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "粗糙度",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "清洁度",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "表面处理",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "底漆",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "人工打磨",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "真空喷砂处理",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "相对湿度",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "表面温度",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "露点温度",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "涂料商",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "检查",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "认可",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "检查人员资质",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "验证",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "造船厂",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "造船模式",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "造船工艺流程",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "实验测试设备",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "检验",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "认可机构",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "下水方式",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "船舶下水",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "涂层",
+        "relation": "has",
+        "object": "下水设施",
+        "chunk_id": "1216"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "part_of",
+        "object": "船舶建造",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "uses",
+        "object": "重力式下水",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "uses",
+        "object": "漂浮式下水",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "uses",
+        "object": "机械化下水",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "重力式下水",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "漂浮式下水",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "机械化下水",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "漂浮式下水",
+        "relation": "belongs_to",
+        "object": "下水方式",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "机械化下水",
+        "relation": "belongs_to",
+        "object": "下水方式",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "重力式下水",
+        "relation": "belongs_to",
+        "object": "下水方式",
+        "chunk_id": "1217"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "下水油脂",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "滑板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "滑道",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "支架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "牵引设备",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "导向挡板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "制动装置",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "纵向涂油滑道下水",
+        "relation": "uses",
+        "object": "驱动装置",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑板",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "滑板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑板",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "支架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "前支架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "后支架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水油脂",
+        "relation": "reduces",
+        "object": "摩擦阻力",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑道",
+        "relation": "contains",
+        "object": "滑板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑道",
+        "relation": "contains",
+        "object": "下水架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水架",
+        "relation": "contains",
+        "object": "滑板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水架",
+        "relation": "contains",
+        "object": "支架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "滑道",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "下水架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "滑板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "支架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "牵引设备",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "导向挡板",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "制动装置",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水设施",
+        "relation": "contains",
+        "object": "驱动装置",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑道",
+        "relation": "part_of",
+        "object": "船台",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水架",
+        "relation": "part_of",
+        "object": "船台",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑板",
+        "relation": "part_of",
+        "object": "下水架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "支架",
+        "relation": "part_of",
+        "object": "下水架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "前支架",
+        "relation": "part_of",
+        "object": "下水架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "后支架",
+        "relation": "part_of",
+        "object": "下水架",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑道",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "下水架",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "滑板",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "支架",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "牵引设备",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "导向挡板",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "制动装置",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    },
+    {
+        "subject": "驱动装置",
+        "relation": "part_of",
+        "object": "下水设施",
+        "chunk_id": "1218"
+    }
+]

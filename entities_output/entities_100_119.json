@@ -1,0 +1,4308 @@
+[
+    {
+        "entity_name": "可展曲面",
+        "type": [
+            "曲面类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能够通过几何作图法精确求出其展开真实形状的曲面，大部分船体内部构件和舾装件属于此类。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "不可展曲面",
+        "type": [
+            "曲面类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "无法通过几何作图法求得其精确展开图形的曲面，船体外板曲面多属于此类。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "几何作图法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于展开船体构件的几何作图方法，包括准线法和撑线法两大类。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "准线法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体外板展开中使用的方法，通过作出一条准线作为四边形的几何约束，求取外板的近似展开尺寸和形状。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "撑线法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于展开船体外板的方法，将外板分成小三角形，求取三边实长，再用三角形作图法求得展开，该方法在手工放样中较少使用。 | 一种船体构件展开方法，通过在各四边形上加一条对角线，并近似认为其展开后为一直线，以“撑住”四边形，使其唯一地定形。 | 一种船体构件展开方法，通过在各四边形上加一条对角线，并近似认为其展开后为一直线，用以定形四边形，从而得到展开图。",
+        "chunk_ids": [
+            100,
+            104,
+            105
+        ]
+    },
+    {
+        "entity_name": "肋骨型线图",
+        "type": [
+            "设计图纸",
+            "图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于展开船体构件的图纸，通过其获取投影线实长、肋骨弯度等关键参数。 | 用于表示船体肋骨剖线的图纸，是外板展开和肋骨弯度计算的重要依据。 | 用于表示船体肋骨剖线的图纸，是外板展开和肋骨弯度计算的重要依据。 | 描述船体肋骨剖线的图纸，用于船体结构展开和计算，是展开工艺的重要依据。 | 用于表示船体肋骨线形状的图纸，是船体设计和展开的重要依据，测地线法展开外板时需在该图上作出测地线的投影线。",
+        "chunk_ids": [
+            100,
+            101,
+            102,
+            103
+        ]
+    },
+    {
+        "entity_name": "投影线实长",
+        "type": [
+            "测量参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体表面上纵向曲线的真实长度，通过几何作图法求得，用于展开船体构件。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "肋骨弯度",
+        "type": [
+            "结构参数",
+            "工艺参数",
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板展开时产生的拱度，由外板曲面与肋骨剖面的不重合引起，其值与外板弯曲或倾斜程度有关。 | 用于描述外板展开时各肋骨位置的弯曲程度，其度量方向决定外板展开图中肋骨弯度的延伸方向，通常与肋骨型线图上对应肋骨曲线的弯曲方向一致。 | 船体外板展开过程中，位于两个肋位之间的弯曲部分，需通过测量和几何作图确定其位置和方向。 | 肋骨线在展开图上的弯曲程度，通过测量肋骨线在展开图上的长度来确定，用于外板展开过程中定位肋骨线。 | 指肋骨在船体结构中的弯曲程度，需在肋骨型线图上垂线 $overline{O_4a_3}$ 上量取，用于外板展开计算。",
+        "chunk_ids": [
+            100,
+            101,
+            102,
+            103,
+            104
+        ]
+    },
+    {
+        "entity_name": "准线",
+        "type": [
+            "结构要素",
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定四边形各边相对位置的几何约束线，是展开船体构件时的重要参考。 | 在船体外板展开过程中作为基准线使用的曲线，相当于圆柱面的母线，用于确定外板展开形状。",
+        "chunk_ids": [
+            100,
+            101
+        ]
+    },
+    {
+        "entity_name": "基准肋骨",
+        "type": [
+            "结构要素",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在准线法展开外板时作为起始点的肋骨，其肋骨弯度被用作整张板的基准。 | 在船体外板展开过程中作为起始点的肋骨，用于减少展开误差，其肋骨弯度作为整张外板的基准。",
+        "chunk_ids": [
+            100,
+            101
+        ]
+    },
+    {
+        "entity_name": "肋骨剖面",
+        "type": [
+            "结构要素",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述肋骨形状的剖面，与外板曲面的法向剖面不重合，导致肋骨弯度的产生。 | 船体纵向构件的截面形状，用于描述肋骨剖线的几何特性，影响展开方法的选择。 | 船体结构中的纵向构件，用于支撑船体并形成船体外形，其剖面样板高度不小于250~300mm。",
+        "chunk_ids": [
+            100,
+            101,
+            107
+        ]
+    },
+    {
+        "entity_name": "展开图",
+        "type": [
+            "设计图纸",
+            "图纸资料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件的展开图形，由多个四边形小块依次拼接而成，需结合准线和肋骨弯度进行绘制。 | 船体构件展开后的二维图形，用于指导实际制造和装配，其形状由肋骨弯度、准线和肋骨剖线共同决定。 | 船体外板的平面展开图，通过测地线法绘制，用于指导船体制造和装配。 | 船体构件根据撑线法或其他展开方法绘制的图形，用于后续的号料、加工、装配及检验。",
+        "chunk_ids": [
+            100,
+            101,
+            103,
+            105
+        ]
+    },
+    {
+        "entity_name": "肋骨线",
+        "type": [
+            "结构要素",
+            "设计参数",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体表面的纵向结构线，用于确定外板展开时的几何关系和肋骨弯度。 | 在肋骨型线图中表示肋骨剖面的线条，用于计算肋骨弯度和确定外板展开形状。 | 船体结构中的纵向构件，用于支撑船体并形成船体外形，其在肋骨型线图上的投影用于测地线法展开外板。 | 船体结构中用于定义船体横向轮廓的线条，测地线展开过程中需贯穿全部肋骨线以确保展开准确性。 | 船体结构中的一条纵向曲线，用于表示船舶在不同横截面处的形状，是外板展开计算和结构零件生成的重要依据。",
+        "chunk_ids": [
+            100,
+            101,
+            103,
+            104,
+            110
+        ]
+    },
+    {
+        "entity_name": "肋骨间距",
+        "type": [
+            "测量参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "相邻肋骨之间的距离，用于计算投影线实长，通常取一个肋距。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "肋骨弯度（冲势）",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板展开时产生的拱度，由外板曲面与肋骨剖面的不重合引起，其值与外板弯曲或倾斜程度有关。",
+        "chunk_ids": [
+            100
+        ]
+    },
+    {
+        "entity_name": "外板",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，由钢板制成，用于构成船体的外侧表面，其展开形状需通过肋骨弯度和准线确定。 | 船体结构的一部分，通常采用展开工艺进行加工，如十字线法或测地线法展开。 | 船体的外侧结构，由钢板拼接而成，用于形成船体外形并承受外部水压，其展开图通过测地线法进行绘制。",
+        "chunk_ids": [
+            101,
+            102,
+            103
+        ]
+    },
+    {
+        "entity_name": "纵向构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中沿船长方向延伸的构件，包括肋骨剖面垂直于肋骨型线或基线的类型，其展开方法依据其几何特性不同而有所区别。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "垂直准线法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船体纵向构件展开的工艺方法，通过在肋骨型线图上作出准线投影线，并求出构件纵缝线和准线的实长，以展开构件形状。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "旁底桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的一种纵向构件，其肋骨剖线为相互平行的直线，属于非扭曲型构件，可通过垂直准线法展开。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "扭曲状舷侧纵桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的一种纵向构件，其肋骨剖线为相互不平行的直线，属于不可展曲面，需采用分段展开的方法进行近似展开。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "分段展开",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于处理不可展曲面构件（如扭曲状舷侧纵桁）的展开方法，通过将构件分段并分别展开，以近似获得整体展开形状。 | 一种用于扭曲状舷侧纵桁展开的工艺方法，通过在肋骨型线图上作垂直准线并分段展开，以近似地得到展开图形。",
+        "chunk_ids": [
+            101,
+            102
+        ]
+    },
+    {
+        "entity_name": "肋骨剖线",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述船体肋骨剖面形状的线条，用于确定船体结构的几何特性，影响外板展开和纵向构件的展开方法。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "弦线",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在肋骨型线图中连接肋骨剖线两端的直线，用于计算肋骨弯度和确定外板展开形状。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "准线投影线",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在肋骨型线图上用于表示准线的投影线，是垂直准线法展开纵向构件的重要参考线。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "纵缝线",
+        "type": [
+            "设计参数",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板展开过程中用于连接各肋骨剖线的曲线，是确定外板形状的重要依据。 | 船体结构中的纵向接缝线，用于连接不同肋骨或分段，其与肋骨线的交点用于外板展开时的定位。",
+        "chunk_ids": [
+            101,
+            103
+        ]
+    },
+    {
+        "entity_name": "肋骨弯度计算法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算肋骨弯度的数学方法，包括作图法和计算法，其中计算法基于三角形相似定律，公式为 $ s = \frac {k m}{sqrt {L ^ {2} + k ^ {2}}} $。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "肋骨弯度方向",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述肋骨弯度在展开图中的延伸方向，通常与肋骨型线图上对应肋骨曲线的弯曲方向一致，分为向首和向尾两种。",
+        "chunk_ids": [
+            101
+        ]
+    },
+    {
+        "entity_name": "舷侧纵桁",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船体结构构件，其肋骨剖线相互不平行，形成不可展的螺旋曲面，需采用分段展开的方法进行展开。",
+        "chunk_ids": [
+            102
+        ]
+    },
+    {
+        "entity_name": "垂直准线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在肋骨型线图上作的垂线，用于分段展开船体结构，如舷侧纵桁和外板，以确定展开图形的形状。",
+        "chunk_ids": [
+            102
+        ]
+    },
+    {
+        "entity_name": "十字线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于展开船体外板的准线方法，通过在肋骨型线图上作中间肋骨型线的中点垂线，作为展开的基准线。",
+        "chunk_ids": [
+            102
+        ]
+    },
+    {
+        "entity_name": "展开图形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过分段展开或十字线法等工艺得到的平面图形，用于指导船体结构的制造和装配。",
+        "chunk_ids": [
+            102
+        ]
+    },
+    {
+        "entity_name": "样条",
+        "type": [
+            "设备",
+            "工具设备",
+            "工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在肋骨型线图上量取投影线长的工具，常用于船体结构展开和测量。 | 用于在图纸上进行曲线绘制和光顺连接的工具，常用于船体外板展开过程中连接测地线交点和肋骨线。 | 用于连接逆直曲线离散点的数学工具，使曲线光顺，符合设计要求。",
+        "chunk_ids": [
+            102,
+            103,
+            119
+        ]
+    },
+    {
+        "entity_name": "测地线法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于展开船体外板的工艺方法，通过测地线确定展开路径，适用于复杂曲面结构。 | 一种用于船体外板展开的工艺方法，通过在肋骨型线图上作出测地线的投影线，使展开后为一直线，从而实现外板的展开。 | 一种外板展开计算方法，用于生成外板零件的展开数据，是目前外板计算程序选用的主要展开方法。",
+        "chunk_ids": [
+            102,
+            103,
+            110
+        ]
+    },
+    {
+        "entity_name": "测地线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接曲面上两定点的最短曲线，用于船体外板展开，其在展开图上可近似视为一直线，作为准线用于展开船体外板。 | 用于船体外板展开的一种方法，通过在肋骨型线图上确定测地线交点，并用样条光顺连接，形成展开图形的基准线。",
+        "chunk_ids": [
+            103,
+            104
+        ]
+    },
+    {
+        "entity_name": "扇形板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板的一种形状，其在肋骨型线图上的投影呈扇形，采用测地线法展开时需特别处理测地线的贯穿性。",
+        "chunk_ids": [
+            103
+        ]
+    },
+    {
+        "entity_name": "菱形板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板的一种形状，其在肋骨型线图上的投影呈菱形，采用测地线法展开时需调整测地线的作法以确保贯穿全部肋骨线。 | 在肋骨型线图上的投影形状像菱形的船体外板，其测地线展开法需要对测地线走向进行约束，以确保测地线贯穿全部肋骨线。",
+        "chunk_ids": [
+            103,
+            104
+        ]
+    },
+    {
+        "entity_name": "实长",
+        "type": [
+            "测量参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在展开图上测得的线段实际长度，用于确定肋骨线和纵缝线在展开图上的位置。 | 在撑线法展开过程中，对上口线、下口线和对角线进行测量得到的实际长度，用于绘制展开图。",
+        "chunk_ids": [
+            103,
+            105
+        ]
+    },
+    {
+        "entity_name": "统一测地线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通用的测地线作法，适用于扇形板和菱形板，其区别在于中间两肋骨线上测地线交点的选取不同，其他作法与菱形板测地线相同。",
+        "chunk_ids": [
+            104
+        ]
+    },
+    {
+        "entity_name": "舷墙板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的垂直构件，用于支撑船体侧面，其展开方法采用撑线法，在纵剖线图和半宽水线图上投影。 | 船体构件，通常被视为截锥面，其展开图通过撑线法进行绘制，上、下口垂线和对角线作为展开时的参考线。",
+        "chunk_ids": [
+            104,
+            105
+        ]
+    },
+    {
+        "entity_name": "样板",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体构件号料、加工、装配及检验的工具，包括号料样板、加工样板、装配画线样板和装配角度样板等。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "活络三角样板",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船体外板加工的可调铝质样板，通过计算机处理计算肋骨的法向面，可垂直外板放置，具有节省木材和人工、提高加工质量等优点。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件展开后，根据展开图形在钢板和型钢上精确绘制构件的工艺过程，包括样板号料、草图号料、投影号料和自动号料等方法。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "四边形",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在撑线法展开过程中，用于构成展开图形的基本几何形状，通过添加对角线进行定形。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "对角线",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在撑线法中用于定形四边形的线段，投影到纵剖线图上，用于计算实长并绘制展开图。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "上口线",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件展开图中的参考线，用于确定展开图形的形状，其实长用于三角形法计算。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "下口线",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件展开图中的参考线，用于确定展开图形的形状，其实长用于三角形法计算。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向构件，其弯度影响样板的使用方式，活络三角样板通过计算肋骨的法向面来优化加工。 | 船体结构中常用的型材构件，用于支撑船体结构，需进行弯曲成形加工。 | 型材构件之一，用于船体结构的横向支撑，承受弯曲和剪切力。 | 船体结构中的纵向构件，用于支撑船体并形成船体骨架，冷弯加工过程中存在回弹、旁弯、倒边和腹板受压失稳等问题。 | 船体结构中的重要构件，用于支撑船体并形成船体骨架，常采用低合金钢型材加工。",
+        "chunk_ids": [
+            105,
+            116,
+            117,
+            118,
+            119
+        ]
+    },
+    {
+        "entity_name": "曲度",
+        "type": [
+            "结构特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件的弯曲程度，影响撑线法展开时的误差大小，曲度越大，误差越大。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "等分数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在撑线法展开过程中，对船体构件进行划分的份数，等分数越多，展开误差越小。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "投影图",
+        "type": [
+            "图纸资料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体构件展开和号料的图纸，包括纵剖线图和半宽水线图，用于确定展开图形的形状。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "展开误差",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在撑线法展开过程中，由于对角线在空间中为曲线而被近似为直线，导致的展开线与实际曲线之间的误差。",
+        "chunk_ids": [
+            105
+        ]
+    },
+    {
+        "entity_name": "三角样板",
+        "type": [
+            "工艺工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体曲面外板加工中检测曲板肋位位置处的横向形状和曲板纵向形状的工具，由多个三角样板组成，各样板的曲线边能够检测外板的曲面形状。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "肋骨型线",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板上某一肋骨的型线，用于制作三角样板和确定样板的曲线形状。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "高度基准点",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "三角样板上的关键点，用于确定样板在空间中的位置关系，并通过这些点的连线检测曲板纵向形状。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "高度基准线",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由三角样板的高度基准点连接而成的线，用于检测外板的纵向倾斜度，不垂直于肋骨剖面，适用于纵向倾斜度较大的外板。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "样箱",
+        "type": [
+            "工艺工具",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "制作成固定立体框架形式的曲面样板，相当于从船体上切下的一块与外板相接的立体骨架，用于外板成形加工和检验，以及用油毡或纸板覆蒙出近似外板形状。 | 用于船体建造中进行放样和检验的模板，通过斜切基面与肋骨剖面的交线确定其形状。",
+        "chunk_ids": [
+            106,
+            107
+        ]
+    },
+    {
+        "entity_name": "基面板框",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "样箱的组成部分，用于支撑肋骨剖面样板和侧面板框，构成样箱的基面。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "肋骨剖面样板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "样箱的组成部分，用于表示肋骨剖面形状，与基面板框和侧面板框组合形成样箱的曲表面。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "侧面板框",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "样箱的组成部分，与基面板框和肋骨剖面样板组合，构成样箱的立体框架。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "正切样箱",
+        "type": [
+            "工艺工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "样箱的一种类型，其基面线与肋骨剖面垂直，适用于纵向倾斜度不大的外板，制作方法包括绘制基面线、制作肋骨剖面样板和侧面板框，并组合钉制。",
+        "chunk_ids": [
+            106
+        ]
+    },
+    {
+        "entity_name": "斜切样箱",
+        "type": [
+            "工艺工具",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "样箱的一种类型，其基面线不与肋骨剖面垂直，适用于纵向倾斜度较大的外板，但两端高度差较大，使用不便。 | 一种用于船体建造中制作样箱的方法，通过斜切基面与肋骨剖面的交线确定样箱形状，以提高样箱制作的精度和效率。",
+        "chunk_ids": [
+            106,
+            107
+        ]
+    },
+    {
+        "entity_name": "号料草图",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "替代样板用于记载和传递图样信息的图纸，具有节省材料、易保存的优点，适用于小批量、形状简单的船体构件。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "样板号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "手工号料的一种方式，通过样板直接在钢板或型材上描出船体构件的实际轮廓线、安装线、加工检验线和余量线等。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "草图号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "手工号料的一种方式，通过草图上的基本形状和精确尺寸，在钢板上通过作图方式再现真实图形，具有省材料、易保存的优点。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "气割加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种切割加工方式，用于船体构件的加工，号料时需预留加工余量。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "冷弯加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种加工方式，用于型材的弯曲成型，号料时需考虑其两端不能弯曲的工艺参数。 | 型材构件成形加工的一种方法，不预热，适用于集中力弯曲、逐段进给的冷弯加工。",
+        "chunk_ids": [
+            107,
+            116
+        ]
+    },
+    {
+        "entity_name": "加工余量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在号料过程中为后续加工预留的材料厚度，用于气割、刨边、冷弯等加工操作。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "二次号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对需经复杂冷弯或热弯的零件，在初步画线后，待弯制成形后再按样板进行最终画线的号料方式。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "对称号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用同一块样板对左右对称的两个船体构件进行号料，提高效率并保证对称性。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "光学投影号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过光学投影放大装置将构件图样投射到钢板上，进行手工复描号料，提高精度。 | 在比例放样的基础上，将展开的各构件图形经过套料，绘制成精确的投影底图或通过摄影制成更小比例的投影底片，然后在光学投影放大装置上放大，在钢板上投射出1:1的构件图样，最后对投影的构件各线条进行手工复描号料。",
+        "chunk_ids": [
+            107,
+            108
+        ]
+    },
+    {
+        "entity_name": "电印号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种号料方式，通过电印技术将构件图样复制到钢板上，用于后续加工。 | 在光学投影号料的基础上，将放大成1:1的构件图形影像投射到覆盖有一层带负电的光导电粉末的号料钢板上，使其曝光，再经显影和定影处理，在钢板上留下号料的线迹，实现自动号料。",
+        "chunk_ids": [
+            107,
+            108
+        ]
+    },
+    {
+        "entity_name": "直角坐标系",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在号料草图中用于定位构件图形的坐标系统，通常以展开后的直准线作为横轴。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "船体构件",
+        "type": [
+            "材料部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的组成部分，如外板、肋骨等，需通过号料草图或样板进行加工和装配。 | 由船用钢材加工而成的船体组成部分，包括折角、折边和曲面形状等，是船体结构的基础。",
+        "chunk_ids": [
+            107,
+            111
+        ]
+    },
+    {
+        "entity_name": "钢板",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体建造的主要材料，号料前需验明其牌号、规格及表面质量。 | 用于船体零件套料和号料的基材，要求预先整平，底漆应具有一定的导电性，表面须清理干净。 | 用于船舶建造的金属材料，其厚度影响矫正难度和所使用的矫正设备。 | 船舶建造中常用的结构材料，用于船体表面，需进行除锈处理以满足涂装要求。",
+        "chunk_ids": [
+            107,
+            108,
+            112,
+            113
+        ]
+    },
+    {
+        "entity_name": "型材",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体结构的金属材料，如角钢、槽钢等，号料时需考虑其冷弯或热弯加工余量。 | 船舶建造中使用的金属型材，需通过型材矫直机进行矫正。",
+        "chunk_ids": [
+            107,
+            112
+        ]
+    },
+    {
+        "entity_name": "加工线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在号料过程中标记的用于后续加工的线条，如切割线、刨边线等。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "装配线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在号料过程中标记的用于构件装配的线条，确保各部件正确对接。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "检验线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在号料过程中标记的用于检验构件尺寸和位置的线条，确保符合图纸要求。",
+        "chunk_ids": [
+            107
+        ]
+    },
+    {
+        "entity_name": "自动套料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体零件套料是合理使用原材料，减少原材料消耗，降低造船成本的重要手段。其实质是将不同形状的零件按互不重叠的布局要求布置在矩形钢板上，满足构件组合、钢板利用率高、切割精度好等条件。自动套料利用计算机技术，使用合适的套料算法，寻求最优策略，实现零件排列紧凑，提高钢材利用率。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "数学放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "借助电子计算机，应用各种数学方法描述船体型线并取代手工放样，完成船体型线三向光顺、结构线放样、外板板缝布置、外板展开、内部结构展开、胎架型值和加工样板尺寸计算等工作，为造船自动化奠定基础。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "数控切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于执行由自动套料软件生成的套料图，输出数控切割程序，进行船体零件的切割作业。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "光导电粉末",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电印号料过程中，覆盖在号料钢板上，通过静电吸附和曝光处理形成静电潜像，最终显影定影形成线迹。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "显影装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电印号料过程中的显影步骤，通过压缩空气喷嘴将失去静电引力的粉末吹去，留下成像粉末。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "定影剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电印号料过程中的定影步骤，使粉末中的树脂溶解，形成胶剂，牢固粘贴在钢板上形成固定的线迹。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "遗传算法",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种优化算法，用于自动套料中寻找最优套料次序及旋转角度，提高套料效率和钢材利用率。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "模拟退火算法",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种优化算法，用于自动套料中提高套料效率和钢材利用率，与遗传算法结合形成启发式套料算法。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "套料图",
+        "type": [
+            "工艺成果"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由自动套料软件生成的零件布局图，用于指导数控切割机进行切割作业，通常还需人工优化和修正。",
+        "chunk_ids": [
+            108
+        ]
+    },
+    {
+        "entity_name": "船体数学放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过数学方程定义船体型线或船体表面，建立数学模型，并利用电子计算机进行高速运算完成船体放样工作，为造船自动化奠定基础。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "船体数学模型",
+        "type": [
+            "数学模型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能够用数字表示整个船体曲面的真实形状，用于分割船壳并模拟人工放样过程，计算外板零件的精确形状。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "三向光顺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体数学放样中的关键步骤，通过三个互相垂直平面上单根曲线的相互投影关系，用单根型线的光顺解决整个立体船型的光滑问题。 | 船体三向光顺的主要任务是修正不光顺的设计型值，使经过光顺计算后的各条船型曲线型值数据既符合设计要求又能保证整个船体外表光顺美观，没有臟瘪现象，它是整体船型数学模型的基础。",
+        "chunk_ids": [
+            109,
+            110
+        ]
+    },
+    {
+        "entity_name": "电子计算机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于执行船体数学放样计算的设备，按程序设计的顺序和方法进行计算，模拟人工放样过程。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "数学样条",
+        "type": [
+            "数学工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于通过一组型值点生成光滑曲线的数学工具，具有连续的一阶和二阶导数，用于船体数学放样中型线光顺。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "半宽型值表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录各条水线及主甲板等上层建筑线的半宽型值的数据表，用于船体三向光顺计算。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "半宽首末点表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录每根水线及主甲板等上层建筑线平面投影的单根曲线的首末点信息及附加控制点数值的数据表。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "高度表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录各条纵剖线及主甲板等上层建筑的高度值的数据表，用于船体三向光顺计算。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "高度首末点表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录每根纵剖线及主甲板等上层建筑线侧面投影曲线的首末点信息及其附加控制点数值的数据表。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "水线与纵剖线交点表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录各道水线及上层建筑线与各道纵剖线在平面坐标系中的交点离中距离的数据表。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "横剖站线首末点表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录每根横剖站线曲线部分的首末点信息及其附加控制点数值的数据表。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "水线平面圆弧信息表",
+        "type": [
+            "数据表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录各道水线平面首尾圆弧的半径值及其圆心半宽的数据表。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "最小二乘法",
+        "type": [
+            "光顺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体三向光顺的一种方法，旨在得到弯曲变化均匀、没有拐点的光顺曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "回弹法",
+        "type": [
+            "光顺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体三向光顺的一种方法，旨在得到弯曲变化均匀、没有拐点的光顺曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "圆率序列法",
+        "type": [
+            "光顺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体三向光顺的一种方法，旨在得到弯曲变化均匀、没有拐点的光顺曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "松弛法",
+        "type": [
+            "光顺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体三向光顺的一种方法，旨在得到弯曲变化均匀、没有拐点的光顺曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "线性规划法",
+        "type": [
+            "光顺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体三向光顺的一种方法，旨在得到弯曲变化均匀、没有拐点的光顺曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "双圆弧样条曲线",
+        "type": [
+            "数学工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体数学放样中使用的一种样条曲线，用于通过一组型值点生成光滑曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "B样条曲线",
+        "type": [
+            "数学工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体数学放样中使用的一种样条曲线，用于通过一组型值点生成光滑曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "非均匀有理B样条曲线",
+        "type": [
+            "数学工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体数学放样中使用的一种样条曲线，用于通过一组型值点生成光滑曲线。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "边界线处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在三向光顺计算中，为各条水线、纵剖线和横剖线提供确切的端点条件，确保光顺修正后的船型曲线符合总体船型要求。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "三向光顺计算",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "修正不光顺的设计型值，使各条船型曲线型值数据既符合设计要求，又能保证整个船体外表光顺美观，没有臟瘪现象。",
+        "chunk_ids": [
+            109
+        ]
+    },
+    {
+        "entity_name": "水线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的一条曲线，用于表示船舶在不同吃水深度下的横截面轮廓，是三向光顺时提供端点条件的船型曲线之一。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "纵剖线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的一条纵向曲线，用于表示船舶沿纵向的剖面形状，是三向光顺时提供端点条件的船型曲线之一。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "横剖线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的一条横向曲线，用于表示船舶在不同横截面处的形状，是三向光顺时提供端点条件的船型曲线之一。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "肋骨型值",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中肋骨线的型值数据，用于外板展开计算和结构零件生成，包括端接缝型值数据和其他输入信息数据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板展开计算",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板展开计算是在船体型线三向光顺、插值生成肋骨型值、排定船体结构后进行的，主要任务是生成外板纵接缝、计算展开外板零件、提供外板零件加工所需的各种数据图表和数控切割数据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "纵接缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板纵向连接的接缝，用于连接不同肋骨线之间的外板零件，是外板展开计算和数控切割的重要依据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板展开计算后生成的零件，用于外板加工和装配，包含展开数据、数控切割程序等信息。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "数控切割",
+        "type": [
+            "设备工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用数控切割机对船体外板零件进行切割的工艺，依据外板零件展开数据和数控切割程序进行操作。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "数控切割程序",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于数控切割机执行外板零件切割的程序，内容与切割纸带上的代码一一对应，由外板展开计算生成。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "船体结构数学放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用电子计算机生成船体结构零件，给出零件图、零件套料图、数控切割程序，以及有关加工用和生产管理用的数据，包含结构线生成、零件生成、套料三部分内容。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "结构线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体中构件与构件、构件与外板的纵向交口线及构件的纵向折角线、外形线，统称为纵向结构线，用于结构数学放样和零件划分。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "结构零件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船体图纸、肋骨型线文件和结构线文件生成的结构零件，用于船体装配和加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "套料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据零件文件绘制零件图进行套料，提供套料图和数控切割程序，用于优化钢板利用和加工效率。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件图",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板展开计算得到的外板零件平面坐标数据，用于绘制外板零件图，为加工和装配提供依据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板号料草图",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外板零件画线的生产用图，提供号料的各种数据、信息和工艺说明以及加工符号等，由外板展开计算生成。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件数控切割程序",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件图形在钢板规格框线内定位处理后，经过拟合计算、数控切割计算生成的程序，用于数控切割机执行切割操作。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "肋骨弧长",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板肋骨线与纵接缝线相交处的肋骨弧长，用于信息反馈和绘制全船外板展开图，成为完工资料的一部分。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件展开数据文件",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板展开计算得到的零件展开数据文件，内容包括各肋骨线在纵接缝线至测地线间的弧长、上下纵接缝线与测地线在相邻两根肋骨之间的弧长等，用于展开计算的中间结果。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "纵接缝线型值文件",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板展开计算得到的纵接缝型值文件，提供结构零件上的纵接缝开口位置，以及船体分段胎架计算和外板零件加工样板计算所需数据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件数控切割文件",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件数控切割程序的书面形式，内容与切割纸带上的代码一一对应，用于数控切割机执行切割操作。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件纵向连接的接缝，用于连接不同肋骨线之间的外板零件，是外板展开计算和数控切割的重要依据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件纵向连接的接缝线，用于连接不同肋骨线之间的外板零件，是外板展开计算和数控切割的重要依据。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝线弧长",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件纵接缝线在肋骨线上的弧长修正量，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝线长度",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件上、下纵接缝线的长度，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝线宽度",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件两端的宽度，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝线对角线长度",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件两根对角线长度，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件肋骨线与纵接缝线交点",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件肋骨线与纵接缝线交点的平面坐标值，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件肋骨弯度",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件上、下纵接缝线与基准肋骨线的交点处的肋骨弯度，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件厚度",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件的厚度，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件余量",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "各个外板零件四周的余量，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件计算日期",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算外板零件的日期，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "船名",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体的名称，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "分段名",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段的名称，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "零件名",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件的名称，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "龙骨底板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体底部的结构部件，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "首尾柱接缝线邻近处外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "首尾柱接缝线邻近处的外板，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "控制判别信息",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外板展开计算的控制判别信息，包括首(或尾)半艘船的信息、船中肋骨号、平行中体的肋骨号等。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "分段零件所在位置",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段零件所在的位置，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "纵接缝与端接缝交点坐标值",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纵接缝与端接缝、肋骨线、首尾柱接缝交点的坐标值，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "坐标值取横坐标值",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "坐标值是取横坐标值（即半宽）还是取纵坐标值（即高度）的判别信息，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "纵接缝线根数",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纵接缝线的根数，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "外板零件纵接缝是否按直线处理",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板零件纵接缝是否按直线处理的信息，用于外板展开计算和零件加工。",
+        "chunk_ids": [
+            110
+        ]
+    },
+    {
+        "entity_name": "纵向结构线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指构件与构件、构件与外板的纵向交口线及构件的纵向折角线、外形线，是船体结构数学放样的基础。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "结构零件生成",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过几何语言与计算机通话，完成零件的定义和生成，用几何语句描述零件图形，组成零件源程序，经计算机处理后得到零件切割（绘图）程序。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "零件套料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构数学放样的最后一个环节，通过套料将数学放样的结果用套料图、数控切割程序和材料规格表等形式输出，供数控加工用。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "船体钢料加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使钢板和型材成为船体构件的工艺过程，分为钢材预处理、构件边缘加工和构件成形加工三大类。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "钢材预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括钢材矫正（钢板矫平和型材矫直）、表面清理（去污、除锈等）和防护（喷涂底漆），用于消除钢材变形、锈蚀和杂质，提高加工精度。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "钢材矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "消除钢板和型材因轧制、运输、贮存等因素产生的波浪形、局部凹凸和扭曲变形，以保证加工精度和焊接质量。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "钢板矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过多辊矫平机对钢板进行矫正，利用上下辊列间的交变弯曲应力使钢板纤维伸长，消除变形。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "多辊矫平机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板矫正的设备，由上下两列工作轴辊组成，通过调节辊列间的垂直间隙适应不同厚度钢板的矫平需求。 | 用于对钢板进行矫平处理的设备，将钢板送入预处理流水线进行后续处理。",
+        "chunk_ids": [
+            111,
+            114
+        ]
+    },
+    {
+        "entity_name": "轴辊",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "多辊矫平机的核心部件，用于对钢板施加弯曲应力以实现矫正，分为主动轴辊和从动轴辊。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "导辊",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "多辊矫平机中可调节高度的前辊，用于控制钢板啮入过程，适应不同钢板的矫正需求。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "矫平机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板矫正的设备，分为上下辊列平行和不平行两种类型，前者用于一般钢板矫正，后者用于薄板矫正。 | 用于矫正钢板形状的机械设备，根据钢板厚度不同，使用五辊、七辊、九辊、十一辊或更多轴轮的矫平机。",
+        "chunk_ids": [
+            111,
+            112
+        ]
+    },
+    {
+        "entity_name": "构件边缘加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指构件边缘切割和焊接坡口加工，是船体钢料加工的重要环节。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "构件成形加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将切割好的平面钢板或平直型材加工成船体所需的折角、折边和曲面形状等构件。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "数控加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用数控切割程序对船体构件进行加工，是船体钢料加工的重要技术手段。",
+        "chunk_ids": [
+            111
+        ]
+    },
+    {
+        "entity_name": "液压机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于矫正厚度超过矫平机加工范围的钢板，也可用于型材矫正。 | 用于肋骨弯曲淬火后的矫形加工，能够对型材施加高压以消除变形。",
+        "chunk_ids": [
+            112,
+            119
+        ]
+    },
+    {
+        "entity_name": "三辊弯板机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于矫正厚度超过矫平机加工范围的钢板。 | 用于板材冷弯成形的主要设备，通过三个旋转轴辊对板材施加压力，使其弯曲成所需的曲面形状。",
+        "chunk_ids": [
+            112,
+            119
+        ]
+    },
+    {
+        "entity_name": "型材矫直机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于矫正型材的机械设备，由两个支撑和一个推撑组成，推撑通过电动机和减速器驱动，使型材产生反方向变形以达到矫直目的。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "手工矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在没有专门矫正设备的情况下，用于小尺寸型材的矫正方法，通过手工敲击实现。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "水火矫正法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于大尺寸型材的矫正方法，通过水和火的结合作用实现型材的矫直。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "表面清理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材预处理过程中的关键步骤，包括清除氧化皮、锈斑和其他杂质，为后续喷涂防护底漆做准备。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "抛丸除锈法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用离心力将铁丸或其他磨料高速抛射到钢材表面，以清除氧化皮和锈斑的除锈工艺，分为立式和卧式两种形式。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "化学除锈法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过酸洗法去除钢材表面氧化皮和铁锈的工艺，常用盐酸、硫酸、磷酸等作为除锈液，适用于薄板、管子和复杂形状零部件。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "手工除锈法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "最原始的除锈方法，使用钢丝刷、刮刀、榔头等工具进行除锈，效率低、质量差，适用于局部缺陷修补和机械除锈难以到达的区域。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "喷丸除锈法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过气压力将铁丸喷射到钢材表面以清除氧化皮和锈斑的除锈工艺，与抛丸除锈法类似，但使用气压而非离心力。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "高压水除锈法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用高压水流冲击钢材表面以清除氧化皮和锈斑的除锈工艺，常用于船舶建造和修理。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材表面清理过程，包括清除氧化皮、锈斑和其他杂质，为后续喷涂防护底漆做准备。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "酸洗",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学除锈法中的一种，通过酸液去除钢材表面氧化皮和铁锈，常使用盐酸、硫酸、磷酸等。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "氧化皮",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材表面因氧化形成的层状物质，需通过除锈工艺清除。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "锈斑",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材表面因腐蚀形成的斑点或层状物质，需通过除锈工艺清除。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "防护底漆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材表面清理后喷涂的保护性涂层，用于防止进一步腐蚀。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "铁丸",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于抛丸和喷丸除锈工艺中的磨料，通过高速抛射清除钢材表面氧化皮和锈斑。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "磨料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于除锈工艺中的材料，如铁丸、砂粒等，通过高速冲击清除钢材表面杂质。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "丸粒回收系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "抛丸除锈设备中用于回收和重复使用铁丸的系统，提高设备效率并减少材料浪费。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "通风除尘装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "抛丸除锈设备中用于降低粉尘污染的装置，减少对环境和操作人员的危害。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "传送滚道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于卧式抛丸机中连续送料的装置，便于组建自动生产流水线。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "支撑",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材矫直机中的固定部件，用于支撑型材并调节间距。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "推撑",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材矫直机中的可动部件，通过电动机和减速器驱动，对型材施加矫正力。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "滑块",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "推撑安装的部件，可作水平往复运动，用于实现型材的矫正。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "电动机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "驱动推撑作水平往复运动的动力装置，用于型材矫直机。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "减速器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接电动机与推撑的传动装置，用于调节运动速度和扭矩。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "高压鼓风机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清除卧式抛丸机上钢板表面堆积的铁丸，防止影响除锈效果。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "机械式刮板",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清除卧式抛丸机上钢板表面堆积的铁丸，防止影响除锈效果。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "钢板厚度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响钢板矫正难度和允许翘曲度的重要参数，不同厚度对应不同的矫正设备和允许变形范围。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "允许翘曲度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "矫正后钢板允许的最大变形量，根据钢板厚度不同而有所区别。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "矫正",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过机械设备或手工方法消除钢板或型材变形的过程，确保其符合设计要求。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "变形",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢板或型材在加工过程中产生的形状变化，需通过矫正工艺消除。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "矫正后钢板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "经过矫正工艺处理后的钢板，其形状和尺寸符合设计要求。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "矫正设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于矫正钢板或型材的机械设备，包括矫平机、型材矫直机、液压机等。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "矫正工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括钢板矫正、型材矫正和表面清理等步骤，确保材料符合船舶建造要求。",
+        "chunk_ids": [
+            112
+        ]
+    },
+    {
+        "entity_name": "手工除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种传统的除锈方法，适用于机械除锈难以达到的部位，如狭小舱室、型钢反面角隅边缘等作业困难区域，但除锈效果不佳，难以达到规定的清洁度和表面粗糙度，且对操作人员危害极大。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "电动除锈机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种半机械化设备，用于除锈，效率比手工除锈方法高很多倍，除锈质量也好许多，能较彻底去除锈、旧涂层等，能对涂层进行打毛处理，效率可达1~2m²/h，但不能除去氧化皮，表面粗糙度较小。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "高压水除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用高压水射流的冲击作用去除船壳表面上的水生物、疏松的铁锈或旧涂层等，具有工作效率高、除锈质量好、经济成本低、不损伤钢板等优点，锈尘少，改善了工人的劳动条件，可以避免粉尘对施工人员和环境造成的伤害和污染。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "高压水喷射除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在高压水除锈基础上加入磨料，提高了清理效率，且清理后表面质量更好，但高压水除锈后钢板容易发黄，需及时涂漆以防止返锈。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "钢板预处理流水线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢材输送、矫正、除锈、喷涂底漆、烘干等工序形成的自动作业流水线，通常分为钢板预处理流水线和型材预处理流水线两种，用于船舶与海洋结构物建造和修理中的钢材预处理。 | 用于钢板预处理的流水线，包括钢板输送、矫平、预热、除锈、喷涂底漆、烘干等工序，如图3-6所示。",
+        "chunk_ids": [
+            113,
+            114
+        ]
+    },
+    {
+        "entity_name": "CB3375—1991",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "《修船船体除锈质量要求》标准，用于规定修船过程中船体除锈的质量要求。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "GB8923",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "《涂装前钢材表面锈蚀等级和除锈等级》标准，用于规定钢板表面锈蚀状态的原始等级和除锈处理后的质量等级。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "高压无缝钢管",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于高压水除锈系统中的高压管线，作为输送高压水的管道材料。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "高压截止阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于高压水除锈系统中的高压管线，控制高压水的流动。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "高压橡胶管",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于高压水除锈系统中的高压管线，作为输送高压水的柔性管道材料。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "高压水枪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于高压水除锈系统，将高压水通过喷嘴射出，形成高压射流冲击钢板表面。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "喷嘴",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高压水枪的一部分，用于将高压水射出，形成高压射流冲击钢板表面。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "锈尘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "除锈过程中产生的铁锈和粉尘，对操作人员的呼吸系统和环境造成严重影响。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "防毒面具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于除锈过程中保护操作人员免受锈尘危害的防护设备，但常因不能及时更换吸尘材料导致保护失效。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "角向磨光机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种手工机械除锈装置，用于去除锈、旧涂层等，属于半机械化设备。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "电动钢丝刷",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种手工机械除锈装置，用于去除锈、旧涂层等，属于半机械化设备。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "风动针束除锈器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种手工机械除锈装置，用于去除锈、旧涂层等，属于半机械化设备。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "风动敲锈锤",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种手工机械除锈装置，用于去除锈、旧涂层等，属于半机械化设备。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "齿型旋转除锈器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种手工机械除锈装置，用于去除锈、旧涂层等，属于半机械化设备。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "除锈质量等级",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述除锈处理后船体表面状态的质量等级，分为三组八个等级，用除锈处理的代号加阿拉伯数字表示。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "原始等级",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述钢板表面锈蚀状态的原始等级，分为I、Ⅱ、Ⅲ三个等级。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于钢板预处理流水线中的喷涂工序，作为涂装前的保护层，防止钢板返锈。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "脚手架",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于高空或复杂结构的施工支撑设备，但高压水除锈后可省去脚手架的吊搭工作。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "涂装系统",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述涂装前除锈处理与涂装工艺的兼容性，确保除锈质量等级与涂装系统相匹配。",
+        "chunk_ids": [
+            113
+        ]
+    },
+    {
+        "entity_name": "钢材预处理流水线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢材输送、矫正、除锈、喷涂底漆、烘干等工序形成的自动作业流水线，用于钢板预处理，分为钢板预处理流水线和型材预处理流水线两种。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "辊道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于输送钢材的设备，将钢材送入矫平机、预热装置、喷淋装置、抛丸除锈装置、喷涂室、干燥室等。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "预热装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将钢板加热至 $40^{circ}mathrm{C} sim 60^{circ}mathrm{C}$，以去除钢板表面水分，使氧化皮、锈斑疏松，便于除锈，并增加漆膜附着性。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "喷淋装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于去除钢板表面盐分的设备，通常与预热装置配合使用。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "抛丸除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过抛丸装置向钢板两面抛射丸粒，去除钢板表面氧化皮和锈斑，并用热风清除灰尘。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "抛丸装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于向钢板抛射丸粒以实现除锈的设备，丸粒可回收再使用。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "喷涂室",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于喷涂保养底漆的半封闭空间，喷枪行程可调节，辊道输送速度与喷枪喷涂速度相配合。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "干燥室",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于烘干喷涂底漆的设备，采用红外线、远红外或电加热方式，并配备通风装置以加快干燥过程。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "高速辊道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将烘干后的钢板送出预处理流水线的设备。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "机械剪切",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过施加超过材料极限强度的机械剪切力，使材料挤压变形并断裂分离的工艺过程，分为弹性变形、塑性变形和断裂三个阶段。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "斜刃龙门剪床",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于剪切直线边缘构件的机械剪切设备。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "压力剪切机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于剪切直线边缘构件的机械剪切设备，与斜刃龙门剪床并列使用。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "圆盘剪切机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于剪切曲线边缘构件的机械剪切设备。",
+        "chunk_ids": [
+            114
+        ]
+    },
+    {
+        "entity_name": "火焰切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过氧-乙炔或氧-丙烷气体加热金属至燃点，再用高压氧气流使其燃烧并吹除熔渣，从而实现切割的工艺过程。 | 一种利用氧-乙炔或氧-丙烷气体进行金属切割的工艺，通过预热、燃烧和去渣三个阶段实现材料分离。",
+        "chunk_ids": [
+            114,
+            115
+        ]
+    },
+    {
+        "entity_name": "气割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "火焰切割的另一种称谓，通常指氧-乙炔或氧-丙烷切割，分为预热、燃烧、去渣三个阶段。 | 火焰切割的另一种称谓，指利用氧气和可燃气体混合燃烧产生的高温进行金属切割的过程。 | 一种利用气体火焰进行切割的工艺，用于船体构件边缘的加工，需根据构件厚度选择合适的割嘴。",
+        "chunk_ids": [
+            114,
+            115,
+            116
+        ]
+    },
+    {
+        "entity_name": "氧-乙炔切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种火焰切割方式，使用氧和乙炔混合气体作为热源进行金属切割。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "氧-丙烷切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "另一种火焰切割方式，使用氧和丙烷混合气体作为热源进行金属切割。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "预热",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气割过程中的第一步，通过调节好的预热火焰加热金属，使其温度逐步上升至燃点。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "燃烧",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气割过程中的第二阶段，金属在氧气中剧烈氧化并燃烧，释放大量热量。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "去渣",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气割过程中的第三阶段，通过高压氧气流将燃烧生成的熔渣迅速吹除。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "手工气割炬",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体加工车间进行构件边缘气割的手动操作设备。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "半自动气割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体加工车间进行构件边缘气割的半自动操作设备。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "门式自动气割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体加工车间进行钢板直线切割的自动气割设备，配备多个割嘴，可同时作业。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "等离子切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用高温等离子电弧的热量使金属局部熔化并借助高速气流排除熔融金属以形成切口的加工方法。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "等离子电弧",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "等离子切割过程中产生的高温电弧，用于加热和熔化金属。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "数控等离子切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于造船钢板切割的数控等离子切割设备，具有较高的切割速度和较好的切割质量。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "激光切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用高能激光束熔化或气化金属材料以实现切割的加工方法，具有切割精度高、表面质量好等特点。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "CO₂激光器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工业激光器的一种，使用二氧化碳作为激光介质，用于激光切割。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "固体激光器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工业激光器的一种，使用固体介质（如钕、钇铝石榴石）作为激光介质，用于激光切割。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "氧助燃切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "激光切割的一种方式，利用激光作为预热热源，用氧气作为切割气体，通过氧化反应形成切口。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "熔化切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "激光切割的一种方式，利用激光加热使金属熔化，通过喷吹非氧化性气体形成切口。",
+        "chunk_ids": [
+            115
+        ]
+    },
+    {
+        "entity_name": "水射流切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用高压水流与磨料混合进行切割的工艺，适用于多种材料。 | 通过转能装置将机械能转化为水的压力能，再通过喷嘴小孔将水高速喷出，使水的压力能转化为动能，冲击被切割材料使其断裂。可分为纯水射流切割和添加磨料的水射流切割，适用于多种材料，尤其适合热敏感材料。",
+        "chunk_ids": [
+            115,
+            116
+        ]
+    },
+    {
+        "entity_name": "纯水射流切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用纯水作为切割介质，主要用于纸、木板、橡胶、皮革、塑料等软性材料的切割。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "添加磨料的水射流切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在纯水中添加橄榄石砂、金刚砂等磨料，用于切割钛、铝合金、高强钢、不锈钢、玻璃、岩石等材料。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "冷态切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水射流切割过程中不产生热影响，对材料无热损害，不会造成材料结构变化或热变形。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "点能源切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水射流切割技术为点能源切割，可全方位自由作业，且可从工件上的任一点开始，特别适合切割形状复杂的工件。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "切割力",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水射流切割具有很强的切割力，例如可切断180mm厚的钢板。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "切口质量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水射流切割切口很窄，可达0.075mm，减少材料消耗，切口表面平整光滑，棱边无毛刺。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "湿切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水射流切割为湿切割，对环境的污染较小，切割废水经过处理可重复利用。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "剪切",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种切割工艺，用于船体构件边缘的加工，需根据构件尺度和边缘特征选择合适的剪切机床，并调整刀片间隙。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "剪切机床",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于剪切船体构件的专用设备，需根据构件厚度和尺寸选择合适的机床。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "割嘴",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "气割过程中用于控制火焰方向和温度的部件，根据构件厚度调整前倾或后倾角度。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "焊接坡口加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为保证船体构件接缝的焊接质量，对部分构件的板边按规范要求进行坡口加工，常用方法包括机械刨边和气割法。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "机械刨边",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用刨边机或铣边机对船体构件边缘进行坡口加工，可开出不同形状的坡口，适用于要求板材边缘平直整洁的自动焊。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "刨边机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加工船体构件边缘坡口的专用设备，通过更换不同刨刀和调整刀架角度，可开出不同坡口。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "铣边机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于加工船体构件边缘坡口的专用设备，可铣出I形坡口，供自动焊使用。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "气割法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在进行构件边缘切割时同时切割出焊接坡口，使用割炬组加工所需坡口形状，可一次完成切割和开坡口工作。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "割炬组",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由两个或三个割炬组合而成，用于加工船体构件边缘坡口，可安装在半自动气割机、高精度门式切割机、数控切割机等设备上。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "型材构件成形加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件经边缘加工后，对于非平直构件需进行弯曲成形，分为型材成形加工和板材成形加工。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "集中力弯曲加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工的一种方式，通过集中力进行弯曲，是目前使用最广泛的方法。 | 型材构件成形加工方法的一种，按型材受力状态分类，涉及集中载荷作用。",
+        "chunk_ids": [
+            116,
+            117
+        ]
+    },
+    {
+        "entity_name": "逐段进给加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工的一种方式，按进给方式分为连续进给、逐段进给、一次成形加工。 | 型材构件成形加工方法的一种，按进给方式分类，分段进行。",
+        "chunk_ids": [
+            116,
+            117
+        ]
+    },
+    {
+        "entity_name": "焊接接头形式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据钢板厚度和工作条件不同，常用的焊接接头形式有对接、搭接、丁字接和角接等。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "焊接坡口形式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据钢板厚度和工作条件不同，常用的焊接坡口形式有I形、V形、U形、X形等。",
+        "chunk_ids": [
+            116
+        ]
+    },
+    {
+        "entity_name": "角钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中常用的型材之一，用于支撑和连接结构。 | 一种截面形状为角形的型材，在冷弯加工中可能产生旁弯现象，需通过预置反变形或垂向弯曲校正。",
+        "chunk_ids": [
+            117,
+            118
+        ]
+    },
+    {
+        "entity_name": "球扁钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中常用的型材之一，用于支撑和连接结构。 | 一种截面形状为球扁形的型材，用于船体结构，在冷弯加工中可能产生腹板受压失稳。",
+        "chunk_ids": [
+            117,
+            118
+        ]
+    },
+    {
+        "entity_name": "T型钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中常用的型材之一，用于支撑和连接结构。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "横梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件之一，用于船体结构的横向支撑，承受弯曲和剪切力。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "纵桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件之一，用于船体结构的纵向支撑，承受弯曲和剪切力。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "纵骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件之一，用于船体结构的纵向支撑，承受弯曲和剪切力。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "热加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工方法的一种，按是否预热分类，涉及高温处理。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "冷加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工方法的一种，按是否预热分类，不涉及高温处理。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "连续进给加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工方法的一种，按进给方式分类，连续进行。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "一次成形加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工方法的一种，按进给方式分类，一次性完成。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "拉弯加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工方法的一种，按型材受力状态分类，涉及拉力作用。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "纯弯曲加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成形加工方法的一种，按型材受力状态分类，涉及纯弯矩作用。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "三支点逐段进给式肋骨冷弯机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于肋骨冷弯成形的典型加工设备，采用三支点逐段进给方式。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "固定夹头",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冷弯机中用于固定型材的部件，位于中间位置。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "可动夹头",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冷弯机中用于夹持并移动型材的部件，位于两侧。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "夹紧装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在冷弯过程中夹紧型材腹板，防止翘曲和皱褶。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "垂向液压装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于矫正肋骨弯曲后产生的拱挠曲度的装置。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "数控肋骨冷弯机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能够自动弯出各种形状肋骨的冷弯加工设备，具有自动化加工能力。 | 具有自动化控制功能的肋骨冷弯机，能够自动弯出各种形状的肋骨，广泛应用于现代船厂。",
+        "chunk_ids": [
+            117,
+            118
+        ]
+    },
+    {
+        "entity_name": "武汉理工大学",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "国内在肋骨冷弯自动化加工研究方面进行研究的单位。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "上海船舶工艺研究所",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "国内在肋骨冷弯自动化加工研究方面进行研究的单位。",
+        "chunk_ids": [
+            117
+        ]
+    },
+    {
+        "entity_name": "肋骨冷弯机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于冷弯肋骨的加工设备，具有自动化加工能力，能够自动弯出各种形状不同的肋骨。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "回弹",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材冷弯成形过程中，由于弹性变形区的恢复导致的成形曲率变化，影响成形质量，需通过理论计算和逐步逼近弯曲法控制。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "逐步逼近弯曲法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种控制型材冷弯回弹的工艺方法，通过多次弯曲和回弹调整，使成形曲率逐渐接近目标值，一般不超过3次逼近。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "旁弯现象",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在弯曲非对称截面型材时产生的垂直方向变形，影响成形质量，可通过预置反变形或垂向弯曲校正消除。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "倒边现象",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材弯曲后面板与腹板夹角变小的现象，由切向应力作用和最小阻力定律引起，可通过夹具限制。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "腹板受压失稳",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "弯曲加工中腹板因受压应力过大而发生皱褶变形，可通过夹持塑性变形区或多次弯制成形防止。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "冷弯成形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在常温下对型材进行弯曲加工以形成所需曲率的工艺，存在回弹、旁弯、倒边和腹板失稳等常见问题。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "T型材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种截面形状为T型的型材，在冷弯加工中易产生倒边现象，需通过夹具限制变形。",
+        "chunk_ids": [
+            118
+        ]
+    },
+    {
+        "entity_name": "低合金钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于型材构件的弯曲成形，弯曲后需经过调质处理以达到船体构件的性能要求。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "中频感应加热弯曲工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将肋骨型材的弯曲和淬火合为一道工序，通过中频感应加热使肋骨局部升温至淬火温度，再通过喷水冷却实现淬火，最后进行回火和矫形。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "中频加热弯曲淬火机床",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于完成中频感应加热弯曲工艺的设备，能够实现肋骨型材的弯曲、淬火和回火的连续加工。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "调质处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括淬火和回火的热处理工艺，用于提高低合金钢型材弯曲成形后的性能，满足船体构件的要求。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "逆直线法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于控制型材弯曲成形的工艺方法，通过在弯曲前的平直型材上绘制逆直曲线，控制弯曲过程，使型材最终成形符合设计要求。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "逆直曲线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在逆直线法中用于控制型材弯曲成形的特殊曲线，该曲线在弯曲前为曲线，弯曲后变为直线，用于检测和控制弯曲过程。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "中和轴",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在逆直线法中用于确定型材弯曲位置的参考轴线，通常位于型材的剖面重心位置，用于计算逆直曲线。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "四辊弯板机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板材冷弯成形的另一种设备，与三辊弯板机相比，具有更高的弯曲精度和适用范围。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "辊弯成形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种常用的板材冷加工弯曲方法，通过三辊或四辊弯板机对板材施加压力，使其弯曲成所需的曲面形状。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "机械冷弯法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体板材构件成形加工的方法，适用于单向曲度板，通过机械装置对板材施加压力实现弯曲。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "水火弯板法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于复杂双曲度板的成形加工方法，通过局部加热和冷却使板材产生所需的曲度。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "数控弯板机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于冷弯加工双曲度板的设备，具有较高的加工精度和自动化程度。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "回火电炉",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于肋骨型材弯曲淬火后的回火处理，通过加热使材料性能稳定。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "腹板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨型材的一部分，位于肋骨的两侧，用于增强结构强度，其弯曲成形需精确控制。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "中和轴至腹板边缘的距离",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在逆直线法中用于确定中和轴位置的参数，表示中和轴与腹板边缘之间的法向距离。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "逆直线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在逆直线法中用于控制型材弯曲成形的特殊直线，该直线在弯曲前为曲线，弯曲后变为直线。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "放样台",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于绘制肋骨型线图的设备，是逆直线法中绘制中和轴曲线和逆直曲线的基础。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "压弯",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "板材冷弯成形的一种方法，通过压力使板材弯曲成所需的曲面形状。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "数控弯板",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用数控技术实现板材冷弯成形的工艺，具有较高的精度和效率。",
+        "chunk_ids": [
+            119
+        ]
+    },
+    {
+        "entity_name": "专用压模",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于批量加工板材构件的模具，安装在压力机上，使板材压制成形。",
+        "chunk_ids": [
+            119
+        ]
+    }
+]

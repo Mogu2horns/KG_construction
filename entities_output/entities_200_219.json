@@ -1,0 +1,3510 @@
+[
+    {
+        "entity_name": "5S管理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "一种持续改进作业流程、消灭浪费的循环管理方法，包括整理、整顿、清扫、清洁和修养五个阶段，用于维持工作场所的清洁、整齐、稳定和有序。",
+        "chunk_ids": [
+            200
+        ]
+    },
+    {
+        "entity_name": "作业标准化",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "5S管理的重要内容，包括工艺流程、作业方法、工作内容、设备维护、作业质量和作业安全等，需要不断改进和提高。",
+        "chunk_ids": [
+            200
+        ]
+    },
+    {
+        "entity_name": "精度管理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "精益思想的重要特征，通过数理统计方法控制加工公差和焊接热变形，用补偿量代替余量，减少无效劳动。",
+        "chunk_ids": [
+            200
+        ]
+    },
+    {
+        "entity_name": "全员工厂管理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种全员参与的生产管理模式，包括全员精度管理、全员5S管理、全员生产管理、全员安全管理、全员质量管理和全员设备管理等，强调员工自主管理和参与。",
+        "chunk_ids": [
+            200
+        ]
+    },
+    {
+        "entity_name": "总段制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶超大型总段制造技术，用于船舶建造中的大型结构段制造，是船舶建造的重要工艺环节。",
+        "chunk_ids": [
+            200
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的计划单元，船体建造以分段为单位安排加工和装配作业。 | 指船体结构中被划分的单元，用于分段制造和后续的合拢。",
+        "chunk_ids": [
+            201,
+            202
+        ]
+    },
+    {
+        "entity_name": "超大型总段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个分段组装成的大型结构单元，重量可达10000吨以上，用于缩短船坞内建造周期，提高干坞利用率。 | 指在船厂内或外部分段厂制造的大型船体结构单元，通常由多个分段组成，用于提高建造效率和减少船坞使用时间。",
+        "chunk_ids": [
+            201,
+            202
+        ]
+    },
+    {
+        "entity_name": "总段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个分段组装成的结构单元，重量一般在1000吨左右，用于加快造船速度。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "VLCC",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "超大型原油运输船，文中提到其坞内周期较长，约为3个月。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "阿芙拉型油船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种油船类型，文中提到其分段数量在采用超大型总段建造法时可减少至2个。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "并行制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造过程中采用的并行制造方式，以提高建造效率。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "大型龙门吊车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊装分段或总段的大型起重设备，资源紧张是造船瓶颈之一。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "干式合拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "超大型总段最后合拢的一种方式，通过船坞干式进行，缩短建造周期。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "湿式合拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "超大型总段最后合拢的一种方式，通过水下焊接进行，适用于复杂结构。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "超大型浮吊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊装超大型总段的专用起重设备，韩国船厂普遍配备起吊能力为3000t以上的浮吊。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "LNG-RV船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气再气化船，文中提到其建造过程中采用超大型总段方法，缩短工期并提高安全性。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "平地造船法",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船方法，与超大型总段建造法结合使用，提高造船效率。 | 一种不依赖传统船台或船坞的造船方法，通过平地建造、舾装和下水，实现投资少、见效快的造船目标。",
+        "chunk_ids": [
+            201,
+            202
+        ]
+    },
+    {
+        "entity_name": "浮坞造船法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船方法，与超大型总段建造法结合使用，提高造船效率。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "驳船造船法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船方法，与超大型总段建造法结合使用，提高造船效率。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "总装造船",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船模式的基础，以中间产品为导向的总装造船。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "预舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在总段或分段制造过程中提前进行的舾装工作，以提高建造效率。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段制造过程中进行的涂装工作，与预舾装结合以缩短船坞周期。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造和下水的水工设施，文中提到其建造周期较长。 | 传统造船中用于船舶建造、舾装和下水的主要基础设施，通常与船台配合使用。",
+        "chunk_ids": [
+            201,
+            202
+        ]
+    },
+    {
+        "entity_name": "干坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的干地设施，文中提到其利用率高。",
+        "chunk_ids": [
+            201
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的平台设施，文中提到其建造周期长。 | 传统造船中用于船舶建造和下水的主要基础设施，通常与船坞配合使用。",
+        "chunk_ids": [
+            201,
+            202
+        ]
+    },
+    {
+        "entity_name": "浮吊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊装超大型总段的大型起重设备，多数韩国大船厂配备起吊能力为3000t以上的浮吊。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "分段制造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指将船体分为若干部分在不同地点制造，制造完成后通过拖航等方式运输至船坞进行合拢。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "拖航",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指将制造完成的分段或总段通过海上运输方式运送至船坞边，以便进行后续的吊装和合拢。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "半潜驳船",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平地造船下水的专用船舶，能够下潜以承载建造完成的船舶或结构物，载重量通常需在5000t以上。 | 用于平地造船下水的专用设施，载重量需在5000吨以上，需根据目标船型进行驳船造型，调载能力是关键因素。",
+        "chunk_ids": [
+            202,
+            203
+        ]
+    },
+    {
+        "entity_name": "浮船坞",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平地造船下水的设施，可承载建造完成的船舶或结构物，并通过漂浮出坞完成下水。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "气囊拖移",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用气囊作为临时支撑和拖移工具，将建造完成的船舶或结构物拖移至下水滑道并入水的工艺。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "倾斜水泥地面",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平地造船下水的临时地面设施，通过变更拖移滑道为下水滑道，利用重力完成下水。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "专用拖移装备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平地造船下水的专用设备，能够将建造完成的船舶或结构物直接拖移入水。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "大段分体建造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指将船体分为大段在小船台上分别建造，再通过下水漂浮合拢的建造方式，以提高小船台的利用率。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "坞内漂浮合拢",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船坞内通过漂浮方式将分体建造的大段进行合拢，常用于超大型油船（VLCC）的建造。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中安装设备、系统和舾装件的工艺，通常在分段或总段阶段进行。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "下水",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指将建造完成的船舶或结构物从建造场地移至水中的过程，是船舶建造的最后阶段。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "滑移",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指通过滑道将建造完成的船舶或结构物从建造区域移动至下水设施的过程。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "专用工装",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平地造船过程中辅助建造、合拢和下水的专用工具和装置。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "半潜驳船调载能力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指半潜驳船承载和调整船舶或结构物重量的能力，是选择半潜驳船的重要因素。",
+        "chunk_ids": [
+            202
+        ]
+    },
+    {
+        "entity_name": "滑道",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在水平船台和半潜驳甲板上铺设的结构，用于船舶拖移过程中的滑行路径。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "电动卷扬机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过卷动钢丝绳带动船舶在滑道上平移的拖移装备，造价相对较低，布置灵活，但需手动控制，同步性需人工控制。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "跟进式液压顶推设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过液压力将船舶托起，并在推进设备作用下沿滑道平移的拖移装备，操作简单安全，同步性较好，但造价较高。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "滑油",
+        "type": [
+            "摩擦介质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滑动摩擦式拖移的摩擦介质，静摩擦系数通常在0.15~0.35之间，造价较低，但受天气和滑道压力影响较大，易污染环境。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "高分子材料板",
+        "type": [
+            "摩擦介质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "采用纳米技术设计的复合材料，摩擦系数较小，通常与滑油相近，可循环使用，但市场价较高，需专门保养。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "气垫",
+        "type": [
+            "摩擦介质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过注入压缩气体（如氮气）在液压顶升设备与滑道之间形成的介质，可将摩擦系数降低至0.01左右。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "滚轴式工装滑道",
+        "type": [
+            "摩擦介质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滚动摩擦式拖移的摩擦介质，滚动摩擦系数相对较小，可循环使用，但需设计专用滑道，易受力不均导致损坏。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "气囊",
+        "type": [
+            "摩擦介质"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滚动摩擦式拖移的摩擦介质，分为顶升气囊和滚动气囊，对地面承载力要求较低，经济安全，但要求船舶底部结构平整且重量不能过大。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "平地造船",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在水平船台上进行船舶建造的技术，结合半潜驳船进行下水，适用于大型船舶或海洋工程结构物。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "陆地总组装工法",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "韩国现代重工对平地造船技术的称呼，强调在陆地上进行船舶和海洋工程产品的总装，提高船坞和船台使用效率。",
+        "chunk_ids": [
+            203
+        ]
+    },
+    {
+        "entity_name": "虚拟建造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶设计阶段模拟船舶建造全过程的技术，用于及早发现设计问题，减少建造过程中的更改和延期，优化资源配置，提高设备和劳动力使用率，降低生产成本，提高产品质量，并实现建造系统的全局最优化。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "建造工艺规划",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "虚拟建造仿真的首要工作，通过对船舶建造过程的深入分析，建立整体建造流程模型，确定每个环节的时间节点及所需资源和设备，包括车间布局、设备布置、人力资源分配、流程规划、物流控制仿真、生产调度仿真和工艺仿真。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "建造过程演示",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据建造工艺规划，利用虚拟仿真技术将船舶的整个生产建造过程表现出来，使用户能够直观观察零部件加工、船体结构焊接、舾装、涂装等过程，以及工人的工作过程、设备运行、物流控制和生产调度。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "建造过程评估",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造之前对整体建造过程进行模拟，以发现问题、优化资源配置、降低建造成本、提高产品质量。评估内容包括生产过程评估、制造成本估算和制造时间评估。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "虚拟制造",
+        "type": [
+            "工艺流程",
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "实际制造过程在计算机上的映射，采用计算机仿真与虚拟现实技术，在高性能计算机和高速网络支持下，实现产品设计、工艺规划、加工制造、性能分析、质量检验及企业管理与控制等制造过程，以增强制造过程的决策与控制能力。 | 虚拟制造是CIMS发展趋势之一，属于虚拟化技术的一部分，用于产品开发和制造过程的模拟。",
+        "chunk_ids": [
+            204,
+            207
+        ]
+    },
+    {
+        "entity_name": "虚拟制造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将数字化信息技术和计算机技术应用于产品设计与制造，是对真实产品制造的虚拟现实模拟，利用计算机软硬件技术、图形图像处理、智能接口、人工智能、多传感器、网络、并行处理等多种高新技术，在计算机上进行的仿真制造软技术。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "虚拟制造的应用",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "主要体现在建模和仿真两个方面：设计阶段用户可直接参与交互设计，提出修改意见；制造阶段对工艺、生产、管理等进行有效评价，通过仿真技术优化设计、工艺和管理，使参与者获得视觉、听觉、触觉等信息，预测产品功能及制造系统状况。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "船舶虚拟建造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶设计阶段模拟建造全过程的技术，用于发现设计问题、减少更改、优化资源配置、提高效率、降低成本、提升产品质量，并支持新技术、新设备的评估与应用。",
+        "chunk_ids": [
+            204
+        ]
+    },
+    {
+        "entity_name": "船舶虚拟建造技术",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于预先评估新技术、新设备在船厂应用的效果，评估在新技术条件下未来的船舶建造过程，以支持船厂在采购策略、规划、投资方面决策的制定。",
+        "chunk_ids": [
+            205
+        ]
+    },
+    {
+        "entity_name": "数学建模技术",
+        "type": [
+            "关键技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以产品的数学模型为核心，是船舶虚拟建造最重要的组成部分，目前大部分的船舶生产设计软件已经能够建立详细、完整的船舶三维模型，并能够分解成各个可制造单元和模块，数学建模的重点是建立制造资源的数学模型，包括工艺信息的特征模型、设备加工能力模型、生产能力模型等。",
+        "chunk_ids": [
+            205
+        ]
+    },
+    {
+        "entity_name": "数学描述技术",
+        "type": [
+            "关键技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "建立描述船厂运作、制造工艺过程的数学模型，包括建立描述船厂运作的数字模型、制造工艺的数学模型、可制造性分析及计算机辅助工艺规划、制造过程的动态描述。",
+        "chunk_ids": [
+            205
+        ]
+    },
+    {
+        "entity_name": "数学仿真技术",
+        "type": [
+            "关键技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用建立的描述船舶产品、船厂、车间、生产设备、工人、制造资源的三维模型，以及制定的船舶建造工艺的规划，采用虚拟现实技术构成虚拟环境，对船舶建造过程进行三维界面交互式数字化模拟，直观展现全过程，并对可操作性、可维护性等进行验证、评估和测试。",
+        "chunk_ids": [
+            205
+        ]
+    },
+    {
+        "entity_name": "数字接口技术",
+        "type": [
+            "关键技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于实现不同软件平台和硬件平台之间的数据共享和相互转换，是船舶虚拟建造各项技术间相互联系的桥梁，其发展依赖于商用软件平台和硬件平台对数据接口的公开。",
+        "chunk_ids": [
+            205
+        ]
+    },
+    {
+        "entity_name": "船舶产品虚拟漫游系统",
+        "type": [
+            "设备系统",
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在计算机上实现三维显示和漫游，主要用于船舶产品的设计评估、方案评审与优化，提高用户对复杂高新船舶产品的研发能力和设计水平，减少建造返工和材料浪费，缩短开发周期，减少建造成本。 | 用于船舶产品设计和展示的虚拟漫游系统，能够提供沉浸式体验，帮助用户更深入地了解船舶产品的结构和设计。",
+        "chunk_ids": [
+            205,
+            206
+        ]
+    },
+    {
+        "entity_name": "SPNavis系统",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由上海船舶工艺研究所研究开发的船舶产品虚拟漫游系统，支持行走、飞行、实时缩放等漫游操作，还能进行高效率、高精度的静态/动态碰撞检测。",
+        "chunk_ids": [
+            205
+        ]
+    },
+    {
+        "entity_name": "船舶产品虚拟沉浸式漫游环境",
+        "type": [
+            "设备系统",
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按系统结构划分主要由船舶产品数学建模软件平台、投影系统、用户交互系统以及图形与计算系统四部分组成。 | 用于船舶产品设计和展示的沉浸式虚拟环境，能够提供高度沉浸的交互体验，帮助用户深入了解船舶产品的结构和设计。",
+        "chunk_ids": [
+            205,
+            206
+        ]
+    },
+    {
+        "entity_name": "数学建模软件平台",
+        "type": [
+            "软件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶产品的数学建模、描述和仿真，包含数学建模软件、数学描述和仿真软件、数据接口软件等，是虚拟漫游系统的重要组成部分。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "投影系统",
+        "type": [
+            "硬件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多台支持高分辨率影像、响应速度快的投影机和投影屏幕组成，用于生成虚拟环境的视觉内容。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "用户交互系统",
+        "type": [
+            "硬件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包含多种交互设备，如跟踪器、数据手套、操纵杆、力反馈设备以及立体声音像设备，用于用户与虚拟环境及其物件的交互，增强沉浸感。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "图形与计算系统",
+        "type": [
+            "硬件系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责生成虚拟环境并对用户的交互信息进行处理，是驱动整个虚拟漫游系统的核心，需具备较高的图形和计算能力以维持实时性和沉浸感。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "背投弧形屏幕系统",
+        "type": [
+            "显示系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种常用的船舶产品虚拟沉浸式漫游环境，采用背投弧形屏幕技术，用于提供沉浸式视觉体验。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "CA-VE系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种常用的船舶产品虚拟沉浸式漫游环境，用于提供沉浸式体验。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "HOLOSPACE系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种常用的船舶产品虚拟沉浸式漫游环境，用于提供沉浸式体验。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "MoVE系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种常用的船舶产品虚拟沉浸式漫游环境，用于提供沉浸式体验。",
+        "chunk_ids": [
+            206
+        ]
+    },
+    {
+        "entity_name": "计算机集成制造",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机集成制造系统(Computer Integrated Manufacturing, CIMS)是随着计算机辅助设计与制造的发展而产生的，它是在信息技术自动化技术与制造的基础上，通过计算机技术把分散在产品设计制造过程中各种孤立的自动化子系统有机地集成起来，形成适用于多品种、小批量生产，实现整体效益的集成化和智能化制造系统。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "CIMS",
+        "type": [
+            "制造技术",
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "CIMS是基于CIM理念而组成的系统，是CIM的具体实现。CIMS的核心在于集成，不仅是综合集成企业内各生产环节的有关技术，如计算机辅助经营决策与生产管理技术（MIS、OA、MRP）、计算机辅助设计和分析技术（CAD、CAE、CAPP、CAM）、计算机辅助制造技术（CNC、DNC、FMC、FMS）、计算机辅助质量管理与控制技术等，更重要的是企业内的人/机构、经营管理和技术这被称之为CIMS三要素的有效集成，以保证企业内的工作流、物质流和信息流畅通无阻。 | 计算机集成制造系统，包含人/机构、经营管理、技术三要素，通过集成实现企业整体优化。 | 计算机集成制造系统，是一个复杂庞大的工程系统，通常采用递阶控制体系结构，包含数据库管理分系统和计算机网络分系统，用于实现各个功能分系统之间的通信和功能集成。",
+        "chunk_ids": [
+            207,
+            208,
+            210
+        ]
+    },
+    {
+        "entity_name": "CIM",
+        "type": [
+            "制造技术",
+            "技术理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "CIM是制造型企业生产组织管理的一种新理念，其内涵是：借助于以计算机为核心的信息技术，将企业中各种与制造有关的技术系统集成起来，使企业内的各类功能得到整体优化，从而提高企业适应市场竞争的能力。 | 计算机集成制造理念，推动CAD、CAPP、CAM技术的集成，实现产品数据在系统间的交换和共享。",
+        "chunk_ids": [
+            207,
+            209
+        ]
+    },
+    {
+        "entity_name": "计算机辅助设计",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助设计（CAD）是CIMS中计算机辅助设计和分析技术的一部分，用于产品设计和分析。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "计算机辅助制造",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助制造（CAM）是CIMS中计算机辅助制造技术的一部分，用于产品制造过程。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "计算机辅助质量管理与控制",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助质量管理与控制技术是CIMS中的一部分，用于企业质量管理与控制。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "计算机辅助经营决策与生产管理",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助经营决策与生产管理技术（MIS、OA、MRP）是CIMS中的一部分，用于企业经营决策与生产管理。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "敏捷制造",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "敏捷制造是CIMS发展趋势之一，强调企业间动态联盟技术、敏捷设计生产技术、柔性可重组机器技术等，以实现敏捷制造。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "绿色制造",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "绿色制造是CIMS发展趋势之一，包括绿色制造、环境意识的设计与制造、生态工厂、清洁化生产等，是全球可持续发展战略在制造业中的体现。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "标准化",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "标准化是CIMS发展趋势之一，涉及STEP、EDI和P-LIB等标准化技术，是信息集成、功能集成、过程集成和企业集成的基础。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "柔性化",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "柔性化是CIMS发展趋势之一，强调企业间动态联盟技术、敏捷设计生产技术、柔性可重组机器技术等，以实现敏捷制造。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "数字化",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "数字化是CIMS发展趋势之一，从产品的数字化设计开始，发展到产品全生命周期中各类活动、设备及实体的数字化，是先进制造技术发展的核心。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "虚拟现实",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "虚拟现实（VR）是CIMS发展趋势之一，属于虚拟化技术的一部分，用于产品开发和制造过程的模拟。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "虚拟产品开发",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "虚拟产品开发（VPD）是CIMS发展趋势之一，属于虚拟化技术的一部分，用于产品开发过程的模拟。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "虚拟企业",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "虚拟企业（VE）是CIMS发展趋势之一，属于虚拟化技术的一部分，用于企业间的协作与制造。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "全球制造",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "全球制造是CIMS发展趋势之一，随着“市场全球化”、“网络全球化”、“竞争全球化”和“经营全球化”的出现，许多企业积极采用“全球制造”、“敏捷制造”和“网络制造”的策略。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "网络制造",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "网络制造是CIMS发展趋势之一，随着“市场全球化”、“网络全球化”、“竞争全球化”和“经营全球化”的出现，许多企业积极采用“全球制造”、“敏捷制造”和“网络制造”的策略。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "敏捷设计生产技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "敏捷设计生产技术是CIMS发展趋势之一，强调企业间动态联盟技术、敏捷设计生产技术、柔性可重组机器技术等，以实现敏捷制造。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "柔性可重组机器技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "柔性可重组机器技术是CIMS发展趋势之一，强调企业间动态联盟技术、敏捷设计生产技术、柔性可重组机器技术等，以实现敏捷制造。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "信息集成",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "信息集成是CIMS的核心内容之一，强调企业内各类功能得到整体优化，提高企业适应市场竞争的能力。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "功能集成",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "功能集成是CIM的基本观点之一，强调企业的功能集成，将企业各个生产环节作为一个不可分割的整体，统一考虑。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "过程集成",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "过程集成是CIMS发展趋势之一，从原先的企业内部的信息集成和功能集成，发展到当前的以并行工程为代表的过程集成。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "企业间集成",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "企业间集成是CIMS发展趋势之一，从原先的企业内部的信息集成和功能集成，发展到当前的以并行工程为代表的过程集成，并正在向以敏捷制造为代表的企业间集成发展。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "并行工程",
+        "type": [
+            "制造技术",
+            "工艺流程",
+            "工作模式",
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "并行工程是CIMS发展趋势之一，属于过程集成的一部分，强调在产品设计和制造过程中各环节的并行处理。 | 在设计某产品的同时强调设计加工产品的生产工艺、工装与测量以及质量系统，其关键是集成一切资源，改变传统的串行工程模式，实现CAD/CAPP/CAM/CAE系统的集成。 | 一种对产品及其相关过程进行并行的、一体化设计的工作模式，使产品开发人员一开始就能考虑到从产品概念设计到产品消亡的整个产品生命周期中的所有因素，包括质量、成本、进度和用户要求。 | 一种强调一体化、并行地进行产品及其相关过程的协同设计方法，注重早期概念设计阶段的并行和协调，以信息论、控制论和系统论为基础。",
+        "chunk_ids": [
+            207,
+            212,
+            213,
+            214
+        ]
+    },
+    {
+        "entity_name": "信息流",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "信息流是CIMS中企业内工作流、物质流和信息流的一部分，用于保证企业内的信息畅通。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "物质流",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "物质流是CIMS中企业内工作流、物质流和信息流的一部分，用于保证企业内的物质流通。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "工作流",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工作流是CIMS中企业内工作流、物质流和信息流的一部分，用于保证企业内的工作流程畅通。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "STEP",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "STEP是标准化技术之一，用于制造业向全球化、网络化、集成化和智能化发展的过程中，是信息集成、功能集成、过程集成和企业集成的基础。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "EDI",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "EDI是标准化技术之一，用于制造业向全球化、网络化、集成化和智能化发展的过程中，是信息集成、功能集成、过程集成和企业集成的基础。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "P-LIB",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "P-LIB是标准化技术之一，用于制造业向全球化、网络化、集成化和智能化发展的过程中，是信息集成、功能集成、过程集成和企业集成的基础。",
+        "chunk_ids": [
+            207
+        ]
+    },
+    {
+        "entity_name": "经营管理信息分系统",
+        "type": [
+            "功能分系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "将企业生产经营过程中产、供、销、人、财、物等进行统一管理的计算机应用系统，是CIMS的神经中枢，指挥与控制着CIMS其他各部分有条不紊地工作。",
+        "chunk_ids": [
+            208
+        ]
+    },
+    {
+        "entity_name": "制造自动化分系统",
+        "type": [
+            "功能分系统",
+            "系统模块"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "位于企业制造环境的底层，是直接完成制造活动的基本环节，是CIMS的信息流和物料流的结合点，是CIMS最终产生经济的聚集地。 | CIMS的底层系统，直接完成制造活动，是信息流和物料流的结合点，实现制造过程的自动化和集成。",
+        "chunk_ids": [
+            208,
+            209
+        ]
+    },
+    {
+        "entity_name": "工程设计自动化分系统",
+        "type": [
+            "功能分系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "指在产品设计开发过程中引用计算机技术，使产品设计开发工作更有效、更优质、更自动地进行，包括产品概念设计、工程结构分析、详细设计、工艺设计以及数控编程等。",
+        "chunk_ids": [
+            208
+        ]
+    },
+    {
+        "entity_name": "MRPⅡ",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "是一个集生产、供应、销售和财务为一体的信息管理系统，包含生产经营计划、产品数据、物料需求计划、生产作业计划、能力需求计划、库存管理、财务管理、采购管理、销售管理等模块。",
+        "chunk_ids": [
+            208
+        ]
+    },
+    {
+        "entity_name": "CAD",
+        "type": [
+            "系统",
+            "技术工具"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "指工程技术人员以计算机为工具，用各自的专业知识，对产品进行产品造型、工程分析、模拟仿真和图形处理等整个设计活动的总称。 | 计算机辅助设计技术，用于产品设计和模型创建，是CIMS系统中集成的一部分。",
+        "chunk_ids": [
+            208,
+            209
+        ]
+    },
+    {
+        "entity_name": "CAPP",
+        "type": [
+            "系统",
+            "技术工具"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "根据产品设计所给出的信息进行产品加工的方法和制造过程的设计技术，功能包括毛坯设计、加工方法选择、工序设计、工艺路线制定以及工时定额计算等。 | 计算机辅助工艺规划技术，用于制定制造工艺流程，是CIMS系统中集成的一部分。",
+        "chunk_ids": [
+            208,
+            209
+        ]
+    },
+    {
+        "entity_name": "CAM",
+        "type": [
+            "系统",
+            "技术工具"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "通常指刀具路径的确定、刀位文件的生成、刀具轨迹仿真以及NC代码的生成等作业。 | 计算机辅助制造技术，用于产品制造过程的控制和执行，是CIMS系统中集成的一部分。",
+        "chunk_ids": [
+            208,
+            209
+        ]
+    },
+    {
+        "entity_name": "数据库管理",
+        "type": [
+            "支撑分系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS的支撑分系统之一，用于统一管理企业数据，支持各功能分系统的信息集成。",
+        "chunk_ids": [
+            208
+        ]
+    },
+    {
+        "entity_name": "计算机网络",
+        "type": [
+            "支撑分系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS的支撑分系统之一，用于实现各功能分系统之间的信息传输与通信。",
+        "chunk_ids": [
+            208
+        ]
+    },
+    {
+        "entity_name": "机械加工系统",
+        "type": [
+            "制造系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于零件或产品的加工和装配，包括数控机床、加工中心、柔性制造单元等设备。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "控制系统",
+        "type": [
+            "制造系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "实现对机械加工系统的操作过程控制，是制造自动化系统集成信息流和决策流的基础。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "物流系统",
+        "type": [
+            "制造系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "完成对工件和工具的存储、搬运、装卸等操作，是制造自动化系统集成的基础。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "监控系统",
+        "type": [
+            "制造系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "完成制造过程中对加工对象、加工设备及加工工具的在线自动监控，保证制造质量。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "质量保证分系统",
+        "type": [
+            "系统模块"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以提高产品制造质量和企业管理质量为目标，覆盖产品生命周期各阶段，由多个子系统组成。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "质量计划子系统",
+        "type": [
+            "子系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定质量目标，建立质量标准和技术标准，制定监测计划及检测规程和规范。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "质量监测管理子系统",
+        "type": [
+            "子系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管理进厂材料、外购件和外协议的质量检测数据，以及生产过程中影响成品质量的数据。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "质量分析评价子系统",
+        "type": [
+            "子系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对产品设计质量、外购外协件质量、工序控制点质量等进行分析和评价，查明质量问题的主要原因。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "质量信息综合管理与反馈控制子系统",
+        "type": [
+            "子系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括质量报表生成、质量综合查询、产品使用过程质量综合管理，以及针对质量问题的信息反馈。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "数据库管理分系统",
+        "type": [
+            "系统模块",
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "CIMS的支撑分系统，用于存储和调用各类数据，实现信息集成和共享。 | CIMS的一部分，用于支持各个功能分系统之间的通信，有效保证全系统的功能集成。",
+        "chunk_ids": [
+            209,
+            210
+        ]
+    },
+    {
+        "entity_name": "计算机网络分系统",
+        "type": [
+            "系统模块",
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "CIMS的重要支撑技术，用于信息集成，实现资源共享和数据通信。 | CIMS的一部分，由多台计算机、终端设备、数据传输设备以及通信控制处理等设备组成，具有硬件、软件和数据共享的功能，用于实现各个功能分系统之间的通信。",
+        "chunk_ids": [
+            209,
+            210
+        ]
+    },
+    {
+        "entity_name": "局域网",
+        "type": [
+            "网络类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖企业内部地理范围的计算机网络，是CIMS常用的网络形式。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "广域网",
+        "type": [
+            "网络类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖较大地理范围的计算机网络，用于连接多个局域网，实现CIMS的扩展。",
+        "chunk_ids": [
+            209
+        ]
+    },
+    {
+        "entity_name": "递阶控制系统",
+        "type": [
+            "控制系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS采用的控制体系结构，将复杂控制系统按功能分解为若干层次，各层次进行独立控制处理，层与层之间保持信息交换，上层对下层发出命令，下层回送执行结果，构成完整控制系统。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "工厂层",
+        "type": [
+            "控制层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS递阶控制结构中的最高管理决策层，具有市场预测、制定长期生产计划、确定生产资源需求、制定资源计划、产品开发以及工艺过程规划等功能，同时还具有成本核算、库存统计、用户订单处理等厂级经营管理功能。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "车间层",
+        "type": [
+            "控制层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS递阶控制结构中的中间层，根据工厂层的生产计划协调车间生产作业和资源配置，包括从CAD/CAM系统中接受产品物料清单，从CAPP系统中接受工艺过程数据，并进行车间内各单元的作业管理和资源分配。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "单元层",
+        "type": [
+            "控制层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS递阶控制结构中的中间层，主要完成本单元的作业调度，包括零件在各工作站的作业顺序、作业指令的发放和管理，协调工作站间的物料运输，进行机床和操作者的任务分配及调度。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "工作站层",
+        "type": [
+            "控制层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS递阶控制结构中的中间层，负责指挥和协调车间中一个设备小组的活动，其规划周期可以从几分钟到几个小时，制造系统中的工作站可分为加工工作站、检验工作站、刀具管理工作站、物料储运工作站等。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "设备层",
+        "type": [
+            "控制层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS递阶控制结构中的最低层，包括各种设备（如加工机床、机器人、坐标测量机、无人小车等）控制器，执行上层的控制命令，完成加工、测量、运输等任务，其响应时间为几毫秒到几分钟。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "CAD/CAM系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "车间层从其接受产品物料清单的系统，用于产品设计和制造过程的自动化。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "CAPP系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "车间层从其接受工艺过程数据的系统，用于产品工艺过程规划。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "加工工作站",
+        "type": [
+            "工作站"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工作站层中的一个类型，负责完成安装、夹紧、切削加工、检验、切削清除、工件卸除等工作顺序的控制、协调与监控任务。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "检验工作站",
+        "type": [
+            "工作站"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工作站层中的一个类型，用于完成产品的检验任务。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "刀具管理工作站",
+        "type": [
+            "工作站"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工作站层中的一个类型，用于管理刀具的存储、维护和分配。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "物料储运工作站",
+        "type": [
+            "工作站"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工作站层中的一个类型，用于物料的存储和运输。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "加工机床",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "设备层中的设备，用于完成加工任务。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "设备层中的设备，用于自动化操作和搬运任务。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "坐标测量机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "设备层中的设备，用于测量工件的尺寸和形状。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "无人小车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "设备层中的设备，用于物料运输。",
+        "chunk_ids": [
+            210
+        ]
+    },
+    {
+        "entity_name": "CIMS/OSA体系结构",
+        "type": [
+            "体系结构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "CIMS体系结构的一种，由欧盟ESPRIT计划中的AMICE专题提出，是一个开放式的体系结构，为制造业CIMS提供了一种参考模型，已作为对CIMS进行规划、设计、实施和运行的系统工具。 | CIMS/OSA体系结构的基本思想是将复杂的CIMS设计实施过程，沿结构方向、建模方向和视图方向分别作为通用程度维、生命周期维和视图维三维坐标，对应于从一般到特殊、推导求解和逐步生成的三个过程，以形成CIMS开放式体系结构的总体框架。",
+        "chunk_ids": [
+            210,
+            211
+        ]
+    },
+    {
+        "entity_name": "通用层",
+        "type": [
+            "结构层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通用层包含各种CIMS、OSA的结构模块，包括组件、约束规划、服务功能和协议等系统的基本构成，包括各种企业的共同需求和处理方法。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "部分通用层",
+        "type": [
+            "结构层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "部分通用层有一套适用于各种制造企业的部分通用模型，包括按照工业类型、行业、企业规模等不同分类的各类典型结构，是建立企业专用模型的工具。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "专用层",
+        "type": [
+            "结构层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "专用层的专用结构是在参考结构（由通用层和部分通用层组成）的基础上根据特定企业运行需求而选定和建立的系统和结构。专用层仅适用于一个特定企业，一个企业只能通过一种专用结构来描述。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "需求定义层",
+        "type": [
+            "建模层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "需求定义层按照用户的准则描述一个企业的需求定义模型。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "设计说明层",
+        "type": [
+            "建模层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "设计说明层根据企业经营业务的需求和系统的有限能力，对用户的需求进行重构和优化。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "实施描述层",
+        "type": [
+            "建模层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "实施描述层在设计说明层的基础上，对企业生产活动实际过程中及系统的物理元件进行描述。物理元件包括制造技术元件和信息技术元件两类。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "功能视图",
+        "type": [
+            "视图层"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "功能视图用来获取企业用户对CIMS内部运行过程的需求，反映系统的基本活动规律，指导用户确定和选用相应的功能模块。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "信息视图",
+        "type": [
+            "视图层"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "信息视图用来帮助企业用户确定其信息需求，建立基本的信息关系和确定数据库的结构。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "资源视图",
+        "type": [
+            "视图层"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "资源视图帮助企业用户确定其资源需求，建立优化的资源结构。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "组织视图",
+        "type": [
+            "视图层"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "组织视图用于确定CIMS内部的多级多维职责体系，建立CIMS的多级组织结构，从而改善企业的决策过程并提高企业的适应性和柔性。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "863计划",
+        "type": [
+            "国家计划"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "国家高技术研究发展计划（863计划），明确将CIMS确定为自动化领域研究主题之一，旨在促进我国计算机集成制造技术的发展和应用。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "CIMS主题",
+        "type": [
+            "研究主题"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "863/CIMS主题的四个工作层次包括应用基础研究、关键技术攻关、目标产品开发和应用示范工程。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "应用基础研究",
+        "type": [
+            "工作层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "包括对CIMS总体集成技术、CAD/CAPP/CAM技术、质量、柔性制造、管理决策、网络数据库、系统技术等专题的研究。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "关键技术攻关",
+        "type": [
+            "工作层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "包括制造业计算机集成应用的集成平台与原型系统的开发、流程工业计算机集成制造企业管理模式和企业间集成技术、基于生产目标的复杂过程建模与优化集成控制技术、面向大规模定制生产模式的现代优化设计等关键技术的攻关。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "目标产品开发",
+        "type": [
+            "工作层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "主要内容包括离散工业单元技术目标产品、离散工业重大产品、流程工业单元技术及重大目标产品、目标产品集成系统等内容的开发。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "应用示范工程",
+        "type": [
+            "工作层次"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "建立一批包括飞机、机床、鼓风机、纺织机、汽车、家电和服装等行业在内的国家级CIMS技术应用示范企业。",
+        "chunk_ids": [
+            211
+        ]
+    },
+    {
+        "entity_name": "串行工程",
+        "type": [
+            "工艺流程",
+            "工作模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在前一工作环节完成之后才开始后一工作环节的工作，各个工作环节的作业在时序上没有重叠和反馈，即使有反馈，也是事后的反馈。 | 传统的工程工作方式，将时间上先后的知识处理和作业实施过程依次进行，与并行工程相对。",
+        "chunk_ids": [
+            212,
+            213
+        ]
+    },
+    {
+        "entity_name": "CAD/CAPP/CAM/CAE集成系统",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "符合并行工程要求的集成系统，能改变传统的串行工程模式，实现设计、工艺、制造等环节的协同与反馈，避免设计和制造的脱节。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "DFM/DFA",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造中的零件加工及装配提供优化和评价方法，是并行工程集成模块中的关键部分。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造过程中，以产品导向型工程分解，将船舶建造的全过程分为船体建造、舾装和涂装三部分，每一类又分为加工和装配两种作业。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "CIMS技术",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机集成制造技术，用于提升制造业的信息化水平，推动企业竞争力和制造业现代化发展。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "现代集成制造系统",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "替代传统计算机集成制造系统的现代制造系统，研究对象和作用范围均有较大变化，用于提升传统产业和促进制造业技术创新。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "数字化设计与制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "结合技术难度高的重大复杂产品和设备的设计与制造过程，进行创新研究和开发，为企业提供共性的数字化设计与制造方法、软件工具集和集成化系统。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "过程自动化系统",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以石化、冶金、化工和制药等流程工业企业为对象，提高行业、企业经济效益，降低生产成本和增强企业国际竞争力。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "企业管理与电子商务系统",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "重点研究适合我国国情的现代管理技术、现代企业管理模式与电子商务商业模式，开发支持企业经营管理、重组优化与电子商务的软件产品、平台及工具集。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "现代集成制造系统平台",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "开展现代集成制造系统实施方法与共性支撑技术、系统集成与集成平台技术、企业建模与诊断技术、数据挖掘与知识管理、ASP应用服务技术研究，开发企业建模与诊断系统、制造业整体解决方案集成平台软件工具、集成支撑系统等。",
+        "chunk_ids": [
+            212
+        ]
+    },
+    {
+        "entity_name": "产品设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品开发过程中的初始阶段，涉及产品概念设计到产品消亡的整个生命周期中的因素，是并行工程中需要全面考虑的环节。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "工艺设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品开发过程中涉及制造工艺的设计，是并行工程中需要统筹考虑的环节。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "装配设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品开发过程中涉及产品装配方式的设计，是并行工程中需要统筹考虑的环节。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "检验方式",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品开发过程中涉及产品检验方法的设计，是并行工程中需要统筹考虑的环节。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "售后服务方案",
+        "type": [
+            "服务设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品开发过程中涉及产品售后服务的设计，是并行工程中需要统筹考虑的环节。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "设计团队",
+        "type": [
+            "组织形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在并行工程中，产品开发团队由设计、工艺、制造和支持的不同部门、不同学科的代表组成，协同完成共同任务。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "协同设计",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "并行工程中强调一体化、并行地进行产品及其相关过程的协同设计，尤其注重早期概念设计阶段的并行和协调。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "概念设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "产品开发过程中的初始设计阶段，统计表明该阶段的成本占产品全部成本的70%。 | 产品开发的早期阶段，其成本占产品全部成本的70%，并行工程特别强调该阶段的并行和协调。",
+        "chunk_ids": [
+            213,
+            214
+        ]
+    },
+    {
+        "entity_name": "协同效益",
+        "type": [
+            "效益类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "并行工程中强调通过团队协作实现的效益，力求排除传统串行模式中各个部门间的壁垒，使各个相关部门协调一致地工作，提高整体效益。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "集成特征",
+        "type": [
+            "工作特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "并行工程的特征之一，强调制造系统各环节的内在联系和整体最优，追求全局性考虑。",
+        "chunk_ids": [
+            213
+        ]
+    },
+    {
+        "entity_name": "集成产品信息模型",
+        "type": [
+            "信息模型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表达产品信息、工艺信息、制造信息以及产品生命周期内各个环节的信息，能够表示产品的可制造性、可维护性和安全性，基于STEP标准，采用Express语言和面向对象技术进行描述。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "产品数据管理",
+        "type": [
+            "管理系统",
+            "系统/方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于集成和管理产品所有相关数据及其相关过程，确保产品数据的完整性、一致性及正确性，支持并行设计中的数据共享与协同。 | 用于多功能设计小组并行设计产品及其相关问题的基础系统，其目标是对并行工程中的共享数据进行统一、规划管理，保证全局共享数据的一致性，提供统一数据库操纵界面。",
+        "chunk_ids": [
+            214,
+            215
+        ]
+    },
+    {
+        "entity_name": "面向制造的设计",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "面向X的设计技术之一，用于在设计过程中解决设计特征的加工问题，确保产品的可制造性。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "面向装配的设计",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "面向X的设计技术之一，用于在设计过程中解决装配及装配加工问题，确保产品的可装配性，避免后期出现装配类别的问题。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "全数字化定义的计算机辅助设计工具",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括计算机辅助设计、计算机辅助工程分析、计算机辅助工艺规划、计算机辅助制造、计算机辅助质量检测等，用于支持并行工程的协同设计。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "STEP标准",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于定义和描述产品所有信息的标准，集成产品信息模型基于该标准进行信息表达。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "C++语言",
+        "type": [
+            "编程语言"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将Express语言中的实体映射到该语言中的类，生成STEP中性文件，支持产品信息模型的实现。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "Express语言",
+        "type": [
+            "编程语言"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述和表达产品信息模型的语言，集成产品信息模型采用该语言进行信息定义。",
+        "chunk_ids": [
+            214
+        ]
+    },
+    {
+        "entity_name": "协同的网络通信手段",
+        "type": [
+            "通信工具",
+            "系统/方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支持并行工程中群体设计团队的协同工作，确保信息的实时传递与共享。 | 用于便于开发分布式产品的网络通信手段和工具，包括多媒体邮件、电子公告板和基于网络的视频会议系统(Meeting on Network，MONET)等。",
+        "chunk_ids": [
+            214,
+            215
+        ]
+    },
+    {
+        "entity_name": "多媒体邮件",
+        "type": [
+            "通信工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过计算机网络交换电子邮件的一种形式，具有简单性、价格合理和高效的实用性，但对数据传送率要求较低，不适用于合作解决期限紧迫的设计问题。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "电子公告板",
+        "type": [
+            "通信工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "处于网络中心，可供观察、扩展和修改公共信息的白板技术，用于在分布式设计小组内传送设计问题和变更建议，但不能保证在规定时间内得到同事的响应。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "基于网络的视频会议系统",
+        "type": [
+            "通信工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种基于计算机网络的实际多媒体会议系统，用于各类人员、计算机及信息资源间的合作与共享，使设计小组成员无需离开工作台即可交换意见，减少通常来往所消耗的时间、精力和能力。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "成组技术",
+        "type": [
+            "制造技术",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为解决多品种、中小批量生产中出现的问题而产生和发展的一项新技术，通过揭示和利用事物间的相似性，按一定准则分类成组，以便提高效益，是计算机辅助制造的基础。 | 一种用于零件加工、装配、设计、工艺设计、工厂设计、市场预测、劳动量测定、生产管理和工资管理等领域的综合性技术。",
+        "chunk_ids": [
+            215,
+            216
+        ]
+    },
+    {
+        "entity_name": "成组工艺",
+        "type": [
+            "制造工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "成组技术的核心，将结构、材料、工艺相近似的零件组成一个零件族，按零件族制定工艺进行加工，从而扩大批量，减少品种，便于采用高效方法，提高劳动生产率。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "零件族",
+        "type": [
+            "制造部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由相似设计和加工特点的零件组成的集合，每个零件族的成员具有相似的工艺规程，便于通过将生产设备分成加工组或加工单元来提高加工效率。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "零件相似性",
+        "type": [
+            "制造特性",
+            "工艺概念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "零件在几何形状、尺寸、功能要素、精度和材料等方面的相似性，以及由此导出的制造和装配等生产、经营和管理方面的相似性，称为二次相似性或派生相似性。 | 指零件形状的相似性与零件加工方法（工艺）的相似性，是零件分组的依据。",
+        "chunk_ids": [
+            215,
+            218
+        ]
+    },
+    {
+        "entity_name": "作用相似性",
+        "type": [
+            "制造特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "零件在产品中的作用相似性，可通过零件间的装配关系及零件图纸的某些信息来推断。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "结构相似性",
+        "type": [
+            "制造特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "零件的结构相似性，可根据零件图的信息来确定，又可划分为结构、材料和工艺三个类别。",
+        "chunk_ids": [
+            215
+        ]
+    },
+    {
+        "entity_name": "零件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指构成船舶产品或组件的基本单元，其作用相似性和结构相似性可用于制造工艺和设计分析。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "分类编码系统",
+        "type": [
+            "标准/机构",
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于对零件各有关特征进行描述和标识的一套特定规则和依据，通过字符（数字、字母或符号）对零件特征进行编码，称为GT码。 | 用于对零件进行编码的系统，如OPTIZ分类编码系统，用于零件分组和分类。",
+        "chunk_ids": [
+            216,
+            219
+        ]
+    },
+    {
+        "entity_name": "OPITZ码",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由德国阿亨工业大学Opitz教授开发的分类编码系统，用于描述零件的形状、尺寸、精度和材料，由9位数字组成，后可扩展4位用于表示生产操作类型和顺序。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "类型码",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "OPITZ分类编码系统的第一位，用于描述零件的总体类型，包括回转类零件的长径比范围和非回转类零件的长宽高比例。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "形状码",
+        "type": [
+            "标准/机构",
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "OPITZ分类编码系统中用于描述零件形状的编码部分，位于第1至第5位数字，用于区分不同形状特征。 | 用于描述零件主要形状特征的码位，包括外表面、内表面、平面和槽等特征。",
+        "chunk_ids": [
+            216,
+            217
+        ]
+    },
+    {
+        "entity_name": "尺寸码",
+        "type": [
+            "标准/机构",
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "OPITZ分类编码系统中用于描述零件尺寸、精度和材料的编码部分，位于第6至第9位数字。 | 用于表示零件基本尺寸的码位，由0~9表示10个由小到大的尺寸间隔。",
+        "chunk_ids": [
+            216,
+            217
+        ]
+    },
+    {
+        "entity_name": "回转体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指具有旋转对称性的零件，如轴类、盘类等，其长径比用于分类。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "长径比",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述回转类零件的长度与直径的比例，是OPITZ分类编码系统中类型码的重要依据。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "非回转类零件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指不具有旋转对称性的零件，其分类依据为长、宽、高的不同比例。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "长宽高",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述非回转类零件的尺寸比例，分别用A、B、C表示长度、宽度和高度。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "码位",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分类编码系统中用于表示不同特征的数字位置，如OPITZ码中的前5位为形状码，后4位为尺寸码。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "树式结构",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分类编码系统的结构形式之一，码位之间具有隶属关系，前一码位决定后一码位的含义，能详细描述零件特征但结构复杂。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "链式结构",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分类编码系统的结构形式之一，每个码位的特征码具有独立含义，与前后码位无关，结构简单且便于编码和识别。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "混合式结构",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分类编码系统的结构形式之一，结合树式结构和链式结构，用于大多数分类编码系统，如OPITZ码和KK码。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "柔性码",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于克服传统GT码不足的一种新型编码系统，能够更详细地描述零件信息。",
+        "chunk_ids": [
+            216
+        ]
+    },
+    {
+        "entity_name": "OPITZ分类编码系统",
+        "type": [
+            "分类编码系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "一种用于零件分类的编码系统，其第一位数字用于粗略分类，第二至第五位用于描述零件的主要形状特征。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "JCBM分类编码系统",
+        "type": [
+            "分类编码系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "我国第一个分类编码系统，基于OPITZ系统制定，由5位形状特征主码与4位副码组成。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "JCBM-1分类编码系统",
+        "type": [
+            "分类编码系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "机械工业部颁发的机械零件分类编码系统，结合我国机床行业具体情况，适用于设计、工艺设计、加工制造和生产管理。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "MICCLASS分类编码系统",
+        "type": [
+            "分类编码系统"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "荷兰应用科学园金属研究所研制的分类编码系统，现改名为MUTIClass，具有多种功能并附有计算机程序，适用于设计、制造及管理部门。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "柔性分类编码系统",
+        "type": [
+            "分类编码系统",
+            "系统/方法"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "一种可灵活配置的分类编码系统，用于零件信息的自动编码和处理，具有较高的编码效率和准确性。 | 一种面向企业生产活动全过程的零件分类编码系统，具有多段式、多层次、柔性化结构，能够根据零件复杂程度变化，适应CAD/CAPP/CAM一体化需求。",
+        "chunk_ids": [
+            217,
+            218
+        ]
+    },
+    {
+        "entity_name": "主码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "用于标识零件形状、尺寸、精度和材料等主要设计特征的码位，共12位，内容在不同企业中保持不变。 | 通用码的第一部分，由7位固定码构成，用于粗略描述零件总体信息，包括零件类别、尺寸、材料、毛坯、是否为标准件或外协件等属性标记。",
+        "chunk_ids": [
+            217,
+            218
+        ]
+    },
+    {
+        "entity_name": "辅码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "用于描述零件批量、工时、材料加工性、主要工序、工装、装夹等工艺特征的码位，位数和内容可根据用户需求变化。 | 通用码的第二部分，用于描述零件可能出现的工艺特征，如热处理、精度等，其码位不定，视自动生成工艺规程时逻辑推理的需求或企业管理等其他需求而定。",
+        "chunk_ids": [
+            217,
+            218
+        ]
+    },
+    {
+        "entity_name": "材料码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于表示零件材料的码位，分为10类，包括铸铁、碳钢、合金钢、非铁合金等。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "毛坯形状码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于表示零件毛坯形状的码位，包括棒料、管材、铸锻件、焊接件等10类。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "高精度加工码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于表示零件上高精度加工要求（IT7和Ra0.8以上）所在的形状码位，用0~9表示。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "辅助孔和齿形码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于表示零件上是否有辅助孔和齿形等特征的码位。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "回转体零件",
+        "type": [
+            "零件类型"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "具有旋转对称性的零件，其第二位数字用于描述外部主要形状特征，如台阶、圆锥面等。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "非回转体零件",
+        "type": [
+            "零件类型"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "不具有旋转对称性的零件，其第二至第五位数字用于描述外形、主要孔及其他加工特征。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "零件外形",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件的外部形状特征，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "零件内表面",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件的内部表面形状特征，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "平面和槽",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件上的平面和槽特征，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "台阶孔",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件内部带有台阶的孔，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "圆锥孔",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件内部带有圆锥面的孔，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "辅助孔",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件上除主要孔以外的辅助孔，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "齿形",
+        "type": [
+            "零件特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件上的齿形特征，用于分类编码系统中的形状码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "零件批量",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件的生产批量信息，用于分类编码系统中的辅码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "工时",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件加工所需的时间信息，用于分类编码系统中的辅码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "材料加工性",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "材料在加工过程中的性能表现，用于分类编码系统中的辅码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "主要工序",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件加工中的主要工艺步骤，用于分类编码系统中的辅码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "工装",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于零件加工的工具和夹具，用于分类编码系统中的辅码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "装夹",
+        "type": [
+            "工艺特征"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "零件在加工过程中的定位和夹持方式，用于分类编码系统中的辅码描述。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "设计检索",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的设计信息检索功能。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "分类编组",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的零件分类和编组功能。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "工艺规程设计",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的工艺规程设计功能。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "机床选择",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的机床选择功能。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "机应负荷计算",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的机床负荷计算功能。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "成本估算",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的成本估算功能。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "自动编码",
+        "type": [
+            "功能应用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "通过分类编码系统实现的自动编码功能，可显著提高编码效率并降低出错率。",
+        "chunk_ids": [
+            217
+        ]
+    },
+    {
+        "entity_name": "通用码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "柔性分类编码系统中的一级总体信息码组成部分，由主码和辅码构成，主码为7位固定码，用于描述零件类别、尺寸、材料、毛坯、是否为标准件或外协件等通用属性。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "专用码",
+        "type": [
+            "编码结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "柔性分类编码系统的第二级或第三级代码，码位长度及层次多少视设计、工艺或管理各部分的具体需求而定。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "特征数据法",
+        "type": [
+            "分组方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种零件分组方法，通过从零件编码中选择几位特征性强并对划分零件组影响较大的码位作为分组的主要依据，忽略影响不大的原码位。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "特征矩阵",
+        "type": [
+            "分组工具",
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于零件分组的矩阵结构，每个特征矩阵对应一个码域，即一个零件组，通过统计分析零件编码的特征信息来建立。 | 用于表示零件特征的矩阵，具有一定的通用范围，作为划分零件组的依据。",
+        "chunk_ids": [
+            218,
+            219
+        ]
+    },
+    {
+        "entity_name": "零件编码",
+        "type": [
+            "编码结构",
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述零件几何形状信息与加工工艺信息的编码系统，可作为CAPP系统零件信息的输入，实现CAD与CAPP的集成。 | 用于表示零件的唯一标识符，通过矩阵形式进行表示，用于零件分组和分类。",
+        "chunk_ids": [
+            218,
+            219
+        ]
+    },
+    {
+        "entity_name": "CAD/CAPP/CAM一体化",
+        "type": [
+            "系统集成"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "柔性分类编码系统的目标之一，实现计算机辅助设计（CAD）、计算机辅助工艺规划（CAPP）和计算机辅助制造（CAM）的统一描述与集成。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "零件分组",
+        "type": [
+            "工艺方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "成组技术的核心方法，通过寻找零件的相似性（形状和工艺），将相似零件归并为零件族，是实施成组技术的基础。 | 根据零件代码矩阵与特征矩阵的匹配情况，将零件划分为不同组的过程。",
+        "chunk_ids": [
+            218,
+            219
+        ]
+    },
+    {
+        "entity_name": "特征编码分组法",
+        "type": [
+            "分组方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过零件编码来分组的方法，也称为特征数据法或特征矩阵法，用于实现零件的分类与分组。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "特征指标综合比较法",
+        "type": [
+            "分组方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于比较复杂的精确聚类分析的零件分组方法，通常用于需要高精度分组的场景。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "零件结构特征统计分析",
+        "type": [
+            "分析方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过统计分析零件编码的每一位数值及其出现次数，了解零件结构和形状信息的分布情况，为零件分组提供定量依据。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "零件代码排序",
+        "type": [
+            "数据处理"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对零件代码按从小到大的顺序进行排序，便于管理和检索，通常使用简单的计算排序程序完成。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "零件代码顺序表",
+        "type": [
+            "数据结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "零件代码排序后的结果，每个零件代码与其零件图号相对应，用于管理和检索。",
+        "chunk_ids": [
+            218
+        ]
+    },
+    {
+        "entity_name": "零件结构信息分布",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述零件结构信息在整体数据中的分布情况，用于统计分析和分组。",
+        "chunk_ids": [
+            219
+        ]
+    },
+    {
+        "entity_name": "生产流程法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过分析零件的工艺流程（工艺规程）来确定零件族的零件分类成组方法。",
+        "chunk_ids": [
+            219
+        ]
+    },
+    {
+        "entity_name": "OP代码",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示在一台机床上或一个工作点上的一系列操作的代码，用于工艺规程的表示。",
+        "chunk_ids": [
+            219
+        ]
+    },
+    {
+        "entity_name": "关联矩阵",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "也叫PFA矩阵，用于表示零件与工序代码之间的关系，每一行代表一个工序代码，每一列代表一个零件。",
+        "chunk_ids": [
+            219
+        ]
+    },
+    {
+        "entity_name": "分组算法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将零件归并为一组的算法，如核心机床法、顺序分枝法、聚类法等。",
+        "chunk_ids": [
+            219
+        ]
+    },
+    {
+        "entity_name": "排序聚类分析算法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于确定零件组的算法，如金氏(King)提出的排序聚类分析算法。",
+        "chunk_ids": [
+            219
+        ]
+    },
+    {
+        "entity_name": "总权",
+        "type": [
+            "数据信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算列或行的权重，根据矩阵中各元素的值进行加权求和。",
+        "chunk_ids": [
+            219
+        ]
+    }
+]

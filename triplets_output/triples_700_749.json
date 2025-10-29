@@ -1,0 +1,6170 @@
+[
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "控制板条",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "夹具",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "燃油",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "刨边机",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "肋骨型线",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "液压油缸",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "腹板",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "船体中心线",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "uses",
+        "object": "肋骨冷弯",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "applied_to",
+        "object": "肋骨",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "acts_on",
+        "object": "肋骨",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "affects",
+        "object": "屈曲变形",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "connects_to",
+        "object": "船体",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨弯曲",
+        "relation": "supports",
+        "object": "船体",
+        "chunk_id": "700"
+    },
+    {
+        "subject": "肋骨冷弯",
+        "relation": "uses",
+        "object": "冷弯机",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "肋骨冷弯",
+        "relation": "applied_to",
+        "object": "肋骨",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "肋骨冷弯",
+        "relation": "uses",
+        "object": "CAD/CAM系统",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "肋骨冷弯",
+        "relation": "acts_on",
+        "object": "肋骨",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "肋骨冷弯",
+        "relation": "inputs",
+        "object": "船体型线",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "肋骨冷弯",
+        "relation": "outputs",
+        "object": "肋骨型线",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "型材构件成型机",
+        "relation": "applied_to",
+        "object": "肋骨",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "型材构件成型机",
+        "relation": "acts_on",
+        "object": "肋骨",
+        "chunk_id": "701"
+    },
+    {
+        "subject": "型材构件成型机",
+        "relation": "applied_to",
+        "object": "船体单元",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "型材构件成型机",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "切割",
+        "relation": "uses",
+        "object": "氧炔焰",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "切割",
+        "relation": "uses",
+        "object": "等离子切割",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "切割",
+        "relation": "acts_on",
+        "object": "板材",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "切割",
+        "relation": "acts_on",
+        "object": "型材",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "切割",
+        "relation": "located_at",
+        "object": "工作站",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "除尘系统",
+        "relation": "located_at",
+        "object": "工作站",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "uses",
+        "object": "自适应控制",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "uses",
+        "object": "离线程序",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "uses",
+        "object": "仿真程序包",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "标记",
+        "relation": "acts_on",
+        "object": "零件",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "标记",
+        "relation": "inputs",
+        "object": "零件编码",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "applied_to",
+        "object": "构件",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "零件编码",
+        "relation": "applied_to",
+        "object": "型材",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "enables",
+        "object": "精确切割",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "enables",
+        "object": "精确焊接",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "手工焊接",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "手工切割",
+        "chunk_id": "702"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "applied_to",
+        "object": "切割作业",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "applied_to",
+        "object": "焊接作业",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "applied_to",
+        "object": "喷涂",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "applied_to",
+        "object": "标记作业",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "uses",
+        "object": "传感器",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "contains",
+        "object": "起重机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "uses",
+        "object": "三维图形",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "uses",
+        "object": "可视系统",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "replaces",
+        "object": "手工焊接",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "enables",
+        "object": "全自动运行",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "enables",
+        "object": "半自动运行",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人系统",
+        "relation": "enables",
+        "object": "垂直爬升",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "门式起重设备",
+        "relation": "used_in",
+        "object": "分段装配",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "便携式机器人设备",
+        "relation": "used_in",
+        "object": "分段装配",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "船体板",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "子分段",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "分段",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "装配",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "焊接机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "CAD系统",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "used_in",
+        "object": "试运行程序",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统焊接",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统切割",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统喷涂",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统标记",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统定位",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统装配",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统涂装",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统清洁",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统检测",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统搬运",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统定位夹具",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统焊接机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统切割机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统喷涂机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统标记机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统装配机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统涂装机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统清洁机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统检测机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统搬运机器人",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "机器人",
+        "relation": "replaces",
+        "object": "传统定位夹具",
+        "chunk_id": "703"
+    },
+    {
+        "subject": "船舶结构装配",
+        "relation": "uses",
+        "object": "滑道",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "船舶结构装配",
+        "relation": "part_of",
+        "object": "建造工艺",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "焊接技术",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "船舶单元",
+        "relation": "assembles_into",
+        "object": "船舶",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "焊接结构",
+        "relation": "replaces",
+        "object": "铆接",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "船舶建造",
+        "relation": "located_at",
+        "object": "造船厂",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "焊接技术",
+        "relation": "enables",
+        "object": "大批量生产技术",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "船舶单元",
+        "relation": "precedes",
+        "object": "船舶结构装配",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "焊接结构",
+        "relation": "affects",
+        "object": "船舶质量",
+        "chunk_id": "704"
+    },
+    {
+        "subject": "预制单元",
+        "relation": "requires",
+        "object": "装配车间",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "预制单元",
+        "relation": "requires",
+        "object": "起重机",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "造船厂",
+        "relation": "invests_in",
+        "object": "装配车间",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "造船厂",
+        "relation": "invests_in",
+        "object": "起重机",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "船舶尺寸",
+        "relation": "affects",
+        "object": "钢材数量",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "劳动力成本",
+        "relation": "increases",
+        "object": "传统方法",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "预制",
+        "relation": "applies_to",
+        "object": "商船建造",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "预制",
+        "relation": "applies_to",
+        "object": "船舶",
+        "chunk_id": "705"
+    },
+    {
+        "subject": "焊接技术",
+        "relation": "replaces",
+        "object": "铆接结构",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "焊接技术",
+        "relation": "improves",
+        "object": "建造效率",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "contains",
+        "object": "绿色材料",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "assembles_into",
+        "object": "总组",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "uses",
+        "object": "切割",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "uses",
+        "object": "焊接",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "uses",
+        "object": "平焊",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "uses",
+        "object": "垂直焊",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "uses",
+        "object": "仰焊",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "uses",
+        "object": "电",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "生产计划技术",
+        "relation": "applied_to",
+        "object": "单元组",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "生产计划技术",
+        "relation": "controls",
+        "object": "造船序列",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "生产计划技术",
+        "relation": "inputs",
+        "object": "材料和劳动力",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "生产计划技术",
+        "relation": "inputs",
+        "object": "劳动力",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "located_at",
+        "object": "厂房",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "enables",
+        "object": "焊接",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "enables",
+        "object": "平焊",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "enables",
+        "object": "工作条件",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "enables",
+        "object": "切割",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "enables",
+        "object": "焊接",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "enables",
+        "object": "生产计划技术",
+        "chunk_id": "706"
+    },
+    {
+        "subject": "单元",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "单元",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "舷侧分段",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "舷侧分段",
+        "relation": "contains",
+        "object": "单元",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "单元",
+        "relation": "part_of",
+        "object": "舷侧分段",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "单元",
+        "relation": "has",
+        "object": "重量",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "重量",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "舾装",
+        "relation": "precedes",
+        "object": "建造速度",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "建造速度",
+        "relation": "affects",
+        "object": "收入",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "载重吨",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "油轮",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "散货船",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "散货船",
+        "relation": "has",
+        "object": "舷侧分段",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "尺寸",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "舾装",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "舾装",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "造船厂",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "707"
+    },
+    {
+        "subject": "单元建造",
+        "relation": "precedes",
+        "object": "分段建造",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "分段建造",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "舾装",
+        "relation": "located_at",
+        "object": "舾装码头",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "管道系统",
+        "relation": "assembles_into",
+        "object": "总组船体",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "通风",
+        "relation": "assembles_into",
+        "object": "总组船体",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "机械装置",
+        "relation": "assembles_into",
+        "object": "总组船体",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "区域安装",
+        "relation": "precedes",
+        "object": "舾装规划",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "预舾装",
+        "relation": "inputs",
+        "object": "分段建造",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "钢结构",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "舾装",
+        "relation": "inputs",
+        "object": "分段",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "模块",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "吊装",
+        "relation": "applied_to",
+        "object": "分段",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "装配",
+        "relation": "acts_on",
+        "object": "钢质零件",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "装配",
+        "relation": "acts_on",
+        "object": "较大结构",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "装配",
+        "relation": "produces",
+        "object": "更大结构",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "劳动力",
+        "relation": "uses",
+        "object": "工作站",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "工作站",
+        "relation": "provides",
+        "object": "设施和材料",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "预舾装",
+        "relation": "replaces",
+        "object": "船台期舾装",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "预舾装",
+        "relation": "enables",
+        "object": "总装效率",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "区域",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "区域",
+        "relation": "connects_to",
+        "object": "分段",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "区域",
+        "relation": "connects_to",
+        "object": "较小组件",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "预舾装",
+        "relation": "has",
+        "object": "量级",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "预舾装",
+        "relation": "has",
+        "object": "85%~90%",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "钢结构",
+        "relation": "has",
+        "object": "规划",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "舾装",
+        "relation": "has",
+        "object": "规划",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "管道模块",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "管道模块",
+        "relation": "assembles_into",
+        "object": "船舶",
+        "chunk_id": "708"
+    },
+    {
+        "subject": "装配",
+        "relation": "contains",
+        "object": "小型装配",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "装配",
+        "relation": "contains",
+        "object": "子组件",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "装配",
+        "relation": "contains",
+        "object": "单元组件",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "装配",
+        "relation": "contains",
+        "object": "分段",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "小型装配",
+        "relation": "contains",
+        "object": "肘板",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "小型装配",
+        "relation": "contains",
+        "object": "断续肋板",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "小型装配",
+        "relation": "contains",
+        "object": "纵桁",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "小型装配",
+        "relation": "contains",
+        "object": "舷墙",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "子组件",
+        "relation": "contains",
+        "object": "平面板架",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "子组件",
+        "relation": "contains",
+        "object": "曲面板架",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "子组件",
+        "relation": "contains",
+        "object": "蛋盒结构",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "单元组件",
+        "relation": "contains",
+        "object": "板架",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "单元组件",
+        "relation": "contains",
+        "object": "内部结构",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "单元",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "底部分段",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "舷侧分段",
+        "chunk_id": "709"
+    },
+    {
+        "subject": "板材",
+        "relation": "uses",
+        "object": "切割",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "uses",
+        "object": "弯曲",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "uses",
+        "object": "倒角",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "二维船舶单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "型材",
+        "relation": "uses",
+        "object": "切割",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "型材",
+        "relation": "uses",
+        "object": "弯曲",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "型材",
+        "relation": "uses",
+        "object": "倒角",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "型材",
+        "relation": "applied_to",
+        "object": "二维船舶单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "平面板架",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "曲外板单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "矩阵结构",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "蛋盒形结构",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "子装配",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "二维船舶单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "三维单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "分段总组",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "子装配",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "平面板架",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "焊接自动化",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "定位焊",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "单面焊",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "封底焊",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "标记",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "加强筋",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "自动化焊接",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "半自动化焊接",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "自动化控制",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "加强构件",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "夹具",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "装配夹具",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "托架板层",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "双层底单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "双曲壳体",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "纵向旁桁材",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "旁桁材",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "桁材",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "双层底",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "双层底单元",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "板材",
+        "relation": "applied_to",
+        "object": "单元装配",
+        "chunk_id": "710"
+    },
+    {
+        "subject": "单元装配",
+        "relation": "produces",
+        "object": "三维分段装配",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "uses",
+        "object": "起重能力",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "constrained_by",
+        "object": "尺寸限制",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "uses",
+        "object": "板材",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段装配",
+        "relation": "located_at",
+        "object": "造船坞",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "contains",
+        "object": "单元",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "双壳船体",
+        "relation": "contains",
+        "object": "分段",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "双底分段",
+        "relation": "contains",
+        "object": "单元",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "舷侧分段",
+        "relation": "contains",
+        "object": "单元",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "supports",
+        "object": "舾装",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "自持",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "precedes",
+        "object": "总装",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "prepares_for",
+        "object": "下水",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "connects_to",
+        "object": "船体",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "affects",
+        "object": "建造效率",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "determines",
+        "object": "建造周期",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "improves",
+        "object": "焊接质量",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "enables",
+        "object": "舾装作业",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "acts_on",
+        "object": "焊接",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "refines",
+        "object": "船体结构",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "belongs_to",
+        "object": "船体",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "结构强度",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "尺寸",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "重量",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "布置",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "舾装件",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "机械区域",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "区段舾装",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "平焊",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "翻转",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "加工",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "运输",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "舾装",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船台",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船坞",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "船体",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "双层底",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "舷侧",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "双壳",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "机器处所",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "泵房",
+        "chunk_id": "711"
+    },
+    {
+        "subject": "单元",
+        "relation": "contains",
+        "object": "机械平台",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "单元",
+        "relation": "contains",
+        "object": "管道系统",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "单元",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "分段",
+        "relation": "has",
+        "object": "重心",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "造船坞",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "舾装模块",
+        "relation": "installed_in",
+        "object": "分段",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "分段",
+        "relation": "prepares_for",
+        "object": "吊装",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "吊装",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "712"
+    },
+    {
+        "subject": "舾装模块",
+        "relation": "applied_to",
+        "object": "分段建造",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "管道工程",
+        "relation": "applied_to",
+        "object": "模块",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "模块",
+        "relation": "contains",
+        "object": "轻量框架管吊架",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "模块",
+        "relation": "contains",
+        "object": "平底板",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "模块",
+        "relation": "contains",
+        "object": "直角方钢",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "辅机单元",
+        "relation": "part_of",
+        "object": "模块",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "模块",
+        "relation": "assembles_into",
+        "object": "机舱",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "分包商",
+        "relation": "provides",
+        "object": "模块",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "托盘化",
+        "relation": "applied_to",
+        "object": "CAD/CAM",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "托盘化",
+        "relation": "applied_to",
+        "object": "工作站",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "CAD/CAM",
+        "relation": "used_by",
+        "object": "托盘化",
+        "chunk_id": "713"
+    },
+    {
+        "subject": "分段",
+        "relation": "applied_to",
+        "object": "舾装",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "上层建筑分段",
+        "relation": "part_of",
+        "object": "上层建筑",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "住舱单元模块",
+        "relation": "contains",
+        "object": "管道工程",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "住舱单元模块",
+        "relation": "contains",
+        "object": "通风设备",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "住舱单元模块",
+        "relation": "contains",
+        "object": "电气装配",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "住舱单元模块",
+        "relation": "contains",
+        "object": "内置家具",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "住舱单元模块",
+        "relation": "has",
+        "object": "自持",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "单元总组",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "转载间",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "转载间",
+        "relation": "located_at",
+        "object": "建造码头",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "转载间",
+        "relation": "located_at",
+        "object": "车间",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "转载间",
+        "relation": "stores",
+        "object": "分段",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "714"
+    },
+    {
+        "subject": "船厂",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "起重机",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "船厂",
+        "relation": "assembles_into",
+        "object": "船舶",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "船厂",
+        "relation": "assembles_into",
+        "object": "双层壳体油轮",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "船厂",
+        "relation": "assembles_into",
+        "object": "散货船",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "船体分段",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "affects",
+        "object": "应力集中",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "acts_on",
+        "object": "肋骨",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "acts_on",
+        "object": "纵骨",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "acts_on",
+        "object": "加强筋",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "acts_on",
+        "object": "横缝",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "acts_on",
+        "object": "纵缝",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "尾部钻孔",
+        "relation": "located_at",
+        "object": "尾部",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "尾部钻孔",
+        "relation": "precedes",
+        "object": "尾轴安装",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "设备",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "动力系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "主机",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "辅机",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "管路",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "电气系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "舾装件",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "舾装系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "舱壁",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "甲板",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "底板",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "顶板",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "舱口盖",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "水密门窗",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "通风系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "防火系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "安全系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "监控系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "控制系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "报警系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "照明系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "通讯系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "导航系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "定位系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "动力系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "辅助系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "冷却系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "加热系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "润滑系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "燃油系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "润滑油系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "冷却水系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "压缩空气系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "液压系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "气动系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "电气系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "控制系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "监测系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据采集系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据处理系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据存储系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据传输系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据通信系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据网络系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据安全系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据备份系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据恢复系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据加密系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据验证系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据校验系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据同步系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据分发系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据采集系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据处理系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据存储系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据传输系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据通信系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据网络系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据安全系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据备份系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据恢复系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据加密系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据验证系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据校验系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据同步系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "数据分发系统",
+        "chunk_id": "715"
+    },
+    {
+        "subject": "装配",
+        "relation": "affects",
+        "object": "误差",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "三维",
+        "relation": "affects",
+        "object": "误差",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "船舶尾部",
+        "relation": "has",
+        "object": "误差",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "绿色材料",
+        "relation": "used_in",
+        "object": "装配",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "质量保证进程",
+        "relation": "uses",
+        "object": "校核",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "校核",
+        "relation": "enables",
+        "object": "避免在船台上浪费时间",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "胎架",
+        "relation": "applied_to",
+        "object": "曲面船体分段",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "焊接顺序",
+        "relation": "used_in",
+        "object": "设计",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "低热度输入焊接设备",
+        "relation": "used_in",
+        "object": "焊接",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "尺寸校核",
+        "relation": "used_in",
+        "object": "装配",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "激光校准工具",
+        "relation": "used_in",
+        "object": "设定基准点",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "激光校准工具",
+        "relation": "used_in",
+        "object": "检查接口",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "数字摄影测量技术",
+        "relation": "applied_to",
+        "object": "单元对齐",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "公差数据库",
+        "relation": "used_in",
+        "object": "建造标准船舶",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "大型船舶建造公司",
+        "relation": "produces",
+        "object": "超大型分段",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "超大型分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "超大型分段",
+        "relation": "transported_to",
+        "object": "船台",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "超大型分段",
+        "relation": "transported_to",
+        "object": "船坞",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "起重",
+        "relation": "used_in",
+        "object": "超大型分段",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "合拢",
+        "relation": "used_in",
+        "object": "船体",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "716"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "压载",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "吊车",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "标记",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "隔离舱",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "浮箱",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "acts_on",
+        "object": "弯曲",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "supports",
+        "object": "焊接",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "焊接",
+        "relation": "uses",
+        "object": "X射线",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "U型橡胶圈",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "located_at",
+        "object": "干船坞",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "uses",
+        "object": "强支撑",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "located_at",
+        "object": "水线以上部分",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "precedes",
+        "object": "下水",
+        "chunk_id": "717"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "艉向下水",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "横向下水",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "吊船架",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "浮船坞",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "驳船",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "计算机程序",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "船舶重量",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "龙骨限制",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "支柱",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "支架",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "船尾",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "船首",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "acts_on",
+        "object": "滑道",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "affects",
+        "object": "螺旋桨",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "affects",
+        "object": "方向舵",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "precedes",
+        "object": "船舶建造",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "located_at",
+        "object": "造船坞",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "located_at",
+        "object": "江边",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "下水",
+        "relation": "located_at",
+        "object": "狭长通道",
+        "chunk_id": "718"
+    },
+    {
+        "subject": "艉向下水",
+        "relation": "uses",
+        "object": "入水船支架",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "艉向下水",
+        "relation": "acts_on",
+        "object": "船体",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "船尾",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "浮力",
+        "relation": "supports",
+        "object": "船体",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "船舶重心",
+        "relation": "affects",
+        "object": "船舶浮力",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道端部",
+        "relation": "supports",
+        "object": "船壳底部",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道端部",
+        "relation": "needs",
+        "object": "加强",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道",
+        "relation": "located_at",
+        "object": "滑道末端",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道",
+        "relation": "uses",
+        "object": "润滑油",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道",
+        "relation": "located_at",
+        "object": "滑道表面",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道建造",
+        "relation": "uses",
+        "object": "桩基",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "中心墩",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "中心墩",
+        "relation": "located_at",
+        "object": "龙骨",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "船舶下水",
+        "relation": "precedes",
+        "object": "船舶浮起",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "前支架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "前支架",
+        "relation": "located_at",
+        "object": "船首",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "滑道",
+        "relation": "located_at",
+        "object": "泊位",
+        "chunk_id": "719"
+    },
+    {
+        "subject": "中心墩",
+        "relation": "located_at",
+        "object": "龙骨",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "中心墩",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "中心墩",
+        "relation": "requires",
+        "object": "填充物",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "船首龙骨",
+        "relation": "supports",
+        "object": "船舶前足",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "船尾入水",
+        "relation": "requires",
+        "object": "滑道斜面",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "滑道斜面",
+        "relation": "has",
+        "object": "倾斜角度",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "倾斜角度",
+        "relation": "determines",
+        "object": "龙骨",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "下水",
+        "relation": "uses",
+        "object": "楔子",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "楔子",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "楔子",
+        "relation": "allows",
+        "object": "中心墩",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "墩木",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "墩木",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "沙箱",
+        "relation": "located_at",
+        "object": "墩木",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "沙箱",
+        "relation": "contains",
+        "object": "钢制框架",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "钢制框架",
+        "relation": "contains",
+        "object": "沙子",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "木质块",
+        "relation": "located_at",
+        "object": "墩木",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "木质块",
+        "relation": "can_be",
+        "object": "移除",
+        "chunk_id": "720"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "拱形",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "倾斜",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "斜坡",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "压力",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "载荷",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "船宽",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "船长",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "支撑",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "船首",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "船尾",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "底升",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "滑道端部",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "下水架",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "陆上滑道",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "船台",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "has",
+        "object": "中心线",
+        "chunk_id": "721"
+    },
+    {
+        "subject": "滑道",
+        "relation": "supports",
+        "object": "滑动导轨",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道",
+        "relation": "contains",
+        "object": "滑道护木",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道",
+        "relation": "prevents",
+        "object": "横向移动",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑动导轨",
+        "relation": "covers",
+        "object": "船长",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑动导轨",
+        "relation": "contains",
+        "object": "衬垫",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑动导轨",
+        "relation": "contains",
+        "object": "楔形块",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑动导轨",
+        "relation": "contains",
+        "object": "木材",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "前支架",
+        "relation": "part_of",
+        "object": "下水架",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "前支架",
+        "relation": "located_at",
+        "object": "船舶首部",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道",
+        "relation": "extends_to",
+        "object": "低水线",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道",
+        "relation": "is_covered_by",
+        "object": "水",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道护木",
+        "relation": "affects",
+        "object": "油脂",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道护木",
+        "relation": "located_at",
+        "object": "滑道边缘",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "滑道护木",
+        "relation": "located_at",
+        "object": "滑动导轨内部",
+        "chunk_id": "722"
+    },
+    {
+        "subject": "前支架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "前支架",
+        "relation": "承受",
+        "object": "载荷",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "前支架",
+        "relation": "承受",
+        "object": "船舶重量",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "前支架",
+        "relation": "承受",
+        "object": "滑道反力",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "前支架",
+        "relation": "位于",
+        "object": "船舶首部",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "滑动座板",
+        "relation": "位于",
+        "object": "船舶首部底部",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "滑动座板",
+        "relation": "连接",
+        "object": "衬垫",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "外板",
+        "relation": "传递",
+        "object": "载荷",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "外板",
+        "relation": "传递",
+        "object": "载荷",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "肘板",
+        "relation": "临时固定",
+        "object": "外板",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "肘板",
+        "relation": "临时固定",
+        "object": "支架",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "肘板",
+        "relation": "安装",
+        "object": "船舶前部底部",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "肘板",
+        "relation": "安装",
+        "object": "支架前端",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "滑动导轨",
+        "relation": "需要",
+        "object": "衬垫",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "滑动导轨",
+        "relation": "防止",
+        "object": "石油基油脂渗透",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "润滑剂",
+        "relation": "减少",
+        "object": "摩擦力",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "润滑剂",
+        "relation": "减少",
+        "object": "滑道与滑板之间摩擦力",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "尾部下水架",
+        "relation": "需要",
+        "object": "衬垫",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "尾部下水架",
+        "relation": "使用",
+        "object": "垂向木材结构",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "尾部下水架",
+        "relation": "使用",
+        "object": "肘板",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "船舶首部",
+        "relation": "设计",
+        "object": "丰满",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "滑动导轨前端",
+        "relation": "需要",
+        "object": "更少的支持力",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "肘板",
+        "relation": "焊接",
+        "object": "外板",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "肘板",
+        "relation": "焊接",
+        "object": "厚板",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "船舶前支架",
+        "relation": "设计",
+        "object": "抵挡很大的压力",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "船舶前支架",
+        "relation": "设计",
+        "object": "维持一段时间",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "滑道导轨",
+        "relation": "承受",
+        "object": "润滑剂的压力",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "船舶",
+        "relation": "具有",
+        "object": "动量",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "船舶",
+        "relation": "防止",
+        "object": "被卡住",
+        "chunk_id": "723"
+    },
+    {
+        "subject": "尾部",
+        "relation": "contains",
+        "object": "下水架",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "尾部",
+        "relation": "contains",
+        "object": "垂向木材结构",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "尾部",
+        "relation": "contains",
+        "object": "肘板",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "润滑剂",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "滑道",
+        "relation": "affects",
+        "object": "摩擦系数",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "润滑剂",
+        "relation": "has",
+        "object": "摩擦系数",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "润滑剂",
+        "relation": "affects",
+        "object": "摩擦力",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "滑道导轨",
+        "relation": "uses",
+        "object": "底涂层",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "滑道导轨",
+        "relation": "uses",
+        "object": "油脂",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "止滑木",
+        "relation": "located_at",
+        "object": "导轨",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "止滑木",
+        "relation": "located_at",
+        "object": "固定滑道",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "止滑木",
+        "relation": "used_for",
+        "object": "释放船舶滑动",
+        "chunk_id": "724"
+    },
+    {
+        "subject": "止滑木",
+        "relation": "located_at",
+        "object": "导轨",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "止滑木",
+        "relation": "located_at",
+        "object": "固定滑道",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "触发器",
+        "relation": "used_by",
+        "object": "船舶下水",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "触发器",
+        "relation": "located_at",
+        "object": "船舶中部",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "触发器",
+        "relation": "part_of",
+        "object": "下水",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "触发器",
+        "relation": "affects",
+        "object": "滑道",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "杠杆原理",
+        "relation": "applied_to",
+        "object": "触发器",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "电磁螺线管",
+        "relation": "part_of",
+        "object": "触发器",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "电磁螺线管",
+        "relation": "connected_to",
+        "object": "电路",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "电路",
+        "relation": "controls",
+        "object": "触发器",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "散货船",
+        "relation": "requires",
+        "object": "触发器",
+        "chunk_id": "725"
+    },
+    {
+        "subject": "散货船",
+        "relation": "uses",
+        "object": "滑道",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "散货船",
+        "relation": "uses",
+        "object": "下水架",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "分段",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "分段",
+        "relation": "precedes",
+        "object": "下水",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "楔子",
+        "relation": "uses",
+        "object": "分段",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "支架",
+        "relation": "removes",
+        "object": "分段",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "滚筒支架",
+        "relation": "located_at",
+        "object": "船舶后方",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "龙骨墩",
+        "relation": "removes",
+        "object": "船舶",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "舷墩木",
+        "relation": "removes",
+        "object": "船舶",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "触发器",
+        "relation": "uses",
+        "object": "船舶",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "液压启动装置",
+        "relation": "uses",
+        "object": "支架",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "制动装置",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "制动措施",
+        "relation": "applied_to",
+        "object": "船舶下水",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "滑道",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "下水架",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "滚筒支架",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "龙骨墩",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "舷墩木",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "触发器",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "液压启动装置",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "制动装置",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "制动措施",
+        "chunk_id": "726"
+    },
+    {
+        "subject": "拖索",
+        "relation": "uses",
+        "object": "桩",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "拖索",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "拖索",
+        "relation": "connects_to",
+        "object": "首部",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "木质挡板",
+        "relation": "located_at",
+        "object": "船舶尾部",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "木质挡板",
+        "relation": "affects",
+        "object": "船舶运动",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "锚链",
+        "relation": "located_at",
+        "object": "造滑道",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "锚链",
+        "relation": "applied_to",
+        "object": "船舶入水",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "uses",
+        "object": "拖索",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "applied_to",
+        "object": "滑道",
+        "chunk_id": "727"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "applied_to",
+        "object": "水域宽度受限的区域",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "has",
+        "object": "不需要龙骨倾斜",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "has",
+        "object": "相对简单的支船架",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "has",
+        "object": "相对短的陆上滑道",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "requires",
+        "object": "稳性计算",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "requires",
+        "object": "关闭所有开口",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "陆上滑道",
+        "relation": "oriented_along",
+        "object": "龙骨线横向",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "陆上滑道",
+        "relation": "can_be",
+        "object": "沿填充物横向布置",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "陆上滑道",
+        "relation": "usually",
+        "object": "纵向布置",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "results_in",
+        "object": "侧向倾角",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "requires",
+        "object": "稳性计算",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "横向下水",
+        "relation": "requires",
+        "object": "关闭所有开口",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "used_for",
+        "object": "船舶建造",
+        "chunk_id": "728"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "contains",
+        "object": "水平底座",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "located_at",
+        "object": "码头",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "supports",
+        "object": "起重机",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "affects",
+        "object": "稳性",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "affects",
+        "object": "载荷",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "造船坞",
+        "relation": "has",
+        "object": "坞门",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "坞门",
+        "relation": "controls",
+        "object": "水流",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "坞门",
+        "relation": "supports",
+        "object": "船舶下水",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "坞门",
+        "relation": "enables",
+        "object": "干燥工作环境",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "坞门",
+        "relation": "used_for",
+        "object": "船舶建造",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "坞门",
+        "relation": "located_at",
+        "object": "船坞",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "造船坞",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "码头",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "滑道",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "干船坞",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "吊船架",
+        "chunk_id": "729"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "uses",
+        "object": "绞车",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "uses",
+        "object": "钢丝",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "uses",
+        "object": "链条",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "contains",
+        "object": "横梁",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "横梁",
+        "relation": "supports",
+        "object": "平台",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "平台",
+        "relation": "uses",
+        "object": "机械或液压转移装置",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "used_for",
+        "object": "船舶回收",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "belongs_to",
+        "object": "建造设施",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "located_at",
+        "object": "厂房",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "used_for",
+        "object": "小型船舶下水",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "used_for",
+        "object": "维修",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "has",
+        "object": "传送轨道",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "has",
+        "object": "同步升降系统",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "has",
+        "object": "结构",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "结构",
+        "relation": "supports",
+        "object": "船舶",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "吊船架",
+        "relation": "has",
+        "object": "最大升力",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "最大升力",
+        "relation": "exceeds",
+        "object": "20000t",
+        "chunk_id": "730"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "contains",
+        "object": "水舱",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "part_of",
+        "object": "建造设施",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "船舶移入",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "漂浮出坞",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "船舶修理",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "多船位对接",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "下水作业",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "船舶承载",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "临时下水",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "无法使用滑道或船台的场合",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "浮船坞",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "船舶转移",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "支船架下降",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "船舶浮起",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "控制下水过程",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "船舶回收",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "船排",
+        "relation": "used_for",
+        "object": "船舶维修",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "单层底",
+        "relation": "used_for",
+        "object": "小型船舶",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "单层底",
+        "relation": "used_for",
+        "object": "液体燃料储存",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "单层底",
+        "relation": "used_for",
+        "object": "淡水储存",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "双层底",
+        "relation": "used_for",
+        "object": "船舶安全性",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "双层底",
+        "relation": "used_for",
+        "object": "液舱空间",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "双层底",
+        "relation": "used_for",
+        "object": "远洋货船",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "used_for",
+        "object": "船舶支撑",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "used_for",
+        "object": "船舶下水",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "used_for",
+        "object": "船舶稳定性",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "used_for",
+        "object": "船舶结构",
+        "chunk_id": "731"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "located_at",
+        "object": "中心线",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "supports",
+        "object": "纵向强度",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "supports",
+        "object": "局部载荷",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "part_of",
+        "object": "龙骨",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "矩形龙骨",
+        "relation": "part_of",
+        "object": "龙骨",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "箱型龙骨",
+        "relation": "part_of",
+        "object": "龙骨",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "used_in",
+        "object": "远洋船舶",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "矩形龙骨",
+        "relation": "used_in",
+        "object": "拖网渔船",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "矩形龙骨",
+        "relation": "used_in",
+        "object": "拖船",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "矩形龙骨",
+        "relation": "used_in",
+        "object": "小型渡船",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "connected_to",
+        "object": "组合肘板",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "矩形龙骨",
+        "relation": "connected_to",
+        "object": "肋板",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "箱型龙骨",
+        "relation": "supports",
+        "object": "管道系统",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "箱型龙骨",
+        "relation": "located_at",
+        "object": "双层底",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "管弄",
+        "relation": "supports",
+        "object": "管道",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "管弄",
+        "relation": "located_at",
+        "object": "机舱",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "管弄",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "管弄",
+        "relation": "has",
+        "object": "加强件",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "加强件",
+        "relation": "located_at",
+        "object": "内底板",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "加强件",
+        "relation": "located_at",
+        "object": "龙骨",
+        "chunk_id": "732"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "contains",
+        "object": "组合肋板",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "contains",
+        "object": "上边缘加强",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "contains",
+        "object": "中纵桁",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "contains",
+        "object": "旁纵桁",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "contains",
+        "object": "肋间骨材",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "contains",
+        "object": "三维",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "supports",
+        "object": "船首",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "单层底结构",
+        "relation": "supports",
+        "object": "船尾",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "双层底结构",
+        "relation": "contains",
+        "object": "内底板",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "双层底结构",
+        "relation": "contains",
+        "object": "外底板",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "双层底结构",
+        "relation": "supports",
+        "object": "水密舱壁",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "双层底结构",
+        "relation": "has",
+        "object": "压载能力",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "外底板",
+        "relation": "supports",
+        "object": "内底板",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "内底板",
+        "relation": "supports",
+        "object": "水密舱壁",
+        "chunk_id": "733"
+    },
+    {
+        "subject": "双层底",
+        "relation": "determines",
+        "object": "最小深度",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "supports",
+        "object": "液体燃料",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "supports",
+        "object": "淡水",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "supports",
+        "object": "压载水",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "压载底舱",
+        "relation": "provides",
+        "object": "复原力矩",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "压载底舱",
+        "relation": "located_at",
+        "object": "船首",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "压载底舱",
+        "relation": "located_at",
+        "object": "船尾",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "机舱",
+        "relation": "supports",
+        "object": "润滑油",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "机舱",
+        "relation": "supports",
+        "object": "燃油",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "designs_as",
+        "object": "纵骨架式",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "designs_as",
+        "object": "横骨架式",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "船长",
+        "relation": "constrained_by",
+        "object": "120m",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "affects",
+        "object": "外底板",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "affects",
+        "object": "内底板",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "connects_to",
+        "object": "外底板",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "双层底",
+        "relation": "connects_to",
+        "object": "内底板",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "内底板",
+        "relation": "supports",
+        "object": "排水",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "内底板",
+        "relation": "extends_to",
+        "object": "舷侧",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "内底板",
+        "relation": "extends_to",
+        "object": "船首",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "内底板",
+        "relation": "extends_to",
+        "object": "船尾",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "内底板",
+        "relation": "affects",
+        "object": "舱底面积",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "内底板",
+        "relation": "affects",
+        "object": "安全性",
+        "chunk_id": "734"
+    },
+    {
+        "subject": "中内底板",
+        "relation": "composed_of",
+        "object": "平板龙骨",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "中内底板",
+        "relation": "composed_of",
+        "object": "中纵桁立板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "中内底板",
+        "relation": "located_at",
+        "object": "船中心线",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "内底板",
+        "relation": "thickens_at",
+        "object": "舱口下方",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "内底板",
+        "relation": "thickens_at",
+        "object": "链钩卸货位置",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "内底板",
+        "relation": "replaces",
+        "object": "木质天花板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "水密板",
+        "relation": "located_at",
+        "object": "底舱空间末端",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "水密板",
+        "relation": "located_at",
+        "object": "主舱壁下方",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "水密板",
+        "relation": "connects_to",
+        "object": "肋板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "水密板",
+        "relation": "connects_to",
+        "object": "焊接通过的船底构件",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "supports",
+        "object": "横骨架式底板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "supports",
+        "object": "内底板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "spaced_by",
+        "object": "载荷",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "spaced_by",
+        "object": "局部应力",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "肋位",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "框架肋板",
+        "relation": "composed_of",
+        "object": "短横向肘板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "框架肋板",
+        "relation": "located_at",
+        "object": "中纵桁侧面",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "实肋板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "中纵桁",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "内底板",
+        "chunk_id": "735"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "横向肋板",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "横向框架",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "肘板",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "内底板",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "横骨架式双层底结构",
+        "relation": "contains",
+        "object": "外底板",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "机舱",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "冲击区域",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "锅炉基座",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "横舱壁",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "加强深舱骨材的肘板的趾端",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "双层底深度方向",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "located_at",
+        "object": "链钩卸货的地方",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肘板",
+        "relation": "has",
+        "object": "折边",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肘板",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肘板",
+        "relation": "has",
+        "object": "中纵桁深度的75%",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肋骨跨度",
+        "relation": "exceeds",
+        "object": "2.5m",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肘板",
+        "relation": "uses",
+        "object": "角钢",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肘板",
+        "relation": "uses",
+        "object": "槽钢",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "垂直扶强材",
+        "relation": "acts_on",
+        "object": "实肋板",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "垂直扶强材",
+        "relation": "connects_to",
+        "object": "水密舱边界",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "船宽",
+        "relation": "exceeds",
+        "object": "10m",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "船宽",
+        "relation": "is_less_than",
+        "object": "20m",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "located_at",
+        "object": "左右舷",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "located_at",
+        "object": "机舱",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "located_at",
+        "object": "冲击区域",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "肘板",
+        "relation": "acts_on",
+        "object": "旁桁材",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "焊接扶强材",
+        "relation": "acts_on",
+        "object": "肘板",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "额外的旁桁材",
+        "relation": "located_at",
+        "object": "机舱",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "额外的旁桁材",
+        "relation": "located_at",
+        "object": "冲击区域",
+        "chunk_id": "736"
+    },
+    {
+        "subject": "纵骨架式双层底结构",
+        "relation": "contains",
+        "object": "肋板",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肋板",
+        "relation": "installed_at",
+        "object": "主机基座",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肋板",
+        "relation": "installed_at",
+        "object": "横舱壁以下",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肋板",
+        "relation": "installed_at",
+        "object": "深舱中的肘板趾端",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "has",
+        "object": "间距",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "constrained_by",
+        "object": "3.8m",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肘板",
+        "relation": "installed_at",
+        "object": "舱室边缘",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肘板",
+        "relation": "installed_at",
+        "object": "中纵桁",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肘板",
+        "relation": "has",
+        "object": "折边",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "肘板",
+        "relation": "extends_to",
+        "object": "第一个纵向构件",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "船宽",
+        "relation": "determines",
+        "object": "旁纵桁数量",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "船宽",
+        "relation": "exceeds",
+        "object": "14m",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "船宽",
+        "relation": "exceeds",
+        "object": "21m",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "installed_at",
+        "object": "左右舷",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "extends_to",
+        "object": "船首",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "extends_to",
+        "object": "船尾",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "installed_at",
+        "object": "机舱",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "covers",
+        "object": "机舱全长",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "extends_to",
+        "object": "3个肋位",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "船底纵骨",
+        "relation": "has",
+        "object": "无支护跨度",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "船底纵骨",
+        "relation": "constrained_by",
+        "object": "2.5m",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "角钢",
+        "relation": "used_to",
+        "object": "支撑纵骨",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "小槽钢",
+        "relation": "used_to",
+        "object": "支撑纵骨",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "requires",
+        "object": "额外加强",
+        "chunk_id": "737"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "determines",
+        "object": "额外加强",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "船底",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "波浪冲击",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "located_at",
+        "object": "船首",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "located_at",
+        "object": "船底",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "determines",
+        "object": "实肋板",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "旁纵桁",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "肋距",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "纵骨",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "波浪拍击力",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "船首上浪",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "恶劣天气",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "压载吃水",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "船长",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "冲击区域",
+        "relation": "affects",
+        "object": "设计吃水",
+        "chunk_id": "738"
+    },
+    {
+        "subject": "天气",
+        "relation": "affects",
+        "object": "船首上浪",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "船首",
+        "relation": "affects",
+        "object": "波浪抨击力",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "散货船",
+        "relation": "has",
+        "object": "双层底",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "双层底",
+        "relation": "uses",
+        "object": "纵骨架式结构",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "has",
+        "object": "最大间隔",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "实肋板",
+        "relation": "has",
+        "object": "最大间隔",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "双层底",
+        "relation": "has",
+        "object": "压载水容量",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "双层底",
+        "relation": "contains",
+        "object": "管隧",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "内底板",
+        "relation": "has",
+        "object": "大尺寸",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "外底板",
+        "relation": "has",
+        "object": "大尺寸",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "桁材",
+        "relation": "has",
+        "object": "大尺寸",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "隔舱",
+        "relation": "tests_with",
+        "object": "空气测试",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "空气测试",
+        "relation": "has",
+        "object": "测试压力",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "空气测试",
+        "relation": "has",
+        "object": "水头",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "空气测试",
+        "relation": "has",
+        "object": "肥皂溶液测试",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "验船师",
+        "relation": "tests_with",
+        "object": "液舱",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "机械支座",
+        "relation": "supports",
+        "object": "主机",
+        "chunk_id": "739"
+    },
+    {
+        "subject": "机械支座",
+        "relation": "supports",
+        "object": "机械装置",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "机械装置",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "机舱",
+        "relation": "contains",
+        "object": "主机",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "主机",
+        "relation": "located_at",
+        "object": "主机基座",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "主机基座",
+        "relation": "part_of",
+        "object": "双层底结构",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "内底板",
+        "relation": "part_of",
+        "object": "双层底结构",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "内底板",
+        "relation": "supports",
+        "object": "主机",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外底板",
+        "relation": "part_of",
+        "object": "双层底结构",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "防倾肘板",
+        "relation": "supports",
+        "object": "纵梁",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "纵梁",
+        "relation": "aligned_with",
+        "object": "外底板旁纵桁",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "锅炉座",
+        "relation": "supports",
+        "object": "锅炉",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "锅炉座",
+        "relation": "part_of",
+        "object": "双层底结构",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "affects",
+        "object": "纵向强度",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "resists",
+        "object": "垂直方向剪切力",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "connected_with",
+        "object": "框架",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "welded_with",
+        "object": "平面板",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "welded_with",
+        "object": "曲面板",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "横缝",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "纵缝",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "纵向加强构件",
+        "relation": "welded_with",
+        "object": "外板",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "横向加强构件",
+        "relation": "welded_with",
+        "object": "外板",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "part_of",
+        "object": "船底",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "not_less_than",
+        "object": "相邻底板厚度",
+        "chunk_id": "740"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "平板龙骨",
+        "relation": "has",
+        "object": "厚度不少于相邻底板的厚度",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "船底列板",
+        "relation": "located_at",
+        "object": "船中部 $40%$ 船长范围",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "船底列板",
+        "relation": "has",
+        "object": "弯曲应力",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "船底外板",
+        "relation": "located_at",
+        "object": "船中部 $40%$ 船长范围",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "船底外板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "located_at",
+        "object": "船中部 $40%$ 船长范围",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "has",
+        "object": "高垂向剪切力区域厚度要增大",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "船尾框",
+        "relation": "located_at",
+        "object": "船尾框架连接处",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "轴架",
+        "relation": "located_at",
+        "object": "船尾框架连接处",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "锚链管",
+        "relation": "located_at",
+        "object": "船尾框架连接处",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "has",
+        "object": "抨击区域厚度要增大",
+        "chunk_id": "741"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "part_of",
+        "object": "舷侧",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "contains",
+        "object": "焊接附件",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "contains",
+        "object": "通焊孔",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "connects_to",
+        "object": "强为甲板",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "connects_to",
+        "object": "圆弧舷缘",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "圆弧舷缘",
+        "relation": "part_of",
+        "object": "甲板边板",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "圆弧舷缘",
+        "relation": "has",
+        "object": "半径",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "圆弧舷缘",
+        "relation": "affects",
+        "object": "应力集中",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "圆弧舷缘",
+        "relation": "located_at",
+        "object": "甲板上方",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "determines",
+        "object": "断裂韧性",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "applied_to",
+        "object": "船中区域",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "uses",
+        "object": "厚板",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "船长",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "belongs_to",
+        "object": "材料部件",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "劳氏船级社",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "低碳钢",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "断裂",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "韧性",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "船中",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "外板钢板等级",
+        "relation": "inputs",
+        "object": "船长",
+        "chunk_id": "742"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "belongs_to",
+        "object": "结构部件",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "圆弧舷缘",
+        "relation": "belongs_to",
+        "object": "结构部件",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "船底板",
+        "relation": "belongs_to",
+        "object": "结构部件",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "belongs_to",
+        "object": "结构部件",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "belongs_to",
+        "object": "结构部件",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "双层底",
+        "relation": "belongs_to",
+        "object": "结构部件",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "船长",
+        "relation": "determines",
+        "object": "材料级别",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "厚度",
+        "relation": "affects",
+        "object": "材料级别",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "舷顶列板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "圆弧舷缘",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "船底板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "龙骨",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "双层底",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "材料级别",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "材料级别",
+        "relation": "determines",
+        "object": "厚度",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "材料级别",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "厚度",
+        "relation": "determines",
+        "object": "材料级别",
+        "chunk_id": "743"
+    },
+    {
+        "subject": "框架",
+        "relation": "belongs_to",
+        "object": "结构类型",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "框架",
+        "relation": "part_of",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "横骨架式",
+        "relation": "belongs_to",
+        "object": "结构类型",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "横骨架式",
+        "relation": "part_of",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "纵骨架式",
+        "relation": "belongs_to",
+        "object": "结构类型",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "纵骨架式",
+        "relation": "part_of",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "supports",
+        "object": "横骨架式",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "舷侧外板",
+        "relation": "supports",
+        "object": "纵骨架式",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "强肋骨",
+        "relation": "part_of",
+        "object": "横向框架",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "强肋骨",
+        "relation": "supports",
+        "object": "横向框架",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "肘板",
+        "relation": "part_of",
+        "object": "横向框架",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "肘板",
+        "relation": "supports",
+        "object": "横向框架",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "强横梁",
+        "relation": "part_of",
+        "object": "甲板结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "强横梁",
+        "relation": "supports",
+        "object": "甲板结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "边肋骨",
+        "relation": "part_of",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "边肋骨",
+        "relation": "supports",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "part_of",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "supports",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "纵骨架式结构",
+        "relation": "part_of",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "纵骨架式结构",
+        "relation": "supports",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "双壳",
+        "relation": "part_of",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "双壳",
+        "relation": "supports",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "散货船",
+        "relation": "part_of",
+        "object": "船舶类型",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "散货船",
+        "relation": "supports",
+        "object": "船舶类型",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "顶边舱",
+        "relation": "part_of",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "顶边舱",
+        "relation": "supports",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "深舱",
+        "relation": "part_of",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "深舱",
+        "relation": "supports",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "part_of",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "supports",
+        "object": "舱室结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "纵桁",
+        "relation": "part_of",
+        "object": "甲板结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "纵桁",
+        "relation": "supports",
+        "object": "甲板结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "中横剖面",
+        "relation": "part_of",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "中横剖面",
+        "relation": "supports",
+        "object": "船体结构",
+        "chunk_id": "744"
+    },
+    {
+        "subject": "腹板",
+        "relation": "supports",
+        "object": "结构强度",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "腹板",
+        "relation": "supports",
+        "object": "船横剖面的刚度",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "腹板",
+        "relation": "supports",
+        "object": "舷侧外板",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "肋骨框架",
+        "relation": "contains",
+        "object": "腹板",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "腹板",
+        "relation": "located_at",
+        "object": "舷侧外板",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "uses",
+        "object": "球扁钢",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "球扁钢",
+        "relation": "supports",
+        "object": "强度连续性",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "affects",
+        "object": "船长",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "船长",
+        "relation": "determines",
+        "object": "间距",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "间距",
+        "relation": "constrained_by",
+        "object": "船长",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "船长",
+        "relation": "determines",
+        "object": "间距",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "间距",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "located_at",
+        "object": "舷侧外板下部",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "supports",
+        "object": "强度连续性",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "affects",
+        "object": "船长",
+        "chunk_id": "745"
+    },
+    {
+        "subject": "双层壳体",
+        "relation": "contains",
+        "object": "纵向结构",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "双层壳体",
+        "relation": "contains",
+        "object": "横向桁材",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "横向桁材",
+        "relation": "connects_to",
+        "object": "双层底",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "横向桁材",
+        "relation": "connects_to",
+        "object": "肘板",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "穿孔铺板",
+        "relation": "supports",
+        "object": "横向桁材",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "滚装船",
+        "relation": "has",
+        "object": "纵向框架",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "滚装船",
+        "relation": "has",
+        "object": "中横剖面图",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "双体快速渡轮",
+        "relation": "uses",
+        "object": "铝合金",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "双体快速渡轮",
+        "relation": "has",
+        "object": "纵向框架",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "舷肘板",
+        "relation": "connects_to",
+        "object": "舱顶",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "舷肘板",
+        "relation": "connects_to",
+        "object": "斜边舱",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "外板",
+        "relation": "affects",
+        "object": "局部应力",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "船首",
+        "relation": "has",
+        "object": "局部应力",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "船底板",
+        "relation": "affects",
+        "object": "冲击力",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "船首",
+        "relation": "requires",
+        "object": "加强",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "拍击",
+        "relation": "affects",
+        "object": "外板首部构件",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "艏尖舱",
+        "relation": "has",
+        "object": "额外的加强",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "横向舷侧肋骨",
+        "relation": "supported_by",
+        "object": "旁纵桁",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "横向舷侧肋骨",
+        "relation": "supported_by",
+        "object": "强肋骨",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "横向舷侧肋骨",
+        "relation": "supported_by",
+        "object": "穿孔平板",
+        "chunk_id": "746"
+    },
+    {
+        "subject": "艏尖舱",
+        "relation": "contains",
+        "object": "横向舷侧肋骨",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "横向舷侧肋骨",
+        "relation": "supported_by",
+        "object": "旁纵桁",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "supported_by",
+        "object": "支柱",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "旁纵桁",
+        "relation": "supported_by",
+        "object": "横梁",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "connected_to",
+        "object": "肋骨",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "supported_by",
+        "object": "缓冲舱壁",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "穿孔铺板",
+        "relation": "supported_by",
+        "object": "横向桁材",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "穿孔铺板",
+        "relation": "has",
+        "object": "开孔面积",
+        "chunk_id": "747"
+    },
+    {
+        "subject": "艏尖舱",
+        "relation": "contains",
+        "object": "抗拍击纵桁",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "艏尖舱",
+        "relation": "contains",
+        "object": "穿孔平板",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击纵桁",
+        "relation": "extends_to",
+        "object": "船首",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击纵桁",
+        "relation": "extends_to",
+        "object": "船尾",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "外板",
+        "relation": "increases",
+        "object": "厚度",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "外板厚度",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "located_at",
+        "object": "下甲板",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "extends_to",
+        "object": "船首",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "extends_to",
+        "object": "船尾",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "supports",
+        "object": "船体结构",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "艉尖舱",
+        "relation": "contains",
+        "object": "抗拍击结构",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击结构",
+        "relation": "located_at",
+        "object": "横向结构",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "抗拍击梁",
+        "relation": "has",
+        "object": "垂直间隔",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "垂直间隔",
+        "relation": "measures",
+        "object": "2.5m",
+        "chunk_id": "748"
+    },
+    {
+        "subject": "艏尖舱",
+        "relation": "supports",
+        "object": "纵向结构",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "supported_by",
+        "object": "穿孔铺板",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "supported_by",
+        "object": "水平支柱",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "纵向结构",
+        "relation": "supported_by",
+        "object": "梁",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰区航行",
+        "relation": "requires",
+        "object": "加强",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "板厚增加",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "水线区域结构尺寸增加",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "船首底部结构尺寸增加",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "船首改造",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "船尾改造",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "船舵改造",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "加强",
+        "relation": "involves",
+        "object": "轴包套改造",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰带区",
+        "relation": "extends_to",
+        "object": "冰区满载水线",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰带区",
+        "relation": "extends_to",
+        "object": "冰区轻载水线",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰带区",
+        "relation": "depends_on",
+        "object": "冰级",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "外板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "外板",
+        "relation": "increases_with",
+        "object": "冰级严重程度",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "外板",
+        "relation": "increases_with",
+        "object": "距首部距离",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰带区",
+        "relation": "has",
+        "object": "横向主肋骨",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰带区",
+        "relation": "has",
+        "object": "中间肋骨",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "冰带区",
+        "relation": "has",
+        "object": "纵向构件",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "横向冰带肋骨",
+        "relation": "supported_by",
+        "object": "冰带纵桁",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "横向冰带肋骨",
+        "relation": "supported_by",
+        "object": "甲板支撑",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "纵向肋骨",
+        "relation": "supported_by",
+        "object": "腹板",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "横向和纵向构件",
+        "relation": "increases_with",
+        "object": "冰级严重程度",
+        "chunk_id": "749"
+    },
+    {
+        "subject": "横向和纵向构件",
+        "relation": "increases_with",
+        "object": "距首部距离",
+        "chunk_id": "749"
+    }
+]

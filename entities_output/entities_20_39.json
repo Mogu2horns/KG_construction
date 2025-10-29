@@ -1,0 +1,8186 @@
+[
+    {
+        "entity_name": "脆性破坏",
+        "type": [
+            "破坏类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "脆性破坏是指在断裂的边缘没有产生变形以及具有明显的颗粒状外观的破坏形式，可以通过明显的锯齿痕来区别，这些锯齿痕倾向于指向最初发生破坏的点。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "延性破坏",
+        "type": [
+            "破坏类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "延性破坏是指在断裂过程中有暗灰色外观的破坏形式，通常伴随着较大的变形。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "缺口延性",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "缺口延性是衡量钢材相对韧性的指标，由冲击试验决定，具有良好缺口延性的钢材能有效抑制裂纹扩展。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "D级钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的钢材，具有较高的缺口延性，应用于使用较厚板材的地方和高应力区域。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "E级钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的钢材，具有较高的缺口延性，应用于使用较厚板材的地方和高应力区域。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "锰",
+        "type": [
+            "材料成分"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的钢材中添加的元素，尤其是在限定碳含量时，以提高缺口延性。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "热处理",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的钢材可能进行的可控热处理，以提高其缺口延性。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "疲劳断裂",
+        "type": [
+            "破坏类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "疲劳断裂是由于结构上重复性低应力作用下发生的缓慢裂纹扩展，最终导致承载构件失效。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "高屈服强度钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于现代大型船舶（如油船、散货船和集装箱船）的结构材料，因其较高的屈服强度被广泛使用。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "屈曲",
+        "type": [
+            "结构失效类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "屈曲是指受压构件在应力水平低于材料屈服应力时发生的失稳现象，其临界载荷取决于几何尺寸、边界条件和材料弹性模量。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "劳氏船级社",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构进行规范和审批的船级社，特别强调对大型船舶结构进行疲劳性能分析，并规定了板材屈曲能力和加强杆的检查规则。 | 船舶建造中用于批准焊接材料和工艺的船级社机构，确保焊接质量符合标准。 | 船舶设计需符合其标准，并得到其认可。",
+        "chunk_ids": [
+            20,
+            27,
+            30
+        ]
+    },
+    {
+        "entity_name": "应变片",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于实时监测船舶结构应力的设备，安装在甲板结构上，与加速计和软件系统配合使用。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "加速计",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于实时监测船舶运动状态的设备，安装在甲板结构上，与应变片和软件系统配合使用。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "个人计算机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于实时显示船舶应力和运动信息的设备，与应变片和加速计配合使用。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的主要连接方法，具有预制技术、水密性、快速生产等优势，已完全取代铆接。 | 用于船舶建造的连接工艺，相比铆接具有诸多优势，如接受预制技术、易于获得水密性和油密性接头、生产更快速、需要更少技术劳动。 | 型材构件边缘与板材连接的工艺，常用于船体结构的密性连接。 | 在装配过程中用于连接板材和型材的工艺，包括自动对接焊接、定位焊、封底焊接等。",
+        "chunk_ids": [
+            20,
+            21,
+            35,
+            36
+        ]
+    },
+    {
+        "entity_name": "铆接",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在第二次世界大战前用于船舶建造的主要连接方法，后被焊接技术取代。 | 传统船舶建造中使用的连接工艺，已被焊接在20世纪后期广泛替代。",
+        "chunk_ids": [
+            20,
+            21
+        ]
+    },
+    {
+        "entity_name": "预制技术",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺带来的优势之一，使船舶建造过程更加高效。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "水密性",
+        "type": [
+            "性能",
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接接头能够实现的密封性能，确保船舶结构的水密性。 | 焊接接头的一种性能，指接头能够防止水渗入，是船舶建造中的重要要求。",
+        "chunk_ids": [
+            20,
+            21
+        ]
+    },
+    {
+        "entity_name": "油密性",
+        "type": [
+            "性能",
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接接头能够实现的密封性能，确保船舶结构的油密性。 | 焊接接头的一种性能，指接头能够防止油渗入，是船舶建造中的重要要求。",
+        "chunk_ids": [
+            20,
+            21
+        ]
+    },
+    {
+        "entity_name": "屈服强度",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料在发生塑性变形前能承受的最大应力，用于选择高屈服强度钢作为大型船舶结构材料。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "屈曲强度",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料在受压时发生屈曲的临界应力，用于评估船体结构的稳定性。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "计算机评估程序",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估船舶结构屈曲强度的工具，特别是在需要进一步评估屈曲时使用。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "应力监控设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于实时监测船舶应力和运动状态的设备，包括应变片、加速计和软件系统。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "SEA符号",
+        "type": [
+            "标识"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示船舶安装了实时应力和运动监控设备的标识，若还连接有数据记录器则为SEA（R）。",
+        "chunk_ids": [
+            20
+        ]
+    },
+    {
+        "entity_name": "熔焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过热源熔化待接合材料边缘的焊接工艺，用于造船中的焊接工艺，包括气体焊、电弧焊、激光焊和电阻焊。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "气体焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用气体火焰作为热源的熔焊工艺，如氧乙炔焊接，适用于薄的低碳钢板，但已基本退出造船领域。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "氧乙炔火焰",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由氧气和乙炔混合产生的高温火焰，用于气体焊接，具有焰芯和外焰两个区域，温度可达 $3000^{circ}mathrm{C}$。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "电弧焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过电弧产生高温熔化金属的焊接工艺，用于船舶建造，包括手动、半自动和自动三种工艺。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊丝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电弧焊的金属材料，可被浸在焊剂中以获得更稳定的电弧，或被覆盖层包裹以保护焊缝。 | 焊接过程中用于熔化的金属芯线，通常为低碳钢，用于“熔化”钢的元素，如硅或铝，但这些元素可能使电弧不稳定。 | 熔化极气体保护焊中使用的可消耗金属材料，用于形成焊缝，直径和电流选择影响焊接效果。",
+        "chunk_ids": [
+            21,
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "焊条",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于手工电弧焊的金属材料，芯线通常为沸腾钢，覆盖层由硅质矿物、氧化物、氟化物等混合物组成。 | 用于焊接的金属芯线与覆盖层组成的复合材料，覆盖层由硅质矿物、氧化物、氟化物、碳化物、碳氢化合物的混合物和粉末金属合金以及液体黏合剂组成，用于提供气体保护、电弧稳定性和保护熔化的焊接金属。 | 用于焊接的金属材料，需通过船级社的破坏性试验以确保其符合船舶建造规范。",
+        "chunk_ids": [
+            21,
+            22,
+            28
+        ]
+    },
+    {
+        "entity_name": "熔渣保护工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过焊剂覆盖焊丝或焊缝，形成固体渣以保护焊缝不与大气中的氧气和氮气接触的工艺。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊剂",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于覆盖焊丝或焊缝的材料，可形成保护渣，防止焊缝与空气接触，常见于熔渣保护工艺中。 | 用于埋弧焊等工艺中的粒状材料，分解后为电弧提供气体和热绝缘保护，熔化金属被熔融焊剂保护。 | 用于电渣焊工艺中，阻断加热路径并形成熔池，由焊工手动送入，影响焊接质量和颗粒结构。",
+        "chunk_ids": [
+            21,
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "焊枪",
+        "type": [
+            "设备/工具",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于气体焊接的工具，由细长铜嘴和气体混合器组成，用于调整氧和乙炔的吹气比率。 | 用于气体保护焊和埋弧焊等工艺的设备，用于输送焊丝、导电和保护电弧。 | 用于输送焊丝和保护气体的工具，包含导电管和导轮，是焊接过程中关键的执行设备。",
+        "chunk_ids": [
+            21,
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "气泵",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提供压缩氧气和乙炔的设备，通常用不同颜色区分（红——乙炔，黑——氧），并配有稳压器。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊灯",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于气体焊接的工具，提供混合气体并产生火焰，用于调节乙炔和氧气的比例。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中形成的金属连接部分，通过熔化材料边缘并冷却形成，需保护以防止氧化。 | 焊接过程中形成的金属连接部位，是船舶结构中的关键连接点，其外观和内部质量直接影响船舶的安全性和可靠性。",
+        "chunk_ids": [
+            21,
+            28
+        ]
+    },
+    {
+        "entity_name": "低碳钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接的金属材料，具有较低的碳含量，适用于气体焊和电弧焊。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "沸腾钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊条芯线的材料，具有良好的可拉拔性，但可能影响电弧稳定性。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "硅",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊条覆盖层的成分之一，有助于稳定电弧，但可能使熔化钢不适合。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "铝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有高熔点氧化物的金属，焊接时需要使用焊剂去除氧化物。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "不锈钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有高熔点氧化物的金属，焊接时需要使用焊剂去除氧化物。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊剂金属",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于填充空心焊丝的材料，在焊接过程中固化形成固体渣，保护焊缝。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "填充金属",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接过程中连接零件的金属材料，通常由焊条提供。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "气体火焰",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由气体燃烧产生的高温火焰，用于气体焊接，具有不同的燃烧特性。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "钎焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "不需要达到被连接金属熔化温度的焊接工艺，常用于气体火焰的辅助应用。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊条覆盖层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖在焊丝上的混合物，由硅质矿物、氧化物、氟化物等组成，用于保护焊缝。 | 焊条外层的涂层，由硅质矿物、氧化物、氟化物、碳化物、碳氢化合物的混合物和粉末金属合金以及液体黏合剂组成，用于提供气体保护、电弧稳定性和保护熔化的焊接金属。",
+        "chunk_ids": [
+            21,
+            22
+        ]
+    },
+    {
+        "entity_name": "液体黏合剂",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊条覆盖层的成分之一，帮助将混合物粘附在焊丝上。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊丝拉拔",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将焊丝从原材料中拉拔成所需形状的过程，用于制造焊条芯线。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝固化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化的金属冷却后形成的连接部分，需通过保护措施防止氧化。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝保护",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过熔渣或其他方式防止焊缝与空气接触，避免气孔等缺陷。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝气孔",
+        "type": [
+            "缺陷"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于氧气渗入熔化的金属中，在冷却后形成的气泡，影响焊缝质量。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝氧化",
+        "type": [
+            "缺陷"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝在冷却过程中与空气中的氧气接触，导致金属氧化，影响性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝冶金问题",
+        "type": [
+            "缺陷"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于焊接过程中引入的碳粒子或其他杂质，导致金属材料性能下降的问题。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝脱碳",
+        "type": [
+            "缺陷"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在焊接过程中，钢材料因高温氧化而失去碳元素，导致性能下降。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝硅耗尽",
+        "type": [
+            "缺陷"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中硅元素被消耗，导致电弧不稳定，影响焊接质量。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝填充",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在焊接过程中，通过填充金属使焊缝达到所需形状和强度。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝冷却",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接完成后，熔化的金属逐渐冷却形成固态焊缝。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝温度",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化金属的温度，影响焊接质量和材料性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热源",
+        "type": [
+            "设备/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提供足够热量以熔化金属的装置，如气体火焰、电弧等。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "热量从热源传递到金属板的过程，影响焊接速度和质量。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热效率",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中热量利用效率，影响焊接速度和材料性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热输入",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中输入的热量，影响焊缝形状和材料性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热影响区",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中受热影响的金属区域，可能引起材料性能变化。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热变形",
+        "type": [
+            "缺陷"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热膨胀引起的金属变形，可能影响结构完整性。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热应力",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中产生的热应力，可能引起材料裂纹或变形。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接完成后对焊缝进行的热处理，以改善材料性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热膨胀",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中金属因受热而膨胀的现象，可能引起结构变形。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导率",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "金属材料传导热量的能力，影响焊接速度和质量。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导效率",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中热量传递的效率，影响焊接速度和材料性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导路径",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "热量从热源传递到金属板的路径，影响焊接质量和效率。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导速度",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "热量从热源传递到金属板的速度，影响焊接速度和质量。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导时间",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "热量从热源传递到金属板所需的时间，影响焊接速度和质量。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导强度",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中热量传递的强度，影响焊接速度和材料性能。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导方式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "热量从热源传递到金属板的方式，如传导、对流、辐射等。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "焊缝热传导模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中热量传递的模式，如传导、对流、辐射等。",
+        "chunk_ids": [
+            21
+        ]
+    },
+    {
+        "entity_name": "金红石焊条",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊条的一种类型，其涂层包含高比例的二氧化钛，需要电极，易于控制，能完成性能良好的焊接。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "碱性焊条",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊条的一种类型，其涂层含有大量石灰，制造过程中将涂层中的水分减少到最小以确保低氢性质，其焊接金属的机械性质优于其他形式，通常用于焊接高抗拉强度钢。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "药芯焊丝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机械焊接的焊丝，允许高沉积速率，提高了焊接质量，常用于带有陶质衬垫的单面焊接。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "埋弧焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种电弧焊接法，其中电弧保持在粒状焊剂的覆盖层下，利用可消耗的填充焊丝，电弧在焊丝和母板之间，焊剂分解并提供气体和热绝缘保护，适用于大厚度焊接接头。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "电栓焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种电弧保护工艺，电弧在螺柱（焊条）和螺柱所附属板之间被拉伸，螺柱被插入焊枪块中，电弧熔化螺柱尾部和板的表面，用于螺栓的固定，为管栅、电缆槽等提供安全连接。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "气体保护焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，使用惰性气体保护焊接金属不与空气接触，主要应用于自动或半自动焊，用于轻型钢结构和铝合金的焊接。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "钨极氩弧焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，电弧在水冷式非自耗的钨焊条和板之间产生，使用惰性保护气（如氩气）保护焊接金属，适用于焊接铝和钢，特别是薄铝板。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "熔化极惰性气体保护焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种氩弧焊的扩展工艺，使用可消耗金属焊丝作为填充金属，通过送丝电机提供焊丝，惰性气体保护电弧，适用于船厂的多种焊接工作。 | 一种焊接工艺，使用可消耗金属焊丝作为电极，并通过惰性气体保护电弧，常用于铝及低碳钢的焊接。",
+        "chunk_ids": [
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "陶瓷插芯",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电栓焊中，套在螺柱上以阻止空气进入焊接区域，同时集中电弧热量，限制熔化金属在焊接区域。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "螺柱焊枪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电栓焊的设备，用于将螺柱插入板中并产生电弧，熔化螺柱尾部和板的表面，实现螺柱与板的连接。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "控制器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于电栓焊中，测定电流产生周期时间的设备，确保焊接过程的精确控制。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "导轮",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于送丝电机中，引导焊丝通过焊枪中的导电管，确保焊丝的稳定输送。 | 用于引导焊丝通过焊枪的机械部件，确保焊丝稳定输送，是熔化极气体保护焊的重要组件。",
+        "chunk_ids": [
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "送丝电机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于气体保护焊和熔化极惰性气体保护焊中，提供焊丝的连续输送，确保焊接过程的连续性。 | 用于输送焊丝的电动装置，确保焊丝以适当的速度送入焊枪，是熔化极气体保护焊的重要组成部分。",
+        "chunk_ids": [
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "导电管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊枪中，连接焊丝和工件，建立电连接，确保电弧的稳定产生。 | 连接焊枪与工件的导电部件，用于建立电弧，是熔化极气体保护焊中的关键组件。",
+        "chunk_ids": [
+            22,
+            23
+        ]
+    },
+    {
+        "entity_name": "直流电源",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接过程中提供电能，通过活性电极普通金属的转移完成焊接，尤其在焊接铝时通过阴极活动去除氧化膜。",
+        "chunk_ids": [
+            22
+        ]
+    },
+    {
+        "entity_name": "氩弧焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，使用惰性气体保护电弧，焊条被替换为可消耗金属焊丝，用于铝的焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "MIG/CO₂焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种使用二氧化碳作为保护气体的熔化极气体保护焊工艺，广泛应用于低碳钢的焊接，适用于平位焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "MAGS焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "活性气体保护电弧焊的另一种称呼，通常指MIG/CO₂焊工艺，用于提高焊接效率和降低成本。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "等离子焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种与氩弧焊相似的焊接工艺，通过等离子弧进行焊接，具有更深的熔透性和更好的表面包容性，适用于薄板和厚板焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "电渣焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于焊接重型结构组件的工艺，如艉架和舷侧外板，通过焊剂阻断加热路径，形成熔池，适用于厚板焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "舷侧外板",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶船体结构的一部分，位于船体侧面，用于承受外部压力和水流冲击，常用于电渣焊工艺。 | 船舶侧面的主要结构板，焊接顺序对其变形和整体结构完整性有重要影响。 | 船舶船体的外侧板结构，通常在单元建造中采用焊接技术连接。",
+        "chunk_ids": [
+            23,
+            27,
+            35
+        ]
+    },
+    {
+        "entity_name": "惰性气体",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护电弧的气体，如氩气，防止氧化和污染，常用于熔化极惰性气体保护焊。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "CO₂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为保护气体用于MIG/CO₂焊工艺，替代昂贵的氩气，用于低碳钢的焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "脉冲电弧",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，通过低电平电流和高电平脉冲电流结合，提高熔透效果，适用于轻型铝板的焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "浸渍传递",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种MIG/CO₂焊工艺，适用于薄板焊接，通过电弧中不同模式的金属过渡完成焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "电弧",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中产生的高温等离子体，用于熔化金属并形成焊缝，通过直流电源和活性电极实现。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "铜水冷模座",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保存焊接熔池的冷却装置，常见于电渣焊工艺中，确保焊接过程的稳定性。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "引弧板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于启动和停止焊接的辅助部件，确保焊接连续性，符合焊接工艺要求。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "熄弧板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于停止焊接的辅助部件，与引弧板配合使用，确保焊接连续性。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "等离子喷嘴",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于约束等离子弧的精密部件，通过不同直径的镗孔和等离子流量控制焊接模式。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "铜喷嘴",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于等离子焊中约束等离子弧的部件，通过精密镗孔引导等离子流，影响焊接效果。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "等离子流量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "控制等离子弧能量和焊接效果的参数，影响焊接模式和熔透深度。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "等离子弧",
+        "type": [
+            "设备",
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "等离子焊中产生的高温等离子体，用于熔化金属并形成焊缝，通过钨极和板间形成。 | 用于等离子切割的高温等离子体，能够快速切割金属材料。",
+        "chunk_ids": [
+            23,
+            33
+        ]
+    },
+    {
+        "entity_name": "钨极",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "等离子焊和氩弧焊中使用的非消耗性电极，用于产生电弧，不参与熔化过程。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "微等离子体",
+        "type": [
+            "工艺模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "等离子焊的一种操作模式，适用于焊接极薄板（0.1mm以下），使用低电流进行作业。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "中等强度电流",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "等离子焊的一种操作模式，适用于中等厚度板，电流范围为15～200A，具有更深的熔透性。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "穿孔型等离子",
+        "type": [
+            "工艺模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "等离子焊的一种操作模式，适用于厚板焊接，电流超过100A，可穿透达10mm厚的板。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "薄板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "厚度较薄的金属板，常用于微等离子体等离子焊工艺，适用于精密焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "厚板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "厚度较大的金属板，适用于穿孔型等离子焊工艺，可穿透达10mm厚的板。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "俯焊",
+        "type": [
+            "工艺模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接位置的一种，指在焊缝下方进行的焊接，适用于等离子焊和某些气体保护焊工艺。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "直角边缘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接前对板进行的预处理，用于电渣焊工艺，影响最终焊接金属的稀释程度。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "颗粒结构",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接金属的微观结构，电渣焊倾向于形成粗糙颗粒结构，需通过局部正常化进行矫正。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "局部正常化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于改善电渣焊金属颗粒结构的工艺，提高焊接质量。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "电感",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制焊接电流的装置，防止短路时电源急剧增加和焊丝尾端爆炸。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "小直径焊丝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "直径小于1.2mm的焊丝，用于低电流焊接轻型板，适用于浸渍传递焊工艺。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "轻型板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "厚度较薄的金属板，适用于轻型钢结构焊接，如甲板室和轻型组件。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "轻型钢结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由轻型金属板组成的结构，适用于船舶建造中的甲板室和其他轻型组件。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "半自动焊枪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于半自动焊接的工具，通过焊工手动操作完成焊接，适用于多种焊接工艺。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "自动机械",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于大电流焊接的自动化设备，提高焊接效率和一致性。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接产量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺中单位时间内完成的焊接工作量，MIG半自动焊工艺可适当提高焊接产量。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接成本",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺的经济性指标，MIG半自动焊工艺可适当降低成本。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接位置",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接时焊缝相对于工件的位置，如平位、俯焊等，影响焊接工艺选择。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接模式",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中电弧和熔滴的转移方式，如喷射过渡、短路过渡等，影响焊接效果。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "熔滴过渡",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔滴从焊丝转移到工件的过程，影响焊接质量和效率。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "熔池",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化的金属区域，由焊丝和工件熔化形成，是焊接质量的关键部分。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊池",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化的金属区域，由焊丝和工件熔化形成，是焊接质量的关键部分。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊工",
+        "type": [
+            "人员"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "进行焊接操作的人员，负责手动操作半自动焊枪完成焊接。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接连续性",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中保持连续焊接的能力，通过引弧板和熄弧板实现。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接故障",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中出现的异常情况，可能导致焊接中断，需重新开始。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接金属",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化的金属，形成焊缝，其质量受焊接工艺和参数影响。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接稀释",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中母材与焊缝金属的混合程度，影响焊接接头的性能。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接接头",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后形成的连接部位，其质量受焊接工艺和参数影响。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接工艺",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于完成焊接工作的技术方法，包括熔化极气体保护焊、等离子焊、电渣焊等。 | 船舶建造中用于连接结构部件的工艺，包括焊接顺序、方法和参数控制。 | 用于船舶结构连接的工艺，包括单面焊双面成形等。",
+        "chunk_ids": [
+            23,
+            27,
+            35
+        ]
+    },
+    {
+        "entity_name": "焊接参数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中控制焊接质量的关键参数，包括电流、电压、气体流量等。 | 焊接过程中控制的参数，如电流、电压、焊接速度等，影响焊缝质量和变形。",
+        "chunk_ids": [
+            23,
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接效率",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中单位时间内完成的焊接工作量，受焊接工艺和设备影响。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接质量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接后焊缝的性能和外观，受焊接工艺、参数和操作影响。",
+        "chunk_ids": [
+            23
+        ]
+    },
+    {
+        "entity_name": "焊接设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于完成焊接工作的工具和装置，包括焊枪、送丝电机、导电管等。 | 用于执行焊接操作的设备，如电焊机等，是焊接工艺中的关键工具。",
+        "chunk_ids": [
+            23,
+            27
+        ]
+    },
+    {
+        "entity_name": "电气焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将气体保护焊和电渣焊特点组合的弧焊工艺，使用水冷铜模座，药芯焊丝送入焊池，通过弧获得融合物，采用CO₂或CO₂与氩气混合气体保护，适用于厚度13~50mm的板，用于垂向对接缝焊接。",
+        "chunk_ids": [
+            24
+        ]
+    },
+    {
+        "entity_name": "激光焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的焊接工艺，提供最小变形，使用CO₂或Nd:YAG激光作为原料，适用于不同厚度材料，包括点焊、柱焊、滚焊等，Nd:YAG激光可用于连接手臂关节机器人，焊接复杂形状单元。",
+        "chunk_ids": [
+            24
+        ]
+    },
+    {
+        "entity_name": "铝热焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种熔接工艺，利用铝粉末和铁的氧化物反应产生热量，用于大型型钢焊接，常用于修理铸件或锻件，通过熔渣使铝钢过热并融合。",
+        "chunk_ids": [
+            24
+        ]
+    },
+    {
+        "entity_name": "摩擦搅拌焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种固态连接工艺，用于造船工业，使用非自耗旋转工具，通过软化板材实现固态连接，适用于铝合金板及挤压或铸造板，典型应用包括铝合金甲板架和客船舱壁蜂巢状板架。",
+        "chunk_ids": [
+            24
+        ]
+    },
+    {
+        "entity_name": "等离子切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船厂切割钢板和型钢的设备，已广泛应用于现代船厂。 | 在船厂中被广泛应用的切割设备，利用等离子弧产生高温以熔化和切割金属材料。",
+        "chunk_ids": [
+            24,
+            25
+        ]
+    },
+    {
+        "entity_name": "气体切割技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船厂中钢板和型钢的切割成形，通过铁和铁合金在高氧环境下的化学/热反应实现切割。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "气割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过铁和铁合金在高氧环境下的化学/热反应完成的切割工艺，用于船舶建造中钢板和分段的切割。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "氧乙炔切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用乙炔与氧混合气体作为预热火焰的切割工艺，广泛用于船厂中，且被高度自动化。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "等离子弧切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用电离气体产生高温等离子弧，用于切割所有导电材料，适用于船厂中不同厚度的钢板和型材。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "等离子载体气体",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于等离子弧切割的气体，包括压缩空气、氮气、氧气或氩气/氢气混合气，根据材料类型选择。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "喷水等离子弧切割系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于等离子弧切割的系统，通过喷水提高切割速度并减少污染。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "水切割工作台",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "常伴随等离子弧切割使用的设备，用于水下切割以吸收灰尘和颗粒物质。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "刨削",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过气体和弧焊接工艺形成浅凹陷，用于焊接坡口加工，特别适用于造船中清理焊缝背面。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "电弧气刨",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清理焊缝背面的工艺，使用管状电极和氧流产生切削，以去除不想要的材料。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "激光切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用集中激光束产生高密度能量进行切割，近年来被广泛用于造船业的机械化和自动化成形。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "CO₂激光",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于激光切割的激光类型，由装满CO₂、氮气和氦气的真空管在高电压放电下产生红外辐射。",
+        "chunk_ids": [
+            25
+        ]
+    },
+    {
+        "entity_name": "水射流切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用高压水射流（可带砂轮）切割多种材料，包括钢和铝合金，适用于不同厚度的材料。 | 一种冷切工艺，使用带有或不带砂轮的集中喷水器，以声速的2.5倍从喷嘴中喷出，处于几千倍工作压力水平下，可切割木材、塑料、橡胶、钢和铝合金，厚度范围为0.25~150mm。",
+        "chunk_ids": [
+            25,
+            26
+        ]
+    },
+    {
+        "entity_name": "对接接头",
+        "type": [
+            "焊接接头类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "两个连接板在同一平面上的接头，是任意焊接结构中应优先应用的接头类型，焊接金属比板材有更高的屈服强度。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "搭接接头",
+        "type": [
+            "焊接接头类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用角焊连接板的接头，应避免大量结构焊接，因其接头强度相比于板材或对接接头较弱。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "角焊缝",
+        "type": [
+            "焊接接头类型",
+            "焊接结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于搭接接头的焊接方式，可能是连续的或间歇的，其疲劳强度次于对接焊缝。 | 用于连接筋和板的焊接形式，其收缩可能导致平面外变形，影响船体外观。",
+        "chunk_ids": [
+            26,
+            27
+        ]
+    },
+    {
+        "entity_name": "封底焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台建造期间从一面焊接的工艺，通常使用衬垫，用于确保熔透焊的完成，焊缝背面需通过刨削或切削清理熔渣后进行。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "点焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于校准后和完成对接焊、角焊前保持板和分段位置的短焊道，最终会被全周焊接或切割成重要节点。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "坡口加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对板边缘进行削斜处理，以实现焊接金属的完全焊透，可通过气体、激光或机械加工方法完成，机械加工方式适用于高强度钢。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "机械加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于坡口加工的机械加工方法，通过刨刀或铣刀完成，提供更好的表面质量，适用于厚板和高强度钢焊接。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "蛋盒结构",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于简化焊接组件装配的结构，常见于双层底分段中，通过肋板和旁纵桁开槽形成整体安装结构。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "高速单面埋弧焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于大型板架焊接生产线的自动化焊接系统，通过操作箱设置焊接参数，自动控制焊口焊接过程。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "点焊筋",
+        "type": [
+            "焊接部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在板架上预先点焊的筋构件，用于后续的角焊缝焊接，通过双填角焊机器进行焊接。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "双角焊头",
+        "type": [
+            "焊接设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于角焊缝焊接的设备，与焊头同步移动，配合CO₂气体保护的药芯焊丝进行焊接。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于自动化焊接的设备，其应用在第13章被提到，用于提高焊接效率和质量。",
+        "chunk_ids": [
+            26
+        ]
+    },
+    {
+        "entity_name": "焊接变形",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于金属加热膨胀和冷却收缩导致的结构变形，是分段装配和船舶建造期间产生额外工作的主要原因。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "退焊法",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于减少手工焊中形变的焊接方法，通过控制焊接顺序和长度来减小焊接变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "跳焊法",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于减少手工焊中形变的焊接方法，通过分段焊接以控制热量输入和变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接顺序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造过程中，为减小焊接变形和残余应力而采用的焊接步骤安排，贯穿分段建造、合拢和进入船坞各个阶段。 | 在装配船体分段时确定的焊接顺序，用于避免应力集中和确保结构完整性。 | 在船舶制造中设计的焊接顺序，用于优化结构和减少变形。",
+        "chunk_ids": [
+            27,
+            37,
+            38
+        ]
+    },
+    {
+        "entity_name": "对接焊缝",
+        "type": [
+            "焊接结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中常见的焊接形式，用于连接两块钢板的边缘，是焊接顺序中优先考虑的部分。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "板缝",
+        "type": [
+            "焊接结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中相邻板件之间的连接缝，焊接时需考虑其顺序以避免裂纹和变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "T字形交点",
+        "type": [
+            "结构节点"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中两个构件垂直相交的节点，焊接时需先完成对接焊缝再处理板缝。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "甲板板缝",
+        "type": [
+            "焊接结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中相邻板件之间的连接缝，焊接时需遵循特定顺序以避免变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接检验",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶焊接过程中用于确保焊接质量的检验步骤，包括视觉检验、放射线和超声波检测等。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "无损检测",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估船舶焊接完整性的一种检测方法，包括外观检测、磁粉检测、染色渗透液检测、放射线和超声波检测。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "外观检测",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过目视检查焊接表面缺陷，如不正确的焊缝形状、飞溅、裂纹等，是焊接检验中最常用的手段。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "磁粉检测",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过磁化铸件并在表面施加磁粉液体，检测表面裂纹等缺陷，常用于船尾肋板和铸件检测。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "染色渗透液检测",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过涂覆染色液并清洗后检测表面裂纹，常用于船尾肋板和其他铸件的表面裂纹检测。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "放射线检测",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用放射线穿透焊缝以检测内部缺陷，是船舶焊接检验中常用的方法。 | 通过使材料一侧受到辐射并记录背侧射线密度，用于检测焊缝内部缺陷，如空隙，其原理基于射线穿透材料时的密度差异。",
+        "chunk_ids": [
+            27,
+            28
+        ]
+    },
+    {
+        "entity_name": "超声波检测",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用超声波穿透焊缝以检测内部缺陷，是船舶焊接检验中常用的方法。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接缺陷",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中可能出现的多种缺陷，如不正确的焊缝形状、飞溅、裂纹等，可能由设计、工艺或材料问题引起。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "残余应力",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中产生的内部应力，可能因钢板轧制和冷却产生，影响焊接变形和结构完整性。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "预轧辊板",
+        "type": [
+            "材料处理"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过预先轧辊处理钢板以减小残余应力，从而降低焊接变形的影响。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "结构体系",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶整体结构体系，包括板架、筋构件等，焊接顺序对其变形和完整性有重要影响。 | 船舶的主体结构，通常由板材和型材构件组成，通过焊接技术连接。",
+        "chunk_ids": [
+            27,
+            35
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "材料部件",
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向支撑构件，焊接时需注意其与板的连接方式以避免变形。 | 船体结构的一部分，存取的信息可以为外板的肋骨定位提供信息。 | 用于支撑船体结构的纵向构件，通常在子装配阶段被粘贴上，作为加强肋骨的一部分。 | 船体结构中的纵向支撑构件，可能在跨过横缝和纵缝时留待最后焊接。",
+        "chunk_ids": [
+            27,
+            32,
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "筋构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "附属于平板的结构构件，焊接时需考虑其与板的连接顺序以避免变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "船尾肋板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船尾的肋板结构，常用于检测表面裂纹，是无损检测的应用对象。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "建造环境",
+            "设施设备",
+            "设备",
+            "设施"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "船舶建造的最终阶段，用于船体合拢和下水，焊接顺序在此阶段也需考虑。 | 用于建造大型船舶的设施，有利于起重机起重定位单元的间隙，同时可以有效利用船坞进行船舶结构和舾装的建造。 | 用于船舶建造和维修的水工建筑物，通常用于安装预制单元并进行最终调整。 | 用于船舶建造和下水的水工建筑物，可容纳大型船舶。",
+        "chunk_ids": [
+            27,
+            29,
+            35,
+            38
+        ]
+    },
+    {
+        "entity_name": "焊接材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接的金属材料，需经过测试以确保其符合船舶建造标准。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接合格性测试",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "操作人员需定期接受的测试，以确保其焊接手艺符合船舶建造标准。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接飞溅",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中产生的金属颗粒，可能影响焊缝质量，是外观检验中需关注的问题。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接起点和终止点",
+        "type": [
+            "工艺细节"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接操作的起始和结束位置，不正确的处理可能导致焊缝缺陷。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接校准",
+        "type": [
+            "工艺细节"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中对焊缝形状和位置的调整，确保符合设计要求。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "表面裂纹",
+        "type": [
+            "缺陷类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中可能产生的表面缺陷，需通过外观检测或无损检测发现。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "表面下缺陷",
+        "type": [
+            "缺陷类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中可能产生的内部缺陷，需通过无损检测方法发现。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "内部缺陷",
+        "type": [
+            "缺陷类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中可能产生的内部缺陷，需通过无损检测方法发现。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接操作人员",
+        "type": [
+            "人员角色"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "执行焊接工作的人员，需接受焊接合格性测试以确保其手艺符合标准。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接热输入",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中输入的热量，影响金属膨胀和收缩，进而影响焊接变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接速度",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中焊枪或焊条的移动速度，影响焊缝形状和热输入。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接电流",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中使用的电流强度，影响焊缝熔深和热输入。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接电压",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中使用的电压，影响电弧稳定性和焊缝形状。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接熔深",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化的金属深度，影响焊缝强度和结构完整性。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接熔宽",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中熔化的金属宽度，影响焊缝形状和热影响区。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接热影响区",
+        "type": [
+            "工艺区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中受热影响的金属区域，可能产生残余应力和变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺参数",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中控制的参数，如电流、电压、焊接速度等，影响焊缝质量和变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中的一系列操作步骤，包括预热、焊接、冷却等，影响焊缝质量和变形。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺控制",
+        "type": [
+            "工艺控制"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中对工艺参数和操作步骤的控制，以确保焊缝质量和结构完整性。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺优化",
+        "type": [
+            "工艺优化"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过调整焊接参数和顺序以减少变形和残余应力，提高焊接质量和效率。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺设计",
+        "type": [
+            "工艺设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺的规划和设计，包括焊接顺序、方法和参数选择，以确保结构完整性和焊接质量。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺标准",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺需遵循的标准，如船级社规范，以确保焊接质量和结构完整性。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺规范",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺的具体操作规范，包括焊接顺序、方法和参数要求，以确保焊接质量。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺文件",
+        "type": [
+            "文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录焊接工艺参数和操作步骤的文件，用于指导焊接操作和质量控制。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺记录",
+        "type": [
+            "文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录焊接过程中的关键参数和操作步骤的文件，用于质量追溯和工艺优化。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺审核",
+        "type": [
+            "审核流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对焊接工艺的审查和评估，确保其符合设计要求和行业标准。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺改进",
+        "type": [
+            "工艺改进"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过分析焊接问题和缺陷，优化焊接工艺以提高质量和效率。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺培训",
+        "type": [
+            "培训内容"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对焊接操作人员进行的培训，确保其掌握正确的焊接技术和工艺要求。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺管理",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对焊接工艺的全过程管理，包括计划、执行、监控和改进，以确保焊接质量。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺评估",
+        "type": [
+            "评估流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对焊接工艺的综合评估，包括质量、效率和成本，以优化工艺方案。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺验证",
+        "type": [
+            "验证流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过试验和检测验证焊接工艺是否符合设计要求和行业标准。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺应用",
+        "type": [
+            "应用领域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺在船舶建造中的具体应用，包括结构连接、变形控制和质量保证。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺发展",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接工艺的持续改进和创新，以适应船舶建造的新需求和技术进步。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺创新",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过新技术和新方法提升焊接工艺的效率和质量，如计算机辅助设计（CAD）的应用。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺自动化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用自动化设备和系统提高焊接工艺的精度和效率，减少人工干预。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺智能化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过智能系统和数据分析优化焊接工艺，提高焊接质量和效率。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺数字化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用数字化工具和系统管理焊接工艺，提高数据记录和分析能力。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺信息化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过信息化手段提升焊接工艺的管理效率和质量控制能力。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺标准化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "建立统一的焊接工艺标准，确保焊接质量和结构完整性。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺规范化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过规范化的焊接工艺流程和操作要求，提高焊接质量和效率。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺集成",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将焊接工艺与其他制造工艺集成，提高整体建造效率和质量。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同工作和信息共享优化焊接工艺，提高整体建造效率。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同设计",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在设计阶段就考虑焊接工艺，实现设计与制造的协同优化。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同制造",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在制造过程中实现焊接工艺与其他制造工艺的协同，提高整体效率。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同管理",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同管理实现焊接工艺与其他制造流程的高效整合。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同优化",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同优化焊接工艺与其他制造工艺，提高整体建造效率和质量。 | 通过协同优化实现焊接工艺与其他制造流程的综合优化。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同控制",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同控制实现焊接工艺与其他制造流程的高效整合。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同评估",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同评估实现焊接工艺与其他制造流程的综合优化。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同改进",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同改进实现焊接工艺与其他制造流程的持续优化。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同创新",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同创新实现焊接工艺与其他制造流程的突破性发展。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同应用",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同应用实现焊接工艺与其他制造流程的高效整合。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "焊接工艺协同发展",
+        "type": [
+            "技术发展"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过协同发展实现焊接工艺与其他制造流程的持续进步。",
+        "chunk_ids": [
+            27
+        ]
+    },
+    {
+        "entity_name": "外观检查",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝的常规检验流程，用于发现表面缺陷，如不正确的焊缝形状、高飞溅、跟切、不良的起点和终止点、不正确的校准以及表面裂纹。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "X射线",
+        "type": [
+            "检测技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种放射线检测技术，通过高电压电源产生，用于记录焊接金属的密度，其射线从阴极发射到管外并到达焊缝表面。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "γ射线",
+        "type": [
+            "检测技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由放射性原子核衰变产生的射线，具有强穿透性，常用于焊缝检测，但需要强防护措施，且依赖人工放射源。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "感光片",
+        "type": [
+            "检测设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于记录射线密度的感光材料，能显示焊缝内部缺陷如空隙，其影像通过像质计进行评估以判断敏感度。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "像质计",
+        "type": [
+            "检测设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估感光片敏感度的工具，通过显示厚度的最小变化来分级金属，帮助识别焊缝缺陷。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "超声波检验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用超声波脉冲反射原理检测焊缝缺陷，尤其适用于检测放射线检测漏掉的裂纹，且不涉及健康危害。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "阴极射线管",
+        "type": [
+            "检测设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于显示超声波反射图像的设备，操作者通过其图像辨别裂缝和缺陷类型。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "船级社",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责制定船舶建造规范的机构，对焊条、焊丝等焊接材料进行破坏性试验以确保其符合建造标准。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "破坏性试验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于审批焊条和焊接金属的试验方法，包括拉伸、弯曲、冲击试验以及成分和裂纹检测。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "焊丝-气体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接材料组合，由焊丝和保护气体构成，需通过船级社的破坏性试验以确保其符合建造标准。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "焊丝-焊剂",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接材料组合，由焊丝和焊剂构成，需通过船级社的破坏性试验以确保其符合建造标准。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "电渣焊接",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于特定焊接材料的试验和审批，需通过船级社的破坏性试验以确保其符合建造标准。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "电弧焊接",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于特定焊接材料的试验和审批，需通过船级社的破坏性试验以确保其符合建造标准。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "船厂",
+        "type": [
+            "设施/场所",
+            "设施设备",
+            "相关方",
+            "机构"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "船舶建造的场所，通常建在河岸或有保护的海湾，具有遮蔽的水域，其布局在船舶建造过程中基本不变。 | 进行船舶建造和舾装的场所，通常包括船台、码头、舾装车间等设施。 | 船舶制造的场所，其标准实践需反映在施工图纸中。 | 进行船舶建造的工厂，可能采用传统或现代化的下水方法。 | 进行船舶建造的工厂，可能采用传统或现代化的下水方法。",
+        "chunk_ids": [
+            28,
+            29,
+            30,
+            38
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "设施/场所",
+            "设施设备",
+            "设备",
+            "设施",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的平台，由小而简单的车间支持，船舶在船台上一片片建造。 | 用于船舶建造的大型平台，用于支撑和定位船舶在建造过程中。 | 用于船舶结构组装的场地，通常用于安装预制单元并进行最终调整。 | 用于船舶建造的场地，分段装配完成后通常在此进行总组。 | 用于船舶建造的场地，分段或模块在此被吊装并放入正确位置。 | 用于船舶组装和建造的场地，通常与船坞配合使用。",
+        "chunk_ids": [
+            28,
+            29,
+            35,
+            36,
+            37,
+            38
+        ]
+    },
+    {
+        "entity_name": "起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊起大型物件的设备，通常固定在一个位置，可吊起200t重的大型船舶部件，但起重能力一般低于10t。 | 用于吊装大型物件的设备，大多数是固定在一个位置上的，可以吊起大型船舶部件。 | 用于吊装分段或大型模块的现代化装卸设备，常见于船台或建造码头。",
+        "chunk_ids": [
+            28,
+            29,
+            37
+        ]
+    },
+    {
+        "entity_name": "舾装车间",
+        "type": [
+            "设施/场所",
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶舾装的车间，通常与大型船台和码头配套，用于安装船舶内部设备和结构。 | 用于船舶舾装工作的车间，通常与船台和码头配套使用。",
+        "chunk_ids": [
+            28,
+            29
+        ]
+    },
+    {
+        "entity_name": "码头",
+        "type": [
+            "设施/场所"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造和停泊的设施，通常与大型船台和舾装车间配套。",
+        "chunk_ids": [
+            28
+        ]
+    },
+    {
+        "entity_name": "泊位",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水或完工后系泊的水域设施。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "静水力试验",
+        "type": [
+            "检验测试"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于验证船舶在静水状态下的性能和结构完整性的试验。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "结构分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中被分解成的结构模块，用于提高建造效率。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "舾装模块",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中被分解成的舾装模块，用于提高建造效率。 | 预先计划并建造的机械单元、管道系统等，可以作为独立模块安装到分段中，如管道模块或辅机单元。",
+        "chunk_ids": [
+            29,
+            37
+        ]
+    },
+    {
+        "entity_name": "材料处理设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于处理船舶建造过程中所需材料的设备。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "部件和装配过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中涉及的部件安装和装配流程。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "舾装设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶舾装工作的设备。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "发动机安装设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于安装船舶发动机的设备。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "控制服务器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造过程中控制和管理的服务器设备。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "管理设施",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造过程中管理工作的设施。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "遮蔽式建造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在干燥、温和环境中进行的船舶建造方式，适用于大型船舶。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "生产设计信息",
+        "type": [
+            "设计信息"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于指导船厂布局和建造过程的设计信息。 | 用于将初始结构和布置设计转换为可用于生产的信息，涉及制造、装配和建造过程。",
+        "chunk_ids": [
+            29,
+            30
+        ]
+    },
+    {
+        "entity_name": "船厂布局",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂内部设施和流程的安排方式，根据产品流向进行优化。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船坞布置",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船坞在船厂中的布置方式，用于大型船舶的建造。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "泊位布置",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "泊位在船厂中的布置方式，用于船舶下水和完工后的系泊。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船厂布置",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂内部设施和流程的安排方式，根据产品流向进行优化。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船厂规划",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂设计和布局的规划过程，包括船舶尺寸、建造数量、模块分解等。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶尺寸",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的物理尺寸，影响船厂布局和建造方式。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶类型",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的分类，如油船、货船等，影响船厂布局和建造方式。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶从建造到完工所需的时间，影响船厂布局和设备选择。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造效率",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的效率指标，影响船厂布局和设备选择。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造成本",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的成本指标，影响船厂布局和设备选择。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中采用的技术，影响船厂布局和设备选择。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中采用的方法，影响船厂布局和设备选择。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的各个步骤，影响船厂布局和设备选择。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的设备，包括起重机、船坞等。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造设施",
+        "type": [
+            "设施设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的设施，包括船台、码头、舾装车间等。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船舶建造管理",
+        "type": [
+            "管理"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的管理活动，包括控制服务器、管理设施等。",
+        "chunk_ids": [
+            29
+        ]
+    },
+    {
+        "entity_name": "船体制图室",
+        "type": [
+            "设计部门"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责为新船设计详细的结构件、总布置图和舾装图，并控制材料预定部门，完善材料预定。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "型线图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "提供所需的舱容、排水量和推进参数的图纸，通常以1:100比例绘制，包括半宽水线图、纵剖线图和横剖线图。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "型值表",
+        "type": [
+            "设计数据"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "人工绘制型线图后制作的表格，列出每一站上的半宽值、甲板高度和舷弧等，用于全尺度或10:1比例放样。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据型值表和型线图进行的全尺度或10:1比例放样，用于确定船体结构的详细几何形状。 | 将比例缩小的型线图和型值表放大至全尺度，并进行光顺，形成船舶的三维模型，用于后续的结构生产。",
+        "chunk_ids": [
+            30,
+            31
+        ]
+    },
+    {
+        "entity_name": "外板展开图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用二维图代替三维模型中的船壳板布置，显示所有垂向尺寸取决于船舶围长，并用于识别船壳板在使用中的损坏。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "船壳板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的外板结构，其布置和板缝线位置在制图阶段需要确定，通常通过半块模型辅助设计。 | 构成船舶外板的结构件，通过放样间标记和切割成标准形状，用于形成船体框架。",
+        "chunk_ids": [
+            30,
+            31
+        ]
+    },
+    {
+        "entity_name": "半块模型",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船壳板比例模型的一半，用于辅助确定板缝线位置和船壳板形状，通常由木材或层压木板制成。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "肋骨线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的肋骨位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "板缝线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的板缝位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "接头",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的接头位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "甲板线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的甲板位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "纵桁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的纵桁位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "桁架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的桁架位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "隔板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的隔板位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "平行中体",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的平行中体位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "船首船尾槽口",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的船首和船尾槽口位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "外板上的开口",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的外板开口位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "轴包套",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半块模型上用白色漆绘制的线，用于标识船体结构的轴包套位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "船东",
+        "type": [
+            "相关方"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的拥有者，其附加要求和标准需反映在施工图纸中。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "总布置图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于设计船舶居住室、货舱舱容和装载，满足规范法规要求和船东要求。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "舾装图纸",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括管子安装图、风道和空气传导图、钻探设备布置图、家具图等。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "计算机辅助设计（CAD）",
+        "type": [
+            "技术工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂用于放样目的的计算机辅助设计技术。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "计算机辅助制造（CAM）",
+        "type": [
+            "技术工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在造船中广泛使用的计算机辅助制造技术。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "放样间",
+        "type": [
+            "工作区域",
+            "工艺设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂中用于全尺度比例船舶细节放样的区域，通常位于主要船体钢加车间上方。 | 船厂中用于进行船舶放样工作的区域，通常位于主要船体钢加车间上方，称为‘阁楼’，最初用于木制船舶的放样。",
+        "chunk_ids": [
+            30,
+            31
+        ]
+    },
+    {
+        "entity_name": "肋位",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于全尺度放样或10:1放样的位置，通常对应船体结构的肋骨位置。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "船体列板编号",
+        "type": [
+            "标识系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标识船体列板的编号系统，关系到制造单元的装配。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "船体列板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的板件，通常按顺序标记以便于订购和生产识别。",
+        "chunk_ids": [
+            30
+        ]
+    },
+    {
+        "entity_name": "样板",
+        "type": [
+            "材料部件",
+            "工具/模板"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由放样产生的全尺寸三维模型所形成的结构参考件，用于制作样条、斜面、弯曲肋板及板件模板。 | 用于控制切割机的全尺度模板，用于切割大量相同构件，如梁端肘板和加强筋肘板。",
+        "chunk_ids": [
+            31,
+            33
+        ]
+    },
+    {
+        "entity_name": "样条",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检验板的曲率，由放样产生的样板制作而成。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "肋骨框架",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的纵向支撑构件，用于保证船舶的强度和稳定性，通过样板保证其垂直于船舶中心线。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "10:1比例放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种比例放样方法，将型线以10:1比例光顺并制作样板，用于控制数控切割，提高效率。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "火焰切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割船舶外壳板的设备，配合10:1比例图纸进行数控切割。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "计算机辅助设计（CAD）/计算机辅助制造（CAM）",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船业中使用计算机进行设计和制造的技术，从19世纪60年代开始应用，用于型线光顺、静水力计算等。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "船舶产品模型",
+        "type": [
+            "设计模型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "大型船舶制造商基于合同设计和船级社要求构建的三维模型，用于生成生产信息，替代传统纸质图纸。 | 包含所有船体结构和舾装信息，提供所有管道和其他系统信息，尽可能接近整艘船的完整表示。",
+        "chunk_ids": [
+            31,
+            32
+        ]
+    },
+    {
+        "entity_name": "线框模型",
+        "type": [
+            "设计模型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由船舶产品模型生成的结构模型，用线定义所有结构单元，可自动生成剖面图。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "三维图纸",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于舾装设计的三维模型，可展示管道工程、风道/空气调节槽等结构，提高二维图纸的精确度。 | 在舾装图纸领域具有重要价值，能够使管道工程和风道/空气调节槽在三维模型中变得可见，并提高二维图纸中的尺度精确性。",
+        "chunk_ids": [
+            31,
+            32
+        ]
+    },
+    {
+        "entity_name": "肋板",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的横向支撑构件，用于加强船体强度，其弯曲信息由三维模型提供。 | 用于船体结构中，存取的信息可以为肋板提供弯曲信息。",
+        "chunk_ids": [
+            31,
+            32
+        ]
+    },
+    {
+        "entity_name": "纵向外板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的纵向外板，其定位和划板信息由三维模型提供。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "压滚线",
+        "type": [
+            "加工工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外板成型的加工线，由三维模型提供信息，用于划板和热弯。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "热弯曲线",
+        "type": [
+            "加工工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外板成型的曲线，由三维模型提供信息，用于划板和热弯。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "焊接长度和类型",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从图纸中提取的焊接信息，用于加工和传递到产品管理系统。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "钢材重量",
+        "type": [
+            "材料参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从图纸中提取的材料信息，用于加工和传递到产品管理系统。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "零部件列表",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从图纸中提取的结构件信息，用于加工和传递到产品管理系统。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "三维钢构件装配",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由三维图纸生成的结构装配，用于制图人员旋转和展示，便于加工。",
+        "chunk_ids": [
+            31
+        ]
+    },
+    {
+        "entity_name": "外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，存取的信息可以为外板的肋骨定位和划板的压滚线或热弯曲线提供信息。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "数控切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割零件，能够将零件嵌套排列，以最小的损耗实现板的最合理利用。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "切割序列",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割指令发出后，切割序列可能会重放，并检查错误。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "火焰切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板的指令，与后续的板架装配和焊接框架装配曲面船壳板相关。 | 用于切割板材和型材的工艺，通过火焰加热金属至燃点进行切割，常用于边缘加工。",
+        "chunk_ids": [
+            32,
+            33
+        ]
+    },
+    {
+        "entity_name": "胎架支柱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接框架装配曲面船壳板的胎架支柱，其高度可以确定。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "虚拟现实软件",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与船舶产品模型结合，用于船舶结构或舱室的可视化，开发作业顺序、通道需求和其他细节的仿真。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "板材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "用于船体结构加工，根据需要水平堆叠成堆，经过校平辊处理以确保平坦。 | 用于船舶制造的金属材料，经过喷丸处理、涂装和切割加工。 | 用于船舶建造的基本材料，经过切割、弯曲、倒角等机械加工后用于装配。",
+        "chunk_ids": [
+            32,
+            33,
+            36
+        ]
+    },
+    {
+        "entity_name": "型材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "用于船体结构加工，以方便的批次水平放置，通常按尺寸和类型进行。 | 用于船舶制造的金属材料，通常经过喷丸处理和涂装。 | 用于船舶建造的结构材料，与板材一起用于装配成二维或三维结构。",
+        "chunk_ids": [
+            32,
+            33,
+            36
+        ]
+    },
+    {
+        "entity_name": "储料场",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于暂时存放板材和型材，面积足够储存未来几个月加工所需的材料，不同国家的储存时间不同。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "钢板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体结构加工，根据需要水平堆叠成堆，经过校平辊处理以确保平坦。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "校平辊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于校直板材，处理板材内应力和运输变形，分为厚板材和薄板材两组。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "喷丸处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于去除板材和型材的铁锈和氧化皮，相关规则见27章。 | 用于去除板材和型材表面的铁锈和氧化皮的处理工艺，通过高速喷射磨料实现，通常在专用车间进行。",
+        "chunk_ids": [
+            32,
+            33
+        ]
+    },
+    {
+        "entity_name": "吊车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于物料运输，使用磁性夹具提升板材，吊索提升型材，起重能力可达30吨。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "传送系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将板材传送至制备车间，使其达到合适的切割条件。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "加热系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于水洗或气体加热板材，为后续油漆干燥做准备，同时去除碎屑、雪或冰。",
+        "chunk_ids": [
+            32
+        ]
+    },
+    {
+        "entity_name": "板材校平辊",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于校平板材的设备，板材在加工前通过该辊进行校直，以消除内应力导致的变形。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "叶轮式处理器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于喷丸处理的设备，通过高速喷射磨料到钢材表面，磨料可被回收再利用。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "真空喷涂涂装车间",
+        "type": [
+            "车间/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板材和型材喷丸处理后的初步涂装车间，采用自动喷射方法控制涂装厚度。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "底漆干燥过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过风扇形成空气流并预热，使喷丸处理后的板材底漆干燥，以便后续加工。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "电动吊车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输板材和型材的起重设备，起吊能力在5~30吨之间，安装在加工车间顶部。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "电力空中调运车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板材和型材在加工车间内运输的自动化设备，有时也称为‘配置单元’。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "等离子切割",
+        "type": [
+            "工艺流程",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材和型材的工艺，通过等离子弧高温切割金属，切割速度更快、效果更理想。 | 一种切割工艺，切割速度更快、效果更理想，其应用使机械刨床的应用逐渐遭到淘汰。 | 一种切割工艺，与氧炔焰并列使用，用于型材构件的精确切割。",
+        "chunk_ids": [
+            33,
+            34,
+            35
+        ]
+    },
+    {
+        "entity_name": "龙门刨床",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材成复杂形状构件的设备，通常用于修剪和边缘加工，可进行火焰切割或等离子切割。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "机械刨床",
+        "type": [
+            "设备",
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于边缘加工的机械设备，通过旋转剪切轮进行切割，具有较高的光洁度，适用于关键焊接。 | 用于板材边缘加工的机械装置，通过溜板上的旋转剪切轮在垂直边缘获得比火焰切割更高的切割速度，且具有优良的光洁度，对关键焊接有利。",
+        "chunk_ids": [
+            33,
+            34
+        ]
+    },
+    {
+        "entity_name": "CAD/CAM系统",
+        "type": [
+            "技术系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板材加工的计算机辅助设计与制造系统，实现高度自动化切割和成形。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "氧炔焰切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用氧炔焰高温切割金属的工艺，常用于板材和型材的切割。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "等离子弧型刨",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板材切割的设备，通过数字控制的等离子弧进行切割，可实现复杂形状的加工。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "板材成形切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将板材切割成复杂形状的设备，通过氧燃料气、等离子火焰或数字控制的等离子弧型刨实现。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "板材加工区域",
+        "type": [
+            "区域/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板材切割和加工的区域，配备切割装置、轨道和定位系统。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "仿形图",
+        "type": [
+            "工具/模板"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制切割机的电子扫描轮廓图，用于切割大量相同构件，效率较高。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "自动跟踪装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在使用样板进行切割时，自动跟踪轮廓的设备。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "电子扫描仪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于扫描仿形图轮廓的设备，用于控制切割机进行精确切割。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "液压夹具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定板材的液压装置，常用于机械刨床进行边缘加工。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材的装置，安装在龙门刨床或火焰切割机上，可进行边缘加工。 | 用于切割板材的装置，安装在龙门刨床或火焰切割机上。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "割嘴",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在切割装置上的喷嘴，用于喷射火焰或等离子弧进行切割。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "溜板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机械刨床上的移动部件，用于支撑和移动切割工具，实现边缘加工。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "喷墨印刷系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在板材上标记切割信息的系统，常用于切割机的辅助操作。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "粉末",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标记板材的材料，通过气体加热熔化到板上，作为切割标记。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "收缩率",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "板材切割后冷却时的尺寸变化率，通过CAD系统增加到标称尺寸以补偿收缩。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "CAD系统",
+        "type": [
+            "技术系统",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于生成板零件几何信息的计算机辅助设计系统，用于切割机的控制。 | 用于船舶设计和制造的计算机辅助设计系统，与机器人系统连接以实现三维图形模拟。",
+        "chunk_ids": [
+            33,
+            35
+        ]
+    },
+    {
+        "entity_name": "切割速度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割过程中材料被切割的速率，影响加工效率和质量。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材和型材的设备，可进行火焰切割、等离子切割或机械刨削。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "底漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于涂装的初步涂层，通常在喷丸处理后进行喷涂。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "磨料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于喷丸处理的材料，通过高速喷射去除钢材表面的锈迹和氧化皮。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "碎屑",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "喷丸处理过程中产生的磨料碎片，可被回收再利用。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "废磨料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "喷丸处理过程中产生的废弃磨料，需进行处置。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "轨道",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑切割装置移动的轨道系统，常见于龙门刨床和火焰切割机。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割端部",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割机用于处理板材端部的装置，通常由多个切割装置组成。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割开始",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割机开始切割的位置信息，由CAD系统提供。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割结束",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割机结束切割的位置信息，由CAD系统提供。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割标记",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标识切割起点和终点的标记，通常通过喷墨印刷系统完成。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割信息",
+        "type": [
+            "数据"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由CAD系统生成的切割参数，包括形状、开始、结束、速度等。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割点",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在大型板材上选择的切割位置，由操作员确定。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割轮廓",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制切割机的轮廓信息，通过电子扫描仪获取。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割精度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割过程中对形状和尺寸的精确控制，影响最终产品质量。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割效率",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割过程中单位时间内完成的加工量，影响生产进度。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割质量",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割后板材表面的平整度和光洁度，影响焊接和后续加工。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材和型材的工艺，包括火焰切割、等离子切割和机械刨削。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材和型材的设备，包括火焰切割机、等离子切割机和机械刨床。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割工具",
+        "type": [
+            "工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材和型材的工具，包括割嘴、剪切轮等。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割参数",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "切割过程中控制切割质量和效率的参数，包括速度、温度、压力等。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制切割过程的系统，包括CAD/CAM系统、切割机和辅助设备。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "切割流程",
+        "type": [
+            "流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从板材准备到切割完成的整个加工流程，包括喷丸处理、涂装、切割和边缘加工。",
+        "chunk_ids": [
+            33
+        ]
+    },
+    {
+        "entity_name": "钻床",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在板和型材上钻孔的设备，通常由一个安装在横穿钻床的旋臂上的单个钻头组成。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "剪床",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于剪断较小的“一次成型”板的形状，如梁肘板、各种肘板和扁钢长度，通常由液压剪切机完成。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "压力机",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于板的弯曲、拉直、折边、凹型和锻造的冷加工设备，适用于船厂广泛的应用。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "直板机",
+        "type": [
+            "工艺设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外板或其他板的重型弯曲，通过液压机和滚柱实现板的弯曲，可操作厚度达45mm的钢板。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "水火弯板",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于获得一定曲率的船体钢板的加工过程，通过火焰加热器加热板架表面并冷却，产生可控的变形以获得所需形状。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "肋骨弯曲",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于肋骨的弯曲加工，传统方法通过加热肋骨截面并利用控制板条和夹具进行弯曲，现代方法使用冷弯机器。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "肋骨冷弯",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用商用冷弯机器进行肋骨的冷弯加工，通过反曲线或数控方式实现精确的肋骨型线。",
+        "chunk_ids": [
+            34
+        ]
+    },
+    {
+        "entity_name": "型材构件成型机",
+        "type": [
+            "工艺设备",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于型材构件成型的设备，具体功能未详细说明，但与船体构件加工相关。 | 用于将板材加工成精确的船体结构支持加强构件的设备，能够进行精确切割、做齿形孔、开坡口等操作。",
+        "chunk_ids": [
+            34,
+            35
+        ]
+    },
+    {
+        "entity_name": "氧炔焰",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割工作的热源设备，与等离子切割并列使用。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割、焊接、喷涂、标记等作业的自动化设备，具有自适应控制、离线程序和仿真程序包等先进功能。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "切割",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型材构件成型前的重要工序，用于将板材加工成所需形状，通常使用氧炔焰或等离子切割完成。 | 对板材和型材进行机械加工的工艺，用于船舶建造的装配过程。",
+        "chunk_ids": [
+            35,
+            36
+        ]
+    },
+    {
+        "entity_name": "标记",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在型材构件加工前进行的工序，用于零件编码和绘制构件弯曲时所需的反向曲线。 | 在板材和型材上进行标识的工艺，用于装配过程中的定位和焊接。",
+        "chunk_ids": [
+            35,
+            36
+        ]
+    },
+    {
+        "entity_name": "预制单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船厂外预先制造的船舶结构独立分段，用于后续在船台或船坞上的组装。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "焊接技术",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造中广泛应用的连接工艺，使单元形状简化、公差要求降低，并提高了建造效率。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "单元",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的独立分段，通常在厂房内预先制造，用于后续在船台或船坞上的组装。 | 在船舶建造过程中，单元是用于建造的结构单元，可以在厂房下建造，便于翻转实施平焊，提高焊接质量和效率。 | 组成分段的基本单元，如双层底单元，通常在装配期间进行舾装，如管道安装。 | 在船舶制造中指被拍摄和测量的分段或组件，用于对齐和组装。",
+        "chunk_ids": [
+            35,
+            36,
+            37,
+            38
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的独立部分，通常在船厂内预先制造，用于后续在船台或船坞上的组装。 | 由多个单元组合而成的较大结构，用于船舶建造，通常包括底部或舷侧分段，重量可达200吨。 | 由多个单元组合而成的大型船体结构部分，如双底分段或舷侧分段，通常在运输到造船坞之前进行大量舾装。",
+        "chunk_ids": [
+            35,
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "焊接结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过焊接连接的船舶结构，因焊接技术的引入而成为现代船舶建造的主流形式。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "单元装配",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船厂内预先制造的船舶结构分段的组装过程，通常在船台或船坞上进行。 | 将二维子装配建造成三维分段装配的过程，是船舶建造中的关键步骤，涉及板材的布置、定位焊和焊接。",
+        "chunk_ids": [
+            35,
+            36
+        ]
+    },
+    {
+        "entity_name": "绿色材料",
+        "type": [
+            "部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单元边缘预留的约20mm材料，用于在船台或船坞上进行切割和修整。 | 在船舶尾部等区域可能被保留的未完全加工材料，用于后续装配。 | 在船舶尾部装配过程中通常被保留的材料，可能指未加工或未使用的材料。",
+        "chunk_ids": [
+            35,
+            37,
+            38
+        ]
+    },
+    {
+        "entity_name": "平焊",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，通常在单元翻转后实施，以提高焊接质量和效率。 | 焊接时焊缝处于水平位置的工艺，有利于提高焊接质量和效率，常用于单元和分段的建造。",
+        "chunk_ids": [
+            35,
+            36
+        ]
+    },
+    {
+        "entity_name": "垂直焊",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，通常在单元未翻转时实施，焊接难度较大。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "仰焊",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，通常在单元未翻转时实施，焊接难度较大。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "生产计划技术",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于规划单元组中材料和劳动力的使用，并控制整个造船序列以适应船台或船坞的允许时间。 | 用于规划材料和劳动力的工艺，以控制整个造船序列。",
+        "chunk_ids": [
+            35,
+            36
+        ]
+    },
+    {
+        "entity_name": "可视系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制机器人动作的先进系统，能够减少试运行程序次数并避免使用CAD模型。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "门式起重设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体板、子分段和分段装配的生产设备，广泛应用于专业船厂。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "便携式机器人设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体板、子分段和分段装配的生产设备，广泛应用于专业船厂。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "滑道",
+        "type": [
+            "设备",
+            "设施",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的传统场地，历史上用于一块一块地建造船舶。 | 用于船舶下水的支撑结构，通常由硬质材料和桩基构成。 | 用于支撑船舶下水的结构，通常为直的或具有艏艉向拱形，滑道斜坡一般在1:25到1:16之间，滑道宽度需满足船舶重量不超过20t/m²的压力。",
+        "chunk_ids": [
+            35,
+            38,
+            39
+        ]
+    },
+    {
+        "entity_name": "铆接结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统船舶建造中使用的连接方式，因焊接技术的引入而逐渐被取代。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "单元建造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船厂外预先制造船舶结构独立分段的工艺，用于后续在船台或船坞上的组装。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "单元边缘",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单元预留的材料部分，通常用于在船台或船坞上进行切割和修整。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "切割作业",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于型材构件成型前的加工工序，通常使用氧炔焰或等离子切割完成。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "焊接作业",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于型材构件边缘与板材连接的工艺，常用于船体结构的密性连接。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "局部喷丸",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船厂中的一种表面处理工艺，与火焰和等离子切割、喷涂等并列应用。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "喷涂",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船厂中的一种表面处理工艺，与火焰和等离子切割、局部喷丸等并列应用。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "标记作业",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于型材构件加工前的工序，用于零件编码和绘制构件弯曲时所需的反向曲线。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "自适应控制",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统的一种控制特性，允许其自动调整工作路径或功能。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "离线程序",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统开发和测试的程序，允许在不运行机器人的情况下进行程序开发。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "仿真程序包",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统开发和测试的程序，允许在不运行机器人的情况下进行程序开发。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "全自动运行",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统的一种运行模式，用于特殊部位的局部焊接、清洁及涂装作业。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "手动运行",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统的一种运行模式，允许操作员手动控制机器人。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "半自动运行",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统的一种运行模式，允许操作员在一定程度上控制机器人。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "垂直爬升",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统的一种运行模式，允许机器人在垂直方向上移动。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "试运行程序",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统开发和测试的程序，允许在不运行机器人的情况下进行程序开发。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "CAD模型",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶设计和制造的计算机辅助设计模型，与机器人系统连接以实现三维图形模拟。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "三维图形",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于模拟机器人系统在真实工作中的运行结果的图形表示。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船厂中切割、焊接、喷涂、标记等作业的自动化系统，包含大型构架结构式或小型便携式设备。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "传感器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于提供机器人系统合适控制的设备，通常安装在可移动的起重机器人上。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "造船厂",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造和维修的场所，包含各种生产设备和工艺流程。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "船体单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的独立分段，通常在厂房内预先制造，用于后续在船台或船坞上的组装。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "船体装配",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的组装过程，通常在船台或船坞上进行。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "船体建造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的制造过程，通常包括预制单元的制造和组装。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "船体分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的独立部分，通常在船厂内预先制造，用于后续在船台或船坞上的组装。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "船体材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶结构制造的材料，通常包括高强度钢和耐腐蚀涂层。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "高强度钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶结构制造的高强度钢材，具有良好的机械性能和耐腐蚀性。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "耐腐蚀涂层",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶结构表面的防腐蚀涂层，提高船舶的耐久性和使用寿命。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "密性试验",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检验船舶结构密性的试验，通常在焊接完成后进行。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的一种集成工艺，将船体结构、舾装和涂装同步进行。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "分段建造法",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的一种方法，将船体结构分为多个分段进行制造。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "单面焊双面成形",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，仅从钢板单侧施焊，即可在背面形成均匀成形的焊缝，常用于船体密性结构。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "液压千斤顶",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造中提升和调整单元位置的设备。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "数控等离子切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于型材构件精确切割的设备，通常与机器人系统配合使用。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "除尘系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割作业中去除粉尘的系统，通常与机器人系统配合使用。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "可视化封闭工作站",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割作业的封闭工作环境，配备除尘系统和机器人设备。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "紧凑型机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割作业的机器人设备，具有紧凑的结构和高效的作业能力。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人程序",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统运行的程序，通常包括离线程序和仿真程序包。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人控制",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统运行的控制方式，包括自适应控制和远程控制。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人路径",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统运行时的路径规划，通常由控制程序自动调整。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人功能",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统运行时的功能设置，通常由控制程序自动调整。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人程序开发",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统运行的程序开发，通常包括离线程序和仿真程序包。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人测试",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于机器人系统运行的测试过程，通常包括离线程序和仿真程序包。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人应用",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统在船厂中的应用，包括切割、焊接、喷涂、标记等作业。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "机器人发展",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机器人系统在船厂中的发展，包括控制特性改进、离线程序和仿真程序包的使用。",
+        "chunk_ids": [
+            35
+        ]
+    },
+    {
+        "entity_name": "子装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "板材和型材机械加工后用于装配成二维船舶单元的过程，包括平面板架、曲外板单元、矩阵或蛋盒形结构等。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将许多钢质零件或较大结构组合成更大结构的工艺，对于大型船舶包括多个阶段，从小型装配到分段装配。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "单面焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，仅从钢板单侧施焊，即可在背面形成均匀成形的焊缝，常用于船体密性结构。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "加强筋",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于增强板材结构强度的构件，在板材标记和焊接过程中被加装。 | 用于增强船体结构强度的构件，可能在跨过横缝和纵缝时留待最后焊接。",
+        "chunk_ids": [
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "夹具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定和定位双曲壳体或其他结构的工具，在装配过程中用于焊接和排列各种加强构件。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体总组过程中安装设备、管道、通风系统等的工艺，通常在分段装配阶段进行。 | 在分段或单元装配过程中进行的设备、管道、电气等系统的安装工作，可以在单元或分段内进行。",
+        "chunk_ids": [
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "管道系统",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在总组船体中的独立项目，作为独立模块安装在分段上或直接吊装到船上。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "机械装置",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在总组船体中的独立项目，与管道系统类似，作为独立模块安装在分段上或直接吊装到船上。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双层底单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组成的结构，通常包含管道等舾装内容，在单元最方便的方向和通道良好时安装。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "舷侧分段",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组合而成的舷侧结构，用于船舶建造，通常包括双壳船体的一部分。 | 由多个单元组合而成的船体分段，通常包括舷侧外板和肋骨等结构。",
+        "chunk_ids": [
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "双壳船体",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一种形式，由两个壳体组成，通常用于大型船舶，如油轮。 | 船舶结构中的一种形式，由两个平行的船体壳板组成，用于提高结构强度和安全性。",
+        "chunk_ids": [
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "机器处所",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中安装主要机械设备的区域，通常在分段装配阶段进行大量舾装。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "泵房",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中用于安装泵等设备的区域，通常在分段装配阶段进行大量舾装。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "自动化焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在二维板材装配过程中使用的自动化控制焊接技术，用于提高焊接效率和质量。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "定位焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在自动对接焊接之前用于固定板材位置的焊接工艺。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "封底焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在板材被反转后进行的焊接工艺，用于完成焊缝的背面成形。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "弯曲",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对板材和型材进行机械加工的工艺，用于船舶建造的装配过程。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "倒角",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对板材和型材进行机械加工的工艺，用于船舶建造的装配过程。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "焊接自动化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在二维板材装配过程中使用的自动化控制焊接技术，用于提高焊接效率和质量。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "矩阵结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶装配的结构形式，通常与蛋盒形结构一起使用。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "蛋盒形结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶装配的结构形式，通常与矩阵结构一起使用。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "托架板层",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于形成双层底单元的结构，通常包含纵向旁桁材。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "纵向旁桁材",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑托架板层的纵向构件，通常用于双层底单元的结构。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双曲壳体",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶结构的曲面部分，通常放置在夹具中进行焊接。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "造船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的场地，分段装配完成后通常在此进行总组。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "舾装码头",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶舾装和安装设备的场地，通常在船台上和下水后进行。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "劳动力",
+        "type": [
+            "资源"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造过程中提供人力支持的资源，通常在制造和舾装工作站进行工作。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "工作站",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶制造和舾装的作业场所，提供设施和材料给劳动力进行工作。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "材料和劳动力",
+        "type": [
+            "资源"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在单元组中规划的资源，用于控制整个造船序列。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "生产序列",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制整个造船过程的序列，使其适应船台或造船坞的允许时间。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "区域安装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于舾装规划的工艺，将船舶划分为可分解成分段或较小组件的主隔间区域。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "预舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配前进行的舾装工作，通常占总舾装量的85%~90%。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "总组",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段和单元组合成完整船体的工艺，通常在船台或造船坞进行。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "总组船体",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由分段和单元组合而成的完整船体结构，通常包含管道系统、机械装置等。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "巴拿马型散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种常见的散货船类型，用于说明船舶装配阶段的划分，大约10000吨钢，长约250米。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "载重吨",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于衡量船舶载重能力的单位，文中提到20万载重吨的油轮。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "吊装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段或单元吊装到船台或造船坞的工艺，通常涉及起重设备。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "起重能力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于决定分段尺寸和划分的参数，影响船舶建造的可行性。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "尺寸限制",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段划分和加工过程中需要考虑的参数，影响分段的长度和重量。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "自持",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在运输和安装过程中需要具备的特性，确保其在船台上能够稳定放置。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "运输",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将分段从装配车间运输到船台或造船坞的工艺，通常涉及吊装和搬运。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "舾装规划",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在区域安装基础上进行的舾装工作规划，以提高舾装效率。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "舾装瓶颈",
+        "type": [
+            "问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "随着船舶尺寸增加，舾装成为建造过程中的瓶颈，影响整体建造速度。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "建造速度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中需要优化的参数，通过加快舾装速度提高整体建造效率。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "收入",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过加快建造速度带来的经济效益，提高船舶建造项目的盈利能力。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "自动化控制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在二维板材装配过程中使用的自动化控制技术，用于提高焊接效率和质量。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "半自动化焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在二维板材装配过程中使用的半自动化焊接技术，用于提高焊接效率和质量。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "焊接面板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接的板材，通常在子装配阶段被粘贴上。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "加强构件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于增强结构强度的构件，在装配过程中被排列和焊接。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "机械区域",
+        "type": [
+            "区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配过程中需要考虑的区域，通常涉及区段舾装和结构布置。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "区段舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配过程中进行的舾装工作，通常涉及机械区域的结构布置。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "装配夹具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于矩阵或蛋盒形结构装配的夹具，用于固定和定位结构。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的结构，通常由多个单元组成，包含管道等舾装内容。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "舷侧",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶侧面的结构，通常由多个单元组成，形成舷侧分段。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双壳",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双壳船体的组成部分，用于增强船舶结构强度。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双底分段",
+        "type": [
+            "部件",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组合而成的底部结构，通常包含管道等舾装内容。 | 由多个单元组合而成的船体分段，通常包括双层底结构。",
+        "chunk_ids": [
+            36,
+            37
+        ]
+    },
+    {
+        "entity_name": "双层底分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组合而成的双层底结构，通常包含管道等舾装内容。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双壳分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组合而成的双壳结构，通常用于大型船舶。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双壳结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一种形式，由两个壳体组成，通常用于大型船舶，如油轮。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双壳结构分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组合而成的双壳结构分段，通常用于大型船舶。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双壳结构单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于双壳结构的单元，通常由多个板材和型材组成。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "双壳结构分段单元",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多个单元组合而成的双壳结构分段，通常用于大型船舶。",
+        "chunk_ids": [
+            36
+        ]
+    },
+    {
+        "entity_name": "托盘化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种生产工艺概念，用于在CAD/CAM阶段生成、采购和制造零部件，以便在装配时快速安装。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "上层建筑分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单独建造的船舶上层建筑部分，在组装前进行预舾装，作为完整单元安装。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "住舱单元模块",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包含管道工程、通风设备、电气装配、家具等的自持式模块，作为现代船舶的常见特征。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "单元总组",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段或板装配完成后进行的总组操作，用于确保结构平整和焊接顺序合理。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "胎架",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于曲面船体分段的精确支撑结构，帮助设计焊接顺序和校准尺寸。 | 用于曲面船体分段的精确支撑结构，提高装配精度。",
+        "chunk_ids": [
+            37,
+            38
+        ]
+    },
+    {
+        "entity_name": "激光校准工具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于设定基准点和检查接口的高精度校准设备，提高装配精度。",
+        "chunk_ids": [
+            37,
+            38
+        ]
+    },
+    {
+        "entity_name": "建造码头",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶分段建造和转运的场地，通常与船台或车间相连。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "转载间",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储存分段的区域，以便在船台或船坞上减少时间。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "纵骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向支撑构件，可能在跨过横缝和纵缝时留待最后焊接。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "横缝",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中横向连接的接缝，可能在焊接顺序中留待最后处理。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "纵缝",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中纵向连接的接缝，可能在焊接顺序中留待最后处理。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "尾轴",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶推进系统中的关键部件，其安装通常在船舶后半部分完全装配平整和焊接后进行。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "尾部钻孔",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部的结构开口，用于安装尾轴等部件，通常在后半部分装配完成后进行。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输散装货物的船舶，其分段在图14.8中显示。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "双层壳体油轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有双层船体结构的油轮，用于运输石油等液体货物。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "直角方钢",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑模块的结构材料，安装时起支柱作用。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "平底板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的水平部分，用于支撑模块和结构。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "主机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶推进系统的核心设备，周围组装大型模块，与传统机舱无法区分。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "分包商",
+        "type": [
+            "组织"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "提供模块化设备的外部承包商，通常由船厂鼓励以模块形式提供设备。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "CAD/CAM",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助设计与制造技术，用于生成和制造零部件，支持托盘化概念。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "质量保证",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "制造工厂中用于确保正确尺寸和校核的流程，避免在船台上浪费时间。",
+        "chunk_ids": [
+            37
+        ]
+    },
+    {
+        "entity_name": "误差",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶装配过程中需要关注的问题，特别是在船舶尾部区域，其影响更为显著。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "三维",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "相对于二维技术，在船舶装配中更强调空间精度，特别是在复杂结构区域。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "质量保证进程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "制造工厂中用于确保正确尺寸的流程，校核是其中必要的步骤。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "校核",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶制造中用于确保尺寸准确性的关键步骤，避免在船台上浪费时间和资源。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "低热度输入焊接设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少焊接热影响区的设备，提高焊接质量和结构稳定性。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "尺寸校核",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶制造中用于确保各部分尺寸符合设计要求的关键步骤。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "数字摄影测量技术",
+        "type": [
+            "技术方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过拍摄照片并转换为三维视图，用于单元对齐和组装，提高精度。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "公差数据库",
+        "type": [
+            "数据资源"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过经验建立的数据库，用于在建造标准船舶时确保精度。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "大型船舶建造公司",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "建造大型液货船、大型化学品运输船以及散货船等船舶的公司。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "超大型分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有船舶整个宽度的大型分段，用于减少船台上连接结构数量。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "起重",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将超大型分段运送至船台或船坞并吊装到对应位置的工艺。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "连接的结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台上直接定位多个部件时产生的连接结构，通过分段建造减少数量。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船体部分",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶被分成两部分建造的结构单元，用于在漂浮状态下连接。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "压载",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体两部分连接前用于调整平衡和防止弯曲的工艺。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "浮箱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体两部分漂浮状态下连接的支撑结构，可抽水以进行焊接。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "U型橡胶圈",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "替代浮箱的弹性装置，可根据不同船舶尺寸进行调整。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "干船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造和漂浮状态下排列的水工建筑物，可进行水线以上部分焊接。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "水线以上部分",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在干船坞中进行焊接的船体部分，位于水面以上。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "强支撑",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船体接缝处的结构，确保焊接安全进行。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船舶从建造场地转移到水面的过程，涉及多种方法和设备。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "艉向下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统的船舶下水方法，通过船尾先入水实现转移，是复杂的方法。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "入水支架",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶在下水过程中的结构，帮助船舶平稳入水。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道端部",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道末端的结构，需加强以防止在下水过程中损坏。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船壳底部",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中可能受到压力的结构部分，需加强以防止损坏。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "中心墩",
+        "type": [
+            "设施",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "支撑船舶大部分重量的结构，沿龙骨布置，高度适中。 | 用于支撑船舶的临时结构，沿着龙骨布置，高度在1.25m到1.5m之间，提供合理的通道，同时避免因过高而需要过多填充物。",
+        "chunk_ids": [
+            38,
+            39
+        ]
+    },
+    {
+        "entity_name": "龙骨",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的主结构，用于支撑船体重量，是下水过程中的关键支撑点。 | 船体结构中的主要纵向构件，用于支撑船体重量并保持船舶稳定性。龙骨的高度需要足够以确保船舶在入水提升过程中旋转不撞击地面，并达到所需的下降高度。",
+        "chunk_ids": [
+            38,
+            39
+        ]
+    },
+    {
+        "entity_name": "前支架",
+        "type": [
+            "设备",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分散船舶下水过程中载荷的支撑结构，防止滑道表面损坏。 | 位于船舶首部的支撑结构，通常由纵向木材结构建造，用于承受船舶尾部升起时的最大载荷，可能达到船舶重量的20%~25%。",
+        "chunk_ids": [
+            38,
+            39
+        ]
+    },
+    {
+        "entity_name": "滑道斜面",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道的倾斜面，用于适应不同船厂的建造需求，通常与水平面成1:20比例。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船首龙骨",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船首部分的龙骨结构，用于支撑船舶前足在旋转过程中的下降高度。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道建造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统滑道或泊位的建造过程，通过桩基加强以支撑船舶重量。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船舶重心",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中影响稳定性的重要参数，需控制其滑出滑道的位置。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "浮力",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中支撑船体的重要物理特性，需与重力和刹车阻力平衡。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "刹车阻力",
+        "type": [
+            "物理特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中影响运动的阻力，需与浮力和重力平衡。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "螺旋桨",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶推进系统的重要部件，下水过程中可能因操作不当而损坏。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "方向舵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "控制船舶方向的重要部件，下水过程中可能因操作不当而损坏。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道入水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船尾先入水的工艺，是传统且复杂的方法。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船尾入水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船尾先入水的工艺，是传统且复杂的方法。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船首入水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中船首先入水的工艺，较少采用。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道端部水深",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道端部的水深，用于防止船舶在下水过程中发生倾斜。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道延伸",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在滑道端部水深不足时，可能需要延伸滑道以确保船舶下水安全。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道表面",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道的表面，需防止在下水过程中因载荷集中而损坏。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "润滑油",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道表面的润滑材料，用于减少摩擦和载荷集中。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "计算机程序",
+        "type": [
+            "工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶下水过程的性能和载荷评估的软件工具。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船舶下水过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶从建造场地转移到水面的整个过程，涉及多种方法和设备。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船舶重量",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下水过程中从支撑系统转移到支架上的关键参数。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "龙骨限制",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中支撑重量的结构，下水时需释放以转移重量。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "支柱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶重量的结构，下水时需释放以转移重量。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "支架",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶重量的结构，下水时需承载船舶重量。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "船舶前足",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶前部的支撑结构，用于在旋转过程中保持稳定。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "下降高度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶前足在旋转过程中需要达到的下降高度，以确保安全。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "滑道高度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道中心墩的高度，需合理设计以确保船舶下水安全。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "填充物",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于填充滑道中心墩的材料，过多会增加成本。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "倾斜角度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑道的倾斜角度，通常为1:20或更大，以适应不同船厂需求。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "江边",
+        "type": [
+            "地理"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶下水时可能位于江边的船厂，需采用斜向入水方式。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "狭长通道",
+        "type": [
+            "地理"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶下水时可能位于狭长通道的船厂，需采用斜向入水方式。",
+        "chunk_ids": [
+            38
+        ]
+    },
+    {
+        "entity_name": "楔子",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶并允许中心墩、舷墩和支撑移除的工具，常见于船舶下水过程中。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "沙箱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "夹在两个墩木块之间的可拆卸结构，内部装有约80mm到100mm的钢制框架，钢制框架可移除，内部沙子可溢出。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "木质块",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "可斜对角锯开的木质结构，锯开后两部分被冲掉，移除螺栓后坍塌。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "滑道护木",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在滑道边缘或内部的结构，用于保护滑道导轨并有助于保留润滑油脂。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "滑动导轨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖80%船长的结构，从下水架低位置到高位置，包括衬垫、楔形块和船舶框架下的反向木材，用于支撑船舶滑动。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "肘板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "临时固定在船舶前部底部或支架前端的结构，用于防止船舶首部穿过支架破裂。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "滑动座板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船舶首部底部的滑动结构，与衬垫配合使用，将载荷传递至前支架和滑道。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "润滑剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少船舶滑动摩擦的材料，包括动物油脂、矿物脂和石油基油脂，摩擦系数需足够小以确保船舶顺利下水。",
+        "chunk_ids": [
+            39
+        ]
+    },
+    {
+        "entity_name": "止滑木",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在导轨和固定滑道之间的对角结构，用于释放船舶滑动。",
+        "chunk_ids": [
+            39
+        ]
+    }
+]

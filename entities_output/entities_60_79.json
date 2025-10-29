@@ -1,0 +1,7253 @@
+[
+    {
+        "entity_name": "舱口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于露天甲板，可通过舱口进入储油舱，开口应尽量小，拐角尽量为圆角，有时采用圆形开口。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "舱口栏板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "采用钢材，高度为 $600mathrm{mm}$ 以上，采用钢板粘贴或其他材料覆盖表面。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "油密性舱口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储油舱的开口，采用钢材和纤维塑料表面，以确保油密性。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "隔离舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与甲板舱口类似，有时还会构建水密人孔，用一定厚度的材料覆盖。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "压载水舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "入口与甲板舱口类似，有时还会构建水密人孔，用一定厚度的材料覆盖。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "水密试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将舱室充满水，载货舱液面高度距顶端 $2.45mathrm{m}$ （不计舱口高度），隔离舱液面高度置于舱口，用于测试舱室的水密性。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "浸没试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "每个舱室的一半容积充满水，此时空舱室的底部和舷侧外板下部也可测试出来。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "密性试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一般在防护涂层之后进行，用于测试舱室的密性，通常结合结构水密试验和空气渗漏试验实施。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "空气渗漏试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台上进行，使舱室置于一定气体压力中，其要求与双层底油船测试类似。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "水压试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由验船师选出，一般为一个中央舱室和两个舷侧舱室进行。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "软管试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于未构成舱室界限的舱壁，通过软管进行测试。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "深舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "储油舱室的前方布置的舱室，肋位布置可能是纵向的或横向的，也可能是纵向和横向结合的。 | 客轮中单独设置的舱室，用于管理舱底水横向流动，从而限制船舶横倾。",
+        "chunk_ids": [
+            60,
+            70
+        ]
+    },
+    {
+        "entity_name": "横骨架式",
+        "type": [
+            "工艺流程",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "深舱采用横骨架式时，每一个肋位与中梁或中舱壁的交点处都要布置肋板，旁纵桁的间距不能超过横骨架肋位的3倍。 | 艉部结构采用横骨架式，要安装由舷侧纵桁支撑的肋骨框架，肋骨框架在最下层甲板以下距离不超过5个肋位。 | 用于液化气船的货物部分结构设计，与其他货船一样主要取决于尺寸。",
+        "chunk_ids": [
+            60,
+            63
+        ]
+    },
+    {
+        "entity_name": "纵骨架式",
+        "type": [
+            "工艺流程",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "深舱采用纵骨架式时，受5个肋位以外的强肋骨支撑。 | 首尖舱采用纵骨架式时，强肋骨的最大肋位间距应为 $2.5sim 3.5mathrm{m}$，具体尺寸受船长决定。 | 用于液化气船的货物部分结构设计，与其他货船一样主要取决于尺寸。",
+        "chunk_ids": [
+            60,
+            63
+        ]
+    },
+    {
+        "entity_name": "强肋骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于纵骨架式深舱的支撑结构，当深舱深度超过 $16mathrm{m}$ 时，强肋骨和横骨架式深舱的腹肋板要安装深纵桁、横木或有深梁多孔板。 | 用于纵骨架式首尖舱，与甲板下平行于强肋骨的横向梁连接。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "肋板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于横骨架式深舱的结构，每个肋位与中梁或中舱壁的交点处都要布置肋板。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "纵桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑横骨架，纵桁间距不超过 $5mathrm{m}$，纵桁由腹板骨架支撑时，腹板骨架与深梁相连组成垂向环骨架。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "腹板骨架",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑纵桁，与深梁相连组成垂向环骨架，或与位于横向舱壁的纵向加强肋相连组成水平环骨架。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "多孔平台",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在狭窄舱室内以 $5mathrm{m}$ 间距安装，用于支撑结构。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "首尖舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横骨架式的首尖舱与传统载货船的首尖舱的建造方式相同，都含有止荡结构。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "抗冰加强",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为解决冬天冰冻的波罗的海的贸易问题，新型油船在前方布置抗冰加强结构。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "艉端结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机械装置布置在远洋油轮的艉部，机舱采用横骨架式的双层底结构，每个肋位都有肋板、附加旁纵桁。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "肋骨框架",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于横骨架式艉部结构，肋骨框架有时会延伸至艉楼；当采用全上层建筑艉部布置方式时，肋骨框架可延伸至上层建筑。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "艉尖舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "艉端结构的一部分，要有一个中线舱壁，抗冰结构的要求与其他船舶相同。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船下部干舷的一个特殊特点，有一个位于起居舱室中间的舷梯，要求在甲板水平位置有围栏或其他保护布置。",
+        "chunk_ids": [
+            60
+        ]
+    },
+    {
+        "entity_name": "干舷",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船下部干舷的一个特殊特点，要求腊甲板占前方船长的 $7%$。 | 船舶甲板与水面之间的垂直距离，国际散化准则对化学品船的干舷有具体要求。",
+        "chunk_ids": [
+            60,
+            61
+        ]
+    },
+    {
+        "entity_name": "舷梯",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于起居舱室中间，要求在甲板水平位置有围栏或其他保护布置。 | 位于起居舱室中间的舷梯，用于船舶上下甲板，但要求在甲板水平位置有围栏或其他保护布置。",
+        "chunk_ids": [
+            60,
+            61
+        ]
+    },
+    {
+        "entity_name": "浮式生产储油船",
+        "type": [
+            "材料部件",
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种特殊类型的油船，用于海上油气生产，通常配备复杂的上层建筑和储油设施。 | 将生产、储存和卸载功能结合的海洋石油设施，其基本船体结构与传统油船相似，但布置方式和结构具有特殊性。",
+        "chunk_ids": [
+            60,
+            61
+        ]
+    },
+    {
+        "entity_name": "围栏",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护甲板水平位置的结构，通常布置于甲板阱的长度的1/2以上，以防止风浪冲击。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "甲板阱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板上的凹陷区域，是风浪冲击的主要对象，规范要求围栏布置于其长度的1/2以上。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "浮式储油装置",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储存原油的海洋设施，通过穿梭油轮运送至海岸，通过艉部弹性软管装载。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "转塔系泊系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于FPSO停泊的系统，减小水动力作用于船体梁的载荷，但导致疲劳问题更严重。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "FPSO",
+        "type": [
+            "船舶类型",
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将浮式生产平台（FPU）和浮式储油装置（FSU）功能结合为一个模块的船舶。 | 浮式生产储油装置，允许在2003年前未入坞的FPSO中使用有机锡化合物。",
+        "chunk_ids": [
+            61,
+            75
+        ]
+    },
+    {
+        "entity_name": "FSU",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "浮式储油装置，用于储存原油，通过穿梭油轮运送至海岸。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "国际散化规则",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对化学品船设计、建造、材料、干舷、稳性、总体布置等提出要求的国际规范。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "IBC Code",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际散化规则（IBC Code）用于规范1986年7月1日后建造或转型的化学品船。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "BCH Code",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "散化规则（BCH Code）用于规范1986年7月1日后建造或转型的化学品船。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "国际散装运输危险化学品适装证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "符合国际散化规则（IBC Code）或散化规则（BCH Code）的化学品船所获得的证书。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "化学品船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输危险、有毒液体化学物质或汽油等易燃产品的船舶，其结构框架与石油运输船类似。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "液化石油气船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输液化石油气（LPG）的船舶，其运输方式包括环境温度下的压力、完全冷藏或低温高压半冷藏。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "液化天然气船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输液化天然气（LNG）的船舶，其运输方式包括完全冷藏或低温高压半冷藏。 | 运送液化天然气船舶有超过20多种的围护容器。其中大部分属于薄膜液舱或独立式液舱2种。液化天然气船在适用于货物液舱和次级屏蔽系统内有一个特点即为双壳结构。",
+        "chunk_ids": [
+            61,
+            63
+        ]
+    },
+    {
+        "entity_name": "液化石油气",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "主要成分为丙烷或丁烷的石油烃混合物，用于家用或工业用途，可转化为液态运输。 | 液化石油气船的货物类型，比重 $0.58sim 0.97$ 。 | 一种液化气体，其比重为0.58~0.97，通常储存在液化气船上。",
+        "chunk_ids": [
+            61,
+            63,
+            64
+        ]
+    },
+    {
+        "entity_name": "液化天然气",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "主要成分为甲烷的气体，需在极低温下液化运输，常用于发电。 | 液化天然气船的货物类型，总设计货物比重为0.5。 | 一种液化气体，其总设计货物比重为0.5，具有特定的运输和储存要求。",
+        "chunk_ids": [
+            61,
+            63,
+            64
+        ]
+    },
+    {
+        "entity_name": "载货舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船上的储存空间，根据国际散化准则分为第一类、第二类、重力舱室（G）和压力舱室（P）。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "深井管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于化学品船装载货物的管道，每个舱室配备一个速率为300m³/h的深井管，最大排放速率为1800m³/h。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "稳性",
+        "type": [
+            "性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在装载货物时保持平衡的能力，国际散化准则对化学品船的稳性有具体要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "管线布置",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船内部用于输送货物的管道系统，需符合国际散化准则的要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "电力和环境布置",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船内部的电力系统和环境控制系统，需符合国际散化准则的要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "舱通风孔",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船舱室用于通风的开口，需符合国际散化准则的要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "油舱除气系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清除油舱内气体的系统，需符合国际散化准则的要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "防火设施",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船上的防火系统，需符合国际散化准则的要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的主体结构，化学品船的船体结构需承受大量设备载荷，因此纵向结构构件更复杂和可靠。 | 船舶的主要结构部分，用于支撑液舱并承受各种载荷和应力。",
+        "chunk_ids": [
+            61,
+            62
+        ]
+    },
+    {
+        "entity_name": "船体梁",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的主要承重构件，FPSO的船体梁承受较大的水动力载荷。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "船长",
+        "type": [
+            "尺寸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的总长度，用于描述船舶的大小，如图22.4中船长为130m。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "船宽",
+        "type": [
+            "尺寸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的横向宽度，用于描述船舶的大小，如图22.4中船宽为20m。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "型深",
+        "type": [
+            "尺寸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计水线以下的垂直深度，用于描述船舶的大小，如图22.4中型深为9.75m。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "载重量",
+        "type": [
+            "性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶能够装载货物的最大重量，如图22.4中载重量为12700t。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "弹性软管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于FSU与海岸之间原油输送的软管，具有弹性，适应船舶运动。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "水下转塔装载系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将FPU产出的原油转移到FSU的系统，通过水下转塔进行装载。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "穿梭油轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在FSU与海岸之间运输原油的船舶。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "船体结构构件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的结构组成部分，FPSO的纵向结构构件更加复杂和可靠。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "疲劳问题",
+        "type": [
+            "性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在长期使用中由于载荷作用导致的结构疲劳问题，FPSO的疲劳问题比传统油船更严重。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "船体维护",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对暴露在外的船体部分进行的维护和加强，以抵抗腐蚀。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "腐蚀",
+        "type": [
+            "问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在恶劣环境下受到的破坏，需通过维护和加强来抵抗。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "干船坞",
+        "type": [
+            "设施",
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶维修和建造的设施，FSU和FPSO在没有干船坞的情况下需进行维护。 | 用于船舶维修和涂装的设施，定期进入干船坞的船舶需进行涂装工艺。",
+        "chunk_ids": [
+            61,
+            75
+        ]
+    },
+    {
+        "entity_name": "船体材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶的材料，国际散化准则对化学品船的建造材料有具体要求。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "压力计",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于测量压力的仪器，国际散化准则中提到压力舱室的设计压力不能超过压力计的0.7。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "重力舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船的储油舱室，可以是独立舱室也可以是整体舱室，设计压力为舱室顶端不能超过压力计的0.7。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "压力舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "化学品船的储油舱室，为独立舱室，设计压力超过压力计的0.7。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "独立舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与船体结构不接触的储油舱室，用于化学品船的运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "整体舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "即船体结构的一部分的储油舱室，用于化学品船的运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "第一类舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "独立的储油舱室，舱室与船体结构不接触，用于化学品船的运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "第二类舱室",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "整体储油舱室，舱室就是船体结构的一部分，用于化学品船的运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "第三类船舶",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输较温和环境下化学产品的船舶，其设计要求较第二类船舶低。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "第二类船舶",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输较温和环境下化学产品的船舶，其设计要求较第一类船舶低。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "第一类化学运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "需要考虑经受极大恶劣环境的情况下运输产品，具备在极大破坏下仍能航行的能力。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "硫酸",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种化学产品，根据国际散化准则，其运输需使用第三类船舶和第二类G舱室。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "丙烷",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种液化石油气，与丁烷混合用于运输，需通过压力、冷藏或半冷藏方式运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "丁烷",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种液化石油气，与丙烷混合用于运输，需通过压力、冷藏或半冷藏方式运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "乙烯",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种液化气体，其沸点极低（-104°C），必须被完全冷藏或半冷藏运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "氨",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种气体，与丙烷、丁烷等混合使用LPG运输船进行运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "丙烯",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种气体，与丙烷、丁烷等混合使用LPG运输船进行运输。",
+        "chunk_ids": [
+            61
+        ]
+    },
+    {
+        "entity_name": "液化天然气（LNG）",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种天然气，其中的硫化物和二氧化碳等杂质已被剔除。需在大气压下冷藏至-165°C以液态甲烷的形态进行运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "液化石油气（LPG）",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种气体，使用LPG运输船进行运输，例如氨、丙烯和乙烯。乙烯需完全冷藏或半冷藏，而其他气体先被液化再运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "液舱",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于储存液化气体的容器，根据设计和功能分为整体液舱、薄膜式液舱、半膜式液舱、独立液舱等类型。 | 液化气船的核心结构，用于储存液化石油气或液化天然气。 | 用于储存液化气的容器，通常需要特殊设计以防止气体泄漏，并保持正压力。",
+        "chunk_ids": [
+            62,
+            63,
+            64
+        ]
+    },
+    {
+        "entity_name": "整体液舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "来自船体结构的一个构件，受到与船体结构相同方式、相同载荷的应力影响，用于在大气压或邻近大气压强下液化石油气体运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "薄膜式液舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "非自持液舱，由一个薄膜组成，通过绝热层支持，设计用于液化气货物运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "半膜式液舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在装载情况下是非自持的，扁平结构受船体支持转移重量和动态作用力，圆角和边缘不受力，用于液化气体运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "独立液舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "持液舱，独立于船体结构，有三种类型：类型A、类型B和类型C，分别用于不同液化气体运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "内部绝热液舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由非自身支持绝热材料组成，绝热层内表面与货物直接接触，分为类型1和类型2，用于液化石油气运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "次级屏蔽",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据货物温度和货舱形式，设置不同屏蔽措施，如船体作为次级屏蔽或独立次级屏蔽，以防止低温影响船体结构。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "全加压式液化石油气船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "总舱容量在2000m³以下，通常贮运丙烷、丁烷或无水氨等货物，装在绝热卧式圆柱形压力容器内。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "国际液化气运输规则",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1975年国际海事组织第九次大会通过的散装运输液化气船舶构造和设备规则，于1986年起强制实行，为大宗液化气船运输提供国际标准。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "国际海事组织",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "制定国际液化气运输规则的国际机构。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "临界温度",
+        "type": [
+            "物理参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲烷的临界温度为-82.5°C，达到该温度和临界压力时会发生液化。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "临界压力",
+        "type": [
+            "物理参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲烷的临界压力为45.6 kg/cm²，达到该压力和临界温度时会发生液化。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "绝热层",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支持液舱的绝热材料层，防止热量传递，保持货物温度。 | 用于液舱外部表面，有制冷设备冷却货物并且能维持工作压强。",
+        "chunk_ids": [
+            62,
+            63
+        ]
+    },
+    {
+        "entity_name": "船体安全安置",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "规则中涉及的内容，确保船舶在碰撞、搁浅等事故中保持结构安全。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "货物围护",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于保护货物和防止低温影响的系统，包括不同类型的液舱和屏蔽措施。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "裂纹检测前的故障原理",
+        "type": [
+            "设计原理"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于设计类型B液舱的原理，允许使用简化次级屏蔽。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "次级屏蔽保护要求",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据货物温度和货舱形式，设置不同屏蔽措施，如船体作为次级屏蔽或独立次级屏蔽。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "船舱形状",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响下部甲板空间有效利用的船舱形状，通常用于全加压式液化石油气船。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "制荡舱壁",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在极长船舱内，用于减少船舶摇荡的结构部件。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "部件",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上部的平台，用于安装液舱和其他设备。 | 液化气船的上层结构，用于安装设备和货物。",
+        "chunk_ids": [
+            62,
+            63
+        ]
+    },
+    {
+        "entity_name": "穹顶凸出甲板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在下部甲板上的凸出结构，用于支撑液舱和连接处。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "摇篮形基座",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑船舶结构，确保液舱在工作压强下稳定。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "压力容器",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "符合压力容器标准的独立液舱，用于液化石油气运输。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "船用钢材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造全加压式液化石油气船的普通等级钢材。",
+        "chunk_ids": [
+            62
+        ]
+    },
+    {
+        "entity_name": "半冷半压液化石油气船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "总舱容量少于 $5000mathrm{m}^3$ ，货运类型与全加压式液化石油气船相似，C型独立式液舱通常用普通等级钢铁建造，适用温度 $-5^{circ}mathrm{C}$ ，最大压强约为 $8mathrm{kg / cm}^2$ 。液舱外部表面绝热层有制冷设备冷却货物并且能维持工作压强。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "全冷式液化石油气船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "总舱容量 $10000sim 100000mathrm{m}^2$ ，多产品运输船体越小同时单一装载产品容器就越大。此类液舱几乎都为棱柱形独立式液舱A型。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "独立式A型液舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "早期的液化天然气船如“甲烷公主”和“甲烷进展”都安装有中纵舱壁的自支承式铝合金液舱。轻木保温系统连接在船内壳（次级屏蔽）上，每个保温货舱装置包含三个液舱。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "独立式B型液舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "Kvaerner-Moss 已设计出独立式 B 型围护系统。此系统已被广泛接受安装在很多液化天然气船上。液舱是由铝合金或 $9%$ 镍钢焊接在同一材质的垂直柱状裙部上。焊接部外表面以及裙部表面附着聚氨酯泡沫保温材料。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "薄膜液舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "两种普遍使用的薄膜液舱是由法国 GAZ Transport and Technigza 公司研发设计的。Gaz 系统给首级和次级屏蔽使用 $36%$ 镍铬铁合金即“殷瓦钢”。殷瓦钢热膨胀系数低，能减少液舱结构任何不必要的波纹。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "半薄膜B型液舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本船舶制造厂IHI设计出B型半薄膜液舱，用于运载液化天然气货物，广泛用于液化天然气运载器之中。长方贮槽由带有适度倾斜屋顶和圆形棱角拐角的平面非加强墙组成，这样能适应扩张和收缩。液舱由一层PVC绝热层及起支撑作用的 $15sim 25mathrm{mm}$ 厚铝合金构成。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "殷瓦钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由法国 GAZ Transport and Technigza 公司研发设计的薄膜液舱所使用的 $36%$ 镍铬铁合金，热膨胀系数低，能减少液舱结构任何不必要的波纹。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "聚氨酯泡沫保温材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于独立式B型液舱的焊接部外表面以及裙部表面，起到保温作用。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "PVC绝热层",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于半薄膜B型液舱的液舱结构，起到绝热作用。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "PVC泡沫绝缘胶合板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于半薄膜B型液舱的部分次级屏壁，起到绝缘作用。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "铝合金",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于独立式B型液舱的液舱结构及半薄膜B型液舱的支撑结构。 | 用于上层建筑的材料，可在无底漆情况下使用，通常配合铬酸锌涂料。 | 铝合金用于上层建筑，当无法使用底漆时，其表面可涂覆铬酸锌涂料以提供防腐保护。",
+        "chunk_ids": [
+            63,
+            76,
+            77
+        ]
+    },
+    {
+        "entity_name": "9%镍钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于独立式B型液舱的液舱结构，能够在最低 $-43^{circ}mathrm{C}$ 下正常工作。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "耐冲击钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液化天然气船的次级屏蔽系统，能够在最低 $-43^{circ}mathrm{C}$ 下正常工作。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双壳结构",
+        "type": [
+            "结构设计",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气船的典型结构设计，用于货物液舱和次级屏蔽系统。 | 液化气船的一种结构特点，用于提高安全性，要求液舱与外板保持最小距离。",
+        "chunk_ids": [
+            63,
+            64
+        ]
+    },
+    {
+        "entity_name": "次级屏壁",
+        "type": [
+            "材料部件",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液化天然气船的次级屏蔽系统，由低温（耐冲击）钢提供。 | 液化天然气船的次级屏蔽系统，由低温（耐冲击）钢提供。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "液化器船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与油轮有着相似的布置，机械和居住区应在船尾部。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双壳",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气船和许多液化石油气船的典型结构设计，用于提高安全性。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "结构设计",
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液化天然气船和液化石油气船的结构设计，提供额外的保护和空间。 | 船舶结构的一部分，用于提供额外的强度和空间，常用于压载水和货物储存。 | 船舶结构中位于船底的双层结构，舱底管道可安装于双层底之外，深舱时可通过管道轴遂。 | 船舶底部的双层结构，用于存放淡水或其他液体，防止舱室浸水。",
+        "chunk_ids": [
+            63,
+            64,
+            69,
+            70
+        ]
+    },
+    {
+        "entity_name": "污水舱",
+        "type": [
+            "结构设计",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液化天然气船和液化石油气船的结构设计，提供压载水安置空间。 | 用于储存污水的船舶舱室，通常与压载水系统相关联。",
+        "chunk_ids": [
+            63,
+            64
+        ]
+    },
+    {
+        "entity_name": "舷顶边舱",
+        "type": [
+            "结构设计",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液化天然气船和液化石油气船的结构设计，提供压载水安置空间。 | 位于船舶舷顶的舱室，可用于储存压载水或其他液体，提供额外空间。",
+        "chunk_ids": [
+            63,
+            64
+        ]
+    },
+    {
+        "entity_name": "船体内壳",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液化气船的结构设计，因需要支撑围护系统，故应特殊考虑。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "防悬浮导缆孔",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液舱进水时阻止液舱内轴承浮起。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "反横摇和纵摇键",
+        "type": [
+            "设备部件",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于液舱相对于船舶结构可以发生膨胀和收缩。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "传感器",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于独立式B型液舱，探测泄漏并在任何裂缝到达重要部件前及时修复。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "球体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于球状贮罐，提供 $125000mathrm{m}^3$ 的贮藏空间。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "波纹板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于燃气技术公司系统的液舱，每个板能独立于相邻板自由收缩和膨胀。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "巴尔沙绝缘层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于燃气技术公司系统的液舱，与波纹板和首级屏壁共同构成次级屏蔽。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "珍珠岩",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于绝热层，装满珍珠岩的胶合板箱组成绝热层。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "胶合板箱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于绝热层，装满珍珠岩的胶合板箱组成绝热层。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "滴灌除霜水盘",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于独立式B型液舱的次级屏蔽系统，构成液舱和防溅板两侧的结构。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "压载水",
+        "type": [
+            "货物类型",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "不能安置在货舱里，所以在双壳空间、双层底、污水舱和舷顶边舱等处所内能提供足够空间。 | 用于调整船舶稳性和吃水的水，通过液货泵系统进行泵入或排出。",
+        "chunk_ids": [
+            63,
+            70
+        ]
+    },
+    {
+        "entity_name": "船尾部",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化器船与油轮有着相似的布置，机械和居住区应在船尾部。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "船首部",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与其他船舶类似，用于液化气船的结构设计。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "船体",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化气船的主体结构，用于承载货物和设备。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "货舱",
+        "type": [
+            "结构设计",
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化气船的货物部分，用于储存液化石油气或液化天然气。 | 货舱是船舶用于装载货物的舱室，其腐蚀问题主要由装载物和海水压载引起。",
+        "chunk_ids": [
+            63,
+            77
+        ]
+    },
+    {
+        "entity_name": "货舱之间",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横舱壁可能是货舱之间单一或双个金属板（隔墙）。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "船侧外板",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气船的船侧外板部分，用于支撑结构。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "倾斜干舷船底内",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气船的船底结构，用于支撑液舱。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "倾斜污水舱",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气船的污水舱结构，用于压载水安置。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "船内底部",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液化天然气船的船内底部结构，用于支撑液舱。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "密封舱壁",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液舱由密封舱壁沿中心线划分，用于通道和管道连接。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "绝热承重块",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液舱位于绝热承重块上，方便检查表面。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "鞍式支座",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "货物舱通常是卧式圆柱形安装在2个鞍式支座上。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双层船体",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "该船舶有双层船体延伸至底部和舷部，用于提高安全性。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于双波瓣液舱，能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并许多",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并许多设计",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并许多设计合并",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并许多设计合并于",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并许多设计合并于双波瓣液舱下",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "双波瓣液舱下部甲板空间提升有效载荷量设计合并许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "许多设计合并于双波瓣液舱下，这样能更好利用下部甲板空间提升有效载荷量。",
+        "chunk_ids": [
+            63
+        ]
+    },
+    {
+        "entity_name": "惰性气体系统",
+        "type": [
+            "设备",
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于填充液化气船液舱周围空间的系统，以防止空气进入形成易燃混合物。 | 设计用来维持并保证货舱的空气是不可燃的，通常通过减少氧气含量至 $8%$ 来实现。",
+        "chunk_ids": [
+            64,
+            71
+        ]
+    },
+    {
+        "entity_name": "液化设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于处理液化石油气船上因热量进入而产生的汽化蒸汽，将其重新送回液舱。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "100A液化天然气船",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社对液化天然气船的一种分类，适用于整体液舱或薄膜液舱。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "100A1液化天然气船",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社对液化天然气船的另一种分类，适用于独立式液舱。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "起重装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于货物装卸的船上设备，包括吊杆装置和起重机，具有不同的起重能力和布置方式。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代船舶常用的起重设备，具有更大的起重能力、更少的劳动密集度和更快的操作速度。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "安全工作载荷",
+        "type": [
+            "参数",
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起重机或起重装置在设计时规定的最大承载能力，用于确定设备的使用条件。 | 吊杆或滑车在设计时允许承受的最大载荷，用于计算受力和摩擦余量。 | 吊杆在测试中使用的载荷标准，根据吊杆的不同安全工作载荷范围，测试载荷需超过其指定值。",
+        "chunk_ids": [
+            64,
+            66,
+            67
+        ]
+    },
+    {
+        "entity_name": "集装箱船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输集装箱的船舶，通常配备多台起重机以实现高效装卸。 | 用于运输集装箱的船舶，文中提到其货物装卸和限制内容。",
+        "chunk_ids": [
+            64,
+            67
+        ]
+    },
+    {
+        "entity_name": "散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输散装货物（如煤炭、矿石、谷物等）的船舶，通常不配备起重机。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "舱口盖",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭船舱开口的装置，可由起重机提升，尤其在非滑动或侧移式舱盖时。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "电动起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用电力驱动的起重机，具有较低能耗、更易控制和更高效的货物处理能力。 | 一种用于船舶货物处理的设备，通过电力驱动，能耗较低且易于控制，可加快货物处理速度。",
+        "chunk_ids": [
+            64,
+            65
+        ]
+    },
+    {
+        "entity_name": "液压起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用液压动力的起重机，具有较大的起重能力和复杂的操作系统。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "劳氏船级社",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶分类和入级的国际船级社，对液化天然气船的分类有明确规定。 | 对可移动甲板和集装箱导轨装置有规范要求的船级社，船舶需符合其规范以获得入级标志。",
+        "chunk_ids": [
+            64,
+            68
+        ]
+    },
+    {
+        "entity_name": "滑动舱盖",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种可滑动开启的舱口盖，通常用于散货船，无需起重机辅助。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "侧移式舱盖",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种可侧移开启的舱口盖，通常用于散货船，无需起重机辅助。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "集装箱",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "标准化的货物单元，通常由起重机装卸，广泛用于集装箱船。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "货物装卸",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在港口进行货物装载和卸载的过程，依赖于起重设备和装卸系统。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "货物定位",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起重机操作中用于确定货物位置的过程，占起重机总循环时间的约40%。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "外展",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起重机吊臂的水平延伸距离，影响其起重能力和操作范围。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "船载维护",
+        "type": [
+            "过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在运行过程中对设备和系统的定期检查和保养，确保其正常运行。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "港口时间",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在港口停留的时间，对运营成本和效率有重要影响。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "固定航线",
+        "type": [
+            "运营模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶按照固定路线运行，通常配备岸基装卸设备以提高效率。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "岸基起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于港口的大型起重机，用于高效装卸货物，通常比船载起重机更高效。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "连续装载/卸载系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于自动化装卸货物的系统，如谷物升降机和矿石输送机，提高装卸效率。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "中心线甲板起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶中心线甲板上的起重机，通常配备多个吊臂，用于装卸货物。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "安全工作载荷（SWL）",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起重机或起重装置在设计时规定的最大承载能力，用于确定设备的使用条件。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "变幅装置",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起重机用于调整吊臂高度的装置，包括线式或活塞式类型。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "悬臂",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "起重机的一部分，用于支撑吊钩和货物，可单或双悬臂配置。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "电动液压动力",
+        "type": [
+            "动力系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种结合电动和液压系统的动力方式，用于起重机等设备。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "电力驱动",
+        "type": [
+            "动力系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用电力作为动力源的系统，用于起重机等设备，具有较低能耗和更易控制。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "能耗",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设备运行过程中消耗的能量，影响运营成本和环保性能。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "环境问题",
+        "type": [
+            "影响因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与船舶设备运行相关的环境影响，如油损耗和排放问题。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "货物处理速度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "货物装卸过程中货物移动和处理的效率，受起重机性能影响。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "生产率",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设备在单位时间内完成的工作量，用于衡量装卸效率。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "货物单元",
+        "type": [
+            "货物类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "标准化的货物装载单元，如集装箱，用于提高装卸效率。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "船厂",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "制造船舶的工厂，负责船舶建造和装配。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "船东",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的所有者，负责订购和指定船舶设计和设备要求。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "供应商",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "提供船舶设备和系统的公司，通常与船厂合作完成船舶建造。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "船舶",
+        "type": [
+            "实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于运输货物的水上交通工具，涵盖多种类型和用途。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "货物",
+        "type": [
+            "实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶运输的物品，包括散货、集装箱、液体等。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "港口",
+        "type": [
+            "实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶装卸货物的地点，通常配备装卸设备和基础设施。",
+        "chunk_ids": [
+            64
+        ]
+    },
+    {
+        "entity_name": "重型起重机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于海洋平台和重型起重船的起重设备，起重能力为400~800吨，部分重型起重船可实现1600吨的同步提升。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "桅杆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代船舶上用于支撑吊杆装置的结构，通常安装在船体一侧，其强度由船级社指定，需承受跨距载荷和吊杆推力。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "起重柱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在桥楼室末端或其他舱口的结构，用于支撑吊杆装置，其强度由船级社指定，需承受轴向力和弯矩。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "桅顶横杆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在桅杆顶部的横杆，用于连接吊杆装置，其结构由焊接钢板和型材建造而成。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "吊杆平台",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊杆装置操作的平台，由焊接钢板和型材建造而成。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "起重杆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "可看作是无缝管状钢材的规则焊接长构件，中等长度的起重杆需更大直径以满足弯矩的需要。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "高强度钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于桅杆建造的材料，可减少船舶重量，满足其他加强结构的需要，不会使船舶尺寸过大。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "管型截面钢材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于桅杆和起重柱建造的钢材，船厂将其轧制成短长度构件并焊接起来。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "鹅颈管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂提供的安装时装置的连接部分，用于桅杆底部的连接。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "桅顶旋转接头",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂提供的安装时装置的连接部分，用于桅杆顶部的旋转连接。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "腹板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于桅杆底部的钢材，通过不同板厚的布置以满足其承受更大压力的需求。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "焊接加强衬垫",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于桅杆底部的加强结构，通过焊接方式增强其强度。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "吊杆装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于货船装卸货物的装置，包括摆动式吊杆、双联吊杆、蝶形索具和溜溜索具等。 | 包括吊杆、张索、滑车等组成的起重系统，用于船舶装卸货物。",
+        "chunk_ids": [
+            65,
+            66
+        ]
+    },
+    {
+        "entity_name": "摆动式吊杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "最常见的吊杆装置形式，用于从舱口提起货物并运送到舷外。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "双联吊杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由临近的起重杆组成的吊杆装置，用于从舱口提起货物并运送到舷外。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "蝶形索具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于当船舶可以从货舱的两边卸货时使用的索具，其计算载荷模式与双联吊杆相似。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "溜溜索具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在吊杆装置上的索具，用于在重量超过船舶安全工作载荷时提供额外支撑。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "霍伦旋臂吊杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种拥有专利的吊杆装置，安装在船舶中心轴线上，可延伸至船两侧，由单独操作员控制。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "Stulken吊杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由Blohm和Voss AG销售的专利吊杆，工作载荷在80~300吨，可服务于两个舱口，旋臂在前后方向上弧形摆动。 | 由Blohm和Voss AG销售的专利吊杆，工作载荷在80~300吨范围内，能够服务于两个舱口。",
+        "chunk_ids": [
+            65,
+            66
+        ]
+    },
+    {
+        "entity_name": "船级社",
+        "type": [
+            "标准/机构",
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指定桅杆和起重柱强度的机构。 | 原文中提及的船舶技术标准或认证机构，用于规定吊杆测试和船舶设计的相关要求。 | 对测深装置和相关结构提出要求的机构，确保船舶符合安全和操作标准。 | 对测深装置和相关结构提出要求的机构，确保船舶符合安全和操作标准。 | 对测深装置和相关结构提出要求的机构，确保船舶符合安全和操作标准。 | 制定船舶建造和检验标准的机构，其规则中包含腐蚀余量等设计参数。 | 代表IACS的船级社作为咨询顾问参加国际海事组织大会，授权代表成员国确保协议证书，核准载重线标志。",
+        "chunk_ids": [
+            65,
+            67,
+            70,
+            72,
+            79
+        ]
+    },
+    {
+        "entity_name": "吊杆分力",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆装置产生的载荷，受吊杆装置几何形状影响，包括吊杆长度、吊杆底部到桅顶张索连接间的距离以及吊杆顶部的角度。",
+        "chunk_ids": [
+            65
+        ]
+    },
+    {
+        "entity_name": "吊杆",
+        "type": [
+            "设备",
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于起重作业的结构部件，能够服务于两个舱口，旋臂吊杆在前后方向上起重柱之间弧形摆动。 | 用于船舶装卸重物的装置，设计成可像单一摆动吊杆一样操作，测试时需在不同角度和载荷条件下进行。",
+        "chunk_ids": [
+            66,
+            67
+        ]
+    },
+    {
+        "entity_name": "重型吊杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工作载荷在80~300吨范围内的吊杆，具有较大的起重能力，常用于船舶装卸货物。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊杆长度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆装置的几何尺寸之一，影响吊杆的推力和张索载荷。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "悬吊高度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆底部到桅顶张索连接间的距离，影响吊杆的推力和张索载荷。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊杆顶部角度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆顶部与水平面的夹角，对轴向推力无直接影响，但会影响吊货索具的引线推力。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "张索",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑吊杆的钢索，其载荷受吊杆长度与悬吊高度的比率以及吊杆顶部角度的影响。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "张索载荷",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由张索承受的力，受吊杆长度与悬吊高度的比率以及吊杆顶部角度的影响。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊杆推力",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆在受力时产生的轴向力，受吊杆长度与悬吊高度的比率影响。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "滑车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于改变力的方向或分配力的装置，其工作载荷由合力决定，且需考虑摩擦阻力。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "单饼滑车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种滑车类型，其工作载荷为合力的1/2。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "多饼滑车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种滑车类型，其工作载荷与合力相同。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "摩擦余量",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑车摩擦阻力的预留值，根据滑车类型和安全工作载荷不同而变化。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "普通滑动轴承",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑车中使用的轴承类型，摩擦余量为8%（中小型滑车）或6%（大型滑车）。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "滚珠或滚柱轴承",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滑车中使用的轴承类型，摩擦余量为5%（中小型滑车）或4%（大型滑车）。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊货索具",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊装货物的索具系统，其重量和一半吊杆重量需计入张索载荷计算。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊索",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接吊杆和货物的索具，其定位对载荷分布和受力有重要影响。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "辅助索",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少吊索载荷的辅助索具，常在实际操作中设置以提高安全性。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊杆失控",
+        "type": [
+            "现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆在载荷作用下靠近桅杆的现象，通常由力作用的三角形不闭合引起。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "桥楼",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上的上层建筑结构，可能影响吊杆的定位和操作。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊货索",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊装货物的索具，其夹角和定位对吊杆受力有重要影响。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "限制高度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆装置中吊货索间夹角不得小于120°的临界高度，低于此高度可能导致吊索夹角过小。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "吊索夹角",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊索与吊杆之间的夹角，过小会导致过大的拉力，需通过导线或辅助索控制。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "初始测试",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆装置在安装前进行的测试，测试载荷超过安全工作载荷的一定比例。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "重新测试",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吊杆装置在使用过程中进行的再次测试，以确保其符合安全要求。 | 当吊杆经过大幅度修改或主要部分损坏并修复后，需进行的测试。",
+        "chunk_ids": [
+            66,
+            67
+        ]
+    },
+    {
+        "entity_name": "国家和船级社规则",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶吊杆设计和测试需遵守的规范，包括安全工作载荷和测试载荷要求。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "英国标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "关于滑车摩擦余量的计算标准，用于船舶建造中的滑车设计。",
+        "chunk_ids": [
+            66
+        ]
+    },
+    {
+        "entity_name": "测试载荷",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊杆测试的载荷，根据吊杆的安全工作载荷范围，测试载荷需超过其指定值。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "船尾门",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶尾部的门，通常为铰接式或罩壳式，用于货物装卸，并具有水密性要求。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "船首门",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶首部的门，通常为铰接式或罩壳式，用于货物装卸，并具有水密性要求。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "跳板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接不同甲板或作为水密舱口盖的装置，可通过液压或机械方式倾斜，服务于多个甲板。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "水密门",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有密封垫和挡板的门，用于防止水进入船舶内部，通常安装在船尾门和船首门位置。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "防碰撞舱壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于防止船舶碰撞的舱壁，通常与水密舱壁结合使用，安装在船尾门和船首门位置。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "液压装置",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于升降船尾门、船首门和跳板的装置，通常与机械装置结合使用。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "起重设备",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于货物装卸的设备，文中提到改进的起重设备用于加速现代船舶中货物的装卸和存储。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "机械操作舱口盖",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于货物装卸的舱口盖，通过机械方式操作，用于加速现代船舶中货物的装卸和存储。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "滚装船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输车辆的船舶，通常安装有船尾门、船首门和跳板，用于货物装卸。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "汽车运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输汽车的船舶，文中提到其货物装卸和限制内容。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "托盘货物运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输托盘货物的船舶，文中提到其货物装卸和限制内容。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "国际劳工组织",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "原文中提及的国际组织，其第152条规定了吊杆的检查和重新测试要求。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "水密舱壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防止水进入船舶内部的舱壁，通常与防碰撞舱壁结合使用。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "水密舱口盖",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭舱口的装置，具有水密性要求，可由跳板充当。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "倾斜的水密车辆坡道",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶上的坡道，用于车辆装卸，形成防碰撞舱壁并省略内部门。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "铰接式船首门",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船首部的门，通过铰接方式开启和关闭，通常与液压装置结合使用。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "钢索起重装置",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于升降旋转跳板的装置，通常与液压绞车结合使用。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "液压绞车",
+        "type": [
+            "设备部件",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制旋转跳板升降的装置，通常与钢索起重装置结合使用。 | 用于升降旋转跳板和剪式升降机的设备，通过液压动力驱动。",
+        "chunk_ids": [
+            67,
+            68
+        ]
+    },
+    {
+        "entity_name": "旋转跳板",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "围绕船尾弧形导轨移动的跳板，用于连接不同甲板，通常与液压绞车结合使用。 | 通过钢索起重装置和液压绞车升降的大型铰接式跳板，围绕船尾弧形导轨移动，用于滚装船装卸货物。",
+        "chunk_ids": [
+            67,
+            68
+        ]
+    },
+    {
+        "entity_name": "艉斜吊桥",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于滚装船的跳板，适用于没有直角码头的港口，通常与旋转跳板功能相似。 | 为滚装船设计的跳板，用于在没有直角码头或连接架的港口装卸货物。",
+        "chunk_ids": [
+            67,
+            68
+        ]
+    },
+    {
+        "entity_name": "轴向艉跳板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船尾的跳板，可作为船尾门使用，通过液压或绳索升降。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "固定艉斜吊桥",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船尾的跳板，用于滚装船，适用于没有直角码头的港口。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "半旋转式跳板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "部分旋转的跳板，用于连接不同甲板，通常与液压装置结合使用。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "舷侧门",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶舷侧的门，用于货物装卸，通常与装载设备结合使用。 | 用于滚装船装卸货物的门，通常与船尾门设施相似，用于装卸车将托盘化货物装载到平台上。",
+        "chunk_ids": [
+            67,
+            68
+        ]
+    },
+    {
+        "entity_name": "装载设备",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于货物装卸的设备，文中提到其与机械操作舱口盖和起重设备结合使用。",
+        "chunk_ids": [
+            67
+        ]
+    },
+    {
+        "entity_name": "艉跳板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船尾的跳板，用于装卸货物，可以是固定轴向跳板、固定艉斜吊桥、旋转跳板或半旋转式跳板。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "升降平台",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "直接安装在舷侧门内侧，用于服务于不同中间甲板和货舱的设备，可升降以适应不同高度。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "滚动传送机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在升降平台上的自动运动设备，用于将报纸卷从装载平台传送到升降平台。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "液压缸",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于驱动铰链的向上折叠门的液压装置，使门在打开时自动降低。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "活动甲板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在允许灵活装载设备的船舶上，可在不同航行中携带不同类型货物的甲板。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "剪式升降机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于在甲板间升降或移动货物的设备，常作为滚装船内部跳板的替代品，占用空间较小。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "集装箱导轨装置",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在甲板下的格槽导引装置，用于限制集装箱在船上的横向运动，由 $150\times 150\times 12$ 的角钢制成。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "格槽导引装置",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在甲板下的装置，用于限制集装箱在船上的横向运动，不构成船舶结构的一部分。 | 用于确保船舶结构安装精度的装置，安装在船体结构中，其与设计线的间隔在横向不小于4mm，在纵向不小于5mm，安装时需使用夹具以确保焊接后尺寸符合要求。",
+        "chunk_ids": [
+            68,
+            69
+        ]
+    },
+    {
+        "entity_name": "液压滑动索小绞车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于可升降甲板的液压设备，通过起重机吊索安装在天花板上。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "可折叠甲板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "卷放在船舶末端和两侧的甲板，通常通过液压设备降低到水平位置。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "可移动甲板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在货舱中，允许灵活装载不同货物的甲板，需符合劳氏船级社规范。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "象角型摇晃装置",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在滚装船甲板上的装置，用于减少车辆在船上的猛烈摇动。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "舱面承白",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在滚装船甲板上的装置，用于固定车辆以减少摇动。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "麦克格雷戈·纳维尔公司",
+        "type": [
+            "公司"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "制造“Rotolocker”侧向装卸机的公司，该设备可固定或可移动安装。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "Rotolocker",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "麦克格雷戈·纳维尔公司制造的免舷侧门侧向装卸机，可固定或可移动安装。",
+        "chunk_ids": [
+            68
+        ]
+    },
+    {
+        "entity_name": "锁定的堆码搭扣",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于甲板上集装箱固定的一种装置，相比非锁定的堆码搭扣，需要更少的绑索，因此更贵的自动锁更受喜爱。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底压载泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶舱底水排放的设备，机舱应能从两个排水口向舷外排水，其中一个与主舱底水管路相连，另一个由独立的泵驱动。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底水吸入口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船舶狭窄空间内的吸入口，用于排出舱底水，通常布置在隔间的后半部分，长度超过33.5m的独立货舱可安装于前半舱段。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "滤箱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接在舱底水管入口的开孔板箱，用于防止碎片进入舱底水泵吸入口，开孔直径不超过10mm，截面积之和至少为舱底水管要求的2倍。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "泥渣分离箱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于收集进入管道的油泥和外来垃圾的装置，机舱轴遂处舱底水流入泥渣分离箱进行常规清洁。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于排放舱底水的设备，货轮机舱处所应至少有两套动力驱动舱底泵，客轮至少为三套，且动力系统应分别放置于独立水密隔间。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底主管路",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接舱底水吸入口与排水口的管道系统，设置阀组件防止水密隔间之间直接连通，通常安装于舱底阀分散区域。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "截止阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制舱底水管路通断的阀门，安装于舱底主管路或排泄管，防止船舶搁浅或损坏时任何舱室浸水。 | 安装在舱底水总管或箱型龙骨上的阀门，用于控制管路的开启与关闭，防止舱室浸水。",
+        "chunk_ids": [
+            69,
+            70
+        ]
+    },
+    {
+        "entity_name": "舱底水总管",
+        "type": [
+            "设备",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客轮中用于排放舱底水的主干管路，布置在舷侧型宽的20%之内，该区域外的管路或箱型龙骨应安装截止阀。 | 安装在客轮中舱底，用于排放舱底水的管路，其位置在舷侧型宽的20%之内，该区域外的管路或箱型龙骨应安装截止阀以防止船舶搁浅或损坏时浸水。",
+        "chunk_ids": [
+            69,
+            70
+        ]
+    },
+    {
+        "entity_name": "舱底压载管路",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于输送舱底水的管道系统，可由生铁、熟铁、钢材、铜或其他材料制成，导电或其他热导材料不被允许，管路应为法兰连接。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱壁甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的分隔层，防碰撞舱壁只允许两条管路通过，船首舱壁高于舱壁甲板的每一条管路都应有一个堵路的螺旋阀。 | 舱室的顶部甲板，空气管和测深管通常延伸至该位置，防止舱室真空或低压。 | 舱室的顶部甲板，空气管和测深管通常延伸至该位置，防止舱室真空或低压。 | 舱室的顶部甲板，空气管和测深管通常延伸至该位置，防止舱室真空或低压。",
+        "chunk_ids": [
+            69,
+            70
+        ]
+    },
+    {
+        "entity_name": "船尾水井",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶轴遂由船尾水井排干，舱底水排水口与主舱底水管路相连。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底水井",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在舱底的水井，容量至少为0.17m³，客轮中舱底水井应位于距船底板高度460mm范围内。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "ISO标准孔",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板底座包含安装定位锥的ISO标准孔，用于集装箱的定位。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱壁甲板之上的阀件",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制横向进水的阀件，安装在舱壁甲板之上，可手动管理操作。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "潜水泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在高于舱壁甲板处的泵，用于客轮舱底水排放。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "螺旋阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在船首舱壁高于舱壁甲板的管路上的阀门，用于堵路。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底水排放",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在倾斜5°范围内或吃水平衡状态下，任何水密隔间或其部分都能向船外排水，机舱应能从两个排水口向舷外排水。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底水排水口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱底水排水口与主舱底水管路相连，用于排放舱底水。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底水主管路",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接舱底水吸入口与排水口的主管路，设置阀组件防止水密隔间之间直接连通。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "舱底水排放系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括舱底水吸入口、滤箱、泥渣分离箱、舱底泵、舱底水主管路等，用于排放舱底水。",
+        "chunk_ids": [
+            69
+        ]
+    },
+    {
+        "entity_name": "边舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客轮中单独设置的舱室，用于管理舱底水横向流动，从而限制船舶横倾。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "排水孔",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于舷侧用于排放甲板水的开口，安装于干舷甲板之上，可通至舱底或舷外，根据干舷条件和防风雨门设置决定。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "螺旋止回阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于排水孔上的防水进入装置，用于防止水倒流进入船体，通常位于高于干舷甲板的位置。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "干舷甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑的甲板，其边缘在船体横倾至5°时不会浸没，排水孔和防风雨门通常安装于此。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "防风雨门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于干舷甲板之下的上层建筑或舱室的封闭门，用于防止风雨进入，与排水孔配合使用。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "生铁",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造舱底压载管路的材料之一，与熟铁、钢材、铜等并列。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "熟铁",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造舱底压载管路的材料之一，与生铁、钢材、铜等并列。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "钢材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造舱底压载管路的材料之一，与生铁、熟铁、铜等并列。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "铜",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造舱底压载管路的材料之一，与生铁、熟铁、钢材等并列。 | 传统防污漆中的一种毒素，用于抑制海洋生物生长。",
+        "chunk_ids": [
+            70,
+            75
+        ]
+    },
+    {
+        "entity_name": "法兰连接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱底压载管路的连接方式，每根管路的延展范围应作严格规定。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "空气管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于所有舱室以防止舱室满舱时低压空气进入和空舱时真空形成，可安装于舱室填充管末端或最高点。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "测深管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于除隔间外所有舱室，用于测深操作，通常伸至舱壁甲板之上，最小直径为32mm，低温环境下需为65mm。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "测深杆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于测深操作的工具，封闭端应有足够强度以承受频繁撞击，可与测深管连通。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "防撞板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于舱底井测深杆落点处的部件，用于防止测深杆撞击。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "通海口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接海水管路系统的开口，通常位于壳板海底箱中，应设铁格网和牺牲阳极。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "通海阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接通海口与壳板管路系统的阀门，确保海水管路系统的连通。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "通海箱体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通海口的主体结构，与连接板厚度相同，但不能小于12.5mm也不能大于25mm。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "液货泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载、卸放货物或压载水的泵，布置方式取决于货物种类，大型油轮采用直达式管路系统。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "清舱系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清洁油轮舱室的系统，通常与液货泵系统配合使用。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "液压泵系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输多种油品的油轮，配备复杂的液压泵系统以实现不同油品的装卸。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "水闸阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于纵向舱壁上的阀门，用于控制油流向中心舱室，允许油自由流动。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "牺牲阳极",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于通海口的金属部件，用于防止阀件金属和钢体箱形成原电池，从而防止腐蚀。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "双层底舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的双层结构舱室，用于存放淡水或其他液体，空气管需延伸至舱壁甲板之上。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "燃油舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储存燃油的舱室，空气管需延伸至露天甲板，防止漏油或蒸汽引发危险。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "货油舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储存货油的舱室，空气管需延伸至露天甲板，防止漏油或蒸汽引发危险。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "防撞舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于防止碰撞的舱室，空气管需延伸至露天甲板，防止漏油或蒸汽引发危险。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "液压气动泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "货船上用于清洁系统的泵，能够提供足够的压力和流量。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "消防总管",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中用于消防的管路系统，与甲板冲洗系统配合使用。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "甲板冲洗系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清洗甲板的系统，通常与消防总管配合使用。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "热淡水系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过加热线圈加热冷淡水的系统，用于提供热水，与截止阀连接。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "冷淡水系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "提供冷淡水的系统，通过热淡水系统加热后用于饮用、烹饪和清洗。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "压载水清洁管路",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清洁压载水的管路系统，通常与清舱系统配合使用。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "船中40%船长范围内",
+        "type": [
+            "位置"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油轮泵系舱室通海口的特殊区域，要求在壳板上有加强板作为补偿。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "加强板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于船中40%船长范围内油轮泵系舱室通海口的壳板上，用于增强结构强度。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "通海箱体连接板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与通海箱体厚度相同，但不能小于12.5mm也不能大于25mm。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "铁格网",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装于通海口的防护装置，用于防止杂物进入管路系统。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "船体横倾",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在受力或装载不均时发生的倾斜现象，影响排水孔和舱室管理。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "舱底井",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于存放舱底水的井状结构，测深杆落点处应有防撞板。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "测深装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于测量舱室液体深度的装置，可与测深杆连通，满足船级社相关要求。",
+        "chunk_ids": [
+            70
+        ]
+    },
+    {
+        "entity_name": "液压水闸控制阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制舱室舱壁的排放系统，允许油流向液舱后部空间。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "普通吸入口",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在船尾舱室区域，允许油流向液舱后部空间。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "纵向舱壁",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设有水闸阀，油可以自由从舷顶边舱流向中心舱室。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "货物主管路",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "吸入口设置在中心舱室，用于货油管路布置。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "直达式货油管路布置简图",
+        "type": [
+            "图纸"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "图26.4展示了该种管理方法、专门的清舱系统和压载水清洁管路。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "环形货油管路布置简图",
+        "type": [
+            "图纸"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "图26.3展示了环形货油管路布置简图，用于旧制油轮管路设置。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "离心式液压泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代油轮最初的液压泵，由齿轮驱动或电机传动，容量较大，大型油轮中的泵容量达到了 $3500mathrm{m}^3/mathrm{h}$。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "往复式清舱泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "容量为 $350mathrm{m}^3/mathrm{h}$，适合做清舱工作，并配有专门的清舱管路。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "可浸液货泵",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "配有独立排水管路的货舱中使用，可不必配备传统的泵室，也可由防爆电动机驱动。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "货舱通风机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与其他舱室隔间的空气管完全分开，确保易燃蒸汽不会进入任何可燃区域。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "固定甲板泡沫系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在载重量小于20000t的油船，可向整个货舱甲板区域传递泡沫，并且能够到达任何甲板破裂的舱室。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "固定惰性气体系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在20000t或更大载重量的油船，用于维持货舱空气不可燃。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "止回障碍",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以甲板水封的形式，用于防止石油气或液态石油通过系统流回机舱。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "双层壳体",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船的双层壳体和双层底部分要求连接惰性气体系统来供应惰性气体。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "惰性气体发生装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于通过燃烧柴油或轻燃料油产生气体，经提纯后用于惰性气体系统。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "烟道气",
+        "type": [
+            "气体"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由主锅炉或辅助锅炉产生，经海水冷却、净化后用于惰性气体系统。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "货舱换气",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当油船安装了惰性气体系统后，排液货舱要清洗至货舱中的碳氢化合物蒸气减少到 $2%$。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "货舱清洗",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在净化货油舱之后，货舱可用热水、冷水、淡水、海水或原油进行清洗。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "原油洗舱",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用原油替代水作为清洗介质，使剩余物随货物排出，无需用水清洗。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "腐蚀控制",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涉及船舶建造期间对大气腐蚀的防护，特别是在相对湿度高于 $70%$ 的环境下。",
+        "chunk_ids": [
+            71
+        ]
+    },
+    {
+        "entity_name": "大气腐蚀",
+        "type": [
+            "现象",
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造期间，当相对温度高于 $70%$ 时会发生严重的腐蚀。 | 在船舶建造期间，当相对温度高于70%时，会发生严重的腐蚀，主要由空气中的烟污染和海盐决定。",
+        "chunk_ids": [
+            71,
+            72
+        ]
+    },
+    {
+        "entity_name": "浸水腐蚀",
+        "type": [
+            "现象",
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船底和水线区域间歇地进入海水，容易形成电化学腐蚀。 | 船舶服役期间，其底部完全浸入水中，水线和水线区域间歇地进入海水，容易形成电化学腐蚀。",
+        "chunk_ids": [
+            71,
+            72
+        ]
+    },
+    {
+        "entity_name": "电化学腐蚀",
+        "type": [
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "金属在电解质溶液中因阳极区和阴极区耦合而发生的腐蚀，是船舶腐蚀的主要形式。",
+        "chunk_ids": [
+            72
+        ]
+    },
+    {
+        "entity_name": "双金属腐蚀",
+        "type": [
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当两种不同金属形成腐蚀电池时发生的腐蚀，常见于船舶中低碳钢壳体与铜或镍合金螺旋桨的连接。",
+        "chunk_ids": [
+            72
+        ]
+    },
+    {
+        "entity_name": "应力腐蚀",
+        "type": [
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由腐蚀和外加应力共同作用导致的故障，非均匀冷加工产生的内应力比外加应力更加危险。",
+        "chunk_ids": [
+            72
+        ]
+    },
+    {
+        "entity_name": "侵蚀",
+        "type": [
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种机械作用，与电化学腐蚀有关，如冲击腐蚀和空泡腐蚀，常发生在流动的水环境中。",
+        "chunk_ids": [
+            72
+        ]
+    },
+    {
+        "entity_name": "冲击腐蚀",
+        "type": [
+            "腐蚀类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由流动水中夹带的气泡打击金属表面，侵蚀保护膜并引发电化学腐蚀。",
+        "chunk_ids": [
+            72
+        ]
+    },
+    {
+        "entity_name": "空泡腐蚀",
+        "type": [
+            "腐蚀类型",
+            "腐蚀现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在快速流动的液体环境中，局部压力降低形成蒸汽空泡，破裂时释放能量导致金属表面点蚀。 | 与快速流动的液体环境有关，局部压力减低到低于绝对蒸汽压力，形成蒸汽空泡，当压力恢复时空泡破裂，释放能量导致金属表面点蚀和机械损伤。",
+        "chunk_ids": [
+            72,
+            73
+        ]
+    },
+    {
+        "entity_name": "腐蚀余量",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船级社规则中指定的板和截面尺寸除厚度外还包括腐蚀余量，通常基于25年的服务期。 | 船级社规则中指定的板和截面尺寸除厚度以外还包括腐蚀，基于25年的服务期，腐蚀以相同速率发生，与板厚无关。",
+        "chunk_ids": [
+            72,
+            73
+        ]
+    },
+    {
+        "entity_name": "阴极保护",
+        "type": [
+            "防腐措施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于防止金属腐蚀，通过阳极上的腐蚀反应被抑制，使金属成为阴极，主要分为牺牲阳极保护系统和外加电流保护系统。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "牺牲阳极保护系统",
+        "type": [
+            "防腐措施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用比钢材更活泼的金属（如锌、铝、镁）作为阳极，通过自身腐蚀保护船体，但需定期更换，镁阳极不可用于油船压载舱。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "外加电流保护系统",
+        "type": [
+            "防腐措施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过外部电源维持船体与阳极之间的电势差，保护船体免受腐蚀，使用非消耗性贵金属阳极，如铅/银、铂/铂合金，系统较灵活且寿命长。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "防护涂料（油漆）",
+        "type": [
+            "防腐措施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由颜料分散在媒介物中组成，通过挥发性溶剂蒸发、化学反应或两者结合形成干膜，用于防止腐蚀。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "锌板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护铜质螺旋桨的牺牲阳极装置，早期应用但效果有限，现代使用锌合金、铝和镁阳极。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铝阳极",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牺牲阳极保护系统，可安装在油船中，但需限制在势能小于28 kg·m的位置。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "镁阳极",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牺牲阳极保护系统，但因存在火花危险，不可用于油船压载舱和货舱。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铅/银阳极",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流保护系统中使用的非消耗性贵金属阳极，用于提高系统寿命和效率。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铂/铂合金阳极",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流保护系统中使用的非消耗性贵金属阳极，具有良好的电化学性能。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "镀铂钛阳极",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流保护系统中使用的非消耗性阳极，具有优异的电化学性能。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铝线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统，作为可消耗阳极，长度为45米，通常在海上使用，港内无保护措施。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "参比电池",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统，检测电极和船体之间的电压差，维持电势差以实现阴极保护。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "放大控制器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统，放大参比电池的电流信号并与预设值比较，控制电流输出。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "饱和扼流圈",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统，控制从船舶电气系统产生的电流供给阳极。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "媒介物",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防护涂料中的液体成分，用于分散颜料，通过挥发、化学反应或两者结合形成干膜。 | 用于涂料中，通过化学反应或物理作用形成干膜，以防止腐蚀。",
+        "chunk_ids": [
+            73,
+            74
+        ]
+    },
+    {
+        "entity_name": "干膜",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防护涂料干燥后形成的附着层，通过媒介物的挥发或化学反应形成，用于防止腐蚀。 | 涂料应用后形成的保护层，通过化学反应或物理作用形成。",
+        "chunk_ids": [
+            73,
+            74
+        ]
+    },
+    {
+        "entity_name": "锌合金",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牺牲阳极保护系统的阳极材料，经过测试以确保其适用性，高纯锌阳极也会被使用。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "镁",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牺牲阳极保护系统的阳极材料，但因存在火花危险，不可用于油船压载舱。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铝",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于牺牲阳极保护系统的阳极材料，可安装在油船中，但需限制在势能小于28 kg·m的位置。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铅",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统的非消耗性阳极材料，与银组合使用。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "银",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统的非消耗性阳极材料，与铅组合使用。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "铂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统的非消耗性阳极材料，与铂合金或钛组合使用。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "钛",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外加电流保护系统的非消耗性阳极材料，与铂组合使用。",
+        "chunk_ids": [
+            73
+        ]
+    },
+    {
+        "entity_name": "沥青",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为媒介物的一种，与树脂混合使用，可能在高温条件下与其他材料混合形成媒介物。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为媒介物的一种，可能与沥青或干性油混合使用，形成干膜。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "溶剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于溶解树脂或沥青，应用后蒸发，留下干膜。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "油基",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "主要成分为植物油脂，如亚麻籽油和桐油，通过与氧气发生化学反应形成干膜。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "干燥剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "添加到油基媒介物中，以加速氧气参与的自然反应干燥过程。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "含油树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将天然或人造树脂放入干性油中，部分树脂与干性油反应形成更快干燥的媒介物，其他则需高温溶解。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "醇酸树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由醇类和酸类制成，干燥时间与干性油形成的干膜性能得到改进，不依赖石油原料。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "耐化学药品",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对暴露环境表现出良好抵抗力，属于多种媒介物类型。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "环氧树脂",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由石油或天然气制成，具有良好的耐化学性和粘附性，常与冷固化剂混合使用，但不适合水下使用。 | 一种常用的底漆材料，与锌粉混合用于喷抛清理后的直接底漆涂装。",
+        "chunk_ids": [
+            74,
+            76
+        ]
+    },
+    {
+        "entity_name": "环氧酯",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "可被认为是醇酸树脂，通常由环氧树脂和脂肪酸制成。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "煤焦油/环氧树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由甲级煤焦油沥青与环氧树脂混合而成，属于双成分产品。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "氯化橡胶",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种媒介物，由天然橡胶通过化学方法产生，具有广泛的有机溶剂溶解度。 | 一种用于水线以下区域的防腐涂料，具有良好的耐碱性和抗腐蚀性能。",
+        "chunk_ids": [
+            74,
+            76
+        ]
+    },
+    {
+        "entity_name": "异构化橡胶",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由天然橡胶通过化学方法产生的衍生物，具有相同的化学成分但不同的分子结构。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "聚氨基甲酸乙酯树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由异氰酸酯和羟基混合物反应生成，具有良好的韧性、硬度、光泽度、耐磨性、耐化学性和耐风化性。 | 聚氨基甲酸乙酯树脂是水线以上船体涂装系统中使用的涂料材料，具有优异的耐候性和化学稳定性。",
+        "chunk_ids": [
+            74,
+            77
+        ]
+    },
+    {
+        "entity_name": "乙烯树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由乙烯基群有机化合物聚合而成，固体含量低，常用于预处理底漆。 | 乙烯树脂是一种用于水线以上船体涂装系统的涂料材料，具有良好的耐候性和防腐性能。",
+        "chunk_ids": [
+            74,
+            77
+        ]
+    },
+    {
+        "entity_name": "富锌涂料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "含有金属锌颜料，干漆膜颜料含量大于90%，用于阴极保护钢质船。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "颜料",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于涂料中，提供腐蚀保护，如四氧化三铅（阳极防蚀剂）和铬酸锌（阴极防蚀剂）。 | 涂料中的成分，提供颜色以及对海洋植物和动物生长有毒的物质，如铜、四氧化三铅和铬酸锌。",
+        "chunk_ids": [
+            74,
+            75
+        ]
+    },
+    {
+        "entity_name": "四氧化三铅",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为阳极防蚀剂，用于涂料中保护钢材。 | 一种颜料，作为阳极防蚀剂，用于保护钢材免受腐蚀。",
+        "chunk_ids": [
+            74,
+            75
+        ]
+    },
+    {
+        "entity_name": "铬酸锌",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为阴极防蚀剂，用于涂料中保护钢材。 | 一种颜料，作为阴极防蚀剂，用于保护钢材免受腐蚀。 | 用于上层建筑和铝制材料的底漆，具有良好的防腐性能。 | 铬酸锌用于上层建筑的底漆，具有良好的防锈和防腐性能，尤其适用于铝制材料。",
+        "chunk_ids": [
+            74,
+            75,
+            76,
+            77
+        ]
+    },
+    {
+        "entity_name": "锌粉",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "作为牺牲阳极，用于盐水环境中保护钢质船。 | 一种涂料成分，作为牺牲阳极，用于给钢质船在盐水环境中提供保护。",
+        "chunk_ids": [
+            74,
+            75
+        ]
+    },
+    {
+        "entity_name": "冷固化剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与环氧树脂混合使用，用于环氧树脂涂料的固化，如胺或聚酰胺树脂。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "触变剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "添加到厚膜涂料中，用于生产可应用于更薄涂层的涂料。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "防污染系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于防止船舶表面污染的系统，未详细说明具体组成。",
+        "chunk_ids": [
+            74
+        ]
+    },
+    {
+        "entity_name": "防污漆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由含有颜料的媒介物组成，用于防止海洋生物附着，其中包含有毒化合物如铜。 | 涂在船体底部的防腐涂料，用于防止海洋生物附着，通常位于底涂层之下。",
+        "chunk_ids": [
+            75,
+            76
+        ]
+    },
+    {
+        "entity_name": "自抛光防污漆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种防污漆，其渗透率不依赖于暴露时间，漆膜会随时间抛光，表面光滑，寿命与厚度成正比。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "TBT's",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种有机锡化合物，用于防污漆中，具有控制释放特性，但对海洋生物有害。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "有机锡化合物",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "含有锡原子的化合物，曾被用作杀虫剂，但被发现对食物链有毒。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "铜正极",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流防污系统中的正极，用于产生电流以溶解铜离子，形成保护层。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "钢板负极",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外加电流防污系统中的负极，用于与铜正极形成电压差，产生保护电流。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "控制单元",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于调节外加电流防污系统中铜离子的释放量，以维持最优性能。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "外加电流防污系统",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过人为设定电压差，使铜正极产生电流，溶解铜离子并形成保护层，防止海洋生物附着。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "低能量表面涂料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种防污涂料，提供非常光滑、低表面能的表面，难以被污染附着。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "表面预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装前对金属表面进行处理，去除氧化皮，防止腐蚀和漆膜脱落。 | 指在涂装前对钢铁表面进行清理和处理，以确保涂装质量。良好的表面预处理是成功涂装的基础，能有效防止涂装失败。",
+        "chunk_ids": [
+            75,
+            76
+        ]
+    },
+    {
+        "entity_name": "氧化皮",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "铁氧化物构成的薄层，形成于热轧和切割过程中，可能导致腐蚀电池和漆膜脱落。 | 铁氧化物构成的薄薄边界层，形成于钢铁热轧和切割过程中，可能导致腐蚀电池和漆膜剥落。",
+        "chunk_ids": [
+            75,
+            76
+        ]
+    },
+    {
+        "entity_name": "涂料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据应用结构的服务环境量身定制的材料，由制造商推荐，用于船舶涂装。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "涂装工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中对金属表面进行涂装的工艺，需在合理预处理后进行。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "三丁基化合物",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自抛光防污漆的主要成分，具有控制释放特性，但对海洋生物有害。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "控制船舶有害防污国际公约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "2001年通过的国际公约，禁止或限制使用有机锡化合物作为防污系统中的杀虫剂。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "浮式平台",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "允许在防污系统中使用有机锡化合物的设备类型。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "杀生剂",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "具有杀死生物活体的化学能力，用于防污漆中。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "摩擦阻力",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶航行时受到的阻力，自抛光防污漆的光滑表面可减小摩擦阻力。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "燃料消耗",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶运行时的能源消耗，船体粗糙度增加会导致燃料消耗增加。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "船体粗糙度",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体表面的不平整程度，影响摩擦阻力和燃料消耗。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "进坞间隔",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶进入干船坞进行维护的时间间隔，自抛光防污漆可延长此间隔。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "丙烯酸骨架",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防污漆的化学结构，TBT's可化学方法界限其骨架。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "化学反应",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "TBT在浸入海水中时发生的反应，导致其从漆膜中剥落并控制释放。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "有机锡",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "含有锡原子的化合物，曾被用作杀虫剂，但被发现对食物链有毒。",
+        "chunk_ids": [
+            75
+        ]
+    },
+    {
+        "entity_name": "涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶制造过程中对金属表面进行涂料涂覆的工艺，用于防腐、保护和美化。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "喷抛清理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种高效的表面预处理方法，通过叶轮或喷嘴设备将研磨料高速冲击金属表面，去除氧化皮和锈迹，广泛应用于大型船厂。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "酸洗",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过将金属浸入酸溶液（如氯化氢或硫酸）中去除氧化皮和锈，随后需用热水冲洗，并尽快涂底漆。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "火焰清洗",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "使用氧-乙炔焰去除钢表面的氧化皮和锈，适用于严酷温度环境下的板清理，但不能完全去除氧化皮。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "手动准备",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过钢丝刷等工具进行表面清理，效果通常不理想，仅适用于氧化皮已松动的情况。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "高压水清理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在修船中逐渐取代喷砂清理，能将钢材表面恢复至SA2.5级，主要废物为水，环保性较好。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "底漆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装前用于保护金属表面的底层涂料，需具备快速干燥、无毒、兼容后续涂料等特性。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "煤炭焦油/环氧树脂",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于水线以下区域的防腐涂料，具有良好的耐海水腐蚀性能。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "乙烯基树脂漆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于水线以下区域的防腐涂料，具有良好的耐海水腐蚀性能。",
+        "chunk_ids": [
+            76
+        ]
+    },
+    {
+        "entity_name": "红丹涂料",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于上层建筑的底漆，具有良好的防腐性能。 | 红丹涂料用于上层建筑的底漆，具有良好的防锈和防腐性能。",
+        "chunk_ids": [
+            76,
+            77
+        ]
+    },
+    {
+        "entity_name": "醇酸树脂油漆",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于上层建筑的面漆，具有良好的耐候性和抗黄变性能。 | 醇酸树脂油漆用于上层建筑的面漆，具有良好的附着力和耐候性。",
+        "chunk_ids": [
+            76,
+            77
+        ]
+    },
+    {
+        "entity_name": "亚麻籽油基油漆",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统上用于上层建筑的面漆，但因易黄变而被现代船舶逐渐淘汰。 | 亚麻籽油基油漆因易黄变而被现代船舶避免使用。",
+        "chunk_ids": [
+            76,
+            77
+        ]
+    },
+    {
+        "entity_name": "压载舱",
+        "type": [
+            "结构部件",
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部用于装载压载液体的舱室，需使用专用涂料以防止腐蚀。 | 压载舱是船舶用于装载压载水的舱室，其腐蚀问题与海水压载和温海水清洁有关。",
+        "chunk_ids": [
+            76,
+            77
+        ]
+    },
+    {
+        "entity_name": "水线",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水线是船舶设计中划分船体水下部分与水上部分的基准线，通常用于确定船舶的吃水深度和结构设计。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "水线以上船体",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水线以上船体指船舶水线以上的部分，其涂装系统需要具备良好的防腐和耐候性能。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "聚酯树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "聚酯树脂是水线以上船体涂装系统中常用的涂料材料，具有良好的附着力和耐候性。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "白色精装涂料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "白色精装涂料用于上层建筑的面漆，通常基于非黄变油的油性树脂或醇酸树脂，避免使用易黄变的亚麻籽油基油漆。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "非黄变油",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "非黄变油是白色精装涂料的基料，具有良好的耐候性和抗黄变性能。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "液货舱",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "液货舱是船舶用于装载液体货物的舱室，易受货舱装载物和海水压载的腐蚀影响。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "原油",
+        "type": [
+            "装载物"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "原油在货舱中可能形成沉淀薄膜，提供一定程度的防腐保护，但可能导致局部点蚀。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "白油",
+        "type": [
+            "装载物"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "白油在货舱中比原油更容易导致严重腐蚀，因为其不形成保护性沉淀薄膜。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "环氧树脂漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "环氧树脂漆广泛用于液货舱和压载舱的防腐涂装，具有优异的耐腐蚀性能。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "乙烯树脂漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "乙烯树脂漆用于液货舱和压载舱的防腐涂装，具有良好的耐腐蚀性能。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "涂锌层",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂锌层用于液货舱和压载舱的防腐处理，提供额外的金属保护层。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "加热、通风、空调、制冷、隔热",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶需要安装加热、通风、空调、制冷和隔热系统，以应对全球范围内的温度和湿度变化，确保船员、乘客和货物的舒适性与安全。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "通风系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通风系统用于船舶机舱、储藏室、工作空间等区域，提供自然或机械通风，确保空气流通。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "机械通风设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机械通风设备用于船舶机舱，少数船舶同时配有自然排气系统，以确保空气流通。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "自然排气系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自然排气系统用于船舶机舱，与机械通风设备配合使用，确保空气流通。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "自然进气和排气装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自然进气和排气装置用于储藏室和工作空间，确保空气流通。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "机械排气装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机械排气装置用于烟气处所，配有低碳钢通道和百叶窗，确保烟气排放。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "自然风机排气口",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "自然风机排气口安装在舷侧外表面或舱顶天花板，用于自然通风。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "静音离心式风机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "静音离心式风机用于机械排气装置，配有独立安装的电机，确保低噪音运行。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "空调系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "空调系统用于船员起居室、机械控制室、客轮的起居和公共区域，提供温度和湿度控制。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "恒温机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "恒温机用于控制室温，通过加热或冷却空气来调节温度。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "除湿器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "除湿器用于货舱通风系统，通过空调装置去除空气中的水分，防止潮湿。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "干气百叶窗",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "干气百叶窗用于货舱通风系统，将除湿后的空气引入货舱。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "冷藏室",
+        "type": [
+            "结构部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冷藏室是船舶用于保存易腐坏货物的舱室，通常为长方体以降低隔热费用。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "冷藏货物",
+        "type": [
+            "装载物"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冷藏货物包括肉类、水果和蔬菜，需在特定温度下保存。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "冷藏肉类",
+        "type": [
+            "装载物"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冷藏肉类悬挂于强力甲板加强筋上，以确保空气流通。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "冷冻肉类",
+        "type": [
+            "装载物"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冷冻肉类存放在船舶货舱中，需保持低温环境。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "水果和蔬菜",
+        "type": [
+            "装载物"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水果和蔬菜存放于板条箱内，允许大量空气流通以保持新鲜。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "板条箱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "板条箱用于存放水果和蔬菜，允许空气流通以保持新鲜。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "盐水",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "盐水由淡水溶解氯化钠制成，用于制冷系统中循环冷却冷藏舱室。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "氯化钠",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "氯化钠用于制备盐水，作为制冷系统中的冷却介质。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "制冷机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "制冷机用于制冷系统，通过蒸发器将冷盐水输送到冷藏舱室。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "蒸发器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "蒸发器是制冷系统的一部分，用于将冷盐水输送到冷藏舱室。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "格形箱",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "格形箱用于制冷系统，盐水通过格形箱与空气接触，实现冷却。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "风扇",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "风扇用于制冷系统，将空气抽出经过盐水格箱，实现冷却。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "线槽",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "线槽用于制冷系统，将冷却后的空气送回舱室。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "软木",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "软木用于隔热层，具有良好的隔热性能，且可作为承重材料。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "玻璃纤维",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "玻璃纤维用于隔热层，具有重量轻、防虫、耐火、不吸水等优点。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "泡沫塑料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "泡沫塑料用于隔热层，以层状或粒状形式提供隔热性能。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "真空",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "真空用于隔热层，但效率较低，通常用于油轮边界的隔热。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "矿棉板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "矿棉板用于隔热层，具有良好的防火和隔热性能。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "镀锌钢板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "镀锌钢板用于固定隔热材料，通常安装在框架或其他加强构件的木质基础上。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "铝合金板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "铝合金板用于固定隔热材料，通常安装在框架或其他加强构件的木质基础上。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "隔热材料",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "隔热材料用于冷藏室边界，以维持理想温度，其厚度取决于所选材料和温度需求。 | 用于冷冻室、冷冻货船中舱室和舱口之间的隔热结构，可填充于专利钢盖或箱型舱口盖中以减少热量损失。",
+        "chunk_ids": [
+            77,
+            78
+        ]
+    },
+    {
+        "entity_name": "加强筋组件",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "加强筋组件用于决定隔热材料的最终厚度，通常安装在船体结构中。",
+        "chunk_ids": [
+            77
+        ]
+    },
+    {
+        "entity_name": "真空层",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "真空层用于油轮边界的隔热，厚度至少为 $50mathrm{mm}$。 | 隔热层中用于隔绝热传导的结构，厚度至少为50mm，通过真空环境减少热量传递。",
+        "chunk_ids": [
+            77,
+            78
+        ]
+    },
+    {
+        "entity_name": "耐油深层",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "耐油深层用于油轮边界的隔热，厚度超过 $5mathrm{mm}$ 时可不必设置真空间隙。 | 隔热材料表层的一层厚度超过5mm的耐油材料，可替代真空层以减少热量传递。",
+        "chunk_ids": [
+            77,
+            78
+        ]
+    },
+    {
+        "entity_name": "隔热层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在油轮双层底油舱上甲板与钢板之间的隔热结构，其厚度至少为50mm的真空层，用于减少热量传递。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "海水井",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在二层甲板和隔热舱之间的排水结构，通过海水形成水封以隔绝热空气，防止水分流失。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "冷冻集装箱船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输冷冻货物的集装箱船，配备冷却系统和隔热集装箱，可替代传统冷藏船。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "ISO集装箱",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "标准尺寸的集装箱（一般为20英尺），用于冷冻货物运输，配备盐水冷却器和冷空气管以实现远程控制。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "盐水冷却器",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在甲板以下舱室中，用于冷却隔热集装箱的设备，通过空气导入实现集装箱的冷却。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "冷空气管",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接集装箱与冷却系统的管道，用于将冷空气导入隔热集装箱以实现远程控制。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "整体空冷机",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于驱动货舱和上甲板标准集装箱冷却单元的设备，近年来被广泛安装以提高运输灵活性。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "国际海事组织（IMO）",
+        "type": [
+            "标准/机构",
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "旨在提高海上航行安全和防止海洋污染的联合国专门机构，负责制定船舶建造和安全相关的国际公约和规则。 | 国际海事组织，授权船级社代表成员国确保协议证书，并参与制定国际船舶吨位丈量公约。",
+        "chunk_ids": [
+            78,
+            79
+        ]
+    },
+    {
+        "entity_name": "SOLAS公约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海上人命安全公约，涉及船舶火灾防护等安全要求，相关内容将在后续章节中讲解。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "MARPOL公约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "经1978年议定书修订的1973年国际防止船舶造成污染公约，涉及船舶污染防控要求，特别是针对油轮。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "IMO决议MSC.287（87）",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "批准散货船和油轮的国际基于目标的船舶建造标准，将于2012年1月1日生效，标志着IMO在船舶安全和防污染方面制定整体目标。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "船旗国",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶所属国家，其法律和规范适用于该国注册的船舶。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "管理机构",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "成员国设立的负责海上航行安全、法律起草和执行的机构。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "公约许可证书",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际贸易船舶必须取得其船旗国管理部门颁发的公约许可证书，以符合相关国际公约要求。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "货船结构安全证书",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "适用于总吨位大于等于500总吨的货船，有效期不超过5年，用于证明船舶结构符合安全标准。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "货船设备安全证书",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "适用于总吨位大于等于500总吨的货船，有效期不超过5年，用于证明船舶设备符合安全标准。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "货船无线电安全证书",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "适用于总吨位大于等于300总吨的货船，有效期不超过5年，用于证明船舶无线电设备符合安全标准。",
+        "chunk_ids": [
+            78
+        ]
+    },
+    {
+        "entity_name": "货船安全证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "货船应取得的证书，用于证明其符合货船结构、设备、无线电安全要求。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "国际防止油类污染证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "总吨位大于等于150总吨的油船或大于等于400总吨的非油船应获得的证书，有效期不低于5年，用于防止油类污染。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "国际防止生活污水污染证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "注册船旗的船舶应获得的证书，依据MARPOL公约附则IV规定，用于防止生活污水污染。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "防止大气污染证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "注册船旗的船舶应获得的证书，依据MARPOL公约附则VI规定，用于防止大气污染。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "国际载重线证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客轮和货船都应有的证书，有效期不低于5年，用于证明船舶符合载重线要求。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "国际吨位证书",
+        "type": [
+            "证书"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "所有船舶应有的证书，用于证明其符合国际吨位丈量规定。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "国际船舶吨位丈量公约",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1969年通过并于1982年7月8日起执行的公约，所有在建或晚于该日期建造的船舶应遵守该公约进行吨位丈量。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "总吨位",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述船舶内部舱容的参数，计算公式为GT = K₁V，其中K₁ = 0.2 + 0.02lgV，V为密闭空间总容积（m³）。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "净吨位",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "描述船舶有效舱容的参数，计算公式根据船舶类型不同而有所区别，涉及型吃水、型深、货物总体积等参数。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "巴拿马运河吨位规范",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "巴拿马运河海事局基于1969年国际吨位公约开发的净吨位丈量系统，用于更公平地收取通行费。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "苏伊士运河吨位规范",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "苏伊士运河通行费的收取依据船舶净吨位，由苏伊士运河管理局规定。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "修正总吨（CGT）",
+        "type": [
+            "技术参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为解决总吨位误导性问题而提出的修正吨位概念，总吨位乘以特定修正因子得到修正总吨。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "OECD",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "经济合作与发展组织，与西欧造船厂联合会和日本造船协会共同规定修正因子。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "西欧造船厂联合会",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "与OECD和日本造船协会共同规定修正因子的组织。",
+        "chunk_ids": [
+            79
+        ]
+    },
+    {
+        "entity_name": "日本造船协会",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "与OECD和西欧造船厂联合会共同规定修正因子的组织。",
+        "chunk_ids": [
+            79
+        ]
+    }
+]

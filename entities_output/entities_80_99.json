@@ -1,0 +1,5321 @@
+[
+    {
+        "entity_name": "修正总吨（CGT）",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "修正总吨（CGT）是用于更准确衡量船舶制造总量的指标，由OECD、西欧造船厂联合会和日本造船协会于1968年共同规定。其计算公式为CGT = A × GT × B，其中A根据船型确定，B根据船舶尺寸确定，GT为船舶总吨位。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "干舷",
+        "type": [
+            "船舶设计参数",
+            "船舶参数",
+            "船舶规范",
+            "主要尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "干舷是指船舶在满载时从甲板到水面的垂直距离，用于确保船舶的稳性和浮性。根据船舶类型（A型或B型）和具体条件，干舷值会进行相应的修正。 | 船舶设计中用于衡量船舶稳性和抗沉性的关键参数，通过多种修正计算得出，包括平甲板修正、方形系数修正、型深修正、上层建筑修正、舷弧修正等。 | 指船舶在满载时甲板上边缘至水面的垂直距离，用于确保船舶的稳性和浮力。干舷的计算需遵守不同规范，如木材干舷规范，并根据不同的装载条件进行调整。 | 型深 $D$ 与吃水 $d$ 的差值。",
+        "chunk_ids": [
+            80,
+            81,
+            82,
+            93
+        ]
+    },
+    {
+        "entity_name": "A型船舶",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "A型船舶是专门运载散装液体货物的船舶，货舱内仅开有小型检修孔，并用钢质或其他同等材料的带有水密填料盖进行封闭。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "B型船舶",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "B型船舶是指不满足A型船舶条件的其他类型船舶，其干舷计算需根据具体条件进行适当加减。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "B-100型船舶",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "B-100型船舶是符合A型船舶基本干舷要求的B型船舶，其最终计算出的干舷与A型船舶几乎相同。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "B-60型船舶",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "B-60型船舶是长度大于100米的B型船舶，其基本干舷取为B型船舶表列干舷值减去了对应船长的B型船舶列表值与A型船舶表列干舷值之差的60%。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "分舱要求",
+        "type": [
+            "船舶设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分舱要求是指船舶在设计时对货舱和机舱等部位的防水和抗沉能力的规定，根据船舶类型（A型、B型、B-60型、B-100型）和长度不同而有所差异。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "可浸舱室",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "可浸舱室是指在船舶设计中允许一定范围内浸水的舱室，通常用于机舱等关键部位，以提高船舶的抗沉性和安全性。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "横舱壁",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横舱壁是船舶内部的横向隔板，用于分隔货舱和机舱，其1/5浸透时即可认为全船垂向方向受到损伤。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "方形系数（C_b）",
+        "type": [
+            "船舶设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "方形系数是船舶设计中的一个参数，用于描述船舶的丰满程度，当其超过0.68时，基本干舷需乘以相应的修正因子。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "上层建筑是指船舶甲板以上的结构部分，如驾驶室、货舱口等，其有效长度会影响干舷的计算。 | 船舶甲板上的建筑结构，其有效长度用于修正干舷，当其长度达到或超过船长的100%时，干舷减除量按特定数值或线性插值计算。",
+        "chunk_ids": [
+            80,
+            81
+        ]
+    },
+    {
+        "entity_name": "干舷长度",
+        "type": [
+            "船舶设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "干舷长度是用于计算干舷的参考长度，通常与船舶的总长度相关，用于确定干舷修正值。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "稳心高度",
+        "type": [
+            "船舶设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "稳心高度是船舶重心与稳心之间的垂直距离，必须为正值以确保船舶的稳性，最大横倾角不大于15°。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "矿砂船",
+        "type": [
+            "船舶分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "矿砂船是专门运输矿砂的船舶，被归类为B-100型船舶，具有两个纵向舱壁，边舱为压载水舱。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "舵杆水线",
+        "type": [
+            "船舶设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舵杆水线是指从船首到船尾测量的水线位置，用于确定船舶的长度L，是干舷计算中的重要参数。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "渗透率",
+        "type": [
+            "船舶设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "渗透率是船舶在单舱破损时允许进水的比例，用于计算分舱要求，如货舱需按渗透率0.95设计。",
+        "chunk_ids": [
+            80
+        ]
+    },
+    {
+        "entity_name": "平甲板",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶甲板为水平面的结构形式，其修正用于计算干舷，适用于船长不超过100米且上层建筑有效长度不超过干舷长度35%的B型船舶。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "方形系数",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的几何参数，定义为型排水量与船长、型宽和型深乘积的比值，用于修正干舷。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "型深",
+        "type": [
+            "船舶参数",
+            "主要尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计中的关键尺寸参数，用于计算干舷修正，当型深大于船长的1/15时，干舷需增加相应数值。 | 在船的船中横剖面处，甲板边线（通常指上甲板边线）至基线间的垂直距离。",
+        "chunk_ids": [
+            81,
+            93
+        ]
+    },
+    {
+        "entity_name": "舷弧",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶干舷甲板的曲线形状，其修正涉及实际舷弧与标准舷弧的差值，用于调整干舷数值。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "船长",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计中的关键尺寸参数，用于计算干舷修正，如平甲板修正、型深修正、上层建筑修正等。 | 指船舶的总长度，用于确定舱口盖等结构的设定载荷和强度要求。",
+        "chunk_ids": [
+            81,
+            82
+        ]
+    },
+    {
+        "entity_name": "干舷甲板",
+        "type": [
+            "船舶结构",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的最高连续甲板，其高度和形状直接影响干舷计算，需考虑舷弧修正和上层建筑修正。 | 船舶的上层甲板，用于安装护栏、舷窗等安全设施。",
+        "chunk_ids": [
+            81,
+            84
+        ]
+    },
+    {
+        "entity_name": "最小干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计中必须满足的最低干舷值，根据季节、航区和载货类型不同而有所变化，如夏季、热带、冬季、淡水区等。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "木材干舷",
+        "type": [
+            "船舶参数",
+            "船舶规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门针对运输木材船舶的干舷计算方式，其干舷值比B型船小，但需遵守特定的木材干舷规范。 | 指运输木材船舶的干舷计算方式，根据不同的木材干舷规范减除百分比，上层建筑有不同的修正。夏季木材干舷加上夏季木材吃水的1/36即为冬季木材干舷。冬季北大西洋木材干舷即为正常干舷，热带木材干舷由夏季木材干舷减除夏季木材吃水的1/48得到。淡水木材干舷定义为正常干舷。",
+        "chunk_ids": [
+            81,
+            82
+        ]
+    },
+    {
+        "entity_name": "TPC",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水线处每厘米吃水吨数，用于计算淡水区船舶的最小干舷。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "夏季干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在夏季航区的最小干舷值，作为其他季节干舷计算的基础。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "冬季干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在冬季航区的最小干舷值，通常在夏季干舷基础上增加或减少特定比例。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "热带干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在热带航区的最小干舷值，通常在夏季干舷基础上减少夏季型吃水的1/48。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "淡水干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在淡水航区的最小干舷值，通常在夏季或热带干舷基础上减少特定计算值。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "北大西洋冬季干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "航行于北大西洋航区的船舶在冬季的最小干舷值，对于船长不超过100米的船舶需额外增加50毫米。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "船首高度",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船首垂线处自核定夏季干舷水线到舷侧露天甲板上边的垂直距离，不能小于公约规范值。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "型排水量",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在特定吃水时的排水量，用于计算方形系数，进而影响干舷修正。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "吃水",
+        "type": [
+            "船舶参数",
+            "主要尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶浸入水中的深度，用于计算型排水量和相关干舷修正参数。 | 在船的船中横剖面处，设计水线至基线的垂直距离。",
+        "chunk_ids": [
+            81,
+            93
+        ]
+    },
+    {
+        "entity_name": "最小型深",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计中的最小深度参数，用于计算吃水和型排水量，进而影响干舷修正。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "船楼",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑的一部分，其高度影响舷弧修正和干舷计算。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "凸形甲板",
+        "type": [
+            "船舶结构",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶甲板的一种结构形式，其有效长度与上层建筑共同影响干舷修正。 | 连接上层建筑的甲板结构，当使用凸形甲板时，干舷甲板露天部分的全长内应设置栏杆。",
+        "chunk_ids": [
+            81,
+            84
+        ]
+    },
+    {
+        "entity_name": "船中",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的中心位置，用于计算上层建筑覆盖区域和舷弧修正。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "线性插值",
+        "type": [
+            "计算方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算中间值的数学方法，应用于上层建筑有效长度和干舷减除量的计算。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "船东",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的所有者或运营方，可能对干舷设定提出特定要求。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "规范",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶设计和建造的标准文件，如规范中给出的干舷修正方法。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "公约",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "国际船舶设计和建造的国际协议，如船首高度不能小于公约规范值。",
+        "chunk_ids": [
+            81
+        ]
+    },
+    {
+        "entity_name": "上层建筑端壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指封闭上层建筑末端开口的基线高度，应至少高于甲板380mm，以满足管理当局的建造要求。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "舱口围板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭舱口的围板，建造高度至少高于露天干舷和FQD 600mm，距露天上层建筑甲板脐垂线位置25%船长范围（位置1）至少为450mm。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "舱口盖",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭舱口的装置，包括木质舱口盖和可拆低碳钢舱口盖。木质舱口盖的厚度至少为60mm，跨度不超过1.5m；可拆低碳钢舱口盖的强度以设定载荷计算，船长24m的船舶舱口位置1设定载荷不低于1t/m²，位置2不低于0.75t/m²。 | 用于封闭舱口的水密钢盖，其高度与可拆梁舱口盖有关，低碳钢舱口盖需按设定载荷计算强度，最大应力不应超过材料的最小极限强度，挠度不超过载荷下0.0028倍跨距。",
+        "chunk_ids": [
+            82,
+            83
+        ]
+    },
+    {
+        "entity_name": "舱口盖支承表面",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口盖的支承表面宽度至少为65mm，用于支撑舱口盖并确保其稳定性。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "舱口楔耳",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于安装楔子的装置，安装应适合楔子的斜度，至少65mm宽，中心间距不大于600mm，距舱口盖不大于150mm。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "楔子",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定舱口盖的装置，由硬质木材或同等材料制成，楔子斜度应不大于1:6，且其尖头的厚度不小于13mm。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "防水油布",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于密封舱口的防水材料，每个舱口应确保至少两条防水油布处于良好状态，其材料、强度、水密性应通过核准。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "钢制压条",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定舱口盖的装置，应能有效地和独立地固定每段舱口盖，确保舱口在关闭时保持密封。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "舱口栏板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑舱口盖的栏板，其高度与可拆梁舱口盖有关，管理机构对船舶安全性满意的话，高度可以有所减小。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "低碳钢舱口盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由低碳钢制成的舱口盖，其强度以设定载荷计算，最大应力应不超过材料的最小极限强度，挠度不超过跨距的0.0028倍。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "低碳钢镀层",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于舱口盖的顶层材料，其厚度在加强筋间距的1%和6mm两者中取大者，以确保强度和密封性。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "活动梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑舱口盖的活动梁，其梁座或插座应有足够的建造强度，以确保舱口关闭时保持稳定。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "舱口紧固措施",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保持舱口风雨密的措施，应经主管机关认可，并在任何海况下保持密封性。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "材料的最小极限强度",
+        "type": [
+            "材料属性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指材料在特定载荷下的极限强度，用于计算舱口盖等结构的最大应力和挠度限制。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "挠度",
+        "type": [
+            "结构性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指结构在载荷作用下的变形量，用于评估舱口盖等结构的强度和稳定性，挠度限制在跨距的0.0028倍。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "设定载荷",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指用于计算舱口盖等结构强度的载荷值，根据船长和舱口位置不同而有所差异。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "加强筋间距",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指舱口盖等结构中加强筋之间的距离，用于确定材料厚度和强度要求。",
+        "chunk_ids": [
+            82
+        ]
+    },
+    {
+        "entity_name": "低碳钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造舱口盖的材料，其顶部厚度应不低于1%加强筋间距或6mm，取其大者，且需满足强度和硬度要求。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "水密",
+        "type": [
+            "功能特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指舱口盖、舱棚、通风筒围板、空气管、舷窗等结构需具备的密封性能，确保在任何海况下保持密封性。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "舱棚",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于围闭机舱口的结构，需用足够强度的钢制舱棚，若无其他结构保护，其强度需做特殊考虑。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "钢门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于舱棚出入口的门，其门槛高度根据位置不同，位置1至少高出甲板600mm，位置2至少高出甲板380mm。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "通风筒围板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于通风筒的钢制围板，其高度超过900mm的地方应有专门支撑，位置1处高度至少为900mm，位置2处至少为760mm。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "空气管",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "裸露空气管应加强结构，距甲板垂直距离在干舷甲板处至少为760mm，在上层建筑处至少为450mm，应安装永久性密闭装置。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "水密门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于干舷甲板以下安装的水密门，确保船舶结构完整性，开口下边缘不应低于船侧干舷甲板的平行线。 | 用于分隔机舱棚与外界的门，若机舱棚为露天结构，应安装水密门。",
+        "chunk_ids": [
+            83,
+            84
+        ]
+    },
+    {
+        "entity_name": "自动止回阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于甲板排水口、进水口和排污口的密封装置，夏季水线到排污管末端的垂直距离大于0.02L时，需安装两个具有反向截止功能的自动止回阀。",
+        "chunk_ids": [
+            83
+        ]
+    },
+    {
+        "entity_name": "舷窗",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在干舷甲板下或封闭上层建筑内的水密内侧窗盖，其窗槛不应低于船侧处的干舷甲板平行线，该线最低点在夏季载重线以上距离为船宽B的2.5%或500mm，取较大者。 | 安装在干舷甲板和上层建筑甲板上的窗户，作为护栏的替代，其最小高度为1m。",
+        "chunk_ids": [
+            83,
+            84
+        ]
+    },
+    {
+        "entity_name": "舷墙排水口",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于排水的舷墙开口，其面积根据舷墙长度和高度计算，需分布在阱内最接近舷弧最低点的1/2范围内，应用间距约为230mm的栏杆保护。 | 安装在舷墙上用于排水的开口，其下边缘应尽可能接近甲板，所需面积的2/3应分布在最接近舷弧最低点的1/2范围内。",
+        "chunk_ids": [
+            83,
+            84
+        ]
+    },
+    {
+        "entity_name": "栏杆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护舷墙排水口的结构，其间距约为230mm。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "护栏",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在干舷甲板和上层建筑甲板上的防护结构，其最低一档与甲板之间的最大垂向间距为230mm，其他各档间隙不超过380mm。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "机舱棚",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护机舱的结构，通常由标准高度的封闭艉楼、桥楼或甲板室构成，若无直接开口则可为露天或设有风雨密门。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "舷梯步桥",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接艉楼与上层建筑甲板的结构，用于船员上下船，应安装于船中船桥或甲板室。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "舱口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在干舷甲板或首楼甲板上的开口，应配备钢质或其他相当材料的水密舱盖。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "排水装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于排水的装置，至少应在露天甲板的一半长度内设置栏杆，舷顶列板的上边缘应尽可能降低。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "防火分隔",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分隔船舶不同区域的结构，根据火灾风险分为A、B、C三级，其中A级分隔在标准耐火试验中能有效阻止烟气和明火通过。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "A级分隔",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢材或同等材料建造的防火分隔，在1小时标准耐火试验中能有效阻止烟气和明火通过扩散，测试时间包括A-60（60分钟）、A-30（30分钟）等。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "B级分隔",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分隔不同火灾风险区域的结构，通常用于载客量小于36人的客轮的居住和服务区域。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "C级分隔",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分隔不同火灾风险区域的结构，通常用于载客量小于36人的客轮的居住和服务区域。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "气体灭火系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在总吨位≥2000的船舶货舱区域的灭火系统，用于扑灭火灾，主管机关认为运输火灾危险性较小的货物时可安装类似系统。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "固定泡沫灭火系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在油轮货舱甲板区域的灭火系统，用于扑灭火灾，载重吨≥20000的新建油轮应安装该系统。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "固定惰性气体系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在载重吨≥20000的新建油轮油舱和货舱甲板区域的灭火系统，用于防止火灾发生。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "A60隔热标准",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于面向油舱的上层建筑和甲板室的外部边界，要求达到隔热标准，防止火灾蔓延。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢制材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶结构的材料，如总吨位大于500t的散货船通常采用钢制材料或同等材料。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "不燃性材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造客轮居住舱室、主要隔断舱壁和甲板的材料，以满足结构防火要求。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "自动防火监测和报警系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在载客量大于36人的客轮上的系统，用于监测和报警火灾，可与自动喷水系统结合使用。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "自动喷水报警系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在载客量大于36人的客轮上的系统，用于自动喷水灭火并报警，可与自动防火监测系统结合使用。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "烟雾探测",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在走廊、梯道和脱险通道内的设备，用于检测火灾烟雾，属于Ic法的一部分。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "手动报警按钮",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在走廊、梯道和脱险通道内的设备，用于手动触发火灾报警，属于Ic法的一部分。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "固定式火灾检测和报警系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在可能发生火源的所有处所的系统，用于检测和报警火灾，属于IIIc法的一部分。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢制隔热",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于主要机舱顶棚的材料，具有隔热性能，防止火灾蔓延。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "甲板室",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护机舱或上层建筑的结构，通常由封闭式甲板构成。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在主甲板第一层窗户上的钢制盖板，用于防止火灾蔓延。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "居住舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船员居住的舱室，根据火灾风险划分为A、B、C三级分隔。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "货舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载货物的舱室，根据火灾风险要求安装灭火系统。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "油舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载油类货物的舱室，面向油舱的上层建筑和甲板室需达到A60隔热标准。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "上层建筑甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上层建筑的甲板，用于安装护栏、舷窗等安全设施。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "甲板下过道",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于甲板下方的通道，用于船员通行，应安装高效的舷梯步桥。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "水密舱盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在露天舱口上的舱盖，应为钢质或其他相当材料，以确保水密性。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "风雨密门",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分隔进入机舱的梯道的门，应为相当材料的第二扇门，确保风雨密性。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢质舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶结构的舱壁，通常由钢材或同等材料构成。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢质甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶甲板的材料，通常由钢材或同等材料构成。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢制舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶结构的舱壁，通常由钢材或同等材料构成。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢制甲板室",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护机舱或上层建筑的结构，通常由封闭式钢制甲板构成。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢制舱盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在露天舱口上的舱盖，应为钢质或其他相当材料，以确保水密性。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "钢制甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船舶甲板的材料，通常由钢材或同等材料构成。",
+        "chunk_ids": [
+            84
+        ]
+    },
+    {
+        "entity_name": "A级防火分隔",
+        "type": [
+            "防火分隔"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在1小时标准耐火试验中能有效阻止烟气和明火通过扩散的防火分隔，分为A - 60、A - 30、A - 15、A - 0四个级别，测试时间分别为60分钟、30分钟、15分钟、0分钟。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "B级防火分隔",
+        "type": [
+            "防火分隔"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在半小时耐火试验中有效阻止烟气和明火扩散的防火分隔，分为B - 15和B - 0两个级别，测试时间分别为15分钟和0分钟。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "C级防火分隔",
+        "type": [
+            "防火分隔"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由不燃材料制成，但不必满足防止烟气和明火扩散及限制温度上升的特殊要求的防火分隔。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "标准耐火试验",
+        "type": [
+            "试验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于测试防火分隔性能的试验方法，分隔样品表面积、长和宽分别不小于4.65m²、2.44m、2.44m，暴露于试验炉中，测量时间-温度关系点得出光滑曲线。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "防火门",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于永久性封闭舱室的防火门，应有与防火分隔相同的防火等级，能向关闭反方向倾斜3.5°，并能由控制站同时控制闭合，门之间相互独立。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "防火气阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在通风管上的自动故障保护且能自动关闭的防火气阀，用于防止火灾通过通风管扩散。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "防火阀",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于通风管的防火阀，可以人工控制，并有指示表明其处于开启或关闭状态。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "特殊区域",
+        "type": [
+            "区域分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱壁甲板上边或下边的一个封闭区域，用于运输加有燃料的可在其舱室内运动的机动车辆，该区域也可通行乘客，如滚装客轮的车库和滚装货轮的车辆甲板。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "固定灭火系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "安装在特殊区域内的有效固定灭火系统，用于防止火灾扩散，通常采用固定式压力水雾灭火系统。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "自动火灾监测系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于监测火灾的自动系统，通常采用固定式压力水雾灭火系统，用于特殊区域的火灾防护。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "耐火材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能够承受固定防火试验中热应力，有效阻止烟气和明火扩散的材料，用于高速船防火保护安排。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "防火隔离",
+        "type": [
+            "概念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指防止明火在规定时间内从一个区域扩散至另一区域的防护措施，规定时间即为乘客的疏散时间。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "防火隔离区",
+        "type": [
+            "区域分类"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由非易燃材料、防火材料或它们二者结合制造的区域，用于实现等效的防火防护。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "IMO高速船规范（HSC规范）",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海事组织（IMO）针对高速船制定的规范，认为使用铝合金和纤维复合材料等轻型材料建造的船舶具有较低的防火等级，提出了新的火灾隔离方法。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "SOLAS钢制船公约",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海上人命安全公约（SOLAS），针对钢制船舶制定的防火规范，与IMO高速船规范（HSC规范）相比，采用了不同的火灾隔离方法。",
+        "chunk_ids": [
+            85
+        ]
+    },
+    {
+        "entity_name": "船体建造工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "加工制作船体构件，再将它们组装焊接成中间产品（部件、分段、总段），然后吊运至船台上总装成船体的工艺过程。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "舾装工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船业通常将主船体和上层建筑以外的机电装置、营运设备、生活设施、各种属具和舱室装饰等，统称为舾装工程。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "涂装工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体内外表面和舾装件上，按照技术要求进行除锈和涂敷各种涂料，使金属表面与腐蚀介质隔开，达到防腐蚀处理的目的。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船方法以区域为基础，使船体建造、舾装和涂装三种不同类型的作业相互协调和有机结合，形成壳、舾、涂一体化建造技术。 | 造船业发展的高级状态，即“空间分道、时间有序”的状态，实现造船社会技术的“集成”机制。 | 数字化造船中的一种工艺，将船体结构（壳）、舾装（设备安装）和涂装（表面处理）三个环节整合为一个整体进行设计和施工。",
+        "chunk_ids": [
+            86,
+            88,
+            92
+        ]
+    },
+    {
+        "entity_name": "船体放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船生产过程中的首道工序，工作内容包括船体线型光顺、绘制肋骨型线图、船体构件展开、绘制施工图及制作供施工用的样板和样箱、确定加放加工装配余量等。 | 船体建造的第一道工序，将设计图放大成1:1或1:10、1:5比例的实尺图样，作为船体构件下料、加工的依据。",
+        "chunk_ids": [
+            86,
+            92
+        ]
+    },
+    {
+        "entity_name": "手工放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "始于20世纪40年代中期，主要工作内容为船体线型光顺、绘制肋骨型线图、船体构件展开、绘制施工图及制作供施工用的样板和样箱、确定加放加工装配余量等。 | 一种传统的放样方法，主要工作内容包括船体线型光顺、绘制肋骨型线图、船体构件展开、绘制施工图及制作样板和样箱、确定加放加工装配余量等。 | 按比例绘图的实尺放样和按1:10或1:5比例绘图的比例放样，用于船体放样。",
+        "chunk_ids": [
+            86,
+            87,
+            92
+        ]
+    },
+    {
+        "entity_name": "实尺放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在放样台按1:1比例进行，是传统的放样方法，手工操作，劳动强度大，精度差，且需要大面积的样台和花费大量材料制造样板和样箱，成本高，效益低。 | 在放样台按1:1比例进行的放样方法，属于传统手工放样的一种。",
+        "chunk_ids": [
+            86,
+            87
+        ]
+    },
+    {
+        "entity_name": "比例放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在放样桌上按一定缩小的比例进行，是传统的放样方法，手工操作，劳动强度大，精度差，且需要花费大量材料制造样板和样箱，成本高，效益低。 | 在放样桌上按一定缩小比例进行的放样方法，属于传统手工放样的一种。",
+        "chunk_ids": [
+            86,
+            87
+        ]
+    },
+    {
+        "entity_name": "船体构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造工艺中加工制作的对象，用于组装焊接成中间产品（部件、分段、总段）。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造工艺中组装焊接成的中间产品之一，用于后续吊运至船台上总装成船体。 | 船舶建造过程中按一定规则划分的结构单元，如船体中部平面分段和首尾分段，用于分道建造。",
+        "chunk_ids": [
+            86,
+            90
+        ]
+    },
+    {
+        "entity_name": "总段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造工艺中组装焊接成的中间产品之一，用于后续吊运至船台上总装成船体。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "船台总装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造工艺中的最后阶段，将分段或总段吊运至船台上进行总装成船体。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "船舶下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造工艺中的最后阶段，将总装完成的船体从船台上移至水中。 | 将建造到预定工程量的船舶移到水中去的作业，分为重力式下水、牵引式下水和漂浮式下水三种方法。 | 船舶建造到预定工程量时，依靠专门设备和操作方法将船舶移到水中的作业。",
+        "chunk_ids": [
+            86,
+            87,
+            88
+        ]
+    },
+    {
+        "entity_name": "舾装件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的构件，包括机电装置、营运设备、生活设施、各种属具和舱室装饰等。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "机械舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装按专业内容划分的一种类型，涉及机械装置的安装。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "电气舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装按专业内容划分的一种类型，涉及电气系统的安装。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "管系舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装按专业内容划分的一种类型，涉及管路系统的安装。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "船体铁舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装按专业内容划分的一种类型，涉及船体结构的铁件安装。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "木作",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装按专业内容划分的一种类型，涉及木材及相关材料的加工和安装。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "舾装托盘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业中用于存放和运输舾装件的平台或容器。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "分段舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业按阶段划分的一种类型，指在分段阶段进行的舾装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "总段舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业按阶段划分的一种类型，指在总段阶段进行的舾装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "船内舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业按阶段划分的一种类型，指在船内进行的舾装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "机舱舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业按区域划分的一种类型，指在机舱区域进行的舾装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "甲板舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业按区域划分的一种类型，指在甲板区域进行的舾装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "住舱舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装作业按区域划分的一种类型，指在住舱区域进行的舾装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "钢材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "铝",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "铜",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "有色金属及其合金",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，包括铝、铜等及其合金。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "木材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "工程塑料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "水泥",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "陶瓷",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "橡胶",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "玻璃",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舾装工程中使用的材料之一，用于制造各种舾装件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中的一个步骤，用于清除船体内外表面和舾装件上的锈迹。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "涂料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中使用的材料，用于涂敷在船体内外表面和舾装件上。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "钢材预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中的一个步骤，用于对钢材表面进行处理，为后续涂装做准备。 | 对钢材表面进行矫平、除锈、涂防护底漆和烘干等作业，以消除氧化皮、铁锈、局部凹凸不平、翘曲或扭曲等缺陷。",
+        "chunk_ids": [
+            86,
+            87
+        ]
+    },
+    {
+        "entity_name": "分段涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中的一个步骤，指在分段阶段进行的涂装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "总段涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中的一个步骤，指在总段阶段进行的涂装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "船台涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中的一个步骤，指在船台阶段进行的涂装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "码头涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装作业中的一个步骤，指在码头阶段进行的涂装工作。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "区域造船法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船方法，以区域为基础，使船体建造、舾装和涂装三种不同类型的作业相互协调和有机结合。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "工艺方案",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中为造船生产制定的优良方案和方法，用于缩短周期、降低生产成本、提高质量和改善生产条件。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "新工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中研究开发的新技术，用于提高造船工艺水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "新技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中研究开发的新技术，用于提高造船工艺水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "生产效率",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要提高的指标，用于提升整体造船水平。 | 衡量造船过程中资源利用和产出能力的指标，是造船模式发展的重要考量因素。",
+        "chunk_ids": [
+            86,
+            89
+        ]
+    },
+    {
+        "entity_name": "船舶建造工艺技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要开发和提升的技术，用于适应社会经济发展的需要。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "自主创新能力",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要提升的能力，用于提高整体造船水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "产品结构",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要优化的方面，用于提升整体造船水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "建造周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要缩短的指标，用于提升整体造船水平。 | 船舶建造所需的时间，是衡量造船模式优劣的重要指标。",
+        "chunk_ids": [
+            86,
+            89
+        ]
+    },
+    {
+        "entity_name": "产品质量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要提高的指标，用于提升整体造船水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "生产成本",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要降低的指标，用于提升整体造船水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "生产条件",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺中需要改善的方面，用于提升整体造船水平。",
+        "chunk_ids": [
+            86
+        ]
+    },
+    {
+        "entity_name": "数学放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用电子计算机技术进行的放样方法，能够对全船线型和结构实行计算机光顺和放样，并实现图形显示、自动绘图和数据存储。 | 用数学方程定义船体型线或船体型面，建立数学模型，借助电子计算机完成船体放样。",
+        "chunk_ids": [
+            87,
+            92
+        ]
+    },
+    {
+        "entity_name": "船体号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "放样的后道工序，将放样展开后的船体构件外形复制到钢板或型钢上，并标注加工装配符号和施工信息，供后续工序使用。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "数控号料",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "目前大多数船厂普遍采用的号料方式，利用数控技术进行船体构件外形的复制和标注。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "数控切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代船厂中用于切割钢板的设备，附带号料装置，可在切割同时进行自动号料。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "套料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "号料的一种形式，借助大型计算机进行交互式自动图形套料。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "船体钢料加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将预处理后的钢材加工成设计所要求的规格和形状，按加工特性分为冷加工和热加工，按构件形状分为边缘加工和成形加工。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "钢料切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代船厂中船用钢板切割的主要方式，已从手工切割、光电跟踪切割为主转为以数控切割为主，包括机械剪切、气体火焰切割、等离子切割、激光切割和水射流切割等。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "边缘加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件边缘加工包含三种加工作业：切割得到构件、坡口加工、自由边和人孔磨光加工，以满足焊接和装焊技术要求。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "成形加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将边缘加工后的零件加工成构件所要求的实际形状，包括弯曲、折角或折边等空间形状的加工，占船体钢材加工工作量的10%~18%。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "板材成形加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船用板材线型复杂，加工困难，通常采用冷加工设备（弯板机、液压机等）或热加工（水火弯板工艺）解决。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "型材成形加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一般采用液压型材弯曲机对型材进行弯曲成形，近年来数控肋骨冷弯技术及设备不断发展，并朝人工智能和微机控制方向发展。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "船体装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将加工合格的船体零件组合成部件、分段、总段，直至整个船体的工艺过程，机械化和自动化程度不断提高。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "部件装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体装配的一部分，包括各种焊接T型梁、肋骨框架、尾柱和舵等的装配。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "分段装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体装配的一部分，包括平面分段、曲面分段、半立体分段、立体分段和总段等的装配。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "船台装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船台上或船坞内将分段、大型立体分段和总段组装成整个船体的装配过程。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "船舶试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的最后阶段，包括系泊试验、倾斜试验和航行试验，共分两个试验阶段。",
+        "chunk_ids": [
+            87
+        ]
+    },
+    {
+        "entity_name": "重力式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用船舶自身重量产生的分力克服滑道与船舶间的摩擦力，使船舶自行下滑到水中去。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "牵引式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用引曳滑道与下水车(升船机等)相配合，将船舶牵引到水中去。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "漂浮式下水",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将水引入造船坞内，让船舶自己漂浮起来，然后开启坞门，将船舶拖曳出去。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "系泊试验",
+        "type": [
+            "试验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶基本竣工后，在码头上进行的试验，用于检查主机、辅机、各种设备系统的完整性和可靠性。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "倾斜试验",
+        "type": [
+            "试验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶置于静水区域进行的试验，用于测定完工船舶的重心位置。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "航行试验",
+        "type": [
+            "试验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对新建船舶进行的综合性全面考核，包括轻载试航和满载试航，检查是否满足设计要求。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "交船验收",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶试验结束后，船厂对船舶及装备进行逐项交验，并签署交船验收文件，由验船机构发给合格证书。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "分段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船方法，将船舶分为若干分段进行制造，再进行整体装配。 | 将船体划分为若干分段进行建造的方法，影响外板接缝线的划分。",
+        "chunk_ids": [
+            88,
+            98
+        ]
+    },
+    {
+        "entity_name": "铆接技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "20世纪50年代前广泛使用的船舶建造技术，使木船建造发展为以钢船建造为主体的近代造船。 | 一种造船技术，用于船舶建造，是造船模式发展过程中的一个主导技术。",
+        "chunk_ids": [
+            88,
+            89
+        ]
+    },
+    {
+        "entity_name": "焊接技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "60年代普遍替代铆接技术的船舶建造技术，使造船方法从“系统”导向转变为“区域”导向。 | 一种造船技术，用于船舶建造，是造船模式发展过程中的一个主导技术。",
+        "chunk_ids": [
+            88,
+            89
+        ]
+    },
+    {
+        "entity_name": "成组技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "70年代起引入并研究的造船技术，通过建造过程的相似性分析，实现按“中间产品”概念组织流水和虚拟流水生产。 | 一种用于工业过程管理的分类与编码方法，用于造船领域以提高生产率，使多品种、变批量生产获取批量生产效益。",
+        "chunk_ids": [
+            88,
+            89
+        ]
+    },
+    {
+        "entity_name": "CAD",
+        "type": [
+            "设备/系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助设计技术，用于船舶设计阶段。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "CAM",
+        "type": [
+            "设备/系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助制造技术，用于船舶制造阶段。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "CIMS",
+        "type": [
+            "系统/标准",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机集成制造系统，是造船业发展的高级状态，即现代化造船模式的高级状态。 | 计算机集成制造系统，用于实现生产管理、施工工作要领、工作基准和基本设计、详细设计、生产设计的全面一体化。",
+        "chunk_ids": [
+            88,
+            90
+        ]
+    },
+    {
+        "entity_name": "模拟技术",
+        "type": [
+            "技术路线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "欧美和亚洲造船技术先进的国家采用的一种技术路线，在现有设备密集基础上进一步采用计算机、机器人和人工智能技术。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "创新技术",
+        "type": [
+            "技术路线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "欧美和亚洲造船技术先进的国家采用的另一种技术路线，通过数字化理念简化设计、制造和运行，研究新一代造船模式。",
+        "chunk_ids": [
+            88
+        ]
+    },
+    {
+        "entity_name": "分段制造模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船模式，通过将船舶划分为多个分段进行制造，是造船模式发展过程中的一个阶段。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "分道制造模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船模式，通过分道进行制造，是造船模式发展过程中的一个阶段。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "集成制造模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船模式，强调生产要素和生产条件的新组合，是造船模式发展过程中的一个阶段。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "整体制造模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船模式，是造船模式发展过程中的一个阶段。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "现代造船模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以成组技术（GT）理论为指导的造船模式，强调生产要素和生产条件的新组合，提高船舶工业的生产率。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "信息技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船技术，用于船舶建造，是造船模式发展过程中的一个主导技术。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "成组技术（GT）",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于工业过程管理的分类与编码方法，用于造船领域以提高生产率，使多品种、变批量生产获取批量生产效益。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "自由轮",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种舰船类型，采用成组技术建造，建造速度加快，成本降低。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "统计控制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种提高产品精度的方法，由W.E.德明向日本传授，用于造船领域。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "现代造船方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船方法，起源于美国的成组技术（GT）应用，后在日本得到发展。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "造船成组技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种造船技术，以成组技术（GT）为指导，用于提高生产率和组织生产流程。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "全美造船研究计划",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "美国的一项研究计划，旨在研究先进的船舶生产体制和技术，由NSRP组织执行。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "先进的船舶生产体制和技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "全美造船研究计划（NSRP）的研究内容，旨在研究和改进船舶生产体制和技术。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "现代造船理论系列丛书",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由NSRP组织编纂出版的以成组技术（GT）为指导的现代造船理论系列丛书。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "造船模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中采用的不同技术路线和组织方式，包括整体制造模式、分段制造模式等。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "建造成本",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中所消耗的资源和费用，是衡量造船模式经济性的重要指标。",
+        "chunk_ids": [
+            89
+        ]
+    },
+    {
+        "entity_name": "船体分道建造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将船体分段建造分成不同工序的建造方法，如日本船厂在60年代末至70年代初应用的将船体中部平面分段和首尾分段建造分成两道，分别设置两个车间。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "精度控制技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确保船舶建造精度的技术，包括从下料开始的加工、分段建造、坞内合拢等全过程的精度管理，如日立造船公司采用数控设备切割板材构件，直接开出焊接坡口，并在数控下料阶段完成装配精度信息。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "区域舾装技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将舾装工作按照区域进行设计和实施的造船方法，如日本在20世纪60年代初完善了舾装生产设计，实现舾装与分段制作平行作业，并采用CAD/CAM技术将详细设计与生产设计融为一体。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "数控设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于切割板材构件的设备，如日立造船公司使用数控设备进行平直板切割，确保整体精度和加工速度。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "CAD/CAM",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机辅助设计与制造技术，用于将详细设计与生产设计融为一体，实现舾装与分段制作的平行作业。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "补偿量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在精度控制中用于替代余量的数值，如日立造船公司从下料开始就准确标注补偿量，以确保整体精度。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "焊接坡口",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在焊接前预先加工的坡口形状，用于确保焊接质量和效率，如各种曲面外板加工坡口在钢材加工阶段直接开出。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中安装设备、管系、舾装件等工作的总称，如日本船厂实现舾装与分段制作平行作业。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "管系",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部的管道系统，如日立造船公司实现管系按单元进行组装，分段端部无余量合拢。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "二次烧损",
+        "type": [
+            "工艺问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涂装过程中由于重复施工导致的油漆浪费现象，如国内部分船厂涂装的二次烧损严重，造成工时浪费约55%。",
+        "chunk_ids": [
+            90
+        ]
+    },
+    {
+        "entity_name": "区域涂装技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶涂装过程中针对不同区域采用特定涂装技术，我国已掌握各种类型船舶和涂料的施工技术，其质量获得国外船东认可。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "货油舱特殊涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种针对货油舱的特殊涂装技术，用于防止油品腐蚀，已趋成熟，其涂装和工作效率接近或达到国际先进水平。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "涂装管理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶涂装过程中的组织、控制与管理，我国在该方面比先进造船国家落后，工料消耗与日本相比存在较大差距。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "机械化自动化焊接技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在焊接过程中采用机械化和自动化设备提高焊接效率和质量的技术，包括高速双丝平角焊、高速焊剂铜衬垫单面埋弧焊等新工艺。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶焊接的自动化设备，日本船厂已广泛配置并应用于平台小合拢与立体分段中合拢，由中央电脑室控制，实现车间无人化。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "高速旋转电弧焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接机器人，用于船体纵向构件焊接、H型构件焊接等，是日本常见的焊接机器人类型。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "多道埋弧焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接机器人，用于船体焊接，是日本常见的焊接机器人类型。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "全位置TIG焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接机器人，用于船体上甲板的单面搭接角焊、各种管系的对接焊等，是日本常见的焊接机器人类型。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "单丝FCB法埋弧自动单面焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "我国船厂采用的一种机械化、自动化焊接工艺，用于船体焊接。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "双丝RF埋弧自动单面焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "我国船厂采用的一种机械化、自动化焊接工艺，用于船体焊接。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "垂直自动气电焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "我国船厂采用的一种机械化、自动化焊接工艺，用于船体焊接。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "CO₂气体保护单面焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "我国船厂采用的一种机械化、自动化焊接工艺，用于船体焊接。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "平面分段制造流水线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶建造的流水线制造工艺，结合区域造船技术，提高焊接效率。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "低耗高效的船舶生产技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺技术的发展趋势之一，强调高生产效率和低资源消耗。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "绿色造船技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种强调资源利用率高、环境影响小的船舶制造技术，包含绿色船舶和绿色船厂两个方面。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "数字化造船技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺技术的发展趋势之一，强调通过数字化手段提升制造效率和管理水平。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "智能化造船技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造工艺技术的发展趋势之一，强调通过智能化手段实现无人化、自动化生产。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "绿色船厂",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在造船过程中对材料和能源使用效率高、污染物排放少、作业环境良好的船厂。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "绿色船舶",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在设计、建造和运营过程中采用环保技术，减少对陆海环境影响的船舶，也称为3R船舶。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "单道焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，用于减少焊接烟弧对环境的污染，是绿色造船技术的一部分。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "无排放的钢材预处理和涂装技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种绿色造船技术，用于减少钢材预处理和涂装过程中的污染物排放。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "密闭的造船场所",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种绿色造船技术，用于改善壳舾涂作业环境，减少空气污染。",
+        "chunk_ids": [
+            91
+        ]
+    },
+    {
+        "entity_name": "数字化造船",
+        "type": [
+            "建造工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过计算机系统精确定义造船全过程的建造方式，以电子工艺图表的形式规定所有壳舾涂作业和系统试验任务以及执行该任务的生产资源与操作方法。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "三维建模",
+        "type": [
+            "设计工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶和船厂的建模，以便在设计时使用船厂的3D环境制成工艺过程、作业计划、机器人操作、NC（数控切割）模拟和物流仿真。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "数字化样船库",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，存储船舶设计数据，支持船舶设计和建造的优化处理。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "实海域性能预报系统",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，用于预测船舶在实际海域中的性能表现。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "结构分析系统",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，用于分析船舶结构的强度、刚度等性能。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "资源消耗控制系统",
+        "type": [
+            "管理工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，用于控制和优化船舶建造过程中的资源消耗。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "建造精度控制系统",
+        "type": [
+            "管理工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，用于控制和保证船舶建造过程中的精度。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "智能优化系统",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，用于对船舶的设计和建造进行智能优化处理。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "可视化演示验证系统",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶数字化智能设计系统中的一个模块，用于对船舶设计和建造过程进行可视化演示和验证。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "管子加工软件",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于将国产和进口的多型软件系统转换为统一的管加车间数字化制造和管理格式的软件。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "管子定长切割生产线",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能自动识别管件，并将它们分别输送至不同后续工位的生产线。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "管法兰焊接装备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "能适应椭圆度较大的管子与法兰的焊接的焊接设备。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "肋骨冷弯机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据被弯型材和钢板的实际特性和成形目标，设定数控程序和参数的冷弯设备。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "弯板机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据被弯型材和钢板的实际特性和成形目标，设定数控程序和参数的弯板设备。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "船体构件号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "依据放样提供的构件样板、草图、样杆和数据，在平直的钢板和型材上画出构件的切割线及加工线等，并合理排列各构件图样以求省料省工。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "船体型线图",
+        "type": [
+            "设计图样"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由三组型线图（纵剖型线图、半宽水线图、横剖型线图）、型值表和主要尺度表组成的图样，用于表示船体形状和大小，是船舶设计计算航行性能、绘制其他图样及船体放样工作的主要依据。 | 由三组型线图（纵剖型线图、半宽水线图、横剖型线图）、型值表和主要尺度表所组成，用于表示船体的形状和大小，并作为船舶设计计算航行性能、绘制其他图样及船体放样工作的主要依据。",
+        "chunk_ids": [
+            92,
+            93
+        ]
+    },
+    {
+        "entity_name": "中纵剖面",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外壳内表面的一个基本投影面，用于表示船体的理论型线。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "中线面",
+        "type": [
+            "结构部件",
+            "基准面"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外壳内表面的一个基本投影面，用于表示船体的理论型线。 | 船体结构中的基准面，用于确定纵向构件的投影位置。",
+        "chunk_ids": [
+            92,
+            98
+        ]
+    },
+    {
+        "entity_name": "设计水线面",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外壳内表面的一个基本投影面，用于表示船体的理论型线。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "中横剖面",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外壳内表面的一个基本投影面，用于表示船体的理论型线。",
+        "chunk_ids": [
+            92
+        ]
+    },
+    {
+        "entity_name": "纵剖型线图",
+        "type": [
+            "设计图样"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由纵剖线叠绘到中纵剖面上的图形，用于表示船体侧面最大的外形轮廓，其中横剖线和水线的投影线组成了型值坐标格子线。",
+        "chunk_ids": [
+            93
+        ]
+    },
+    {
+        "entity_name": "半宽水线图",
+        "type": [
+            "设计图样",
+            "图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由平行于设计水线面每隔等距离的水平剖面与船体型表面截交而得的一组曲线叠绘到设计水线面上的图形，通常仅绘出水线的左舷部分，纵剖线的投影为平行直线，横剖线的投影为垂直直线。 | 用于绘制纵向构件与船体外板交线的图纸，是结构线放样的重要参考。",
+        "chunk_ids": [
+            93,
+            98
+        ]
+    },
+    {
+        "entity_name": "横剖型线图",
+        "type": [
+            "设计图样"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由平行于中横剖面的各站剖面与船体型表面截交而得的一组曲线叠绘到中横剖面上的图形，通常仅绘出横剖线的半边，水线的投影为水平直线，纵剖线的投影为垂直直线。",
+        "chunk_ids": [
+            93
+        ]
+    },
+    {
+        "entity_name": "型值",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "决定船体型线空间位置的各点坐标值，用于绘制型线图上各型线，通过各点的投影绘出每条型线。",
+        "chunk_ids": [
+            93
+        ]
+    },
+    {
+        "entity_name": "型值表",
+        "type": [
+            "设计表格",
+            "设计文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录各型线交点之型值的表格，用于提供型线放样所需的数据，如首尾轮廓线的尺寸、斜升船底的升高值、倾斜龙骨的倾斜值等。 | 记录梁拱曲线各点高度值的表格，用于后续绘制梁拱样板和进行检验。",
+        "chunk_ids": [
+            93,
+            95
+        ]
+    },
+    {
+        "entity_name": "总长",
+        "type": [
+            "主要尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体型表面（包括两端上层建筑在内）最前端和最后端之间的水平距离。",
+        "chunk_ids": [
+            93
+        ]
+    },
+    {
+        "entity_name": "设计水线长",
+        "type": [
+            "主要尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设计水线面与船体型表面首、尾端交点之间的水平距离。",
+        "chunk_ids": [
+            93
+        ]
+    },
+    {
+        "entity_name": "垂线间长",
+        "type": [
+            "主要尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "首垂线与舵杆中心线之间的水平距离。",
+        "chunk_ids": [
+            93
+        ]
+    },
+    {
+        "entity_name": "型宽",
+        "type": [
+            "主要尺度",
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设计水线处，船体型表面的最大宽度。 | 船舶的最大横向宽度，单位为毫米，用于计算梁拱曲线的几何关系。",
+        "chunk_ids": [
+            93,
+            95
+        ]
+    },
+    {
+        "entity_name": "船体型线放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体设计型线图按照一定比例（如1:50或1:100）绘制后，通过实尺放出型线，暴露并修正型线差错，使型线更趋光顺和合理，成为船体建造过程中各道工序施工的根本依据。 | 船体型线放样是将设计部门提供的型线图按照10或20等分船长(垂线间长)的站线进行1:1的实尺放样，以达到船体型线图三面投影的光顺和正确。",
+        "chunk_ids": [
+            93,
+            94
+        ]
+    },
+    {
+        "entity_name": "理论型线放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体型线放样的一种，用于在船体建造的初始阶段暴露并修正型线差错，使型线更趋光顺和合理。 | 理论型线放样是将设计部门提供的型线图按照10或20等分船长(垂线间长)的站线进行1:1的实尺放样，以达到船体型线图三面投影的光顺和正确。",
+        "chunk_ids": [
+            93,
+            94
+        ]
+    },
+    {
+        "entity_name": "格子线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型线图上的格子线是各组船体型线在相应投影面上的投影线，同时也是型线放样中测量尺寸的基准，保证其绘制精度（直线性、垂直性和间距值）是保证船体放样精度的前提条件。",
+        "chunk_ids": [
+            94
+        ]
+    },
+    {
+        "entity_name": "激光经纬仪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "激光经纬仪是在经纬仪的望远镜上增设一个激光管，通过一套光学设备，将激光束从望远镜中射出，并使射出的光束与目镜观察点相重合。激光经纬仪既保持了经纬仪的作用，又发挥了激光管的直射强光束的特性，扩大了经纬仪的昼间目观效果和夜间应用范围。",
+        "chunk_ids": [
+            94
+        ]
+    },
+    {
+        "entity_name": "基线",
+        "type": [
+            "材料部件",
+            "基准面"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "基线是船体放样中常用的直线，用于绘制船体结构线和格子线，通常通过激光经纬仪绘制，各点间距为1.5~2米。 | 船体结构中的基准面，用于确定纵向构件的投影位置。",
+        "chunk_ids": [
+            94,
+            98
+        ]
+    },
+    {
+        "entity_name": "垂线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "垂线是基线的垂直线，用于船体放样中确保结构线的垂直性，可通过激光经纬仪配合五棱镜绘制。",
+        "chunk_ids": [
+            94
+        ]
+    },
+    {
+        "entity_name": "梁拱曲线",
+        "type": [
+            "材料部件",
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板梁拱曲线俗称“抛势”，其高度由设计给定或取B/50~B/100，船中横剖面处最大，向首或尾逐渐减小。梁拱曲线有抛物线型、圆弧型和折线型等，后两种因简化加工和装配作业而被广泛采用。 | 用于描述船舶甲板结构形状的曲线，可通过作图法或计算法绘制，常采用抛物线型或圆弧型，以确保甲板横梁具有等曲率，便于加工和安装。",
+        "chunk_ids": [
+            94,
+            95
+        ]
+    },
+    {
+        "entity_name": "抛物线型梁拱曲线",
+        "type": [
+            "材料部件",
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "抛物线型梁拱曲线是通过作图法绘制的梁拱曲线，其绘制方法包括取直线OA=B/2，作OC、AD垂直于OA，且OC=AD=H，得矩形OCDA，并通过等分点绘制交点以形成抛物线。 | 通过样条光顺连接各点得到的梁拱曲线，其形状符合抛物线方程，与用圆弧曲线逼近，满足技术要求。",
+        "chunk_ids": [
+            94,
+            95
+        ]
+    },
+    {
+        "entity_name": "圆弧型梁拱曲线",
+        "type": [
+            "材料部件",
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "圆弧型梁拱曲线是通过计算法绘制的梁拱曲线，其绘制方法基于设计给定的梁拱高度和船体结构参数，用于确保甲板梁拱的曲率一致。 | 采用大圆弧曲线作为梁拱曲线，使甲板横梁成为等曲率的弯曲构件，便于加工和安装，但需通过计算法求出各等分点高度值。",
+        "chunk_ids": [
+            94,
+            95
+        ]
+    },
+    {
+        "entity_name": "梁拱高度",
+        "type": [
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板梁拱曲线在型宽处的高度值，单位为毫米，用于计算梁拱曲线的几何关系。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "半宽",
+        "type": [
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型宽的一半，单位为毫米，用于计算梁拱曲线在各等分点处的高度值。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "等分点",
+        "type": [
+            "设计点"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在宽度方向上按一定间隔划分的点，用于计算梁拱曲线在各点处的高度值。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "梁拱样板",
+        "type": [
+            "工艺工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于绘制和检验梁拱曲线的模板，上面标注有半宽线、船体中线、水平线和纵剖线。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "甲板中线",
+        "type": [
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构的中心线，通过将各站的梁拱高度叠加到纵剖线图的甲板边线交点之上，并用样条光顺连接得到。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "型线图",
+        "type": [
+            "设计文档",
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计中用于表示船体外形的图纸，包含水线、纵剖线、横剖线等，用于型线放样和检验。 | 是以较小的比例绘制的，其所产生的误差，在型线放样过程中不可避免地要作修改，才能符合型线的光顺性和投影一致性的要求。",
+        "chunk_ids": [
+            95,
+            96
+        ]
+    },
+    {
+        "entity_name": "型线放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据型值表绘制船舶外形曲线的过程，包括水线、纵剖线、横剖线、舷墙顶线等，需保证三面投影一致。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "投影一致性",
+        "type": [
+            "检验标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型线上任一点在三个投影图上的投影应符合点的投影规律，是型线精确性的关键指标。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "光顺性",
+        "type": [
+            "检验标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型线的曲度应缓和地变化，不允许有凹凸现象，尤其对设计水线以下部分尤为重要。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "样条",
+        "type": [
+            "工艺工具",
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接各设计点，形成光顺曲线的工具，常用于绘制梁拱曲线和甲板中线。 | 用于绘制光顺曲线的工具，连接接缝线以形成外板结构。",
+        "chunk_ids": [
+            95,
+            99
+        ]
+    },
+    {
+        "entity_name": "纵剖线",
+        "type": [
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示船舶纵向剖面形状的曲线，用于型线放样和检验，与水线、横剖线共同构成三面投影。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "水线",
+        "type": [
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示船舶在不同吃水时水面与船体交线的曲线，用于型线放样和检验。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "横剖线",
+        "type": [
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示船舶在不同横剖面处的形状曲线，用于型线放样和检验。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "舷墙顶线",
+        "type": [
+            "设计型线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示船舶舷墙顶部轮廓的曲线，用于型线放样和检验。",
+        "chunk_ids": [
+            95
+        ]
+    },
+    {
+        "entity_name": "型线光顺性",
+        "type": [
+            "设计要求"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指各型线的曲度应缓和地变化，不允许有凹凸现象存在，这对设计水线以下部分尤为重要。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "型线投影一致性",
+        "type": [
+            "设计要求"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指型线上任一点在三个投影图上的投影应符合点的投影规律。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "型线修改",
+        "type": [
+            "设计流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "型线修改过程中，往往由于一点或一线的改动而影响其他的点或线，甚至会影响整个设计要求，故对型线放样的修改具有一定的原则性和经验性。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "船体主要尺度",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括总长、垂线间长、型宽、型深、设计水线（尤其是半进流角）、中横剖面（尤其舱部）等，原则上不能改动，因为改动这些尺寸将影响船舶的排水量与航行性能。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "斜剖线",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "是斜剖面与船体表面的交线，一般是垂直于横剖面与外板型表面的交线。斜剖线位置虽是任意的，但应选择型线曲率较大，变化也较剧烈的部位。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "肋骨型线图",
+        "type": [
+            "设计图纸",
+            "图纸",
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "是船体构件放样展开和制作样板、样箱以及为冷热加工、装配画线提供施工依据的最根本之型线图，所以精度要求很高。 | 用于绘制肋骨型线的图纸，是船体结构设计和放样的基础文件。 | 用于绘制船体纵、横构件和外板接缝线的理论投影线的图纸，是结构线放样的施工依据。 | 用于表示船体结构形状的图纸，用于计算端接缝线在肋骨线之间的位置。",
+        "chunk_ids": [
+            96,
+            97,
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "肋骨型线放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在理论型线放样的基础上，按实际肋骨位置在纵剖型线图、半宽水线图上，根据图纸给定肋距插入各号肋骨线，然后再根据三个基本投影面的相互投影关系，在船中横剖面上作出肋骨型线图。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "肋骨号",
+        "type": [
+            "设计参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨号的编排一般民用船舶是由尾向首顺序编排；军用舰船则是由首向尾顺序编排。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "肋骨型线图检验",
+        "type": [
+            "检验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨型线图画好后，须检验船体型线的光顺性。检验方法与理论型线图的斜剖线检验法相同。一般在型线曲率变化较大的地方作3至5根斜剖线。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "型值样棒",
+        "type": [
+            "工具设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为使肋骨型值投至肋骨型线图上的工作简便，可制作出高度型值样棒；半宽型值样棒。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "肋骨型线",
+        "type": [
+            "设计参数",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨型线图中通过相同肋号的型值坐标点攀顺出各真实的肋骨型线。 | 用于描述船体肋骨在不同肋骨位置上的形状和曲线，是船体结构设计和放样中的关键要素，用于确保船体表面的光顺性和结构强度。",
+        "chunk_ids": [
+            96,
+            97
+        ]
+    },
+    {
+        "entity_name": "尾轴出口处的型线放样",
+        "type": [
+            "设计流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按船舶的不同类型，推进器轴的轴数与轴线布置形式有下述六种情况。",
+        "chunk_ids": [
+            96
+        ]
+    },
+    {
+        "entity_name": "轴壳",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尾轴穿出船体的部分，其形状和位置需要与船体曲面光顺过渡，以确保水流顺畅和结构强度。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "肋骨线",
+        "type": [
+            "结构部件",
+            "结构线",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体肋骨在不同横剖面处的投影线，用于确定船体结构形状和放样依据。 | 肋骨型线图上的基准线，用于确定外板接缝线和纵向构件的投影位置。 | 船体结构中的纵向构件，用于支撑船体并形成船体的骨架，端接缝线与肋骨线平行排列。",
+        "chunk_ids": [
+            97,
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "轴中心线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尾轴在船体中的中心位置线，用于确定轴壳形状和肋骨型线的放样。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "斜剖船体曲线",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过斜剖面放样得到的船体曲线，用于确保轴壳与船体曲面的光顺过渡。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "轴壳圆弧半径",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "轴壳在不同肋骨位置处的圆弧半径，用于确定轴壳与船体曲面的光顺连接。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "反圆弧",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接轴壳圆弧与原肋骨线的圆弧，确保轴壳与船体曲面的光顺过渡。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "结构线放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据设计图纸将船体纵、横构件和外板接缝线的理论投影线绘制于肋骨型线图上的工作，为后续加工和装配提供依据。 | 根据设计图纸将船体纵、横构件和外板接缝线的理论投影线绘于肋骨型线图上的工作，是获得构件展开、样板加工和装配依据的关键步骤。",
+        "chunk_ids": [
+            97,
+            98
+        ]
+    },
+    {
+        "entity_name": "横剖线图",
+        "type": [
+            "设计图纸",
+            "图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体在不同横剖面处的形状和结构的图纸，是肋骨型线放样和结构线放样的重要参考。 | 用于投影纵向构件与肋骨线交点的图纸，是结构线放样的重要参考。",
+        "chunk_ids": [
+            97,
+            98
+        ]
+    },
+    {
+        "entity_name": "纵剖线图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体在不同纵剖面处的形状和结构的图纸，是肋骨型线放样和结构线放样的重要参考。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "轴系布置图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定尾轴布置形式和轴壳位置的图纸，是肋骨型线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "轴壳图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示轴壳形状和尺寸的图纸，是肋骨型线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "基本结构图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体整体结构的图纸，是结构线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "中横剖面图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体在中横剖面处的形状和结构的图纸，是结构线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "外板展开图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体外板展开形状的图纸，是结构线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "首尾柱结构图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体首尾柱结构的图纸，是结构线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "分段划分图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船体分段划分的图纸，是结构线放样的重要依据。",
+        "chunk_ids": [
+            97
+        ]
+    },
+    {
+        "entity_name": "外板接缝线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外壳钢板拼接处的线，用于划分不同外板区域，如底板、舷侧外板、舷顶列板等，其排列影响船舶外观、钢材利用率和建造质量。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "纵向构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中沿船长方向布置的构件，如甲板纵桁、舷侧纵桁、底部纵桁等，其放样需考虑纵向弯曲和扭曲情况。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "上口线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纵向构件与面板交线的投影线，如甲板纵桁与甲板的交线，用于确定纵向构件在肋骨型线图中的投影形状。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "下口线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纵向构件与腹板交线的投影线，如舷侧纵桁与船体外板的交线，用于确定纵向构件在肋骨型线图中的投影形状。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "外口线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷侧纵桁与船体外板交线的投影线，用于确定纵向构件在肋骨型线图中的投影形状。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "内口线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷侧纵桁腹板与面板交线的投影线，用于确定纵向构件在肋骨型线图中的投影形状。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "肋骨剖线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纵向构件与各肋骨剖面相交线的投影线，用于确定纵向构件在肋骨型线图中的投影形状。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "分段接缝线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据分段建造法划分的外板接缝线，用于分段装配和焊接工艺。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "横接缝线",
+        "type": [
+            "结构线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "沿横剖面方向的外板接缝线，又称端接缝，用于划分外板区域。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "纵接缝线",
+        "type": [
+            "结构线",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "沿首尾方向的外板接缝线，又称边接缝，用于划分外板区域。 | 外板接缝线的一种，沿船体纵向排列，用于连接外板的纵向边缘，需考虑美观性和结构强度。",
+        "chunk_ids": [
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "端接缝线",
+        "type": [
+            "结构线",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "沿横剖面方向的外板接缝线，用于划分外板区域，通常优先排列。 | 外板接缝线的一种，排列在肋骨型线图上，与肋骨线平行，用于连接外板的纵向边缘。",
+        "chunk_ids": [
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "舷侧外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体侧部的外板，用于构成船体外壳，与主甲板相连的称为舷顶列板。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "龙骨底板",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船底中心线上的底板，是船体结构的重要组成部分。 | 船体底部的纵向构件，按设计宽度自船中向首尾排列，钢板中心线与船体中心线重合。",
+        "chunk_ids": [
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "舷列板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于舷部转圆部位的外板，又称转圆板，用于连接船底与舷侧。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "舷顶列板",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与主甲板相连的舷侧外板，用于连接船体上部结构。 | 船体顶部的纵向构件，纵接缝线通常与甲板边线平行或近似平行。",
+        "chunk_ids": [
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "K行板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "龙骨底板的代号，用于外板排列和标识。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "A行板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板的代号，用于外板排列和标识。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "B行板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板的代号，用于外板排列和标识。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "C行板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板的代号，用于外板排列和标识。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "S行板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷顶列板的代号，用于外板排列和标识。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "钢板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "构成船体外壳的材料，用于拼接成外板，其规格和数量影响接缝线排列。 | 用于船体建造的金属材料，根据设计要求切割和拼接成外板结构。",
+        "chunk_ids": [
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "余量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板拼接时为加工和装配预留的尺寸，其加放位置和数值影响接缝线排列。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "加工设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于外板加工的设备，其能力与尺度影响外板的极限尺寸。 | 用于加工船体结构的设备，如拼板、轧圆等操作。",
+        "chunk_ids": [
+            98,
+            99
+        ]
+    },
+    {
+        "entity_name": "装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件的组装过程，受接缝线排列和外板拼接方式影响。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "焊接工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体构件连接的方式，受接缝线排列和外板拼接方式影响。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "船体建造质量",
+        "type": [
+            "质量指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造的最终质量，受接缝线排列、外板拼接方式和装配工艺影响。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "比例计算",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定端接缝线在肋骨型线图上的位置，通过公式 $ K = \frac {k \times l}{L} $ 计算。",
+        "chunk_ids": [
+            98
+        ]
+    },
+    {
+        "entity_name": "般列板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向构件，纵接缝线位于肋骨型线圆角切点以外，若圆角半径大，可先拼板后轧圆。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "分段建造",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的一种方法，将船体分为若干分段进行建造，便于排列横缝线和纵缝线。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "分段接缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段建造中各分段之间的连接缝，用于确定分段内的横缝线和纵缝线排列。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "槽型龙骨底板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "龙骨底板的一种形式，折角线以上部分宽度不宜过大，便于加工成型。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "外板展开",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体外板曲面展开为平面图形，用于绘制号料草图或样板，计算钢板数量和规格。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "可展曲面",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "可以通过几何作图法精确展开的曲面，大部分船体内部构件和舾装件属于此类。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "不可展曲面",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "无法通过几何作图法精确展开的曲面，船体外板曲面多属于此类，需手工近似展开。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "号料草图",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标记钢板切割和加工的图纸，基于外板展开后的平面图形绘制。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "肋骨间距",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "相邻肋骨线之间的距离，用于计算端接缝线在肋骨型线图上的位置。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "肋骨级数",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨型线图上端接缝线所在位置的肋骨编号，用于计算端接缝线位置。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体中心线",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体对称轴线，用于确定钢板中心线与船体对称关系。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "甲板边线",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板边缘的轮廓线，用于确定舷顶列板纵接缝线的位置。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "企口",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于连接的边缘结构，用于确定舷顶列板纵接缝线的位置。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "菱形板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板结构中的一种形式，降低钢材利用率，不利于展开和加工成型。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "板缝线",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板接缝线的统称，包括端接缝线和纵接缝线，用于连接外板结构。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构线",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体各部分的轮廓线，与外板纵接缝线保持一定距离，最小尺寸不小于100mm。 | 船体各部分的轮廓线，与外板纵接缝线保持一定距离。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "外板围板长尺寸",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板与甲板、平台或内底板等结构之间的围板长度，最大不超过600mm，最小不小于300mm。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构连接工艺，需考虑接缝线布置以减少焊接引起的变形和应力。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "钢板宽度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢板的横向尺寸，根据肋骨型线变化而相应调整。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体强度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的承载能力，接缝线布置需考虑以提高船体强度。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "板的初挠度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢板在焊接前的初始弯曲度，需通过接缝线布置减少焊接引起的变形。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "局部弯曲应力",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在局部区域的应力分布，接缝线布置需减少该应力。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体横接缝线",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板接缝线的一种，沿船体横向排列，由样条连接成光顺曲线。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "光顺曲线",
+        "type": [
+            "设计工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接接缝线的平滑曲线，确保外板结构的连续性和美观性。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的整体结构，包括外板、肋骨、龙骨等构件，需通过接缝线布置优化。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体外板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外部的覆盖结构，由钢板拼接而成，需进行接缝线排列和展开。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体展开",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体曲面展开为平面图形，用于号料和加工。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体曲面",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板的曲面结构，分为可展曲面和不可展曲面。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体首尾",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体的前端和后端，结构较尖瘦，需调整纵缝线排列。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体分段",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将船体分为若干部分进行建造，便于接缝线排列和加工。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体分段接缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段之间的连接缝，用于确定分段内的接缝线排列。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体横缝线",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板接缝线的一种，沿船体横向排列，用于连接外板结构。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体纵缝线",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板接缝线的一种，沿船体纵向排列，用于连接外板结构。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构强度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的承载能力，接缝线布置需考虑以提高船体强度。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构稳定性",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在受力下的稳定性，接缝线布置需考虑以提高船体稳定性。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构设计",
+        "type": [
+            "设计类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的规划和布置，包括接缝线排列、展开和加工。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构工艺",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的制造工艺，包括接缝线排列、展开和加工。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体结构的材料，如钢板，需根据设计要求进行切割和拼接。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构加工",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的制造过程，包括接缝线排列、展开和钢板加工。",
+        "chunk_ids": [
+            99
+        ]
+    },
+    {
+        "entity_name": "船体结构检验",
+        "type": [
+            "检验"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的检查过程，确保接缝线排列和加工符合设计要求。",
+        "chunk_ids": [
+            99
+        ]
+    }
+]

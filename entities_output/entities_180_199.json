@@ -1,0 +1,5578 @@
+[
+    {
+        "entity_name": "阻荷制动",
+        "type": [
+            "制动方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶下水时的制动方式，通过将锚链或废铁块置于下水船舶两侧地面，并与船体串联或并联连接，利用阻荷的摩擦力消耗船舶滑行能量。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "锚制动",
+        "type": [
+            "制动方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶下水时的制动方式，通过抛锚或预置锚于水底，利用锚与河床的摩擦力实现制动。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "钢丝绳制动",
+        "type": [
+            "制动方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用钢丝绳收紧控制船舶滑行轨迹的制动方法，通过在船体和码头、水下固定点之间系设钢丝绳，拉紧后控制船舶滑行方向和终止位置。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "船舶建造方案",
+        "type": [
+            "建造方案"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据产品特点和制造要求，结合船厂生产条件制定的建造产品的基本方案，用于指导生产设计、编制生产计划和组织施工。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "造船生产准备",
+        "type": [
+            "生产准备",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶产品开工前的各项准备工作，任务是通过对生产要素的准备，保证产品按时开工并能连续有效地进行造船生产。 | 产品开工前的各项准备工作，包括劳动力资源、资金、材料与设备、工程计划、设计图纸、技术文件和情报资料等。",
+        "chunk_ids": [
+            180,
+            186
+        ]
+    },
+    {
+        "entity_name": "分（总）段制造方法",
+        "type": [
+            "建造方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案中关于船体建造阶段的具体划分和分（总）段制造方式的内容，用于指导船体结构的分段制造。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "分段舾装",
+        "type": [
+            "舾装方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案中的一种舾装阶段划分方式，指在船体分段完成时进行舾装作业。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "单元舾装",
+        "type": [
+            "舾装方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案中的一种舾装阶段划分方式，指在船体分段或单元完成时进行舾装作业。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "船台舾装",
+        "type": [
+            "舾装方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案中的一种舾装阶段划分方式，指在船台或码头上进行舾装作业。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "码头舾装",
+        "type": [
+            "舾装方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案中的一种舾装阶段划分方式，指在码头上进行舾装作业。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "可行性",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案选择时的评价维度之一，指船厂生产条件是否能满足方案要求，是否能保证建造计划的完成。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "合理性",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案选择时的评价维度之一，指方案是否便于组织平行施工，生产节奏是否均衡。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "先进性",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造方案选择时的评价维度之一，指方案是否有利于提高机械化、自动化程度，降低辅助作业量，获得更好的技术经济指标。",
+        "chunk_ids": [
+            180
+        ]
+    },
+    {
+        "entity_name": "总段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶建造方法，适用于小型船舶，通过将船体分为总段进行制造和吊装。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "塔式建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶建造方法，适用于船长在120米以内的中型船舶，通过分段制造和吊装完成。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "岛式建造法",
+        "type": [
+            "工艺流程",
+            "建造方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶建造方法，适用于大型船舶，通过将船体分为多个岛式分段进行制造和吊装，以充分利用船台面积。 | 一种船舶建造方法，分段划分时需避免上层建筑跨越两个岛或落在嵌补分段部位，以便提前吊装和开展舾装作业。",
+        "chunk_ids": [
+            181,
+            183
+        ]
+    },
+    {
+        "entity_name": "串联建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶建造方法，适用于尾机型船舶，通过串联分段进行建造，有利于提高船台周转率和提前舾装。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "分段制造方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中将船体划分为多个分段进行制造的方法，具体方法根据船厂条件和船舶特点选择。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "分段装焊场地",
+        "type": [
+            "场地设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶分段制造和装焊的场地，其面积和布置直接影响生产线布置和建造效率。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "胎架",
+        "type": [
+            "设备设施",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑和定位船舶分段制造的临时结构，根据分段特点和船厂条件选择使用通用或专用胎架。 | 用于支撑分段进行建造的临时结构，分段划分方案应尽量减少其使用以节约辅助材料。",
+        "chunk_ids": [
+            181,
+            184
+        ]
+    },
+    {
+        "entity_name": "起重运输能力",
+        "type": [
+            "生产条件",
+            "船厂条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体装焊车间、船台（船坞）和舾装码头的起重运输能力，直接影响船舶建造方案的选择。 | 船厂在分段划分时需考虑的重要条件，包括船台起重能力、装焊车间起重能力、分段翻身条件和分段运输负载能力。",
+        "chunk_ids": [
+            181,
+            182
+        ]
+    },
+    {
+        "entity_name": "机械化加工百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示机械化加工在总工作量中的占比。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "自动化加工百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示自动化加工在总工作量中的占比。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "钢材利用率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示钢材在建造过程中的使用效率。 | 用于评价船舶建造方案先进性的指标，表示实际使用钢材量占计划使用钢材量的百分比。",
+        "chunk_ids": [
+            181,
+            182
+        ]
+    },
+    {
+        "entity_name": "半自动和自动焊工作量百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示半自动和自动焊接在总焊接工作量中的占比。 | 用于评价船舶建造方案先进性的指标，表示半自动和自动焊接工作量占全船焊接工作量的百分比。",
+        "chunk_ids": [
+            181,
+            182
+        ]
+    },
+    {
+        "entity_name": "平面装焊工作量百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示平面装焊在总装焊工作量中的占比。 | 用于评价船舶建造方案先进性的指标，表示平面装焊作业工作量占船体装焊工作总量的百分比。",
+        "chunk_ids": [
+            181,
+            182
+        ]
+    },
+    {
+        "entity_name": "分段舾装工作量百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示分段舾装在总舾装工作量中的占比。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "单元舾装工作量百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示单元舾装在总舾装工作量中的占比。",
+        "chunk_ids": [
+            181
+        ]
+    },
+    {
+        "entity_name": "船体装配现场修割率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示船体装配过程中现场修割的占比。 | 用于评价船舶建造方案先进性的指标，表示船体装配现场修割长度占船体装配总长度的百分比。",
+        "chunk_ids": [
+            181,
+            182
+        ]
+    },
+    {
+        "entity_name": "辅助作业工时比率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶建造方案先进性的指标，表示辅助作业工时在总工时中的占比。 | 用于评价船舶建造方案先进性的指标，表示辅助作业工时占全船生产总工时的百分比。",
+        "chunk_ids": [
+            181,
+            182
+        ]
+    },
+    {
+        "entity_name": "机械化、自动化加工百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评价船舶建造方案先进性的指标，表示机械化和自动化加工工作量占全部零件加工工作量的百分比。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "部、组件装焊工作量百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评价船舶建造方案先进性的指标，表示部件组合件装焊工作量占船体装焊总工作量的百分比。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "分段舾装和单元舾装工作量百分率",
+        "type": [
+            "评价指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评价船舶建造方案先进性的指标，表示分段舾装和单元舾装工作量占全船舾装工作总量的百分比。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "分段重量",
+        "type": [
+            "分段参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段划分时的重要参数，包括分段内的舾装件和临时加强材的重量，用于确定分段划分的合理性。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "分段尺寸",
+        "type": [
+            "分段参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段划分时的重要参数，影响分段数量、工效和劳动条件，需结合船厂起重运输能力和结构刚性进行确定。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "分段结构刚性",
+        "type": [
+            "分段参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段划分时的重要参数，影响分段尺寸和重量的确定，尤其在甲板、舷侧等部位的分段划分中起关键作用。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "分段吊运翻身",
+        "type": [
+            "分段操作"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体分段划分时需考虑的操作可行性，影响分段重量和尺寸的确定。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "船体结构刚性",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体各部分结构的强弱差异，影响分段划分时的重量和尺寸选择。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "船底",
+        "type": [
+            "船体部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，通常在分段划分时以船厂起重运输能力为主要考虑因素。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "船首",
+        "type": [
+            "船体部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，通常在分段划分时以船厂起重运输能力为主要考虑因素。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "船尾",
+        "type": [
+            "船体部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，通常在分段划分时以船厂起重运输能力为主要考虑因素。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "船体部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，通常在分段划分时以船厂起重运输能力为主要考虑因素。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "船体部位",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，通常在分段划分时以分段结构刚性和吊运翻身可能性为主要考虑因素。 | 船体的上层结构，用于承载货物和人员，其与围壁接缝处常作为上层建筑分段的纵向大接缝。",
+        "chunk_ids": [
+            182,
+            184
+        ]
+    },
+    {
+        "entity_name": "舷侧",
+        "type": [
+            "船体部位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一部分，通常在分段划分时以分段结构刚性和吊运翻身可能性为主要考虑因素。",
+        "chunk_ids": [
+            182
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "结构部件",
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中按一定规则划分的船体部分，用于协调制造周期与吊装进度，确保结构强度和施工工艺合理性。 | 船体建造过程中按一定规则划分的结构单元，用于提高建造效率和施工便利性，如底部分段、舷侧分段、上层建筑分段等。 | 船舶建造过程中将船体划分为若干部分，便于装配和施工，分段的划分需考虑结构特点、工艺要求和船厂条件。 | 船体建造过程中按一定规则划分的结构单元，用于分段制造和装配，是船体建造精度管理的重要对象。 | 船舶建造中按区域划分的中间产品，用于分段装配和组合。 | 分段是造船过程中按结构和功能划分的中间产品，如平面分段和曲面分段，是单件流水作业中的重要组成部分。",
+        "chunk_ids": [
+            183,
+            184,
+            185,
+            189,
+            192,
+            199
+        ]
+    },
+    {
+        "entity_name": "分段制造周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段完成制造所需的时间，需与船台吊装进度计划相协调，避免制造周期与吊装进度不匹配。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "船台吊装",
+        "type": [
+            "施工工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中将分段吊装至船台进行总装的施工环节，需与分段制造周期相协调。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "船体结构强度",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在分段划分时需满足强度要求，避免大接缝布置在总强度或局部强度受力位置，如船中、船梁剖面突变处等。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "应力集中区域",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中因几何突变或构件末端等导致应力显著增大的区域，如甲板大开口角隅、机座纵桁末端等，大接缝应避开这些区域。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "分段大接缝",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段之间的连接缝，需保证结构强度和连续性，布置在平直或型线变化缓和的部位，以简化船台装配工作。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "壳舾涂一体化",
+        "type": [
+            "建造方法",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中“以船体为基础，以舾装为中心”的理念，强调分段制造时完成船体、舾装和涂装工作，形成独立的区域造船单元。 | 在上述船体、舾装、涂装和管件加工等四项技术实施并完善的基础上，运用统计控制技术分析生产过程，使各类造船作业实现空间分道、时间有序、责任明确、相互协调的作业排序，并由计算机全面辅助。 | 现代造船模式所确立的壳舾涂按区域/阶段/类型的生产作业方式，即船体（壳）、舾装（舾）、涂装（涂）三种不同作业性质类型的集成化生产方式。 | 在造船过程中，将船体结构（壳）、舾装（设备安装）和涂装（表面处理）三个环节同步进行的集成化作业方式，通过统一管理标准、管理流程、数据处理和资源平衡，整体协调不同类型的作业计划。 | 一种先进的造船模式，将船舶的结构（壳）、舾装（设备安装）和涂装（表面处理）三个环节进行一体化设计与制造。",
+        "chunk_ids": [
+            183,
+            191,
+            192,
+            194,
+            195
+        ]
+    },
+    {
+        "entity_name": "平面分段",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中平面部分的分段，便于机械化、自动化制造，尺寸应不超过生产线允许的最大尺寸。 | 船体结构中平面部分的制造分段，通常用于船体底部和侧面的制造。",
+        "chunk_ids": [
+            183,
+            198
+        ]
+    },
+    {
+        "entity_name": "机械化生产线",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平面分段制造的自动化设备，提高装配焊接效率，减少人工操作。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "肋距",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中相邻肋骨之间的距离，用于确定分段大接缝的布置位置，如1/4或3/4肋距处。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "水密肋板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于分隔舱室、防止水渗透的纵向构件，分段横向大接缝应布置在其所在肋距内。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "横舱壁",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中横向分隔舱室的构件，分段横向大接缝应布置在其所在肋距内，以减少纵向构件切断。 | 船体结构中的横向隔板，用于分隔舱室，分段划分时需考虑其位置和结构完整性。",
+        "chunk_ids": [
+            183,
+            185
+        ]
+    },
+    {
+        "entity_name": "舱口围板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口周围的结构板，分段划分时应保证其完整性，避免船台装配时进行高空作业。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "预舾装",
+        "type": [
+            "施工工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段制造阶段完成部分舾装作业，以减少船台装配时的嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "肘板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接船体不同结构部分的构件，如底部结构与舷部结构，常作为天然的分段大接缝。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "横骨架式结构",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一种类型，分段划分时应尽量作横向划分，以减少内部连续骨架的切断。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "纵骨架式结构",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的一种类型，分段划分时应尽量作纵向划分，以减少内部连续骨架的切断。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "尖舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体首尾部用于装载货物的舱室，分段横向大接缝应布置在尖舱舱壁外，以避免狭窄空间作业。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "人孔",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于人员进出的开口，分段大接缝应避开，以减少嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "水密门窗",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中防止水渗透的门窗，分段大接缝应避开，以减少嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "扶梯",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中供人员上下使用的通道，分段大接缝应避开，以减少嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "箱柜",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于存放物品的箱体，分段大接缝应避开，以减少嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "电路",
+        "type": [
+            "舾装部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶电气系统的一部分，分段大接缝应避开，以减少嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "电缆",
+        "type": [
+            "舾装部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶电气系统的一部分，分段大接缝应避开，以减少嵌补工作量。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "嵌补",
+        "type": [
+            "施工工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段装配过程中，对被切断的舾装件进行修复和连接的施工操作。",
+        "chunk_ids": [
+            183
+        ]
+    },
+    {
+        "entity_name": "纵向大接缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中沿纵向延伸的接缝，用于连接不同分段，其位置需根据分段划分方式合理布置，如靠近中桁材或旁桁材处，以方便施工和焊接。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "横向大接缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中沿横向延伸的接缝，通常布置在肋肘板上口上下 $100sim 150~mathrm{mm}$ 处，用于连接不同分段，便于总装和焊接。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "平断面接头",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段接头的一种形式，板和骨架在同一剖面内切断，常用于船体总段和上层建筑分段，有利于吊装和定位。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "阶梯形接头",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段接头的一种形式，板和骨架互相错开，常用于底部分段和舷侧分段，有利于保证强度，但可能影响装配工艺性。 | 分段接缝处的结构形式，通常用于减少结构错开和增强焊接质量。",
+        "chunk_ids": [
+            184,
+            185
+        ]
+    },
+    {
+        "entity_name": "倒阶梯形接头",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "岛式建造法中嵌补分段所采用的接头形式，便于吊装时进行嵌入作业。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "肋肘板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接肋骨与外板的构件，用于增强船体结构强度，其上口位置常用于布置纵向或横向大接缝。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "中桁材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向主要支撑构件，用于划分分段，其附近常布置纵向大接缝。 | 船体结构中的纵向构件，用于支撑船体并增强结构强度，分段纵向接缝常位于其附近。",
+        "chunk_ids": [
+            184,
+            185
+        ]
+    },
+    {
+        "entity_name": "旁桁材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向次要支撑构件，用于划分分段，其附近常布置纵向大接缝。 | 船体结构中的纵向构件，位于中桁材附近，分段纵向接缝在三个分段时位于其附近。",
+        "chunk_ids": [
+            184,
+            185
+        ]
+    },
+    {
+        "entity_name": "舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体内部的纵向或横向隔板，用于分隔不同舱室，其在甲板处切断以形成分段大接缝。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体最外层的结构板，用于保护船体内部，其展开图用于分段划分和接缝布置。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向支撑构件，用于增强船体强度，与肋肘板连接形成骨架结构。 | 船体结构中的横向支撑构件，用于增强船体强度，分段划分时需考虑其位置和结构完整性。",
+        "chunk_ids": [
+            184,
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中将整体结构划分为若干分段的过程，需考虑结构特点、建造工艺和设备条件。 | 在船舶建造过程中，根据产品图纸、船体型线和结构特点，结合船厂生产能力、设备条件和建造方法，对船体进行合理划分，形成若干分段，以提高建造效率和质量。",
+        "chunk_ids": [
+            184,
+            185
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "设备",
+            "设备设施",
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体分段吊装和装配的场地，其跨距和装配工艺性对分段划分和接头形式有重要影响。 | 用于船体分段合拢和最终装配的场地或平台，是船体建造精度管理的重要环节。 | 船舶建造中用于最终合拢和舾装的场地。",
+        "chunk_ids": [
+            184,
+            189,
+            192
+        ]
+    },
+    {
+        "entity_name": "起重设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊运分段的设备，其悬臂跨距限制了分段的最大尺寸，影响分段划分方案。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "假舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体建造过程中的临时支撑结构，分段划分方案应尽量减少其使用以节约辅助材料。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "立体分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包含甲板和围壁的三维结构分段，便于利用平面结构作基准面进行建造，减少胎架数量。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "列板纵缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板展开图中钢板的纵向接缝，可用于分段纵向大接缝的布置，以充分利用钢材。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "材料消耗",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段划分过程中需考虑的经济性指标，通过合理排板和减少辅助材料使用以降低整体材料消耗。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "分段刚性",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在吊运过程中保持结构完整性的能力，需通过合理划分尺寸或临时加强措施保证。",
+        "chunk_ids": [
+            184
+        ]
+    },
+    {
+        "entity_name": "底部分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部结构的分段，通常包括双层底结构，其长度、横向和纵向划分需考虑船厂生产能力、设备条件及结构特点。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的结构层，通常由内底板和外板组成，用于支撑船体重量并提供结构强度。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "环形分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构的一种划分方式，两端带有实肋板，便于装配和焊接。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "纵向划分",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在纵向方向上的划分方式，适用于纵骨架式结构，可减少纵向结构的对接接头。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "横骨架式",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一种形式，由横向骨架组成，通常避免纵向划分以减少对接工作量。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段接缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段之间的连接部位，通常采用平断面形或阶梯形接头，以保证结构强度和装配质量。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "内底板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双层底结构中的内层板，分段高度即为内底板高度，需保证其为平面以便流水线加工。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "肋板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的横向支撑构件，用于增强船体强度，分段高度通常不超过肋板上缘200~300mm。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "舷侧分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舷侧结构的分段，包括舷侧骨架、肋骨、强肋骨和舷侧纵桁，用于增强船体横向强度。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "甲板分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶甲板结构的分段，包括甲板骨架、横梁、强横梁和甲板纵桁，用于支撑甲板并增强结构强度。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "舱壁分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舱壁结构的分段，通常在甲板处切断，以保持甲板连续，减少船坞对接工作量。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "纵骨架式",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的一种形式，由纵向骨架组成，分段划分时可带有横舱壁边板和甲板边板以增加刚性。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "槽形舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舱壁的一种结构形式，通常分为左右舱壁分段和中间舱壁分段，便于总段总组和焊接。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "首总段",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首部结构的分段，通常划分为总段，便于装配和吊运，横向接缝位于首尖舱壁后1/4肋骨间距处。 | 船舶首部的总段结构，其横向接缝宜设在首尖舱壁后1/4肋骨间距处。",
+        "chunk_ids": [
+            185,
+            186
+        ]
+    },
+    {
+        "entity_name": "尾总段",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部结构的分段，通常划分为总段，便于装配和吊运，横向接缝位于尾尖舱壁前1/4肋骨间距处。 | 船舶尾部的总段结构，其横向接缝宜设在尾尖舱壁前1/4肋骨间距处。",
+        "chunk_ids": [
+            185,
+            186
+        ]
+    },
+    {
+        "entity_name": "半立体分段",
+        "type": [
+            "工艺流程",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶分段的一种形式，当总段重量或尺寸超过起重能力时，沿高度划分成3~6个半立体分段，便于船坞装配。 | 当首、尾总段的重量或尺寸超过起重能力时，沿高度划分的分段，边接缝一般取在中间甲板或平台以上150~200 mm。",
+        "chunk_ids": [
+            185,
+            186
+        ]
+    },
+    {
+        "entity_name": "球鼻首分段",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶球鼻部分的分段，通常单独划分为带有舱壁和平台的封闭分段，便于安装和焊接。 | 球鼻部分单独划分的封闭分段，带有舱壁和平台。",
+        "chunk_ids": [
+            185,
+            186
+        ]
+    },
+    {
+        "entity_name": "强肋骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的加强肋骨，用于增强船体横向强度，通常与舷侧纵桁一起构成舷侧结构。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "舷侧纵桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向支撑构件，用于增强舷侧结构强度，通常与肋骨和强肋骨一起构成舷侧分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "横梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的横向支撑构件，用于支撑甲板并增强结构强度，通常与强横梁和甲板纵桁一起构成甲板分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "强横梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的加强横梁，用于增强甲板横向强度，通常与横梁和甲板纵桁一起构成甲板分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "甲板纵桁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的纵向支撑构件，用于增强甲板纵向强度，通常与横梁和强横梁一起构成甲板分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "围槛板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱壁或轻围壁的上部结构，通常划入甲板分段或舱壁分段，用于增强结构强度和便于安装。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "边板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的边缘板，通常与舱壁或甲板结构相连，用于增强结构强度和便于安装。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "平台",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的水平支撑面，通常与甲板或舱壁相连，用于增强结构强度和便于安装。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "折角线",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的折角部位，通常作为甲板分段的边接缝位置，便于制造和安装。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "舱口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶甲板上的开口，分段划分时需避免端接缝位于舱口角隅或将舱口割开。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "舱口角隅",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口的角落部位，分段划分时需避免端接缝位于该位置，以减少结构破坏。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "横舱壁边板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横舱壁的边缘板，通常与甲板分段或舷侧分段相连，用于增强结构强度和便于安装。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "甲板纵骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板结构中的纵向支撑构件，用于增强甲板纵向强度，通常与甲板纵桁和横梁一起构成甲板分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "连接肘板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接结构构件的加强板，通常与甲板纵桁或围槛板相连，增强结构强度。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "涂装中心",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中进行涂装的区域，分段划分时需考虑其高度限制，以确保涂装作业的可行性。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "流水线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中用于分段加工和装配的生产线，分段长度需符合流水线的最大尺寸限制。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "反造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶分段在流水线上反向制造，以便于后续翻身焊接，通常用于平直双层底分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "翻身焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶分段制造完成后，通过翻身操作进行焊接，通常用于平直双层底分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "起重能力",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中用于吊运分段的起重设备能力，分段划分时需考虑其重量和尺寸限制。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中用于分段装配和搭载的场所，分段划分时需考虑其装配条件和对接工作量。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "对接焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶分段装配过程中，相邻分段之间的焊接作业，通常需考虑接缝形式和结构完整性。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "平断面形接头",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段接缝处的结构形式，通常用于保证接缝平整和焊接质量。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "肋骨间距",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中肋骨之间的距离，分段接缝位置通常位于其附近。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "首尖舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶首部结构中的舱壁，分段接缝通常位于其后1/4肋骨间距处。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "尾尖舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶尾部结构中的舱壁，分段接缝通常位于其前1/4肋骨间距处。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "轻围壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的轻型围壁，通常与甲板分段相连，用于增强结构强度和便于安装。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "总段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中较大的分段，通常包括多个结构部分，便于装配和吊运。 | 船舶建造中由多个分段组合而成的较大中间产品，用于总段舾装和船台合拢。",
+        "chunk_ids": [
+            185,
+            192
+        ]
+    },
+    {
+        "entity_name": "总组",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中将多个分段进行总装的工艺过程，通常用于总段的装配。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段高度",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在垂直方向上的尺寸，通常根据结构特点和船厂条件进行划分。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段长度",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段在水平方向上的尺寸，通常根据钢板规格和船厂生产能力进行划分。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段端接缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段端部的连接部位，通常布置在结构变化较小的部位，以减少结构破坏。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段翻身",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段制造完成后，通过翻身操作进行焊接，通常用于平直双层底分段。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段制造",
+        "type": [
+            "工艺流程",
+            "制造模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段的加工和装配过程，通常包括结构划分、焊接和检验等步骤。 | 传统造船模式中的一种，将船舶建造分为多个分段进行制造，属于“设备密集”的制造方式。 | 将船体分为若干部分进行制造，再进行整体组装，是造船过程中的重要环节。",
+        "chunk_ids": [
+            185,
+            194,
+            198
+        ]
+    },
+    {
+        "entity_name": "分段装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段的安装过程，通常在船坞内进行，需考虑对接焊和结构强度。 | 分段装配是造船过程中将构件组装成分段的工艺，是单件流水作业的重要环节。",
+        "chunk_ids": [
+            185,
+            199
+        ]
+    },
+    {
+        "entity_name": "分段检验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段的检验过程，通常包括结构完整性、焊接质量和尺寸精度的检查。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的图纸，用于指导分段制造和装配。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分方案",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的最终方案，通常经过初步划分、反复分析和修改后确定。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分原则",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的指导原则，通常包括结构特点、船厂条件和工艺要求。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分步骤",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的具体步骤，通常包括初步划分、反复分析和修改，最终确定划分方案。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分分析",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的分析过程，通常包括结构特点、船厂条件和工艺要求的综合考虑。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分修改",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的修改过程，通常在初步划分和分析后进行，以优化划分方案。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分优化",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的优化过程，通常通过反复分析和修改，以提高建造效率和质量。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分方案确定",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的最终确定过程，通常经过初步划分、反复分析和修改后完成。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图绘制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分的图纸绘制过程，用于指导分段制造和装配。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图审核",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分图纸的审核过程，通常包括结构完整性、工艺可行性和尺寸精度的检查。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图实施",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分图纸的实施过程，通常包括分段制造、装配和检验。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图调整",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分图纸的调整过程，通常在实施过程中根据实际情况进行修改。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图更新",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分图纸的更新过程，通常在实施过程中根据实际情况进行修改。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图确认",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分图纸的确认过程，通常包括结构完整性、工艺可行性和尺寸精度的检查。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "分段划分图交付",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中分段划分图纸的交付过程，通常用于指导分段制造和装配。",
+        "chunk_ids": [
+            185
+        ]
+    },
+    {
+        "entity_name": "上层建筑分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "上层建筑（包括甲板室）按甲板层划分的分段，通常不作纵向划分。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "横向接缝",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段之间的连接缝，用于连接不同分段，布置位置需考虑结构强度和舾装要求。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "设计准备",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船工程管理体系中的一部分，将产品设计、建造技术、工程计划有机地结合起来进行的准备工作。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "初步设计",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "解决‘造什么船’的第一个阶段，确定船舶总体性能、主要技术指标、动力装置、各种系统等重大技术问题。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "详细设计",
+        "type": [
+            "工艺",
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "解决‘造什么船’的第二个阶段，确定船舶全部技术性能、重要材料和设备选型与订货要求，以及各项技术要求和标准。 | 详细设计是按照船、机、电等专业分工进行的，每个部门负责各自的专业项目设计、计算和绘图，其图纸和技术文件需送交船级社和船东审查，经认可后方可开展后续生产设计工作。",
+        "chunk_ids": [
+            186,
+            187
+        ]
+    },
+    {
+        "entity_name": "生产设计",
+        "type": [
+            "工艺",
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据详细设计进行的最终设计阶段，为造船生产提供具体图纸和技术文件。 | 生产设计是解决‘怎样造船’的阶段，涉及建造工艺及其流程的设计，包括纲领性工艺文件的编制和工作管理图表的编绘，是初步设计和详细设计的依据，并反映其意图和要求。",
+        "chunk_ids": [
+            186,
+            187
+        ]
+    },
+    {
+        "entity_name": "船级社",
+        "type": [
+            "标准/机构",
+            "机构/组织"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶设计和技术文件进行审查和认可的机构，如中国船级社（CCS）。 | 参与船舶建造过程中的质量监督和验收工作的专业机构，如中国船级社（CCS）。",
+        "chunk_ids": [
+            186,
+            195
+        ]
+    },
+    {
+        "entity_name": "船东",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的拥有者或订货方，提出船舶设计和技术要求。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "合同设计",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "确定设计参数、设备选型、建造原则、入级标准，并进行一系列计算和设绘工作，为签订建造合同提供必要文件。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "报价设计",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船东要求，参照母型船估算造价，并提供技术规格书和总布置图。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "概念设计",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将任务书的要求转变成船体和轮机的设计参数，进行可行性研究，决定船舶总体性能。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "技术任务书",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "相关部门下达的指令性任务，说明产品的用途、航线、吨位、航速等设计要求。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "意向书及技术附件",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船东提出的订货意向，表明对船舶的各种要求和询问造价。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "造船合同及附件",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船东与船厂签订的建造合同，包含技术要求。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "主要设备选型规格清单",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "初步设计阶段提供的主要设备选型规格清单。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "主要设备厂商表",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "初步设计阶段提供的主要设备厂商表。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "详细说明书",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的详细说明书，包括总则、船体、轮机、电气等内容。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "总布置图",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的总布置图。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "型线图",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的型线图。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "中横剖面图",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的中横剖面图。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "机舱布置图",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的机舱布置图。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "舱室布置图",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的舱室布置图。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "电力负荷计算书",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的电力负荷计算书。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "舾装数据计算书",
+        "type": [
+            "通用实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "详细设计阶段提供的舾装数据计算书。",
+        "chunk_ids": [
+            186
+        ]
+    },
+    {
+        "entity_name": "原则工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "原则工艺是船舶建造的指导性工艺文件，包括船体建造方法、分段划分、吊装程序、构件余量、焊接方法与坡口形式、涂装要求等内容，用于指导整个建造过程。",
+        "chunk_ids": [
+            187
+        ]
+    },
+    {
+        "entity_name": "工艺阶段",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工艺阶段是船舶建造总周期中按生产性质或区域划分的一部分工程，通常根据造船工艺流程划分，具有相对独立性，如准备阶段、加工制作阶段、中间产品组装阶段等。",
+        "chunk_ids": [
+            187
+        ]
+    },
+    {
+        "entity_name": "工艺项目",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工艺项目是在一个工艺阶段内，由一个施工单位开工并完工的一部分工程，通常按报验项目划分，便于生产组织与安排，施工时间不宜过长。",
+        "chunk_ids": [
+            187
+        ]
+    },
+    {
+        "entity_name": "建造日程计划",
+        "type": [
+            "计划准备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "建造日程计划是生产计划通过日程管理实施的一种方式，与造船生产设计、生产负荷分析相互关联，用于进度控制，是造船生产管理的重要组成部分。",
+        "chunk_ids": [
+            187
+        ]
+    },
+    {
+        "entity_name": "订货计划",
+        "type": [
+            "计划准备",
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "domain_specific",
+            "general"
+        ],
+        "summary": "订货计划是工程计划的一种，内容从整体到局部、从总计划到细化的月度作业计划，是建造计划线表的依据。 | 工程计划按其计划的性质、范围和深度被分为的一种计划类型，用于整体工程的安排。",
+        "chunk_ids": [
+            187,
+            188
+        ]
+    },
+    {
+        "entity_name": "建造计划线表",
+        "type": [
+            "计划准备",
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "建造计划线表是在签订合同阶段确定建造方案和测算船厂负荷后编绘的日程总计划表，反映加工开始、中间产品制造、船舶总装、下水和交船等主要节点。 | 在签订合同阶段，确定建造方案和测算船厂负荷之后编绘的日程总计划表，反映加工开始、中间产品制造、船舶总装、下水和交船等主要节点。",
+        "chunk_ids": [
+            187,
+            188
+        ]
+    },
+    {
+        "entity_name": "大日程计划",
+        "type": [
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工程计划的一种类型，用于反映船舶建造的主要节点，如设计、加工开始、交船等。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "中日程计划",
+        "type": [
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工程计划的一种类型，用于详细安排施工程序和作业方法，如船台吊装主日程表。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "小日程计划",
+        "type": [
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "工程计划的一种类型，用于编制月度作业日程计划，作为施工部门编制旬和周作业计划的依据。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "综合日程表",
+        "type": [
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "大日程计划阶段的日程计划表，反映从设计、加工开始到交船的所有主要节点的周期和日程，以及材料、主要设备和外购外协件等交货期的节点线。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "主日程表",
+        "type": [
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "中日程计划阶段的日程计划表，用于详细安排施工程序和作业方法，如船台吊装主日程表、中间产品制造主日程表和平台周期表。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "月度计划表",
+        "type": [
+            "工程计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "小日程计划阶段的日程计划表，根据工作管理图表和主日程表编制，用于施工部门编制旬和周作业计划。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "材料与设备准备",
+        "type": [
+            "工艺准备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "供应部门根据原材料和主要机电设备供应交货期表，向有关厂商订货，并对到厂材料和设备进行验收和入库保管。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "工厂设施准备",
+        "type": [
+            "工艺准备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据建造工作要求，对专用工装和工夹模具进行设计、制造或订货，并对船厂主要设施如船台、滑道、起重机、码头等进行扩建或改建。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "人员准备",
+        "type": [
+            "工艺准备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据承建船舶的需要，对劳动组织和人员进行调整和补充，并对应用新技术、新工艺的人员进行技术培训。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "船体建造",
+        "type": [
+            "建造过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据设计图纸资料，经过放样、号料、加工、装配和焊接等一系列工序完成的建造过程。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "船体建造精度管理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以船体建造精度标准为基本准则，通过科学的管理方法与先进工艺技术手段，对船体建造进行全过程的尺寸精度分析与控制。 | 以船体建造精度标准为基本准则，通过科学的管理方法与先进的工艺技术手段，对船体建造进行全过程的尺寸精度分析与控制，以最大限度减小现场修整量，提高工作效率，降低建造成本，保证产品质量。",
+        "chunk_ids": [
+            188,
+            189
+        ]
+    },
+    {
+        "entity_name": "尺寸偏差",
+        "type": [
+            "建造问题",
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于船体结构复杂、加工工序多、手工作业量大，导致船体零件、部件、分段、总段和整体主尺度等不可避免地发生尺寸偏差。 | 工件完工的实际尺寸与其基本尺寸的代数差。船体建造中常见的偏差（误差）有随机性误差、系统误差。",
+        "chunk_ids": [
+            188,
+            189
+        ]
+    },
+    {
+        "entity_name": "造船工艺余量",
+        "type": [
+            "建造工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为补偿施工变形而预留的多余余量，装配中经过定位后再切除实际多余余量，以保证作业顺利和建造质量。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "现场修整",
+        "type": [
+            "建造工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括重新测量、画线、切割、装配和矫正等工序，几乎都是手工作业，消耗的工时约占船体建造总工时的1/4。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "船体建造公差标准",
+        "type": [
+            "标准规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在取得大量生产实践测量数据的基础上，运用数理统计方法，不断研究、制定、修改和完善船体建造公差标准。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "无余量造船方法",
+        "type": [
+            "建造工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用公差标准来控制施工精度，利用加放工艺余量来补偿施工变形，以减轻劳动强度，缩短造船周期。",
+        "chunk_ids": [
+            188
+        ]
+    },
+    {
+        "entity_name": "基本尺寸",
+        "type": [
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设计给定的尺寸，描绘船体工件几何形态的一种量值，由尺寸、形状和位置三部分组成。对于机械制造，就是设计图纸上标明的公称尺寸。而对于船体建造，是指经船体型线放样后在工作图（施工图）上给定的尺寸。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "实际尺寸",
+        "type": [
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工件完工后，通过检测得到的尺寸，由于存在检测误差，所以实际尺寸也并非反映尺寸的真值。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "随机性误差",
+        "type": [
+            "误差类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在相同条件下随机测量一批同类型工件时出现的偏差。这种误差是各种生产因素的综合结果，具有一定的数值范围并集中分布于某个误差分布中心附近，且服从概率统计规律，可以作为控制尺寸的依据。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "系统误差",
+        "type": [
+            "误差类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在同一施工条件下，工件在制造时尺寸发生有规律的偏差，这种偏差的发生规律可以用理论计算和实验确定，并用补偿措施加以消除。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "尺寸精度",
+        "type": [
+            "精度参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造中主要是指尺寸的准确度，另外还表达船体工件在各个工艺阶段有效配合的程度。精度的高低取决于施工方法；工艺过程的机械化和自动化的程度；工装、设备的类型与质量；技术和管理水平以及检测工具与测量方法等。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "尺寸公差",
+        "type": [
+            "精度参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工件尺寸允许的变动量作为船体建造公差，既要满足船舶设计的性能要求，又要满足建造过程中工件组装式的有效配合，并用以控制船体建造各道工序的质量。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "余量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "相对工件基本尺寸多加放的量值。余量是在未认识尺寸偏差规律的情况下，为控制尺寸精度的一种方式，分加工、焊接收缩和装配三种余量。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "补偿量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "补偿构件在各工序中所产生的尺寸偏差规律而留的一定尺寸裕度。补偿量是在可认识的规律性偏差基础上制定的，可细分为加工、分段装配、船台装配以及焊接变型等补偿。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "修整量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "完成修整作业的工作量。指在船体建造过程中，工件的实际尺寸不满足公差（包括装配公差）要求，所进行的画线、切割、焊补、几何形状的矫正和二次定位等工作。修整作业可分为现场修整和预修整两类。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "船体建造精度标准",
+        "type": [
+            "标准规范",
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度标准一般分为“标准范围”和“允许极限”两档，其主要内容包括：对钢材表面缺陷的规定；放样、画线和号料的精度；零部件制造的精度；分段制造的精度；船台合拢精度；焊缝质量及外形质量等。 | 船体建造精度标准一般分为‘标准范围’和‘允许极限’两档，主要内容包括对钢材表面缺陷的规定；放样、画线和号料的精度；零部件制造的精度；分段制造的精度；船台合拢精度；焊缝质量及外形质量等。",
+        "chunk_ids": [
+            189,
+            190
+        ]
+    },
+    {
+        "entity_name": "分段无余量上船台装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在分段上船台前进行修正，以适应船台装配的尺寸精度要求，即分段无余量上船台装配。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "全船分（总）段无余量上船台合拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对全船所有分段进行建造全过程的尺寸精度控制，实现分（总）段无余量上船台合拢。",
+        "chunk_ids": [
+            189
+        ]
+    },
+    {
+        "entity_name": "钢材表面缺陷",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指钢材表面存在的不规则或不完整之处，是船体建造精度标准中需要控制的内容之一。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造中的一个工艺步骤，用于将设计图纸转化为实际制造的基准线和轮廓。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "画线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造中的一个工艺步骤，用于在钢板或构件上标记出制造所需的尺寸和位置。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造中的一个工艺步骤，用于根据图纸确定材料的切割尺寸和位置。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "零部件制造精度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指零部件在制造过程中所达到的尺寸和形状的精确程度，是船体建造精度标准的重要组成部分。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "分段制造精度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体分段制造过程中所达到的尺寸和形状的精确程度，是船体建造精度标准的重要组成部分。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "船台合拢精度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体在船台上合拢时所达到的尺寸和形状的精确程度，是船体建造精度标准的重要组成部分。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝质量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊缝的成型质量、强度和外观质量，是船体建造精度标准的重要组成部分。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "外形质量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体结构外形的平整度和符合设计要求的程度，是船体建造精度标准的重要组成部分。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "施工误差",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船体建造过程中，实际尺寸与设计尺寸之间的偏差，是影响建造精度的重要因素。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "尺寸链理论",
+        "type": [
+            "理论"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的理论基础之一，用于分析和控制各工序尺寸的累积误差。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "尺寸补偿量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造精度管理中，用于替代余量的数值，以补偿施工误差。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "精度保证体系",
+        "type": [
+            "管理体系"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的重要内容，用于确保各工序尺寸精度符合要求。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "精度管理制度",
+        "type": [
+            "管理体系"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的重要内容，用于规范和指导精度控制的实施。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "精度检测手段",
+        "type": [
+            "检测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的重要内容，用于测量和评估各工序的尺寸精度。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "精度控制目标",
+        "type": [
+            "管理目标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的重要内容，用于明确各工序的精度要求。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "精度计划",
+        "type": [
+            "管理计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的重要内容，用于制定各工序的精度控制方案。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "工艺措施",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造精度管理的重要内容，用于预防和控制尺寸偏差。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "加工设备精度",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指加工设备的制造精度，是影响零件加工质量的重要因素。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "检测量具精度",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指检测量具的制造精度，是影响尺寸测量准确性的关键因素。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "气割割缝值",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指气割过程中产生的割缝宽度，用于确定零件切割尺寸的补偿值。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊接变形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊接过程中产生的结构变形，是影响船体建造精度的重要因素。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "热弯成形外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指通过热弯工艺成形的船体外板，其变形规律需通过测量确定补偿值。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊接材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指用于焊接的材料，如焊条、焊丝、焊剂等，是焊接工艺的重要组成部分。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊接接头标准",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊接接头的设计和制造标准，用于确保焊缝质量和结构强度。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝间隙",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊接过程中两焊件之间的间隙，是影响焊缝质量的重要参数。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝尺寸",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊缝的宽度和高度，是影响焊缝质量的重要参数。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝外表面质量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊缝外表面的平整度和外观质量，是焊缝质量的重要指标。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝射线探伤标准",
+        "type": [
+            "检测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊缝射线探伤的检测标准，用于评估焊缝内部缺陷。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝超声波探伤标准",
+        "type": [
+            "检测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊缝超声波探伤的检测标准，用于评估焊缝内部缺陷。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "焊缝缺陷修补标准",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指焊缝缺陷的修补标准，用于确保焊缝质量符合要求。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "手工焊操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指手工焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "埋弧半自动焊操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指埋弧半自动焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "埋弧单面自动焊操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指埋弧单面自动焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "埋弧单面焊双面成型自动焊操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指埋弧单面焊双面成型自动焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "船体结构部件焊接操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体结构部件焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "船体分段焊接操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体分段焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "船台大接头焊接操作规程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船台大接头焊接操作的规范和要求，用于确保焊缝质量。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "船体建造标准化",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指为实现船体建造全过程的全面标准化，包括设计、加工、装配、安装、校验和各项管理工作。",
+        "chunk_ids": [
+            190
+        ]
+    },
+    {
+        "entity_name": "质量控制循环活动",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船企业中的每个人都置身于各自业务的‘计划—实施—校核—改进—再计划’的无限循环和提高中。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "船舶建造标准化",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为达到有效的控制，实现一切与船舶生产有关的活动的全面标准化，包括产品设计、加工、装配、安装、校验和各项管理工作。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "建造合同技术谈判",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为避免船舶设计修改引起的生产混乱和成本增加，合同谈判须明确设计标准、建造标准、造船方法、质量指标、分段划分、精度数据、焊缝和工艺通道等。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "产品导向工程分解",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按船上区域、作业类型和施工阶段的相似性，将全船逐级分解为各类‘中间产品’，直至市场采购的物资。按‘中间产品’的专业化生产，组建整个生产系统。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "船体分道建造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按船体零件、部件、分段和总段的工艺过程的相似性组建各类生产线，达到均衡生产和生产资源的高效使用。同时，采用建造精度控制技术，以消除修整作业。采用线加热校正和成形技术，使船体零部件和分段达到规定尺寸，且节省工时。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "区域舾装技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶产品设计之前即制定建造策略，最大限度地把舾装作业提前在施工条件较好的车间内完成，开展单元舾装和分段舾装，采用各类模块，严格按区域划清各个舾装阶段。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "区域涂装技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在设计阶段就严格规定涂装的区域和阶段，即原材料涂装、部件涂装、分段涂装和船上涂装，使涂装成为贯穿所有制造级的作业过程，从而提高涂装质量，并消除不同工种的相互干扰。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "管件族制造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "把具有相似工艺过程的管子集聚为族，按‘族’组织流水线生产，使下一个循环期所需的各族管件在本循环期完成，并以‘托盘’形成集配，适时地提供给各个安装现场。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "一体化的柔性造船计划系统",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按生产区域编制生产计划，使‘中间产品’的生产与船舶系统无直接联系。运用物流控制技术统管生产过程，确保各艘船舶按时交付。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "造船编码技术",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对从合同设计开始到交船与售后服务，造船的所有活动内容进行信息分组、传递、交流和管理。编码是造船信息的载体，是一义性的语言，是应用成组技术、计算机技术和虚拟制造技术的基础。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "成组技术",
+        "type": [
+            "管理技术",
+            "技术",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "研究事物间的相似性，并将其合理应用的一种技术，即将具有相似特征或相似信息的事物按照一定准则分类成组（族），用相同的方法进行处理，以使单件或中、小批量生产获取大批量生产的高效率的生产技术和管理技术。 | 一种将相似零件和部件划分为同族性批量生产的技术，是船舶柔性建造技术的基础之一。 | 成组技术是用于组织单件流水生产的原理，通过将相似的中间产品分道或流水作业，实现柔性生产，提高生产效率。",
+        "chunk_ids": [
+            191,
+            193,
+            199
+        ]
+    },
+    {
+        "entity_name": "中间产品导向型的作业分解原理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "把最终产品按其形成的制造级，以中间产品的形式对其进行作业任务分解和组合。船舶的生产过程实际上是制造零件和部件，即所谓的‘中间产品’。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "相似性原理",
+        "type": [
+            "管理技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对产品作业任务分解成门类繁多的中间产品，按作业的相似特性，遵循一定准则进行分类成组，以便用相同的施工处理方法扩大中间产品的成组批量，以建立批量性的流水定位或流水定员的生产作业体系。",
+        "chunk_ids": [
+            191
+        ]
+    },
+    {
+        "entity_name": "分段建造法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶建造工艺，将船舶分解为多个分段进行建造，以提高建造效率和质量控制。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "焊接技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "推动船舶建造工艺发展的关键技术，使船舶生产由铆接散装进入到分段建造阶段。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "计算机技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "推动船舶建造工艺发展的技术之一，使船舶生产设计的手工放样被数学放样代替。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "数控技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "推动船舶建造工艺发展的技术之一，使大量的手工作业进入到自动化加工作业。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "超大型油船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种新船型，对船舶建造工艺提出了新的要求。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "集装箱船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种新船型，对船舶建造工艺提出了新的要求。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "滚装船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种新船型，对船舶建造工艺提出了新的要求。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "高速船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种新船型，对船舶建造工艺提出了新的要求。 | 一种船舶类型，具有较高的航行速度，对船体结构、建造精度和工艺标准提出了新的要求。",
+        "chunk_ids": [
+            192,
+            193
+        ]
+    },
+    {
+        "entity_name": "液化天然气船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种新船型，对船舶建造工艺提出了新的要求。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "海洋平台",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种新船型，对船舶建造工艺提出了新的要求。 | 一种用于海洋作业的大型结构，对船体结构、建造精度和工艺标准提出了新的要求。",
+        "chunk_ids": [
+            192,
+            193
+        ]
+    },
+    {
+        "entity_name": "IMO",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海事组织，其出台的船舶结构设计标准、船舶安全标准、涂层标准等推动了船舶建造工艺的发展。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "IACS",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际船级社协会，其出台的船舶结构设计标准、船舶安全标准、涂层标准等推动了船舶建造工艺的发展。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "船体",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造的基本组成部分，包括壳体结构，如舷侧外板、肋骨等。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的安装作业，包括设备、管路、电气系统的安装。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的表面处理和涂装作业，包括分段涂装、船台涂装等。 | 涂装是造船过程中对船体表面进行涂装的工艺，属于劳动组织形式的一部分，用于组织和管理涂装作业。",
+        "chunk_ids": [
+            192,
+            199
+        ]
+    },
+    {
+        "entity_name": "流水作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中采用的连续化、标准化生产方式，提高生产效率。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "标准化作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中采用的统一化、规范化的生产方式，提高生产效率和质量。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "专业化制作",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中针对不同工序进行专门化生产，提高效率和质量。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "配套供应体系",
+        "type": [
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造中上下游工厂协同作业的体系，确保材料和部件的及时供应。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "母子公司体制",
+        "type": [
+            "组织结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本造船企业采用的管理结构，通过资本纽带形成统一的管理网络系统。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "区域化总装造船",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本现代造船模式中采用的区域化生产方式，提高制造效率和集成度。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "集成程度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造中中间产品的组装和集成水平，反映生产效率和质量。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "制造周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造从开始到完成所需的时间，反映生产效率。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "制造效率",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中单位时间内完成的产量或工作量，反映生产管理水平。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "生产计划控制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对生产进度和资源的管理方式，确保按时完成。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "生产劳动效率",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中单位时间内完成的工作量，反映人力资源利用效率。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "生产管理水平",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对生产过程的组织、协调和控制能力。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "现代造船模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种集成化、标准化、流水化的船舶建造模式，由美国、日本、韩国等国家发展形成。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "传统造船模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与现代造船模式相对的旧式造船方式，通常效率较低。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "GT概念",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "美国二战期间提出的按区域和作业类型组织生产线的概念，推动现代造船模式的发展。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "日本现代造船模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本在20世纪70年代形成的现代造船模式，具有较高的制造效率和国际竞争力。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "韩国现代造船模式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "韩国在20世纪70年代末引进并发展形成的现代造船模式，成为世界第二大造船大国。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "造船企业",
+        "type": [
+            "组织结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从事船舶建造的企业，通常采用现代造船模式进行生产。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "总装厂",
+        "type": [
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中用于最终组装的工厂，通常规模较大。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "核心制造工厂",
+        "type": [
+            "设备/设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中承担主要制造任务的工厂，通常规模较大。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "制造能力",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中工厂完成船舶建造的能力，通常与规模和效率相关。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "制造精度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对尺寸、形状等的精确控制能力。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "制造标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中遵循的技术规范和质量要求。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "工艺标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对工艺过程的技术要求和规范。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造精度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对尺寸、形状等的精确控制能力。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造管理水平",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对生产过程的组织、协调和控制能力。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造效率",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中单位时间内完成的产量或工作量，反映生产管理水平。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造从开始到完成所需的时间，反映生产效率。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中遵循的技术规范和质量要求。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及的制造、装配、涂装等技术过程。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及的制造、装配、涂装等技术过程。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造管理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中对生产过程的组织、协调和控制能力。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造体系",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及的制造、装配、涂装等技术过程的综合体系。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及的制造、装配、涂装等技术过程的顺序安排。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中采用的制造、装配、涂装等技术过程的具体实施方式。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "建造方式",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中采用的制造、装配、涂装等技术过程的具体实施方式。",
+        "chunk_ids": [
+            192
+        ]
+    },
+    {
+        "entity_name": "液化天然气船(LNG)",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种专门运输液化天然气的船舶，对船体结构、建造精度和工艺标准提出了新的要求。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "柔性制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种制造技术，能够适应产品变化，具备瞬时、短期和长期柔性，适用于多型船舶的单艘或批量生产。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "敏捷制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种制造技术，通过灵活的动态联盟、先进的柔性制造技术和高素质人员的集成，实现快速响应市场需求。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "计算机集成制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将计算机技术与制造过程结合的技术，用于支持船舶产品计划、设计、仿真、制造、测试等各个环节。 | 一种通过计算机技术将产品设计与制造过程中各种孤立的自动化子系统有机集成起来，形成适用于多品种、小批量生产的集成化和智能化制造系统。",
+        "chunk_ids": [
+            193,
+            194
+        ]
+    },
+    {
+        "entity_name": "船舶绿色制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种注重环境保护和资源节约的制造技术，应用于船舶建造过程中。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "船舶精益制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种以减少浪费、提高效率为目标的制造技术，应用于船舶建造过程中。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "船舶超大型总段制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于制造大型船舶总段的制造技术，适用于大型船舶的建造。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "船舶平地建造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在平地上进行船舶建造的技术，适用于特定类型的船舶建造。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "船舶虚拟制造技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用计算机模拟和虚拟现实技术进行船舶设计和制造的技术。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "柔性生产计划系统",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种应用数理统计方法，将生产计划、速度与工艺、设计、材料采购和生产等活动综合起来，编制高水平计划的系统。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "CAD/CAPP/CAD/CAE一体化技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将计算机辅助设计（CAD）、计算机辅助工艺规划（CAPP）、计算机辅助工程（CAE）等技术集成的技术，用于支持船舶产品计划、设计、仿真、制造、测试等环节。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "车间作业自动化",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过自动化手段提高设备柔性和加工过程柔性的技术，是船舶产品柔性建造的基础。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "系统管理技术",
+        "type": [
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种涉及产品数据定义和交换工具、数据库及其管理、通信及企业全面一体化的技术，用于支持船舶建造的系统管理。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "数控加工设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用数控技术进行加工的设备，是船舶柔性建造技术的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "物料运储装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于物料运输和储存的装置，是船舶柔性建造技术的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "计算机控制系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于控制制造过程的计算机系统，是船舶柔性建造技术的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "自动流水线",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于连续生产过程的自动化设备，是船舶建造中应用的单项技术之一。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "CAD/CAM",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种将计算机辅助设计（CAD）与计算机辅助制造（CAM）结合的技术，是船舶建造中应用的单项技术之一。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "数控加工技术",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用数控技术进行加工的技术，是船舶柔性建造技术的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "工业机器人技术",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种利用工业机器人进行制造的技术，是船舶柔性制造技术的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "自动控制技术",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于控制制造过程的技术，是船舶柔性制造技术的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "中间产品",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在造船过程中形成的具有同族性批量生产特点的部件，是现代造船模式中的重要组成部分。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "零件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的基本组成单元，具有相似功能、形状、尺寸和工艺过程。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "部件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中的基本组成单元，具有相似功能、形状、尺寸和工艺过程。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "工艺过程",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及的加工和制造步骤，具有相似功能、形状、尺寸和工艺过程。",
+        "chunk_ids": [
+            193
+        ]
+    },
+    {
+        "entity_name": "船舶敏捷制造",
+        "type": [
+            "制造模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过建立船舶制造各方的共同基础结构，将造船企业内外的有关生产过程迅速集成为一个系统的组织方法，以对船舶的需求作出快速响应，并获取企业的长期经济效益。",
+        "chunk_ids": [
+            194
+        ]
+    },
+    {
+        "entity_name": "动态联盟",
+        "type": [
+            "组织结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶敏捷制造中，由船舶设计、生产计划等管理功能作为盟主，各分段和管系等制造部门及配套厂、原材料供应商和外协厂组成的联盟，具有内部盟员和外部盟员。",
+        "chunk_ids": [
+            194
+        ]
+    },
+    {
+        "entity_name": "CIMS",
+        "type": [
+            "制造系统",
+            "系统/技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "计算机集成制造系统的简称，是借助计算机硬件、软件技术，综合运用现代管理技术、制造技术、信息技术、自动化技术、系统工程技术，将企业生产全部过程中有关人、技术、经营管理三要素及其信息流、物流有机集成并优化运行的系统。 | 计算机集成制造系统，用于造船领域，实现从设计到制造、管理的全过程信息化集成。",
+        "chunk_ids": [
+            194,
+            195
+        ]
+    },
+    {
+        "entity_name": "信息集成共享",
+        "type": [
+            "技术特征"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "CIMS系统中以规范管理、标准设计、信息集成共享为标志，通过统一管理标准、管理流程、数据处理和资源平衡，将造船过程中所需的人、财、物、设计及制造等信息融于一个软件系统中。",
+        "chunk_ids": [
+            194
+        ]
+    },
+    {
+        "entity_name": "生产效率",
+        "type": [
+            "性能指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过应用CIMS技术，实现生产效率大幅度提高，是现代造船模式的重要特征之一。 | 衡量造船过程中产出与投入比的指标，是造船CIMS追求的目标之一。",
+        "chunk_ids": [
+            194,
+            195
+        ]
+    },
+    {
+        "entity_name": "生产成本",
+        "type": [
+            "性能指标",
+            "成本指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过应用CIMS技术，实现生产成本明显降低，是现代造船模式的重要特征之一。 | 衡量造船过程中资源消耗的指标，是造船CIMS追求的目标之一。",
+        "chunk_ids": [
+            194,
+            195
+        ]
+    },
+    {
+        "entity_name": "集成制造",
+        "type": [
+            "制造模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代造船模式中的一种，通过信息密集的方式将设计、制造、管理等环节集成，实现高效、低成本的生产。",
+        "chunk_ids": [
+            194
+        ]
+    },
+    {
+        "entity_name": "造船CIMS",
+        "type": [
+            "系统/技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门针对造船行业的CIMS系统，具有特殊框架模型，用于实现造船生产活动的信息化集成。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "船舶设计",
+        "type": [
+            "设计活动"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中的核心环节，涉及船体结构、系统布置、工艺规划等，是决定产品质量、成本和周期的关键因素。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "船舶建造",
+        "type": [
+            "制造活动"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造的全过程，包括分段制造、装配、检验等环节，是实现设计意图和满足船东要求的核心过程。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "造船管理",
+        "type": [
+            "管理活动"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "涉及造船过程中资源调配、计划组织、质量控制等管理内容，是实现高效造船的重要保障。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "绿色制造技术",
+        "type": [
+            "技术/方法",
+            "制造技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "综合考虑环境因素、资源利用效率和工人生命安全的现代制造模式，旨在减少对环境的负面影响。 | 综合考虑环境因素、资源利用效率和工人生命安全的现代制造模式，要求最大限度地减少对环境的负面影响，提高原材料和能源的利用效率，改善作业环境，减轻劳动强度。",
+        "chunk_ids": [
+            195,
+            196
+        ]
+    },
+    {
+        "entity_name": "船东代表",
+        "type": [
+            "角色/人员"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶建造过程中代表船东参与质量监督和提出设计制造要求的人员，对建造过程有直接影响。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "配套设备",
+        "type": [
+            "设备/部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中涉及的各种装备、仪器、仪表等，需在船体系统中进行布置和装配。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "物资与库存管理",
+        "type": [
+            "管理活动"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船过程中对零部件、设备等物资的采购、存储和调配管理，具有高度复杂性。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "外场作业",
+        "type": [
+            "作业类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造中在船体外部进行的作业，受气候条件影响较大，对生产计划执行有较大影响。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "MRPⅡ",
+        "type": [
+            "系统/技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "物料需求计划系统，用于造船生产计划管理，以增强计划的柔性和实用性。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "ERP",
+        "type": [
+            "系统/技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "企业资源计划系统，用于造船生产计划管理，以增强计划的柔性和实用性。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "设计周期",
+        "type": [
+            "时间/周期"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计所需的时间，受订单数量、产品复杂性等因素影响，是造船CIMS中的关键因素。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "质量检验",
+        "type": [
+            "质量活动"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中由工厂质量检验部门及船级社、船东代表共同参与的质量监督和验收工作。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "材料选用",
+        "type": [
+            "材料/工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造过程中对材料的选择和使用，直接影响资源利用效率和环境影响。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "资源浪费",
+        "type": [
+            "问题/现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造过程中因材料选用不当或利用效率低导致的资源浪费问题。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "环境污染",
+        "type": [
+            "问题/现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造过程中对空气、土壤和水体等环境造成的污染问题。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "绿色船舶制造",
+        "type": [
+            "技术/方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "综合考虑环境因素、资源利用效率和工人生命安全的现代制造模式，旨在减少对环境的负面影响。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "作业环境",
+        "type": [
+            "环境/条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造过程中工人所处的工作环境，需改善以减轻劳动强度和保障安全。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "劳动强度",
+        "type": [
+            "工作条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造过程中工人所承受的体力或脑力负担，需通过改善作业环境来减轻。",
+        "chunk_ids": [
+            195
+        ]
+    },
+    {
+        "entity_name": "绿色材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶设计中广泛采用的材料，用于减少对环境的负面影响，并考虑其在船舶产品报废、拆解时对环境的影响以及再生利用的可能性。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "标准化和模块化零部件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船舶设计中广泛采用的零部件或单元，有助于提高制造系统的运行效率，减少原材料和能源的消耗。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "绿色加工工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶绿色制造技术的主要内容之一，包括成形制造、干式加工、工艺模拟技术、网络技术、虚拟现实技术与敏捷制造等，旨在减少原材料和能源的耗用量，缩短开发周期，降低成本，并对环境起到保护作用。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "成形制造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括铸造、塑性加工等技术，正从接近零件形状向直接制成工件形状即精密成形或净成形方向发展，可减少原材料和能源的消耗。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "干式加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "加工过程中不采用任何冷却液，简化工艺、减少成本，且消除冷却液带来的废液处理和排放问题，已在部分国家得到应用。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "工艺模拟技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "主要用于水火弯板等热加工过程，结合数值模拟、物理模拟和专家系统确定最佳工艺参数，优化工艺方案，预测并防止加工缺陷。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "网络技术",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与虚拟现实技术结合用于敏捷制造，通过因特网建立制造资源信息网络，实现不同公司之间的临时协作。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "虚拟制造技术",
+        "type": [
+            "技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在真正产品生产之前在虚拟制造环境下制造产品模型，用于预测和评估产品性能和可制造性，减少损耗和成本。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "绿色焊接工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶绿色制造技术的主要内容之一，包括节能逆变焊机、高效焊接、搅拌摩擦焊等，旨在提高焊接效率、质量，减少能源和材料消耗，降低对环境的负面影响。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "节能逆变焊机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种节能和节约原材料的逆变电源焊接设备，已在部分国家广泛应用，但国产设备存在可靠性低、质量不稳定等问题。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "高效焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "熔敷效率高、速度快、操作方便且易于自动化作业，具有生产效率高、焊接质量好、节约能源和材料等特点，常用方法包括气体保护焊、埋弧焊、电渣焊等。",
+        "chunk_ids": [
+            196
+        ]
+    },
+    {
+        "entity_name": "搅拌摩擦焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种固相焊接方法，可用于对金属板材全熔深焊接，不需添加焊丝和保护气体，无飞溅、烟尘，形成的焊缝强度高、变形小，是一项性能优良的环保焊接新方法。 | 一种固相焊接方法，可用于对金属板材全熔深焊接，而不会达到金属的熔点。不仅可以焊接铝合金等低熔点金属材料，还能焊接厚度在25mm以下的钢板。",
+        "chunk_ids": [
+            196,
+            197
+        ]
+    },
+    {
+        "entity_name": "激光焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "应用激光进行焊接，是一种快速、几乎无任何变形的低热量输入焊接过程。目前已能对15mm厚的不锈钢和低碳钢进行激光焊接。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "夹层平面分段结构",
+        "type": [
+            "结构形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在船体结构设计中出现的结构形式，与常规的带有加强筋的结构形式具有同等的强度，但重量却大大减轻。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "室内造船",
+        "type": [
+            "建造方式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种改变传统露天作业方式的建造理念，通过建立室内分段建造比例，减少露天焊接作业量，使焊接尽可能控制在室内，并通过空气循环处理系统净化焊接烟尘。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "绿色涂装工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种实现船舶环保涂装的工艺，包括应用现代造船理念、合理选择涂料、推进标准化和计算机辅助管理、推广移动式涂装系统和环保型分段涂装房等措施。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "移动式涂装系统",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以模块化设计为指导思想，以轻钢彩板结构为主体，辅以各类专用系列接扣件、钢架件以及多种专用紧固件的涂装系统装置，可根据工程需要快速搭建和拆卸。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "环保型分段涂装房",
+        "type": [
+            "设备设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设有自动控制空气温度和湿度的系统，为船体分段涂装提供适宜的环境条件，实现分段涂装全天候作业，并采用粉尘和漆雾分离技术，有效控制有机溶剂排放。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "精益制造技术",
+        "type": [
+            "制造理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种通过优化生产组织结构，减少生产过程中一切浪费，缩短生产周期，降低生产成本，保证生产质量，提高产品利润的制造模式。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "精益造船",
+        "type": [
+            "制造理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "以精益生产模式造船，主要包括产品价值链分析、减少无效时间、优化生产流程等内容。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "产品价值链",
+        "type": [
+            "制造理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "精益造船将产品生产全过程分为有效时间和无效时间，旨在通过减少无效时间来提高生产效率和产品质量。",
+        "chunk_ids": [
+            197
+        ]
+    },
+    {
+        "entity_name": "有效时间",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指客户需要的生产时间，即对产品价值有直接贡献的时间。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "无效时间",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指客户不需要的生产时间，即对产品价值没有直接贡献的时间，通常表现为浪费。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "单件流水作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种连续不断生产的作业方式，按客户要求按时完成生产，不提前也不拖后，实行零库存管理，减少生产过剩。 | 单件流水作业是JIT生产的一种组织方式，通过将板材加工、型材加工、管材加工、构件装配、平面分段和曲面分段等工序组织成连续的流水线，实现一件接着一件的生产。",
+        "chunk_ids": [
+            198,
+            199
+        ]
+    },
+    {
+        "entity_name": "拉动计划体系",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由后道工序向前道工序提出订货计划，前道工序严格按照后道工序的交货要求安排生产，实现从后向前、由下而上的计划制定方式。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "JIT生产",
+        "type": [
+            "工艺流程",
+            "生产理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "准时生产，按需生产，减少库存，提高生产效率，确保物料和产品在需要时准时到达。 | JIT生产是精益造船模式的重要理念，指在需要的时候，按照需要的数量生产需要的产品，旨在减少人工和物资浪费，实现无库存、无闲置劳动力。",
+        "chunk_ids": [
+            198,
+            199
+        ]
+    },
+    {
+        "entity_name": "无缺陷施工",
+        "type": [
+            "工艺流程",
+            "生产理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在生产过程中确保产品质量，及时发现和解决问题，防止缺陷传递到后续工序。 | 无缺陷施工是精益造船模式的另一重要理念，强调将所有质量问题消除在源头，要求作业者按作业标准一次作业合格，确保产品质量100%合格，杜绝次品流入下道工序。",
+        "chunk_ids": [
+            198,
+            199
+        ]
+    },
+    {
+        "entity_name": "生产过剩",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指生产超出客户需求的产品，是传统造船模式中的主要浪费形式。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "库存",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指生产过程中积压的物料或半成品，是传统造船模式中的主要浪费形式之一。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "板材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体结构制造的原材料，通常需要切割加工后用于构件装配和分段制作。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "型材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体结构制造的原材料，通常需要切割加工后用于构件装配和分段制作。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "预涂装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体构件制造前进行的涂装作业，以提高效率和质量。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "预晒装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体构件制造前进行的预处理和装配作业，以提高后续工序的效率。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "大合拢计划",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据交船期和总体生产安排制定的总体装配计划，用于协调各分段制造和装配工序。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "分段制造计划",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据大合拢计划制定的具体分段制造计划，用于协调各分段的制造和装配工序。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "曲面分段",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中曲面部分的制造分段，通常用于船体上部和舷侧的制造。",
+        "chunk_ids": [
+            198
+        ]
+    },
+    {
+        "entity_name": "均衡生产",
+        "type": [
+            "生产理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "均衡生产是为保证连续生产与产品需求节奏一致而组织的生产方式，通过合理设计作业量和计算生产节拍，使生产处于稳定有序的状态。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "生产节拍",
+        "type": [
+            "生产理念"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "生产节拍是生产管理的目标，表示生产客户一个产品所需的平均必要时间，计算方式为总生产时间除以客户需求数量，如每半小时交付一个托盘的管子或每天合拢两个标准分段。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "族制造原理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "族制造原理是用于组织单件流水生产的理论，按照造船作业的阶段、类型和区域，将相似的中间产品组织成分道或流水作业生产线。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "托盘",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "托盘是造船过程中用于组织和运输中间产品的容器，如生产节拍中提到的每半小时交付一个托盘的管子。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "5S管理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "5S管理是精益造船模式中用于实现工作场所清洁、整齐、稳定和有序的管理方法，包括整理、整顿、清扫、清洁和修养五个方面。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "整理",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "整理是5S管理的第一步，指将工作场所中的物品进行分类，去除不必要的物品，保持工作环境的整洁。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "整顿",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "整顿是5S管理的第二步，指将必要的物品按规定位置摆放，便于取用，提高工作效率。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "清扫",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "清扫是5S管理的第三步，指对工作场所进行彻底清洁，保持环境干净，防止污染和浪费。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "清洁",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "清洁是5S管理的第四步，指将整理、整顿、清扫的结果制度化，保持工作环境的长期整洁。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "修养",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "修养是5S管理的第五步，指通过培训和制度，使员工养成良好的工作习惯，持续维持5S标准。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "内业",
+        "type": [
+            "生产区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "内业是造船过程中切割加工的区域，属于劳动组织形式的一部分，用于组织和管理切割加工作业。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "构件是造船过程中由多个零件组成的结构单元，是分段装配的重要组成部分。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "外业",
+        "type": [
+            "生产区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外业是造船过程中船体大合拢的区域，属于劳动组织形式的一部分，用于组织和管理船体大合拢作业。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "管子",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "管子是造船过程中用于输送流体的部件，是分段制造和装配的重要组成部分。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "机装",
+        "type": [
+            "生产区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "机装是造船过程中安装机械设备的区域，属于劳动组织形式的一部分，用于组织和管理机械设备的安装作业。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "船装",
+        "type": [
+            "生产区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船装是造船过程中安装船体结构和设备的区域，属于劳动组织形式的一部分，用于组织和管理船体结构和设备的安装作业。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "电装",
+        "type": [
+            "生产区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "电装是造船过程中安装电气设备的区域，属于劳动组织形式的一部分，用于组织和管理电气设备的安装作业。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "内装",
+        "type": [
+            "生产区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "内装是造船过程中安装内部设施的区域，属于劳动组织形式的一部分，用于组织和管理内部设施的安装作业。",
+        "chunk_ids": [
+            199
+        ]
+    },
+    {
+        "entity_name": "一工多能",
+        "type": [
+            "管理方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一工多能是岗位技能制度，指员工具备多种技能，能够灵活调配，适应节拍生产中作业量的变化。",
+        "chunk_ids": [
+            199
+        ]
+    }
+]

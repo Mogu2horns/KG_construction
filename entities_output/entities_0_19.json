@@ -1,0 +1,6081 @@
+[
+    {
+        "entity_name": "船舶",
+        "type": [
+            "船舶"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "指用于运输货物或乘客的水上交通工具，其设计需考虑经济性、安全性及运营成本。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "商船",
+        "type": [
+            "船舶"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "指用于商业运输的船舶，其设计需考虑盈利能力和运营成本。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "LNG船",
+        "type": [
+            "船舶"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指液化天然气运输船，其设计需考虑整个使用寿命内的航行路线和运营需求。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "散货船",
+        "type": [
+            "船舶",
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指用于运输散装货物的船舶，其设计主要考虑初始成本和建造可行性。 | 用于运输散装货物的船舶，根据载重量和航线不同分为海峡型、巴拿马型、最大灵便型和灵便型等类型。 | 用于运输散装货物（如煤、矿石、谷物等）的船舶，具有双层底、边舱等结构。 | 用于运输散装货物的船舶，其设计和建造需符合IACS通用规则。",
+        "chunk_ids": [
+            0,
+            4,
+            6,
+            9
+        ]
+    },
+    {
+        "entity_name": "净现值",
+        "type": [
+            "经济指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于衡量船舶经济性能的指标，表示未来收益的现值。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "贴现现金流",
+        "type": [
+            "经济指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于衡量船舶经济性能的指标，表示未来现金流按折现率计算的现值。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "要求运费率",
+        "type": [
+            "经济指标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于衡量船舶经济性能的指标，表示船舶运营所需的最低运费。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "概念设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计的初始阶段，用于提供备选方案的基本技术评估。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "初步设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计的第二阶段，用于细化并分析概念设计，完善船舶布置和结构。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "合同设计",
+        "type": [
+            "设计阶段"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶设计的最终阶段，用于详细说明满足建造合同条件的最终船舶布置和系统。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "设计螺旋线",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述船舶初始设计流程的图形，表示设计者在满足设计目标和限制因素之间的逐步优化过程。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "主尺度",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的基本尺寸参数，包括船长、船宽、型深和吃水等，主要受船舶货物能力或上层建筑高度影响。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "排水量",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的总重量，由空船重量和载重量构成，其中载重量包括货物、燃油、压载水等。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "空船重量",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶完工并准备出海时的重量，不包括货物、燃油等。 | 船舶完工并准备出海时的重量，不包括货物、燃油、压载水等。",
+        "chunk_ids": [
+            0,
+            1
+        ]
+    },
+    {
+        "entity_name": "载重量",
+        "type": [
+            "船舶参数",
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶满载时的重量与空船重量的差值，包括货物、燃油、压载水等。 | 满载排水量与空船重量的差值，包括货物重量、燃油、储藏品、压载水、淡水、海员、乘客和行李的重量。 | 这在第1章已有定义。应该指出的是，对于油船其载重量通常是指长吨而不是公吨（tonnes，1公吨=0.984长吨）。但针对油船的MARPOL规则用公吨衡量。 | 船舶能够装载的油料重量，现代油船载重量可达 $100000sim 500000$ t。",
+        "chunk_ids": [
+            0,
+            1,
+            3,
+            7
+        ]
+    },
+    {
+        "entity_name": "稳性",
+        "type": [
+            "船舶参数",
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在各种装载状态下的静稳性，由船宽和船深等参数决定。 | 船舶保持平衡的能力，可通过增加船宽或使用轻质材料提高。",
+        "chunk_ids": [
+            0,
+            8
+        ]
+    },
+    {
+        "entity_name": "推进特性",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的推进性能，包括动力系统和航速等。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "船型",
+        "type": [
+            "船舶参数",
+            "船舶设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的外形特征，影响其航行性能和结构设计。 | 指船舶的外形设计和结构形式，影响船舶的航行性能和货物装载能力，如球鼻型、敞水型、甲板外飘等。",
+        "chunk_ids": [
+            0,
+            6
+        ]
+    },
+    {
+        "entity_name": "总布置",
+        "type": [
+            "船舶参数",
+            "设计流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部空间的布局设计，包括舱室、设备和系统的位置安排。 | 船舶内部结构和功能区域的总体安排，需考虑住舱标准、货物存储要求及船东需求。",
+        "chunk_ids": [
+            0,
+            1
+        ]
+    },
+    {
+        "entity_name": "主结构细节",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶主要结构的详细设计，包括船体、甲板、肋骨等。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "船宽",
+        "type": [
+            "船舶参数",
+            "结构参数",
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的横向尺寸，影响船舶的横稳性和结构强度。 | 船舶横向尺寸，是影响船舶静稳性的重要因素。 | 船舶横向宽度，用于描述船舶尺寸和载重能力。 | 船舶的横向宽度，影响稳性和上层建筑设计。",
+        "chunk_ids": [
+            0,
+            1,
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "型深",
+        "type": [
+            "船舶参数",
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的垂直尺寸，影响纵向弯曲应力和船体强度。 | 舷侧船中处从基线到上甲板横梁根部的距离。 | 舷侧船中处从基线到上甲板横梁根部的距离。",
+        "chunk_ids": [
+            0,
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "吃水",
+        "type": [
+            "船舶参数",
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶浸入水中的深度，受航行水域限制，影响船舶的主尺度。 | 船舶浸入水中的深度，用于描述船舶吃水状态。",
+        "chunk_ids": [
+            0,
+            7
+        ]
+    },
+    {
+        "entity_name": "干舷",
+        "type": [
+            "船舶参数",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在满载时的自由board高度，由法定规定，影响船舶的稳性和安全性。 | 舷侧处从夏季载重水线（或服务吃水）到干舷甲板的垂直距离。干舷甲板通常是暴露在空气和海上的最上层完整甲板，它的所有开口都有永久性的关闭装置，在干舷甲板以下的所有舷侧的开口都有水密关闭装置。",
+        "chunk_ids": [
+            0,
+            3
+        ]
+    },
+    {
+        "entity_name": "舷弧",
+        "type": [
+            "船舶参数",
+            "甲板结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舷侧的曲率，影响船舶的稳性和结构强度。 | 船舶舷侧的曲率，与船舶的稳性和结构强度有关。 | 甲板高度沿纵向的上升（可以是曲线或直线）。定义为甲板在舷侧任意一点处超出甲板在船中舷侧处以上的高度。",
+        "chunk_ids": [
+            0,
+            1,
+            3
+        ]
+    },
+    {
+        "entity_name": "船闸",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于调节水位的水道设施，限制船舶的主尺度。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "巴拿马运河",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "连接大西洋和太平洋的运河，限制船舶的主尺度。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "圣劳伦斯水道",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "连接大西洋和五大湖的水道，限制船舶的主尺度。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "马六甲海峡",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "连接印度洋和南海的海峡，限制船舶的主尺度。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "苏伊士运河",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "连接地中海和红海的运河，限制船舶的主尺度。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "杰拉德德斯蒙德大桥",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "限制船舶最大水上高度的桥梁。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "加利福尼亚长滩大桥",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "限制船舶最大水上高度的桥梁。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "纽约巴约纳大桥",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "限制船舶最大水上高度的桥梁。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "博斯普鲁斯海峡",
+        "type": [
+            "地理限制"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "连接黑海和马尔马拉海的海峡，限制船舶的主尺度。",
+        "chunk_ids": [
+            0
+        ]
+    },
+    {
+        "entity_name": "静稳性",
+        "type": [
+            "船舶性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在各种可能的装载状态下保持稳定的能力，是船舶设计中的重要考量因素。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "船深",
+        "type": [
+            "船舶参数",
+            "结构参数",
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶纵向尺寸，是影响船舶静稳性的重要因素。 | 船舶垂直尺寸参数，用于描述货油舱区域结构甲板的位置。 | 船舶的垂直深度，用于确定货油舱位置。",
+        "chunk_ids": [
+            1,
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "法定干舷",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据法规规定的船舶自由board高度，影响船舶的稳性和载重能力。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "推进性能",
+        "type": [
+            "船舶性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在特定条件下获得航速的能力，影响船舶的经济性和效率。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "服务航速",
+        "type": [
+            "船舶参数",
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在正常服务功率和装载以及平均气候条件下所能达到的海上平均速度。 | 船舶在正常运营时的航行速度，铝合金上层建筑在保持该速度时维护成本较高。",
+        "chunk_ids": [
+            1,
+            8
+        ]
+    },
+    {
+        "entity_name": "试航航速",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在某一特定装载状态下使用最大主机功率在一个测量航段内、无风天气里船体外表面清洁情况下获得的平均速度。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "船模水池试验",
+        "type": [
+            "试验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过缩尺模型在水池中进行试验，以验证和优化船舶推进性能的方法。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "主推进机械",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶动力系统的核心设备，用于提供推进动力，其类型和构造由船东指定。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "船级社",
+        "type": [
+            "标准/机构",
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "如劳氏等机构，其制定的标准决定船舶结构构件的尺寸和建造要求。 | 负责船舶设计、建造和检验的机构，参与制定散货船安全标准和检验程序。 | 负责船舶分类、设计、建造和维护标准的机构，为货船主和保险公司提供风险评估依据。 | 负责船舶入级和检验的机构，如劳氏船级社，对船舶的建造、检验、维修和特殊检验提出规范要求。 | 船舶建造和检验的权威机构，如劳氏船级社和挪威船级社（DNV），负责制定和颁布相关技术规范。 | 船级社是负责船舶材料试验和质量控制的机构，要求船舶建造材料在批准的工艺下生产，并进行相应的分析和试验。",
+        "chunk_ids": [
+            1,
+            6,
+            9,
+            11,
+            14,
+            17
+        ]
+    },
+    {
+        "entity_name": "库存设计",
+        "type": [
+            "设计方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "预先设计好的船舶设计方案，可根据船东需求进行修改，如船舶舾装、货物装卸设备等。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "建造规格书",
+        "type": [
+            "文件/文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造合同中不可或缺的技术文件，包含船舶简要描述、主尺度、载重量、航速、稳性等要求。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "标准合同格式",
+        "type": [
+            "合同类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造合同中常用的标准化格式，由不同机构如CESA、MARRAD、SAJ、NSC等制定。",
+        "chunk_ids": [
+            1
+        ]
+    },
+    {
+        "entity_name": "CESA",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "欧洲造船联合委员会，其标准合同格式用于船舶建造合同。 | 欧洲造船联合委员会，负责制定标准合同格式，其合同格式由先前的组织AWES编制而来。",
+        "chunk_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "entity_name": "MARRAD",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "美国海事管理局，其标准合同格式用于船舶建造合同。 | 美国海事管理局，是制定标准合同格式的机构之一。",
+        "chunk_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "entity_name": "SAJ",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本造船协会，其标准合同格式用于船舶建造合同。 | 日本造船协会，是制定标准合同格式的机构之一。",
+        "chunk_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "entity_name": "NSC",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "挪威造船协会和挪威船东协会，其标准合同格式用于船舶建造合同。 | 挪威造船协会和挪威船东协会，是制定标准合同格式的机构之一。",
+        "chunk_ids": [
+            1,
+            2
+        ]
+    },
+    {
+        "entity_name": "AWES",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "西欧船厂联合会，曾编制标准合同格式，后被CESA继承。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "合同格式",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造合同中使用的标准格式，由多个机构制定，包含合同主题、检验、修改、试航、交船等条款。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "支付进度",
+        "type": [
+            "工艺/流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造合同中规定的支付方式，通常分五次支付，包括合同签订、材料到达、铺龙骨、下水和交船时支付。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "龙骨",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的纵向结构，用于支撑船体，是船舶建造中的关键结构部件。 | 船舶的主体结构，用于支撑船体，是船舶建造中的关键部件，适用于冰区船舶的规范中。",
+        "chunk_ids": [
+            2,
+            10
+        ]
+    },
+    {
+        "entity_name": "船中",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船舶艏柱和艉柱正中的点，是船舶的中心位置。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "总长（LOA）",
+        "type": [
+            "尺寸/测量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的最大长度，从首部前缘到艉柱后缘测得，用于船舶登记和相关文件。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "劳氏长度",
+        "type": [
+            "尺寸/测量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算结构构件尺寸的长度，若船舶入劳氏船级，则劳氏长度不得小于夏季载重水线总长的96%。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "登记船长",
+        "type": [
+            "尺寸/测量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在船旗国登记时使用的官方长度，从首部前缘到艉柱后缘测得。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "IMO长度",
+        "type": [
+            "尺寸/测量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于国际公约（如SOLAS、MARPOL等）的船舶长度，定义为从龙骨上缘量起的最小型深85%处水线长度的96%。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "型尺寸",
+        "type": [
+            "尺寸/测量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在金属船体船壳内表面测量获得的尺寸，包括型宽、型吃水、型深等。",
+        "chunk_ids": [
+            2
+        ]
+    },
+    {
+        "entity_name": "基线",
+        "type": [
+            "尺寸/测量",
+            "基准线"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "平板龙骨上缘的一条水平线，所有垂向型尺寸都是相对这条线测量的。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "型宽",
+        "type": [
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在肿横剖面处测得的船的最大型宽。 | 肿横剖面处测得，是船的最大型宽。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "型吃水",
+        "type": [
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在肿横剖面处从基线到夏季载重水线之间的距离。 | 肿横剖面处从基线到夏季载重水线之间的距离。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "极限船宽",
+        "type": [
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "所测量的所有极限宽度的最大值。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "极限吃水",
+        "type": [
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从龙骨的最低点到夏季载重水线的距离，吃水标志代表极限吃水。 | 从龙骨的最低点到夏季载重水线的距离。吃水标志代表着极限吃水。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "极限型深",
+        "type": [
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷侧处从上甲板到龙骨最低点的船舶深度。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "半宽",
+        "type": [
+            "尺寸/测量",
+            "主尺度"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于船体关于纵向中心线对称，任何一个横剖面通常只需给出其半宽值。 | 由于船体是关于纵向中心线对称的，任何一个横剖面通常只需给出它的半宽值。",
+        "chunk_ids": [
+            2,
+            3
+        ]
+    },
+    {
+        "entity_name": "梁拱",
+        "type": [
+            "甲板结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板沿横向的弯曲。定义为中心线处的甲板超出舷侧处甲板以上的高度。直线型梁拱通常用于许多大型船舶以简化建造。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "底升",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "底部船壳板边线高出基线的部分。此距离在型宽处测量，大型货船通常没有底升。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "平底半宽",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "量自船舶纵向中心线到左舷或右舷的船底板的水平平直部分，是船舶进干船坞时非常有用的尺寸。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "船侧内倾",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "夏季载重水线以上的舷侧外板向内侧倾斜，这在现代船舶中并不常见。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "舷侧外飘",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水线以上的舷侧外板向外侧倾斜。它能减少船船上浪因此经常和船首相联系。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "腊部倾角",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "腊柱与竖直线形成的夹角。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "龙骨倾角",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "龙骨线与水平面之间的夹角。拖网渔船和拖船由于螺旋桨直径较大通常都有龙骨舰倾以保证有较大的尾部吃水，有些小船为了使螺旋桨在龙骨线之上也会出现龙骨艏倾。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "甲板间距",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "相邻甲板间的垂直距离，在舷侧甲板横梁上缘测得。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "平行中体",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肿横剖面形状和面积保持不变的一段船体。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "进流段",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "浸没在水下的平行中体前端。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "出流段",
+        "type": [
+            "船体结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "浸没在水下的平行中体后端。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "吨位",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通常在讨论船舶尺度时提到吨位，总吨位引自劳氏船级社。吨位是对船舶内部封闭空间的一个量度（起初定义为 $100mathrm{fl}^3/mathrm{t}$ ，1英尺 $= 0.3048mathrm{m}$ ）。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "TEU",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表明了集装箱船的货物装载能力。TEU（20英尺当量单位）表明在某些船运航线上可以搭载的标准船运集装箱的数量；集装箱船可以装载40英尺长的标准集装箱。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "FEU",
+        "type": [
+            "船舶参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "40英尺当量单位。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "ULCC",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "是指载重量通常在30万～55万吨之间的油船。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "VLCC",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "是指载重量通常在20万～30万吨的油船。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "苏伊士型油轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "满载时能够通过苏伊士运河的最大油船，其载重量约为15万吨。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "阿芙拉型油轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "标准名称的较小型的原油运输船，它是在AFRA大宗货物运费率评估下的最大尺寸的油轮，AFRA代表了美国运费率协会。这种油船载重量在8万～11.5万吨。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "巴拿马型油轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在计划新建的船闸完成之前可以通过巴拿马运河的船长限制在 $275mathrm{m}$ 以内、船宽限制在 $32.2mathrm{m}$ 以内的最大油船，其典型的载重量大约在5.5万～7万吨。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "灵便型油船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "典型载重量在3.5万～4.5万吨之间。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "海峡型散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于太大而不能通过目前的巴拿马运河，因此要绕行好望角。所有载重量超过8万吨的散货船都归于此类船舶，大部分载重量在17万吨以下，也有少数用于特殊航线上的散货船载重量较大，最大的达到了38万吨。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "巴拿马型散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "与油船类似。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "最大灵便型散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "载重量在3.5万～6万吨。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "灵便型散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "载重量在1万～3.5万吨的船舶构成了大部分的船队。",
+        "chunk_ids": [
+            3
+        ]
+    },
+    {
+        "entity_name": "集装箱船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过容积来表征不同尺寸的油船、散货船和集装箱船可以分为以下的类型。 | 用于运输集装箱的船舶，根据载箱量分为超大型、超巴拿马型、新巴拿马型、巴拿马型和支线船舶等类型。 | 一种将矩形集装箱单元装在船体矩形部位及分层布置在主甲板上的船舶，具有标准化货舱和舱口宽度。 | 专门用于运输集装箱的船舶，具有较大的甲板外飘设计以减少甲板淹湿。",
+        "chunk_ids": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "entity_name": "油船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输石油及其衍生品的船舶，根据载重量和是否符合隔离压载保护要求分为第一类、第二类和第三类油船。 | 专门设计用于运载油料的船舶，具有特定的货舱布置和结构特点。 | 用于运输石油等液体货物的船舶，其设计和建造需符合IACS通用规则。 | 用于运输石油的船舶，需在特殊检验中遵循额外规定。",
+        "chunk_ids": [
+            4,
+            7,
+            9,
+            11
+        ]
+    },
+    {
+        "entity_name": "干货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输干散货的船舶，其发展经历了三岛式结构、单井结构、后升高甲板结构、雨篷或轻甲板结构以及遮蔽甲板结构等演变。",
+        "chunk_ids": [
+            4
+        ]
+    },
+    {
+        "entity_name": "三岛式结构",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "早期干货船的典型结构形式，包含艏楼、桥楼和艉楼，用于保护机舱开口和提升船舶结构完整性。",
+        "chunk_ids": [
+            4
+        ]
+    },
+    {
+        "entity_name": "后升高甲板",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于载重量较小的货船（如运煤船）的结构形式，通过在船尾安装升高甲板以减少艏倾现象。",
+        "chunk_ids": [
+            4
+        ]
+    },
+    {
+        "entity_name": "雨篷或轻甲板",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种临时性封闭空间结构，用于保护货物，但不计入船舶吨位计算。",
+        "chunk_ids": [
+            4
+        ]
+    },
+    {
+        "entity_name": "遮蔽甲板",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种具有较轻上层结构的船舶甲板形式，拥有从第二层甲板算起的干舷，甲板间空间不计入吨位计算。",
+        "chunk_ids": [
+            4
+        ]
+    },
+    {
+        "entity_name": "开/闭口遮蔽甲板船",
+        "type": [
+            "船舶结构",
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种全实船，拥有可永久关闭的临时开口，允许重新勘定干舷并计入吨位计算。 | 一种具有规定开口的全实船，当船舶在干舷从第二层甲板算起的满载吃水下运营时，甲板舱不计入吨位计算中。",
+        "chunk_ids": [
+            4,
+            5
+        ]
+    },
+    {
+        "entity_name": "吨位标志",
+        "type": [
+            "船舶设计要素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于确定吨位丈量起始位置的标记，当未被浸没时从二层甲板开始计算吨位，被浸没时则从上甲板开始。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "替代吨位",
+        "type": [
+            "船舶设计要素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种吨位计算方式，用于替代开/闭口遮蔽甲板船的等价形式，只要吨位标志未被浸没，就从二层甲板开始计算吨位。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "明轮推进",
+        "type": [
+            "推进系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种使用明轮作为推进装置的船舶推进方式，早期轮机位于船中，煤作为燃料。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "燃油",
+        "type": [
+            "燃料类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "替代煤作为船舶推进燃料的能源，使得轮机布置位置问题得到缓解。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "螺旋桨推进",
+        "type": [
+            "推进系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种使用螺旋桨作为推进装置的船舶推进方式，使得轮机布置在船尾具有明确优势。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "轮机",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的动力装置，早期位于船中，后因燃油使用和螺旋桨推进布置在船尾。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "机舱",
+        "type": [
+            "船舶结构",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中安装轮机和相关设备的区域，通常布置在3/4船尾处，以减少空船状态下的尾倾。 | 通常布置在船尾的区域，用于安装船舶动力系统。 | 船舶动力系统所在舱室，现代客船常将机舱后置以优化旅客空间。",
+        "chunk_ids": [
+            5,
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "货舱",
+        "type": [
+            "船舶结构",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载货物的船舶舱室，通常位于船中部分，因储存形状较好而被广泛使用。 | 油船中用于装载油料的区域，结构上具有特定的布置和防护措施。",
+        "chunk_ids": [
+            5,
+            7
+        ]
+    },
+    {
+        "entity_name": "轴系",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接轮机与螺旋桨的机械系统，其占用空间会影响货舱体积。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "舱口盖",
+        "type": [
+            "船舶结构",
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "覆盖货舱开口的结构，部分集装箱船无舱口盖，设置扫仓泵以排除雨水和上浪。 | 用于封闭船舱口的设备，包括钢质折叠舱口盖、钢质滚动舱口盖等，便于货物装卸。",
+        "chunk_ids": [
+            5,
+            6
+        ]
+    },
+    {
+        "entity_name": "扫仓泵",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于排除舱内雨水和上浪的设备，常见于无舱口盖的集装箱船。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "标准箱",
+        "type": [
+            "货物单位"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际标准集装箱的单位，用于衡量集装箱船的装载能力。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "载驳船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于运输驳船的船舶，早期在河口港口间有显著优势，通过调整压载使驳船浮出或浮入托运船只。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "驳船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "被装载在载驳船上的小型船舶，用于运输货物，通过大型甲板起重机或升降平台装卸。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "滚装船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种设有尾门、首门或舷门，允许车辆进入上甲板以下车辆甲板的船舶，设有坡道或升降机进行货物装卸。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "车辆甲板",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "滚装船中用于装载车辆的甲板，允许车辆通行，机舱高度受限。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "齿轮式中速柴油发动机",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种高度较低的柴油发动机，用于滚装船，以适应车辆甲板通行需求。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "Herald of Free Enterprise号",
+        "type": [
+            "船舶实例"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1987年发生严重海损的滚装客船，引发对破舱稳性问题的关注。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "Estonia号",
+        "type": [
+            "船舶实例"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1994年发生严重海损的滚装客船，导致国际规则对破舱稳性提出更严格要求。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "破舱稳性",
+        "type": [
+            "船舶设计要素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在发生破舱时保持稳性的能力，因Estonia号事故而被加强监控和规范。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "SOLAS 90",
+        "type": [
+            "国际标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海上人命安全公约的1990年修正案，要求加强艏门监控、破舱稳性衡准等。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "斯德哥尔摩协议",
+        "type": [
+            "国际协议"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "北欧国家基于地区性依据采纳的协议，对滚装客船等提出更严格的破舱稳性要求。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "中横剖面图",
+        "type": [
+            "船舶设计图"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "展示船舶中横剖面结构的图纸，用于说明满足斯德哥尔摩协议的滚装船设计。",
+        "chunk_ids": [
+            5
+        ]
+    },
+    {
+        "entity_name": "球鼻",
+        "type": [
+            "船舶设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船型设计，用于改善船舶的兴波阻力，提高航速效率。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "敞水型",
+        "type": [
+            "船舶设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船型设计，通过优化船体外形以减少水阻力，提高航行效率。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "甲板外飘",
+        "type": [
+            "船舶设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指甲板向船体外侧延伸的设计，用于减小集装箱放置时的甲板淹湿，常见于集装箱船。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "货物装卸设备",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶装卸货物的设备，包括舱口盖、起重设备、克令吊等，以提高装卸效率。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "钢质折叠舱口盖",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于封闭船舱口的设备，具有折叠结构，便于快速装卸货物。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "钢质滚动舱口盖",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于封闭船舱口的设备，通过滚动方式开启和关闭，便于货物装卸。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "可升降平板钢质舱盖",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种可升降的舱口盖，用于封闭船舱口，提高货物装卸效率。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "起重设备",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装卸货物的设备，包括吊杆、绞车和克令吊等，提高装卸效率。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "克令吊",
+        "type": [
+            "船舶设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种现代船舶常用的起重设备，用于装卸货物，替代传统吊杆起重机。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "矿石运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门用于运输矿石的船舶，具有双层底和舷侧压载舱，用于提高结构强度。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "油/矿石两用船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "既可以运输油类也可以运输矿石的船舶，边舱可装载油品，具有船员保护通道。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "杂散货船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输多种散装货物的船舶，具有双层底、底边舱和甲板边舱，适用于多种货物装载。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "船舶结构",
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的双层结构，用于提高结构强度和安全性，常见于散货船。 | 早期油船中用于增强结构强度和防漏的双层底结构，后被弃用。 | 船舶底部的双层结构，用于增强船体强度和防撞能力，DNV建议其宽度稍宽于舷侧外板。",
+        "chunk_ids": [
+            6,
+            7,
+            14
+        ]
+    },
+    {
+        "entity_name": "底边舱",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船舶底部的舱室，用于装载货物或压载水，常见于杂散货船。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "甲板边舱",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于甲板边缘的舱室，用于装载货物或压载水，常见于杂散货船。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "压载舱",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载压载水的舱室，以调整船舶吃水和稳定性，常见于散货船。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "尾机型",
+        "type": [
+            "船舶设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶机舱位于船尾的设计，便于货物装卸和船体结构布局。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "双舷侧结构",
+        "type": [
+            "船舶结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船舶结构设计，用于增强舷侧强度，适用于运载高密度固体散货的散货船。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "SOLAS公约",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海上人命安全公约，包含针对散货船的破舱稳性、结构强度和检验程序等要求。",
+        "chunk_ids": [
+            6
+        ]
+    },
+    {
+        "entity_name": "IMO",
+        "type": [
+            "标准/机构",
+            "国际组织"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际海事组织，负责制定和推广国际海事安全和环境保护标准，包括散货船安全规范。 | 国际海事组织，负责制定和实施国际海事安全和防污染标准，包括MARPOL公约的修订。",
+        "chunk_ids": [
+            6,
+            8
+        ]
+    },
+    {
+        "entity_name": "汽车运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门用于运输汽车和卡车的船舶，随着东方国家汽车产量增加而发展。 | 专门设计建造的船舶，用于运输汽车和卡车，具有高船体和多层甲板结构，以容纳大量车辆。",
+        "chunk_ids": [
+            6,
+            7
+        ]
+    },
+    {
+        "entity_name": "船体",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "水线以上具有高盒子状结构的船体，用于容纳车辆。 | 船舶的主体结构，包含船壳板、船尾框架、舵、水密舱门、水密隔板等，是船舶建造的核心部分。 | 船舶的主体结构，包含舷侧外板、双层底等部件，使用钢夹层板可减轻重量并提高耐火等级。",
+        "chunk_ids": [
+            7,
+            11,
+            14
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体上的水平平台，用于停放车辆，部分甲板间距较大且强度加强以装载更重更高的汽车。 | 船舶的上部平台，用于承载人员和货物，使用轻量化材料可增加甲板数量和乘客住处面积。 | 船舶上部的结构板，与船底板共同形成船体梁的面板，承受拉伸力。",
+        "chunk_ids": [
+            7,
+            14,
+            18
+        ]
+    },
+    {
+        "entity_name": "可升降汽车甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在较大的甲板间距中设置的可升降结构，用于提供灵活的装载方式。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "可升降坡道",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于从主甲板上转运车辆的装置，可在承载车辆时抬高和降低。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "跳板",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船尾和舷侧的大型跳板或船尾坡道，用于装卸车辆上下船。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "船员住舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在最上层连续露天甲板顶上的船员居住空间。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "驾驶室",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "提供足够向前视野的前面驾驶室，用于船舶操作。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "推动装置",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "布置在尾部的装置，配合艏侧推以辅助船舶系泊和操纵。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "艏侧推",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "辅助船舶系泊和操纵的装置，通常与推动装置配合使用。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船结构中广泛应用的工艺，用于制作和保持油密接缝，比铆接技术更经济。 | 随着大尺度的焊接引入到船舶建造中，人们更加关注正确地选择材料和结构设计以防止可能发生的脆性破坏。",
+        "chunk_ids": [
+            7,
+            19
+        ]
+    },
+    {
+        "entity_name": "纵骨架式结构",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "应用于大型船舶的结构形式，允许油舱长度增加，减少钢料重量。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "住舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "集中布置在船尾区域的船员居住空间，便于提供统一服务。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "桥楼",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在住舱后方的控制和管理区域，具有防火优势。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "MARPOL公约",
+        "type": [
+            "标准/机构",
+            "国际标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "国际船舶防污染公约，对油船货舱布置和压载水容量有严格规定。 | 国际防止船舶造成污染公约，1992年修订后要求新建油船采用双壳结构或等效设计以防止油污泄漏。",
+        "chunk_ids": [
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "双层壳体",
+        "type": [
+            "结构部件",
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为防止油泄漏而设计的双层船体结构，由1990年OPA90法案强制要求。 | 一种油船结构设计，通过双层船壳防止油污泄漏，尤其在发生搁浅或碰撞时有效。",
+        "chunk_ids": [
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "中甲板油船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种替代双层壳体的油船设计方案，具有舷侧压载舱以提供碰撞保护。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "隔离压载水舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "设置在船中区域的压载水舱，用于减小油船满载时的静水弯矩和腐蚀问题。 | 设置在防护位置的压载水舱，用于减少油污泄漏风险，是单壳油船的一种防护设计。",
+        "chunk_ids": [
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "单壳油轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "不具备双层壳体结构的油船，因污染风险被美国OPA90法案淘汰。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "ExxonValdez油船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1989年发生重大原油泄漏事故的油船，促使美国通过OPA90法案。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "压载水",
+        "type": [
+            "材料/功能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于调整船舶吃水和稳定性的水，MARPOL公约对其容量有严格规定。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "结构甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "贯穿全长的结构甲板，用于防止船底破裂时油泄漏。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "船底",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶最下部的结构，用于支撑船体并防止油泄漏。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "船长",
+        "type": [
+            "结构参数",
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶总长度，用于描述船舶尺寸和载重能力。 | 船舶的纵向长度，影响客船宽度比例和结构设计。",
+        "chunk_ids": [
+            7,
+            8
+        ]
+    },
+    {
+        "entity_name": "航速",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在特定条件下的航行速度，与运营收益和市场需求相关。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "单位",
+        "type": [
+            "单位"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "用于描述车辆存储面积的单位，平均每辆车总存储面积为 $8.5mathrm{m}^2$。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "车长",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "车辆的长度，用于描述车辆存储空间的尺寸。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "车宽",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "车辆的宽度，用于描述车辆存储空间的尺寸。",
+        "chunk_ids": [
+            7
+        ]
+    },
+    {
+        "entity_name": "双壳结构",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种油船结构设计，通过双层船壳来防止油污泄漏，尤其在发生搁浅或碰撞时能有效保护内壳不受破坏。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "中甲板结构",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种油船结构设计，具有贯穿全长的结构甲板，位于货油舱区域距底部为船深的1/4~1/2处，可防止船底破裂时油泄漏。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "单壳油船",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种没有双层壳体或中甲板结构的油船，其防护能力较弱，需逐步淘汰。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "尾泵舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "紧邻机舱的独立舱室，用于安装泵设备，用于输送洗舱水和油污废渣。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "污油水舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储存洗舱水和油污废渣的专用舱室，通常设置在油船中。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "洗舱系统",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于清洗货油舱的系统，现代大型油船使用原油清洗，而小型油船使用水驱动的旋转机械。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客船上的上层结构，用于容纳乘客和设备，其设计影响船舶稳性和强度。 | 船舶的上部结构，用于安装甲板、舱室等，使用钢夹层板可减轻重量并增加可用空间。 | 船舶的上部结构，通常由铝合金建造，用于减轻重量并改善船舶的横稳性，尤其在受限船宽的船舶上应用较多。 | 大型上层建筑倾向于与主船体一起产生变形，并在结构中产生相当大的应力。",
+        "chunk_ids": [
+            8,
+            14,
+            15,
+            19
+        ]
+    },
+    {
+        "entity_name": "伸缩接头",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接上层建筑与主船体的轻质接头，可允许结构变形，减少应力传递。 | 伸缩接头用于避免断裂，使轻型结构不连续，但这些尝试并没有完全成功，伸缩缝本身可能在强力甲板上产生应力集中。",
+        "chunk_ids": [
+            8,
+            19
+        ]
+    },
+    {
+        "entity_name": "铝合金上层建筑",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "采用铝合金建造的上层建筑，减轻重量，降低空船重心，提高稳性，但维护成本较高。 | 安装在船舶上的铝合金结构，用于减轻重量并改善横稳性，但需考虑腐蚀连接问题。",
+        "chunk_ids": [
+            8,
+            15
+        ]
+    },
+    {
+        "entity_name": "电力吊舱推进器",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种推进系统，通过去除轴系实现更灵活的内部布置，常见于现代豪华客船。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "客舱标准",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代客船客舱设计标准，包括每位乘客平均占有空间、甲板净高、公共空间层数等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "防火安全",
+        "type": [
+            "安全设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代客船设计中对防火安全的重视，包括使用低火险材料和自动探测灭火系统。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "豪华邮船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "大型定期客船，具有较高的舒适度和安全性，近年来数量增加，引发IMO对客船安全性的重新审视。 | 指大型、豪华的定期客轮，用于长途运输旅客，近年来因尺寸增大及数量增多，促使IMO重新审视其安全性。",
+        "chunk_ids": [
+            8,
+            9
+        ]
+    },
+    {
+        "entity_name": "短途渡轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于短途运输的客船，通常规模较小，但仍是当前运营的大型客船类型之一。 | 用于短途运输旅客的船舶，通常在沿海或内河区域运营。",
+        "chunk_ids": [
+            8,
+            9
+        ]
+    },
+    {
+        "entity_name": "朝圣者乘坐的船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门用于运送朝圣者的船舶，通常在中东和东南亚区域运营。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "减摇装置",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于减少船舶摇摆的装置，提高乘客舒适度，常见于现代客船。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "空调系统",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于调节客舱温度的系统，提高乘客舒适度，是现代客船的常见配置。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "纵倾",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在水中的倾斜状态，设计时需通过调整弯矩来补偿增加的纵倾。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "弯矩",
+        "type": [
+            "力学参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在受力时产生的弯曲力矩，影响船舶设计和稳定性。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "玛丽女王二号",
+        "type": [
+            "船舶实例"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "现代豪华客船，采用电力吊舱推进器，优化了内部布置。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "双头苏格兰锅炉",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "早期客船使用的锅炉类型，用于驱动涡轮机，如Aquitania号。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "齿轮驱动涡轮机",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种动力系统，通过齿轮传动驱动涡轮机，如Queen Elizabeth 2号。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "水管锅炉",
+        "type": [
+            "设备部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种锅炉类型，用于产生蒸汽驱动涡轮机，如Queen Elizabeth 2号。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "直驱涡轮机",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种动力系统，直接驱动涡轮机，如Aquitania号。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "上甲板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的上层甲板，早期客船因法规限制未设置多层上层建筑。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "商船法规",
+        "type": [
+            "法规标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1894年制定的法规，限制了上甲板上的载客量，影响了客船设计。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "低火险结构材料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于客船防火设计的材料，具有较低的燃烧风险。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "自动探测和灭火系统",
+        "type": [
+            "设备系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检测和扑灭火灾的系统，是现代客船防火安全的重要组成部分。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "无铺位移民船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运送无铺位移民的船舶，通常在特定区域运营。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "Erika油船",
+        "type": [
+            "船舶实例"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "1999年断裂沉没并造成法国海岸污染的油船，促使IMO加快淘汰单壳油船。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船中部分",
+        "type": [
+            "结构区域"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的中部区域，通常用于布置旅客住舱，现代客船将其用于优化内部空间。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体型宽",
+        "type": [
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的横向宽度，影响稳性和上层建筑设计。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "货油舱",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "油船中用于装载原油的舱室，其位置和结构设计影响油污泄漏风险。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船底破裂",
+        "type": [
+            "事故类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部结构受损，可能导致油污泄漏，中甲板结构设计可减少此风险。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "海水向上的压力",
+        "type": [
+            "物理现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "海水对船底破裂后油舱的向上压力，有助于防止油泄漏。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶主结构的一部分，用于承受和传递应力，与上层建筑的应力传递有关。 | 船舶结构中用于抵抗弯曲和剪切力的部件，可视为箱型梁，由甲板和船底板形成面板。 | 船体梁在甲板结构首尾端的不连续的地方可能产生高应力。",
+        "chunk_ids": [
+            8,
+            18,
+            19
+        ]
+    },
+    {
+        "entity_name": "应力传递",
+        "type": [
+            "力学现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体梁与上层建筑之间的应力传递，影响船舶结构设计。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "甲板间净高",
+        "type": [
+            "尺寸参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "甲板之间的垂直距离，影响乘客舒适度和客舱设计。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "封闭走廊",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客船内部用于连接不同区域的封闭通道，常见于现代客船。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "中庭",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "客船内部的开放空间，用于公共活动，常见于多层甲板设计。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体强度",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构抵抗外力的能力，影响船舶设计和安全。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "结构部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的整体结构，包括主船体、上层建筑、甲板等，影响船舶性能和安全性。 | 船舶的主体结构，包括船壳板、船尾框架、舵、水密舱门、水密隔板等，需在检验中评估其状况。",
+        "chunk_ids": [
+            8,
+            11
+        ]
+    },
+    {
+        "entity_name": "船体设计",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶整体结构的设计，包括船体强度、稳性、上层建筑布局等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体材料",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于建造船体的材料，如高强度钢、铝合金等，影响船舶性能和成本。 | 船舶建造所使用的材料，包括钢材、生铁等，需进行测试以确保符合规范。",
+        "chunk_ids": [
+            8,
+            11
+        ]
+    },
+    {
+        "entity_name": "船体建造",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶整体结构的建造过程，包括分段建造、焊接、装配等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构各部分的组装过程，包括上层建筑、甲板、舱室等的安装。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体检验",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造和运营过程中的结构检验，确保符合安全和性能标准。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体标准",
+        "type": [
+            "标准规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造和运营需遵循的国际或国家标准，如MARPOL公约、IMO规范等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体维护",
+        "type": [
+            "维护流程",
+            "维护类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的日常维护和修理，包括防腐、焊接修复等。 | 船舶的日常维护和保养，包括船体结构的检查和修复。",
+        "chunk_ids": [
+            8,
+            11
+        ]
+    },
+    {
+        "entity_name": "船体腐蚀",
+        "type": [
+            "材料问题"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体材料因海水和环境因素导致的损坏，需通过防腐涂层等措施进行防护。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构连接的主要工艺，包括单面焊双面成形等技术。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体密性",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构的密封性能，防止油污泄漏，是油船设计的重要指标。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构设计",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶整体结构的设计，包括船体强度、稳性、上层建筑布局等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构强度",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构抵抗外力的能力，影响船舶安全和使用寿命。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构稳定性",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在各种工况下的稳定性，影响乘客安全和船舶操作。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构耐久性",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在长期使用中的耐久性，影响维护成本和使用寿命。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构安全性",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在各种事故和环境条件下的安全性，是设计和建造的重要目标。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构可靠性",
+        "type": [
+            "性能参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在长期使用中的可靠性，影响船舶运营和维护。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性",
+        "type": [
+            "性能参数",
+            "性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在各种工况下的完整性，影响船舶安全和使用寿命。 | 船体结构在使用过程中的完整性和稳定性，需在检验中评估。 | 船体结构在使用过程中的完整性和稳定性，需在检验中评估。",
+        "chunk_ids": [
+            8,
+            11
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性检验",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构完整性检查，确保结构无损坏，符合安全标准。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性维护",
+        "type": [
+            "维护流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构完整性维护，包括防腐、焊接修复等措施。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估",
+        "type": [
+            "评估流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性进行评估，确保符合安全和性能标准。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性标准",
+        "type": [
+            "标准规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构完整性需遵循的国际或国家标准，如IMO规范等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性设计",
+        "type": [
+            "设计规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构完整性设计，确保结构在各种工况下的安全和可靠性。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性分析",
+        "type": [
+            "分析流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性进行分析，评估其在各种工况下的性能。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性测试",
+        "type": [
+            "测试流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性进行测试，确保符合安全和性能标准。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估标准",
+        "type": [
+            "标准规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构完整性评估需遵循的国际或国家标准，如IMO规范等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估方法",
+        "type": [
+            "评估方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性进行评估的方法，包括目视检查、无损检测等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估工具",
+        "type": [
+            "评估工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估船舶结构完整性的工具，如超声波检测仪、X射线检测仪等。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估报告",
+        "type": [
+            "评估报告"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性评估的结果报告，用于指导维护和修理。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估记录",
+        "type": [
+            "评估记录"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性评估过程的记录，用于跟踪和管理船舶维护。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估计划",
+        "type": [
+            "评估计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性评估的计划，包括评估频率、方法和责任人。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估周期",
+        "type": [
+            "评估周期"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性评估的周期安排，确保结构安全。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估频率",
+        "type": [
+            "评估频率"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶结构完整性评估的频率安排，确保结构安全。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "船体结构完整性评估责任人",
+        "type": [
+            "评估责任人"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶结构完整性评估的人员或机构，确保评估工作的专业性和准确性。",
+        "chunk_ids": [
+            8
+        ]
+    },
+    {
+        "entity_name": "移民船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于搭载无铺位旅客的船舶，通常在特定区域如中东和东南亚用于运送朝圣者。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "高速客轮",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指轻量建造的高速客船，自20世纪80年代起显著发展，船长可超过100米，运载能力达500人及多辆车辆。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "非排水型船舶",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船型发生根本改变的船舶，其设计不同于传统排水型船舶，具有独特的浮力分布。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "铝合金",
+        "type": [
+            "材料",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造轻质高速船舶的主要材料之一，具有轻量化和高强度的特性。 | 在船舶建造中使用的轻质材料，密度约为2.723 t/m³，比低碳钢轻，具有良好的耐腐蚀性和无磁性，适用于商船和军船，但初始成本较高。 | 一种用于船舶建造的轻质材料，具有较高的强重比，适用于减轻船舶重量，改善横稳性，但成本较高且需考虑维护费用。 | 用于船舶制造的金属材料，需接受拉伸试验和镦粗试验以评估其力学性能。",
+        "chunk_ids": [
+            9,
+            14,
+            15,
+            18
+        ]
+    },
+    {
+        "entity_name": "轻质高强度钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造轻质高速船舶的另一种材料，具有较高的强度和较轻的重量。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "纤维增强塑料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于高速船舶上层建筑和客舱的材料，具有轻质和耐腐蚀的特性。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "双体船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高速船舶的一种类型，包括常规双体船、穿浪双体船和小水线面双体船（SWATH），后者水线以下的双体浮力占比很大。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "穿浪双体船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双体船的一种，具有光顺的前部浮体桥式结构，适用于高速航行。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "小水线面双体船（SWATH）",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "双体船的一种，水线以下的双体浮力占比很大，适用于高速航行。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "水翼艇",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高速船舶的一种，利用水翼产生升力以提高航速。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "表面效应船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高速船舶的一种，通过在船体与水面之间保持气垫以减小阻力。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "气垫船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表面效应船的一种，通过在船体与水面之间保持气垫以减小阻力，提高航速。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "国际海事组织（IMO）",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责制定和推广国际船舶安全、环保和运营规则的国际组织，对客船和高速船舶的安全性进行规范。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "中国船级社（CCS）",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "全球主要船级社之一，负责船舶分类和安全标准，其标准被IMO认可。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "挪威船级社（DNV）",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "全球主要船级社之一，负责船舶分类和安全标准，其标准被IMO认可。 | 提出了关于船体使用轻量混凝土-钢夹层板的建议，用于货舱区域，具有减少裂纹、消除腐蚀和避免局部屈曲的优点。",
+        "chunk_ids": [
+            9,
+            14
+        ]
+    },
+    {
+        "entity_name": "国际船级社协会（IACS）",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由全球主要船级社组成的国际组织，致力于发展船舶结构的通用规则。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "IACS CSR数据追踪",
+        "type": [
+            "系统/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "IACS提供的用于追踪CSR规则修改历史的在线系统，方便用户获取规则的逐段修改信息。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "劳氏船级社（LR）",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "IACS成员之一，成立于1760年，负责船舶分类和安全标准，其规则被广泛采用。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "船籍登记簿",
+        "type": [
+            "系统/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录船舶入级信息的官方文件，根据船级社规则或等效标准为船舶指定类别。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "特征符号",
+        "type": [
+            "标识"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标识船舶入级信息的符号，如100A1或100A1，表示船舶符合特定船级社规则。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "马耳他十字标记",
+        "type": [
+            "标识"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标识经船级社特殊检验新建造的船舶，表明在建造期间有检验员检查材料和工艺。",
+        "chunk_ids": [
+            9
+        ]
+    },
+    {
+        "entity_name": "劳氏船级社",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责对船舶进行入级评定的国际船级社，其船级符号用于标识船舶符合特定建造标准和航行条件。 | 负责船舶入级和检验的船级社，对船舶的建造、检验、维修和特殊检验提出规范要求。 | 劳氏船级社对船舶建造用钢有规范要求，其关于材料制造、测试和认证规则的第3章中规定了A、B、D和E级钢的要求。 | 颁布了关于在新船建造和船舶维修时使用钢夹层板系统的暂行条例，包括建造流程、结构尺寸确定方法等。 | 规定船舶建造铝合金类型的标准机构，如5083-0、5083-F等。 | 规定船舶建造铝合金类型的标准机构，如5083-0、5083-F等。 | 劳氏船级社规定在船中40%部分具有最大的结构尺寸。",
+        "chunk_ids": [
+            10,
+            11,
+            13,
+            14,
+            15,
+            19
+        ]
+    },
+    {
+        "entity_name": "船级符号",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标识船舶符合特定建造标准和航行条件的符号，如100A1、LMC、Lloyd'sRMC等，表示船舶在不同方面的符合性。",
+        "chunk_ids": [
+            10
+        ]
+    },
+    {
+        "entity_name": "冰区船舶",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在冰区航行的船舶，其结构需要加强以应对冰载荷，劳氏船级社为其制定了特殊的特征符号和冰级分类。",
+        "chunk_ids": [
+            10
+        ]
+    },
+    {
+        "entity_name": "冰级",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社对冰区船舶的分类，分为冰级1AA、1A、1B、1C，用于表示船舶在冰区航行的强度等级。",
+        "chunk_ids": [
+            10
+        ]
+    },
+    {
+        "entity_name": "极地级别",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "IMO提出的适用于运营在北极冰封水域的船舶的7个级别，从PC1到PC7，表示船舶在极地环境下的适应能力。",
+        "chunk_ids": [
+            10
+        ]
+    },
+    {
+        "entity_name": "结构设计程序",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶设计、建造和维护的正确程序，包含结构设计评估、疲劳设计评估和建造监控程序。",
+        "chunk_ids": [
+            10
+        ]
+    },
+    {
+        "entity_name": "定期检验",
+        "type": [
+            "检验",
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶为保持船级必须接受的定期检验，包括年度检验、中期检验等，由船级社检验员执行。 | 船舶为了保持船级，必须由船级社的检验员进行的周期性检查，包括年度检验、中期检验、船坞检验、下水检验和特殊检验。",
+        "chunk_ids": [
+            10,
+            11
+        ]
+    },
+    {
+        "entity_name": "年度检验",
+        "type": [
+            "检验",
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "所有钢制船舶必须进行的年度检验，包括对封闭装置、干舷、水密舱门、结构防火性等的检查。 | 所有钢制船舶都要求进行的年检，检验内容包括封闭装置状况、最小干舷、干舷标尺、辅助操舵装置状况、水密舱门、水密隔板渗透状况、结构防火性以及船舶总体状况。",
+        "chunk_ids": [
+            10,
+            11
+        ]
+    },
+    {
+        "entity_name": "冰区船舶规范1985",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "适用于在冬天运营的船舶和1986年11月1日后铺设龙骨的船舶的冰区船舶规范，用于确定船体构件尺寸要求。",
+        "chunk_ids": [
+            10
+        ]
+    },
+    {
+        "entity_name": "中期检验",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "代替船舶建成后第二次或第三次年检或特别检验的检验，特别关注运营超过15年的船舶的货舱和油船、化学品运输船、液化天然气运输船的操纵系统。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船坞检验",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "每隔不超过两年半进行一次的干船坞检验，特别关注船壳板、船尾框架、舵、外部和全船装置、容易腐蚀和磨损的部位以及船底不平整部位。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "下水检验",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船级社可能接受的下水检验，以代替一半的五年内要求进行的船坞检验，通常为船坞检验提供信息，仅在船体水下部分涂有高阻力油漆时考虑进行。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "特殊检验",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "所有在劳氏船级社入级的钢制船舶每隔5年进行一次的检验，根据船龄分为4组，检验内容包括船体结构、材料厚度评估、特殊建造工艺和材料测试等。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体保养计划",
+        "type": [
+            "维护计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社提供的计划，用于减少船体定期检查的范围，结合船级社规定与船东保养计划，由认证船员执行。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "毁损维修",
+        "type": [
+            "维修类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶需要维修损坏设备或船体时，必须在劳氏船级社规范下进行，并需获得检验员批准以保持船级。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "铁矿石",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于生产生铁的原材料，通过高炉熔炼生成生铁，是船舶建造用钢的来源之一。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "高炉",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于铁矿石熔炼的大型结构，内衬耐热材料，通过焦炭和石灰岩的添加产生流态铁，是生铁制造的关键设备。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "生铁",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由高炉熔炼生成的金属，含铁92%~97%，其余为碳、硅、锰、硫磺和磷，是钢材加工的原料。 | 合成生铁中含有 92% ∼ 97% 的铁，剩下的是碳、硅、锰、硫磺和磷。",
+        "chunk_ids": [
+            11,
+            12
+        ]
+    },
+    {
+        "entity_name": "钢材",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造用钢，由生铁精炼而成，杂质减少后形成钢材，用于船体结构制造。 | 广义上钢材可以被看作是铁碳合金，碳的含量在低碳钢的 0.1% 到硬化钢的 1.8% 之间变化。",
+        "chunk_ids": [
+            11,
+            12
+        ]
+    },
+    {
+        "entity_name": "船壳板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "构成船舶水下部分外壁的钢板，是船体结构的重要组成部分，需定期检验其状况。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船尾框架",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船舶尾部的结构框架，是船体结构的重要支撑部分，需在船坞检验中特别关注。 | 由钢铸件制成的船体结构部件，用于支撑船体后部结构。",
+        "chunk_ids": [
+            11,
+            14
+        ]
+    },
+    {
+        "entity_name": "舵",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶转向装置，位于船尾，是船舶操纵系统的重要组成部分，需在检验中特别关注。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "水密舱门",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分隔船舶不同舱室的密封门，需在检验中检查其渗透状况和结构防火性。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "水密隔板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分隔船舶不同舱室的密封隔板，需在检验中检查其渗透状况和结构防火性。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "结构防火性",
+        "type": [
+            "性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构在火灾情况下的耐火能力，需在年度检验和特殊检验中进行评估。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "锚",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于固定船舶位置的装置，需在年度检验中进行检查。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "电缆",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶电气系统的导线，需在年度检验中进行检查。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "干货散装船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输干货的船舶，需在年度检验和特殊检验中进行特定检查。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "化学品运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输化学品的船舶，需在特殊检验中遵循额外规定。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "液化天然气运输船",
+        "type": [
+            "船舶类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于运输液化天然气的船舶，需在特殊检验中遵循额外规定。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "超声波",
+        "type": [
+            "检测技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于无损检测的现代技术，检验员可通过钻孔或其他认可方法确定材料厚度。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "无损技术",
+        "type": [
+            "检测技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检测材料厚度和结构状况的现代技术，如超声波检测。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船龄",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的使用年限，影响特殊检验的频率和范围。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体要求",
+        "type": [
+            "规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船龄划分的特殊检验要求，包括结构数量、材料变形评估等。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体结构数量",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据船龄增加而增多的船体结构检查数量，需在特殊检验中评估。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "材料厚度",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体材料的厚度，需通过钻孔或无损检测技术进行评估。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "建造工艺",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中采用的特殊工艺，需在船舶入级时提供详细信息。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "建造材料",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造所使用的材料，包括钢材、生铁等，需进行测试以确保符合规范。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "装备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上的各种设备，需在船舶入级时提供详细信息。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船东",
+        "type": [
+            "实体"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶的所有者，与船级社合作制定船体保养计划。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船员",
+        "type": [
+            "人员"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "在船体保养计划中被授权进行检验的人员，需经过劳氏船级社培训和认证。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船级",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的等级认证，需通过定期检验和特殊检验来保持。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体结构项目",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据批准的保养计划选择的船体结构部分，由认证船员进行检验。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "年度审查",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社对船体保养计划执行情况的年度检查，确保符合规定。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体布置",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部结构的布局，需在船舶入级时提供详细信息。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体尺寸",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶主要构件的尺寸，需在船舶入级时提供详细信息。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体检查",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体结构和材料的检查，包括年度检验、中期检验、船坞检验、下水检验和特殊检验。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体检查计划",
+        "type": [
+            "维护计划"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社提供的船体保养计划，用于减少船体定期检查的范围。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体结构检查",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体结构的检查，包括船壳板、船尾框架、舵、水密舱门、水密隔板等。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体材料检查",
+        "type": [
+            "检验类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体材料的检查，包括材料厚度、结构状况等。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体结构评估",
+        "type": [
+            "评估类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体结构的评估，包括材料变形、结构完整性等。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "船体结构变形",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在使用过程中的变形情况，需在检验中评估。",
+        "chunk_ids": [
+            11
+        ]
+    },
+    {
+        "entity_name": "平炉过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "平炉有能力生产大量的钢材，在一次熔炼中可处理 150 ∼ 300t 钢材。它由一个浅的熔池、带顶结构和两个衬砖的加热室组成。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "电炉过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "电炉通常有两种类型：电弧炉和高频感应电炉。前者用于改善装料以达到要求的化学组成，而后者仅能在化学组成与最终要求达到的化学组成相近时用于熔化装料。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "氧化过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "这是一个现代的钢材制造过程，由生铁和铁屑组成的融化装料和合金元素容纳在碱性转炉里。高纯度氧气直接喷射到液态金属的表面上以精炼金属。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "脱氧元素",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在钢的化学添加过程中，脱氧元素被用于金属的还原，移除杂质并把杂质从矿渣中带出，最终达到所期望的化学组成。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "沸腾钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当只有少量脱氧材料被添加进熔态金属时才会产生沸腾钢。这种钢材中存在和碳结合的氧以及其他气体，并且在凝固时会在中心部位形成大量气孔。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "镇静钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过添加足够数量的脱氧材料而阻止气体溢出，这种类型的钢材拥有高度的化学匀致性，且优于沸腾钢。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "半镇静钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过限制脱氧材料的数量使脱氧过程部分发生，由此能制造出半镇静钢。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "熔析",
+        "type": [
+            "工艺现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材中如硫化物和磷化物的杂质的熔点比纯金属的熔点低，这将使杂质趋向朝着铸铁的中心和顶部析出并聚集，它们是最后凝固的部位。",
+        "chunk_ids": [
+            12
+        ]
+    },
+    {
+        "entity_name": "退火",
+        "type": [
+            "热处理工艺",
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "这一过程包括把钢材缓慢加热到 850 ∼ 950°C，接着在熔炉里以非常缓慢的速度进行降温。退火的目的是减少内应力、软化钢材，或者使钢材达到适合接下来的热处理的状态。 | 将钢材缓慢加热到850~950°C，然后在熔炉里以非常缓慢的速度进行降温，目的是减少内应力、软化钢材，或使其达到适合接下来热处理的状态。 | 对冷作加工后的铝合金板材进行加热和冷却处理，以恢复其延展性。 | 对冷作加工后的铝合金板材进行加热和冷却处理，以恢复其延展性。",
+        "chunk_ids": [
+            12,
+            13,
+            15
+        ]
+    },
+    {
+        "entity_name": "正火",
+        "type": [
+            "热处理工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "这一过程通过把钢材缓慢加热到和退火过程类似的温度来实现，并允许在空气中进行冷却。较快的冷却速度的结果是产生比退火更硬的、更强的钢材，并且改善了晶粒尺寸。 | 将钢材缓慢加热到与退火过程类似的温度，并允许在空气中进行冷却，结果是产生比退火更硬、更强的钢材，并改善晶粒尺寸。",
+        "chunk_ids": [
+            12,
+            13
+        ]
+    },
+    {
+        "entity_name": "淬火（硬化）",
+        "type": [
+            "热处理工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢材被加热到和退火过程以及正火过程相类似的温度，接着在水里或油里进行猝熄。快速的冷却速度产生具有较高拉伸强度的硬度较高的钢材。 | 将钢材加热到与退火和正火过程相类似的温度，然后在水或油中进行快速冷却，产生具有较高拉伸强度的硬度较高的钢材。",
+        "chunk_ids": [
+            12,
+            13
+        ]
+    },
+    {
+        "entity_name": "回火",
+        "type": [
+            "热处理工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过随后的热处理钢材的特性可能发生巨大的改变。这些热处理主要通过改变钢材的结构带来力学特性的改变。 | 淬火后的钢材被进一步加热到介于常温与680°C之间，或通过油中淬火或水中淬火进行非常迅速的降温，目的是减轻由硬化产生的内应力，减小材料脆性并保持较高拉伸强度。",
+        "chunk_ids": [
+            12,
+            13
+        ]
+    },
+    {
+        "entity_name": "去应力退火",
+        "type": [
+            "热处理工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过升温使材料结构不发生变化，然后进行缓慢冷却，以减轻内应力。",
+        "chunk_ids": [
+            13
+        ]
+    },
+    {
+        "entity_name": "型钢",
+        "type": [
+            "材料部件",
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一系列型钢是通过钢锭热轧而成，常见的与船舶建造有关的型钢类型如图5.1所示。船舶建造中通常使用标准类型的型钢，以避免不经济的轧机装配。 | 型钢是船舶建造中常用的结构材料，需在船级社批准的工艺下生产，并进行材料分析和试验。",
+        "chunk_ids": [
+            13,
+            17
+        ]
+    },
+    {
+        "entity_name": "船舶建造用钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造用钢通常是含碳量为0.15%~0.23%、锰含量相当高的低碳钢，硫和磷含量保持最小（小于0.05%），以保证良好的焊接性能。这些钢材由批准的制造商生产，并在轧钢厂进行检验和测试。",
+        "chunk_ids": [
+            13
+        ]
+    },
+    {
+        "entity_name": "高强度钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "比低碳钢强度更高的钢材，用于大型油船、集装箱船和散货船的高应力区域。其焊接性能和疲劳寿命是应用时的重要考虑因素，且分为3个轧制状态强度等级和6个淬火/回火状态强度等级。",
+        "chunk_ids": [
+            13
+        ]
+    },
+    {
+        "entity_name": "耐腐蚀钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "含有合金元素的钢材，具有较好的耐腐蚀性，但因成本较高在船舶结构中不常用。仅在运载高度腐蚀性货物的货船上使用，且油船内表面常使用高成本的耐腐蚀涂层进行保护。",
+        "chunk_ids": [
+            13
+        ]
+    },
+    {
+        "entity_name": "钢夹层板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由蜂窝状钢芯和面板组成，外部钢板通过电阻焊或激光焊连接。用于需要轻量化建造的船舶，如海军舰艇和客船的上层建筑，具有轻量化和耐腐蚀性优势。 | 一种由蜂窝状钢芯和外部钢板组成的板材，外部钢板通过电阻焊接或激光焊接连接。用于轻量化船舶结构，如客船的上层建筑和甲板，具有耐腐蚀性、低维护费用和轻量化优势。",
+        "chunk_ids": [
+            13,
+            14
+        ]
+    },
+    {
+        "entity_name": "SPS",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种专门的钢夹层板系统，其内芯为人造橡胶（特殊聚氨酯），可承受高机械应力并快速复原，具有耐化学腐蚀、减振、隔音和防火功能，达到A60耐火等级，适用于船舶建造和维修。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "人造橡胶",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种特殊的聚氨酯材料，用于SPS钢夹层板的内芯，可承受高机械应力，快速复原变形，抵抗大多数普通化学物质，具有减振、隔音和防火功能。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "钢铸件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过平炉、电炉或氧化过程生产的钢水凝固成特定形状的铸件，用于船尾框架、舵框、轴包套等结构部件，需进行热处理以减小脆性。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "钢锻件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过锻造工艺加工得到的金属部件，以冷硬模中的铸锭形式存在，用于船体结构部件，需进行热处理以消除加工和冷却影响。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "轻量混凝土-钢夹层板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢材、混凝土和钢材组成的复合结构，用于船体货舱区域，相比全钢结构更薄，可增加运载能力，但需在指定舱室装载压载水。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "舵框",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢铸件制成的船体结构部件，用于支撑舵装置。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "轴包套",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢铸件制成的船体结构部件，用于保护船舶轴系。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "双孔结构",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种钢铸件结构形式，用于船尾框架、舵框和轴包套等部件。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "舷侧外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶侧面的外板结构，用于保护船体，DNV建议其宽度为600 mm。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "耐火等级",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估船舶结构防火性能的等级，SPS结构可达到A60耐火等级。",
+        "chunk_ids": [
+            14
+        ]
+    },
+    {
+        "entity_name": "横稳性",
+        "type": [
+            "性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶抵抗横向倾斜的能力，通过减轻上层建筑重量并将其置于船舶重心上方得以改善。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "载重量/空船重量比率",
+        "type": [
+            "参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "衡量船舶经济性的指标，铝合金在该比率较低的船舶上能带来明显重量减轻效果。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "玛丽女王2号",
+        "type": [
+            "船舶"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "原文中提及的船舶，未使用铝合金上层建筑以减少40年寿命周期内的维护费用。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "伊丽莎白女王2号",
+        "type": [
+            "船舶"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "原文中提及的船舶，其上五层甲板使用铝合金建造，以在受限船宽条件下多支持一层甲板。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "垫圈的螺栓连接",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接钢制船体与铝合金上层建筑的连接方式，以避免腐蚀电池的产生。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "易爆性的铁/铝黏合过渡连接件",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于连接钢制船体与铝合金上层建筑的连接材料，具有爆炸性，用于保有腐蚀裕量。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "铝合金板架",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由铝合金制成的结构部件，用于船舶上层建筑，具有可压制成型的特性，便于设计高效结构。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "加强筋板架",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "铝合金板架的一部分，用于增强结构强度，与甲板板连接，减少焊接量以降低变形风险。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "冷作加工",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对铝合金板材进行冷加工以增强其强度，但会降低延展性，因此在船舶建造中需谨慎控制。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "热处理",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过冷热循环提高铝合金的拉伸强度，使其具有更好的耐腐蚀性和结构性能。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "镁和硅",
+        "type": [
+            "材料成分"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "铝合金的主要合金成分，形成硅化镁化合物，提高合金的耐腐蚀性和极限拉伸强度。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "铝业协会数字",
+        "type": [
+            "标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于标识铝合金类型的数字代码，如未经热处理的合金5000和热处理合金6000。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "5083-0",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，退火处理。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "5083-F",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，焊接处理。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "5083-H321",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，应变硬化和稳定处理。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "5086-0",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，退火处理。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "5086-F",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，焊接处理。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "5086-H321",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，应变硬化和稳定处理。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "6061-T6",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，固溶热处理和人工老化。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "6062-T6",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "劳氏船级社规定的船舶建造铝合金类型，固溶热处理和人工老化。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "铆接",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于连接铝合金板架结构的工艺，适用于避免焊接热变形的场合。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "铆钉",
+        "type": [
+            "设备",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于铆接的金属部件，常见的原料是未经热处理的合金NR5，含有3%~4%的镁。 | 用于连接船体结构的金属部件，需接受与铝合金型材相同的拉伸试验和镦粗试验。",
+        "chunk_ids": [
+            15,
+            18
+        ]
+    },
+    {
+        "entity_name": "冷压铆钉",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过较轻的锤击使铆钉闭合，避免过度冷作加工导致形状无法还原。 | 一种铆钉加工方式，通过相对较轻的锤击使铆钉迅速闭合，避免过度冷作加工导致加工硬化。",
+        "chunk_ids": [
+            15,
+            16
+        ]
+    },
+    {
+        "entity_name": "热铆铆钉",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过控制温度进行铆接，避免金相损坏，其剪切强度略低于冷压铆钉。 | 一种铆钉加工方式，需要小心控制温度以避免金相损坏，其剪切强度比冷压铆钉稍低。",
+        "chunk_ids": [
+            15,
+            16
+        ]
+    },
+    {
+        "entity_name": "铝合金夹层板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由蜂巢夹芯结构制成的铝合金板材，可替代组合板架和加强结构，用于高速舰艇的上层建筑。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "蜂巢夹芯结构",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种轻质高强度的结构形式，用于铝合金夹层板，以减轻重量并提高结构效率。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "铝土矿",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于生产铝的矿石，含有约56%的铝，需经过净化和还原过程得到金属铝。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "氧化铝",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从铝土矿中提炼出的中间产物，需进一步还原成金属铝。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "型材",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过压制生产的铝合金材料，具有复杂形状，但厚度范围受限。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "钢模",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于压制型材的工具，每个厚度需要不同的钢模。",
+        "chunk_ids": [
+            15
+        ]
+    },
+    {
+        "entity_name": "合金NR5",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造用锻造铆钉最常见的原料，未经热处理的合金，含有3%~4%的镁。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "蜂巢夹芯结构铝合金板材",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "专门用于船舶建造的铝合金板材，可代替组合板架和加强结构，用于高速舰艇上层建筑以减轻重量。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "防火保护",
+        "type": [
+            "工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "针对铝合金材料熔点较低的特性，为防止火灾时结构坍塌而采取的保护措施，如钢制舱壁和机械外壳。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "纤维增强复合材料（FRCs）",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "结合纤维和基质（如塑料）形成的复合材料，具有高强度、轻量化和可定制性，广泛用于游艇和军船。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "玻璃纤维增强塑料（GRP）",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种纤维增强复合材料，用于小型船舶建造，具有轻量化、耐久性和无接缝结构的优点。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "FRP结构",
+        "type": [
+            "结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "纤维增强塑料结构，用于船舶建造，属于劳动密集型工艺，适用于小型船舶但不经济用于大型船舶。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "模具",
+        "type": [
+            "设备",
+            "制造设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于FRP船体成型的工具，由样板模子制作，可多次使用，表面需抛光以确保船体光顺性。 | 用于小型船舶制造的模具通常被设计为两个半份，以便于拆分以释放出船体。",
+        "chunk_ids": [
+            16,
+            17
+        ]
+    },
+    {
+        "entity_name": "脱模剂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "PV涂层，一种纯净无气味的液体，用于模具表面防止与船体粘连。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "凝胶漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于FRP船体成型的材料，固化后形成光顺、水密的船体外表面，可被着色。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "玻璃纤维毡",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于FRP船体成型的材料，铺设在模具上并浸入树脂，形成船体结构。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "树脂",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于FRP船体成型的基质材料，与玻璃纤维结合形成结构，需确保纤维完全浸湿并排除空气。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "加强筋",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体结构的加强部件，通常为实心或空心形式，覆盖于模具中的船体结构上。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "顶帽结构加强材",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由多层玻璃纤维和树脂形成的封闭箱型结构或半圆截面结构，用于增强船体强度。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "材料试验",
+        "type": [
+            "工艺",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估材料强度、延展性和韧性，确保其适用于船舶建造的功能要求。 | 材料试验用于确保金属材料的强度、延展性和韧性能够满足船舶建造的功能要求。",
+        "chunk_ids": [
+            16,
+            17
+        ]
+    },
+    {
+        "entity_name": "屈服应力",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料抵抗变形的能力指标，用于衡量材料在结构中的承载能力。 | 屈服应力是材料在屈服点处的应力值，表示材料从弹性行为转变为塑性行为的临界点。",
+        "chunk_ids": [
+            16,
+            17
+        ]
+    },
+    {
+        "entity_name": "极限拉伸强度",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料在断裂前能承受的最大应力，用于衡量材料的承载能力。",
+        "chunk_ids": [
+            16
+        ]
+    },
+    {
+        "entity_name": "强度",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料的强度是指其抵抗变形的能力，通常通过屈服应力和极限拉伸强度来衡量。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "硬度",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "材料的硬度描述其抵抗磨损的能力，尤其在散货船的货舱结构中因货物装卸而产生磨损时尤为重要。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "延展性",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "延展性是材料在失效前的变形能力，与脆性相反，软质金属如铝具有延展性。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "韧性",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "韧性是材料吸收能量的能力，用于衡量材料在冲击载荷下的断裂抵抗能力。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "应力",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "应力是衡量材料传递载荷的能力，定义为单位面积上的载荷，通常通过载荷除以横截面积计算。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "应变",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "应变是单位长度或单位体积的变形，定义为伸长量与原始长度的比值，用于描述材料在载荷作用下的变形程度。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "弹性模量",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "弹性模量是材料在弹性范围内应力与应变的比值，用于描述材料的刚度，对于低碳钢其值约为21100 kg/mm²。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "极限拉伸应力",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "极限拉伸应力是材料在断裂前所能承受的最大应力，通常通过拉伸试验确定。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "弹性极限",
+        "type": [
+            "材料性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "弹性极限是材料在应力-应变曲线中，应力与应变成比例的范围的上限，超过此点材料将发生塑性变形。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "低碳钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造的低碳钢需在船级社批准的工艺下生产，并需进行拉伸试验和冲击试验以确保其性能符合要求。 | 普遍使用低碳钢建造的船舶尤其易于发生脆性破坏，需要对其进行额外考虑。",
+        "chunk_ids": [
+            17,
+            19
+        ]
+    },
+    {
+        "entity_name": "高强度钢板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "高强度钢板是船舶建造中常用的材料，需在船级社批准的工艺下生产，并进行相应的材料试验。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "锻钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锻钢是船舶建造中使用的材料之一，需进行材料分析和试验以确保其质量符合船级社要求。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "铸钢",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "铸钢是船舶建造中使用的材料之一，需进行材料分析和试验以确保其质量符合船级社要求。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "拉伸试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "拉伸试验用于测定材料的最小屈服应力、极限拉伸应力和伸长量，试样需具有相同的横截面积和计算长度。 | 用于测定材料力学性能的试验方法，通过施加拉伸力直至材料断裂，评估其强度和延展性。",
+        "chunk_ids": [
+            17,
+            18
+        ]
+    },
+    {
+        "entity_name": "冲击试验",
+        "type": [
+            "工艺流程",
+            "试验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冲击试验用于测定材料的韧性，通常采用Charpy V形缺口试验和Charpy U形缺口试验，以评估材料在冲击载荷下的断裂抵抗能力。 | 用于确定材料韧性的一种试验方法，通过测量材料在冲击载荷作用下抵抗断裂的能力。试验中使用CharpyV形缺口试验和CharpyU形缺口试验，试样被放置在铁砧上，摆锤撞击试样缺口对面使其破裂，吸收的能量被机器记录。",
+        "chunk_ids": [
+            17,
+            18
+        ]
+    },
+    {
+        "entity_name": "Charpy V形缺口试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "Charpy V形缺口试验是一种冲击试验方法，用于测定材料的韧性，通过测量试样在冲击载荷下吸收的能量来评估其性能。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "Charpy U形缺口试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "Charpy U形缺口试验是另一种冲击试验方法，用于测定材料的韧性，通过测量试样在冲击载荷下吸收的能量来评估其性能。",
+        "chunk_ids": [
+            17
+        ]
+    },
+    {
+        "entity_name": "CharpyV形缺口试验",
+        "type": [
+            "试验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种冲击试验方法，用于测定材料在冲击载荷下的韧性。试验中使用带有V形缺口的标准试样，摆锤撞击试样缺口对面使其破裂，吸收的能量用于评估材料的断裂能力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "CharpyU形缺口试验",
+        "type": [
+            "试验方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "另一种冲击试验方法，与CharpyV形缺口试验类似，但使用U形缺口的标准试样，用于测定材料在冲击载荷下的韧性。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "冲击能量",
+        "type": [
+            "物理量"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "冲击试验中试样被撞破时所吸收的能量，计算为摆锤释放前的势能与撞破试样后摆过铅垂线时的能量之差。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "摆锤",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于冲击试验的装置，通过释放摆锤撞击试样缺口对面，使其破裂，并记录吸收的能量。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "试样",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于冲击试验的标准化样品，具有特定的缺口形状（如V形或U形），用于评估材料在冲击载荷下的韧性。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "铁砧",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于冲击试验中支撑试样的装置，试样被放置在铁砧上，摆锤撞击试样缺口对面使其破裂。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "镦粗试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于评估材料在压缩载荷下的性能，要求压缩棒材直到其直径增大到原直径的1.6倍时仍没有裂纹出现。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "静水中",
+        "type": [
+            "环境条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶漂浮于静水中的状态，此时船舶受到的力包括垂向剪切力和纵向弯曲力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "垂向剪切力",
+        "type": [
+            "力"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在静水中由于浮力和重量分布不均而产生的垂直方向上的剪切力，导致船体发生弯曲。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "纵向弯曲",
+        "type": [
+            "结构现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在静水中由于浮力和重量分布不均而产生的沿船长方向的弯曲现象，表现为中拱或中垂。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "中拱",
+        "type": [
+            "结构现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在静水中由于船中重力较小而产生的弯曲形式，船底板承受压缩力，甲板承受拉伸力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "中垂",
+        "type": [
+            "结构现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在静水中由于船中重力较大而产生的弯曲形式，船底板承受拉伸力，甲板承受压缩力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "波浪中",
+        "type": [
+            "环境条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在波浪中航行时受到的力，包括波浪引起的浮力变化、弯矩、垂直剪切力和应力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "波浪",
+        "type": [
+            "环境条件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在波浪中航行时，波峰和波谷导致浮力变化，从而增大弯矩和应力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "纵向剪切力",
+        "type": [
+            "力"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在静水中和波浪中产生中拱或中垂时，在纵向平面产生的剪切力，与垂向剪切力相辅相成。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "弯曲应力",
+        "type": [
+            "应力"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据经典弯曲理论，梁上任一点的弯曲应力由弯矩、点距中性轴的距离和截面惯性矩决定，公式为 $sigma = \frac{M}{I} \times y$。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "中性轴",
+        "type": [
+            "结构特征",
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "梁弯曲时既不被拉伸也不被压缩的纤维所在的位置，距离中性轴最远的纤维产生最大弯曲应力。 | 船舶中性轴通常靠近船底，是计算截面惯性矩时的重要参考点。",
+        "chunk_ids": [
+            18,
+            19
+        ]
+    },
+    {
+        "entity_name": "截面惯性矩",
+        "type": [
+            "物理量",
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算弯曲应力的参数，截面惯性矩越大，弯曲应力越小，其值随截面深度的平方而变化。 | 在计算截面惯性矩时，所有纵向材料都非常重要，材料离中性轴越远，关于中性轴的截面惯性矩就越大。",
+        "chunk_ids": [
+            18,
+            19
+        ]
+    },
+    {
+        "entity_name": "箱型梁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的一种梁形式，由甲板和船底板形成面板，用于抵抗弯曲和剪切力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "船底板",
+        "type": [
+            "结构部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶下部的结构板，用于抵抗水压力和弯曲应力，通常比甲板更厚。 | 船底板由于必须抵抗水压力和弯曲应力因此比甲板更厚。",
+        "chunk_ids": [
+            18,
+            19
+        ]
+    },
+    {
+        "entity_name": "截面模量",
+        "type": [
+            "物理量",
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于描述截面抗弯能力的参数，定义为截面惯性矩与中性轴距离的比值，公式为 $Z = I / y$。 | 在距中性轴较远的位置时，截面模量会减小，相应的在船体梁板的末端可能产生较高的应力。",
+        "chunk_ids": [
+            18,
+            19
+        ]
+    },
+    {
+        "entity_name": "纵向强度",
+        "type": [
+            "结构性能"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构在纵向方向上的抗弯和抗剪能力，由船体梁的面板和腹板共同承担。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "舷顶列板",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中位于舷顶的列板，通常比其他位置的板更厚，用于承受较高的应力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "船舱部",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部用于装载货物或设备的区域，其结构板通常更厚以承受较高的应力。",
+        "chunk_ids": [
+            18
+        ]
+    },
+    {
+        "entity_name": "船体梁板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体梁板的末端（例如甲板边板、舷顶列板和船舱部）可能产生较高的应力，这些列板也通常比其他位置的板更厚。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "强力甲板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "形成主船体梁的最上层面板的甲板经常被称为强力甲板，实际上，如果构造得当，所有的连续甲板都是强力甲板。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "横舱壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "横舱壁主要抵抗船舶横摇时产生的横向变形。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "边肋骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "边肋骨仅在其所在肋位上提供一定的横向强度。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "深的强肋骨",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当横舱壁相隔较远时，就要设置深的强肋骨和横梁以作补偿。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "扭矩",
+        "type": [
+            "力学特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当船首倾斜入水时，将会在船尾产生相反方向的复原力矩，扭转船体并使它处于受扭转状态。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "抗扭箱形梁结构",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "大型集装箱船在干舷部有一个包括上甲板的重型抗扭箱形梁结构，以供调节扭转应力。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "拍击",
+        "type": [
+            "局部应力"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "拍击指的是当船舶在波浪中，由作用在船体首尾的波动压力，船壳板以类似皮老虎工作的方式‘进’和‘出’一种趋势。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "砰击",
+        "type": [
+            "局部应力"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当船首入水时在船底板和首部框架产生严重局部应力，这些抨击应力可能在轻压载状况下最严重，并且发生在船底板尾部的防碰撞舱壁区域。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "防碰撞舱壁",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "砰击应力发生在船底板尾部的防碰撞舱壁区域，这些区域要求额外的加强。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "局部应力",
+        "type": [
+            "力学特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构构件经常在局部区域遭受较高应力，设计时需要确保这些区域能够承受较高的应力。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "脆性破坏",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "脆性破坏发生时，没有任何明显迹象的弹性材料断裂或者在失效之前几乎没有材料变形的证据。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "铆接船",
+        "type": [
+            "结构类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在铆接船船上记录下了脆性破坏的实例，但在焊接船船上脆性破坏的后果是更加灾难性的。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "延性破坏",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "延性破坏有暗灰色的外观，与脆性破坏可以通过外观和锯齿痕进行区分。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "断裂",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "脆性破坏发生时，断裂瞬间发生没有任何警告，船舶总体结构并不需要受到很大的应力。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "拉伸应力",
+        "type": [
+            "力学特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "脆性破坏发生时，有拉伸应力的。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "钢板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢板的冶金性能是影响脆性破坏的因素之一。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "厚板",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "厚板更容易脆性破坏。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "温度",
+        "type": [
+            "环境因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在某一温度之上脆性破坏将不会发生。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "结构交点",
+        "type": [
+            "结构特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在承受多种载荷的船舶构件相交的地方，例如在纵向构件和横舱壁相交的地方，可能产生高应力。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "舱口",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舱口和其他开口角隅可能产生高应力。",
+        "chunk_ids": [
+            19
+        ]
+    },
+    {
+        "entity_name": "舷墙",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "舷墙的突然不连续的地方可能产生高应力。",
+        "chunk_ids": [
+            19
+        ]
+    }
+]

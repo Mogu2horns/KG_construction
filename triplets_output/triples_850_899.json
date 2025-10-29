@@ -1,0 +1,5144 @@
+[
+    {
+        "subject": "格槽导引装置",
+        "relation": "has",
+        "object": "横向间隔",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "格槽导引装置",
+        "relation": "has",
+        "object": "纵向间隔",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "格槽导引装置",
+        "relation": "has",
+        "object": "安装精度",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "格槽导引装置",
+        "relation": "uses",
+        "object": "夹具",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "格槽导引装置",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "格槽导引装置",
+        "relation": "connects_to",
+        "object": "集装箱",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "锁定的堆码搭扣",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "锁定的堆码搭扣",
+        "relation": "connects_to",
+        "object": "集装箱",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "甲板底座",
+        "relation": "has",
+        "object": "ISO标准孔",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "甲板底座",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "商船",
+        "relation": "has",
+        "object": "泵系布置",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "商船",
+        "relation": "has",
+        "object": "管路布置",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "泵系布置",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "管路布置",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "泵系",
+        "relation": "has",
+        "object": "惰性气体",
+        "chunk_id": "850"
+    },
+    {
+        "subject": "舱底压载泵",
+        "relation": "connects_to",
+        "object": "主舱底水管路",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "舱底压载泵",
+        "relation": "connects_to",
+        "object": "独立的泵",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "机舱",
+        "relation": "uses",
+        "object": "排水口",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "机舱",
+        "relation": "connects_to",
+        "object": "主舱底水管路",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "机舱",
+        "relation": "connects_to",
+        "object": "独立的泵",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "应急舱底水吸入口",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "应急舱底水吸入口",
+        "relation": "connects_to",
+        "object": "主循环水泵",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "应急舱底水吸入口",
+        "relation": "connects_to",
+        "object": "主冷却水泵",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "located_at",
+        "object": "隔间的后半部分",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "located_at",
+        "object": "前半舱段",
+        "chunk_id": "851"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "located_at",
+        "object": "隔间",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "located_at",
+        "object": "货舱",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "connects_to",
+        "object": "舱底水排水口",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水排水口",
+        "relation": "connected_to",
+        "object": "主舱底水管路",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水井",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水井",
+        "relation": "located_at",
+        "object": "舱底",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水井",
+        "relation": "has",
+        "object": "容量",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "舱底水井",
+        "relation": "located_at",
+        "object": "船底板",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "内底板",
+        "relation": "extends_to",
+        "object": "舷侧",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "内底板",
+        "relation": "supports",
+        "object": "舱底水井",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "排水系统",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "船尾水井",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "船尾水井",
+        "relation": "connects_to",
+        "object": "船舶轴遂",
+        "chunk_id": "852"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "舱底水吸入口",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底水吸入口",
+        "relation": "uses",
+        "object": "滤箱",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "滤箱",
+        "relation": "applied_to",
+        "object": "舱底水管入口",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "滤箱",
+        "relation": "has",
+        "object": "开孔直径",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "滤箱",
+        "relation": "has",
+        "object": "截面积",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "滤箱",
+        "relation": "located_at",
+        "object": "舱底水管入口",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "泥渣分离箱",
+        "relation": "located_at",
+        "object": "机舱轴遂",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "泥渣分离箱",
+        "relation": "has",
+        "object": "滤网",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底泵",
+        "relation": "located_at",
+        "object": "机舱处所",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底泵",
+        "relation": "has",
+        "object": "动力系统",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "动力系统",
+        "relation": "located_at",
+        "object": "独立水密隔间",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底泵",
+        "relation": "located_at",
+        "object": "高于舱壁甲板处",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底泵",
+        "relation": "distributed_along",
+        "object": "船长",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底泵",
+        "relation": "has",
+        "object": "常规损害",
+        "chunk_id": "853"
+    },
+    {
+        "subject": "舱底主管路",
+        "relation": "connects_to",
+        "object": "货舱",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底主管路",
+        "relation": "connects_to",
+        "object": "水密隔间",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "阀组件",
+        "relation": "prevents",
+        "object": "水密隔间之间直接连通",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "阀组件",
+        "relation": "prevents",
+        "object": "干货舱与海底舱直接相通",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "阀组件",
+        "relation": "prevents",
+        "object": "机舱与海底泵直接相通",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "截止阀",
+        "relation": "located_at",
+        "object": "舱底阀分散区域",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底管路",
+        "relation": "connects_to",
+        "object": "排泄管",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "排泄管",
+        "relation": "independent_of",
+        "object": "通海管",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "排泄管",
+        "relation": "independent_of",
+        "object": "舱底水管",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "排泄管",
+        "relation": "used_for",
+        "object": "充满或放空压载水或油舱",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "污压载舱系统",
+        "relation": "used_for",
+        "object": "克服上述缺点",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底管道",
+        "relation": "can_be_installed_at",
+        "object": "双层底之外",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底管道",
+        "relation": "passes_through",
+        "object": "管道轴遂",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱室",
+        "relation": "located_at",
+        "object": "高位",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱室",
+        "relation": "has",
+        "object": "泵吸入口",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "防碰撞舱壁",
+        "relation": "allows",
+        "object": "两条管路通过",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "船首舱壁",
+        "relation": "has",
+        "object": "螺旋阀",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "阀件",
+        "relation": "has",
+        "object": "指示器",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底水总管",
+        "relation": "located_at",
+        "object": "舷侧型宽的20%",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "管路",
+        "relation": "should_install",
+        "object": "截止阀",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底水管",
+        "relation": "is_in",
+        "object": "可用状态",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "客轮",
+        "relation": "has",
+        "object": "深舱",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "客轮",
+        "relation": "has",
+        "object": "边舱",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱壁甲板之上的阀件",
+        "relation": "controls",
+        "object": "横向进水",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "手动管理操作",
+        "relation": "can_be_adopted",
+        "object": "横向进水控制",
+        "chunk_id": "854"
+    },
+    {
+        "subject": "舱底压载管路",
+        "relation": "uses",
+        "object": "生铁",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "舱底压载管路",
+        "relation": "uses",
+        "object": "熟铁",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "舱底压载管路",
+        "relation": "uses",
+        "object": "钢材",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "舱底压载管路",
+        "relation": "uses",
+        "object": "铜",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "舱底压载管路",
+        "relation": "uses",
+        "object": "法兰连接",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "舷侧",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "connects_to",
+        "object": "干舷甲板",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "connects_to",
+        "object": "舱底",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "connects_to",
+        "object": "舷外",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "uses",
+        "object": "螺旋止回阀",
+        "chunk_id": "855"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "管路系统",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "泵",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "冷淡水系统",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "热淡水系统",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "截止阀",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "加热线圈",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "水柜",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "液压气动泵",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "消防总管",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "甲板冲洗系统",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "水管接头",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "机舱",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "双层底舱",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "锚链",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "测深管",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "管系",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "has",
+        "object": "稳性",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "海水",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "清洁系统",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "泵系",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "消防水管",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "船舶",
+        "relation": "uses",
+        "object": "空气",
+        "chunk_id": "856"
+    },
+    {
+        "subject": "舱室",
+        "relation": "contains",
+        "object": "空气管",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "空气管",
+        "relation": "located_at",
+        "object": "舱壁甲板",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "空气管",
+        "relation": "located_at",
+        "object": "露天甲板",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "燃油舱",
+        "relation": "contains",
+        "object": "空气管",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "货油舱",
+        "relation": "contains",
+        "object": "空气管",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "防撞舱",
+        "relation": "contains",
+        "object": "空气管",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深管",
+        "relation": "located_at",
+        "object": "舱壁甲板",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深管",
+        "relation": "part_of",
+        "object": "测深装置",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深管",
+        "relation": "has",
+        "object": "直径",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深管",
+        "relation": "has",
+        "object": "最小直径",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深管",
+        "relation": "has",
+        "object": "直径要求",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深管",
+        "relation": "has",
+        "object": "防撞板",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深杆",
+        "relation": "located_at",
+        "object": "测深管",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深杆",
+        "relation": "has",
+        "object": "封闭端",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深杆",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深装置",
+        "relation": "part_of",
+        "object": "测深系统",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深装置",
+        "relation": "belongs_to",
+        "object": "船级社",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "测深装置",
+        "relation": "used_by",
+        "object": "测深操作",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "通海口",
+        "relation": "located_at",
+        "object": "壳板海底箱",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "通海口",
+        "relation": "has",
+        "object": "铁格网",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "通海口",
+        "relation": "has",
+        "object": "牺牲阳极",
+        "chunk_id": "857"
+    },
+    {
+        "subject": "通海口",
+        "relation": "connects_to",
+        "object": "通海阀",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海口",
+        "relation": "contains",
+        "object": "铁格网",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海口",
+        "relation": "contains",
+        "object": "牺牲阳极",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海口",
+        "relation": "part_of",
+        "object": "壳板海底箱",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海箱体",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海箱体",
+        "relation": "has",
+        "object": "连接板",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海口",
+        "relation": "requires",
+        "object": "加强板",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海口",
+        "relation": "located_at",
+        "object": "船中40%船长范围内",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "通海口",
+        "relation": "located_at",
+        "object": "油轮泵系舱室",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "开口",
+        "relation": "has",
+        "object": "圆角",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "开口",
+        "relation": "requires",
+        "object": "清洁",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "液货泵",
+        "relation": "used_for",
+        "object": "装载和卸放货物",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "液货泵",
+        "relation": "used_for",
+        "object": "泵入压载水",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "液货泵系统",
+        "relation": "depends_on",
+        "object": "货物种类",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "液货泵系统",
+        "relation": "applied_to",
+        "object": "运载单一货物的大型散装油船",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "液货泵系统",
+        "relation": "applied_to",
+        "object": "运载多种油品的小型油轮",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "液货泵",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "管系",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "压载水",
+        "chunk_id": "858"
+    },
+    {
+        "subject": "油轮",
+        "relation": "contains",
+        "object": "泵室",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "油轮",
+        "relation": "contains",
+        "object": "管路系统",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "管路系统",
+        "relation": "has",
+        "object": "直达式",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "管路系统",
+        "relation": "contains",
+        "object": "管路",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "管路",
+        "relation": "connects_to",
+        "object": "吸入口",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "吸入口",
+        "relation": "located_at",
+        "object": "舱室",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "泵系舱室",
+        "relation": "located_at",
+        "object": "船尾",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "泵系舱室",
+        "relation": "located_at",
+        "object": "船中",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "泵系舱室",
+        "relation": "located_at",
+        "object": "船首",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "管路系统",
+        "relation": "has",
+        "object": "环形",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "液货泵",
+        "relation": "used_by",
+        "object": "管路系统",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "液压水闸控制阀",
+        "relation": "located_at",
+        "object": "舱壁",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "水闸阀",
+        "relation": "located_at",
+        "object": "纵向舱壁",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "油",
+        "relation": "flows_to",
+        "object": "液舱",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "货物主管路",
+        "relation": "has",
+        "object": "吸入口",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "清舱系统",
+        "relation": "used_with",
+        "object": "压载水清洁管路",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "压载水清洁管路",
+        "relation": "used_with",
+        "object": "清舱系统",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "直达式货油管路布置简图",
+        "relation": "shows",
+        "object": "管理方法",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "直达式货油管路布置简图",
+        "relation": "shows",
+        "object": "清舱系统",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "直达式货油管路布置简图",
+        "relation": "shows",
+        "object": "压载水清洁管路",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "环形货油管路布置简图",
+        "relation": "shows",
+        "object": "环形系统",
+        "chunk_id": "859"
+    },
+    {
+        "subject": "环形货油管路布置简图",
+        "relation": "belongs_to",
+        "object": "管路布置",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "液货泵",
+        "relation": "uses",
+        "object": "离心式液压泵",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "离心式液压泵",
+        "relation": "has",
+        "object": "容量",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "往复式清舱泵",
+        "relation": "has",
+        "object": "容量",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "往复式清舱泵",
+        "relation": "uses",
+        "object": "清舱管路",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "可浸液货泵",
+        "relation": "uses",
+        "object": "独立排水管路",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "可浸液货泵",
+        "relation": "uses",
+        "object": "防爆电动机",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "货舱通风机",
+        "relation": "connects_to",
+        "object": "空气管",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "固定甲板泡沫系统",
+        "relation": "belongs_to",
+        "object": "货舱保护",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "固定甲板泡沫系统",
+        "relation": "applied_to",
+        "object": "货舱",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "固定惰性气体系统",
+        "relation": "belongs_to",
+        "object": "货舱保护",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "固定惰性气体系统",
+        "relation": "applied_to",
+        "object": "货舱",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "applied_to",
+        "object": "液化气船",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "has",
+        "object": "氧气含量",
+        "chunk_id": "860"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "part_of",
+        "object": "油船",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "acts_on",
+        "object": "货舱",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "uses",
+        "object": "烟道气",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "uses",
+        "object": "惰性气体发生装置",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "惰性气体发生装置",
+        "relation": "acts_on",
+        "object": "柴油",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "惰性气体发生装置",
+        "relation": "acts_on",
+        "object": "轻燃料油",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "止回障碍",
+        "relation": "part_of",
+        "object": "惰性气体系统",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "止回障碍",
+        "relation": "located_at",
+        "object": "机舱",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "双层壳体",
+        "relation": "connects_to",
+        "object": "惰性气体系统",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "双层底",
+        "relation": "connects_to",
+        "object": "惰性气体系统",
+        "chunk_id": "861"
+    },
+    {
+        "subject": "油船",
+        "relation": "contains",
+        "object": "双层壳体",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "油船",
+        "relation": "contains",
+        "object": "双层底",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "双层壳体",
+        "relation": "connects_to",
+        "object": "惰性气体系统",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "双层底",
+        "relation": "connects_to",
+        "object": "惰性气体系统",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "惰性气体系统",
+        "relation": "uses",
+        "object": "惰性气体",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "油船",
+        "relation": "contains",
+        "object": "货舱",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "acts_on",
+        "object": "惰性气体",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "碳氢化合物蒸气",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "可燃气体",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "排气口",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "排气口",
+        "relation": "affects",
+        "object": "可燃气体浓度",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "油船",
+        "relation": "contains",
+        "object": "便携式排气风扇",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "便携式排气风扇",
+        "relation": "uses",
+        "object": "空气流动",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "清洗",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "热水",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "冷水",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "淡水",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "海水",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "原油",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "清洗机",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "便携式清洗机",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "connects_to",
+        "object": "水柜",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "水柜",
+        "relation": "connects_to",
+        "object": "货船泵",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货船泵",
+        "relation": "connects_to",
+        "object": "清洗总线",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "清洗总线",
+        "relation": "uses",
+        "object": "原油",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "剩余物",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "压载水",
+        "chunk_id": "862"
+    },
+    {
+        "subject": "腐蚀控制",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "大气腐蚀",
+        "relation": "acts_on",
+        "object": "船体结构",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "大气腐蚀",
+        "relation": "determines",
+        "object": "腐蚀率",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "腐蚀率",
+        "relation": "affects",
+        "object": "船体结构完整性",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "浸水腐蚀",
+        "relation": "acts_on",
+        "object": "船壳",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "浸水腐蚀",
+        "relation": "determines",
+        "object": "电化学腐蚀",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "电化学腐蚀",
+        "relation": "affects",
+        "object": "船体结构完整性",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "腐蚀控制",
+        "relation": "replaces",
+        "object": "维护",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "affects",
+        "object": "船体结构完整性",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "determines",
+        "object": "材料性能下降",
+        "chunk_id": "863"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "affects",
+        "object": "金属材料",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "determines",
+        "object": "结构完整性",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "电化学腐蚀",
+        "relation": "acts_on",
+        "object": "金属材料",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "电解质溶液",
+        "relation": "contains",
+        "object": "氯化钠",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "氯化钠",
+        "relation": "applied_to",
+        "object": "制冷系统",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "氧气",
+        "relation": "acts_on",
+        "object": "金属材料",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "腐蚀电池",
+        "relation": "contains",
+        "object": "电解质溶液",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "腐蚀电池",
+        "relation": "contains",
+        "object": "金属",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "铁",
+        "relation": "acts_on",
+        "object": "氯化钠溶液",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "铜",
+        "relation": "acts_on",
+        "object": "氯化钠溶液",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "阳极",
+        "relation": "has",
+        "object": "腐蚀",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "阴极",
+        "relation": "has",
+        "object": "无腐蚀",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "电流",
+        "relation": "flows_from",
+        "object": "阳极",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "电流",
+        "relation": "flows_to",
+        "object": "阴极",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "负离子",
+        "relation": "moves_to",
+        "object": "阳极",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "正离子",
+        "relation": "moves_to",
+        "object": "阴极",
+        "chunk_id": "864"
+    },
+    {
+        "subject": "电化学腐蚀",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "电化学腐蚀",
+        "relation": "acts_on",
+        "object": "氧化皮",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "氧气",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "水分",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "湿度",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "双金属腐蚀",
+        "relation": "belongs_to",
+        "object": "电化学腐蚀",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "双金属腐蚀",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "钢板",
+        "relation": "has",
+        "object": "氧化皮",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "affects",
+        "object": "船舶",
+        "chunk_id": "865"
+    },
+    {
+        "subject": "侵蚀",
+        "relation": "属于",
+        "object": "腐蚀类型",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "冲击腐蚀",
+        "relation": "属于",
+        "object": "腐蚀类型",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "空泡腐蚀",
+        "relation": "属于",
+        "object": "腐蚀类型",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "空泡腐蚀",
+        "relation": "属于",
+        "object": "腐蚀现象",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "冲击腐蚀",
+        "relation": "作用于",
+        "object": "金属表面",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "流动的水",
+        "relation": "导致",
+        "object": "侵蚀",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "空泡腐蚀",
+        "relation": "发生于",
+        "object": "快速流动的液体环境",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "空泡腐蚀",
+        "relation": "导致",
+        "object": "金属表面点蚀",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "腐蚀余量",
+        "relation": "属于",
+        "object": "设计参数",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "船级社",
+        "relation": "规定",
+        "object": "腐蚀余量",
+        "chunk_id": "867"
+    },
+    {
+        "subject": "腐蚀余量",
+        "relation": "belongs_to",
+        "object": "设计参数",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "腐蚀余量",
+        "relation": "applied_to",
+        "object": "板和截面尺寸",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "腐蚀余量",
+        "relation": "determines",
+        "object": "服务期",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "acts_on",
+        "object": "金属",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "腐蚀",
+        "relation": "affects",
+        "object": "船体结构完整性",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "腐蚀控制",
+        "relation": "uses",
+        "object": "阴极保护",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "腐蚀控制",
+        "relation": "uses",
+        "object": "防护涂料",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "阴极保护",
+        "relation": "applied_to",
+        "object": "电解液",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "阴极保护",
+        "relation": "acts_on",
+        "object": "金属",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "牺牲阳极保护系统",
+        "relation": "uses",
+        "object": "牺牲阳极",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "牺牲阳极",
+        "relation": "belongs_to",
+        "object": "设备",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "牺牲阳极保护系统",
+        "relation": "replaces",
+        "object": "传统防腐措施",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "外部电源",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "belongs_to",
+        "object": "防腐措施",
+        "chunk_id": "868"
+    },
+    {
+        "subject": "锌板",
+        "relation": "用于",
+        "object": "保护铜质螺旋桨",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "锌板",
+        "relation": "用于",
+        "object": "保护沉浸在海水中的装置",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "锌合金",
+        "relation": "用于",
+        "object": "牺牲阳极保护系统",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "铝",
+        "relation": "用于",
+        "object": "牺牲阳极保护系统",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "镁",
+        "relation": "用于",
+        "object": "牺牲阳极保护系统",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "镁阳极",
+        "relation": "不能用于",
+        "object": "油船压载舱",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "镁阳极",
+        "relation": "不能用于",
+        "object": "油船货舱",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "铝阳极",
+        "relation": "用于",
+        "object": "油船",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "铝阳极",
+        "relation": "安装于",
+        "object": "势能小于 $28mathrm{kg}cdot mathrm{m}$ 的位置",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "牺牲阳极",
+        "relation": "安装于",
+        "object": "船体",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "牺牲阳极",
+        "relation": "安装于",
+        "object": "压载舱",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "使用",
+        "object": "非消耗性贵金属阳极",
+        "chunk_id": "869"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "镀银/氯化银参比电池",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "放大控制器",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "饱和扼流圈",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "船舶电气系统",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "铝线",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "contains",
+        "object": "参比电池",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "contains",
+        "object": "放大控制器",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "contains",
+        "object": "饱和扼流圈",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "contains",
+        "object": "阳极",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "uses",
+        "object": "防护涂料（油漆）",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "applied_to",
+        "object": "船壳",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "affects",
+        "object": "船体维护",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "has",
+        "object": "非消耗性阳极",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "非消耗性阳极",
+        "relation": "contains",
+        "object": "铅",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "非消耗性阳极",
+        "relation": "contains",
+        "object": "银",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "非消耗性阳极",
+        "relation": "contains",
+        "object": "铂",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "非消耗性阳极",
+        "relation": "contains",
+        "object": "钛",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "非消耗性阳极",
+        "relation": "contains",
+        "object": "镀铂钛阳极",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "replaces",
+        "object": "牺牲阳极系统",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "外加电流保护系统",
+        "relation": "located_at",
+        "object": "船壳",
+        "chunk_id": "870"
+    },
+    {
+        "subject": "防护涂料（油漆）",
+        "relation": "uses",
+        "object": "颜料",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "防护涂料（油漆）",
+        "relation": "uses",
+        "object": "媒介物",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "树脂",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "溶剂",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "acts_on",
+        "object": "干膜",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "防护涂料（油漆）",
+        "relation": "applied_to",
+        "object": "钢结构",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "防护涂料（油漆）",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "871"
+    },
+    {
+        "subject": "涂料",
+        "relation": "uses",
+        "object": "媒介物",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "沥青",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "树脂",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "uses",
+        "object": "溶剂",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "uses",
+        "object": "干燥剂",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "油基",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "含油树脂",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "干性油",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "醇酸树脂",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "contains",
+        "object": "耐化学药品",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "applied_to",
+        "object": "水下",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "872"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "uses",
+        "object": "冷固化剂",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "环氧树脂涂料",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "环氧树脂涂料",
+        "relation": "uses",
+        "object": "冷固化剂",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "环氧树脂",
+        "relation": "applied_to",
+        "object": "船舶表面",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "环氧酯",
+        "relation": "consists_of",
+        "object": "环氧树脂",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "环氧酯",
+        "relation": "consists_of",
+        "object": "脂肪酸",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "煤焦油/环氧树脂",
+        "relation": "consists_of",
+        "object": "甲级煤焦油沥青",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "煤焦油/环氧树脂",
+        "relation": "consists_of",
+        "object": "环氧树脂",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "煤焦油/环氧树脂",
+        "relation": "applied_to",
+        "object": "船舶涂装",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "consists_of",
+        "object": "环氧树脂",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "媒介物",
+        "relation": "applied_to",
+        "object": "防护涂料",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "沥青",
+        "relation": "applied_to",
+        "object": "船底防锈漆",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "沥青",
+        "relation": "applied_to",
+        "object": "船底防污漆",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "沥青",
+        "relation": "applied_to",
+        "object": "水线漆",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "applied_to",
+        "object": "船舶上层建筑部",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "applied_to",
+        "object": "船舶外舷部",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "applied_to",
+        "object": "船壳漆",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "醇酸树脂",
+        "relation": "applied_to",
+        "object": "甲板漆",
+        "chunk_id": "873"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "属于",
+        "object": "材料",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "属于",
+        "object": "材料部件",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "船底防锈漆",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "水线漆",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "船壳漆",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "甲板漆",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "具有",
+        "object": "耐水性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "具有",
+        "object": "耐化学性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "大气区",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "维护保养",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "属于",
+        "object": "媒介物",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "具有",
+        "object": "有机溶剂溶解度",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "防腐涂料",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "用于",
+        "object": "水线以下区域",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "具有",
+        "object": "耐碱性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "氯化橡胶",
+        "relation": "具有",
+        "object": "抗腐蚀性能",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "属于",
+        "object": "材料",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "由",
+        "object": "天然橡胶",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "通过",
+        "object": "化学方法",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "具有",
+        "object": "相同的化学成分",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "具有",
+        "object": "不同的分子结构",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "属于",
+        "object": "媒介物",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "异构化橡胶",
+        "relation": "具有",
+        "object": "有机溶剂溶解度",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "属于",
+        "object": "材料",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "由",
+        "object": "异氰酸酯",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "由",
+        "object": "羟基混合物",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "反应生成",
+        "object": "尿烷",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "水线以上船体",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "耐候性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "化学稳定性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "油漆膜",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "纤维",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "黏合剂",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "单成分聚氨基甲酸油漆",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "双成分聚氨基甲酸油漆",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "韧性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "硬度",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "光泽度",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "耐磨性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "耐化学性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "耐风化性",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "不用于",
+        "object": "水下区域",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "上层建筑",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "用于",
+        "object": "游艇",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "聚氨基甲酸乙酯树脂",
+        "relation": "具有",
+        "object": "光泽度",
+        "chunk_id": "874"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "used_in",
+        "object": "预处理底漆",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "乙烯树脂",
+        "relation": "applied_to",
+        "object": "水下保护措施",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "富锌涂料",
+        "relation": "contains",
+        "object": "金属锌",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "富锌涂料",
+        "relation": "has",
+        "object": "干漆膜颜料含量",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "富锌涂料",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "富锌涂料",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "涂料",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "涂料",
+        "relation": "applied_to",
+        "object": "钢质船",
+        "chunk_id": "875"
+    },
+    {
+        "subject": "涂料",
+        "relation": "contains",
+        "object": "颜料",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "颜料",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "四氧化三铅",
+        "relation": "belongs_to",
+        "object": "颜料",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "四氧化三铅",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "铬酸锌",
+        "relation": "belongs_to",
+        "object": "颜料",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "铬酸锌",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "锌粉",
+        "relation": "belongs_to",
+        "object": "涂料",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "锌粉",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "防污染系统",
+        "relation": "uses",
+        "object": "外加电流防污系统",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "外加电流防污系统",
+        "relation": "contains",
+        "object": "铜正极",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "外加电流防污系统",
+        "relation": "contains",
+        "object": "钢板负极",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "外加电流防污系统",
+        "relation": "contains",
+        "object": "控制单元",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "铜正极",
+        "relation": "acts_on",
+        "object": "钢板负极",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "控制单元",
+        "relation": "regulates",
+        "object": "铜离子释放量",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "冷却水",
+        "relation": "used_in",
+        "object": "潜弧焊机头",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "海水",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "船体",
+        "relation": "acts_on",
+        "object": "海水",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "船体",
+        "relation": "affects",
+        "object": "水动力性能",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "外加电流防污系统",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "876"
+    },
+    {
+        "subject": "控制单元",
+        "relation": "part_of",
+        "object": "管理系统",
+        "chunk_id": "877"
+    },
+    {
+        "subject": "外加电流防污系统",
+        "relation": "uses",
+        "object": "信息",
+        "chunk_id": "877"
+    },
+    {
+        "subject": "外加电流防污系统",
+        "relation": "affects",
+        "object": "铜离子释放量",
+        "chunk_id": "877"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "contains",
+        "object": "颜料",
+        "chunk_id": "877"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "contains",
+        "object": "媒介物",
+        "chunk_id": "877"
+    },
+    {
+        "subject": "颜料",
+        "relation": "contains",
+        "object": "铜",
+        "chunk_id": "877"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "has",
+        "object": "渗透率",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "has",
+        "object": "渗透率",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "affects",
+        "object": "摩擦阻力",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "affects",
+        "object": "进坞间隔",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "船体粗糙度",
+        "relation": "affects",
+        "object": "燃料消耗",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "contains",
+        "object": "有毒化合物",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "applied_to",
+        "object": "船底",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "商船",
+        "relation": "has",
+        "object": "防污漆",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "防污漆",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "船东",
+        "relation": "uses",
+        "object": "防污漆",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "improves",
+        "object": "进坞间隔",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "replaces",
+        "object": "传统防污漆",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "enables",
+        "object": "延长使用寿命",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "has",
+        "object": "寿命",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "自抛光防污漆",
+        "relation": "affects",
+        "object": "燃料消耗",
+        "chunk_id": "878"
+    },
+    {
+        "subject": "三丁基化合物",
+        "relation": "uses",
+        "object": "防污漆",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "uses",
+        "object": "防污漆",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "acts_on",
+        "object": "漆膜",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "affects",
+        "object": "海洋生物",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "控制船舶有害防污国际公约",
+        "relation": "prohibits",
+        "object": "有机锡化合物",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "控制船舶有害防污国际公约",
+        "relation": "applies_to",
+        "object": "防污系统",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "有机锡化合物",
+        "relation": "belongs_to",
+        "object": "杀生剂",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "杀生剂",
+        "relation": "has",
+        "object": "化学能力",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "limits",
+        "object": "丙烯酸骨架",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "化学反应",
+        "relation": "acts_on",
+        "object": "漆膜",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "releases",
+        "object": "有机锡",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "releases",
+        "object": "控制释放",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "TBT's",
+        "relation": "affects",
+        "object": "封闭海岸",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "控制船舶有害防污国际公约",
+        "relation": "applies_to",
+        "object": "浮式平台",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "控制船舶有害防污国际公约",
+        "relation": "applies_to",
+        "object": "FSU",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "控制船舶有害防污国际公约",
+        "relation": "applies_to",
+        "object": "FPSO",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "有机锡",
+        "relation": "has",
+        "object": "锡原子",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "有机锡化合物",
+        "relation": "has",
+        "object": "锡原子",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "有机锡化合物",
+        "relation": "affects",
+        "object": "食物链",
+        "chunk_id": "879"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "uses",
+        "object": "铜",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "uses",
+        "object": "低能量表面涂料",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "船舶涂装",
+        "relation": "requires",
+        "object": "表面预处理",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂料",
+        "relation": "belongs_to",
+        "object": "材料",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "表面预处理",
+        "relation": "acts_on",
+        "object": "氧化皮",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "氧化皮",
+        "relation": "forms_on",
+        "object": "钢材",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂装工艺",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂装工艺",
+        "relation": "inputs",
+        "object": "表面预处理",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂料",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂料",
+        "relation": "applied_to",
+        "object": "舾装件",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂料",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "船舶",
+        "relation": "located_at",
+        "object": "干船坞",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂装",
+        "relation": "located_at",
+        "object": "干船坞",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂装",
+        "relation": "precedes",
+        "object": "密性试验",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "表面预处理",
+        "relation": "precedes",
+        "object": "涂装",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "低表面能",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "涂料",
+        "relation": "has",
+        "object": "光滑表面",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "has",
+        "object": "防污性能",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "has",
+        "object": "防腐性能",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "防污漆",
+        "relation": "has",
+        "object": "涂层厚度",
+        "chunk_id": "880"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "applied_to",
+        "object": "表面预处理",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "uses",
+        "object": "研磨料",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "acts_on",
+        "object": "金属表面",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "replaces",
+        "object": "手动准备",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "located_at",
+        "object": "造船车间",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "improves",
+        "object": "表面清理效果",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "prepares_for",
+        "object": "底漆涂装",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "enables",
+        "object": "真空恢复表面",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "applied_to",
+        "object": "表面预处理",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "uses",
+        "object": "酸溶液",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "acts_on",
+        "object": "金属表面",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "replaces",
+        "object": "火焰清洗",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "prepares_for",
+        "object": "底漆涂装",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "inputs",
+        "object": "氯化氢",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "inputs",
+        "object": "硫酸",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "outputs",
+        "object": "清洁金属表面",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "affects",
+        "object": "锈蚀",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "improves",
+        "object": "表面清理效果",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "enables",
+        "object": "底漆涂装",
+        "chunk_id": "881"
+    },
+    {
+        "subject": "火焰清洗",
+        "relation": "acts_on",
+        "object": "钢表面",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "火焰清洗",
+        "relation": "applied_to",
+        "object": "严酷温度环境下的板清理",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "applied_to",
+        "object": "高性能涂装系统",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "replaces",
+        "object": "喷砂清理",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "高压水清理",
+        "relation": "replaces",
+        "object": "喷砂清理",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "高压水清理",
+        "relation": "produces",
+        "object": "SA2.5级钢材表面",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "高压水清理",
+        "relation": "has",
+        "object": "主要废物为水",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "applied_to",
+        "object": "钢材表面",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "has",
+        "object": "昂贵的生产成本",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "手动清理",
+        "relation": "applied_to",
+        "object": "氧化皮由于天气原因已经松动的地方",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "手动清理",
+        "relation": "has",
+        "object": "最差的处理结果",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "临时油漆保护",
+        "relation": "prepares_for",
+        "object": "最后涂装",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "临时油漆保护",
+        "relation": "located_at",
+        "object": "船舶建造过程",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "火焰清洗",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "高压水清理",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "酸洗",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "手动清理",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "882"
+    },
+    {
+        "subject": "喷抛清理",
+        "relation": "applied_to",
+        "object": "钢板预处理流水线",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "底漆",
+        "relation": "uses",
+        "object": "环氧树脂",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "底漆",
+        "relation": "uses",
+        "object": "锌粉",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "底漆",
+        "relation": "compatibility",
+        "object": "后续油漆",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "applied_to",
+        "object": "涂装",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "has",
+        "object": "完整性涂装",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线",
+        "relation": "has",
+        "object": "涂装",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "盐水压载舱",
+        "relation": "applied_to",
+        "object": "涂料",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "盐水压载舱",
+        "relation": "has",
+        "object": "耐腐蚀性能",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "涂装系统",
+        "relation": "applied_to",
+        "object": "船舶结构",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "涂装系统",
+        "relation": "has",
+        "object": "兼容性",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "涂装系统",
+        "relation": "applied_to",
+        "object": "水线以下区域",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "涂装系统",
+        "relation": "applied_to",
+        "object": "水线以上区域",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "涂装系统",
+        "relation": "applied_to",
+        "object": "上层建筑",
+        "chunk_id": "883"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "uses",
+        "object": "底涂层",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "uses",
+        "object": "防污漆",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "uses",
+        "object": "沥青",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "uses",
+        "object": "氯化橡胶",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "uses",
+        "object": "煤炭焦油/环氧树脂",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以下区域",
+        "relation": "uses",
+        "object": "乙烯基树脂漆",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以上船体",
+        "relation": "uses",
+        "object": "乙烯树脂",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以上船体",
+        "relation": "uses",
+        "object": "聚酯树脂",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "水线以上船体",
+        "relation": "uses",
+        "object": "聚氨基甲酸乙酯树脂",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "uses",
+        "object": "红丹涂料",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "uses",
+        "object": "铬酸锌",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "uses",
+        "object": "醇酸树脂油漆",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "uses",
+        "object": "铝合金",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "防腐涂料",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "uses",
+        "object": "防腐涂料",
+        "chunk_id": "884"
+    },
+    {
+        "subject": "货舱",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "货舱",
+        "relation": "affects",
+        "object": "局部点蚀",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "环氧树脂漆",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "乙烯树脂漆",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "货舱",
+        "relation": "uses",
+        "object": "涂锌层",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "白油",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "原油",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "uses",
+        "object": "环氧树脂漆",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "uses",
+        "object": "乙烯树脂漆",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "压载舱",
+        "relation": "uses",
+        "object": "涂锌层",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "液货舱",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "液货舱",
+        "relation": "affects",
+        "object": "腐蚀",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "液货舱",
+        "relation": "uses",
+        "object": "环氧树脂漆",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "液货舱",
+        "relation": "uses",
+        "object": "乙烯树脂漆",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "液货舱",
+        "relation": "uses",
+        "object": "涂锌层",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "加热、通风、空调、制冷、隔热",
+        "relation": "enables",
+        "object": "船舶",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "加热、通风、空调、制冷、隔热",
+        "relation": "affects",
+        "object": "冷藏货物",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "CAD系统",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "CAD系统",
+        "relation": "applied_to",
+        "object": "管路",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "CAD系统",
+        "relation": "applied_to",
+        "object": "设备",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "CAD系统",
+        "relation": "applied_to",
+        "object": "通道",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "通风",
+        "relation": "enables",
+        "object": "船舶",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "通风",
+        "relation": "enables",
+        "object": "作业安全",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "通风",
+        "relation": "enables",
+        "object": "清洁",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "通风",
+        "relation": "enables",
+        "object": "焊接",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "通风",
+        "relation": "enables",
+        "object": "切割",
+        "chunk_id": "885"
+    },
+    {
+        "subject": "机械通风设备",
+        "relation": "part_of",
+        "object": "船舶机舱",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "自然排气系统",
+        "relation": "part_of",
+        "object": "船舶机舱",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "自然进气和排气装置",
+        "relation": "part_of",
+        "object": "储藏室",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "自然进气和排气装置",
+        "relation": "part_of",
+        "object": "工作空间",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "机械排气装置",
+        "relation": "part_of",
+        "object": "烟气处所",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "机械排气装置",
+        "relation": "uses",
+        "object": "低碳钢通道",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "自然风机排气口",
+        "relation": "part_of",
+        "object": "舷侧外表面",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "自然风机排气口",
+        "relation": "part_of",
+        "object": "舱顶天花板",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "恒温机",
+        "relation": "part_of",
+        "object": "船员起居室",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "恒温机",
+        "relation": "part_of",
+        "object": "机械控制室",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "恒温机",
+        "relation": "part_of",
+        "object": "客轮的起居和公共区域",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "恒温机",
+        "relation": "controls",
+        "object": "室温",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "恒温机",
+        "relation": "controls",
+        "object": "空气湿度",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通道",
+        "relation": "similar_to",
+        "object": "百叶窗",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "独立空调",
+        "relation": "part_of",
+        "object": "每位乘客",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "干货船货舱通风系统",
+        "relation": "part_of",
+        "object": "干货船",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "干货船货舱通风系统",
+        "relation": "composed_of",
+        "object": "机械进气系统",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "干货船货舱通风系统",
+        "relation": "composed_of",
+        "object": "自然排气系统",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "除湿器",
+        "relation": "part_of",
+        "object": "货舱通风系统",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "干气百叶窗",
+        "relation": "part_of",
+        "object": "货舱通风系统",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "干气百叶窗",
+        "relation": "connects_to",
+        "object": "货舱",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "货舱",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "机舱",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "储藏室",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "工作空间",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "烟气处所",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "货舱",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "船员起居室",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "机械控制室",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "通风系统",
+        "relation": "part_of",
+        "object": "客轮的起居和公共区域",
+        "chunk_id": "886"
+    },
+    {
+        "subject": "干货船",
+        "relation": "contains",
+        "object": "冷藏室",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "干货船",
+        "relation": "contains",
+        "object": "货舱",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "冷藏室",
+        "relation": "used_for",
+        "object": "冷藏货物",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "货舱",
+        "relation": "used_for",
+        "object": "冷冻货物",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "集装箱",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "隔热层",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "冷藏货物",
+        "relation": "located_at",
+        "object": "冷藏室",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "冷藏肉类",
+        "relation": "located_at",
+        "object": "强力甲板加强筋",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "supports",
+        "object": "冷藏肉类",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "冷冻肉类",
+        "relation": "located_at",
+        "object": "货舱",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "水果和蔬菜",
+        "relation": "located_at",
+        "object": "板条箱",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "板条箱",
+        "relation": "used_for",
+        "object": "空气流通",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "制冷机",
+        "relation": "used_for",
+        "object": "制冷系统",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "蒸发器",
+        "relation": "used_for",
+        "object": "制冷系统",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "盐水",
+        "relation": "used_for",
+        "object": "冷却冷藏舱室",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "格形箱",
+        "relation": "used_for",
+        "object": "冷却空气",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "风扇",
+        "relation": "used_for",
+        "object": "空气流通",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "线槽",
+        "relation": "used_for",
+        "object": "空气循环",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "中横剖面图",
+        "relation": "shows",
+        "object": "隔热层",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "船中剖面",
+        "relation": "has",
+        "object": "最大总纵弯曲应力",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "冷藏货物运输船",
+        "relation": "has",
+        "object": "中横剖面图",
+        "chunk_id": "887"
+    },
+    {
+        "subject": "冷藏室",
+        "relation": "requires",
+        "object": "隔热措施",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "软木",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "玻璃纤维",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "泡沫塑料",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "真空",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "重量轻",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "防虫",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "耐火",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "不吸收水分",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "矿棉板",
+        "relation": "has",
+        "object": "防火",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "矿棉板",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "located_at",
+        "object": "内底",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "has",
+        "object": "承重材料",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "preferred",
+        "object": "软木",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "can_use",
+        "object": "榫槽板衬里",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "can_use",
+        "object": "木质承载件",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "determines",
+        "object": "厚度",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "加强筋组件",
+        "relation": "determines",
+        "object": "厚度",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "applied_to",
+        "object": "镀锌钢板",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "applied_to",
+        "object": "铝合金板",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "applied_to",
+        "object": "框架",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "applied_to",
+        "object": "加强构件",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "双层底油舱",
+        "relation": "has",
+        "object": "隔热层",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热层",
+        "relation": "has",
+        "object": "真空层",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "真空层",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "真空层",
+        "relation": "has",
+        "object": "至少为 $50mathrm{mm}$",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "耐油深层",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "耐油深层",
+        "relation": "has",
+        "object": "超过 $5mathrm{mm}$",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "冷冻室",
+        "relation": "has",
+        "object": "隔热门",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "冷冻货船",
+        "relation": "has",
+        "object": "舱室",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "冷冻货船",
+        "relation": "has",
+        "object": "舱口",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "专利钢盖",
+        "relation": "has",
+        "object": "隔热材料",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "箱型舱口盖",
+        "relation": "has",
+        "object": "隔热材料",
+        "chunk_id": "888"
+    },
+    {
+        "subject": "隔热空间",
+        "relation": "has",
+        "object": "排水孔",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "affects",
+        "object": "隔热效果",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "connects_to",
+        "object": "隔热舱",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "海水井",
+        "relation": "located_at",
+        "object": "二层甲板和隔热舱之间",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "海水井",
+        "relation": "has",
+        "object": "海水",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "海水",
+        "relation": "forms",
+        "object": "水封",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "水封",
+        "relation": "prevents",
+        "object": "水分流失",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "冷冻货物",
+        "relation": "transported_by",
+        "object": "冷藏船",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "集装箱船",
+        "relation": "equipped_with",
+        "object": "冷冻集装箱",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "冷冻集装箱",
+        "relation": "replaces",
+        "object": "传统冷藏船",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "ISO集装箱",
+        "relation": "has",
+        "object": "20英尺",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "甲板以下每个舱室",
+        "relation": "equipped_with",
+        "object": "盐水冷却器",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "盐水冷却器",
+        "relation": "connects_to",
+        "object": "隔热集装箱",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "冷空气管",
+        "relation": "connects_to",
+        "object": "隔热集装箱",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "甲板以下系统",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "货舱区域",
+        "relation": "does_not_have",
+        "object": "隔热",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "舷侧舱壁",
+        "relation": "insulated_with",
+        "object": "防火泡沫",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "insulated_with",
+        "object": "软木和沥青",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "甲板以下的冷冻集装箱",
+        "relation": "located_at",
+        "object": "船尾货舱",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "甲板以上冷冻集装箱",
+        "relation": "powered_by",
+        "object": "空气冷凝电动机",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "冷却单元",
+        "relation": "connected_to",
+        "object": "船舶电力系统",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "短程航行",
+        "relation": "uses",
+        "object": "水冷单元",
+        "chunk_id": "889"
+    },
+    {
+        "subject": "整体空冷机",
+        "relation": "drives",
+        "object": "冷却单元",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "冷却单元",
+        "relation": "located_at",
+        "object": "货舱",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "冷却单元",
+        "relation": "located_at",
+        "object": "上甲板",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "船舶建造",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "船舶安全",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "环境保护",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "防止海洋污染",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "船舶设计",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "装备",
+        "chunk_id": "890"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "1969年国际船舶吨位丈量公约",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "1966年国际载重线公约",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "1974年国际海上人命安全公约",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "IMO决议MSC.287（87）",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "IMO决议MSC.287（87）",
+        "relation": "适用于",
+        "object": "散货船",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "IMO决议MSC.287（87）",
+        "relation": "适用于",
+        "object": "油轮",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "国际防止船舶造成污染公约",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "国际防止船舶造成污染公约",
+        "relation": "涉及",
+        "object": "油轮",
+        "chunk_id": "891"
+    },
+    {
+        "subject": "IMO",
+        "relation": "belongs_to",
+        "object": "国际组织",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "船舶结构设计标准",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "船舶安全标准",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "涂层标准",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "散货船安全规范",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "MARPOL公约的修订",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "belongs_to",
+        "object": "成员国",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "responsible_for",
+        "object": "海上航行安全",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "responsible_for",
+        "object": "法律的起草和执行",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "公约许可证书",
+        "relation": "requires",
+        "object": "船旗国管理部门",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "客轮安全证书",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "货船结构安全证书",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "货船设备安全证书",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "货船无线电安全证书",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "货船结构安全证书",
+        "relation": "applies_to",
+        "object": "货船",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "货船设备安全证书",
+        "relation": "applies_to",
+        "object": "货船",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "货船无线电安全证书",
+        "relation": "applies_to",
+        "object": "货船",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "公约",
+        "relation": "applies_to",
+        "object": "船舶",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "公约许可证书",
+        "relation": "applies_to",
+        "object": "国际贸易船舶",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "公约",
+        "relation": "determines",
+        "object": "船首高度",
+        "chunk_id": "892"
+    },
+    {
+        "subject": "货船",
+        "relation": "requires",
+        "object": "货船安全证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "油船",
+        "relation": "requires",
+        "object": "国际防止油类污染证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "非油船",
+        "relation": "requires",
+        "object": "国际防止油类污染证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "注册船旗的船舶",
+        "relation": "requires",
+        "object": "国际防止生活污水污染证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "注册船旗的船舶",
+        "relation": "requires",
+        "object": "防止大气污染证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "客轮",
+        "relation": "requires",
+        "object": "国际载重线证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "货船",
+        "relation": "requires",
+        "object": "国际载重线证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "所有船舶",
+        "relation": "requires",
+        "object": "国际吨位证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "船级社",
+        "relation": "issues",
+        "object": "载重线证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "船级社",
+        "relation": "issues",
+        "object": "公约证书",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "船级社",
+        "relation": "certifies",
+        "object": "载重线标志",
+        "chunk_id": "893"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "determines",
+        "object": "国际船舶吨位丈量公约",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "determines",
+        "object": "国际标准",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "enables",
+        "object": "吨位丈量",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "has",
+        "object": "密闭空间总容积",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "has",
+        "object": "密闭空间总容积",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "determines",
+        "object": "船舶有效舱容",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "constrained_by",
+        "object": "1994年7月18日",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "precedes",
+        "object": "船舶建造",
+        "chunk_id": "894"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "determines",
+        "object": "载重量",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "货物",
+        "relation": "has",
+        "object": "总体积",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "型吃水",
+        "relation": "affects",
+        "object": "净吨位",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "型深",
+        "relation": "affects",
+        "object": "净吨位",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "净吨位",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "船旗国",
+        "relation": "belongs_to",
+        "object": "海事局",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "国际吨位证书",
+        "relation": "issued_by",
+        "object": "船旗国海事局",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "船级社",
+        "relation": "authorized_to",
+        "object": "丈量吨位",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "船级社",
+        "relation": "authorized_to",
+        "object": "颁发国际吨位证书",
+        "chunk_id": "895"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "uses",
+        "object": "型尺寸",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "uses",
+        "object": "型尺寸",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "苏伊士运河吨位规范",
+        "relation": "determines",
+        "object": "船舶净吨位",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "巴拿马运河吨位规范",
+        "relation": "determines",
+        "object": "船舶净吨位",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "recognizes",
+        "object": "1981年巴拿马和苏伊士运河吨位丈量公约",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "巴拿马运河海事局",
+        "relation": "develops",
+        "object": "净吨位丈量系统",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "巴拿马运河海事局",
+        "relation": "uses",
+        "object": "TEU",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "巴拿马运河海事局",
+        "relation": "measures",
+        "object": "主甲板以下空间",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "巴拿马运河管理局",
+        "relation": "authorizes",
+        "object": "船级社",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "苏伊士运河管理局",
+        "relation": "authorizes",
+        "object": "船级社",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "总吨位",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "船舶尺寸",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "船型",
+        "chunk_id": "896"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determines",
+        "object": "船舶制造总量",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "affects",
+        "object": "船舶制造总量",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "uses",
+        "object": "总吨位",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "修正因子",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "修正因子",
+        "relation": "determined_by",
+        "object": "船型",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "修正因子",
+        "relation": "determined_by",
+        "object": "船舶尺寸",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "OECD",
+        "relation": "belongs_to",
+        "object": "机构",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "西欧造船厂联合会",
+        "relation": "belongs_to",
+        "object": "机构",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "日本造船协会",
+        "relation": "belongs_to",
+        "object": "机构",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "refines",
+        "object": "总吨位",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determined_by",
+        "object": "船长",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determined_by",
+        "object": "船型",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶稳性",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶浮性",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "国际载重线公约",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "国际载重线公约",
+        "relation": "belongs_to",
+        "object": "规范",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "载重线",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "897"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶稳性",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "规范",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶浮性",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "载重量",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶抗沉性",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "舱口盖安装",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "风雨密要求",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "B型干舷强度条件",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "油船腊甲板比例",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "国际散化准则",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "木材干舷规范",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "型深修正",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "平甲板修正",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑修正",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "舷弧修正",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶吃水",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶自由板",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计参数",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶规范",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶主尺度",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶结构特征",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶建造",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶工艺",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶参数",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶类型",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶结构",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶材料",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶功能",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶安全",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶性能",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计输入",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计输出",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计修正",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计计算",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计规范",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计标准",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计方法",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计流程",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计阶段",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计成果",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计参数",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计输入",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计输出",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计修正",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计计算",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计规范",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计标准",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计方法",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计流程",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计阶段",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计成果",
+        "chunk_id": "898"
+    },
+    {
+        "subject": "舱口",
+        "relation": "supports",
+        "object": "舱口盖",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "part_of",
+        "object": "干舷甲板",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷甲板",
+        "relation": "part_of",
+        "object": "甲板",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "排水装置",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "分舱特性",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "钢制风雨密舱口盖",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "船员保护措施",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "干舷",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶稳性",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶安全性",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "A型船舶",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "belongs_to",
+        "object": "B型船舶",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "分舱要求",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "船长",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "船舶类型",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "船员保护措施",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "排水装置",
+        "chunk_id": "899"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "舱口盖",
+        "chunk_id": "899"
+    }
+]

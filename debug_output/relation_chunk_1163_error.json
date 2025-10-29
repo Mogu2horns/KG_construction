@@ -1,0 +1,94 @@
+{
+  "triples": [
+    {
+      "subject": "钢板",
+      "relation": "uses",
+      "object": "辊道",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道",
+      "relation": "located_at",
+      "object": "预处理流水线",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道",
+      "relation": "applied_to",
+      "object": "钢板输送",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道",
+      "relation": "acts_on",
+      "object": "车间底漆",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道",
+      "relation": "affects",
+      "object": "车间底漆",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道",
+      "relation": "has",
+      "object": "结构形式",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "链式点接触型结构",
+      "relation": "acts_on",
+      "object": "车间底漆",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "八"字形辊道",
+      "relation": "acts_on",
+      "object": "车间底漆",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "抛丸机",
+      "relation": "contains",
+      "object": "辊道",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道",
+      "relation": "has",
+      "object": "间距",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道间距",
+      "relation": "determines",
+      "object": "钢板变形",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "预处理流水线",
+      "relation": "requires",
+      "object": "辊道数量",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "辊道数量",
+      "relation": "affects",
+      "object": "车间底漆干燥时间",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "抛丸能力",
+      "relation": "affects",
+      "object": "辊道数量",
+      "chunk_id": "114"
+    },
+    {
+      "subject": "钢板输送速度",
+      "relation": "affects",
+      "object": "辊道数量",
+      "chunk_id": "114"
+    }
+  ]
+}

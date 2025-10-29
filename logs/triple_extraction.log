@@ -1,0 +1,1045 @@
+2025-10-27 12:48:16,257 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 12:48:16,326 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 12:48:16,327 [INFO] Processing chunks from index 0 to 9 (total: 10 chunks)
+2025-10-27 12:49:22,869 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:49:22,884 [INFO] Chunk 0 extracted 40 entities and 67 triples.
+2025-10-27 12:49:58,760 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:49:58,763 [INFO] Chunk 1 extracted 23 entities and 38 triples.
+2025-10-27 12:50:47,739 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:50:47,741 [WARNING] First JSON parse failed for chunk 2, attempting fixes...
+2025-10-27 12:50:47,742 [INFO] JSON fix successful for chunk 2
+2025-10-27 12:50:47,743 [INFO] Chunk 2 extracted 28 entities and 49 triples.
+2025-10-27 12:51:36,852 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:51:36,855 [INFO] Chunk 3 extracted 36 entities and 33 triples.
+2025-10-27 12:52:12,493 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:52:12,495 [INFO] Chunk 4 extracted 20 entities and 27 triples.
+2025-10-27 12:52:33,072 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:52:33,073 [INFO] Chunk 5 extracted 14 entities and 14 triples.
+2025-10-27 12:52:50,931 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:52:50,933 [WARNING] First JSON parse failed for chunk 6, attempting fixes...
+2025-10-27 12:52:50,933 [INFO] JSON fix successful for chunk 6
+2025-10-27 12:52:50,934 [INFO] Chunk 6 extracted 12 entities and 11 triples.
+2025-10-27 12:53:17,137 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:53:17,139 [INFO] Chunk 7 extracted 20 entities and 19 triples.
+2025-10-27 12:53:46,297 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 12:53:46,298 [INFO] Chunk 8 extracted 21 entities and 19 triples.
+2025-10-27 13:02:09,527 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:02:09,534 [WARNING] First JSON parse failed for chunk 9, attempting fixes...
+2025-10-27 13:02:09,537 [ERROR] JSON decoding error after fixes: Expecting property name enclosed in double quotes: line 4668 column 32 (char 111572)
+2025-10-27 13:02:09,538 [ERROR] Problematic JSON saved to: debug_output/chunk_9_error.json
+2025-10-27 13:02:09,538 [INFO] Chunk 9 extracted 0 entities and 0 triples.
+2025-10-27 13:02:09,545 [INFO] Extracted total 175 unique entities and 277 triples from chunks 0-9.
+2025-10-27 13:02:09,552 [INFO] Entity and triple extraction completed for chunks 0-9.
+2025-10-27 13:02:09,552 [INFO] Extracted 175 entities and 277 triples.
+2025-10-27 13:02:16,708 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 13:02:16,779 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 13:02:16,780 [INFO] Processing chunks from index 10 to 19 (total: 10 chunks)
+2025-10-27 13:02:55,692 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:02:55,706 [INFO] Chunk 10 extracted 22 entities and 29 triples.
+2025-10-27 13:03:13,981 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:03:13,983 [INFO] Chunk 11 extracted 12 entities and 12 triples.
+2025-10-27 13:03:51,630 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:03:51,631 [INFO] Chunk 12 extracted 27 entities and 26 triples.
+2025-10-27 13:04:07,867 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:04:07,869 [INFO] Chunk 13 extracted 11 entities and 10 triples.
+2025-10-27 13:04:35,895 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:04:35,898 [INFO] Chunk 14 extracted 18 entities and 21 triples.
+2025-10-27 13:05:00,113 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:05:00,115 [INFO] Chunk 15 extracted 19 entities and 16 triples.
+2025-10-27 13:05:31,018 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:05:31,020 [INFO] Chunk 16 extracted 22 entities and 22 triples.
+2025-10-27 13:06:02,825 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:06:02,826 [INFO] Chunk 17 extracted 23 entities and 23 triples.
+2025-10-27 13:06:39,068 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:06:39,071 [INFO] Chunk 18 extracted 25 entities and 27 triples.
+2025-10-27 13:07:07,368 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:07:07,369 [INFO] Chunk 19 extracted 20 entities and 20 triples.
+2025-10-27 13:07:07,374 [INFO] Extracted total 166 unique entities and 206 triples from chunks 10-19.
+2025-10-27 13:07:07,377 [INFO] Entity and triple extraction completed for chunks 10-19.
+2025-10-27 13:07:07,377 [INFO] Extracted 166 entities and 206 triples.
+2025-10-27 13:07:14,417 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 13:07:14,486 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 13:07:14,488 [INFO] Processing chunks from index 20 to 29 (total: 10 chunks)
+2025-10-27 13:07:36,097 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:07:36,110 [INFO] Chunk 20 extracted 15 entities and 14 triples.
+2025-10-27 13:15:56,238 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:15:56,244 [WARNING] First JSON parse failed for chunk 21, attempting fixes...
+2025-10-27 13:15:56,248 [ERROR] JSON decoding error after fixes: Expecting ',' delimiter: line 3253 column 29 (char 91327)
+2025-10-27 13:15:56,248 [ERROR] Problematic JSON saved to: debug_output/chunk_21_error.json
+2025-10-27 13:15:56,248 [INFO] Chunk 21 extracted 0 entities and 0 triples.
+2025-10-27 13:16:39,945 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:16:39,948 [INFO] Chunk 22 extracted 20 entities and 45 triples.
+2025-10-27 13:17:55,166 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:17:55,168 [INFO] Chunk 23 extracted 49 entities and 62 triples.
+2025-10-27 13:18:21,205 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:18:21,207 [INFO] Chunk 24 extracted 18 entities and 16 triples.
+2025-10-27 13:20:21,811 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:20:21,815 [INFO] Chunk 25 extracted 73 entities and 93 triples.
+2025-10-27 13:20:36,548 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:20:36,550 [INFO] Chunk 26 extracted 10 entities and 9 triples.
+2025-10-27 13:28:54,666 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:28:54,669 [WARNING] First JSON parse failed for chunk 27, attempting fixes...
+2025-10-27 13:28:54,671 [ERROR] JSON decoding error after fixes: Unterminated string starting at: line 3552 column 24 (char 97066)
+2025-10-27 13:28:54,671 [ERROR] Problematic JSON saved to: debug_output/chunk_27_error.json
+2025-10-27 13:28:54,671 [INFO] Chunk 27 extracted 0 entities and 0 triples.
+2025-10-27 13:29:17,356 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:29:17,358 [INFO] Chunk 28 extracted 15 entities and 15 triples.
+2025-10-27 13:30:28,864 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:30:28,867 [INFO] Chunk 29 extracted 69 entities and 50 triples.
+2025-10-27 13:30:28,873 [INFO] Extracted total 239 unique entities and 304 triples from chunks 20-29.
+2025-10-27 13:30:28,878 [INFO] Entity and triple extraction completed for chunks 20-29.
+2025-10-27 13:30:28,878 [INFO] Extracted 239 entities and 304 triples.
+2025-10-27 13:30:36,278 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 13:30:36,361 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 13:30:36,364 [INFO] Processing chunks from index 30 to 39 (total: 10 chunks)
+2025-10-27 13:30:52,095 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:30:52,112 [INFO] Chunk 30 extracted 10 entities and 10 triples.
+2025-10-27 13:31:29,971 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:31:29,974 [INFO] Chunk 31 extracted 25 entities and 26 triples.
+2025-10-27 13:31:50,664 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:31:50,666 [INFO] Chunk 32 extracted 13 entities and 17 triples.
+2025-10-27 13:32:12,500 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:32:12,502 [INFO] Chunk 33 extracted 15 entities and 15 triples.
+2025-10-27 13:32:30,482 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:32:30,484 [INFO] Chunk 34 extracted 13 entities and 12 triples.
+2025-10-27 13:40:51,465 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:40:51,470 [WARNING] First JSON parse failed for chunk 35, attempting fixes...
+2025-10-27 13:40:51,474 [ERROR] JSON decoding error after fixes: Unterminated string starting at: line 3444 column 24 (char 93488)
+2025-10-27 13:40:51,474 [ERROR] Problematic JSON saved to: debug_output/chunk_35_error.json
+2025-10-27 13:40:51,474 [INFO] Chunk 35 extracted 0 entities and 0 triples.
+2025-10-27 13:49:09,674 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:49:09,679 [WARNING] First JSON parse failed for chunk 36, attempting fixes...
+2025-10-27 13:49:09,681 [ERROR] JSON decoding error after fixes: Unterminated string starting at: line 3156 column 24 (char 88488)
+2025-10-27 13:49:09,681 [ERROR] Problematic JSON saved to: debug_output/chunk_36_error.json
+2025-10-27 13:49:09,681 [INFO] Chunk 36 extracted 0 entities and 0 triples.
+2025-10-27 13:49:35,076 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:49:35,078 [INFO] Chunk 37 extracted 15 entities and 19 triples.
+2025-10-27 13:50:19,232 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:50:19,233 [INFO] Chunk 38 extracted 39 entities and 27 triples.
+2025-10-27 13:50:42,565 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:50:42,567 [INFO] Chunk 39 extracted 17 entities and 17 triples.
+2025-10-27 13:50:42,571 [INFO] Extracted total 130 unique entities and 143 triples from chunks 30-39.
+2025-10-27 13:50:42,574 [INFO] Entity and triple extraction completed for chunks 30-39.
+2025-10-27 13:50:42,575 [INFO] Extracted 130 entities and 143 triples.
+2025-10-27 13:50:50,085 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 13:50:50,153 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 13:50:50,156 [INFO] Processing chunks from index 40 to 49 (total: 10 chunks)
+2025-10-27 13:51:18,453 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:51:18,469 [INFO] Chunk 40 extracted 22 entities and 22 triples.
+2025-10-27 13:51:46,084 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:51:46,087 [INFO] Chunk 41 extracted 22 entities and 18 triples.
+2025-10-27 13:53:09,118 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:53:09,122 [INFO] Chunk 42 extracted 81 entities and 46 triples.
+2025-10-27 14:01:28,260 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:01:28,268 [WARNING] First JSON parse failed for chunk 43, attempting fixes...
+2025-10-27 14:01:28,271 [ERROR] JSON decoding error after fixes: Expecting property name enclosed in double quotes: line 4472 column 35 (char 109037)
+2025-10-27 14:01:28,271 [ERROR] Problematic JSON saved to: debug_output/chunk_43_error.json
+2025-10-27 14:01:28,271 [INFO] Chunk 43 extracted 0 entities and 0 triples.
+2025-10-27 14:01:49,668 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:01:49,670 [WARNING] First JSON parse failed for chunk 44, attempting fixes...
+2025-10-27 14:01:49,670 [INFO] JSON fix successful for chunk 44
+2025-10-27 14:01:49,671 [INFO] Chunk 44 extracted 15 entities and 15 triples.
+2025-10-27 14:02:06,540 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:02:06,542 [INFO] Chunk 45 extracted 14 entities and 10 triples.
+2025-10-27 14:42:29,438 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 14:42:29,510 [INFO] Loading chunks from ./KG_construction/chunks_output/chunks.jsonl
+2025-10-27 14:42:50,843 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 14:42:50,911 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 14:42:50,913 [WARNING] No chunks found in range [35:35]
+2025-10-27 14:42:50,913 [INFO] Entity and triple extraction completed for chunks 35-34.
+2025-10-27 14:42:50,913 [INFO] Extracted 0 entities and 0 triples.
+2025-10-27 14:43:06,212 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 14:43:06,282 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 14:43:06,284 [INFO] Processing chunks from index 35 to 35 (total: 1 chunks)
+2025-10-27 14:44:30,717 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:44:30,732 [INFO] Chunk 35 extracted 40 entities and 40 triples.
+2025-10-27 14:44:30,734 [INFO] Extracted total 40 unique entities and 40 triples from chunks 35-35.
+2025-10-27 14:44:30,735 [INFO] Entity and triple extraction completed for chunks 35-35.
+2025-10-27 14:44:30,735 [INFO] Extracted 40 entities and 40 triples.
+2025-10-27 14:52:11,629 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 14:52:11,717 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 14:52:11,718 [INFO] Processing chunks from index 0 to 9 (total: 10 chunks)
+2025-10-27 14:53:32,487 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:53:32,502 [INFO] Chunk 0 extracted 40 entities and 41 triples.
+2025-10-27 15:04:49,577 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 15:04:49,650 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 15:04:49,652 [INFO] Processing chunks from index 0 to 9 (total: 10 chunks)
+2025-10-27 15:07:49,708 [INFO] Retrying request to /chat/completions in 0.382237 seconds
+2025-10-27 15:17:25,626 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 15:17:25,696 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 15:17:25,697 [INFO] Processing chunks from index 0 to 9 (total: 10 chunks)
+2025-10-27 15:19:12,385 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:19:12,397 [INFO] Chunk 0 extracted 84 entities and 82 triples.
+2025-10-27 15:20:08,465 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:20:08,467 [INFO] Chunk 1 extracted 41 entities and 56 triples.
+2025-10-27 15:20:57,247 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:20:57,250 [INFO] Chunk 2 extracted 29 entities and 48 triples.
+2025-10-27 15:21:42,127 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:21:42,130 [INFO] Chunk 3 extracted 36 entities and 28 triples.
+2025-10-27 15:22:10,751 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:22:10,752 [INFO] Chunk 4 extracted 23 entities and 19 triples.
+2025-10-27 15:22:33,911 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:22:33,914 [INFO] Chunk 5 extracted 15 entities and 21 triples.
+2025-10-27 15:22:54,670 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:22:54,673 [INFO] Chunk 6 extracted 16 entities and 12 triples.
+2025-10-27 15:23:58,594 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:23:58,598 [INFO] Chunk 7 extracted 48 entities and 61 triples.
+2025-10-27 15:24:40,496 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:24:40,498 [INFO] Chunk 8 extracted 29 entities and 30 triples.
+2025-10-27 15:27:40,608 [INFO] Retrying request to /chat/completions in 0.468017 seconds
+2025-10-27 15:29:17,311 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:29:17,315 [INFO] Chunk 9 extracted 70 entities and 67 triples.
+2025-10-27 15:29:17,324 [INFO] Extracted total 310 unique entities and 424 triples from chunks 0-9.
+2025-10-27 15:29:17,330 [INFO] Entity and triple extraction completed for chunks 0-9.
+2025-10-27 15:29:17,330 [INFO] Extracted 310 entities and 424 triples.
+2025-10-27 15:29:24,272 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 15:29:24,340 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 15:29:24,341 [INFO] Processing chunks from index 10 to 19 (total: 10 chunks)
+2025-10-27 15:30:01,334 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:30:01,343 [INFO] Chunk 10 extracted 26 entities and 29 triples.
+2025-10-27 15:33:01,380 [INFO] Retrying request to /chat/completions in 0.393592 seconds
+2025-10-27 15:34:07,354 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:34:07,359 [INFO] Chunk 11 extracted 52 entities and 52 triples.
+2025-10-27 15:37:07,464 [INFO] Retrying request to /chat/completions in 0.412694 seconds
+2025-10-27 15:38:04,856 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:38:04,859 [INFO] Chunk 12 extracted 28 entities and 70 triples.
+2025-10-27 15:38:21,545 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:38:21,547 [INFO] Chunk 13 extracted 11 entities and 13 triples.
+2025-10-27 15:39:01,648 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:39:01,650 [INFO] Chunk 14 extracted 26 entities and 38 triples.
+2025-10-27 15:39:36,409 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:39:36,411 [INFO] Chunk 15 extracted 24 entities and 25 triples.
+2025-10-27 15:40:08,620 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:40:08,622 [INFO] Chunk 16 extracted 21 entities and 21 triples.
+2025-10-27 15:40:58,314 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:40:58,316 [INFO] Chunk 17 extracted 32 entities and 39 triples.
+2025-10-27 15:41:34,589 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:41:34,592 [INFO] Chunk 18 extracted 30 entities and 28 triples.
+2025-10-27 15:42:28,708 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:42:28,711 [INFO] Chunk 19 extracted 42 entities and 45 triples.
+2025-10-27 15:42:28,720 [INFO] Extracted total 240 unique entities and 360 triples from chunks 10-19.
+2025-10-27 15:42:28,726 [INFO] Entity and triple extraction completed for chunks 10-19.
+2025-10-27 15:42:28,726 [INFO] Extracted 240 entities and 360 triples.
+2025-10-27 15:42:35,995 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 15:42:36,065 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 15:42:36,066 [INFO] Processing chunks from index 20 to 29 (total: 10 chunks)
+2025-10-27 15:43:11,155 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:43:11,170 [INFO] Chunk 20 extracted 21 entities and 32 triples.
+2025-10-27 15:46:11,274 [INFO] Retrying request to /chat/completions in 0.392854 seconds
+2025-10-27 15:48:42,030 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:48:42,033 [INFO] Chunk 21 extracted 119 entities and 99 triples.
+2025-10-27 15:51:42,107 [INFO] Retrying request to /chat/completions in 0.497534 seconds
+2025-10-27 15:54:42,741 [INFO] Retrying request to /chat/completions in 0.915814 seconds
+2025-10-27 15:56:27,950 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:56:27,977 [INFO] Chunk 22 extracted 67 entities and 95 triples.
+2025-10-27 15:57:00,062 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:57:00,064 [INFO] Chunk 23 extracted 21 entities and 28 triples.
+2025-10-27 15:57:35,198 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:57:35,200 [INFO] Chunk 24 extracted 20 entities and 34 triples.
+2025-10-27 15:58:24,601 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:58:24,603 [INFO] Chunk 25 extracted 36 entities and 33 triples.
+2025-10-27 15:58:49,980 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 15:58:49,981 [INFO] Chunk 26 extracted 16 entities and 22 triples.
+2025-10-27 16:00:44,988 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:00:44,992 [INFO] Chunk 27 extracted 93 entities and 94 triples.
+2025-10-27 16:01:12,769 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:01:12,771 [INFO] Chunk 28 extracted 20 entities and 20 triples.
+2025-10-27 16:04:12,884 [INFO] Retrying request to /chat/completions in 0.410304 seconds
+2025-10-27 16:05:02,549 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:05:02,552 [INFO] Chunk 29 extracted 32 entities and 40 triples.
+2025-10-27 16:05:02,562 [INFO] Extracted total 325 unique entities and 497 triples from chunks 20-29.
+2025-10-27 16:05:02,568 [INFO] Entity and triple extraction completed for chunks 20-29.
+2025-10-27 16:05:02,568 [INFO] Extracted 325 entities and 497 triples.
+2025-10-27 16:05:20,690 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 16:05:20,759 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 16:05:20,762 [INFO] Processing chunks from index 30 to 39 (total: 10 chunks)
+2025-10-27 16:08:20,884 [INFO] Retrying request to /chat/completions in 0.386777 seconds
+2025-10-27 16:11:21,372 [INFO] Retrying request to /chat/completions in 0.811728 seconds
+2025-10-27 16:13:42,837 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:13:42,850 [INFO] Chunk 30 extracted 98 entities and 97 triples.
+2025-10-27 16:16:42,952 [INFO] Retrying request to /chat/completions in 0.441444 seconds
+2025-10-27 16:17:25,923 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:17:25,926 [INFO] Chunk 31 extracted 27 entities and 33 triples.
+2025-10-27 16:17:56,469 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:17:56,472 [INFO] Chunk 32 extracted 23 entities and 25 triples.
+2025-10-27 16:18:12,657 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:18:12,659 [INFO] Chunk 33 extracted 10 entities and 13 triples.
+2025-10-27 16:18:36,740 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:18:36,742 [INFO] Chunk 34 extracted 20 entities and 17 triples.
+2025-10-27 16:21:36,848 [INFO] Retrying request to /chat/completions in 0.498431 seconds
+2025-10-27 16:24:37,448 [INFO] Retrying request to /chat/completions in 0.776395 seconds
+2025-10-27 16:26:10,962 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:26:10,967 [INFO] Chunk 35 extracted 80 entities and 56 triples.
+2025-10-27 16:28:43,643 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:28:43,645 [INFO] Chunk 36 extracted 107 entities and 104 triples.
+2025-10-27 16:30:51,332 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:30:51,337 [INFO] Chunk 37 extracted 91 entities and 95 triples.
+2025-10-27 16:32:44,544 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:32:44,547 [INFO] Chunk 38 extracted 92 entities and 74 triples.
+2025-10-27 16:33:39,016 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:33:39,019 [INFO] Chunk 39 extracted 52 entities and 34 triples.
+2025-10-27 16:33:39,029 [INFO] Extracted total 419 unique entities and 548 triples from chunks 30-39.
+2025-10-27 16:33:39,037 [INFO] Entity and triple extraction completed for chunks 30-39.
+2025-10-27 16:33:39,038 [INFO] Extracted 419 entities and 548 triples.
+2025-10-27 16:33:48,084 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 16:33:48,154 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 16:33:48,160 [INFO] Processing chunks from index 40 to 49 (total: 10 chunks)
+2025-10-27 16:35:18,025 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:35:18,043 [INFO] Chunk 40 extracted 69 entities and 56 triples.
+2025-10-27 16:38:18,151 [INFO] Retrying request to /chat/completions in 0.403562 seconds
+2025-10-27 16:39:18,044 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:39:18,048 [INFO] Chunk 41 extracted 46 entities and 45 triples.
+2025-10-27 16:41:12,771 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:41:12,776 [INFO] Chunk 42 extracted 90 entities and 83 triples.
+2025-10-27 16:42:32,614 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:42:32,618 [INFO] Chunk 43 extracted 57 entities and 68 triples.
+2025-10-27 16:45:32,629 [INFO] Retrying request to /chat/completions in 0.398253 seconds
+2025-10-27 16:48:33,128 [INFO] Retrying request to /chat/completions in 0.876659 seconds
+2025-10-27 16:50:15,319 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:50:15,321 [WARNING] First JSON parse failed for chunk 44, attempting fixes...
+2025-10-27 16:50:15,322 [INFO] JSON fix successful for chunk 44
+2025-10-27 16:50:15,323 [INFO] Chunk 44 extracted 79 entities and 75 triples.
+2025-10-27 16:50:36,980 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:50:36,982 [INFO] Chunk 45 extracted 12 entities and 18 triples.
+2025-10-27 16:52:04,697 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:52:04,701 [INFO] Chunk 46 extracted 67 entities and 73 triples.
+2025-10-27 16:55:04,812 [INFO] Retrying request to /chat/completions in 0.411349 seconds
+2025-10-27 16:58:05,324 [INFO] Retrying request to /chat/completions in 0.828286 seconds
+2025-10-27 17:01:06,255 [INFO] Retrying request to /chat/completions in 1.905151 seconds
+2025-10-27 17:02:25,510 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:02:25,514 [INFO] Chunk 47 extracted 86 entities and 38 triples.
+2025-10-27 17:03:24,330 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:03:24,332 [WARNING] First JSON parse failed for chunk 48, attempting fixes...
+2025-10-27 17:03:24,333 [INFO] JSON fix successful for chunk 48
+2025-10-27 17:03:24,334 [INFO] Chunk 48 extracted 25 entities and 55 triples.
+2025-10-27 17:04:41,729 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:04:41,732 [INFO] Chunk 49 extracted 53 entities and 63 triples.
+2025-10-27 17:04:41,746 [INFO] Extracted total 415 unique entities and 574 triples from chunks 40-49.
+2025-10-27 17:04:41,759 [INFO] Entity and triple extraction completed for chunks 40-49.
+2025-10-27 17:04:41,759 [INFO] Extracted 415 entities and 574 triples.
+2025-10-27 17:04:49,295 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 17:04:49,365 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 17:04:49,368 [INFO] Processing chunks from index 50 to 59 (total: 10 chunks)
+2025-10-27 17:05:42,775 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:05:42,793 [INFO] Chunk 50 extracted 40 entities and 39 triples.
+2025-10-27 17:08:42,896 [INFO] Retrying request to /chat/completions in 0.480641 seconds
+2025-10-27 17:09:10,474 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:09:10,476 [INFO] Chunk 51 extracted 18 entities and 18 triples.
+2025-10-27 17:09:45,441 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:09:45,444 [INFO] Chunk 52 extracted 20 entities and 29 triples.
+2025-10-27 17:10:33,692 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:10:33,694 [INFO] Chunk 53 extracted 30 entities and 47 triples.
+2025-10-27 17:13:33,736 [INFO] Retrying request to /chat/completions in 0.398678 seconds
+2025-10-27 17:13:58,475 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:13:58,478 [INFO] Chunk 54 extracted 16 entities and 19 triples.
+2025-10-27 17:15:36,804 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:15:36,809 [INFO] Chunk 55 extracted 75 entities and 71 triples.
+2025-10-27 17:16:34,227 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:16:34,230 [INFO] Chunk 56 extracted 29 entities and 57 triples.
+2025-10-27 17:18:35,294 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:18:35,298 [INFO] Chunk 57 extracted 96 entities and 107 triples.
+2025-10-27 17:21:35,432 [INFO] Retrying request to /chat/completions in 0.407329 seconds
+2025-10-27 17:22:57,286 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:22:57,290 [INFO] Chunk 58 extracted 62 entities and 64 triples.
+2025-10-27 17:23:49,977 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:23:49,980 [INFO] Chunk 59 extracted 39 entities and 42 triples.
+2025-10-27 17:23:49,989 [INFO] Extracted total 345 unique entities and 493 triples from chunks 50-59.
+2025-10-27 17:23:49,996 [INFO] Entity and triple extraction completed for chunks 50-59.
+2025-10-27 17:23:49,996 [INFO] Extracted 345 entities and 493 triples.
+2025-10-27 17:23:57,578 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 17:23:57,649 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 17:23:57,652 [INFO] Processing chunks from index 60 to 69 (total: 10 chunks)
+2025-10-27 17:24:44,803 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:24:44,817 [INFO] Chunk 60 extracted 32 entities and 36 triples.
+2025-10-27 17:25:25,338 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:25:25,341 [INFO] Chunk 61 extracted 29 entities and 28 triples.
+2025-10-27 17:25:53,380 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:25:53,382 [INFO] Chunk 62 extracted 23 entities and 15 triples.
+2025-10-27 17:26:22,915 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:26:22,917 [INFO] Chunk 63 extracted 20 entities and 20 triples.
+2025-10-27 17:27:48,914 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:27:48,918 [INFO] Chunk 64 extracted 33 entities and 105 triples.
+2025-10-27 17:29:09,938 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:29:09,942 [INFO] Chunk 65 extracted 31 entities and 87 triples.
+2025-10-27 17:29:50,212 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:29:50,215 [INFO] Chunk 66 extracted 26 entities and 35 triples.
+2025-10-27 17:31:11,844 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:31:11,847 [INFO] Chunk 67 extracted 51 entities and 57 triples.
+2025-10-27 17:34:11,957 [INFO] Retrying request to /chat/completions in 0.455258 seconds
+2025-10-27 17:35:44,386 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:35:44,389 [INFO] Chunk 68 extracted 45 entities and 95 triples.
+2025-10-27 17:36:25,899 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:36:25,901 [INFO] Chunk 69 extracted 29 entities and 31 triples.
+2025-10-27 17:36:25,911 [INFO] Extracted total 263 unique entities and 509 triples from chunks 60-69.
+2025-10-27 17:36:25,921 [INFO] Entity and triple extraction completed for chunks 60-69.
+2025-10-27 17:36:25,921 [INFO] Extracted 263 entities and 509 triples.
+2025-10-27 17:36:35,074 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 17:36:35,143 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 17:36:35,147 [INFO] Processing chunks from index 70 to 79 (total: 10 chunks)
+2025-10-27 17:38:36,568 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:38:36,586 [INFO] Chunk 70 extracted 71 entities and 104 triples.
+2025-10-27 17:39:11,925 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:39:11,927 [INFO] Chunk 71 extracted 30 entities and 26 triples.
+2025-10-27 17:39:38,137 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:39:38,139 [INFO] Chunk 72 extracted 18 entities and 20 triples.
+2025-10-27 17:42:38,247 [INFO] Retrying request to /chat/completions in 0.471436 seconds
+2025-10-27 17:44:10,509 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:44:10,512 [INFO] Chunk 73 extracted 68 entities and 59 triples.
+2025-10-27 17:44:40,000 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:44:40,002 [INFO] Chunk 74 extracted 22 entities and 21 triples.
+2025-10-27 17:45:18,565 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:45:18,568 [INFO] Chunk 75 extracted 27 entities and 29 triples.
+2025-10-27 17:45:58,924 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:45:58,926 [INFO] Chunk 76 extracted 25 entities and 34 triples.
+2025-10-27 17:46:59,396 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:46:59,401 [INFO] Chunk 77 extracted 47 entities and 51 triples.
+2025-10-27 17:47:36,589 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:47:36,592 [INFO] Chunk 78 extracted 27 entities and 25 triples.
+2025-10-27 17:48:01,198 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:48:01,201 [INFO] Chunk 79 extracted 15 entities and 16 triples.
+2025-10-27 17:48:01,210 [INFO] Extracted total 298 unique entities and 385 triples from chunks 70-79.
+2025-10-27 17:48:01,215 [INFO] Entity and triple extraction completed for chunks 70-79.
+2025-10-27 17:48:01,216 [INFO] Extracted 298 entities and 385 triples.
+2025-10-27 17:48:09,489 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 17:48:09,565 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 17:48:09,570 [INFO] Processing chunks from index 80 to 89 (total: 10 chunks)
+2025-10-27 17:48:37,785 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:48:37,799 [INFO] Chunk 80 extracted 20 entities and 20 triples.
+2025-10-27 17:49:08,846 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:49:08,849 [INFO] Chunk 81 extracted 20 entities and 23 triples.
+2025-10-27 17:49:56,768 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:49:56,770 [INFO] Chunk 82 extracted 37 entities and 39 triples.
+2025-10-27 17:52:56,790 [INFO] Retrying request to /chat/completions in 0.438450 seconds
+2025-10-27 17:54:21,694 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:54:21,696 [INFO] Chunk 83 extracted 41 entities and 104 triples.
+2025-10-27 17:57:21,803 [INFO] Retrying request to /chat/completions in 0.446724 seconds
+2025-10-27 18:00:22,348 [INFO] Retrying request to /chat/completions in 0.973213 seconds
+2025-10-27 18:03:23,424 [INFO] Retrying request to /chat/completions in 1.917714 seconds
+2025-10-27 18:05:22,342 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:05:22,346 [INFO] Chunk 84 extracted 106 entities and 77 triples.
+2025-10-27 18:05:51,215 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:05:51,217 [INFO] Chunk 85 extracted 18 entities and 21 triples.
+2025-10-27 18:07:28,366 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:07:28,368 [INFO] Chunk 86 extracted 76 entities and 63 triples.
+2025-10-27 18:08:45,684 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:08:45,687 [INFO] Chunk 87 extracted 47 entities and 72 triples.
+2025-10-27 18:09:23,600 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:09:23,603 [INFO] Chunk 88 extracted 17 entities and 43 triples.
+2025-10-27 18:09:59,957 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:09:59,959 [INFO] Chunk 89 extracted 27 entities and 25 triples.
+2025-10-27 18:09:59,967 [INFO] Extracted total 317 unique entities and 487 triples from chunks 80-89.
+2025-10-27 18:09:59,974 [INFO] Entity and triple extraction completed for chunks 80-89.
+2025-10-27 18:09:59,974 [INFO] Extracted 317 entities and 487 triples.
+2025-10-27 18:10:09,026 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 18:10:09,095 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 18:10:09,100 [INFO] Processing chunks from index 90 to 99 (total: 10 chunks)
+2025-10-27 18:11:49,193 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:11:49,212 [INFO] Chunk 90 extracted 65 entities and 72 triples.
+2025-10-27 18:13:06,991 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:13:06,994 [INFO] Chunk 91 extracted 47 entities and 58 triples.
+2025-10-27 18:13:35,932 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:13:35,935 [INFO] Chunk 92 extracted 16 entities and 26 triples.
+2025-10-27 18:14:06,575 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:14:06,578 [INFO] Chunk 93 extracted 22 entities and 16 triples.
+2025-10-27 18:14:23,327 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:14:23,328 [INFO] Chunk 94 extracted 12 entities and 11 triples.
+2025-10-27 18:14:47,259 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:14:47,261 [INFO] Chunk 95 extracted 18 entities and 17 triples.
+2025-10-27 18:15:05,857 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:15:05,859 [INFO] Chunk 96 extracted 12 entities and 12 triples.
+2025-10-27 18:15:42,499 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:15:42,501 [INFO] Chunk 97 extracted 24 entities and 23 triples.
+2025-10-27 18:17:36,906 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:17:36,910 [INFO] Chunk 98 extracted 89 entities and 82 triples.
+2025-10-27 18:20:37,023 [INFO] Retrying request to /chat/completions in 0.421428 seconds
+2025-10-27 18:21:08,462 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:21:08,464 [INFO] Chunk 99 extracted 20 entities and 21 triples.
+2025-10-27 18:21:08,473 [INFO] Extracted total 286 unique entities and 338 triples from chunks 90-99.
+2025-10-27 18:21:08,481 [INFO] Entity and triple extraction completed for chunks 90-99.
+2025-10-27 18:21:08,481 [INFO] Extracted 286 entities and 338 triples.
+2025-10-27 18:21:16,661 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 18:21:16,737 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 18:21:16,742 [INFO] Processing chunks from index 100 to 109 (total: 10 chunks)
+2025-10-27 18:21:47,313 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:21:47,327 [INFO] Chunk 100 extracted 20 entities and 20 triples.
+2025-10-27 18:22:21,342 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:22:21,344 [INFO] Chunk 101 extracted 20 entities and 29 triples.
+2025-10-27 18:22:44,670 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:22:44,672 [INFO] Chunk 102 extracted 17 entities and 15 triples.
+2025-10-27 18:23:05,920 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:23:05,923 [INFO] Chunk 103 extracted 13 entities and 14 triples.
+2025-10-27 18:23:22,269 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:23:22,271 [INFO] Chunk 104 extracted 10 entities and 10 triples.
+2025-10-27 18:24:01,658 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:24:01,661 [INFO] Chunk 105 extracted 26 entities and 28 triples.
+2025-10-27 18:24:35,291 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:24:35,292 [INFO] Chunk 106 extracted 22 entities and 30 triples.
+2025-10-27 18:25:03,495 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:25:03,497 [INFO] Chunk 107 extracted 20 entities and 20 triples.
+2025-10-27 18:25:42,856 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:25:42,858 [INFO] Chunk 108 extracted 26 entities and 26 triples.
+2025-10-27 18:28:42,967 [INFO] Retrying request to /chat/completions in 0.413551 seconds
+2025-10-27 18:29:16,759 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:29:16,761 [INFO] Chunk 109 extracted 20 entities and 23 triples.
+2025-10-27 18:29:16,765 [INFO] Extracted total 153 unique entities and 215 triples from chunks 100-109.
+2025-10-27 18:29:16,769 [INFO] Entity and triple extraction completed for chunks 100-109.
+2025-10-27 18:29:16,769 [INFO] Extracted 153 entities and 215 triples.
+2025-10-27 18:29:24,030 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 18:29:24,099 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 18:29:24,104 [INFO] Processing chunks from index 110 to 119 (total: 10 chunks)
+2025-10-27 18:29:46,932 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:29:46,941 [INFO] Chunk 110 extracted 16 entities and 15 triples.
+2025-10-27 18:30:13,364 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:30:13,367 [INFO] Chunk 111 extracted 19 entities and 22 triples.
+2025-10-27 18:31:12,926 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:31:12,929 [INFO] Chunk 112 extracted 34 entities and 50 triples.
+2025-10-27 18:31:50,598 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:31:50,601 [INFO] Chunk 113 extracted 20 entities and 37 triples.
+2025-10-27 18:32:49,894 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:32:49,896 [INFO] Chunk 114 extracted 36 entities and 49 triples.
+2025-10-27 18:33:30,086 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:33:30,089 [INFO] Chunk 115 extracted 30 entities and 30 triples.
+2025-10-27 18:34:57,346 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:34:57,349 [INFO] Chunk 116 extracted 55 entities and 68 triples.
+2025-10-27 18:35:28,159 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:35:28,161 [INFO] Chunk 117 extracted 15 entities and 29 triples.
+2025-10-27 18:35:52,873 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:35:52,875 [INFO] Chunk 118 extracted 13 entities and 22 triples.
+2025-10-27 18:36:24,606 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:36:24,609 [INFO] Chunk 119 extracted 20 entities and 22 triples.
+2025-10-27 18:36:24,618 [INFO] Extracted total 229 unique entities and 344 triples from chunks 110-119.
+2025-10-27 18:36:24,641 [INFO] Entity and triple extraction completed for chunks 110-119.
+2025-10-27 18:36:24,641 [INFO] Extracted 229 entities and 344 triples.
+2025-10-27 18:36:31,862 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 18:36:31,937 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 18:36:31,943 [INFO] Processing chunks from index 120 to 129 (total: 10 chunks)
+2025-10-27 18:36:55,566 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:36:55,581 [INFO] Chunk 120 extracted 16 entities and 17 triples.
+2025-10-27 18:37:26,285 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:37:26,287 [INFO] Chunk 121 extracted 21 entities and 21 triples.
+2025-10-27 18:37:58,818 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:37:58,819 [INFO] Chunk 122 extracted 21 entities and 22 triples.
+2025-10-27 18:38:27,846 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:38:27,849 [INFO] Chunk 123 extracted 19 entities and 19 triples.
+2025-10-27 18:39:03,608 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:39:03,609 [INFO] Chunk 124 extracted 18 entities and 28 triples.
+2025-10-27 18:42:03,619 [INFO] Retrying request to /chat/completions in 0.438813 seconds
+2025-10-27 18:43:48,689 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:43:48,691 [INFO] Chunk 125 extracted 67 entities and 93 triples.
+2025-10-27 18:44:24,038 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:44:24,040 [INFO] Chunk 126 extracted 29 entities and 24 triples.
+2025-10-27 18:45:17,397 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:45:17,399 [INFO] Chunk 127 extracted 33 entities and 40 triples.
+2025-10-27 18:45:49,525 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:45:49,527 [INFO] Chunk 128 extracted 16 entities and 30 triples.
+2025-10-27 18:46:12,627 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:46:12,629 [INFO] Chunk 129 extracted 16 entities and 16 triples.
+2025-10-27 18:46:12,637 [INFO] Extracted total 205 unique entities and 310 triples from chunks 120-129.
+2025-10-27 18:46:12,641 [INFO] Entity and triple extraction completed for chunks 120-129.
+2025-10-27 18:46:12,641 [INFO] Extracted 205 entities and 310 triples.
+2025-10-27 18:46:19,892 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 18:46:19,975 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 18:46:19,981 [INFO] Processing chunks from index 130 to 139 (total: 10 chunks)
+2025-10-27 18:49:20,072 [INFO] Retrying request to /chat/completions in 0.406343 seconds
+2025-10-27 18:52:20,514 [INFO] Retrying request to /chat/completions in 0.800428 seconds
+2025-10-27 18:54:31,222 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:54:31,240 [INFO] Chunk 130 extracted 96 entities and 104 triples.
+2025-10-27 18:55:54,734 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:55:54,737 [INFO] Chunk 131 extracted 68 entities and 60 triples.
+2025-10-27 18:58:54,787 [INFO] Retrying request to /chat/completions in 0.424056 seconds
+2025-10-27 19:01:55,312 [INFO] Retrying request to /chat/completions in 0.832279 seconds
+2025-10-27 19:04:56,244 [INFO] Retrying request to /chat/completions in 1.878080 seconds
+2025-10-27 19:06:58,985 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:06:58,988 [INFO] Chunk 132 extracted 95 entities and 72 triples.
+2025-10-27 19:09:59,096 [INFO] Retrying request to /chat/completions in 0.448929 seconds
+2025-10-27 19:12:08,373 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:12:08,378 [INFO] Chunk 133 extracted 124 entities and 75 triples.
+2025-10-27 19:15:08,458 [INFO] Retrying request to /chat/completions in 0.450489 seconds
+2025-10-27 19:16:46,396 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:16:46,398 [INFO] Chunk 134 extracted 62 entities and 73 triples.
+2025-10-27 19:18:02,190 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:18:02,194 [INFO] Chunk 135 extracted 49 entities and 60 triples.
+2025-10-27 19:18:38,939 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:18:38,941 [INFO] Chunk 136 extracted 29 entities and 27 triples.
+2025-10-27 19:19:30,664 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:19:30,667 [INFO] Chunk 137 extracted 43 entities and 40 triples.
+2025-10-27 19:21:10,206 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:21:10,210 [INFO] Chunk 138 extracted 77 entities and 77 triples.
+2025-10-27 19:22:37,569 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:22:37,570 [WARNING] First JSON parse failed for chunk 139, attempting fixes...
+2025-10-27 19:22:37,571 [INFO] JSON fix successful for chunk 139
+2025-10-27 19:22:37,572 [INFO] Chunk 139 extracted 69 entities and 63 triples.
+2025-10-27 19:22:37,582 [INFO] Extracted total 458 unique entities and 651 triples from chunks 130-139.
+2025-10-27 19:22:37,590 [INFO] Entity and triple extraction completed for chunks 130-139.
+2025-10-27 19:22:37,590 [INFO] Extracted 458 entities and 651 triples.
+2025-10-27 19:22:45,115 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 19:22:45,184 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 19:22:45,190 [INFO] Processing chunks from index 140 to 149 (total: 10 chunks)
+2025-10-27 19:23:20,975 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:23:20,990 [INFO] Chunk 140 extracted 29 entities and 20 triples.
+2025-10-27 19:24:03,584 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:24:03,587 [INFO] Chunk 141 extracted 28 entities and 26 triples.
+2025-10-27 19:25:48,564 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:25:48,567 [INFO] Chunk 142 extracted 97 entities and 47 triples.
+2025-10-27 19:28:02,472 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:28:02,477 [INFO] Chunk 143 extracted 67 entities and 151 triples.
+2025-10-27 19:29:33,951 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:29:33,954 [INFO] Chunk 144 extracted 76 entities and 51 triples.
+2025-10-27 19:30:01,363 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:30:01,366 [INFO] Chunk 145 extracted 15 entities and 24 triples.
+2025-10-27 19:30:29,439 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:30:29,441 [INFO] Chunk 146 extracted 19 entities and 19 triples.
+2025-10-27 19:30:57,643 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:30:57,645 [INFO] Chunk 147 extracted 22 entities and 21 triples.
+2025-10-27 19:31:28,394 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:31:28,396 [INFO] Chunk 148 extracted 20 entities and 18 triples.
+2025-10-27 19:32:08,724 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:32:08,726 [INFO] Chunk 149 extracted 31 entities and 25 triples.
+2025-10-27 19:32:08,734 [INFO] Extracted total 287 unique entities and 402 triples from chunks 140-149.
+2025-10-27 19:32:08,770 [INFO] Entity and triple extraction completed for chunks 140-149.
+2025-10-27 19:32:08,770 [INFO] Extracted 287 entities and 402 triples.
+2025-10-27 19:32:15,943 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 19:32:16,016 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 19:32:16,023 [INFO] Processing chunks from index 150 to 159 (total: 10 chunks)
+2025-10-27 19:35:16,065 [INFO] Retrying request to /chat/completions in 0.423277 seconds
+2025-10-27 19:35:43,611 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:35:43,624 [INFO] Chunk 150 extracted 20 entities and 19 triples.
+2025-10-27 19:38:43,728 [INFO] Retrying request to /chat/completions in 0.430063 seconds
+2025-10-27 19:39:02,019 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:39:02,020 [INFO] Chunk 151 extracted 12 entities and 15 triples.
+2025-10-27 19:39:47,628 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:39:47,631 [INFO] Chunk 152 extracted 26 entities and 37 triples.
+2025-10-27 19:42:47,736 [INFO] Retrying request to /chat/completions in 0.408343 seconds
+2025-10-27 19:45:48,155 [INFO] Retrying request to /chat/completions in 0.889649 seconds
+2025-10-27 19:48:49,119 [INFO] Retrying request to /chat/completions in 1.996633 seconds
+2025-10-27 19:51:51,216 [ERROR] Error processing chunk 153: Request timed out.
+2025-10-27 19:53:49,109 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:53:49,114 [INFO] Chunk 154 extracted 93 entities and 85 triples.
+2025-10-27 19:56:49,141 [INFO] Retrying request to /chat/completions in 0.466781 seconds
+2025-10-27 19:58:06,719 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:58:06,722 [INFO] Chunk 155 extracted 43 entities and 57 triples.
+2025-10-27 20:01:06,828 [INFO] Retrying request to /chat/completions in 0.398463 seconds
+2025-10-27 20:04:07,328 [INFO] Retrying request to /chat/completions in 0.917727 seconds
+2025-10-27 20:07:08,348 [INFO] Retrying request to /chat/completions in 1.665740 seconds
+2025-10-27 20:10:10,115 [ERROR] Error processing chunk 156: Request timed out.
+2025-10-27 20:10:56,794 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:10:56,796 [INFO] Chunk 157 extracted 35 entities and 40 triples.
+2025-10-27 20:11:41,780 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:11:41,782 [INFO] Chunk 158 extracted 35 entities and 35 triples.
+2025-10-27 20:14:41,892 [INFO] Retrying request to /chat/completions in 0.496060 seconds
+2025-10-27 20:17:42,490 [INFO] Retrying request to /chat/completions in 0.890700 seconds
+2025-10-27 20:20:43,483 [INFO] Retrying request to /chat/completions in 1.526260 seconds
+2025-10-27 20:22:05,846 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:22:05,850 [INFO] Chunk 159 extracted 66 entities and 48 triples.
+2025-10-27 20:22:05,859 [INFO] Extracted total 294 unique entities and 336 triples from chunks 150-159.
+2025-10-27 20:22:05,865 [INFO] Entity and triple extraction completed for chunks 150-159.
+2025-10-27 20:22:05,865 [INFO] Extracted 294 entities and 336 triples.
+2025-10-27 20:22:13,057 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 20:22:13,125 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 20:22:13,132 [INFO] Processing chunks from index 160 to 169 (total: 10 chunks)
+2025-10-27 20:22:41,251 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:22:41,265 [INFO] Chunk 160 extracted 19 entities and 19 triples.
+2025-10-27 20:23:33,326 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:23:33,328 [INFO] Chunk 161 extracted 27 entities and 54 triples.
+2025-10-27 20:24:54,008 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:24:54,010 [INFO] Chunk 162 extracted 30 entities and 99 triples.
+2025-10-27 20:26:19,789 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:26:19,791 [INFO] Chunk 163 extracted 68 entities and 54 triples.
+2025-10-27 20:29:19,896 [INFO] Retrying request to /chat/completions in 0.399605 seconds
+2025-10-27 20:30:23,397 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:30:23,400 [INFO] Chunk 164 extracted 38 entities and 51 triples.
+2025-10-27 20:31:41,925 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:31:41,927 [INFO] Chunk 165 extracted 59 entities and 60 triples.
+2025-10-27 20:33:53,607 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:33:53,612 [INFO] Chunk 166 extracted 113 entities and 94 triples.
+2025-10-27 20:36:09,795 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:36:09,799 [INFO] Chunk 167 extracted 104 entities and 79 triples.
+2025-10-27 20:37:43,130 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:37:43,134 [INFO] Chunk 168 extracted 69 entities and 67 triples.
+2025-10-27 20:40:43,247 [INFO] Retrying request to /chat/completions in 0.388253 seconds
+2025-10-27 20:41:00,364 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:41:00,366 [INFO] Chunk 169 extracted 11 entities and 10 triples.
+2025-10-27 20:41:00,378 [INFO] Extracted total 395 unique entities and 587 triples from chunks 160-169.
+2025-10-27 20:41:00,386 [INFO] Entity and triple extraction completed for chunks 160-169.
+2025-10-27 20:41:00,386 [INFO] Extracted 395 entities and 587 triples.
+2025-10-27 20:41:07,396 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 20:41:07,465 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 20:41:07,472 [INFO] Processing chunks from index 170 to 179 (total: 10 chunks)
+2025-10-27 20:41:37,414 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:41:37,429 [INFO] Chunk 170 extracted 22 entities and 24 triples.
+2025-10-27 20:42:02,509 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:42:02,511 [INFO] Chunk 171 extracted 18 entities and 15 triples.
+2025-10-27 20:42:39,763 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:42:39,765 [INFO] Chunk 172 extracted 25 entities and 27 triples.
+2025-10-27 20:43:03,814 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:43:03,815 [INFO] Chunk 173 extracted 16 entities and 18 triples.
+2025-10-27 20:46:03,916 [INFO] Retrying request to /chat/completions in 0.394069 seconds
+2025-10-27 20:49:04,412 [INFO] Retrying request to /chat/completions in 0.839167 seconds
+2025-10-27 20:50:45,465 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:50:45,468 [INFO] Chunk 174 extracted 72 entities and 68 triples.
+2025-10-27 20:51:43,727 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:51:43,730 [INFO] Chunk 175 extracted 39 entities and 54 triples.
+2025-10-27 20:53:08,057 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:53:08,060 [INFO] Chunk 176 extracted 62 entities and 54 triples.
+2025-10-27 20:54:08,786 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:54:08,788 [INFO] Chunk 177 extracted 50 entities and 48 triples.
+2025-10-27 20:54:39,806 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:54:39,808 [INFO] Chunk 178 extracted 21 entities and 26 triples.
+2025-10-27 20:55:21,220 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:55:21,222 [INFO] Chunk 179 extracted 28 entities and 31 triples.
+2025-10-27 20:55:21,231 [INFO] Extracted total 273 unique entities and 365 triples from chunks 170-179.
+2025-10-27 20:55:21,237 [INFO] Entity and triple extraction completed for chunks 170-179.
+2025-10-27 20:55:21,237 [INFO] Extracted 273 entities and 365 triples.
+2025-10-27 20:55:28,696 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 20:55:28,768 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 20:55:28,775 [INFO] Processing chunks from index 180 to 189 (total: 10 chunks)
+2025-10-27 20:55:52,597 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:55:52,606 [INFO] Chunk 180 extracted 18 entities and 19 triples.
+2025-10-27 20:56:31,288 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:56:31,291 [INFO] Chunk 181 extracted 30 entities and 29 triples.
+2025-10-27 20:56:52,371 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:56:52,373 [INFO] Chunk 182 extracted 14 entities and 14 triples.
+2025-10-27 20:59:52,476 [INFO] Retrying request to /chat/completions in 0.461272 seconds
+2025-10-27 21:02:53,040 [INFO] Retrying request to /chat/completions in 0.758086 seconds
+2025-10-27 21:04:52,392 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:04:52,395 [INFO] Chunk 183 extracted 92 entities and 78 triples.
+2025-10-27 21:05:25,364 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:05:25,367 [INFO] Chunk 184 extracted 21 entities and 26 triples.
+2025-10-27 21:08:25,403 [INFO] Retrying request to /chat/completions in 0.396605 seconds
+2025-10-27 21:11:25,902 [INFO] Retrying request to /chat/completions in 0.927442 seconds
+2025-10-27 21:14:26,915 [INFO] Retrying request to /chat/completions in 1.549633 seconds
+2025-10-27 21:17:28,560 [ERROR] Error processing chunk 185: Request timed out.
+2025-10-27 21:20:28,600 [INFO] Retrying request to /chat/completions in 0.434561 seconds
+2025-10-27 21:21:58,865 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:21:58,869 [INFO] Chunk 186 extracted 75 entities and 68 triples.
+2025-10-27 21:23:08,351 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:23:08,353 [INFO] Chunk 187 extracted 44 entities and 54 triples.
+2025-10-27 21:23:38,435 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:23:38,437 [INFO] Chunk 188 extracted 17 entities and 31 triples.
+2025-10-27 21:24:11,916 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:24:11,918 [INFO] Chunk 189 extracted 17 entities and 21 triples.
+2025-10-27 21:24:11,927 [INFO] Extracted total 284 unique entities and 340 triples from chunks 180-189.
+2025-10-27 21:24:11,932 [INFO] Entity and triple extraction completed for chunks 180-189.
+2025-10-27 21:24:11,932 [INFO] Extracted 284 entities and 340 triples.
+2025-10-27 21:24:19,531 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 21:24:19,606 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 21:24:19,614 [INFO] Processing chunks from index 190 to 199 (total: 10 chunks)
+2025-10-27 21:25:40,847 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:25:40,860 [INFO] Chunk 190 extracted 58 entities and 56 triples.
+2025-10-27 21:26:03,367 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:26:03,369 [INFO] Chunk 191 extracted 15 entities and 14 triples.
+2025-10-27 21:29:03,472 [INFO] Retrying request to /chat/completions in 0.471944 seconds
+2025-10-27 21:31:08,252 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:31:08,257 [INFO] Chunk 192 extracted 77 entities and 104 triples.
+2025-10-27 21:31:47,462 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:31:47,465 [INFO] Chunk 193 extracted 28 entities and 32 triples.
+2025-10-27 21:32:33,626 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:32:33,629 [INFO] Chunk 194 extracted 35 entities and 41 triples.
+2025-10-27 21:33:01,901 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:33:01,903 [INFO] Chunk 195 extracted 15 entities and 27 triples.
+2025-10-27 21:34:24,925 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:34:24,929 [INFO] Chunk 196 extracted 63 entities and 64 triples.
+2025-10-27 21:34:41,944 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:34:41,946 [INFO] Chunk 197 extracted 9 entities and 16 triples.
+2025-10-27 21:35:45,630 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:35:45,633 [INFO] Chunk 198 extracted 45 entities and 59 triples.
+2025-10-27 21:36:23,801 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:36:23,803 [INFO] Chunk 199 extracted 26 entities and 35 triples.
+2025-10-27 21:36:23,813 [INFO] Extracted total 325 unique entities and 448 triples from chunks 190-199.
+2025-10-27 21:36:23,819 [INFO] Entity and triple extraction completed for chunks 190-199.
+2025-10-27 21:36:23,819 [INFO] Extracted 325 entities and 448 triples.
+2025-10-27 21:36:31,217 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 21:36:31,285 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 21:36:31,297 [INFO] Processing chunks from index 200 to 209 (total: 10 chunks)
+2025-10-27 21:36:52,614 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:36:52,624 [INFO] Chunk 200 extracted 13 entities and 21 triples.
+2025-10-27 21:37:25,473 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:37:25,476 [INFO] Chunk 201 extracted 20 entities and 25 triples.
+2025-10-27 21:37:59,088 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:37:59,090 [INFO] Chunk 202 extracted 21 entities and 25 triples.
+2025-10-27 21:38:19,390 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:38:19,392 [INFO] Chunk 203 extracted 15 entities and 14 triples.
+2025-10-27 21:39:37,319 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:39:37,322 [INFO] Chunk 204 extracted 42 entities and 75 triples.
+2025-10-27 21:40:46,304 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:40:46,307 [INFO] Chunk 205 extracted 37 entities and 58 triples.
+2025-10-27 21:41:09,523 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:41:09,526 [INFO] Chunk 206 extracted 15 entities and 20 triples.
+2025-10-27 21:44:09,635 [INFO] Retrying request to /chat/completions in 0.391900 seconds
+2025-10-27 21:44:45,202 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:44:45,204 [INFO] Chunk 207 extracted 27 entities and 26 triples.
+2025-10-27 21:45:09,419 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:45:09,421 [INFO] Chunk 208 extracted 14 entities and 25 triples.
+2025-10-27 21:45:32,924 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:45:32,925 [INFO] Chunk 209 extracted 18 entities and 18 triples.
+2025-10-27 21:45:32,930 [INFO] Extracted total 198 unique entities and 307 triples from chunks 200-209.
+2025-10-27 21:45:32,933 [INFO] Entity and triple extraction completed for chunks 200-209.
+2025-10-27 21:45:32,933 [INFO] Extracted 198 entities and 307 triples.
+2025-10-27 21:45:40,016 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 21:45:40,084 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 21:45:40,112 [INFO] Processing chunks from index 210 to 219 (total: 10 chunks)
+2025-10-27 21:46:12,091 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:46:12,105 [INFO] Chunk 210 extracted 18 entities and 36 triples.
+2025-10-27 21:46:47,944 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:46:47,946 [INFO] Chunk 211 extracted 17 entities and 35 triples.
+2025-10-27 21:47:14,932 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:47:14,933 [INFO] Chunk 212 extracted 20 entities and 22 triples.
+2025-10-27 21:47:31,652 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:47:31,653 [INFO] Chunk 213 extracted 12 entities and 13 triples.
+2025-10-27 21:47:58,238 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:47:58,241 [INFO] Chunk 214 extracted 13 entities and 25 triples.
+2025-10-27 21:48:14,022 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:48:14,024 [INFO] Chunk 215 extracted 10 entities and 13 triples.
+2025-10-27 21:48:44,455 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:48:44,456 [INFO] Chunk 216 extracted 21 entities and 25 triples.
+2025-10-27 21:48:59,893 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:48:59,895 [INFO] Chunk 217 extracted 10 entities and 10 triples.
+2025-10-27 21:49:41,546 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:49:41,548 [INFO] Chunk 218 extracted 20 entities and 39 triples.
+2025-10-27 21:50:07,119 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:50:07,122 [INFO] Chunk 219 extracted 19 entities and 18 triples.
+2025-10-27 21:50:07,128 [INFO] Extracted total 140 unique entities and 236 triples from chunks 210-219.
+2025-10-27 21:50:07,132 [INFO] Entity and triple extraction completed for chunks 210-219.
+2025-10-27 21:50:07,132 [INFO] Extracted 140 entities and 236 triples.
+2025-10-27 21:50:14,063 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 21:50:14,132 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 21:50:14,141 [INFO] Processing chunks from index 220 to 229 (total: 10 chunks)
+2025-10-27 21:50:35,083 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:50:35,096 [INFO] Chunk 220 extracted 16 entities and 15 triples.
+2025-10-27 21:50:50,817 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:50:50,819 [INFO] Chunk 221 extracted 10 entities and 10 triples.
+2025-10-27 21:51:15,257 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:51:15,258 [INFO] Chunk 222 extracted 19 entities and 15 triples.
+2025-10-27 21:51:45,147 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:51:45,149 [INFO] Chunk 223 extracted 22 entities and 22 triples.
+2025-10-27 21:52:11,935 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 21:52:11,937 [INFO] Chunk 224 extracted 22 entities and 17 triples.
+2025-10-27 21:55:12,040 [INFO] Retrying request to /chat/completions in 0.455048 seconds
+2025-10-27 21:58:12,596 [INFO] Retrying request to /chat/completions in 0.750572 seconds
+2025-10-27 22:01:13,449 [INFO] Retrying request to /chat/completions in 1.560278 seconds
+2025-10-27 22:02:11,340 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:02:11,343 [INFO] Chunk 225 extracted 35 entities and 46 triples.
+2025-10-27 22:03:26,800 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:03:26,803 [INFO] Chunk 226 extracted 55 entities and 49 triples.
+2025-10-27 22:03:57,270 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:03:57,272 [INFO] Chunk 227 extracted 11 entities and 33 triples.
+2025-10-27 22:04:15,541 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:04:15,544 [INFO] Chunk 228 extracted 11 entities and 15 triples.
+2025-10-27 22:05:04,055 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:05:04,058 [INFO] Chunk 229 extracted 27 entities and 41 triples.
+2025-10-27 22:05:04,065 [INFO] Extracted total 196 unique entities and 263 triples from chunks 220-229.
+2025-10-27 22:05:04,069 [INFO] Entity and triple extraction completed for chunks 220-229.
+2025-10-27 22:05:04,069 [INFO] Extracted 196 entities and 263 triples.
+2025-10-27 22:05:11,127 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 22:05:11,195 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 22:05:11,205 [INFO] Processing chunks from index 230 to 239 (total: 10 chunks)
+2025-10-27 22:05:41,487 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:05:41,502 [INFO] Chunk 230 extracted 23 entities and 23 triples.
+2025-10-27 22:06:52,696 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:06:52,700 [INFO] Chunk 231 extracted 41 entities and 59 triples.
+2025-10-27 22:07:51,682 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:07:51,685 [INFO] Chunk 232 extracted 43 entities and 35 triples.
+2025-10-27 22:10:51,788 [INFO] Retrying request to /chat/completions in 0.458990 seconds
+2025-10-27 22:11:19,542 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:11:19,544 [INFO] Chunk 233 extracted 17 entities and 20 triples.
+2025-10-27 22:11:48,804 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:11:48,806 [INFO] Chunk 234 extracted 21 entities and 23 triples.
+2025-10-27 22:12:32,841 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:12:32,843 [INFO] Chunk 235 extracted 22 entities and 43 triples.
+2025-10-27 22:15:32,952 [INFO] Retrying request to /chat/completions in 0.389966 seconds
+2025-10-27 22:17:36,951 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:17:36,955 [INFO] Chunk 236 extracted 48 entities and 114 triples.
+2025-10-27 22:18:27,292 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:18:27,295 [INFO] Chunk 237 extracted 40 entities and 34 triples.
+2025-10-27 22:20:33,194 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:20:33,199 [INFO] Chunk 238 extracted 95 entities and 104 triples.
+2025-10-27 22:23:33,312 [INFO] Retrying request to /chat/completions in 0.418423 seconds
+2025-10-27 22:24:07,583 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:24:07,586 [INFO] Chunk 239 extracted 22 entities and 26 triples.
+2025-10-27 22:24:07,611 [INFO] Extracted total 336 unique entities and 481 triples from chunks 230-239.
+2025-10-27 22:24:07,618 [INFO] Entity and triple extraction completed for chunks 230-239.
+2025-10-27 22:24:07,619 [INFO] Extracted 336 entities and 481 triples.
+2025-10-27 22:24:15,861 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 22:24:15,929 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 22:24:15,957 [INFO] Processing chunks from index 240 to 249 (total: 10 chunks)
+2025-10-27 22:24:42,542 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:24:42,552 [INFO] Chunk 240 extracted 20 entities and 20 triples.
+2025-10-27 22:26:25,834 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:26:25,838 [INFO] Chunk 241 extracted 61 entities and 93 triples.
+2025-10-27 22:29:25,944 [INFO] Retrying request to /chat/completions in 0.454188 seconds
+2025-10-27 22:30:18,527 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:30:18,530 [INFO] Chunk 242 extracted 38 entities and 37 triples.
+2025-10-27 22:30:46,410 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:30:46,412 [INFO] Chunk 243 extracted 16 entities and 20 triples.
+2025-10-27 22:30:59,528 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:30:59,530 [INFO] Chunk 244 extracted 8 entities and 10 triples.
+2025-10-27 22:33:59,584 [INFO] Retrying request to /chat/completions in 0.480846 seconds
+2025-10-27 22:35:03,206 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:35:03,209 [INFO] Chunk 245 extracted 36 entities and 61 triples.
+2025-10-27 22:35:39,302 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:35:39,304 [INFO] Chunk 246 extracted 29 entities and 22 triples.
+2025-10-27 22:38:39,412 [INFO] Retrying request to /chat/completions in 0.392073 seconds
+2025-10-27 22:41:39,881 [INFO] Retrying request to /chat/completions in 0.894129 seconds
+2025-10-27 22:42:07,242 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:42:07,245 [INFO] Chunk 247 extracted 20 entities and 20 triples.
+2025-10-27 22:43:00,566 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:43:00,569 [INFO] Chunk 248 extracted 41 entities and 41 triples.
+2025-10-27 22:43:34,479 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:43:34,481 [INFO] Chunk 249 extracted 27 entities and 24 triples.
+2025-10-27 22:43:34,489 [INFO] Extracted total 237 unique entities and 348 triples from chunks 240-249.
+2025-10-27 22:43:34,495 [INFO] Entity and triple extraction completed for chunks 240-249.
+2025-10-27 22:43:34,495 [INFO] Extracted 237 entities and 348 triples.
+2025-10-27 22:43:43,022 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 22:43:43,090 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 22:43:43,100 [INFO] Processing chunks from index 250 to 259 (total: 10 chunks)
+2025-10-27 22:44:20,236 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:44:20,250 [INFO] Chunk 250 extracted 26 entities and 26 triples.
+2025-10-27 22:47:20,355 [INFO] Retrying request to /chat/completions in 0.472246 seconds
+2025-10-27 22:50:20,930 [INFO] Retrying request to /chat/completions in 0.892233 seconds
+2025-10-27 22:51:18,255 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:51:18,258 [INFO] Chunk 251 extracted 37 entities and 53 triples.
+2025-10-27 22:52:05,382 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:52:05,385 [INFO] Chunk 252 extracted 31 entities and 36 triples.
+2025-10-27 22:52:46,829 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:52:46,832 [INFO] Chunk 253 extracted 32 entities and 33 triples.
+2025-10-27 22:54:33,694 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:54:33,698 [INFO] Chunk 254 extracted 78 entities and 77 triples.
+2025-10-27 22:55:18,360 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:55:18,363 [INFO] Chunk 255 extracted 27 entities and 39 triples.
+2025-10-27 22:55:57,339 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:55:57,340 [INFO] Chunk 256 extracted 24 entities and 34 triples.
+2025-10-27 22:56:45,865 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:56:45,867 [INFO] Chunk 257 extracted 31 entities and 43 triples.
+2025-10-27 22:57:19,834 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:57:19,836 [INFO] Chunk 258 extracted 25 entities and 27 triples.
+2025-10-27 22:57:58,957 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 22:57:58,959 [INFO] Chunk 259 extracted 20 entities and 35 triples.
+2025-10-27 22:57:58,968 [INFO] Extracted total 276 unique entities and 403 triples from chunks 250-259.
+2025-10-27 22:57:58,974 [INFO] Entity and triple extraction completed for chunks 250-259.
+2025-10-27 22:57:58,974 [INFO] Extracted 276 entities and 403 triples.
+2025-10-27 22:58:06,107 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 22:58:06,175 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 22:58:06,192 [INFO] Processing chunks from index 260 to 269 (total: 10 chunks)
+2025-10-27 23:01:06,303 [INFO] Retrying request to /chat/completions in 0.466393 seconds
+2025-10-27 23:02:36,522 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:02:36,539 [INFO] Chunk 260 extracted 88 entities and 42 triples.
+2025-10-27 23:03:18,579 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:03:18,581 [INFO] Chunk 261 extracted 32 entities and 28 triples.
+2025-10-27 23:04:05,102 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:04:05,105 [INFO] Chunk 262 extracted 34 entities and 37 triples.
+2025-10-27 23:04:51,811 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:04:51,814 [INFO] Chunk 263 extracted 31 entities and 41 triples.
+2025-10-27 23:07:51,920 [INFO] Retrying request to /chat/completions in 0.462616 seconds
+2025-10-27 23:10:11,173 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:10:11,176 [INFO] Chunk 264 extracted 56 entities and 150 triples.
+2025-10-27 23:13:11,282 [INFO] Retrying request to /chat/completions in 0.376207 seconds
+2025-10-27 23:13:50,047 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:13:50,049 [INFO] Chunk 265 extracted 26 entities and 31 triples.
+2025-10-27 23:16:50,157 [INFO] Retrying request to /chat/completions in 0.468531 seconds
+2025-10-27 23:19:50,728 [INFO] Retrying request to /chat/completions in 0.934762 seconds
+2025-10-27 23:20:50,553 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:20:50,555 [INFO] Chunk 266 extracted 43 entities and 43 triples.
+2025-10-27 23:22:40,227 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:22:40,231 [INFO] Chunk 267 extracted 40 entities and 124 triples.
+2025-10-27 23:24:14,240 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:24:14,244 [INFO] Chunk 268 extracted 45 entities and 104 triples.
+2025-10-27 23:27:14,348 [INFO] Retrying request to /chat/completions in 0.413187 seconds
+2025-10-27 23:30:14,864 [INFO] Retrying request to /chat/completions in 0.949716 seconds
+2025-10-27 23:31:17,773 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:31:17,776 [INFO] Chunk 269 extracted 34 entities and 57 triples.
+2025-10-27 23:31:17,785 [INFO] Extracted total 311 unique entities and 657 triples from chunks 260-269.
+2025-10-27 23:31:17,793 [INFO] Entity and triple extraction completed for chunks 260-269.
+2025-10-27 23:31:17,793 [INFO] Extracted 311 entities and 657 triples.
+2025-10-27 23:31:24,864 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 23:31:24,943 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 23:31:24,955 [INFO] Processing chunks from index 270 to 279 (total: 10 chunks)
+2025-10-27 23:34:25,070 [INFO] Retrying request to /chat/completions in 0.483684 seconds
+2025-10-27 23:37:25,656 [INFO] Retrying request to /chat/completions in 0.837558 seconds
+2025-10-27 23:39:25,678 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:39:25,691 [INFO] Chunk 270 extracted 74 entities and 97 triples.
+2025-10-27 23:40:35,732 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:40:35,736 [INFO] Chunk 271 extracted 33 entities and 76 triples.
+2025-10-27 23:41:03,320 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:41:03,322 [INFO] Chunk 272 extracted 20 entities and 22 triples.
+2025-10-27 23:42:45,376 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:42:45,380 [INFO] Chunk 273 extracted 71 entities and 75 triples.
+2025-10-27 23:43:16,476 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:43:16,478 [INFO] Chunk 274 extracted 22 entities and 22 triples.
+2025-10-27 23:43:55,764 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:43:55,766 [INFO] Chunk 275 extracted 28 entities and 27 triples.
+2025-10-27 23:44:34,538 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:44:34,540 [INFO] Chunk 276 extracted 24 entities and 33 triples.
+2025-10-27 23:45:29,372 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:45:29,374 [INFO] Chunk 277 extracted 42 entities and 36 triples.
+2025-10-27 23:46:48,974 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:46:48,978 [INFO] Chunk 278 extracted 73 entities and 48 triples.
+2025-10-27 23:47:29,562 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:47:29,565 [INFO] Chunk 279 extracted 31 entities and 29 triples.
+2025-10-27 23:47:29,573 [INFO] Extracted total 318 unique entities and 465 triples from chunks 270-279.
+2025-10-27 23:47:29,580 [INFO] Entity and triple extraction completed for chunks 270-279.
+2025-10-27 23:47:29,580 [INFO] Extracted 318 entities and 465 triples.
+2025-10-27 23:47:36,958 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 23:47:37,028 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 23:47:37,040 [INFO] Processing chunks from index 280 to 289 (total: 10 chunks)
+2025-10-27 23:49:08,011 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:49:08,026 [INFO] Chunk 280 extracted 57 entities and 78 triples.
+2025-10-27 23:49:31,445 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:49:31,449 [INFO] Chunk 281 extracted 15 entities and 21 triples.
+2025-10-27 23:50:34,477 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:50:34,480 [INFO] Chunk 282 extracted 55 entities and 36 triples.
+2025-10-27 23:52:03,453 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:52:03,457 [INFO] Chunk 283 extracted 76 entities and 65 triples.
+2025-10-27 23:52:31,984 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:52:31,986 [INFO] Chunk 284 extracted 21 entities and 20 triples.
+2025-10-27 23:53:00,353 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:53:00,356 [INFO] Chunk 285 extracted 22 entities and 22 triples.
+2025-10-27 23:53:36,583 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:53:36,585 [INFO] Chunk 286 extracted 29 entities and 28 triples.
+2025-10-27 23:54:07,072 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:54:07,073 [INFO] Chunk 287 extracted 25 entities and 23 triples.
+2025-10-27 23:55:01,391 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:55:01,394 [INFO] Chunk 288 extracted 43 entities and 38 triples.
+2025-10-27 23:55:43,536 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:55:43,538 [INFO] Chunk 289 extracted 26 entities and 37 triples.
+2025-10-27 23:55:43,543 [INFO] Extracted total 308 unique entities and 368 triples from chunks 280-289.
+2025-10-27 23:55:43,548 [INFO] Entity and triple extraction completed for chunks 280-289.
+2025-10-27 23:55:43,548 [INFO] Extracted 308 entities and 368 triples.
+2025-10-27 23:55:50,441 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-27 23:55:50,509 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-27 23:55:50,520 [INFO] Processing chunks from index 290 to 292 (total: 3 chunks)
+2025-10-27 23:57:36,680 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 23:57:36,695 [INFO] Chunk 290 extracted 79 entities and 76 triples.
+2025-10-28 00:00:36,800 [INFO] Retrying request to /chat/completions in 0.445235 seconds
+2025-10-28 00:02:14,630 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 00:02:14,635 [INFO] Chunk 291 extracted 83 entities and 72 triples.
+2025-10-28 00:05:14,741 [INFO] Retrying request to /chat/completions in 0.415901 seconds
+2025-10-28 00:07:52,260 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 00:07:52,266 [INFO] Chunk 292 extracted 120 entities and 113 triples.
+2025-10-28 00:07:52,270 [INFO] Extracted total 228 unique entities and 261 triples from chunks 290-292.
+2025-10-28 00:07:52,274 [INFO] Entity and triple extraction completed for chunks 290-292.
+2025-10-28 00:07:52,274 [INFO] Extracted 228 entities and 261 triples.
+2025-10-28 09:41:50,841 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-28 09:41:50,910 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-28 09:41:50,917 [INFO] Processing chunks from index 185 to 185 (total: 1 chunks)
+2025-10-28 09:44:51,026 [INFO] Retrying request to /chat/completions in 0.427214 seconds
+2025-10-28 09:46:38,612 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 09:46:38,628 [INFO] Chunk 185 extracted 73 entities and 97 triples.
+2025-10-28 09:46:38,630 [INFO] Extracted total 73 unique entities and 97 triples from chunks 185-185.
+2025-10-28 09:46:38,632 [INFO] Entity and triple extraction completed for chunks 185-185.
+2025-10-28 09:46:38,632 [INFO] Extracted 73 entities and 97 triples.
+2025-10-28 09:47:47,878 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-28 09:47:47,947 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-28 09:47:47,953 [INFO] Processing chunks from index 153 to 153 (total: 1 chunks)
+2025-10-28 09:48:23,336 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 09:48:23,350 [INFO] Chunk 153 extracted 40 entities and 19 triples.
+2025-10-28 09:48:23,352 [INFO] Extracted total 35 unique entities and 19 triples from chunks 153-153.
+2025-10-28 09:48:23,352 [INFO] Entity and triple extraction completed for chunks 153-153.
+2025-10-28 09:48:23,353 [INFO] Extracted 35 entities and 19 triples.
+2025-10-28 09:52:36,101 [INFO] Initialize VLLM Model: qwen3-32b @ https://dashscope.aliyuncs.com/compatible-mode/v1
+2025-10-28 09:52:36,171 [INFO] Loading chunks from ./chunks_output/chunks.jsonl
+2025-10-28 09:52:36,177 [INFO] Processing chunks from index 156 to 156 (total: 1 chunks)
+2025-10-28 09:53:14,497 [INFO] HTTP Request: POST http://202.120.59.70:1234/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-28 09:53:14,510 [INFO] Chunk 156 extracted 20 entities and 36 triples.
+2025-10-28 09:53:14,512 [INFO] Extracted total 20 unique entities and 36 triples from chunks 156-156.
+2025-10-28 09:53:14,513 [INFO] Entity and triple extraction completed for chunks 156-156.
+2025-10-28 09:53:14,513 [INFO] Extracted 20 entities and 36 triples.

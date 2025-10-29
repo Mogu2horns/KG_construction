@@ -1,0 +1,4778 @@
+[
+    {
+        "entity_name": "船体",
+        "type": [
+            "结构部件",
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由钢板、型材等材料组成的船舶主体结构，按照设计图纸进行放样、号料、加工、装配和焊接等工序形成。 | 船舶的主体结构，包括外板、甲板、骨架等，是船舶结构安全和强度的基础。 | 船舶的主要结构部分，包含外板、肋骨、龙骨等构件，用于支撑船舶整体结构并承受各种外力。 | 船舶的主体结构，包括外板、肋骨、横梁等，是船舶的主要承重部分。 | 船舶的主体结构，包含钢板、肋骨等构件，是进行测厚、除锈、修理等操作的主要对象。",
+        "chunk_ids": [
+            280,
+            288,
+            289,
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "船体型线图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于指导船体建造的结构设计图纸，包含船舶外形和结构的详细尺寸与形状信息。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "结构图",
+        "type": [
+            "设计图纸"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于指导船体建造的详细结构设计图纸，包含船舶各部分的连接方式、材料规格等信息。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "放样",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据设计图纸将船体结构转化为实际可加工的零件和部件的工序。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "号料",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据放样结果确定材料的切割尺寸和位置，为后续加工提供依据。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "加工",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体零件进行切割、弯曲、开孔等操作，使其符合设计要求。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "装配",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将加工好的船体零件按设计要求组装成部件或分段，形成整体结构。 | 船舶修理过程中将修复或重新制作的构件重新安装到原位的过程。",
+        "chunk_ids": [
+            280,
+            289
+        ]
+    },
+    {
+        "entity_name": "焊接",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过熔化或加压方式将船体零件连接成整体结构，是船体建造的重要工序。 | 船舶修理过程中用于连接金属构件的工艺，需严格遵守安全操作规程。 | 船体制造中用于连接钢板或构件的工艺，但可能因夹渣、气孔、裂纹、未焊透等缺陷导致渗漏。",
+        "chunk_ids": [
+            280,
+            289,
+            292
+        ]
+    },
+    {
+        "entity_name": "预处理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体零件加工前对钢材进行表面处理，如除锈、涂防锈层等，以提高加工质量和焊接性能。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "分段",
+        "type": [
+            "结构部件",
+            "部件结构",
+            "材料部件",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中按结构特点划分的若干部分，包括平面分段、曲面分段、立体分段与总段。 | 船体建造过程中按一定规则划分的结构单元，用于分阶段进行制造和装配，是船体精度控制的重要对象。 | 船舶建造过程中划分的结构单元，用于分段制造和装配，是尺寸链分析和补偿量分配的重要对象。 | 船舶建造过程中按结构划分的单元，用于装配和补偿量计算。 | 船舶建造过程中将上层建筑分成若干部分进行制造和吊装。",
+        "chunk_ids": [
+            280,
+            282,
+            283,
+            284,
+            290
+        ]
+    },
+    {
+        "entity_name": "船台",
+        "type": [
+            "建造设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体分段装配和焊接的大型平台，是船体建造的重要施工场地。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "误差",
+        "type": [
+            "工艺特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中由于加工、装配、焊接等工序引起的尺寸或形状偏差，需通过测量和控制技术进行管理。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "精度测量技术",
+        "type": [
+            "测量技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制船体建造过程中几何形状、尺寸和位置精度的技术，包括吊线锤法、光学经纬仪、激光经纬仪等。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "吊线锤法",
+        "type": [
+            "测量技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过悬挂线锤和钢丝确定船台中心线的测量方法，工艺复杂、效率低且误差较大。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "光学经纬仪",
+        "type": [
+            "测量工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体建造中测量和划线的光学仪器，精度可达0.5mm，比吊线锤法更高效。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "激光经纬仪",
+        "type": [
+            "测量工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用激光点进行测量和划线的高精度仪器，具有方向性好、亮度高、误差小等优点，广泛应用于船体建造。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "J2-JD可正倒镜2s级激光经纬仪",
+        "type": [
+            "测量工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种高精度激光经纬仪，具有正倒镜功能，能读数、照准，适用于船体分段无余量定位合拢。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "无余量分段上船台一次定位合拢",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种先进的船体建造工艺，分段在加工后直接上船台进行定位合拢，无需预留余量，提高效率和精度。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "切割加工工装",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于仿行切割的模具，配合开孔模具可快速开孔，保证切割质量。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "焊接工装",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "包括拼板压力架和平直分段流水线等，用于控制焊接变形，提高焊接精度。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "胎架工装",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑和定位分段建造的工装，根据分段类型分为水平胎架、管子活络胎架、典型分段胎架和专用固定胎架。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "水平胎架",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于平直分段建造的胎架，提供稳定的支撑和定位基准。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "管子活络胎架",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于艏艉和机舱曲形分段建造的可调节胎架，适应复杂曲面结构。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "典型分段胎架",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于槽形分段建造的通用胎架，适用于常见结构类型。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "专用固定胎架",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于线型复杂的特殊分段建造的专用胎架，提供精确的支撑和定位。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "吊运工装",
+        "type": [
+            "工具工装"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分段吊装和搬运的工装，确保吊运过程中的安全和精度。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "CO₂保护垂直自动焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，利用CO₂气体保护焊缝，适用于垂直方向的自动焊接，提高焊接质量和效率。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "铜衬垫焊",
+        "type": [
+            "焊接工艺"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，使用铜衬垫辅助焊接，减少焊接变形，提高焊缝质量。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "分段精度管理",
+        "type": [
+            "工艺管理"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过工具和工装控制分段建造精度，确保各分段在装配和焊接过程中符合设计要求。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "尺寸公差",
+        "type": [
+            "工艺特性",
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体零件在制造过程中允许的尺寸偏差范围，需通过测量和控制技术进行管理。 | 允许尺寸变动的范围，用于控制零件和装配件的制造精度，确保最终装配符合设计要求。",
+        "chunk_ids": [
+            280,
+            282
+        ]
+    },
+    {
+        "entity_name": "数理统计技术",
+        "type": [
+            "工艺技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分析和控制船体建造过程中尺寸公差和误差分布的技术，提高建造精度。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "尺寸链技术",
+        "type": [
+            "工艺技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于分析船体各部分尺寸关系的技术，帮助合理分配公差，提高建造精度。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "热变形补偿量",
+        "type": [
+            "工艺特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于焊接和加工引起的热变形，需通过计算和补偿技术进行控制。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "电子计算机",
+        "type": [
+            "工具设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于开发补偿系统的计算设备，实现船体分段无余量制作。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "巨型总段建造模式",
+        "type": [
+            "建造模式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种大型船体建造模式，将船体分为巨型总段进行建造，对精度控制提出更高要求。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "激光三维定位测量技术",
+        "type": [
+            "测量技术"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "利用激光技术进行三维定位测量，提高船体建造精度和效率。",
+        "chunk_ids": [
+            280
+        ]
+    },
+    {
+        "entity_name": "全站仪",
+        "type": [
+            "测量设备",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种基于激光特性的测量工具，通过光学系统给出基准直线，调整焦距可以在不同距离获得测量对象的最佳光斑，可测量水平度、垂直度、固定角度和直线度，测量精度高，使用方便迅捷。 | 用于在船体建造过程中进行精度管理的测量设备，用于检测和控制分段的变形和精度。 | 一种高精度测量仪器，用于船舶建造过程中对小组立、中组立阶段进行检测与控制。",
+        "chunk_ids": [
+            281,
+            285,
+            287
+        ]
+    },
+    {
+        "entity_name": "PDA",
+        "type": [
+            "测量设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种便携式数字助理设备，与全站仪实时连接，用于进行三维测量操作，快速精准，简单方便，可减少人工误差及工作量。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "激光雷达测量仪",
+        "type": [
+            "测量设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种非接触式高精度检测设备，无需靶镜，依靠激光反射原理，将内部激光折射为测量和基准两束激光，可直接发射到被测物表面，接收反射信号并与基准激光束波形做实时后台处理，得到被测点的精确空间坐标值。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "iGPS测量系统",
+        "type": [
+            "测量设备",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种集成激光跟踪仪、激光雷达等测量设备的高精度测量系统，具有高精度、便捷的测量方法、快速的测量速度、直观的测量过程和方便的安装测量解决方案，可同时进行测量工作，互不干扰。 | 一种基于全球定位系统的高精度测量系统，用于船舶建造过程中对船体分段进行实时测量与控制，提高建造精度。",
+        "chunk_ids": [
+            281,
+            287
+        ]
+    },
+    {
+        "entity_name": "激光跟踪仪",
+        "type": [
+            "测量设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种需要粘贴靶镜在被测物表面的测量设备，通过光反射原理进行测量，一台仪器只能跟踪一个靶镜，测量结果为间接测量结果。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "数控小车",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船体分段搭载过程中进行调整的自动化设备，配合iGPS测量系统，可确保船体分段搭载的全自动化，提高效率。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "温度补偿系统",
+        "type": [
+            "系统"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于补偿温度变化对测量结果影响的系统，能够合理地进行温差对钢结构影响的补偿，最大限度地避免仪器自身及使用中带来的误差。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "船体分段",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中形成的大型结构单元，通常在船坞或船台搭载过程中进行实时测量与控制，确保搭载精度。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "船坞",
+        "type": [
+            "设施"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造过程中分段搭载和调整的场所，通常配备测量设备和数控小车，实现船体分段的精准安装。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "韩国三星重工",
+        "type": [
+            "企业"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "一家韩国造船企业，利用iGPS测量系统建立控制系统，并在船体分段船坞或船台搭载过程中进行实时测量与控制。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "瑞士Metris公司",
+        "type": [
+            "企业"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "一家瑞士公司，掌握iGPS测量系统核心技术及设备供应，与韩国三星重工合作推动iGPS在造船业的应用。",
+        "chunk_ids": [
+            281
+        ]
+    },
+    {
+        "entity_name": "总段",
+        "type": [
+            "部件结构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中由多个分段组合而成的更大结构单元，用于进一步装配形成完整船体。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "精度控制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造过程中，通过测量、分析和调整，确保各部件尺寸符合设计要求，以保证整体装配精度。 | 一种在造船过程中对各工序产品尺寸进行测量并与参考精度比较，通过预修整和补偿量计算来确保制造精度的控制过程。",
+        "chunk_ids": [
+            282,
+            286
+        ]
+    },
+    {
+        "entity_name": "精度计划",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体建造全过程进行精度分析，确定补偿量和控制措施，以确保尺寸精度控制在允许范围内。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "补偿量",
+        "type": [
+            "工艺参数",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造过程中，为抵消可能的尺寸偏差而预先加放的尺寸，用于保证最终装配精度。 | 相对工件基本尺寸多加放的量值，用于抵消加工、装配、焊接等过程中产生的变形和误差，提高船体建造精度。 | 在船舶建造过程中，为抵消焊接收缩变形及其他施工偏差而预先设定的尺寸调整量，需在各控制阶段分别计算。 | 为应对焊接变形和结构变形，在制造过程中预先加放的尺寸调整量，以确保最终产品的精度。 | 在造船精度控制过程中，根据测量结果与精度要求的比较，计算出的用于调整后续工序尺寸的数值，用于保证最终尺寸符合要求。",
+        "chunk_ids": [
+            282,
+            283,
+            284,
+            285,
+            286
+        ]
+    },
+    {
+        "entity_name": "尺寸链",
+        "type": [
+            "工艺理论",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由相互关联的尺寸组成的封闭系统，用于分析和控制装配精度，是船体精度控制的核心理论工具。 | 用于分析和控制船舶建造过程中各尺寸之间的相互关系，通过确定尺寸链中各环的尺寸和公差，保证合理分配公差，以满足船舶总的尺寸精度要求。 | 用于描述尺寸传递关系的数学模型，其基本方程为ζ₁A₁ + ζ₂A₂ + … + ζ_{m+n}A_{m+n} = A_Σ，其中A₁、A₂等为组成环的基本尺寸，ζ₁、ζ₂等为传递系数，A_Σ为封闭环的基本尺寸。",
+        "chunk_ids": [
+            282,
+            283,
+            284
+        ]
+    },
+    {
+        "entity_name": "封闭环",
+        "type": [
+            "尺寸链元素",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尺寸链中最后自然形成的一环，其尺寸由其他组成环的变动所决定，是尺寸链分析的核心对象。 | 尺寸链中最终形成的尺寸，其尺寸和公差由组成环的尺寸和公差决定，用于保证船舶装配精度和技术要求。",
+        "chunk_ids": [
+            282,
+            283
+        ]
+    },
+    {
+        "entity_name": "增环",
+        "type": [
+            "尺寸链元素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尺寸链中，该环的变动会引起封闭环的同向变动，即增环增大时封闭环也增大。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "减环",
+        "type": [
+            "尺寸链元素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尺寸链中，该环的变动会引起封闭环的反向变动，即减环增大时封闭环减小。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "补偿环",
+        "type": [
+            "尺寸链元素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在尺寸链中被选作调整或加放余量的环，用于最终计算该环的实际需要尺寸。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "传递系数",
+        "type": [
+            "工艺参数",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示各组成环对封闭环影响大小的系数，其值等于组成环变动量与封闭环变动量之比。 | 在尺寸链基本方程中，表征各链环大小方向位置的系数，用于计算封闭环的基本尺寸。",
+        "chunk_ids": [
+            282,
+            283
+        ]
+    },
+    {
+        "entity_name": "形位公差",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "控制零件形状和位置误差的公差，用于保证装配精度和整体结构性能。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "装配精度",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指各零件或部件在装配过程中达到的尺寸和位置精度，是船体建造质量的重要指标。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "余量",
+        "type": [
+            "工艺参数",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在制造过程中为补偿可能的尺寸偏差而预留的尺寸，用于确保最终装配符合设计要求。 | 在各施工阶段通过预修整即切割来形成最终尺寸的量值，与补偿量不同，余量不会逐步抵消。 | 在切割和加工过程中，为了保证装配精度和焊接质量，通常在尺寸上增加的额外长度。",
+        "chunk_ids": [
+            282,
+            283,
+            292
+        ]
+    },
+    {
+        "entity_name": "测量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造过程中，通过工具和方法获取结构尺寸数据，用于精度控制和质量检验。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "手工记录",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统测量方法中，将测量结果通过人工方式记录，不便于与现代设计软件结合，效率低下。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "钢直尺",
+        "type": [
+            "测量工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "传统测量工具，用于测量结构件尺寸，但其准确性不稳定，且无法完成大型结构件的准确测量。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "数据报表",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "测量后生成的数据汇总，需人工计算，不便与设计数据直接对比，效率低且易出错。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "精度管理机制",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于系统化管理船体建造精度的机制，包括数据采集、分析和控制，目前尚不完善。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "精度数据循环",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过测量和分析形成的数据反馈机制，用于持续改进精度控制，目前尚未建立。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "反变形",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造过程中，为抵消结构变形而预先施加的变形量，用于保证最终成形精度。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "无余量生产",
+        "type": [
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体建造过程中不预留余量，依靠精确测量和控制实现最终尺寸符合要求的生产方式。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "船台周期",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在船台上进行装配和调整所需的时间，受分段定位和测量效率影响。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "吊机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于吊装和移动船体分段的设备，传统测量方法占用吊机时间较长，影响效率。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "余量切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体合拢过程中，对分段进行测量后，根据余量进行切割，以保证最终尺寸符合要求。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "分段复位",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体合拢过程中，对分段进行重新定位和调整，以确保装配精度。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "船体成形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在建造过程中逐步形成整体结构的过程，传统测量手段难以有效统计其变化。",
+        "chunk_ids": [
+            282
+        ]
+    },
+    {
+        "entity_name": "组成环",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "尺寸链中与封闭环存在尺寸关系的环，用于通过尺寸、工艺分析找出相互联系的尺寸关系，以确定尺寸链。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "正算法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "已知组成环的基本尺寸和极限偏差，求封闭环的基本尺寸和偏差，主要用于验证设计是否正确。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "反算法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "已知封闭环的基本尺寸和极限偏差及组成环的基本尺寸，求组成环的偏差，主要用于精度设计。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "系统补偿量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在工件的基本尺寸和形状上增加的额外量值，用于抵消各工艺阶段引起的变形，确保成品或后续工序装配的尺寸和形状精度。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "非系统补偿量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "单独对一个因素或一种变形的工件尺寸的补偿方法，如气割补偿、焊接补偿、反变形补偿等。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "加工补偿",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在加工过程中为抵消加工误差而加放的补偿量，属于补偿量的一种类型。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "装配补偿",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在装配过程中为抵消装配误差而加放的补偿量，属于补偿量的一种类型。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "焊接收缩和变形补偿",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为抵消焊接过程中产生的收缩和变形而加放的补偿量，属于补偿量的一种类型。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "尺寸精度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中对尺寸的精确控制要求，通过尺寸链分析和补偿量分配来实现。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "正态分布",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "系统补偿量的理论基础，各正态分布叠加后仍然是正态分布，用于计算系统补偿量值。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "部件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造过程中构成分段的基本单元，用于尺寸链分析和补偿量分配。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "工艺流程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶建造过程中涉及的制造、装配、焊接等操作步骤，用于实现尺寸精度控制。",
+        "chunk_ids": [
+            283
+        ]
+    },
+    {
+        "entity_name": "焊接收缩变形",
+        "type": [
+            "工艺流程",
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热输入导致的材料收缩现象，是船舶建造中补偿量计算的主要考虑因素。 | 焊接过程中由于材料热胀冷缩导致的变形，是船体建造中影响精度的主要因素之一。",
+        "chunk_ids": [
+            284,
+            285
+        ]
+    },
+    {
+        "entity_name": "纵向焊接收缩量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝在焊接过程中沿长度方向的收缩量，计算公式为Δl = Δ·l，其中Δ为单位纵向收缩量，l为焊缝长度。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "横向焊接收缩量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝在焊接过程中沿宽度方向的收缩量，计算公式根据板厚δ不同而有所区别，如Δb = 1.01e^{0.0464δ}或Δb = -0.0017δ² + 0.023δ + 0.8433。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "线能量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "沿焊接方向单位长度的基本金属从热源所获得的热量，计算公式为q_n = 0.24ηUI / v，其中η为热利用系数，U为电弧电压，I为电流，v为焊接速度。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊缝纵向收缩单位体积",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算焊缝纵向收缩量的参数，其计算式为V₁ = 3.6×10^{-6}q_n，对于双面单层角焊缝的T形梁，取V₁+2 = 1.15V₁ = 4.14×10^{-6}q_n。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊缝横向收缩单位体积",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于计算焊缝横向收缩量的参数，其计算式根据结构形式不同而有所区别，如对接焊缝和T形梁结构。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊接电弧的有效热功率",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中电弧所释放的热量，用于计算线能量，单位为cal/s。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊接速度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中焊枪或焊条移动的速度，单位为cm/s，用于计算线能量。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊接电弧的热利用系数",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "表示焊接电弧中有效热功率与总输入功率的比例，用于计算线能量。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊缝长度",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊缝的几何长度，单位为cm，用于计算纵向焊接收缩量。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "构件截面面积",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "受焊缝焊接热影响区域的横截面积，单位为cm²，用于计算纵向收缩单位体积。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "焊接变形",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "焊接过程中由于热输入导致的结构变形，包括纵向和横向收缩，需通过补偿量进行控制。",
+        "chunk_ids": [
+            284
+        ]
+    },
+    {
+        "entity_name": "经验数据查表法",
+        "type": [
+            "工艺流程",
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过查阅焊缝纵向和横向收缩参考表，获取焊接变形量及补偿量的估计值。 | 通过查阅焊缝纵向和横向收缩量参考表，估算结构焊接对应的变形量及补偿量估计值。",
+        "chunk_ids": [
+            284,
+            285
+        ]
+    },
+    {
+        "entity_name": "直接经验估算法",
+        "type": [
+            "工艺流程",
+            "工艺方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据经验粗略估算分段的焊接变形，进而对分段加放相应的补偿量。",
+        "chunk_ids": [
+            284,
+            285
+        ]
+    },
+    {
+        "entity_name": "焊缝纵向收缩量参考表",
+        "type": [
+            "工艺参考表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于查询焊缝纵向收缩量的参考表，为焊接变形量及补偿量估计提供数据支持。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "焊缝横向收缩量参考表",
+        "type": [
+            "工艺参考表"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于查询焊缝横向收缩量的参考表，为焊接变形量及补偿量估计提供数据支持。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "双层底分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的分段类型，每10m长的基线扰度为10~15mm，每10m长的半宽收缩量为10~12mm。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "中部分段",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构中的分段类型，每10m长的基线扰度为10~20mm，每10m长的半宽收缩量为6~15mm。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "尺寸精度补偿",
+        "type": [
+            "工艺控制"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为应对船体建造过程中因变形导致的尺寸偏差，通过加放补偿量以确保最终产品的精度。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船体建造过程控制",
+        "type": [
+            "工艺控制"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造过程中通过主动控制和被动控制相结合的方式，对精度进行管理，以确保最终产品的几何精度。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "主动控制",
+        "type": [
+            "工艺控制"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在造船过程中，通过事先采取措施预防分段变形，如改良设计、改善施工方法等，以保证造船精度。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "被动控制",
+        "type": [
+            "工艺控制"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在建造过程中，针对突发因素造成的精度损失，采取应急措施进行控制，如利用全站仪进行精度管理。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "动态公差控制",
+        "type": [
+            "工艺控制"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "引入柔性生产模式中的动态公差控制理论，用于造船过程中的精度管理，实现对精度的持续改进。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "焊接方法",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "影响分段变形趋势和大小的重要因素，不同的焊接方法会导致不同的变形量。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "工艺余量",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在部分工件或施工环节上加放的余量，用于应对无法完全预测的变形，以确保最终产品的精度。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船型",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的形状和结构形式，是影响船体变形的重要因素之一。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "分段划分",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中将整体结构划分为若干分段的方式，影响变形趋势和补偿量的确定。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "分段结构形式",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段的具体结构设计，如双层底分段、中部分段等，影响其变形量和补偿量。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "装配焊接顺序",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "分段装配和焊接的顺序，对变形趋势和最终精度有重要影响。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船台吊装程序",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶在船台上吊装的程序，影响船体的变形和精度控制。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "精度管理基准",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于衡量和控制船体建造过程中精度的标准或参考值。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船厂生产条件",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂的生产环境和条件，如设备、管理水平等，影响船体建造的精度和变形控制。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "组织体制和管理水平",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂的组织结构和管理水平，影响施工质量及精度控制效果。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "施工人员素质",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "施工人员的技术水平和操作规范，直接影响船体建造的精度和质量。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "基线扰度",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指分段在基准线方向上的弯曲程度，用于衡量焊接变形量。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "半宽收缩量",
+        "type": [
+            "结构参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指分段在宽度方向上的收缩量，用于衡量焊接变形量。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船体工件",
+        "type": [
+            "结构部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中构成整体结构的零部件，其变形受多种因素影响。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船体建造",
+        "type": [
+            "工艺过程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶制造的全过程，包括切割、加工、焊接、装配等环节，涉及大量工件和变形控制。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船体工件变形",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体建造过程中由于多种因素导致的工件变形，需通过补偿量进行控制。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "船体工件施工精度标准",
+        "type": [
+            "工艺参数"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体工件施工精度的要求，用于指导补偿量的加放和精度控制。",
+        "chunk_ids": [
+            285
+        ]
+    },
+    {
+        "entity_name": "分段预修正工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种在船厂精度控制技术不成熟时采用的工艺方法，通过减少尺寸链组成环数目来解决封闭环精度问题，确保各工序精度满足允许值的要求。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "尺寸链组成环",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在造船过程中，反映不同工序尺寸精度的组成部分，如 $A_{1}$、$A_{2}$、$A_{3}$ 等，用于描述制造过程中各环节的尺寸精度控制。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "精度管理标准",
+        "type": [
+            "标准/规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于指导造船过程中精度控制的作业标准，包括补偿量标准、收缩公差标准、基准线标准、检查次序标准、部件加工和装配标准、信息传递和管理标准等。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "PDCA过程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "造船精度管理的循环过程，即Plan-Do-Check-Action，用于持续改进精度管理水平，确保制造精度符合要求。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "数控等离子切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于下料加工的数控设备，日本船厂内场加工全部采用此类设备，部分船厂甚至应用更为先进的数控激光切割机。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "机械化线状加热系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于水火弯板工艺的机械化系统，日本和美国已成功研制，推动水火弯板工艺向机械化和自动化方向发展。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "焊接机器人",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船体装配的自动化设备，日、韩、丹麦等国船厂广泛采用，提高装配精度和效率。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "工艺纪律",
+        "type": [
+            "管理规范",
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂为确保制造精度而制定的严格操作规范，将影响建造精度的主要因素（人、机、工艺、材料、环境等）作为重点对象进行控制。 | 指船厂在建造过程中严格执行的工艺规范和操作要求，将影响建造精度的主要因素（人、机、工艺、材料、环境等）作为重点对象进行控制，以减少系统误差，保证稳定的质量和精度。",
+        "chunk_ids": [
+            286,
+            287
+        ]
+    },
+    {
+        "entity_name": "三确",
+        "type": [
+            "管理规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "日本船厂在执行精度品质管理过程中遵循的原则，即确实、确认、确保和保证产品重大质量事故为零。",
+        "chunk_ids": [
+            286
+        ]
+    },
+    {
+        "entity_name": "精度管理",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶建造过程中对加工和装配精度进行系统性控制的管理方法，包括对设备精度、工艺执行、人员操作等多方面的控制，以确保最终产品的质量。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "设备精度",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指加工设备在执行加工任务时的精确程度，船厂通过定期检查、校正、调整和维修来维持设备精度，确保加工质量。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "加工设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指用于船舶建造过程中进行切割、焊接、校正等加工操作的机械设备，如切割机、校正设备等。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "有限元分析方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种数值模拟方法，用于对船体建造过程中钢板的火焰切割、热弯、焊接和水火校正等操作产生的热变形进行数字模拟，以更精确地估算变形值并采取相应措施。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "高精度生产系统",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种船体建造精度控制的新概念，旨在通过新技术和新工艺提高生产效率和建造精度，应对熟练工人短缺和市场竞争的挑战。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "测量系统",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造过程中对船体分段、船坞或船台搭载等环节进行实时测量与控制的系统，包括激光雷达、iGPS测量系统、高精度全站仪等。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "激光雷达",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种高精度测量设备，用于船舶建造过程中对分段进行检测，具有高精度和自动化特点。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "数控切割机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种用于船舶建造过程中对钢板进行精确切割的自动化设备，具有高精度和效率。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "船舶修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指对营运中受损或老化船舶进行修复和维护的过程，以恢复其正常技术状况，包括航修、小修、检修等类型。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "修船单",
+        "type": [
+            "文件",
+            "文档/工具",
+            "文档资料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶和机务部门向船厂提出的修船工程的基本技术文件，用于安排修船计划、分配修船费用，并指导船厂做好修理前的准备工作。 | 用于记录和安排船舶修理项目的文件，由承修船厂接收并执行。 | 用于明确修船工程范围和内容的文件，由委修单位提出，修船单位据此进行修理工作。",
+        "chunk_ids": [
+            287,
+            288,
+            289
+        ]
+    },
+    {
+        "entity_name": "计划养护修理",
+        "type": [
+            "工艺流程",
+            "修理类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指为保证船舶继续安全使用而有计划地进行的修理，包括航修、小修和检修（中修或大修）。 | 船舶在营运过程中因自然损耗而进行的有计划的修理，包括航修、小修和检修。",
+        "chunk_ids": [
+            287,
+            288
+        ]
+    },
+    {
+        "entity_name": "航修",
+        "type": [
+            "工艺流程",
+            "修理类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶运营期间发生影响航行而必须由船厂或航修站协助进行的一般修理工程和一般事故修理，通常利用航次在港的停泊时间进行。 | 在船舶运营期间，因影响航行而必须由船厂或航修站协助进行的一般修理工程和一般事故修理，利用航次在港的停泊时间进行。",
+        "chunk_ids": [
+            287,
+            288
+        ]
+    },
+    {
+        "entity_name": "外力作用",
+        "type": [
+            "作用因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶在波浪中由于升降、摇摆、回转等运动状态而受到的弯曲应力和扭转应力，是导致船舶变形和损坏的原因之一。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "腐蚀作用",
+        "type": [
+            "作用因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指金属材料在自然环境中持续发生的损耗过程，是导致船舶结构损坏的重要原因之一。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "人为作用",
+        "type": [
+            "作用因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指由于船舶使用和管理不当而引发的海损等事故，是导致船舶损坏的另一重要原因。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "无形损耗",
+        "type": [
+            "作用因素"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指由于科学技术进步导致船舶技术状况陈旧、落后，需要进行改建、更新或报废，是船舶修理的另一类原因。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "船舶修理目的",
+        "type": [
+            "目标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过修理消除船舶在营运过程中因外力、腐蚀、人为因素和无形损耗导致的缺陷，保持和恢复其正常技术状况，防止构件继续损耗和损坏。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "船舶修理基本任务",
+        "type": [
+            "目标"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "根据《修船条例》和《修船工作会议纪要》对船舶修理进行分类和分等，制定修理计划，编制修船单，确保修理工作的顺利进行并达到技术质量要求。",
+        "chunk_ids": [
+            287
+        ]
+    },
+    {
+        "entity_name": "小修",
+        "type": [
+            "修理类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按规定周期有计划地结合定期检验进行的厂修工程，目的是消除运营中产生的过渡磨耗，保证船舶到下次计划修理期内的安全运行，一般和坞修同时进行。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "检修",
+        "type": [
+            "修理类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "按规定周期间隔2~3次小修并结合定期检验进行的厂修工程，目的是对船体、主辅机及其他设备进行全面检查，重点修复在小修时不能解决的较大缺陷。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "事故修理",
+        "type": [
+            "修理类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶因发生事故而损坏的部分进行的修理，工程范围不大时可随航修进行，较大时需安排修理计划，需根据验船报告确定修理项目和范围。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "基本恢复修理",
+        "type": [
+            "修理类型"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对已不能使用的船舶进行恢复适航性能和船体强度的修理，如沉船、火灾船只的残骸修理，工程浩大，需巨额资金，修船期长，经济效果差。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "舵",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶转向装置，用于控制船舶的航向。 | 船舶转向装置，需进行拆装检查与舵系间隙测量，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            288,
+            291
+        ]
+    },
+    {
+        "entity_name": "轴系",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接主机与螺旋桨的传动系统，包括轴、轴承等部件，是船舶动力传递的关键部分。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "通海阀",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "控制船舶舱室与外界水体连通的阀门，用于调节水位或排放积水。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "主辅机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的主要动力设备和辅助设备，包括主机、辅机、锅炉等，是船舶运行的核心。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "锅炉",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "为船舶提供蒸汽动力的设备，用于加热和驱动其他机械系统。 | 船舶动力系统中的关键设备，用于产生蒸汽，需进行详细检查和除锈。",
+        "chunk_ids": [
+            288,
+            290
+        ]
+    },
+    {
+        "entity_name": "工程船舶专用设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工程船舶特有的作业设备，如挖泥工具、泥泵、桩锤、绞机等，用于特定施工任务。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "除锈油漆",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体表面进行除锈处理并涂装防腐油漆，以防止锈蚀和延长使用寿命。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "挖补",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对局部损耗的船体构件进行挖除和补焊修复，以恢复结构完整性。 | 一种补板方式，通过在漏水焊缝处挖出一块区域并替换为新钢板，四周进行连续对接焊或搭接焊。",
+        "chunk_ids": [
+            288,
+            292
+        ]
+    },
+    {
+        "entity_name": "主机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的主要动力装置，提供推进动力，通常为柴油机或蒸汽机。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "辅机",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "辅助主机运行的设备，如发电机、压缩机、泵等，用于支持船舶的正常运行。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "管系",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部的管道系统，用于输送液体或气体，如燃油、冷却水等。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "水压试验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶管系或锅炉等压力容器进行加压测试，以检查其密封性和强度。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "锅炉内部清洗",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对锅炉内部进行清洁，去除积垢和杂质，以保证其正常运行和热效率。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "炉管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锅炉内部用于传递热量的管道，是锅炉热交换的关键部件。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "小牵条",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锅炉内部用于连接或支撑炉管的辅助部件，起到固定和支撑作用。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "焊补裂缝",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对锅炉或其他金属结构上的裂缝进行焊接修复，以恢复其结构完整性。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "炉衣",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锅炉内部用于隔热和保护炉壁的保温层，通常由耐火材料制成。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "拆装工程",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船舶设备或结构进行拆卸和重新安装，以进行检查、维修或更换。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "船壳",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的外部结构，包括船底、舷侧和船尾等部分，是船舶的主体结构。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "甲板",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的上层结构，用于承载货物、设备和人员，是船舶的重要组成部分。 | 船舶的上层结构，用于承载人员和设备，甲板拆除后不得在骨架上行走。 | 船舶顶部的平台，用于承载货物和人员，其变形需特别关注。 | 船体顶部的承载结构，常见渗漏现象，需进行测厚、除锈、油漆处理。 | 船舶上层的结构板，用于承载货物和人员，其接缝处可能因腐蚀或外力作用产生渗漏。",
+        "chunk_ids": [
+            288,
+            289,
+            290,
+            291,
+            292
+        ]
+    },
+    {
+        "entity_name": "骨架",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部支撑结构，由肋骨、横梁等组成，用于增强船体强度。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "主机解体修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对主机进行整体拆解，检查和更换主要部件，以恢复其性能和可靠性。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "辅机出舱修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "将辅机从船体中拆出，进行彻底检查和维修，以确保其正常运行。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "锅炉抽出炉胆",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "从锅炉中取出炉胆，进行检查、维修或更换，以确保锅炉的正常运行。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "燃烧室",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "锅炉内部用于燃料燃烧的腔室，是锅炉热能转换的关键部位。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "工程船专业设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工程船舶特有的作业设备，如挖泥、打桩、起重等设备，用于特定施工任务。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "专用电气设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "工程船舶中用于特定作业的电气系统和设备，如控制、驱动等装置。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "验船报告",
+        "type": [
+            "文档/工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由船舶检验机构出具的报告，记录船舶损坏情况和修复要求，用于指导修理工作。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "修理费",
+        "type": [
+            "费用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶修理过程中产生的费用，用于支付修理工程的劳务和材料成本。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "索赔",
+        "type": [
+            "流程/管理"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "因船舶损坏而产生的经济补偿请求，通常通过修理费发票和验船报告进行证明。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "修理项目",
+        "type": [
+            "流程/管理"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶修理过程中需要完成的具体任务或工程内容，通常由修船单详细列出。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "修理期限",
+        "type": [
+            "时间/周期"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶修理所需的时间范围，通常根据修理类型和工程复杂程度确定。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "修理工程",
+        "type": [
+            "流程/管理",
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "general",
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中涉及的具体工作内容和操作流程，包括检查、维修、更换等。 | 指船舶修理的具体实施过程，包括准备工作、基本工作和辅助工作，以恢复或提升船舶的技术状态。",
+        "chunk_ids": [
+            288,
+            289
+        ]
+    },
+    {
+        "entity_name": "修理计划",
+        "type": [
+            "流程/管理"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "对船舶修理工作的安排和规划，包括修理类型、时间、工程范围等。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "修理记录",
+        "type": [
+            "文档/工具"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "记录船舶修理过程和结果的文件，用于后续维护和管理。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "修理费用",
+        "type": [
+            "费用"
+        ],
+        "domain_relevance": [
+            "general"
+        ],
+        "summary": "船舶修理过程中产生的经济支出，包括人工、材料、设备等成本。",
+        "chunk_ids": [
+            288
+        ]
+    },
+    {
+        "entity_name": "船体构件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体结构中需要修理或更换的部分，如外板、肋骨、舱口围板等，其状态直接影响船舶的适航性和强度。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "船体强度",
+        "type": [
+            "性能指标",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船体结构在各种载荷和环境条件下的承载能力，是船舶修理中需要恢复的重要性能。 | 船体结构的承载能力，需通过肋骨、横梁等构件的布置和连接来保证。 | 船体结构的承载能力，需通过肋骨、横梁等构件的布置和连接来保证。",
+        "chunk_ids": [
+            289,
+            290
+        ]
+    },
+    {
+        "entity_name": "修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指对船舶进行修复或改造的过程，包括拆卸、修复、装配、试验等步骤，以恢复或提升船舶的技术状态。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "修船",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指对已使用船舶进行维护、修复或改造的工程，包括保养、修理、检验等环节，以恢复其适航性能。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "船体修理技术标准",
+        "type": [
+            "标准规范"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由交通运输部颁布的关于船体修理的技术要求和操作规范，用于指导修船工作的实施。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "修理工作",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶修理过程中具体执行的任务，包括拆卸、修复、装配、试验等，以恢复船舶的使用性能。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "勘验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指对船舶进行检查和测量，以确定修理范围和工程性质的过程，包括随船勘验和码头勘验两种形式。 | 对船舶进行检查以明确修理范围的过程，包括船体、舾装、锅炉、木工油漆等部分的检查。",
+        "chunk_ids": [
+            289,
+            290
+        ]
+    },
+    {
+        "entity_name": "随船勘验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶营运过程中由船厂检验人员进行的勘验，用于明确修理范围和检查船舶性能。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "码头勘验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指船舶停泊于码头后，由船厂检验人员进行的勘验，用于明确修理工程范围和性质。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "外板展开图",
+        "type": [
+            "图纸资料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船舶外板结构的展开图，是船舶修理和勘验的重要技术资料。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "舾装布置图",
+        "type": [
+            "图纸资料",
+            "文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于表示船舶内部舾装布置的图纸，是船舶修理和勘验的重要技术资料。 | 用于船舶建造和修理的图纸，展示舾装件的布置位置。 | 用于船舶建造和修理的图纸，展示舾装件的布置位置。",
+        "chunk_ids": [
+            289,
+            290
+        ]
+    },
+    {
+        "entity_name": "脚手架",
+        "type": [
+            "设备工具",
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于支撑和辅助船舶修理工作的临时结构，便于工作人员进行高空或复杂部位的作业。 | 用于船舶勘验和修理时搭建的工作平台，预搭于船体外板及舱口处。",
+        "chunk_ids": [
+            289,
+            290
+        ]
+    },
+    {
+        "entity_name": "明火作业",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "指在船舶修理过程中进行的焊接、切割等需要明火的作业，需严格遵守安全操作规程。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "可燃气体测爆检查",
+        "type": [
+            "检测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检测船舶油舱、油管等部位是否存在可燃气体，以确保明火作业的安全性。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "油水舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中用于储存燃油和淡水的舱室，长期使用后可能积聚有毒气体，需在修理前进行安全处理。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "油舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中用于储存燃油的舱室，修理前需进行彻底清除和可燃气体检测，以确保作业安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "油管",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于输送燃油的管道，修理前需进行彻底清除和可燃气体检测，以确保明火作业的安全性。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "机舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中安装主机、辅机等设备的舱室，进行明火作业时需注意周围环境安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "阀件",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制流体流动的装置，修理过程中不得随意打开或闭合，以确保安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "电气开关",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于控制电路通断的装置，修理过程中不得随意打开或闭合，以确保安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "电缆",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于传输电能的导线，进行明火作业时需注意其安全防护，必要时应拆除。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "木质舾装设施",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶中使用的木质结构部件，进行明火作业时需注意其安全防护，必要时应拆除。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "舷侧板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶侧面的板状结构，用于支撑船体并承受水压，修理时应按自上而下的顺序进行。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "入孔盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭船舶舱室开口的盖板，打开后不可随意关闭，以确保安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "水密舱口盖",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于封闭船舶水密舱口的盖板，打开后不可随意关闭，以确保船舶水密性。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全操作规程",
+        "type": [
+            "规范标准"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中必须遵守的安全规定，包括照明、通风、气体检测、明火作业等要求。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "照明",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中必须确保的照明条件，无照明处需使用手电筒，以防踏空坠落。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "通风",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中必须确保的通风条件，以排除有毒气体，保障作业安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "劳动监护制度",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中必须执行的人员安全管理制度，确保作业人员的安全。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "起重运输工作",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于搬运和安装构件的作业，需确保安全和效率。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "清理现场工作",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理完成后必须进行的现场清理工作，以确保作业环境整洁。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "试验",
+        "type": [
+            "检测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理完成后进行的性能测试，以确认使用性能是否恢复、改善或提高。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "拆卸",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中将需修理的构件从原位拆除的过程。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "拆除",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为进行作业而拆除的机械、管系、家具、设备等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "材料准备",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为完成修理工作而准备的材料，包括金属、焊接材料等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "动力与能源",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中所需的能源供应，包括氧气、乙炔、风、电、水等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "氧气",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于焊接和切割的气体之一，需与乙炔配合使用。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "乙炔",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于焊接和切割的气体之一，需与氧气配合使用。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "风",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于吹扫和清洁的气体，常用于焊接和切割作业。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "电",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于电动工具和设备的能源供应。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "水",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于冷却、清洁和冲洗的液体，常用于焊接和切割作业。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "切割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于分离金属构件的工艺，需严格遵守安全操作规程。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全防护",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为保障作业人员安全而采取的措施，包括防护装备、安全检查等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全检查",
+        "type": [
+            "检测方法"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为确保作业安全而进行的检查，包括气体检测、设备检查等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全防护措施",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为保障作业人员安全而采取的具体措施，包括防护装备、安全检查等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全防护设备",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于保障作业人员安全的设备，包括防护服、安全帽、防护眼镜等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "防护装备",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于保障作业人员安全的装备，包括防护服、安全帽、防护眼镜等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全帽",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于保护头部安全的防护装备。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "防护眼镜",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于保护眼睛安全的防护装备。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "防护服",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于保护身体安全的防护装备。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全带",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于防止高空坠落的防护装备。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全绳",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于连接安全带和固定点的绳索，防止高空坠落。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全网",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于防止高空坠落的防护设施。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全警示标志",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的标识。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全标识",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的标识。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全警示",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为保障作业安全而采取的警示措施，包括标识、标语等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全标语",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的标语。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全提示",
+        "type": [
+            "管理流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中为保障作业安全而采取的提示措施，包括标识、标语等。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全提示牌",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的提示牌。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全提示标志",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的提示标志。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全提示标识",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的提示标识。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全提示标语",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的提示标语。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "安全提示标志牌",
+        "type": [
+            "设备工具"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中用于提醒作业人员注意安全的提示标志牌。",
+        "chunk_ids": [
+            289
+        ]
+    },
+    {
+        "entity_name": "修理范围",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中需要明确的修理内容和区域，通过勘验确定。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "外板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的外部覆盖板，用于保护船体结构并提供流体动力学性能。 | 船体最外层的钢板结构，用于保护船体内部并提供水密性，其接缝处易因腐蚀或焊接缺陷产生渗漏。",
+        "chunk_ids": [
+            290,
+            292
+        ]
+    },
+    {
+        "entity_name": "舱口",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上用于装卸货物的开口部位，通常配有舱口围板以保证水密性。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "水舱",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部用于储存液体（如压载水）的舱室，包括艏尖舱、艉尖舱和双层底。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "肋骨",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的纵向支撑构件，用于增强船体强度和刚度。 | 船体结构中的支撑构件，用于增强船体强度，是船体结构的重要组成部分。 | 船体结构中的纵向支撑构件，用于增强船体强度，与外板通过间断焊或连续焊连接。",
+        "chunk_ids": [
+            290,
+            291,
+            292
+        ]
+    },
+    {
+        "entity_name": "横梁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中的横向支撑构件，用于连接肋骨并增强船体横向强度。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "上层建筑",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶上部的结构，包括驾驶室、生活区等，需在勘验时注意其变形和锈蚀情况。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "舾装",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部设备、管系、电气系统等的安装和布置过程。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "舾装件",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶舾装过程中使用的零件，如机器设备、电气设备、管系等。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "舵设备",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶转向系统的重要组成部分，包括舵杆、舵叶等，需在勘验前记录原位置。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "木工",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部的木质结构，如家具、围壁等，需在勘验时注意其状态和更换要求。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "油漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护船体表面的涂层，需在勘验时测量其面积和遍数。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船底望光法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "测量船体纵向变形的方法，通过遮板和光源进行观测。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "直尺",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检查船体凹陷、弯曲及其他变形的测量工具。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "样板",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检查船体凹陷、弯曲及其他变形的测量工具。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "锈蚀",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体表面因氧化而产生的腐蚀现象，需在勘验时测量其深度。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "验船师",
+        "type": [
+            "机构/人员"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶检验的专业人员，参与锅炉、舵设备等关键部位的检查。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "修理单",
+        "type": [
+            "文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "记录船舶修理内容和范围的文件，需在勘验前核对。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "协议书",
+        "type": [
+            "文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "明确修理内容和范围的法律文件，由双方签署后作为施工依据。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船厂",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶修理和建造的工厂，参与勘验和修理会议。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "委修方",
+        "type": [
+            "机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "委托船舶修理的单位或个人，参与修理范围的确定和协议签署。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "主修(主管)师",
+        "type": [
+            "人员"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "负责船舶修理工作的技术负责人，与委修方协商确定修理内容。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "起重能力",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船厂吊装设备的最大承载能力，影响上层建筑的分段吊装。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "遮板",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船底望光法测量的遮光板，带有横缝以进行水平线测量。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "光源",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船底望光法测量的光源，设置于遮板外侧以进行光线透射观测。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "测量站",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船底望光法测量的固定点，设置于船体不同位置以记录变形情况。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "横缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "遮板上的横向缝隙，用于船底望光法测量时的光线透射。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船底板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶底部的钢板结构，用于支撑船体并承受水压。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船中",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的中心位置，用于船底望光法测量时的参考点。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "隔舱壁",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部用于分隔不同舱室的纵向隔板，用于测量船体变形时的参考点。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体纵向变形",
+        "type": [
+            "材料部件",
+            "损坏形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在纵向方向上的变形情况，通过船底望光法进行测量。 | 船体因外力作用产生的纵向弯曲变形，需进行测量和修理。",
+        "chunk_ids": [
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "船体横向变形",
+        "type": [
+            "材料部件",
+            "损坏形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在横向方向上的变形情况，通过直尺或样板进行检查。 | 船体因外力作用产生的横向弯曲变形，需进行测量和修理。",
+        "chunk_ids": [
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "船体变形",
+        "type": [
+            "材料部件",
+            "损坏形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体在不同方向上的变形情况，需通过多种方法进行测量和检查。 | 船体因外力作用产生的结构变形，需进行测量和修理。",
+        "chunk_ids": [
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的整体结构，包括船体、肋骨、横梁等，是船舶设计和建造的核心。 | 船舶的主体结构，包含钢板、肋骨等构件，是进行测厚、除锈、修理等操作的主要对象。 | 船舶的主体结构，包含钢板、肋骨等构件，是进行测厚、除锈、修理等操作的主要对象。",
+        "chunk_ids": [
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "船体刚度",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构抵抗变形的能力，需通过肋骨、横梁等构件的布置和连接来保证。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体布置",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶内部结构和设备的布局，需在勘验时进行详细检查。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体外板展开图",
+        "type": [
+            "文档"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶建造和修理的图纸，展示船体外板的展开形状。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体外板",
+        "type": [
+            "材料部件",
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶的外部覆盖板，用于保护船体结构并提供流体动力学性能。 | 船体外部的钢板结构，常见渗漏现象，需进行测厚、除锈、油漆处理。",
+        "chunk_ids": [
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "船体锈蚀",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体表面因氧化而产生的腐蚀现象，需在勘验时测量其深度。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体除锈",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶修理过程中对船体表面进行除锈处理，以保证油漆附着力。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体油漆",
+        "type": [
+            "材料"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于保护船体表面的涂层，需在勘验时测量其面积和遍数。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体测量",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体进行尺寸和变形测量，以评估其结构状态。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体检验",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体进行结构和材料状态的检查，以确保其符合安全和规范要求。",
+        "chunk_ids": [
+            290
+        ]
+    },
+    {
+        "entity_name": "船体修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体结构进行修复和维护，包括除锈、焊接、更换部件等。 | 对船体结构进行修复的过程，包括测厚、除锈、焊补、密性试验等。",
+        "chunk_ids": [
+            290,
+            291
+        ]
+    },
+    {
+        "entity_name": "超声波测厚仪",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于测量钢板厚度的仪器，其工作原理基于超声波在固体介质中传播时遇到不同介质交界面产生的反射作用，通过测量发射超声波脉冲至接收反射脉冲的间隔时间来确定材料厚度。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "测厚孔",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在钢板上钻孔以进行测厚操作的孔，应位于蚀斑边缘而非最深处，以确保测得因锈蚀而变薄的板厚。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "测厚",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "通过超声波测厚仪或钻孔方法测量钢板厚度的过程，需清除表面污锈、涂料及毛刺，并在测量前进行校核。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "钢板",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构的主要材料，用于制造船底、舷侧外板等部件，需进行测厚、除锈、焊补等工艺处理。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "焊补",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对测厚孔进行修复的工艺，要求熔注金属不超出钢板表面3mm，且至少焊透板厚的80%。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "腐蚀",
+        "type": [
+            "损坏形式",
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "金属材料因环境作用而逐渐破坏的现象，是船体渗漏和结构损坏的主要原因之一。 | 金属材料在船舶使用过程中因水、空气等环境因素导致的化学或电化学反应，使材料性能下降，进而影响船体结构完整性。",
+        "chunk_ids": [
+            291,
+            292
+        ]
+    },
+    {
+        "entity_name": "渗漏",
+        "type": [
+            "损坏形式"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构因腐蚀、变形或焊缝问题导致的液体泄漏现象，常见于外板、甲板和水密舱壁的接缝处。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "密性试验",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体水密结构修理后进行的测试，用于验证其密封性能，必要时需进行无损探伤。 | 用于检查焊缝质量的试验，通过检测焊缝是否存在夹渣、气孔、裂纹、未焊透等缺陷。",
+        "chunk_ids": [
+            291,
+            292
+        ]
+    },
+    {
+        "entity_name": "船底塞",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船底的密封装置，需进行拆装检查和封搪水泥处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "海底阀",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "位于船底的阀门装置，需进行拆装研磨处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "尾轴",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "连接螺旋桨与主机的轴，需进行拆装检查与间隙测量，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "螺旋桨",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶推进装置，需进行拆装检查与间隙测量，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "双层底",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体底部的结构层，需进行清洁、测厚、除锈油漆或涂水泥处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "深舱",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于装载货物或压载水的船体舱室，需进行清洁、测厚、除锈油漆或涂水泥处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "油水柜",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于储存燃油或污水的船体舱室，需进行清洁、测厚、除锈油漆或涂水泥处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "污水沟(井)",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于排放污水的船体结构，需进行清洁、测厚、除锈油漆或涂水泥处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船籍港标志",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶标识的一部分，需进行油漆处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "水尺",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于测量船舶吃水深度的标记，需进行校验，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船名",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶标识的一部分，需进行油漆处理，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "助航仪器",
+        "type": [
+            "设备"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于船舶导航的仪器，其船底装置需进行检查，属于船舶进坞修理的内容。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "焊缝",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "钢板连接处的接合部位，需避免布置在应力集中处，且平行对接焊缝间距应不小于100mm。 | 船体结构中的连接部位，用于连接钢板或构件，其质量直接影响船体的密封性和强度，但易因夹渣、气孔、裂纹、未焊透等缺陷导致渗漏。",
+        "chunk_ids": [
+            291,
+            292
+        ]
+    },
+    {
+        "entity_name": "舷侧外板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体侧面的外层钢板，需进行除锈、油漆等处理，且不得临时开口。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "水密舱壁",
+        "type": [
+            "部件",
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "防止水进入船体内部的隔墙，需进行密封处理，且不得临时开口。 | 船体内部用于分隔不同区域并防止水进入的结构，其接缝处若存在缺陷，可能导致渗漏。",
+        "chunk_ids": [
+            291,
+            292
+        ]
+    },
+    {
+        "entity_name": "强力构件",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中承受较大载荷的构件，不得随意拆除或移动。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "强力甲板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体顶部的承载结构，不得临时开口。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "材料",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于制造船体结构的材料，需满足规范要求，重要部位材料级别应与原材料等同。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "规范",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶建造和修理需遵循的技术标准，用于规定材料、结构、工艺等要求。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "无损探伤",
+        "type": [
+            "检验流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于检测船体结构内部缺陷的非破坏性测试方法，常用于水密结构修理后。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "临时修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在紧急情况下允许的临时性船体结构修理，不应作为永久性修理。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "覆板",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于覆盖船体表面的钢板，常用于临时修理，但不应作为永久性修理。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "对船体结构进行修复的工艺，需遵循特定原则，如避免焊缝布置在应力集中处。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体外板接缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体外板之间的连接部位，常见渗漏现象，需进行测厚、除锈、油漆处理。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体甲板接缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体甲板之间的连接部位，常见渗漏现象，需进行测厚、除锈、油漆处理。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体水密舱壁接缝",
+        "type": [
+            "部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体水密舱壁之间的连接部位，常见渗漏现象，需进行测厚、除锈、油漆处理。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理原则",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构修理需遵循的原则，包括避免焊缝布置在应力集中处、材料选择、焊缝间距等。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理工艺",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构修理的具体操作方法，包括测厚、除锈、焊补、密性试验等。 | 船体结构修理的具体操作工艺，包括测厚、除锈、焊补、密性试验等。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理标准",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构修理需遵循的技术标准，用于规定材料、结构、工艺等要求。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理规范",
+        "type": [
+            "标准/机构"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船舶结构修理需遵循的技术规范，用于规定材料、结构、工艺等要求。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理方法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构修理的具体操作方法，包括测厚、除锈、焊补、密性试验等。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体结构修理技术",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构修理的具体操作技术，包括测厚、除锈、焊补、密性试验等。",
+        "chunk_ids": [
+            291
+        ]
+    },
+    {
+        "entity_name": "船体渗漏",
+        "type": [
+            "问题现象"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于金属腐蚀、焊缝缺陷、外力作用等因素导致的船体结构完整性破坏，表现为焊缝或接缝处的渗漏现象，常见于船体外板、甲板和水密舱壁的接缝处。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "铆接缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中通过铆钉连接的接缝，其局部强度会因腐蚀或外力作用而下降，可能导致渗漏。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "补焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "针对焊缝缺陷的修复工艺，通过刨除旧焊缝并重新焊接以消除渗漏。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "补板",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于修复船体渗漏的一种方法，通过在漏水焊缝处挖补或贴补一块比漏水焊缝长的钢板，并进行连续对接焊或搭接焊。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "换新",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "当渗漏严重且无法补板时，采取将漏水焊缝两侧的钢板全部割除并换上新钢板的修复方法。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "贴补",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种补板方式，通过在漏水焊缝处贴上一块比漏水焊缝长的钢板，并进行连续对接焊或搭接焊。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "切割线",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在进行补板或换新时，用于标记切割范围的线条，确保切割位置准确。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "肋位",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "船体结构中用于支撑和定位的纵向构件，常用于制作原位样板以指导切割和装配。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "原位样板",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在进行补板或换新时，根据实际测量数据制作的模板，用于确保切割和装配的准确性。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "定位焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在正式焊接前，用于固定新旧钢板位置的临时焊接，通常长度较短，间距适中。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "套割",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在切割边缘时，为了保证新板与骨架的贴合，常将新板四周余量切除，形成套割。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "逐步退焊法",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "一种焊接工艺，从焊缝中间向两端逐步进行，以减少焊接产生的内应力。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "应力集中",
+        "type": [
+            "材料特性"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "由于结构设计或焊接缺陷导致的局部应力增大，可能引发裂纹或渗漏。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "圆角",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在补板或换新板的四角处制作的圆弧形结构，用于减少应力集中，防止裂纹产生。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "曲率半径",
+        "type": [
+            "结构设计"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "圆角的曲率半径应不小于补板或换新板厚度的三倍，以降低应力集中系数。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "间隙",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "补板或换新板与旧板之间的对接或搭接间隙，通常不得大于 $1mathrm{mm}$，以确保紧密接触。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "马板",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "用于焊接时固定新板位置的辅助结构，以提供焊接时的收缩余地。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "间断焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨与外板之间的焊接方式，仅在特定位置进行焊接，便于后续切割和更换。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "连续焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "肋骨与外板之间的连续焊接方式，结构强度更高，但更换时需同时割除肋骨和外板。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "外板对接缝",
+        "type": [
+            "材料部件"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "外板之间的连接缝，需进行定位焊和封底焊，以确保密封性和强度。",
+        "chunk_ids": [
+            292
+        ]
+    },
+    {
+        "entity_name": "封底焊",
+        "type": [
+            "工艺流程"
+        ],
+        "domain_relevance": [
+            "domain_specific"
+        ],
+        "summary": "在船体外部对对接缝进行的最终焊接，用于确保密封性和结构完整性。",
+        "chunk_ids": [
+            292
+        ]
+    }
+]
