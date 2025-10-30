@@ -1,0 +1,188 @@
+[
+    {
+        "subject": "胎架结构",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架结构",
+        "relation": "has",
+        "object": "刚性",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "supports",
+        "object": "分段",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "supports",
+        "object": "分段制造",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "applied_to",
+        "object": "高效焊接",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "applied_to",
+        "object": "自动焊",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "applied_to",
+        "object": "半自动焊",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "型值",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "反变形",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "外板",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "肋骨间距",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "肋距",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "胎架基准面",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "肋骨号",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "分段中心线",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "检验线",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "标记",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "支柱",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "胎架模板",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "胎架基面",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "制造周期",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "劳动力",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "工时",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "钢材",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "焊接",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "焊接方法",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "肋骨",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "接头",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "船体",
+        "chunk_id": "187"
+    },
+    {
+        "subject": "胎架",
+        "relation": "has",
+        "object": "船体型线",
+        "chunk_id": "187"
+    }
+]

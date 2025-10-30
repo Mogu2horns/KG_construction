@@ -1,0 +1,4874 @@
+[
+    {
+        "subject": "船级社",
+        "relation": "颁布",
+        "object": "规章制度",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "船级社",
+        "relation": "考虑",
+        "object": "船舶强度",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "船级社",
+        "relation": "考虑",
+        "object": "结构完整性",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "船级社",
+        "relation": "考虑",
+        "object": "装备",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "船级社",
+        "relation": "考虑",
+        "object": "主机",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "船级社",
+        "relation": "允许",
+        "object": "船舶",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "IACS",
+        "relation": "主办",
+        "object": "通用规则发展",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "IACS",
+        "relation": "启动",
+        "object": "IACS CSR数据追踪",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "IACS CSR数据追踪",
+        "relation": "提供",
+        "object": "CSR规则修改历史",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "IACS",
+        "relation": "展望",
+        "object": "国际海事组织提议的基于目标的新船建造标准",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "制定",
+        "object": "通用规则",
+        "chunk_id": "1368"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "belongs_to",
+        "object": "IACS",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "特征符号",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "马耳他十字标记",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applies_to",
+        "object": "船舶",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applies_to",
+        "object": "船籍登记簿",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "特殊检验",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "锚",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "系泊设备",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "特征数字1",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "特征字母A",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "特征字母N",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "has",
+        "object": "特征数字100",
+        "chunk_id": "1369"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "belongs_to",
+        "object": "船级",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "contains",
+        "object": "类型符号",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "contains",
+        "object": "货物符号",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "contains",
+        "object": "特殊任务符号",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "contains",
+        "object": "特殊特征符号",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "contains",
+        "object": "服务限制符号",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "类型符号",
+        "relation": "determines",
+        "object": "船舶类型",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "货物符号",
+        "relation": "determines",
+        "object": "货物类型",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "特殊任务符号",
+        "relation": "determines",
+        "object": "特殊任务",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "特殊特征符号",
+        "relation": "determines",
+        "object": "特殊结构特征",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "服务限制符号",
+        "relation": "determines",
+        "object": "运营限制",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "has",
+        "object": "LMC",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "LMC",
+        "relation": "applied_to",
+        "object": "主机",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "船级符号",
+        "relation": "has",
+        "object": "Lloyd'sRMC",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "Lloyd'sRMC",
+        "relation": "applied_to",
+        "object": "冷藏货物装置",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "Lloyd'sRMC",
+        "relation": "applied_to",
+        "object": "液化天然气运输船",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "Lloyd'sRMC",
+        "relation": "applied_to",
+        "object": "油船",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "液化天然气运输船",
+        "relation": "belongs_to",
+        "object": "散货船",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "油船",
+        "relation": "belongs_to",
+        "object": "散货船",
+        "chunk_id": "1370"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "has",
+        "object": "冰级",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰级",
+        "relation": "belongs_to",
+        "object": "船级",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰级",
+        "relation": "has",
+        "object": "冰级符号",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applied_to",
+        "object": "冰区船舶",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶规范1985",
+        "relation": "applied_to",
+        "object": "冰区船舶",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶规范1985",
+        "relation": "determines",
+        "object": "船体构件尺寸",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰载荷",
+        "relation": "affects",
+        "object": "船体构件尺寸",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "requires",
+        "object": "加强",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "uses",
+        "object": "冰级符号",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "located_at",
+        "object": "冰区",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "has",
+        "object": "冰区航行",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "has",
+        "object": "龙骨",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "has",
+        "object": "船体构件",
+        "chunk_id": "1371"
+    },
+    {
+        "subject": "冰区船舶",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "极地级别",
+        "relation": "determines",
+        "object": "船舶适应能力",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "IMO",
+        "relation": "proposes",
+        "object": "极地级别",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "IACS",
+        "relation": "develops",
+        "object": "极地船舶统一规范",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "极地船舶统一规范",
+        "relation": "contains",
+        "object": "极地冰区级别和应用",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "极地船舶统一规范",
+        "relation": "contains",
+        "object": "极地冰区船舶的结构要求",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "极地船舶统一规范",
+        "relation": "contains",
+        "object": "极地冰区船舶的主机要求",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "IACS",
+        "relation": "adopts",
+        "object": "极地船舶统一规范",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "IACS船级社成员",
+        "relation": "implements",
+        "object": "极地船舶统一标准",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "结构设计程序",
+        "relation": "uses",
+        "object": "动态标准",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "结构设计程序",
+        "relation": "uses",
+        "object": "动态载荷仿真",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "结构设计程序",
+        "relation": "uses",
+        "object": "材料尺寸决定",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "结构设计程序",
+        "relation": "uses",
+        "object": "结构区域响应研究",
+        "chunk_id": "1372"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "contains",
+        "object": "结构设计评估程序",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "contains",
+        "object": "疲劳设计评估程序",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "contains",
+        "object": "船舶建造监控程序",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船舶建造监控程序",
+        "relation": "applied_to",
+        "object": "船长超过 $190mathrm{m}$ 的油船",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船舶建造监控程序",
+        "relation": "applied_to",
+        "object": "其他类型、尺寸、结构外形需要的船舶",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船舶",
+        "relation": "requires",
+        "object": "定期检验",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "定期检验",
+        "relation": "part_of",
+        "object": "船级保持",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "定期检验",
+        "relation": "performed_by",
+        "object": "船级社的检验员",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "part_of",
+        "object": "定期检验",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "applies_to",
+        "object": "所有钢制船舶",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "封闭装置状况",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "最小干舷",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "干舷标尺",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "辅助操舵装置状况",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "水密舱门渗透状况",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "水密隔板渗透状况",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "结构防火性",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "船舶总体状况",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "锚",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "电缆",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "applies_to",
+        "object": "干货散装船",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "船首货物舱室",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "年度检验",
+        "relation": "includes",
+        "object": "船尾货物舱室",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "part_of",
+        "object": "定期检验",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "replaces",
+        "object": "船舶建成后第二次或第三次年检",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "replaces",
+        "object": "特别检验",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "applies_to",
+        "object": "运营超过15年的船舶",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "focuses_on",
+        "object": "货舱",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "focuses_on",
+        "object": "油船",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "focuses_on",
+        "object": "化学品运输船",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "focuses_on",
+        "object": "液化天然气运输船",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "中期检验",
+        "relation": "focuses_on",
+        "object": "操纵系统",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "part_of",
+        "object": "定期检验",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "applies_to",
+        "object": "船长超过 $190mathrm{m}$ 的油船",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "applies_to",
+        "object": "其他类型、尺寸、结构外形需要的船舶",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "focuses_on",
+        "object": "船壳板",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "focuses_on",
+        "object": "船尾框架",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "focuses_on",
+        "object": "舵",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "focuses_on",
+        "object": "外部和全船装置",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "focuses_on",
+        "object": "容易腐蚀和磨损的部位",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "focuses_on",
+        "object": "船底不平整部位",
+        "chunk_id": "1373"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "contains",
+        "object": "船壳板",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "contains",
+        "object": "船尾框架",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "contains",
+        "object": "舵",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "船坞检验",
+        "relation": "contains",
+        "object": "船底",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "下水检验",
+        "relation": "replaces",
+        "object": "船坞检验",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "下水检验",
+        "relation": "applied_to",
+        "object": "船体水下部分",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "inputs",
+        "object": "船龄",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "outputs",
+        "object": "船体要求",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "belongs_to",
+        "object": "船级社",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "determines",
+        "object": "检验频率",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "affects",
+        "object": "船体结构",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "has",
+        "object": "船龄分组",
+        "chunk_id": "1374"
+    },
+    {
+        "subject": "船龄",
+        "relation": "affects",
+        "object": "检验",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船龄",
+        "relation": "affects",
+        "object": "材料变形",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "检验",
+        "relation": "uses",
+        "object": "超声波",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "检验",
+        "relation": "uses",
+        "object": "无损技术",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "油船",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "干货散装船",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "化学品运输船",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "液化天然气船",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "applied_to",
+        "object": "船体要求",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "applied_to",
+        "object": "油船",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "特殊检验",
+        "relation": "applied_to",
+        "object": "船龄",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "建造工艺",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "建造材料",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "装备",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "详细尺寸",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "船体布置",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊检验",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "船体要求",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "船龄",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊检验（1）",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊检验（2）",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊检验（3）",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊检验（4）",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "油船",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊规定",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "检验员",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "工艺水平",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "尺寸",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "布置情况",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "申请书",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "认证",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "转让",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "特殊考虑",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "定期检验",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船体保养计划",
+        "relation": "belongs_to",
+        "object": "维护计划",
+        "chunk_id": "1375"
+    },
+    {
+        "subject": "船体保养计划",
+        "relation": "belongs_to",
+        "object": "维护计划",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "船体保养计划",
+        "relation": "uses",
+        "object": "认证船员",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "船体保养计划",
+        "relation": "applied_to",
+        "object": "船体结构项目",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "船体保养计划",
+        "relation": "precedes",
+        "object": "年度审查",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "毁损维修",
+        "relation": "requires",
+        "object": "检验员批准",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "毁损维修",
+        "relation": "constrained_by",
+        "object": "劳氏船级社规范",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "钢材",
+        "relation": "produces",
+        "object": "船体结构",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "钢材",
+        "relation": "derived_from",
+        "object": "生铁",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "生铁",
+        "relation": "produces",
+        "object": "流态铁",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "高炉",
+        "relation": "uses",
+        "object": "焦炭",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "高炉",
+        "relation": "uses",
+        "object": "石灰岩",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "高炉",
+        "relation": "produces",
+        "object": "矿渣",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "高炉",
+        "relation": "located_at",
+        "object": "熔炼车间",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "模具",
+        "relation": "used_in",
+        "object": "钢材铸造",
+        "chunk_id": "1376"
+    },
+    {
+        "subject": "生铁",
+        "relation": "contains",
+        "object": "碳",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "生铁",
+        "relation": "contains",
+        "object": "硅",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "生铁",
+        "relation": "contains",
+        "object": "锰",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "生铁",
+        "relation": "contains",
+        "object": "硫磺",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "生铁",
+        "relation": "contains",
+        "object": "磷",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "钢材加工",
+        "relation": "uses",
+        "object": "生铁",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "钢材加工",
+        "relation": "applied_to",
+        "object": "精炼",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "钢材",
+        "relation": "belongs_to",
+        "object": "铁碳合金",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "has",
+        "object": "碳含量",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "applied_to",
+        "object": "钢材加工",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "电炉过程",
+        "relation": "applied_to",
+        "object": "钢材加工",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "applied_to",
+        "object": "钢材加工",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "酸性转炉过程",
+        "relation": "not_used_in",
+        "object": "船舶建造用钢",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "碱性过程",
+        "relation": "applied_to",
+        "object": "钢材加工",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "碱性过程",
+        "relation": "used_for",
+        "object": "去除磷",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "碱性过程",
+        "relation": "produces",
+        "object": "碱性矿渣",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "熔炉",
+        "relation": "uses",
+        "object": "耐碱性材料",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "碱性过程",
+        "relation": "produces",
+        "object": "优质钢材",
+        "chunk_id": "1377"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "uses",
+        "object": "生铁",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "uses",
+        "object": "铁屑",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "acts_on",
+        "object": "熔池",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "acts_on",
+        "object": "加热室",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "acts_on",
+        "object": "开口",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "平炉过程",
+        "relation": "acts_on",
+        "object": "燃烧",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "电炉过程",
+        "relation": "uses",
+        "object": "生铁",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "电炉过程",
+        "relation": "uses",
+        "object": "铁屑",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "电炉过程",
+        "relation": "applied_to",
+        "object": "高级合金钢",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "电炉过程",
+        "relation": "uses",
+        "object": "电弧炉",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "生铁",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "铁屑",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "熔池",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "碳",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "锰",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "杂质",
+        "chunk_id": "1378"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "uses",
+        "object": "氧气",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "氧化过程",
+        "relation": "acts_on",
+        "object": "液态金属",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "液态钢",
+        "relation": "located_at",
+        "object": "熔融金属罐",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "液态钢",
+        "relation": "located_at",
+        "object": "钢锭模",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "铸铁",
+        "relation": "located_at",
+        "object": "匀热炉",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "化学元素",
+        "relation": "added_to",
+        "object": "钢材",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "化学元素",
+        "relation": "used_for",
+        "object": "金属的还原",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "化学元素",
+        "relation": "used_for",
+        "object": "移除杂质",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "化学元素",
+        "relation": "used_for",
+        "object": "杂质从矿渣中带出",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "化学元素",
+        "relation": "used_for",
+        "object": "达到所期望的化学组成",
+        "chunk_id": "1379"
+    },
+    {
+        "subject": "脱氧元素",
+        "relation": "used_to",
+        "object": "制造沸腾钢",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "脱氧元素",
+        "relation": "used_to",
+        "object": "制造镇静钢",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "沸腾钢",
+        "relation": "has",
+        "object": "气孔",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "沸腾钢",
+        "relation": "affects",
+        "object": "焊接质量",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "镇静钢",
+        "relation": "has",
+        "object": "化学匀致性",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "镇静钢",
+        "relation": "superior_to",
+        "object": "沸腾钢",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "脱氧材料",
+        "relation": "used_to",
+        "object": "阻止气体溢出",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "硅",
+        "relation": "used_to",
+        "object": "制造镇静钢",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "铝",
+        "relation": "used_to",
+        "object": "制造镇静钢",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "半镇静钢",
+        "relation": "produced_by",
+        "object": "限制脱氧材料数量",
+        "chunk_id": "1380"
+    },
+    {
+        "subject": "钢材",
+        "relation": "acts_on",
+        "object": "杂质",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "杂质",
+        "relation": "affects",
+        "object": "铸铁",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "熔析",
+        "relation": "occurs_in",
+        "object": "铸铁",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "退火",
+        "relation": "applied_to",
+        "object": "钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "退火",
+        "relation": "aims_to",
+        "object": "减少内应力",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "退火",
+        "relation": "aims_to",
+        "object": "软化钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "正火",
+        "relation": "applied_to",
+        "object": "钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "正火",
+        "relation": "results_in",
+        "object": "更硬的钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "正火",
+        "relation": "results_in",
+        "object": "更强的钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "正火",
+        "relation": "results_in",
+        "object": "改善晶粒尺寸",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "淬火（硬化）",
+        "relation": "applied_to",
+        "object": "钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "淬火（硬化）",
+        "relation": "results_in",
+        "object": "较高拉伸强度",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "淬火（硬化）",
+        "relation": "results_in",
+        "object": "硬度较高的钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "回火",
+        "relation": "applied_to",
+        "object": "淬火后的钢材",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "回火",
+        "relation": "aims_to",
+        "object": "减轻内应力",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "回火",
+        "relation": "aims_to",
+        "object": "减小材料脆性",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "回火",
+        "relation": "aims_to",
+        "object": "保持较高拉伸强度",
+        "chunk_id": "1381"
+    },
+    {
+        "subject": "回火",
+        "relation": "applied_to",
+        "object": "淬火后的钢材",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "回火",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "回火",
+        "relation": "improves",
+        "object": "拉伸强度",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "回火",
+        "relation": "reduces",
+        "object": "内应力",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "回火",
+        "relation": "reduces",
+        "object": "脆性",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "去应力退火",
+        "relation": "applied_to",
+        "object": "钢材",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "去应力退火",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "去应力退火",
+        "relation": "reduces",
+        "object": "内应力",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "型钢",
+        "relation": "produces",
+        "object": "船舶建造结构",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "型钢",
+        "relation": "part_of",
+        "object": "船舶建造材料",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "船舶建造用钢",
+        "relation": "has",
+        "object": "含碳量",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "船舶建造用钢",
+        "relation": "has",
+        "object": "锰含量",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "船舶建造用钢",
+        "relation": "has",
+        "object": "硫含量",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "船舶建造用钢",
+        "relation": "has",
+        "object": "磷含量",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "船舶建造用钢",
+        "relation": "affects",
+        "object": "焊接性能",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applies_to",
+        "object": "船舶建造用钢",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "requires",
+        "object": "材料检验",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "requires",
+        "object": "材料标记",
+        "chunk_id": "1382"
+    },
+    {
+        "subject": "船级社",
+        "relation": "has",
+        "object": "规范",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "船级社",
+        "relation": "has",
+        "object": "钢材等级",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "船级社",
+        "relation": "has",
+        "object": "材料制造规则",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "船级社",
+        "relation": "has",
+        "object": "测试规则",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "船级社",
+        "relation": "has",
+        "object": "认证规则",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "A级钢",
+        "relation": "belongs_to",
+        "object": "钢材",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "B级钢",
+        "relation": "belongs_to",
+        "object": "钢材",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "C级钢",
+        "relation": "belongs_to",
+        "object": "钢材",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "D级钢",
+        "relation": "belongs_to",
+        "object": "钢材",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "E级钢",
+        "relation": "belongs_to",
+        "object": "钢材",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "大型油船",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "集装箱船",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "散货船",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "affects",
+        "object": "挠度",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "affects",
+        "object": "疲劳寿命",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "requires",
+        "object": "检验",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "焊接性能",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "腐蚀效应",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "高应力区域",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "甲板",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "船底板",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "used_in",
+        "object": "骨架",
+        "chunk_id": "1383"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "uses",
+        "object": "劳氏船级社规范",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "制造方法",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "化学成分",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "热处理",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "力学性能",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "强度等级",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "轧制状态",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "淬火状态",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "回火条件",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "高强度钢",
+        "relation": "has",
+        "object": "缺口韧性",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "耐腐蚀钢",
+        "relation": "has",
+        "object": "合金元素",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "耐腐蚀钢",
+        "relation": "has",
+        "object": "耐腐蚀性",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "耐腐蚀钢",
+        "relation": "belongs_to",
+        "object": "不锈钢",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "不锈钢",
+        "relation": "has",
+        "object": "初始成本",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "不锈钢",
+        "relation": "has",
+        "object": "建造成本",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "内表面",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "船舱天花板",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "船底板",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "耐腐蚀涂层",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "严格检验",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "油船",
+        "relation": "has",
+        "object": "严格维护",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "蜂窝状钢芯",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "外部钢板",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "电阻焊",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "激光焊",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "轻量化",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "耐腐蚀性",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has",
+        "object": "低维护费用",
+        "chunk_id": "1384"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "used_in",
+        "object": "海军舰艇",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "used_in",
+        "object": "客船的上层建筑",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "composed_of",
+        "object": "蜂窝状钢芯",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "composed_of",
+        "object": "面板",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "connected_by",
+        "object": "电阻焊",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "connected_by",
+        "object": "激光焊",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has_property",
+        "object": "轻量化",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has_property",
+        "object": "耐腐蚀性",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "has_property",
+        "object": "低维护费用",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "used_with",
+        "object": "不锈钢",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "used_for",
+        "object": "增加甲板数量",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "钢夹层板",
+        "relation": "used_for",
+        "object": "增加乘客住处面积",
+        "chunk_id": "1385"
+    },
+    {
+        "subject": "SPS",
+        "relation": "uses",
+        "object": "人造橡胶",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "人造橡胶",
+        "relation": "is_a",
+        "object": "聚氨酯",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "applied_to",
+        "object": "船舶维修",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "connects_to",
+        "object": "甲板",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "耐火等级",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "减振",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "隔音",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "防火",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "轻量化",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "耐腐蚀性",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "低维护费用",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "has",
+        "object": "钢夹层板",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "颁布",
+        "object": "暂行条例",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "暂行条例",
+        "relation": "contains",
+        "object": "建造流程",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "暂行条例",
+        "relation": "contains",
+        "object": "主要承载结构尺寸的确定",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "暂行条例",
+        "relation": "contains",
+        "object": "框架布置",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "暂行条例",
+        "relation": "contains",
+        "object": "钢夹层板的尺寸确定方法",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "used_in",
+        "object": "上层建筑",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "SPS",
+        "relation": "used_in",
+        "object": "船体",
+        "chunk_id": "1386"
+    },
+    {
+        "subject": "挪威船级社（DNV）",
+        "relation": "proposes",
+        "object": "使用轻量混凝土-钢夹层板的建议",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "applied_to",
+        "object": "货舱区域",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "applied_to",
+        "object": "舷侧外板",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "applied_to",
+        "object": "双层底区域",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "has",
+        "object": "600mm宽度",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "improves",
+        "object": "运载能力",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "reduces",
+        "object": "应力集中",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "reduces",
+        "object": "腐蚀",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "轻量混凝土-钢夹层板",
+        "relation": "avoids",
+        "object": "局部屈曲",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "produces",
+        "object": "船尾框架",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "produces",
+        "object": "舵框",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "produces",
+        "object": "轴包套",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "produces",
+        "object": "双孔结构",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "produces",
+        "object": "其他结构部件",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "uses",
+        "object": "平炉过程",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "uses",
+        "object": "电炉过程",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "uses",
+        "object": "氧化过程",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "uses",
+        "object": "模具",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "applies",
+        "object": "热处理",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "applies",
+        "object": "退火",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "applies",
+        "object": "正火",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢铸件",
+        "relation": "applies",
+        "object": "回火",
+        "chunk_id": "1387"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "uses",
+        "object": "平炉过程",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "uses",
+        "object": "电炉过程",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "uses",
+        "object": "氧化过程",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "uses",
+        "object": "镇静钢",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "applied_to",
+        "object": "船体结构部件",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "requires",
+        "object": "热处理",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "requires",
+        "object": "退火",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "requires",
+        "object": "正火",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "钢锻件",
+        "relation": "requires",
+        "object": "回火",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "双体快速渡轮",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "独立式B型液舱",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "上层建筑",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "轻质高速船舶",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "商船",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "军船",
+        "chunk_id": "1388"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "密度",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "耐腐蚀性",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "无磁性",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "初始成本",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "建造成本",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "维护费用",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "船舶盈利能力",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "船舶重量",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "乘客乘员数",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "维护程序",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "邻接钢结构",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "磁罗盘",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "商船",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "军船",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "北大西洋大型客运航线",
+        "chunk_id": "1389"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "improves",
+        "object": "横稳性",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "reduces",
+        "object": "排水量",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "located_at",
+        "object": "船舶重心上方",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "伊丽莎白女王2号",
+        "relation": "has",
+        "object": "铝合金上层建筑",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "铝合金上层建筑",
+        "relation": "enables",
+        "object": "多支持一层甲板",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "载重量/空船重量比率",
+        "relation": "low",
+        "object": "铝合金节省效果明显",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "玛丽女王2号",
+        "relation": "has",
+        "object": "钢制上层建筑",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "玛丽女王2号",
+        "relation": "has",
+        "object": "减少维护费用",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "定期货轮",
+        "relation": "has",
+        "object": "铝合金上层建筑",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "铝合金上层建筑",
+        "relation": "avoids",
+        "object": "固定吃水超过允许吃水",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "小型军船",
+        "relation": "has",
+        "object": "铝合金上层建筑",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "connects_to",
+        "object": "钢制船体",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "垫圈的螺栓连接",
+        "relation": "used_to",
+        "object": "避免腐蚀电池",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "易爆性的铁/铝黏合过渡连接件",
+        "relation": "used_to",
+        "object": "保有腐蚀裕量",
+        "chunk_id": "1390"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "小型多体船",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "高速小艇",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "水翼船",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "高速渡船",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "used_in",
+        "object": "小型高速军船",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝",
+        "relation": "can_be_formed_into",
+        "object": "剖面形状",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "加强筋板架",
+        "relation": "connected_to",
+        "object": "甲板板",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "加强筋板架",
+        "relation": "reduces",
+        "object": "变形风险",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "加强筋板架",
+        "relation": "contributes_to",
+        "object": "生产流程速度",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝土矿",
+        "relation": "contains",
+        "object": "铝",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "铝土矿",
+        "relation": "processed_into",
+        "object": "氧化铝",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "氧化铝",
+        "relation": "reduced_into",
+        "object": "金属铝",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "金属铝",
+        "relation": "cast_into",
+        "object": "锭或铸块",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "合金",
+        "relation": "added_to",
+        "object": "金属",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "金属",
+        "relation": "processed_into",
+        "object": "板坯",
+        "chunk_id": "1391"
+    },
+    {
+        "subject": "型材",
+        "relation": "uses",
+        "object": "钢模",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "型材",
+        "relation": "applied_to",
+        "object": "压制",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "型材",
+        "relation": "affects",
+        "object": "厚度范围",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "拉伸强度",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "requires",
+        "object": "热处理",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "冷作加工",
+        "relation": "acts_on",
+        "object": "板材",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "冷作加工",
+        "relation": "improves",
+        "object": "材料强度",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "冷作加工",
+        "relation": "reduces",
+        "object": "延展性",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "冷作加工",
+        "relation": "precedes",
+        "object": "退火",
+        "chunk_id": "1392"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "uses",
+        "object": "热处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "极限拉伸强度",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "镁和硅",
+        "relation": "forms",
+        "object": "硅化镁化合物",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "硅化镁化合物",
+        "relation": "affects",
+        "object": "耐腐蚀性",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "极限拉伸强度",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "焊接",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "合金成分",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "镁和硅",
+        "relation": "belongs_to",
+        "object": "铝合金成分",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "热处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "has",
+        "object": "铝业协会数字",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "5083-0",
+        "relation": "has",
+        "object": "退火处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "5083-F",
+        "relation": "has",
+        "object": "焊接处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "5083-H321",
+        "relation": "has",
+        "object": "应变硬化和稳定处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "5086-0",
+        "relation": "has",
+        "object": "退火处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "5086-F",
+        "relation": "has",
+        "object": "焊接处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "5086-H321",
+        "relation": "has",
+        "object": "应变硬化和稳定处理",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "6061-T6",
+        "relation": "has",
+        "object": "固溶热处理和人工老化",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "6062-T6",
+        "relation": "has",
+        "object": "固溶热处理和人工老化",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铆接技术",
+        "relation": "applied_to",
+        "object": "铝合金板架结构",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铆接技术",
+        "relation": "connects_to",
+        "object": "加强构件",
+        "chunk_id": "1393"
+    },
+    {
+        "subject": "铆钉",
+        "relation": "uses",
+        "object": "合金NR5",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "合金NR5",
+        "relation": "contains",
+        "object": "镁",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "冷压铆钉",
+        "relation": "uses",
+        "object": "锤击",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "冷压铆钉",
+        "relation": "avoids",
+        "object": "加工硬化",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "热铆铆钉",
+        "relation": "requires",
+        "object": "温度控制",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "热铆铆钉",
+        "relation": "has",
+        "object": "剪切强度",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "铝合金夹层板",
+        "relation": "replaces",
+        "object": "组合板架",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "铝合金夹层板",
+        "relation": "replaces",
+        "object": "加强结构",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "铝合金夹层板",
+        "relation": "applied_to",
+        "object": "高速舰艇的上层建筑",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "防火保护",
+        "relation": "applied_to",
+        "object": "铝合金材料",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "铝合金主舱壁",
+        "relation": "has",
+        "object": "隔热性能",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "钢制舱壁",
+        "relation": "has",
+        "object": "防火性能",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "铝制上层建筑",
+        "relation": "has",
+        "object": "钢制机械外壳",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "纤维增强复合材料（FRCs）",
+        "relation": "used_in",
+        "object": "游艇",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "纤维增强复合材料（FRCs）",
+        "relation": "used_in",
+        "object": "军船",
+        "chunk_id": "1394"
+    },
+    {
+        "subject": "铝",
+        "relation": "used_in",
+        "object": "上层建筑",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "钢制机械外壳",
+        "relation": "installed_on",
+        "object": "铝制上层建筑",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "纤维增强复合材料（FRCs）",
+        "relation": "used_in",
+        "object": "游艇",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "纤维增强复合材料（FRCs）",
+        "relation": "used_in",
+        "object": "军船",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "玻璃纤维增强塑料（GRP）",
+        "relation": "used_in",
+        "object": "小型船舶",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "建造技术",
+        "relation": "affects",
+        "object": "GRP船舶",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "维斯比级轻型巡洋舰",
+        "relation": "has",
+        "object": "总长",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "维斯比级轻型巡洋舰",
+        "relation": "has",
+        "object": "船宽",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "考克姆造船厂",
+        "relation": "built",
+        "object": "维斯比级轻型巡洋舰",
+        "chunk_id": "1395"
+    },
+    {
+        "subject": "MirabellaV号",
+        "relation": "has",
+        "object": "总长",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "MirabellaV号",
+        "relation": "has",
+        "object": "船宽",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "MirabellaV号",
+        "relation": "has",
+        "object": "排水量",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "belongs_to",
+        "object": "船体",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "used_by",
+        "object": "船体",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "applied_to",
+        "object": "小型船舶",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "刚度",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "耐久性",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "维护要求",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "used_in",
+        "object": "船桅",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "used_in",
+        "object": "FRP结构",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "聚酰胺纤维",
+        "relation": "used_in",
+        "object": "FRP结构",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "碳纤维",
+        "relation": "used_in",
+        "object": "FRP结构",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "设计灵活性",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "效率",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "能量吸收能力",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "定制性",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "短切原丝毡",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "FRP结构",
+        "relation": "has",
+        "object": "交织材料",
+        "chunk_id": "1396"
+    },
+    {
+        "subject": "船体",
+        "relation": "contains",
+        "object": "外表面",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "船体",
+        "relation": "contains",
+        "object": "光顺性",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "模具",
+        "relation": "uses",
+        "object": "样板模子",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "模具",
+        "relation": "part_of",
+        "object": "FRP船体成型",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "模具",
+        "relation": "supports",
+        "object": "船体",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "模具",
+        "relation": "affects",
+        "object": "光顺性",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "模具",
+        "relation": "acts_on",
+        "object": "载荷",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "模具",
+        "relation": "acts_on",
+        "object": "变形",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "脱模剂",
+        "relation": "applied_to",
+        "object": "模具",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "脱模剂",
+        "relation": "prevents",
+        "object": "粘连",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "凝胶漆",
+        "relation": "applied_to",
+        "object": "船体外表面",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "凝胶漆",
+        "relation": "produces",
+        "object": "水密性",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "凝胶漆",
+        "relation": "can_be",
+        "object": "着色",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "玻璃纤维毡",
+        "relation": "applied_to",
+        "object": "模具",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "树脂",
+        "relation": "applied_to",
+        "object": "玻璃纤维毡",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "树脂",
+        "relation": "acts_on",
+        "object": "纤维",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "树脂",
+        "relation": "acts_on",
+        "object": "空气",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "船体",
+        "relation": "contains",
+        "object": "玻璃纤维",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "used_for",
+        "object": "加强",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "used_for",
+        "object": "厚度",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "切割",
+        "relation": "applied_to",
+        "object": "玻璃纤维毡",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "切割",
+        "relation": "applied_to",
+        "object": "船体形状",
+        "chunk_id": "1397"
+    },
+    {
+        "subject": "船体",
+        "relation": "contains",
+        "object": "加强筋",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "加强筋",
+        "relation": "uses",
+        "object": "玻璃纤维",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "加强筋",
+        "relation": "uses",
+        "object": "树脂",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "加强筋",
+        "relation": "connects_to",
+        "object": "顶帽结构加强材",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "加强筋",
+        "relation": "connects_to",
+        "object": "半圆加劲肋",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "模具",
+        "relation": "used_by",
+        "object": "船体",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "模具",
+        "relation": "split_into",
+        "object": "两个半份",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料",
+        "relation": "tested_with",
+        "object": "试验",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料",
+        "relation": "has",
+        "object": "延展性",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料",
+        "relation": "has",
+        "object": "韧性",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料",
+        "relation": "has",
+        "object": "硬度",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料",
+        "relation": "affects",
+        "object": "货舱结构",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "散货船",
+        "relation": "has",
+        "object": "货舱结构",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "铝",
+        "relation": "has",
+        "object": "延展性",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "铸铁",
+        "relation": "has",
+        "object": "脆性",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "试验",
+        "relation": "outputs",
+        "object": "试验结果",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "材料性能",
+        "relation": "affects",
+        "object": "焊接变形",
+        "chunk_id": "1398"
+    },
+    {
+        "subject": "应力",
+        "relation": "has",
+        "object": "单位面积的载荷",
+        "chunk_id": "1399"
+    },
+    {
+        "subject": "应变",
+        "relation": "has",
+        "object": "单位长度的变形",
+        "chunk_id": "1399"
+    },
+    {
+        "subject": "载荷",
+        "relation": "affects",
+        "object": "结构载荷",
+        "chunk_id": "1399"
+    },
+    {
+        "subject": "拉伸应力",
+        "relation": "affects",
+        "object": "脆性破坏",
+        "chunk_id": "1399"
+    },
+    {
+        "subject": "应变",
+        "relation": "定义为",
+        "object": "单位长度或单位体积的变形",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "应变",
+        "relation": "由",
+        "object": "伸长量与原始长度的比值",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "载荷",
+        "relation": "作用于",
+        "object": "杆",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "载荷",
+        "relation": "导致",
+        "object": "伸长量",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "载荷",
+        "relation": "与",
+        "object": "伸长量",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "应力",
+        "relation": "定义为",
+        "object": "单位面积上的载荷",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "应力",
+        "relation": "通过",
+        "object": "载荷除以横截面积计算",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "弹性极限",
+        "relation": "是",
+        "object": "应力-应变曲线中应力与应变成比例的范围的上限",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "弹性极限",
+        "relation": "超过",
+        "object": "材料将发生塑性变形",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "用于",
+        "object": "焊接",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "用于",
+        "object": "船体结构",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "需要",
+        "object": "进行拉伸试验和冲击试验",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "试验",
+        "relation": "用于",
+        "object": "验证材料性能",
+        "chunk_id": "1400"
+    },
+    {
+        "subject": "应力",
+        "relation": "determines",
+        "object": "应变",
+        "chunk_id": "1401"
+    },
+    {
+        "subject": "弹性模量",
+        "relation": "has",
+        "object": "低碳钢",
+        "chunk_id": "1401"
+    },
+    {
+        "subject": "屈服应力",
+        "relation": "affects",
+        "object": "塑性行为",
+        "chunk_id": "1401"
+    },
+    {
+        "subject": "极限拉伸应力",
+        "relation": "determines",
+        "object": "最大载荷",
+        "chunk_id": "1401"
+    },
+    {
+        "subject": "弹性极限",
+        "relation": "determines",
+        "object": "应力-应变曲线",
+        "chunk_id": "1401"
+    },
+    {
+        "subject": "铝",
+        "relation": "has",
+        "object": "应力-应变曲线",
+        "chunk_id": "1401"
+    },
+    {
+        "subject": "船舶结构",
+        "relation": "has",
+        "object": "工作应力",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "工作应力",
+        "relation": "低于",
+        "object": "材料的极限拉伸强度",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "船体材料",
+        "relation": "试验",
+        "object": "船级社",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "生产",
+        "object": "船级社批准的工艺",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "高强度钢板",
+        "relation": "生产",
+        "object": "船级社批准的工艺",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "型钢",
+        "relation": "生产",
+        "object": "船级社批准的工艺",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "锻钢",
+        "relation": "试验",
+        "object": "船级社",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "铸钢",
+        "relation": "试验",
+        "object": "船级社",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "材料",
+        "relation": "分析",
+        "object": "船级社",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "轧材",
+        "relation": "试验",
+        "object": "船级社",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "拉伸试验",
+        "relation": "获得",
+        "object": "最小屈服应力",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "拉伸试验",
+        "relation": "获得",
+        "object": "极限拉伸应力",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "拉伸试验",
+        "relation": "获得",
+        "object": "伸长量",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "试样",
+        "relation": "具有",
+        "object": "横截面积",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "试样",
+        "relation": "具有",
+        "object": "计算长度",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "计算长度",
+        "relation": "等于",
+        "object": "横截面积的平方根的5.65倍",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "计算长度",
+        "relation": "等于",
+        "object": "试样直径的5倍",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "形式",
+        "object": "拉伸试验",
+        "chunk_id": "1402"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "uses",
+        "object": "CharpyV形缺口试验",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "uses",
+        "object": "CharpyU形缺口试验",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "determines",
+        "object": "韧性",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "acts_on",
+        "object": "试样",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "uses",
+        "object": "铁砧",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "uses",
+        "object": "摆锤",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击能量",
+        "relation": "calculated_as",
+        "object": "摆锤释放前的势能与撞破试样后摆过铅垂线时的能量之差",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "冲击能量",
+        "relation": "affects",
+        "object": "断裂能",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "accepts",
+        "object": "拉伸试验",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "accepts",
+        "object": "镦粗试验",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "铆钉",
+        "relation": "accepts",
+        "object": "镦粗试验",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "船舶",
+        "relation": "experiences",
+        "object": "垂向剪切力",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "船舶",
+        "relation": "experiences",
+        "object": "纵向弯曲",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "静水中",
+        "relation": "experiences",
+        "object": "垂向剪切力",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "波浪中",
+        "relation": "experiences",
+        "object": "波浪引起的浮力变化",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "波浪中",
+        "relation": "experiences",
+        "object": "弯矩",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "波浪中",
+        "relation": "experiences",
+        "object": "垂直剪切力",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "波浪中",
+        "relation": "experiences",
+        "object": "应力",
+        "chunk_id": "1403"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "垂向剪切力",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "纵向弯曲",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "垂向剪切力",
+        "relation": "causes",
+        "object": "弯曲",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "纵向弯曲",
+        "relation": "causes",
+        "object": "变形",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "静水中",
+        "relation": "has",
+        "object": "垂向剪切力",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "静水中",
+        "relation": "has",
+        "object": "纵向弯曲",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "波浪中",
+        "relation": "has",
+        "object": "波浪",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "波浪中",
+        "relation": "has",
+        "object": "应力",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "船舶",
+        "relation": "affects",
+        "object": "应力",
+        "chunk_id": "1404"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "中拱",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "中垂",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船甲板材料",
+        "relation": "承受",
+        "object": "拉力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船底材料",
+        "relation": "承受",
+        "object": "压缩力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "弯矩",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "垂直剪切力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "波浪",
+        "relation": "affects",
+        "object": "弯矩",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "波浪",
+        "relation": "affects",
+        "object": "垂直剪切力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "波浪",
+        "relation": "affects",
+        "object": "应力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "浮力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "重力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船",
+        "relation": "has",
+        "object": "纵向剪切力",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船中",
+        "relation": "affects",
+        "object": "弯矩",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船中",
+        "relation": "affects",
+        "object": "中拱",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "船中",
+        "relation": "affects",
+        "object": "中垂",
+        "chunk_id": "1405"
+    },
+    {
+        "subject": "纵向剪切力",
+        "relation": "affects",
+        "object": "船体梁",
+        "chunk_id": "1406"
+    },
+    {
+        "subject": "纵向剪切力",
+        "relation": "acts_on",
+        "object": "船体梁",
+        "chunk_id": "1406"
+    },
+    {
+        "subject": "纵向剪切力",
+        "relation": "constrained_by",
+        "object": "中性轴",
+        "chunk_id": "1406"
+    },
+    {
+        "subject": "纵向剪切力",
+        "relation": "determines",
+        "object": "弯矩变化",
+        "chunk_id": "1406"
+    },
+    {
+        "subject": "纵向剪切力",
+        "relation": "has",
+        "object": "幅值",
+        "chunk_id": "1406"
+    },
+    {
+        "subject": "纵向剪切力",
+        "relation": "connects_to",
+        "object": "垂向剪切力",
+        "chunk_id": "1406"
+    },
+    {
+        "subject": "弯曲应力",
+        "relation": "determines",
+        "object": "弯曲",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "弯曲应力",
+        "relation": "acts_on",
+        "object": "梁",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "弯曲应力",
+        "relation": "depends_on",
+        "object": "弯矩",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "弯曲应力",
+        "relation": "depends_on",
+        "object": "截面惯性矩",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "弯曲应力",
+        "relation": "depends_on",
+        "object": "中性轴",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "截面惯性矩",
+        "relation": "affects",
+        "object": "弯曲应力",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "截面惯性矩",
+        "relation": "varies_with",
+        "object": "截面深度",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "截面模量",
+        "relation": "is_defined_as",
+        "object": "截面惯性矩与中性轴距离的比值",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "弯曲应力",
+        "relation": "is_defined_as",
+        "object": "弯矩除以截面模量",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "中性轴",
+        "relation": "is_located_at",
+        "object": "截面重心",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "contains",
+        "object": "中性轴",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "acts_on",
+        "object": "弯曲应力",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "截面惯性矩",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "截面模量",
+        "chunk_id": "1407"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "中性轴",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "截面惯性矩",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "面板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "腹板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "边板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "纵向强度",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "剪切力",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "船底板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "甲板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "船中",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "弯曲应力",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "船舱部",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "舷顶列板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "甲板边板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "船级社",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "载荷",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "has",
+        "object": "强力甲板",
+        "chunk_id": "1408"
+    },
+    {
+        "subject": "强力甲板",
+        "relation": "part_of",
+        "object": "船体梁",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "强力甲板",
+        "relation": "connects_to",
+        "object": "上层建筑",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "强力甲板",
+        "relation": "affects",
+        "object": "应力集中",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "伸缩接头",
+        "relation": "applied_to",
+        "object": "强力甲板",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "截面模量",
+        "relation": "determines",
+        "object": "应力",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "connects_to",
+        "object": "船体",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "affects",
+        "object": "变形",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "caused_by",
+        "object": "横向力",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "affects",
+        "object": "船体",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "caused_by",
+        "object": "静水载荷",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "caused_by",
+        "object": "海浪",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "caused_by",
+        "object": "货物",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "caused_by",
+        "object": "结构重量",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横向应力",
+        "relation": "caused_by",
+        "object": "船舶运动",
+        "chunk_id": "1409"
+    },
+    {
+        "subject": "横舱壁",
+        "relation": "resists",
+        "object": "横向变形",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "边肋骨",
+        "relation": "provides",
+        "object": "横向强度",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "横舱壁",
+        "relation": "separated_from",
+        "object": "深的强肋骨",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "深的强肋骨",
+        "relation": "compensates_for",
+        "object": "横向变形",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "扭矩",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "船宽",
+        "relation": "affects",
+        "object": "扭矩",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "大型集装箱船",
+        "relation": "has",
+        "object": "抗扭箱形梁结构",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "抗扭箱形梁结构",
+        "relation": "regulates",
+        "object": "扭转应力",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "拍击",
+        "relation": "causes",
+        "object": "局部应力",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "船壳板",
+        "relation": "subject_to",
+        "object": "拍击",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "结构加强",
+        "relation": "described_in",
+        "object": "第17章",
+        "chunk_id": "1410"
+    },
+    {
+        "subject": "船底板",
+        "relation": "acts_on",
+        "object": "砰击",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "首部框架",
+        "relation": "acts_on",
+        "object": "砰击",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "防碰撞舱壁",
+        "relation": "affects",
+        "object": "砰击",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "船体梁",
+        "relation": "acts_on",
+        "object": "局部应力",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "舱口",
+        "relation": "acts_on",
+        "object": "局部应力",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "舷墙",
+        "relation": "acts_on",
+        "object": "局部应力",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "焊接",
+        "relation": "replaces",
+        "object": "铆接",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "焊接船",
+        "relation": "affects",
+        "object": "脆性破坏",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "铆接船",
+        "relation": "has",
+        "object": "脆性破坏",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "焊缝",
+        "relation": "connects_to",
+        "object": "脆性破坏",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "铆钉",
+        "relation": "connects_to",
+        "object": "脆性破坏",
+        "chunk_id": "1411"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "低碳钢",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "厚板",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "钢板",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "温度",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "开口",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "应力",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "变形",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "断裂",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "船舶",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "延性破坏",
+        "chunk_id": "1412"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "船舶结构",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "affects",
+        "object": "焊接结构",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "焊接结构",
+        "relation": "contains",
+        "object": "初始裂纹",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "焊接结构",
+        "relation": "affects",
+        "object": "脆性破坏",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "船舶建造",
+        "relation": "uses",
+        "object": "钢材",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "钢材",
+        "relation": "has",
+        "object": "缺口延性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "缺口延性",
+        "relation": "determines",
+        "object": "脆性破坏",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "缺口延性",
+        "relation": "determines",
+        "object": "裂纹扩展",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "缺口延性",
+        "relation": "determines",
+        "object": "韧性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "钢材",
+        "relation": "has",
+        "object": "碳含量",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "钢材",
+        "relation": "has",
+        "object": "锰",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "钢材",
+        "relation": "applied_to",
+        "object": "热处理",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "热处理",
+        "relation": "improves",
+        "object": "缺口延性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "D级钢",
+        "relation": "has",
+        "object": "缺口延性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "D级钢",
+        "relation": "applies_to",
+        "object": "厚板",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "E级钢",
+        "relation": "has",
+        "object": "缺口延性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "E级钢",
+        "relation": "applies_to",
+        "object": "厚板",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "缺口延性",
+        "relation": "determines",
+        "object": "脆性破坏",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "determines",
+        "object": "缺口延性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "冲击试验",
+        "relation": "determines",
+        "object": "韧性",
+        "chunk_id": "1413"
+    },
+    {
+        "subject": "脆性破坏",
+        "relation": "related_to",
+        "object": "止裂措施",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "铆接缝",
+        "relation": "used_in",
+        "object": "货船",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "铆接缝",
+        "relation": "used_for",
+        "object": "限定裂纹扩展",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "止裂措施",
+        "relation": "applied_to",
+        "object": "舷顶列板",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "止裂措施",
+        "relation": "applied_to",
+        "object": "甲板边板",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "specifies",
+        "object": "D级低碳钢",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "specifies",
+        "object": "E级钢",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "船长",
+        "relation": "exceeds",
+        "object": "250m",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "船中部分",
+        "relation": "located_at",
+        "object": "强力甲板",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "疲劳断裂",
+        "relation": "caused_by",
+        "object": "重复性低应力",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "疲劳断裂",
+        "relation": "related_to",
+        "object": "裂纹扩展",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "疲劳断裂",
+        "relation": "related_to",
+        "object": "尖锐开口",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "疲劳断裂",
+        "relation": "related_to",
+        "object": "结构不连续",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "疲劳断裂",
+        "relation": "related_to",
+        "object": "硬点",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "疲劳断裂",
+        "relation": "related_to",
+        "object": "刚度较高区域",
+        "chunk_id": "1414"
+    },
+    {
+        "subject": "油船",
+        "relation": "uses",
+        "object": "高屈服强度钢",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "散货船",
+        "relation": "uses",
+        "object": "高屈服强度钢",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "集装箱船",
+        "relation": "uses",
+        "object": "高屈服强度钢",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "船级社",
+        "relation": "requires",
+        "object": "疲劳性能分析",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "船体结构",
+        "relation": "contains",
+        "object": "加强板材",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "加强板材",
+        "relation": "has",
+        "object": "屈曲强度",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "支柱",
+        "relation": "affects",
+        "object": "屈曲",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "determined_by",
+        "object": "弹性模量",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "determined_by",
+        "object": "板厚",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "determined_by",
+        "object": "无支撑的尺寸",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "determined_by",
+        "object": "边界支撑条件",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "affects",
+        "object": "结构强度",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "leads_to",
+        "object": "板材失效",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "has",
+        "object": "临界载荷",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "屈曲",
+        "relation": "affects",
+        "object": "载荷承载能力",
+        "chunk_id": "1415"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applied_to",
+        "object": "板材屈曲能力检查",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applied_to",
+        "object": "加强杆检查",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "applied_to",
+        "object": "极限屈曲强度评估",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "uses",
+        "object": "计算机评估程序",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "应变片",
+        "relation": "installed_on",
+        "object": "甲板结构",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "加速计",
+        "relation": "installed_on",
+        "object": "甲板结构",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "个人计算机",
+        "relation": "used_with",
+        "object": "软件",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "个人计算机",
+        "relation": "used_with",
+        "object": "应变片",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "个人计算机",
+        "relation": "used_with",
+        "object": "加速计",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "provides",
+        "object": "实时应力与运动信息监控设备",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接",
+        "relation": "replaces",
+        "object": "铆接",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接",
+        "relation": "used_in",
+        "object": "修理",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接",
+        "relation": "used_in",
+        "object": "船体板连接",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "切割",
+        "relation": "used_in",
+        "object": "船舶建造",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "切割",
+        "relation": "used_in",
+        "object": "修理",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接方法",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接方法",
+        "relation": "affects",
+        "object": "分段变形",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接方法",
+        "relation": "used_in",
+        "object": "船体制造",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接方法",
+        "relation": "used_in",
+        "object": "船体修理",
+        "chunk_id": "1416"
+    },
+    {
+        "subject": "焊接",
+        "relation": "replaces",
+        "object": "铆接",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "uses",
+        "object": "预制技术",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "acts_on",
+        "object": "型材",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "has",
+        "object": "油密性",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "舱壁",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "甲板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "隔板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "肋骨",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "横梁",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "肋板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "外板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "骨架",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "气体焊",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "气体焊",
+        "relation": "acts_on",
+        "object": "型材",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "气体焊",
+        "relation": "applied_to",
+        "object": "薄的低碳钢板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "氧气",
+        "relation": "used_with",
+        "object": "乙炔",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "乙炔",
+        "relation": "used_with",
+        "object": "氧气",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "电弧焊",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "电弧焊",
+        "relation": "acts_on",
+        "object": "型材",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "激光焊",
+        "relation": "applied_to",
+        "object": "不同厚度材料",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "激光焊",
+        "relation": "applied_to",
+        "object": "复杂形状单元",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "affects",
+        "object": "摩擦阻力",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "replaces",
+        "object": "铆接",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "外板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "肋骨",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "横梁",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "肋板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "骨架",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "舱壁",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "甲板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "隔板",
+        "chunk_id": "1417"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "1417"
+    }
+]

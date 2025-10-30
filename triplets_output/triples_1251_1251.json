@@ -1,0 +1,68 @@
+[
+    {
+        "subject": "焊接变形预测",
+        "relation": "affects",
+        "object": "焊接结构",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "焊接变形预测",
+        "relation": "uses",
+        "object": "计算机技术",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "焊接变形预测",
+        "relation": "applied_to",
+        "object": "焊接残余应力",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "焊接变形预测",
+        "relation": "applied_to",
+        "object": "焊接变形",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "有限单元法",
+        "relation": "enables",
+        "object": "焊接变形预测",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "热弹塑性有限元法",
+        "relation": "improves",
+        "object": "焊接变形预测",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "固有应变法",
+        "relation": "improves",
+        "object": "焊接变形预测",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "热弹塑性分析",
+        "relation": "used_in",
+        "object": "焊接接头",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "热弹塑性分析",
+        "relation": "tracks",
+        "object": "焊接热循环",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "热弹塑性分析",
+        "relation": "studies",
+        "object": "焊接残余应力",
+        "chunk_id": "1251"
+    },
+    {
+        "subject": "热弹塑性分析",
+        "relation": "studies",
+        "object": "焊接变形",
+        "chunk_id": "1251"
+    }
+]

@@ -1,0 +1,4550 @@
+[
+    {
+        "subject": "全站仪",
+        "relation": "uses",
+        "object": "激光",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "全站仪",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "全站仪",
+        "relation": "has",
+        "object": "测量精度",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "全站仪",
+        "relation": "replaces",
+        "object": "传统测量工具",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "PDA",
+        "relation": "uses",
+        "object": "三维测量",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "PDA",
+        "relation": "connected_to",
+        "object": "全站仪",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "测量系统",
+        "relation": "contains",
+        "object": "全站仪",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "测量系统",
+        "relation": "applied_to",
+        "object": "船体分段",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "温度",
+        "relation": "affects",
+        "object": "测量结果",
+        "chunk_id": "1268"
+    },
+    {
+        "subject": "钢结构",
+        "relation": "affects",
+        "object": "温度补偿系统",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "温度补偿系统",
+        "relation": "enables",
+        "object": "精度管理",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "激光雷达测量仪",
+        "relation": "applied_to",
+        "object": "钢结构",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "applied_to",
+        "object": "钢结构",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "温度补偿系统",
+        "relation": "used_by",
+        "object": "激光雷达测量仪",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "温度补偿系统",
+        "relation": "used_by",
+        "object": "iGPS测量系统",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "温度",
+        "relation": "affects",
+        "object": "精度管理",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "装配误差",
+        "relation": "affects",
+        "object": "精度管理",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "焊接变形",
+        "relation": "affects",
+        "object": "精度管理",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "测量工具",
+        "relation": "constrained_by",
+        "object": "精度管理",
+        "chunk_id": "1269"
+    },
+    {
+        "subject": "激光雷达",
+        "relation": "uses",
+        "object": "激光",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "激光雷达",
+        "relation": "applied_to",
+        "object": "分段检测",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "激光雷达",
+        "relation": "enables",
+        "object": "非接触高精度检测",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "激光雷达",
+        "relation": "replaces",
+        "object": "激光跟踪仪",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "激光跟踪仪",
+        "relation": "requires",
+        "object": "靶镜",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "激光跟踪仪",
+        "relation": "applied_to",
+        "object": "分段检测",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "激光跟踪仪",
+        "relation": "has",
+        "object": "间接测量结果",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "全站仪",
+        "relation": "applied_to",
+        "object": "分段检测",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "全站仪",
+        "relation": "has",
+        "object": "三维坐标测量",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "全站仪",
+        "relation": "has",
+        "object": "测量精度±1mm",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "测量",
+        "relation": "applied_to",
+        "object": "分段检测",
+        "chunk_id": "1270"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "uses",
+        "object": "激光跟踪仪",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "uses",
+        "object": "激光雷达",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "contains",
+        "object": "控制器",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "contains",
+        "object": "激光发送器",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "contains",
+        "object": "接收器",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "contains",
+        "object": "接受中心",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "outputs",
+        "object": "测量资料",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "测量资料",
+        "relation": "transmits_to",
+        "object": "工作站",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "belongs_to",
+        "object": "测量系统",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "瑞士Metris公司",
+        "relation": "belongs_to",
+        "object": "企业",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "瑞士Metris公司",
+        "relation": "provides",
+        "object": "iGPS测量系统",
+        "chunk_id": "1271"
+    },
+    {
+        "subject": "韩国三星重工",
+        "relation": "uses",
+        "object": "iGPS测量系统",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "enables",
+        "object": "实时测量与控制",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "applied_to",
+        "object": "船体分段船坞或船台搭载过程",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "acts_on",
+        "object": "船体分段",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "connects_to",
+        "object": "数控小车",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "enables",
+        "object": "船体分段搭载的全自动化",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "has",
+        "object": "亚毫米精度",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "replaces",
+        "object": "传统测量方法",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "improves",
+        "object": "测量准确快捷",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "applied_to",
+        "object": "数字化船坞",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "acts_on",
+        "object": "温度",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "iGPS测量系统",
+        "relation": "affects",
+        "object": "钢结构",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "数控小车",
+        "relation": "used_by",
+        "object": "iGPS测量系统",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "数控小车",
+        "relation": "enables",
+        "object": "船体分段搭载的全自动化",
+        "chunk_id": "1272"
+    },
+    {
+        "subject": "精度测量技术",
+        "relation": "replaces",
+        "object": "手工记录",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "精度测量技术",
+        "relation": "replaces",
+        "object": "数据报表",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "精度测量技术",
+        "relation": "replaces",
+        "object": "钢直尺",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "分段建造",
+        "relation": "uses",
+        "object": "精度测量技术",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "分段",
+        "relation": "requires",
+        "object": "精度测量技术",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "总段",
+        "relation": "requires",
+        "object": "精度测量技术",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "精度管理机制",
+        "relation": "improves",
+        "object": "精度控制",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "精度数据循环",
+        "relation": "improves",
+        "object": "精度控制",
+        "chunk_id": "1273"
+    },
+    {
+        "subject": "船体合拢",
+        "relation": "uses",
+        "object": "吊机",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "传统测量方法",
+        "relation": "affects",
+        "object": "船台周期",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "余量",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "分段",
+        "relation": "requires",
+        "object": "一次定位",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "船体成形",
+        "relation": "affects",
+        "object": "反变形",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "无余量生产",
+        "relation": "requires",
+        "object": "反变形",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "inputs",
+        "object": "尺寸精度",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "尺寸链理论",
+        "relation": "used_in",
+        "object": "精度计划",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "used_in",
+        "object": "精度控制",
+        "chunk_id": "1274"
+    },
+    {
+        "subject": "尺寸链理论",
+        "relation": "applied_to",
+        "object": "船体分道建造精度管理体系",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "inputs",
+        "object": "补偿量值",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "inputs",
+        "object": "船体加工工艺方法",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "outputs",
+        "object": "标准",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "outputs",
+        "object": "规范",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "outputs",
+        "object": "船体建造各阶段的精度管理要求",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "determines",
+        "object": "船体精度控制的成败",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链理论",
+        "relation": "used_for",
+        "object": "研究产品各零部件之间尺寸关系",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链理论",
+        "relation": "used_for",
+        "object": "分析影响装配精度的因素",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链理论",
+        "relation": "used_for",
+        "object": "确定各种有关零件、部件尺寸和位置公差",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链理论",
+        "relation": "used_for",
+        "object": "保证产品的装配精度及技术要求",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "has",
+        "object": "封闭性",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "has",
+        "object": "制约性",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "has",
+        "object": "至少由三个环组成",
+        "chunk_id": "1275"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "封闭环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "增环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "减环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "补偿环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "传递系数",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "封闭环",
+        "relation": "part_of",
+        "object": "尺寸链",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "增环",
+        "relation": "acts_on",
+        "object": "封闭环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "减环",
+        "relation": "acts_on",
+        "object": "封闭环",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "补偿环",
+        "relation": "used_in",
+        "object": "尺寸链",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "传递系数",
+        "relation": "applied_to",
+        "object": "尺寸链",
+        "chunk_id": "1276"
+    },
+    {
+        "subject": "尺寸精度",
+        "relation": "requires",
+        "object": "尺寸链",
+        "chunk_id": "1277"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "determined_by",
+        "object": "组成环",
+        "chunk_id": "1277"
+    },
+    {
+        "subject": "船舶",
+        "relation": "requires",
+        "object": "尺寸链",
+        "chunk_id": "1277"
+    },
+    {
+        "subject": "建造方法",
+        "relation": "affects",
+        "object": "分段结构形式",
+        "chunk_id": "1277"
+    },
+    {
+        "subject": "分段结构形式",
+        "relation": "affects",
+        "object": "尺寸链",
+        "chunk_id": "1277"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "used_for",
+        "object": "装配精度",
+        "chunk_id": "1277"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "uses",
+        "object": "正算法",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "uses",
+        "object": "反算法",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "uses",
+        "object": "中间算法",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "加工过程",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "合拢精度",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "belongs_to",
+        "object": "余量",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "船台",
+        "relation": "prepares_for",
+        "object": "总段制作",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "总段",
+        "relation": "prepares_for",
+        "object": "分段制作",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "分段",
+        "relation": "prepares_for",
+        "object": "部件制作",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "部件",
+        "relation": "prepares_for",
+        "object": "零件制作",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "affects",
+        "object": "无余量上船台",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "系统误差",
+        "relation": "acts_on",
+        "object": "补偿量计算",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "随机误差",
+        "relation": "acts_on",
+        "object": "补偿量计算",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "下料",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "余量切割范围",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "初余量设计值",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "余量切割时机",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "具体补偿值",
+        "chunk_id": "1278"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "belongs_to",
+        "object": "工艺参数",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "belongs_to",
+        "object": "工艺流程",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "加工补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "装配补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "焊接收缩和变形补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "系统补偿量",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "has",
+        "object": "非系统补偿量",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "气割补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "焊接补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "焊缝补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "船台装配大环缝端接头的补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "反变形补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "温差补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "非系统补偿量",
+        "relation": "has",
+        "object": "火工矫正补偿",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "replaces",
+        "object": "余量",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "improves",
+        "object": "生产成本",
+        "chunk_id": "1279"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "工件",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "形状",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "尺寸",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "焊接",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "加工",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "变形",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "船体建造工艺",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "船台吊装",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "分段结构形式",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "分段装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "分段焊接",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "船台装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "生产条件",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "船型",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "部件",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "建造方法",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "尺寸精度",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "精度控制",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "acts_on",
+        "object": "补偿量",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "正态分布",
+        "relation": "determines",
+        "object": "系统补偿量",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "正态分布",
+        "relation": "acts_on",
+        "object": "变形",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "正态分布",
+        "relation": "acts_on",
+        "object": "船体建造工艺",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "正态分布",
+        "relation": "acts_on",
+        "object": "系统补偿量值",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "加工",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "分段装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "船台装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "焊接",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "变形",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "船体建造工艺",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "尺寸精度",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "精度控制",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "系统补偿量",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "加工",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "焊接",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "变形",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "船体建造工艺",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "尺寸精度",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "精度控制",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "acts_on",
+        "object": "补偿量",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "系统补偿量",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "补偿量",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "变形",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "尺寸精度",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "精度控制",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "船台吊装",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "分段结构形式",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "分段装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "分段焊接",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "船台装配",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "生产条件",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "船型",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "部件",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "建造方法",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "尺寸精度",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "船体建造工艺",
+        "relation": "acts_on",
+        "object": "精度控制",
+        "chunk_id": "1280"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "系统误差",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "acts_on",
+        "object": "随机误差",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "组成环",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "尺寸链",
+        "relation": "contains",
+        "object": "封闭环",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "传递系数",
+        "relation": "acts_on",
+        "object": "尺寸链",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "belongs_to",
+        "object": "尺寸链",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "belongs_to",
+        "object": "组成环",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "基本尺寸",
+        "relation": "belongs_to",
+        "object": "封闭环",
+        "chunk_id": "1281"
+    },
+    {
+        "subject": "封闭环",
+        "relation": "has",
+        "object": "基本尺寸",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "船体建造",
+        "relation": "has",
+        "object": "尺寸补偿量",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "板材",
+        "relation": "uses",
+        "object": "系统补偿量",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "系统补偿量",
+        "relation": "determines",
+        "object": "理想精度",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "焊接收缩变形",
+        "relation": "affects",
+        "object": "补偿量",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "replaces",
+        "object": "余量",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "constrained_by",
+        "object": "施工偏差",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "improves",
+        "object": "装配精度",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "船体建造",
+        "chunk_id": "1282"
+    },
+    {
+        "subject": "精度计划",
+        "relation": "contains",
+        "object": "补偿量",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "part_of",
+        "object": "精度计划",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "零件加工",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "零件装配",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "部件装配",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "组件装配",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "分段装配",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "总段装配",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "船台(坞)合拢",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "焊缝纵向焊接收缩",
+        "relation": "uses",
+        "object": "焊缝长度",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "焊缝纵向焊接收缩",
+        "relation": "uses",
+        "object": "构件截面面积",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "焊缝纵向焊接收缩",
+        "relation": "uses",
+        "object": "焊接热影响区",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "焊缝纵向焊接收缩",
+        "relation": "acts_on",
+        "object": "焊缝",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "焊缝纵向焊接收缩",
+        "relation": "determines",
+        "object": "纵向收缩",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "焊接变形",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "结构强度",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体精度",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体尺寸",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体装配",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体稳定性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体刚性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体变形",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体焊接",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体制造",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体工艺",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体建造",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体精度控制",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体装配精度",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构强度",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构刚性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构稳定性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构完整性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构可靠性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构安全性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构耐久性",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "纵向收缩",
+        "relation": "affects",
+        "object": "船体结构寿命",
+        "chunk_id": "1283"
+    },
+    {
+        "subject": "线能量",
+        "relation": "定义为",
+        "object": "沿焊接方向单位长度的基本金属从热源所获得的热量",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "线能量",
+        "relation": "计算公式为",
+        "object": "q_n = 0.24ηUI / v",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "焊接电弧的热利用系数",
+        "relation": "出现在",
+        "object": "线能量计算公式中",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "焊接电弧的有效热功率",
+        "relation": "出现在",
+        "object": "线能量计算公式中",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "焊接速度",
+        "relation": "出现在",
+        "object": "线能量计算公式中",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "横向焊接收缩量",
+        "relation": "计算公式为",
+        "object": "Δb = 1.01e^{0.0464δ}",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "对接焊缝",
+        "relation": "横向收缩量计算表达式为",
+        "object": "Δb = 1.01e^{0.0464δ}",
+        "chunk_id": "1284"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "uses",
+        "object": "板厚",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "uses",
+        "object": "经验数据查表法",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "affects",
+        "object": "补偿量",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "applied_to",
+        "object": "结构焊接",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "determines",
+        "object": "补偿量",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "has",
+        "object": "计算公式",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "has",
+        "object": "经验数据查表法",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "has",
+        "object": "直接经验估算法",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "has",
+        "object": "焊缝纵向收缩量参考表",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "焊缝横向收缩量",
+        "relation": "has",
+        "object": "焊缝横向收缩量参考表",
+        "chunk_id": "1285"
+    },
+    {
+        "subject": "双层底分段",
+        "relation": "has",
+        "object": "基线扰度",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "双层底分段",
+        "relation": "has",
+        "object": "半宽收缩量",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "中部分段",
+        "relation": "has",
+        "object": "基线扰度",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "中部分段",
+        "relation": "has",
+        "object": "半宽收缩量",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "affects",
+        "object": "船体工件变形",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "船型",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "分段划分",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "分段结构形式",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "分段的建造方法",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "装配焊接顺序",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "焊接方法",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "船台吊装程序",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "船厂的生产条件",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "尺寸精度补偿",
+        "relation": "inputs",
+        "object": "组织体制和管理水平",
+        "chunk_id": "1286"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "船舶吨位",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "船型",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "纵、横骨架结构型式",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "零件",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "部件",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "分段",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "建造方法",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "装焊程序",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "焊接方法",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "施工人员素质",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "焊接收缩变形",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "replaces",
+        "object": "工艺余量",
+        "chunk_id": "1287"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "affects",
+        "object": "焊接收缩变形",
+        "chunk_id": "1288"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "considered_in",
+        "object": "船舶建造",
+        "chunk_id": "1288"
+    },
+    {
+        "subject": "焊接收缩变形",
+        "relation": "is_a",
+        "object": "变形",
+        "chunk_id": "1288"
+    },
+    {
+        "subject": "船体建造过程控制",
+        "relation": "contains",
+        "object": "主动控制",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "船体建造过程控制",
+        "relation": "contains",
+        "object": "被动控制",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "主动控制",
+        "relation": "uses",
+        "object": "改良设计",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "主动控制",
+        "relation": "uses",
+        "object": "钢材厚度",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "主动控制",
+        "relation": "uses",
+        "object": "分段切割",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "主动控制",
+        "relation": "uses",
+        "object": "改善施工方法",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "被动控制",
+        "relation": "uses",
+        "object": "全站仪",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "被动控制",
+        "relation": "acts_on",
+        "object": "分段",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "被动控制",
+        "relation": "affects",
+        "object": "精度管理基准",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "被动控制",
+        "relation": "affects",
+        "object": "焊接顺序",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "inputs",
+        "object": "生产设计",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "outputs",
+        "object": "主动控制",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "动态公差控制",
+        "relation": "applied_to",
+        "object": "造船过程控制",
+        "chunk_id": "1289"
+    },
+    {
+        "subject": "测量",
+        "relation": "applied_to",
+        "object": "工序产品尺寸",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "测量",
+        "relation": "acts_on",
+        "object": "工序产品尺寸",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "精度控制系统",
+        "relation": "inputs",
+        "object": "补偿量结果",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "belongs_to",
+        "object": "精度控制",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "applied_to",
+        "object": "下一工序",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "预修整量",
+        "relation": "belongs_to",
+        "object": "精度控制",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "预修整",
+        "relation": "acts_on",
+        "object": "偏差尺寸部分",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "补偿量",
+        "relation": "replaces",
+        "object": "余量",
+        "chunk_id": "1290"
+    },
+    {
+        "subject": "分段预修正工艺",
+        "relation": "uses",
+        "object": "尺寸链组成环",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "分段预修正工艺",
+        "relation": "applied_to",
+        "object": "精度控制",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "分段预修正工艺",
+        "relation": "reduces",
+        "object": "尺寸链组成环数目",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "requires",
+        "object": "分段预修正工艺",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度管理标准",
+        "relation": "requires",
+        "object": "科学管理",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度管理标准",
+        "relation": "requires",
+        "object": "先进制造技术",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度管理标准",
+        "relation": "requires",
+        "object": "成熟的工艺技术",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度管理标准",
+        "relation": "requires",
+        "object": "先进的生产设备",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度管理标准",
+        "relation": "requires",
+        "object": "科学的管理团队",
+        "chunk_id": "1291"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "补偿量标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "收缩公差标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "基准线标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "参考线标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "检查次序标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "部件加工和装配标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "信息传递和管理标准",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "uses",
+        "object": "先进仪器",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "uses",
+        "object": "软件",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "applied_to",
+        "object": "零部件加工",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "applied_to",
+        "object": "部件制作",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "applied_to",
+        "object": "构件转配",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "applied_to",
+        "object": "分段合拢",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "applied_to",
+        "object": "船体大合拢",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "improves",
+        "object": "误差的统计分析",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "enables",
+        "object": "数字化技术",
+        "chunk_id": "1292"
+    },
+    {
+        "subject": "精度管理标准",
+        "relation": "belongs_to",
+        "object": "精度管理",
+        "chunk_id": "1293"
+    },
+    {
+        "subject": "PDCA过程",
+        "relation": "applied_to",
+        "object": "精度管理",
+        "chunk_id": "1293"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "精度管理标准",
+        "chunk_id": "1293"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "contains",
+        "object": "PDCA过程",
+        "chunk_id": "1293"
+    },
+    {
+        "subject": "制造精度",
+        "relation": "improves",
+        "object": "精度管理",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "切割",
+        "relation": "uses",
+        "object": "数控等离子切割机",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "加工",
+        "relation": "uses",
+        "object": "机械化线状加热系统",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "船体装配",
+        "relation": "uses",
+        "object": "焊接机器人",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "切割",
+        "relation": "applied_to",
+        "object": "型材",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "加工",
+        "relation": "applied_to",
+        "object": "船体结构",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "装配",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "精度管理",
+        "relation": "replaces",
+        "object": "系统误差",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "工艺纪律",
+        "relation": "affects",
+        "object": "建造精度",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "三确",
+        "relation": "belongs_to",
+        "object": "工艺纪律",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "数控等离子切割机",
+        "relation": "replaces",
+        "object": "切割机",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "数控激光切割",
+        "relation": "replaces",
+        "object": "等离子切割",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "机械化线状加热系统",
+        "relation": "replaces",
+        "object": "水火弯板",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "焊接机器人",
+        "relation": "replaces",
+        "object": "手工焊接",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "曲面分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "双层底分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "流水线",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "装配流水线",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "数控加工设备",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "船厂",
+        "relation": "contains",
+        "object": "焊接机器人",
+        "chunk_id": "1294"
+    },
+    {
+        "subject": "加工设备",
+        "relation": "contains",
+        "object": "设备精度",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "设备精度",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "加工设备",
+        "relation": "acts_on",
+        "object": "切割",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "加工设备",
+        "relation": "acts_on",
+        "object": "对角线",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "加工设备",
+        "relation": "acts_on",
+        "object": "轨道",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "高精度生产系统",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "高精度生产系统",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "有限元分析方法",
+        "relation": "applied_to",
+        "object": "钢板的火焰切割",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "有限元分析方法",
+        "relation": "applied_to",
+        "object": "热弯",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "有限元分析方法",
+        "relation": "applied_to",
+        "object": "焊接",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "有限元分析方法",
+        "relation": "applied_to",
+        "object": "水火校正",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "有限元分析方法",
+        "relation": "applied_to",
+        "object": "船体分段",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "新技术",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "新工艺",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "1295"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "uses",
+        "object": "测量系统",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "uses",
+        "object": "激光雷达",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "uses",
+        "object": "iGPS测量系统",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "uses",
+        "object": "全站仪",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "uses",
+        "object": "数控小车",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "韩国三星重工",
+        "relation": "uses",
+        "object": "iGPS测量系统",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "韩国三星重工",
+        "relation": "applied_to",
+        "object": "船体分段建造",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "韩国三星重工",
+        "relation": "applied_to",
+        "object": "船坞或船台搭载",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "分段检测",
+        "relation": "uses",
+        "object": "激光雷达",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "小组立、中组立阶段",
+        "relation": "uses",
+        "object": "全站仪",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "下料",
+        "relation": "uses",
+        "object": "数控切割机",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "船舶修理",
+        "relation": "belongs_to",
+        "object": "船舶建造",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "船舶修理",
+        "relation": "has",
+        "object": "修理目的",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "船舶修理目的",
+        "relation": "affects",
+        "object": "船舶技术状况",
+        "chunk_id": "1296"
+    },
+    {
+        "subject": "船舶修理目的",
+        "relation": "affects",
+        "object": "船舶正常技术状况",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "外力作用",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "外力作用",
+        "relation": "determines",
+        "object": "弯曲应力",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "外力作用",
+        "relation": "determines",
+        "object": "扭转应力",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "腐蚀作用",
+        "relation": "affects",
+        "object": "船舶结构",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "人为作用",
+        "relation": "affects",
+        "object": "船舶安全",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "无形损耗",
+        "relation": "affects",
+        "object": "船舶技术状况",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "船舶修理目的",
+        "relation": "improves",
+        "object": "船舶构件",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "船舶修理目的",
+        "relation": "prevents",
+        "object": "构件继续损耗",
+        "chunk_id": "1297"
+    },
+    {
+        "subject": "船舶修理基本任务",
+        "relation": "belongs_to",
+        "object": "修理",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_by",
+        "object": "船舶和机务部门",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_by",
+        "object": "船厂",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_for",
+        "object": "安排修船计划",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_for",
+        "object": "分配修船费用",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_for",
+        "object": "修理前施工准备工作",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "requires",
+        "object": "需修部位清楚",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "requires",
+        "object": "情况准确",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "requires",
+        "object": "技术合理",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "ensures",
+        "object": "修理工作的顺利进行",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "修船单",
+        "relation": "ensures",
+        "object": "技术质量要求",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "计划养护修理",
+        "relation": "belongs_to",
+        "object": "修理类型",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "计划养护修理",
+        "relation": "includes",
+        "object": "航修",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "计划养护修理",
+        "relation": "includes",
+        "object": "小修",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "计划养护修理",
+        "relation": "includes",
+        "object": "检修",
+        "chunk_id": "1298"
+    },
+    {
+        "subject": "航修",
+        "relation": "belongs_to",
+        "object": "修理",
+        "chunk_id": "1299"
+    },
+    {
+        "subject": "航修",
+        "relation": "part_of",
+        "object": "修理工程",
+        "chunk_id": "1299"
+    },
+    {
+        "subject": "航修",
+        "relation": "acts_on",
+        "object": "船舶",
+        "chunk_id": "1299"
+    },
+    {
+        "subject": "航修",
+        "relation": "uses",
+        "object": "船厂",
+        "chunk_id": "1299"
+    },
+    {
+        "subject": "航修",
+        "relation": "uses",
+        "object": "航修站",
+        "chunk_id": "1299"
+    },
+    {
+        "subject": "航修",
+        "relation": "precedes",
+        "object": "检修",
+        "chunk_id": "1299"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "船体",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "舵",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "轴系",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "通海阀",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "主辅机",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "锅炉",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "contains",
+        "object": "工程船舶专用设备",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "锈蚀",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "外板",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "甲板",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "板材",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "主机",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "辅机",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "管系",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "锅炉内部清洗",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "炉管",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "小牵条",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "焊补裂缝",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "水压试验",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "工程专用设备",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "挖泥工具",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "泥泵",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "桩锤",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "acts_on",
+        "object": "绞机",
+        "chunk_id": "1300"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "机动船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "工程船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "冷藏驳船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "食品驳船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "一级油驳船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "绞滩船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "泵船",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "货驳",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "二级以下油驳",
+        "chunk_id": "1301"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "定期检查",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "拆装工程",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "除锈油漆",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换部分船壳",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换甲板",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换骨架",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "主机解体修理",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换主机主要部件",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "辅机出舱修理",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "整台更新辅机",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "锅炉抽出炉胆",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "割换燃烧室",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "水压试验",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "工程船专业设备拆验",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换挖泥设备主要部件",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换打桩设备主要部件",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换起重设备主要部件",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "contains",
+        "object": "更换专用电气设备",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "船体",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "主辅机",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "锅炉",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "主机",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "辅机",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "燃烧室",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "水",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "试验",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "修理项目",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "has",
+        "object": "上层建筑",
+        "chunk_id": "1302"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "机动船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "工程船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "绞滩船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "冷藏驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "食品驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "一级油驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "海上钢质泵船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "江河钢质泵船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "货驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "检修",
+        "relation": "applied_to",
+        "object": "二级以下油驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "机动船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "工程船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "绞滩船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "冷藏驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "食品驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "一级油驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "海上钢质泵船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "江河钢质泵船",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "货驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "小修",
+        "relation": "applied_to",
+        "object": "二级以下油驳",
+        "chunk_id": "1303"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "belongs_to",
+        "object": "修理",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "uses",
+        "object": "验船报告",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "requires",
+        "object": "修船单",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "results_in",
+        "object": "修理费",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "affects",
+        "object": "索赔",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "part_of",
+        "object": "修理工程",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "事故修理",
+        "relation": "precedes",
+        "object": "计划养护修理",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "belongs_to",
+        "object": "修理",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "applies_to",
+        "object": "沉船",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "applies_to",
+        "object": "火灾船只",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "requires",
+        "object": "修船单",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "results_in",
+        "object": "修理费",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "affects",
+        "object": "索赔",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "基本恢复修理",
+        "relation": "part_of",
+        "object": "修理工程",
+        "chunk_id": "1304"
+    },
+    {
+        "subject": "船舶",
+        "relation": "belongs_to",
+        "object": "修理工程",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船",
+        "relation": "belongs_to",
+        "object": "修理工程",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_in",
+        "object": "修理工程",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_in",
+        "object": "修船",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单",
+        "relation": "used_in",
+        "object": "船体修理",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "船体修理技术标准",
+        "relation": "applied_to",
+        "object": "修船",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "船体修理技术标准",
+        "relation": "applied_to",
+        "object": "船体修理",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "船员",
+        "relation": "precedes",
+        "object": "修理工程",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "保养",
+        "relation": "precedes",
+        "object": "修理工程",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船措施",
+        "relation": "improves",
+        "object": "修船质量",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船措施",
+        "relation": "improves",
+        "object": "修船周期",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船措施",
+        "relation": "improves",
+        "object": "船舶技术状况",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船措施",
+        "relation": "enables",
+        "object": "保养",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单位",
+        "relation": "connects_to",
+        "object": "用船单位",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单位",
+        "relation": "connects_to",
+        "object": "验船单位",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单位",
+        "relation": "connects_to",
+        "object": "用船单位",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "修船单位",
+        "relation": "connects_to",
+        "object": "验船单位",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "定点修船",
+        "relation": "located_at",
+        "object": "长江沿岸的船厂",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "定点修船",
+        "relation": "located_at",
+        "object": "长江沿岸的船厂",
+        "chunk_id": "1305"
+    },
+    {
+        "subject": "船舶修理",
+        "relation": "contains",
+        "object": "准备工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "船舶修理",
+        "relation": "contains",
+        "object": "基本工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "船舶修理",
+        "relation": "contains",
+        "object": "辅助工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "准备工作",
+        "relation": "uses",
+        "object": "脚手架",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "准备工作",
+        "relation": "uses",
+        "object": "动力与能源",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "准备工作",
+        "relation": "uses",
+        "object": "材料准备",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "准备工作",
+        "relation": "uses",
+        "object": "起重运输工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "准备工作",
+        "relation": "uses",
+        "object": "清理现场工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "基本工作",
+        "relation": "acts_on",
+        "object": "船体构件",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "基本工作",
+        "relation": "acts_on",
+        "object": "管系",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "基本工作",
+        "relation": "acts_on",
+        "object": "构件",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "基本工作",
+        "relation": "outputs",
+        "object": "试验",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "辅助工作",
+        "relation": "uses",
+        "object": "脚手架",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "辅助工作",
+        "relation": "uses",
+        "object": "动力与能源",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "辅助工作",
+        "relation": "uses",
+        "object": "材料准备",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "辅助工作",
+        "relation": "uses",
+        "object": "起重运输工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "辅助工作",
+        "relation": "uses",
+        "object": "清理现场工作",
+        "chunk_id": "1306"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "明火作业",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "切割",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "装配",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "焊接",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "照明",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "手电筒",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "通风",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "修船",
+        "relation": "uses",
+        "object": "安全操作规程",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "油水舱",
+        "relation": "contains",
+        "object": "有毒气体",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "油水舱",
+        "relation": "acts_on",
+        "object": "可燃气体测爆检查",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "油水舱",
+        "relation": "acts_on",
+        "object": "明火作业",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "燃油舱",
+        "relation": "acts_on",
+        "object": "可燃气体测爆检查",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "油管",
+        "relation": "acts_on",
+        "object": "可燃气体测爆检查",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "机舱",
+        "relation": "acts_on",
+        "object": "明火作业",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "阀件",
+        "relation": "uses",
+        "object": "安全操作规程",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "电气开关",
+        "relation": "uses",
+        "object": "安全操作规程",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "工作场所",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "工作场所",
+        "relation": "uses",
+        "object": "劳动监护制度",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "工作场所",
+        "relation": "uses",
+        "object": "整理",
+        "chunk_id": "1307"
+    },
+    {
+        "subject": "电气",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "明火作业",
+        "relation": "acts_on",
+        "object": "电缆",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "明火作业",
+        "relation": "acts_on",
+        "object": "木质舾装设施",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "甲板",
+        "relation": "connects_to",
+        "object": "骨架",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "拆除",
+        "relation": "applied_to",
+        "object": "电缆",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "拆除",
+        "relation": "applied_to",
+        "object": "木质舾装设施",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "入孔盖",
+        "relation": "belongs_to",
+        "object": "舱室",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "水密舱口盖",
+        "relation": "belongs_to",
+        "object": "舱口",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "舷侧板",
+        "relation": "supports",
+        "object": "甲板",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "甲板",
+        "relation": "supports",
+        "object": "人员",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "甲板",
+        "relation": "supports",
+        "object": "货物",
+        "chunk_id": "1308"
+    },
+    {
+        "subject": "勘验",
+        "relation": "inputs",
+        "object": "修船单",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "勘验",
+        "relation": "uses",
+        "object": "测量",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "勘验",
+        "relation": "uses",
+        "object": "检验",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "勘验",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "勘验",
+        "relation": "affects",
+        "object": "修理工程",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "随船勘验",
+        "relation": "acts_on",
+        "object": "动力装置",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "随船勘验",
+        "relation": "acts_on",
+        "object": "船舶设备",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "随船勘验",
+        "relation": "acts_on",
+        "object": "零件",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "随船勘验",
+        "relation": "acts_on",
+        "object": "设计",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "随船勘验",
+        "relation": "prepares_for",
+        "object": "修订修船单",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "码头勘验",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "码头勘验",
+        "relation": "acts_on",
+        "object": "修理工程",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "码头勘验",
+        "relation": "prepares_for",
+        "object": "交船验收",
+        "chunk_id": "1309"
+    },
+    {
+        "subject": "勘验",
+        "relation": "inputs",
+        "object": "外板展开图",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "勘验",
+        "relation": "inputs",
+        "object": "舾装布置图",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "勘验",
+        "relation": "inputs",
+        "object": "脚手架",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "修理范围",
+        "relation": "determined_by",
+        "object": "勘验",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "小修",
+        "relation": "part_of",
+        "object": "修理",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "主修(主管)师",
+        "relation": "collaborates_with",
+        "object": "委修方",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "修理范围",
+        "relation": "determined_by",
+        "object": "主修(主管)师",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "修理范围",
+        "relation": "determined_by",
+        "object": "委修方",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "外板",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "舱口",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "船舶",
+        "relation": "contains",
+        "object": "脚手架",
+        "chunk_id": "1310"
+    },
+    {
+        "subject": "船体部分",
+        "relation": "contains",
+        "object": "水舱",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "水舱",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "水舱",
+        "relation": "has",
+        "object": "腐蚀",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "油船",
+        "relation": "contains",
+        "object": "油舱",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "油舱",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "油舱",
+        "relation": "has",
+        "object": "锈蚀",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "锈蚀",
+        "relation": "has",
+        "object": "附着力",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "纵骨架式",
+        "relation": "contains",
+        "object": "肋骨",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "肋骨",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "肋骨",
+        "relation": "has",
+        "object": "锈蚀",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "横梁",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "横梁",
+        "relation": "has",
+        "object": "变形",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "甲板",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "甲板",
+        "relation": "has",
+        "object": "变形",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "has",
+        "object": "变形",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "has",
+        "object": "皱折",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "变形",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "uses",
+        "object": "起重能力",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "assembles_into",
+        "object": "分段",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船厂",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "分段",
+        "relation": "uses",
+        "object": "起重",
+        "chunk_id": "1311"
+    },
+    {
+        "subject": "舾装件",
+        "relation": "uses",
+        "object": "标准件",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "机器设备",
+        "relation": "uses",
+        "object": "吊运",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "电气设备",
+        "relation": "uses",
+        "object": "吊运",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "管系",
+        "relation": "uses",
+        "object": "吊运",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "舾装零件",
+        "relation": "uses",
+        "object": "吊运",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "舵设备",
+        "relation": "part_of",
+        "object": "舵",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "舵杆",
+        "relation": "part_of",
+        "object": "舵设备",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "舵杆",
+        "relation": "part_of",
+        "object": "舵",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "舵设备",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "uses",
+        "object": "除锈",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "uses",
+        "object": "验船师",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "阀件",
+        "relation": "uses",
+        "object": "吊运",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "锈蚀",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "变形",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "炉膛",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "钢索",
+        "relation": "used_in",
+        "object": "吊运",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锈蚀",
+        "relation": "affects",
+        "object": "密性试验",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "外部附件",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "内部",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "阀件",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "炉膛变形",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "下垂度",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "锅炉",
+        "relation": "has",
+        "object": "椭圆度",
+        "chunk_id": "1312"
+    },
+    {
+        "subject": "勘验",
+        "relation": "contains",
+        "object": "木工",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "勘验",
+        "relation": "contains",
+        "object": "油漆",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "拆卸",
+        "relation": "acts_on",
+        "object": "木工",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "检修",
+        "relation": "inputs",
+        "object": "木工",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "委修方",
+        "relation": "requires",
+        "object": "木工换新",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "委修方",
+        "relation": "requires",
+        "object": "木工修理",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "木工",
+        "relation": "requires",
+        "object": "换新",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "委修方",
+        "relation": "requires",
+        "object": "家具拆下保存",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "家具",
+        "relation": "responsible_for",
+        "object": "船方",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "换新",
+        "relation": "acts_on",
+        "object": "木工家具",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "委修方",
+        "relation": "requires",
+        "object": "确认家具式样",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "油漆",
+        "relation": "acts_on",
+        "object": "船体",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "除锈",
+        "relation": "applied_to",
+        "object": "船体",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "除锈",
+        "relation": "applied_to",
+        "object": "油漆",
+        "chunk_id": "1313"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "勘验",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "检修",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "修理",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "协议书",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "修理单",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "修理范围",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "委修方",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "验船师",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船",
+        "relation": "contains",
+        "object": "主修(主管)师",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "勘验",
+        "relation": "precedes",
+        "object": "修船审查会议",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "修船审查会议",
+        "relation": "outputs",
+        "object": "协议书",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "勘验",
+        "relation": "acts_on",
+        "object": "修理单",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "勘验",
+        "relation": "acts_on",
+        "object": "修理范围",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "小修",
+        "relation": "part_of",
+        "object": "修船",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "小修",
+        "relation": "precedes",
+        "object": "修理",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "规范",
+        "relation": "affects",
+        "object": "修理",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "规范",
+        "relation": "affects",
+        "object": "舾装件",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "规范",
+        "relation": "affects",
+        "object": "标准件",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "舾装件",
+        "relation": "part_of",
+        "object": "舾装",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "标准件",
+        "relation": "part_of",
+        "object": "舾装",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船体",
+        "relation": "acts_on",
+        "object": "勘验",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船体",
+        "relation": "acts_on",
+        "object": "测量",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船体",
+        "relation": "acts_on",
+        "object": "检验",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船体",
+        "relation": "contains",
+        "object": "船体测量",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船体测量",
+        "relation": "acts_on",
+        "object": "船体",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船体测量",
+        "relation": "part_of",
+        "object": "勘验",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "测量",
+        "relation": "acts_on",
+        "object": "船体",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "测量",
+        "relation": "part_of",
+        "object": "检验",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "检验",
+        "relation": "part_of",
+        "object": "修船",
+        "chunk_id": "1314"
+    },
+    {
+        "subject": "船底望光法",
+        "relation": "applied_to",
+        "object": "船体纵向变形测量",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "遮板",
+        "relation": "has",
+        "object": "横缝",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "遮板",
+        "relation": "located_at",
+        "object": "船底水平部分",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "光源",
+        "relation": "located_at",
+        "object": "遮板外侧",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "测量站",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "测量站",
+        "relation": "connects_to",
+        "object": "遮板",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "直尺",
+        "relation": "used_for",
+        "object": "凹陷、弯曲及其他变形检查",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "样板",
+        "relation": "used_for",
+        "object": "凹陷、弯曲及其他变形检查",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "钢板",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "锈蚀",
+        "relation": "affects",
+        "object": "钢板厚度",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "锈蚀",
+        "relation": "measured_at",
+        "object": "钢板",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "肋距",
+        "relation": "affects",
+        "object": "锈蚀测量",
+        "chunk_id": "1315"
+    },
+    {
+        "subject": "钢板",
+        "relation": "uses",
+        "object": "超声波测厚仪",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "钢板",
+        "relation": "uses",
+        "object": "标准厚度样块",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "钢板",
+        "relation": "uses",
+        "object": "测厚孔",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "uses",
+        "object": "电焊",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "has",
+        "object": "熔注金属",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "熔注金属",
+        "relation": "affects",
+        "object": "钢板表面",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "has",
+        "object": "焊透板厚",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "焊透板厚",
+        "relation": "determines",
+        "object": "焊补质量",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "located_at",
+        "object": "蚀斑边缘",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "affects",
+        "object": "测厚结果",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "connects_to",
+        "object": "水线",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "affects",
+        "object": "锈蚀",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "has",
+        "object": "捻缝",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "捻缝",
+        "relation": "affects",
+        "object": "钢板外表面",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "located_at",
+        "object": "船体",
+        "chunk_id": "1316"
+    },
+    {
+        "subject": "超声波测厚仪",
+        "relation": "uses",
+        "object": "电源",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "超声波测厚仪",
+        "relation": "uses",
+        "object": "探头",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "超声波测厚仪",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "uses",
+        "object": "超声波测厚仪",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "precedes",
+        "object": "校核",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "除锈",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "part_of",
+        "object": "钢板",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚孔",
+        "relation": "located_at",
+        "object": "蚀斑边缘",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "除锈",
+        "relation": "acts_on",
+        "object": "钢材",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "除锈",
+        "relation": "prepares_for",
+        "object": "测厚",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "超声波",
+        "relation": "applied_to",
+        "object": "测厚",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "超声波",
+        "relation": "used_in",
+        "object": "密性试验",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "超声波测厚仪",
+        "relation": "used_in",
+        "object": "测厚",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚仪",
+        "relation": "used_in",
+        "object": "漆膜厚度检测",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "affects",
+        "object": "材料厚度",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "校核",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "清除表面污锈",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "清除涂料",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "清除毛刺",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "uses",
+        "object": "机油",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "uses",
+        "object": "甘油",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "uses",
+        "object": "水玻璃",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "水平放置",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "探头与钢材表面接触",
+        "chunk_id": "1317"
+    },
+    {
+        "subject": "测厚",
+        "relation": "requires",
+        "object": "径向移动",
+        "chunk_id": "1317"
+    }
+]

@@ -27,6 +27,7 @@ class RelationExtractor:
     
     def __init__(self, log_dir: str = "logs", log_level: int = logging.INFO, entities_file: str="./kg_output/entities_kb.json"):
         self.model = VLLMModel().get_local_model()
+        # self.model = VLLMModel().get_model()
         self.log_dir = log_dir
         os.makedirs(log_dir, exist_ok=True)
         self._setup_logger(log_level)
@@ -238,8 +239,8 @@ class RelationExtractor:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Extract relations (triples) from text chunks using pre-extracted entities')
-    parser.add_argument('--start', type=int, default=0, help='Start chunk index (inclusive)')
-    parser.add_argument('--end', type=int, default=1, help='End chunk index (exclusive)')
+    parser.add_argument('--start', type=int, default=1535, help='Start chunk index (inclusive)')
+    parser.add_argument('--end', type=int, default=1536, help='End chunk index (exclusive)')
     parser.add_argument('--input_file', type=str, default="./chunks_output/relation_chunks.jsonl", 
                        help='Input JSONL file path')
     parser.add_argument('--entities_file', type=str, default="./kg_output/entities_kb.json",

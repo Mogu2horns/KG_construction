@@ -1,0 +1,110 @@
+[
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "applied_to",
+        "object": "船体分道建造",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "applied_to",
+        "object": "单元舾装",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "applied_to",
+        "object": "分段舾装",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "applied_to",
+        "object": "船上舾装",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "uses",
+        "object": "成组技术",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "produces",
+        "object": "中间产品",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "壳舾涂一体化",
+        "relation": "uses",
+        "object": "产品导向型工程分解",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船体分道建造",
+        "relation": "uses",
+        "object": "成组技术",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船体分道建造",
+        "relation": "produces",
+        "object": "船体零件",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船体分道建造",
+        "relation": "produces",
+        "object": "部件",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船体分道建造",
+        "relation": "produces",
+        "object": "分段",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船体分道建造",
+        "relation": "assembles_into",
+        "object": "生产线",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "族制造",
+        "relation": "uses",
+        "object": "成组技术",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "族制造",
+        "relation": "applied_to",
+        "object": "管件族制造",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "产品导向型工程分解",
+        "relation": "refines",
+        "object": "船舶",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "产品导向型工程分解",
+        "relation": "produces",
+        "object": "中间产品",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船厂",
+        "relation": "uses",
+        "object": "壳舾涂一体化",
+        "chunk_id": "368"
+    },
+    {
+        "subject": "船厂",
+        "relation": "has",
+        "object": "舾装完成率",
+        "chunk_id": "368"
+    }
+]

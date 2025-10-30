@@ -1,0 +1,3206 @@
+[
+    {
+        "subject": "干货船",
+        "relation": "contains",
+        "object": "冷藏室",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "干货船",
+        "relation": "contains",
+        "object": "货舱",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏室",
+        "relation": "used_for",
+        "object": "冷藏货物",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏室",
+        "relation": "used_for",
+        "object": "冷藏肉类",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏室",
+        "relation": "used_for",
+        "object": "水果和蔬菜",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "冷藏货物",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "冷冻肉类",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "货舱",
+        "relation": "contains",
+        "object": "板条箱",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "隔热层",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏肉类",
+        "relation": "located_at",
+        "object": "强力甲板加强筋",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "supports",
+        "object": "冷藏肉类",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷冻肉类",
+        "relation": "located_at",
+        "object": "货舱",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "水果和蔬菜",
+        "relation": "located_at",
+        "object": "板条箱",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "制冷机",
+        "relation": "uses",
+        "object": "蒸发器",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "蒸发器",
+        "relation": "connects_to",
+        "object": "冷藏舱室",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "盐水",
+        "relation": "used_for",
+        "object": "冷却",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "盐水",
+        "relation": "used_for",
+        "object": "冷藏舱室",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "风扇",
+        "relation": "acts_on",
+        "object": "空气",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "线槽",
+        "relation": "connects_to",
+        "object": "冷藏舱室",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "格形箱",
+        "relation": "used_for",
+        "object": "冷却",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "中横剖面图",
+        "relation": "shows",
+        "object": "隔热层",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "中横剖面图",
+        "relation": "shows",
+        "object": "冷藏货物运输船",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏货物运输船",
+        "relation": "has",
+        "object": "中横剖面图",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏货物运输船",
+        "relation": "has",
+        "object": "隔热层",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏货物运输船",
+        "relation": "has",
+        "object": "货舱",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏货物运输船",
+        "relation": "has",
+        "object": "冷藏室",
+        "chunk_id": "1668"
+    },
+    {
+        "subject": "冷藏室",
+        "relation": "requires",
+        "object": "隔热措施",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "软木",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "玻璃纤维",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "泡沫塑料",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热措施",
+        "relation": "uses",
+        "object": "真空",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "重量轻",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "防虫",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "耐火",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "玻璃纤维",
+        "relation": "has",
+        "object": "不吸收水分",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "矿棉板",
+        "relation": "has",
+        "object": "防火",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "矿棉板",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "used_in",
+        "object": "甲板",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "used_in",
+        "object": "内底",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "has",
+        "object": "承重材料",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "preferred",
+        "object": "软木",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "can_use",
+        "object": "榫槽板衬里",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "can_use",
+        "object": "木质承载件",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "determined_by",
+        "object": "厚度",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "加强筋组件",
+        "relation": "determines",
+        "object": "厚度",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "fixed_by",
+        "object": "镀锌钢板",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "fixed_by",
+        "object": "铝合金板",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "fixed_by",
+        "object": "框架",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热材料",
+        "relation": "fixed_by",
+        "object": "加强构件",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "油轮",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "双层底油舱",
+        "relation": "has",
+        "object": "隔热层",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热层",
+        "relation": "has",
+        "object": "真空层",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "真空层",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "真空层",
+        "relation": "has",
+        "object": "至少为 $50mathrm{mm}$",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "耐油深层",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "耐油深层",
+        "relation": "has",
+        "object": "超过 $5mathrm{mm}$",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "冷冻室",
+        "relation": "has",
+        "object": "隔热门",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "冷冻货船",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "冷冻货船",
+        "relation": "has",
+        "object": "舱室",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "冷冻货船",
+        "relation": "has",
+        "object": "舱口",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "专利钢盖",
+        "relation": "has",
+        "object": "隔热材料",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "箱型舱口盖",
+        "relation": "has",
+        "object": "隔热材料",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "箱型舱口盖",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1669"
+    },
+    {
+        "subject": "隔热空间",
+        "relation": "has",
+        "object": "排水孔",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "affects",
+        "object": "隔热效果",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "connects_to",
+        "object": "隔热舱",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "海水井",
+        "relation": "located_at",
+        "object": "二层甲板",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "海水井",
+        "relation": "has",
+        "object": "海水",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "海水",
+        "relation": "affects",
+        "object": "隔热效果",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "冷冻货物",
+        "relation": "transported_by",
+        "object": "冷藏船",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "集装箱船",
+        "relation": "has",
+        "object": "冷冻集装箱",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "冷冻集装箱",
+        "relation": "replaces",
+        "object": "传统冷藏船",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "ISO集装箱",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "甲板以下舱室",
+        "relation": "has",
+        "object": "盐水冷却器",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "盐水冷却器",
+        "relation": "connects_to",
+        "object": "隔热集装箱",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "冷空气管",
+        "relation": "connects_to",
+        "object": "隔热集装箱",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "甲板以下系统",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "货舱区域",
+        "relation": "has",
+        "object": "隔热",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "舷侧舱壁",
+        "relation": "has",
+        "object": "防火泡沫",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "has",
+        "object": "软木",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "二层甲板",
+        "relation": "has",
+        "object": "沥青",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "冷冻集装箱",
+        "relation": "located_at",
+        "object": "船尾货舱",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "甲板以上冷冻集装箱",
+        "relation": "driven_by",
+        "object": "空气冷凝电动机",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "冷却单元",
+        "relation": "connects_to",
+        "object": "船舶电力系统",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "短程航行",
+        "relation": "uses",
+        "object": "水冷单元",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "水冷单元",
+        "relation": "applied_to",
+        "object": "下甲板集装箱",
+        "chunk_id": "1670"
+    },
+    {
+        "subject": "整体空冷机",
+        "relation": "drives",
+        "object": "冷却单元",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "冷却单元",
+        "relation": "located_at",
+        "object": "货舱",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "冷却单元",
+        "relation": "located_at",
+        "object": "上甲板",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "船舶建造",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "船舶安全",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "环境保护",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "防止海洋污染",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "船舶设计",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "responsible_for",
+        "object": "装备",
+        "chunk_id": "1671"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "1969年国际船舶吨位丈量公约",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "1966年国际载重线公约",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "1974年国际海上人命安全公约",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "IMO决议MSC.287（87）",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "IMO决议MSC.287（87）",
+        "relation": "适用于",
+        "object": "散货船",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "IMO决议MSC.287（87）",
+        "relation": "适用于",
+        "object": "油轮",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "制定",
+        "object": "国际防止船舶造成污染公约",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "国际防止船舶造成污染公约",
+        "relation": "涉及",
+        "object": "油轮",
+        "chunk_id": "1672"
+    },
+    {
+        "subject": "IMO",
+        "relation": "belongs_to",
+        "object": "国际组织",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "船舶结构设计标准",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "船舶安全标准",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "涂层标准",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "散货船安全规范",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "IMO",
+        "relation": "determines",
+        "object": "MARPOL公约的修订",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "belongs_to",
+        "object": "成员国",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "responsible_for",
+        "object": "海上航行安全",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "responsible_for",
+        "object": "法律起草和执行",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "公约许可证书",
+        "relation": "requires",
+        "object": "国际贸易船舶",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "公约许可证书",
+        "relation": "issued_by",
+        "object": "船旗国管理部门",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "客轮安全证书",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "货船结构安全证书",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "货船设备安全证书",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "SOLAS公约",
+        "relation": "determines",
+        "object": "货船无线电安全证书",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "货船结构安全证书",
+        "relation": "applies_to",
+        "object": "总吨位大于等于500总吨的货船",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "货船设备安全证书",
+        "relation": "applies_to",
+        "object": "总吨位大于等于500总吨的货船",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "货船无线电安全证书",
+        "relation": "applies_to",
+        "object": "总吨位大于等于300总吨的货船",
+        "chunk_id": "1673"
+    },
+    {
+        "subject": "货船",
+        "relation": "requires",
+        "object": "货船安全证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "油船",
+        "relation": "requires",
+        "object": "国际防止油类污染证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "非油船",
+        "relation": "requires",
+        "object": "国际防止油类污染证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "注册船旗的船舶",
+        "relation": "requires",
+        "object": "国际防止生活污水污染证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "注册船旗的船舶",
+        "relation": "requires",
+        "object": "防止大气污染证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "客轮",
+        "relation": "requires",
+        "object": "国际载重线证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "货船",
+        "relation": "requires",
+        "object": "国际载重线证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "所有船舶",
+        "relation": "requires",
+        "object": "国际吨位证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "船级社",
+        "relation": "certifies",
+        "object": "载重线标志",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "船级社",
+        "relation": "issues",
+        "object": "公约证书",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "船级社",
+        "relation": "represents",
+        "object": "IMO成员国",
+        "chunk_id": "1674"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "determines",
+        "object": "国际船舶吨位丈量公约",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "applied_to",
+        "object": "船舶",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "determines",
+        "object": "国际标准",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "enables",
+        "object": "吨位丈量",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "has",
+        "object": "密闭空间总容积",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "has",
+        "object": "密闭空间总容积",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "determines",
+        "object": "船舶有效舱容",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "constrained_by",
+        "object": "1994年7月18日",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "国际船舶吨位丈量公约",
+        "relation": "precedes",
+        "object": "船舶建造",
+        "chunk_id": "1675"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "determines",
+        "object": "载重量",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "货物",
+        "relation": "has",
+        "object": "总体积",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "型吃水",
+        "relation": "affects",
+        "object": "净吨位",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "型深",
+        "relation": "affects",
+        "object": "净吨位",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "净吨位",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "船旗国",
+        "relation": "belongs_to",
+        "object": "海事局",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "国际吨位证书",
+        "relation": "issued_by",
+        "object": "船旗国海事局",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "船级社",
+        "relation": "authorized_to",
+        "object": "丈量吨位",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "船级社",
+        "relation": "authorized_to",
+        "object": "颁发国际吨位证书",
+        "chunk_id": "1676"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "uses",
+        "object": "型尺寸",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "净吨位",
+        "relation": "uses",
+        "object": "型尺寸",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "苏伊士运河吨位规范",
+        "relation": "determines",
+        "object": "船舶净吨位",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "巴拿马运河吨位规范",
+        "relation": "determines",
+        "object": "船舶净吨位",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "国际海事组织",
+        "relation": "recognizes",
+        "object": "1981年巴拿马和苏伊士运河吨位丈量公约",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "巴拿马运河海事局",
+        "relation": "develops",
+        "object": "净吨位丈量系统",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "巴拿马运河海事局",
+        "relation": "uses",
+        "object": "TEU",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "巴拿马运河海事局",
+        "relation": "measures",
+        "object": "主甲板以下空间",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "巴拿马运河管理局",
+        "relation": "authorizes",
+        "object": "船级社",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "苏伊士运河管理局",
+        "relation": "authorizes",
+        "object": "船级社",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "总吨位",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "船舶尺寸",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "检测员",
+        "relation": "measures",
+        "object": "肋骨和桁材的内部空间",
+        "chunk_id": "1677"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determines",
+        "object": "船舶制造总量",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "affects",
+        "object": "船舶制造总量",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "uses",
+        "object": "总吨位",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "修正总吨（CGT）",
+        "relation": "determined_by",
+        "object": "修正因子",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "修正因子",
+        "relation": "determined_by",
+        "object": "船型",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "修正因子",
+        "relation": "determined_by",
+        "object": "船舶尺寸",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "OECD",
+        "relation": "belongs_to",
+        "object": "机构",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "西欧造船厂联合会",
+        "relation": "belongs_to",
+        "object": "机构",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "日本造船协会",
+        "relation": "belongs_to",
+        "object": "机构",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determined_by",
+        "object": "船长",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determined_by",
+        "object": "船型",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶稳性",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶浮性",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "国际载重线公约",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "国际载重线公约",
+        "relation": "belongs_to",
+        "object": "规范",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "载重线",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "1678"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶稳性",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "规范",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶安全性",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶浮性",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "载重线",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶抗沉性",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "舱口盖安装",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "风雨密要求",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "腊甲板比例",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶吃水",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶自由板",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计参数",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶规范",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶类型",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶结构",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶强度",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶载重能力",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶建造",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶工艺",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶性能",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计参数",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶规范",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶类型",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶结构",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶强度",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶载重能力",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶建造",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶工艺",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶性能",
+        "chunk_id": "1679"
+    },
+    {
+        "subject": "舱口",
+        "relation": "supports",
+        "object": "舱口盖",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "part_of",
+        "object": "干舷甲板",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "干舷甲板",
+        "relation": "part_of",
+        "object": "甲板",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "排水装置",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "分舱特性",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "钢制风雨密舱口盖",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "船员保护措施",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "干舷",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶稳性",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船舶安全性",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "A型船舶",
+        "relation": "belongs_to",
+        "object": "船舶",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "belongs_to",
+        "object": "B型船舶",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "has",
+        "object": "干舷",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "has",
+        "object": "船长",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "船长",
+        "relation": "determines",
+        "object": "干舷",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "分舱要求",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "船舶类型",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "干舷",
+        "relation": "constrained_by",
+        "object": "船员保护措施",
+        "chunk_id": "1680"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "determines",
+        "object": "干舷",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-60型船舶",
+        "relation": "belongs_to",
+        "object": "B型船舶",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "散货船",
+        "relation": "belongs_to",
+        "object": "B-60型船舶",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-60型船舶",
+        "relation": "has",
+        "object": "干舷",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "矿砂船",
+        "relation": "belongs_to",
+        "object": "B-100型船舶",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "belongs_to",
+        "object": "B型船舶",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "has",
+        "object": "纵向舱壁",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "has",
+        "object": "边舱",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "A型船舶",
+        "relation": "has",
+        "object": "可浸舱室",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-60型船舶",
+        "relation": "has",
+        "object": "可浸舱室",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "has",
+        "object": "可浸舱室",
+        "chunk_id": "1681"
+    },
+    {
+        "subject": "A型船舶",
+        "relation": "has",
+        "object": "分舱要求",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "B-60型船舶",
+        "relation": "has",
+        "object": "分舱要求",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "B-100型船舶",
+        "relation": "has",
+        "object": "分舱要求",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "货舱",
+        "relation": "has",
+        "object": "渗透率",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "机舱",
+        "relation": "has",
+        "object": "渗透率",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "横舱壁",
+        "relation": "has",
+        "object": "浸透率",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "水线",
+        "relation": "has",
+        "object": "开口",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "稳心高度",
+        "relation": "has",
+        "object": "最大横倾角",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "船型",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "舵杆水线",
+        "relation": "used_in",
+        "object": "干舷计算",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "型深",
+        "relation": "used_in",
+        "object": "干舷计算",
+        "chunk_id": "1682"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "平甲板",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "方形系数",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "方形系数",
+        "relation": "determines",
+        "object": "干舷",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "吃水",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "型排水量",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "型排水量",
+        "relation": "determines",
+        "object": "方形系数",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船长",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "干舷长度",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷长度",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "B型船舶",
+        "relation": "affects",
+        "object": "平甲板",
+        "chunk_id": "1683"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "型深",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "稳性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "载重线",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "抗沉性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "吃水",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "浮性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "自由板",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "舱口盖安装",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "风雨密要求",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑有效长度",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "甲板开口保护",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "上层建筑修正",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船长",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "线性插值",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "上层建筑",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "凸形甲板",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "规范",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体强度",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体变形",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体应力",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体结构",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体设计",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体建造",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体工艺",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体性能",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体安全",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体可靠性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体稳定性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体适航性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体经济性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "船体环保性",
+        "chunk_id": "1684"
+    },
+    {
+        "subject": "规范",
+        "relation": "contains",
+        "object": "B型船首楼尺寸的修正",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "规范",
+        "relation": "contains",
+        "object": "舷弧修正",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "舷弧修正",
+        "relation": "affects",
+        "object": "干舷甲板",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "船首",
+        "relation": "has",
+        "object": "纵坐标值",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "船尾",
+        "relation": "has",
+        "object": "纵坐标值",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "船楼",
+        "relation": "affects",
+        "object": "干舷甲板",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "干舷甲板",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1685"
+    },
+    {
+        "subject": "舷弧",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "舷弧",
+        "relation": "determines",
+        "object": "修正值",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "标准舷弧",
+        "relation": "compared_to",
+        "object": "实际舷弧",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "修正值",
+        "relation": "applied_to",
+        "object": "干舷",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "located_at",
+        "object": "船中前后各 0.1L",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "covers",
+        "object": "船中",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "线性插值",
+        "relation": "applied_to",
+        "object": "减除量",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "多余舷弧",
+        "relation": "reduces",
+        "object": "干舷",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "船长",
+        "relation": "related_to",
+        "object": "多余舷弧减除量",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "船首高度",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "船首高度",
+        "relation": "defined_as",
+        "object": "首垂线处自核定夏季干舷水线到舷侧露天甲板上边的垂直距离",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "船首高度",
+        "relation": "constrained_by",
+        "object": "公约规范值",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "干舷",
+        "relation": "matches_with",
+        "object": "最大几何夏季吃水",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "船东",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "船东",
+        "relation": "requires",
+        "object": "干舷设定",
+        "chunk_id": "1686"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "夏季干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "热带干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "冬季干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "北大西洋冬季干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "最小干舷",
+        "relation": "determines",
+        "object": "木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "夏季干舷",
+        "relation": "affects",
+        "object": "热带干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "夏季干舷",
+        "relation": "affects",
+        "object": "冬季干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "夏季干舷",
+        "relation": "affects",
+        "object": "木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "夏季型吃水",
+        "relation": "affects",
+        "object": "热带干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "夏季型吃水",
+        "relation": "affects",
+        "object": "冬季干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "夏季型吃水",
+        "relation": "affects",
+        "object": "木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "TPC",
+        "relation": "affects",
+        "object": "淡水区船舶的最小干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "排水量",
+        "relation": "affects",
+        "object": "淡水区船舶的最小干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "冬季木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "热带木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "淡水木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "determines",
+        "object": "北大西洋木材干舷",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "木材干舷",
+        "relation": "affects",
+        "object": "上层建筑",
+        "chunk_id": "1687"
+    },
+    {
+        "subject": "干舷",
+        "relation": "affects",
+        "object": "稳性",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "干舷",
+        "relation": "determines",
+        "object": "船舶设计",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "上层建筑端壁",
+        "relation": "part_of",
+        "object": "上层建筑",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "上层建筑端壁",
+        "relation": "has",
+        "object": "基线高度",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "has",
+        "object": "建造高度",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "located_at",
+        "object": "露天干舷",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "舱口围板",
+        "relation": "located_at",
+        "object": "露天上层建筑甲板",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "防水油布",
+        "relation": "used_by",
+        "object": "舱口盖",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "part_of",
+        "object": "舱口",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "船长",
+        "relation": "affects",
+        "object": "舱口围板",
+        "chunk_id": "1688"
+    },
+    {
+        "subject": "舱口盖支承表面",
+        "relation": "has",
+        "object": "宽度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "木质舱口盖",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "木质舱口盖",
+        "relation": "has",
+        "object": "跨度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "可拆低碳钢舱口盖",
+        "relation": "determines",
+        "object": "强度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "船长",
+        "relation": "determines",
+        "object": "设定载荷",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "设定载荷",
+        "relation": "affects",
+        "object": "最大应力",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "最大应力",
+        "relation": "constrained_by",
+        "object": "材料的最小极限强度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "挠度",
+        "relation": "constrained_by",
+        "object": "跨距",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "低碳钢可拆梁",
+        "relation": "applied_to",
+        "object": "载荷",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "最大应力",
+        "relation": "constrained_by",
+        "object": "材料的最小极限强度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "挠度",
+        "relation": "constrained_by",
+        "object": "跨距",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "低碳钢镀层",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "加强筋间距",
+        "relation": "affects",
+        "object": "厚度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "活动梁",
+        "relation": "has",
+        "object": "建造强度",
+        "chunk_id": "1689"
+    },
+    {
+        "subject": "舱口楔耳",
+        "relation": "uses",
+        "object": "楔子",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "舱口楔耳",
+        "relation": "has",
+        "object": "斜度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "楔子",
+        "relation": "has",
+        "object": "斜度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "楔子",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "楔子",
+        "relation": "made_of",
+        "object": "硬质木材",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "requires",
+        "object": "钢制压条",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "防水油布",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "防水油布",
+        "relation": "has",
+        "object": "水密性",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "舱口栏板",
+        "relation": "related_to",
+        "object": "舱口盖",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "低碳钢舱口盖",
+        "relation": "has",
+        "object": "强度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "低碳钢舱口盖",
+        "relation": "has",
+        "object": "挠度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "低碳钢舱口盖",
+        "relation": "has",
+        "object": "厚度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "加强筋",
+        "relation": "related_to",
+        "object": "舱口盖",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "硬度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "管理机构",
+        "relation": "affects",
+        "object": "舱口栏板高度",
+        "chunk_id": "1690"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "has",
+        "object": "密封性",
+        "chunk_id": "1691"
+    },
+    {
+        "subject": "舱口盖",
+        "relation": "requires",
+        "object": "主管机关认可",
+        "chunk_id": "1691"
+    },
+    {
+        "subject": "舱棚",
+        "relation": "contains",
+        "object": "钢门",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "钢门",
+        "relation": "located_at",
+        "object": "舱棚出入口",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "钢门",
+        "relation": "has",
+        "object": "门槛",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "高度",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "位置1",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "高度600mm",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "位置2",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "门槛",
+        "relation": "has",
+        "object": "高度380mm",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "has",
+        "object": "支撑",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "located_at",
+        "object": "通风筒",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "has",
+        "object": "高度",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "位置1",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "900mm",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "位置2",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "高度",
+        "relation": "has",
+        "object": "760mm",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "通风筒围板",
+        "relation": "has",
+        "object": "水密装置",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "空气管",
+        "relation": "has",
+        "object": "结构",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "空气管",
+        "relation": "has",
+        "object": "加强",
+        "chunk_id": "1692"
+    },
+    {
+        "subject": "空气管",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "空气管",
+        "relation": "has",
+        "object": "密闭装置",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "空气管",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "空气管",
+        "relation": "located_at",
+        "object": "上层建筑",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "水密门",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "水密门",
+        "relation": "supports",
+        "object": "结构完整性",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "开口",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "开口",
+        "relation": "has",
+        "object": "水密门",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "排水口",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "排水口",
+        "relation": "has",
+        "object": "水密门",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "排水口",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "part_of",
+        "object": "排水口",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "used_by",
+        "object": "排水口",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "located_at",
+        "object": "排污管",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "has",
+        "object": "反向截止功能",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "自动止回阀",
+        "relation": "located_at",
+        "object": "夏季水线",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "part_of",
+        "object": "机器处所",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "机器处所",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "has",
+        "object": "就地控制",
+        "chunk_id": "1693"
+    },
+    {
+        "subject": "机器处所",
+        "relation": "contains",
+        "object": "排水孔",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "located_at",
+        "object": "船壳",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "排水孔",
+        "relation": "uses",
+        "object": "自动止回阀",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "has",
+        "object": "水密内侧窗盖",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "affects",
+        "object": "干舷甲板平行线",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "located_at",
+        "object": "舷墙",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "applied_to",
+        "object": "舷弧",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "has",
+        "object": "面积",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "面积",
+        "relation": "determined_by",
+        "object": "舷墙长度",
+        "chunk_id": "1694"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "located_at",
+        "object": "舷墙",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "舷墙排水口",
+        "relation": "supported_by",
+        "object": "栏杆",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "栏杆",
+        "relation": "has",
+        "object": "间距",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "护栏",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "护栏",
+        "relation": "located_at",
+        "object": "上层建筑甲板",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "护栏",
+        "relation": "has",
+        "object": "垂向间距",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "located_at",
+        "object": "上层建筑",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "舷窗",
+        "relation": "has",
+        "object": "最小高度",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "船员",
+        "relation": "protected_by",
+        "object": "护栏",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "船员",
+        "relation": "protected_by",
+        "object": "舷窗",
+        "chunk_id": "1695"
+    },
+    {
+        "subject": "机舱棚",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "机舱棚",
+        "relation": "uses",
+        "object": "水密门",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "舷梯步桥",
+        "relation": "located_at",
+        "object": "上层建筑甲板",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "舷梯步桥",
+        "relation": "connects_to",
+        "object": "甲板下过道",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "舱口",
+        "relation": "has",
+        "object": "水密舱盖",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "舱口",
+        "relation": "located_at",
+        "object": "干舷甲板",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "排水装置",
+        "relation": "located_at",
+        "object": "露天甲板",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "排水装置",
+        "relation": "uses",
+        "object": "栏杆",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "凸形甲板",
+        "relation": "connects_to",
+        "object": "上层建筑",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "凸形甲板",
+        "relation": "affects",
+        "object": "干舷",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "规范",
+        "relation": "applied_to",
+        "object": "船舶建造",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "规范",
+        "relation": "determines",
+        "object": "结构防火",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "国际海上人命安全公约",
+        "relation": "belongs_to",
+        "object": "公约",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "客轮",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "货轮",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "油船",
+        "relation": "belongs_to",
+        "object": "船舶类型",
+        "chunk_id": "1696"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "不燃性材料",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "自动防火监测和报警系统",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "自动喷水的报警系统",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "主船体",
+        "relation": "part_of",
+        "object": "A类区域",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "part_of",
+        "object": "A类区域",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "甲板室",
+        "relation": "part_of",
+        "object": "A类区域",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "A类主水平区域",
+        "relation": "has",
+        "object": "喷水和非喷水区域的屏障",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "主竖区",
+        "relation": "has",
+        "object": "A、B、C三级舱壁",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "B类封闭舱壁",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "自动防火监测和报警系统",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "烟雾探测",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "规范",
+        "relation": "requires",
+        "object": "手动报警按钮",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "总吨位",
+        "relation": "greater_than",
+        "object": "500t",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "散货船",
+        "relation": "uses",
+        "object": "钢制材料",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "居住空间",
+        "relation": "uses",
+        "object": "防火方法",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "Ic法",
+        "relation": "requires",
+        "object": "B级或C级分隔",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "Ic法",
+        "relation": "requires",
+        "object": "自动喷水装置",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "Ic法",
+        "relation": "requires",
+        "object": "火灾检测和报警系统",
+        "chunk_id": "1697"
+    },
+    {
+        "subject": "固定式火灾检测和报警系统",
+        "relation": "contains",
+        "object": "可能发生火源的所有处所",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "居住舱",
+        "relation": "part_of",
+        "object": "船舶",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "居住舱",
+        "relation": "determines",
+        "object": "A、B、C三级分隔",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "钢制隔热",
+        "relation": "used_in",
+        "object": "主要机舱顶棚",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "气体灭火系统",
+        "relation": "located_at",
+        "object": "货舱区域",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "主管机关",
+        "relation": "approves",
+        "object": "类似灭火系统",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "上层建筑",
+        "relation": "connected_to",
+        "object": "油舱",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "甲板室",
+        "relation": "connected_to",
+        "object": "油舱",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "A60隔热标准",
+        "relation": "applied_to",
+        "object": "居住舱边界",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "钢盖",
+        "relation": "used_in",
+        "object": "主甲板第一层窗户",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "固定泡沫灭火系统",
+        "relation": "located_at",
+        "object": "油舱和货舱甲板区域",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "固定惰性气体系统",
+        "relation": "located_at",
+        "object": "油舱和货舱甲板区域",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "A、B、C三级分隔",
+        "relation": "used_for",
+        "object": "划分不同火灾风险的相连区域",
+        "chunk_id": "1698"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "uses",
+        "object": "钢材",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "applied_to",
+        "object": "标准耐火试验",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "has",
+        "object": "加强筋",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "A级防火分隔",
+        "relation": "determines",
+        "object": "测试时间",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "B级防火分隔",
+        "relation": "applied_to",
+        "object": "标准耐火试验",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "B级防火分隔",
+        "relation": "has",
+        "object": "测试时间",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "C级防火分隔",
+        "relation": "uses",
+        "object": "不燃材料",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "C级防火分隔",
+        "relation": "constrained_by",
+        "object": "温度上升限制",
+        "chunk_id": "1699"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "belongs_to",
+        "object": "材料部件",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "determines",
+        "object": "防火级别",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "标准耐火试验",
+        "relation": "applied_to",
+        "object": "防火分隔",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "标准耐火试验",
+        "relation": "has",
+        "object": "时间-温度关系点",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "客舱走廊",
+        "relation": "has",
+        "object": "防火分隔",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "客舱走廊",
+        "relation": "determines",
+        "object": "防火级别",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "防火分区",
+        "relation": "has",
+        "object": "开口",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "affects",
+        "object": "烟气扩散",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "affects",
+        "object": "温度上升",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "affects",
+        "object": "明火扩散",
+        "chunk_id": "1700"
+    },
+    {
+        "subject": "防火门",
+        "relation": "belongs_to",
+        "object": "永久性封闭舱室",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "防火等级",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "倾斜角度",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "控制站",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "独立性",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "通风口",
+        "relation": "belongs_to",
+        "object": "防火区",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "通风管",
+        "relation": "applied_to",
+        "object": "防火气阀",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火气阀",
+        "relation": "has",
+        "object": "自动关闭功能",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火气阀",
+        "relation": "has",
+        "object": "故障保护功能",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "钢制翻门",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火门",
+        "relation": "has",
+        "object": "保险丝保护的重量转轴",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火阀",
+        "relation": "has",
+        "object": "人工控制",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火阀",
+        "relation": "has",
+        "object": "开启/关闭状态指示",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "belongs_to",
+        "object": "舱壁甲板",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "运输机动车辆",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "通行乘客",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "滚装客轮的车库",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "滚装货轮的车辆甲板",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "特殊区域",
+        "relation": "has",
+        "object": "主体垂直防火分区",
+        "chunk_id": "1701"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "contains",
+        "object": "固定灭火系统",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "防火分隔",
+        "relation": "contains",
+        "object": "防火隔离区",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "防火隔离区",
+        "relation": "uses",
+        "object": "耐火材料",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "自动火灾监测系统",
+        "relation": "uses",
+        "object": "固定式压力水雾灭火系统",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "特殊排水口",
+        "relation": "located_at",
+        "object": "甲板",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "特殊排水口",
+        "relation": "affects",
+        "object": "船舶稳性",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "IMO高速船规范（HSC规范）",
+        "relation": "applied_to",
+        "object": "防火保护安排",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "IMO高速船规范（HSC规范）",
+        "relation": "replaces",
+        "object": "SOLAS钢制船公约",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "铝合金",
+        "relation": "affects",
+        "object": "防火等级",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "耐火材料",
+        "relation": "acts_on",
+        "object": "热应力",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "防火隔离",
+        "relation": "determines",
+        "object": "规定时间",
+        "chunk_id": "1702"
+    },
+    {
+        "subject": "防火隔离",
+        "relation": "connects_to",
+        "object": "区域",
+        "chunk_id": "1702"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "subject": "辊道",
+        "relation": "acts_on",
+        "object": "钢板",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "喷漆",
+        "relation": "precedes",
+        "object": "辊道结构设计",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "车间底漆",
+        "relation": "affects",
+        "object": "辊道结构形式",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "辊道",
+        "relation": "used_in",
+        "object": "预处理流水线",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "抛丸处理",
+        "relation": "requires",
+        "object": "辊道间距小于500mm",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "辊道",
+        "relation": "located_at",
+        "object": "预处理流水线",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "辊道数量",
+        "relation": "determines",
+        "object": "工序间处理时间",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "辊道",
+        "relation": "has",
+        "object": "轴承座",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "辊道",
+        "relation": "has",
+        "object": "链式点接触型结构",
+        "chunk_id": "1163"
+    },
+    {
+        "subject": "辊道",
+        "relation": "has",
+        "object": "八字形结构",
+        "chunk_id": "1163"
+    }
+]

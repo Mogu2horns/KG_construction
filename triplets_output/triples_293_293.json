@@ -1,0 +1,122 @@
+[
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "二次定位",
+        "relation": "applied_to",
+        "object": "分段",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "水平检验线",
+        "relation": "used_for",
+        "object": "分段定位",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "余量线",
+        "relation": "used_for",
+        "object": "余量切割",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "肋骨检验线",
+        "relation": "used_for",
+        "object": "分段定位",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段大接头",
+        "relation": "has",
+        "object": "余量",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "精度控制",
+        "relation": "replaces",
+        "object": "余量画线",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段胎架",
+        "relation": "used_for",
+        "object": "分段制造",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "余量",
+        "relation": "used_for",
+        "object": "分段定位",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "切割",
+        "relation": "applied_to",
+        "object": "余量",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "船台总装",
+        "relation": "precedes",
+        "object": "船体完成",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "part_of",
+        "object": "船体",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    },
+    {
+        "subject": "分段",
+        "relation": "located_at",
+        "object": "船台",
+        "chunk_id": "293"
+    }
+]

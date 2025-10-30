@@ -1,0 +1,50 @@
+[
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "滑动摩擦",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "平地造船",
+        "relation": "uses",
+        "object": "滚动摩擦",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "滑动摩擦式拖移",
+        "relation": "uses",
+        "object": "滑油",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "滑动摩擦式拖移",
+        "relation": "uses",
+        "object": "高分子材料板",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "滑油",
+        "relation": "has",
+        "object": "静摩擦系数",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "高分子材料板",
+        "relation": "has",
+        "object": "摩擦系数",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "跟进式液压顶推设备",
+        "relation": "uses",
+        "object": "气垫",
+        "chunk_id": "531"
+    },
+    {
+        "subject": "气垫",
+        "relation": "has",
+        "object": "摩擦系数",
+        "chunk_id": "531"
+    }
+]

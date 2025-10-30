@@ -1,0 +1,134 @@
+[
+    {
+        "subject": "船舶建造方案",
+        "relation": "determines",
+        "object": "平面分段制造工艺",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "determines",
+        "object": "曲面分段制造工艺",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "船舶建造方案",
+        "relation": "determines",
+        "object": "立体分段制造工艺",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "船舶主尺度",
+        "relation": "affects",
+        "object": "总装方法",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "船型",
+        "relation": "affects",
+        "object": "总装方法",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "平行中体",
+        "relation": "has",
+        "object": "较长长度",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "平行中体",
+        "relation": "has",
+        "object": "较短长度",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "小型船舶",
+        "relation": "uses",
+        "object": "总段建造法",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "中型船舶",
+        "relation": "uses",
+        "object": "塔式建造法",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "大型船舶",
+        "relation": "uses",
+        "object": "岛式建造法",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "尾机型船舶",
+        "relation": "uses",
+        "object": "串联形式建造",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "中机型大型船舶",
+        "relation": "uses",
+        "object": "岛式建造法",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "requires",
+        "object": "机械化生产线",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "improves",
+        "object": "生产效率",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "平面分段",
+        "relation": "improves",
+        "object": "制造质量",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "曲面分段",
+        "relation": "assembles_into",
+        "object": "立体分段",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "立体分段",
+        "relation": "assembles_into",
+        "object": "总段",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "总段",
+        "relation": "assembles_into",
+        "object": "船体",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "塔式建造法",
+        "relation": "applied_to",
+        "object": "斜船台",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "岛式建造法",
+        "relation": "applied_to",
+        "object": "大型船舶",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "机舱",
+        "relation": "part_of",
+        "object": "尾部",
+        "chunk_id": "433"
+    },
+    {
+        "subject": "尾部",
+        "relation": "part_of",
+        "object": "尾机型船舶",
+        "chunk_id": "433"
+    }
+]

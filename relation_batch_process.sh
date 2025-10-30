@@ -7,7 +7,7 @@ INPUT_FILE="./chunks_output/relation_chunks.jsonl"
 OUTPUT_DIR="./triplets_output"
 ENTITY_FILE="./kg_output/entities_kb.json"
 BATCH_SIZE=50
-START_INDEX=0
+START_INDEX=1218
 
 # 获取总chunk数
 echo "Getting total number of chunks..."

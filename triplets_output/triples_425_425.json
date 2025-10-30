@@ -1,0 +1,176 @@
+[
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "applied_to",
+        "object": "船舶下水过程",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "uses",
+        "object": "动量守恒定律",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "uses",
+        "object": "附加质量力观点",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "uses",
+        "object": "近似平板理论",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船体",
+        "relation": "supports",
+        "object": "船底支墩",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船体",
+        "relation": "supports",
+        "object": "滑道板",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船体",
+        "relation": "located_at",
+        "object": "船台滑道",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "弹性变形",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "produces",
+        "object": "船体运动方程",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "precedes",
+        "object": "结构受力分析",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "结构受力分析",
+        "relation": "uses",
+        "object": "有限元分析方法",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船体",
+        "relation": "has",
+        "object": "船梁",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船梁",
+        "relation": "affects",
+        "object": "船体所受浮力",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船梁",
+        "relation": "acted_on_by",
+        "object": "浮力",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船梁",
+        "relation": "acted_on_by",
+        "object": "分布重力",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船梁",
+        "relation": "acted_on_by",
+        "object": "支墩反力",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "船梁",
+        "relation": "has",
+        "object": "弯曲",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "有限元分析方法",
+        "relation": "outputs",
+        "object": "船梁变形",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "enables",
+        "object": "迭代计算",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "迭代计算",
+        "relation": "satisfies",
+        "object": "船体所受力的平衡条件",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "迭代计算",
+        "relation": "satisfies",
+        "object": "变形协调条件",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "迭代计算",
+        "relation": "satisfies",
+        "object": "弹性支持接触脱离状态的协调性",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "produces",
+        "object": "瞬时下水状态",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "calculates",
+        "object": "船台强度",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "calculates",
+        "object": "船体下水强度",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "calculates",
+        "object": "弯矩",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "calculates",
+        "object": "剪力",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "弹性入水计算方法",
+        "relation": "calculates",
+        "object": "变形",
+        "chunk_id": "425"
+    },
+    {
+        "subject": "工艺措施",
+        "relation": "applied_to",
+        "object": "下水过程中消除有关事故",
+        "chunk_id": "425"
+    }
+]

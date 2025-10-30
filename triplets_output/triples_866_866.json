@@ -1,0 +1,68 @@
+[
+    {
+        "subject": "船壳",
+        "relation": "has",
+        "object": "双金属腐蚀",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "connects_to",
+        "object": "铜",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "低碳钢",
+        "relation": "connects_to",
+        "object": "镍合金螺旋桨",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "铜",
+        "relation": "connects_to",
+        "object": "镍合金装置",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "铝",
+        "relation": "connects_to",
+        "object": "钢船体",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "铝",
+        "relation": "used_in",
+        "object": "上层建筑",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "铝/钢过渡连接",
+        "relation": "applied_to",
+        "object": "铝与钢的接口",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "涂料",
+        "relation": "acts_on",
+        "object": "铝/钢过渡连接",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "应力腐蚀",
+        "relation": "affects",
+        "object": "冷加工折边肘板",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "冷加工",
+        "relation": "produces",
+        "object": "内应力",
+        "chunk_id": "866"
+    },
+    {
+        "subject": "侵蚀",
+        "relation": "related_to",
+        "object": "电化学腐蚀",
+        "chunk_id": "866"
+    }
+]

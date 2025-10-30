@@ -1,0 +1,68 @@
+[
+    {
+        "subject": "船级社",
+        "relation": "determines",
+        "object": "水密舱壁数目",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "劳氏船级社",
+        "relation": "specifies",
+        "object": "水密舱壁数目要求",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "水密舱壁",
+        "relation": "connects_to",
+        "object": "最上层连续甲板",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "水密舱壁",
+        "relation": "connects_to",
+        "object": "二层甲板",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "防撞舱舱壁",
+        "relation": "extends_to",
+        "object": "最上层连续甲板",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "艉尖舱舱壁",
+        "relation": "extends_to",
+        "object": "设计水线以上第一层甲板",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "水密舱壁",
+        "relation": "affects",
+        "object": "横向强度",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "水密舱壁",
+        "relation": "affects",
+        "object": "舱室数量",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "船体尺寸",
+        "relation": "determines",
+        "object": "水密舱壁数目",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "船东",
+        "relation": "requests",
+        "object": "较大舱室长度",
+        "chunk_id": "1535"
+    },
+    {
+        "subject": "水密舱壁",
+        "relation": "can_be_bundled",
+        "object": "结构补偿",
+        "chunk_id": "1535"
+    }
+]

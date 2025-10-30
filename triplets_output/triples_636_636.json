@@ -1,0 +1,104 @@
+[
+    {
+        "subject": "焊接",
+        "relation": "replaces",
+        "object": "铆接",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "uses",
+        "object": "预制技术",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "水密性",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "油密性",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "improves",
+        "object": "生产速度",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "reduces",
+        "object": "技术劳动",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "reduces",
+        "object": "船体钢重量",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "increases",
+        "object": "船舶载重",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "reduces",
+        "object": "维护需求",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "reduces",
+        "object": "摩擦阻力",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "焊接",
+        "relation": "applied_to",
+        "object": "熔焊",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "熔焊",
+        "relation": "uses",
+        "object": "热源",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "气体焊",
+        "relation": "uses",
+        "object": "氧气",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "气体焊",
+        "relation": "uses",
+        "object": "乙炔",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "气体焊",
+        "relation": "produces",
+        "object": "火焰",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "电弧焊",
+        "relation": "part_of",
+        "object": "焊接工艺",
+        "chunk_id": "636"
+    },
+    {
+        "subject": "激光焊",
+        "relation": "part_of",
+        "object": "焊接工艺",
+        "chunk_id": "636"
+    }
+]
