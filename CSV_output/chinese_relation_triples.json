@@ -1,0 +1,3500 @@
+[
+  {
+    "index": 258,
+    "subject": "侵蚀",
+    "relation": "属于",
+    "object": "腐蚀类型"
+  },
+  {
+    "index": 259,
+    "subject": "冲击腐蚀",
+    "relation": "属于",
+    "object": "腐蚀类型"
+  },
+  {
+    "index": 260,
+    "subject": "空泡腐蚀",
+    "relation": "属于",
+    "object": "腐蚀类型"
+  },
+  {
+    "index": 261,
+    "subject": "空泡腐蚀",
+    "relation": "属于",
+    "object": "腐蚀现象"
+  },
+  {
+    "index": 262,
+    "subject": "冲击腐蚀",
+    "relation": "作用于",
+    "object": "金属表面"
+  },
+  {
+    "index": 263,
+    "subject": "流动的水",
+    "relation": "导致",
+    "object": "侵蚀"
+  },
+  {
+    "index": 264,
+    "subject": "空泡腐蚀",
+    "relation": "发生于",
+    "object": "快速流动的液体环境"
+  },
+  {
+    "index": 265,
+    "subject": "空泡腐蚀",
+    "relation": "导致",
+    "object": "金属表面点蚀"
+  },
+  {
+    "index": 266,
+    "subject": "腐蚀余量",
+    "relation": "属于",
+    "object": "设计参数"
+  },
+  {
+    "index": 267,
+    "subject": "船级社",
+    "relation": "规定",
+    "object": "腐蚀余量"
+  },
+  {
+    "index": 282,
+    "subject": "锌板",
+    "relation": "用于",
+    "object": "保护铜质螺旋桨"
+  },
+  {
+    "index": 283,
+    "subject": "锌板",
+    "relation": "用于",
+    "object": "保护沉浸在海水中的装置"
+  },
+  {
+    "index": 284,
+    "subject": "锌合金",
+    "relation": "用于",
+    "object": "牺牲阳极保护系统"
+  },
+  {
+    "index": 285,
+    "subject": "铝",
+    "relation": "用于",
+    "object": "牺牲阳极保护系统"
+  },
+  {
+    "index": 286,
+    "subject": "镁",
+    "relation": "用于",
+    "object": "牺牲阳极保护系统"
+  },
+  {
+    "index": 287,
+    "subject": "镁阳极",
+    "relation": "不能用于",
+    "object": "油船压载舱"
+  },
+  {
+    "index": 288,
+    "subject": "镁阳极",
+    "relation": "不能用于",
+    "object": "油船货舱"
+  },
+  {
+    "index": 289,
+    "subject": "铝阳极",
+    "relation": "用于",
+    "object": "油船"
+  },
+  {
+    "index": 290,
+    "subject": "铝阳极",
+    "relation": "安装于",
+    "object": "势能小于 $28mathrm{kg}cdot mathrm{m}$ 的位置"
+  },
+  {
+    "index": 291,
+    "subject": "牺牲阳极",
+    "relation": "安装于",
+    "object": "船体"
+  },
+  {
+    "index": 292,
+    "subject": "牺牲阳极",
+    "relation": "安装于",
+    "object": "压载舱"
+  },
+  {
+    "index": 293,
+    "subject": "外加电流保护系统",
+    "relation": "使用",
+    "object": "非消耗性贵金属阳极"
+  },
+  {
+    "index": 351,
+    "subject": "氯化橡胶",
+    "relation": "属于",
+    "object": "材料"
+  },
+  {
+    "index": 352,
+    "subject": "氯化橡胶",
+    "relation": "属于",
+    "object": "材料部件"
+  },
+  {
+    "index": 353,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "船底防锈漆"
+  },
+  {
+    "index": 354,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "水线漆"
+  },
+  {
+    "index": 355,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "船壳漆"
+  },
+  {
+    "index": 356,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "甲板漆"
+  },
+  {
+    "index": 357,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "耐水性"
+  },
+  {
+    "index": 358,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "耐化学性"
+  },
+  {
+    "index": 359,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "大气区"
+  },
+  {
+    "index": 360,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "维护保养"
+  },
+  {
+    "index": 361,
+    "subject": "氯化橡胶",
+    "relation": "属于",
+    "object": "媒介物"
+  },
+  {
+    "index": 362,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "有机溶剂溶解度"
+  },
+  {
+    "index": 363,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "防腐涂料"
+  },
+  {
+    "index": 364,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "水线以下区域"
+  },
+  {
+    "index": 365,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "耐碱性"
+  },
+  {
+    "index": 366,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "抗腐蚀性能"
+  },
+  {
+    "index": 367,
+    "subject": "异构化橡胶",
+    "relation": "属于",
+    "object": "材料"
+  },
+  {
+    "index": 368,
+    "subject": "异构化橡胶",
+    "relation": "由",
+    "object": "天然橡胶"
+  },
+  {
+    "index": 369,
+    "subject": "异构化橡胶",
+    "relation": "通过",
+    "object": "化学方法"
+  },
+  {
+    "index": 370,
+    "subject": "异构化橡胶",
+    "relation": "具有",
+    "object": "相同的化学成分"
+  },
+  {
+    "index": 371,
+    "subject": "异构化橡胶",
+    "relation": "具有",
+    "object": "不同的分子结构"
+  },
+  {
+    "index": 372,
+    "subject": "异构化橡胶",
+    "relation": "属于",
+    "object": "媒介物"
+  },
+  {
+    "index": 373,
+    "subject": "异构化橡胶",
+    "relation": "具有",
+    "object": "有机溶剂溶解度"
+  },
+  {
+    "index": 374,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "属于",
+    "object": "材料"
+  },
+  {
+    "index": 375,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "由",
+    "object": "异氰酸酯"
+  },
+  {
+    "index": 376,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "由",
+    "object": "羟基混合物"
+  },
+  {
+    "index": 377,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "反应生成",
+    "object": "尿烷"
+  },
+  {
+    "index": 378,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "水线以上船体"
+  },
+  {
+    "index": 379,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐候性"
+  },
+  {
+    "index": 380,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "化学稳定性"
+  },
+  {
+    "index": 381,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "油漆膜"
+  },
+  {
+    "index": 382,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "纤维"
+  },
+  {
+    "index": 383,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "黏合剂"
+  },
+  {
+    "index": 384,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "单成分聚氨基甲酸油漆"
+  },
+  {
+    "index": 385,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "双成分聚氨基甲酸油漆"
+  },
+  {
+    "index": 386,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "韧性"
+  },
+  {
+    "index": 387,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "硬度"
+  },
+  {
+    "index": 388,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "光泽度"
+  },
+  {
+    "index": 389,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐磨性"
+  },
+  {
+    "index": 390,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐化学性"
+  },
+  {
+    "index": 391,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐风化性"
+  },
+  {
+    "index": 392,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "不用于",
+    "object": "水下区域"
+  },
+  {
+    "index": 393,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "上层建筑"
+  },
+  {
+    "index": 394,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "游艇"
+  },
+  {
+    "index": 395,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "光泽度"
+  },
+  {
+    "index": 699,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "1969年国际船舶吨位丈量公约"
+  },
+  {
+    "index": 700,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "1966年国际载重线公约"
+  },
+  {
+    "index": 701,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "1974年国际海上人命安全公约"
+  },
+  {
+    "index": 702,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "IMO决议MSC.287（87）"
+  },
+  {
+    "index": 703,
+    "subject": "IMO决议MSC.287（87）",
+    "relation": "适用于",
+    "object": "散货船"
+  },
+  {
+    "index": 704,
+    "subject": "IMO决议MSC.287（87）",
+    "relation": "适用于",
+    "object": "油轮"
+  },
+  {
+    "index": 705,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "国际防止船舶造成污染公约"
+  },
+  {
+    "index": 706,
+    "subject": "国际防止船舶造成污染公约",
+    "relation": "涉及",
+    "object": "油轮"
+  },
+  {
+    "index": 1545,
+    "subject": "型值",
+    "relation": "用于",
+    "object": "绘制型线图"
+  },
+  {
+    "index": 1546,
+    "subject": "型值",
+    "relation": "决定",
+    "object": "船体型线空间位置"
+  },
+  {
+    "index": 1547,
+    "subject": "型值表",
+    "relation": "记录",
+    "object": "各型线交点之型值"
+  },
+  {
+    "index": 1548,
+    "subject": "型值表",
+    "relation": "提供",
+    "object": "型线放样所需的数据"
+  },
+  {
+    "index": 1549,
+    "subject": "船体主要尺度",
+    "relation": "包含",
+    "object": "总长"
+  },
+  {
+    "index": 1550,
+    "subject": "船体主要尺度",
+    "relation": "包含",
+    "object": "设计水线长"
+  },
+  {
+    "index": 1551,
+    "subject": "船体主要尺度",
+    "relation": "包含",
+    "object": "垂线间长"
+  },
+  {
+    "index": 1552,
+    "subject": "船体主要尺度",
+    "relation": "包含",
+    "object": "型宽"
+  },
+  {
+    "index": 1553,
+    "subject": "总长",
+    "relation": "定义为",
+    "object": "船体型表面最前端和最后端之间的水平距离"
+  },
+  {
+    "index": 1554,
+    "subject": "设计水线长",
+    "relation": "定义为",
+    "object": "设计水线面与船体型表面首、尾端交点之间的水平距离"
+  },
+  {
+    "index": 1555,
+    "subject": "垂线间长",
+    "relation": "定义为",
+    "object": "首垂线与舵杆中心线之间的水平距离"
+  },
+  {
+    "index": 1556,
+    "subject": "型宽",
+    "relation": "定义为",
+    "object": "设计水线处，船体型表面的最大宽度"
+  },
+  {
+    "index": 1557,
+    "subject": "型宽",
+    "relation": "定义为",
+    "object": "设计水线处，船体型表面的最大宽度"
+  },
+  {
+    "index": 1558,
+    "subject": "型深",
+    "relation": "定义为",
+    "object": "在船的船中横剖面处，甲板边线至基线间的垂直距离"
+  },
+  {
+    "index": 1559,
+    "subject": "吃水",
+    "relation": "定义为",
+    "object": "在船的船中横剖面处，设计水线至基线的垂直距离"
+  },
+  {
+    "index": 1560,
+    "subject": "干舷",
+    "relation": "定义为",
+    "object": "型深与吃水的差值"
+  },
+  {
+    "index": 1561,
+    "subject": "船体型线放样",
+    "relation": "包含",
+    "object": "理论型线放样"
+  },
+  {
+    "index": 1562,
+    "subject": "船体型线放样",
+    "relation": "包含",
+    "object": "肋骨型线放样"
+  },
+  {
+    "index": 1563,
+    "subject": "船体型线放样",
+    "relation": "包含",
+    "object": "尾轴出口处型线放样"
+  },
+  {
+    "index": 1564,
+    "subject": "船体型线放样",
+    "relation": "包含",
+    "object": "首柱放样"
+  },
+  {
+    "index": 1565,
+    "subject": "船体型线放样",
+    "relation": "包含",
+    "object": "船体结构线放样"
+  },
+  {
+    "index": 1566,
+    "subject": "理论型线放样",
+    "relation": "目的是",
+    "object": "使型线更趋光顺和合理"
+  },
+  {
+    "index": 1567,
+    "subject": "理论型线放样",
+    "relation": "作用于",
+    "object": "船体建造"
+  },
+  {
+    "index": 1568,
+    "subject": "理论型线放样",
+    "relation": "是",
+    "object": "船舶建造中的一道重要工序"
+  },
+  {
+    "index": 2310,
+    "subject": "等效节点载荷",
+    "relation": "由",
+    "object": "温度变化"
+  },
+  {
+    "index": 2311,
+    "subject": "单元刚度矩阵",
+    "relation": "由",
+    "object": "应力-应变关系"
+  },
+  {
+    "index": 2312,
+    "subject": "等效节点载荷",
+    "relation": "由",
+    "object": "温度变化"
+  },
+  {
+    "index": 2313,
+    "subject": "单元刚度矩阵",
+    "relation": "由",
+    "object": "应力-应变关系"
+  },
+  {
+    "index": 2314,
+    "subject": "等效节点载荷",
+    "relation": "由",
+    "object": "温度变化"
+  },
+  {
+    "index": 2315,
+    "subject": "单元刚度矩阵",
+    "relation": "由",
+    "object": "应力-应变关系"
+  },
+  {
+    "index": 2316,
+    "subject": "等效节点载荷",
+    "relation": "由",
+    "object": "温度变化"
+  },
+  {
+    "index": 2317,
+    "subject": "单元刚度矩阵",
+    "relation": "由",
+    "object": "应力-应变关系"
+  },
+  {
+    "index": 2318,
+    "subject": "等效节点载荷",
+    "relation": "由",
+    "object": "温度变化"
+  },
+  {
+    "index": 2319,
+    "subject": "单元刚度矩阵",
+    "relation": "由",
+    "object": "应力-应变关系"
+  },
+  {
+    "index": 5138,
+    "subject": "线能量",
+    "relation": "定义为",
+    "object": "沿焊接方向单位长度的基本金属从热源所获得的热量"
+  },
+  {
+    "index": 5139,
+    "subject": "线能量",
+    "relation": "计算公式为",
+    "object": "q_n = 0.24ηUI / v"
+  },
+  {
+    "index": 5140,
+    "subject": "焊接电弧的热利用系数",
+    "relation": "出现在",
+    "object": "线能量计算公式中"
+  },
+  {
+    "index": 5141,
+    "subject": "焊接电弧的有效热功率",
+    "relation": "出现在",
+    "object": "线能量计算公式中"
+  },
+  {
+    "index": 5142,
+    "subject": "焊接速度",
+    "relation": "出现在",
+    "object": "线能量计算公式中"
+  },
+  {
+    "index": 5143,
+    "subject": "横向焊接收缩量",
+    "relation": "计算公式为",
+    "object": "Δb = 1.01e^{0.0464δ}"
+  },
+  {
+    "index": 5144,
+    "subject": "对接焊缝",
+    "relation": "横向收缩量计算表达式为",
+    "object": "Δb = 1.01e^{0.0464δ}"
+  },
+  {
+    "index": 7881,
+    "subject": "船级社",
+    "relation": "颁布",
+    "object": "规章制度"
+  },
+  {
+    "index": 7882,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "船舶强度"
+  },
+  {
+    "index": 7883,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "结构完整性"
+  },
+  {
+    "index": 7884,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "装备"
+  },
+  {
+    "index": 7885,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "主机"
+  },
+  {
+    "index": 7886,
+    "subject": "船级社",
+    "relation": "允许",
+    "object": "船舶"
+  },
+  {
+    "index": 7887,
+    "subject": "IACS",
+    "relation": "主办",
+    "object": "通用规则发展"
+  },
+  {
+    "index": 7888,
+    "subject": "IACS",
+    "relation": "启动",
+    "object": "IACS CSR数据追踪"
+  },
+  {
+    "index": 7889,
+    "subject": "IACS CSR数据追踪",
+    "relation": "提供",
+    "object": "CSR规则修改历史"
+  },
+  {
+    "index": 7890,
+    "subject": "IACS",
+    "relation": "展望",
+    "object": "国际海事组织提议的基于目标的新船建造标准"
+  },
+  {
+    "index": 7891,
+    "subject": "劳氏船级社",
+    "relation": "制定",
+    "object": "通用规则"
+  },
+  {
+    "index": 8218,
+    "subject": "劳氏船级社",
+    "relation": "颁布",
+    "object": "暂行条例"
+  },
+  {
+    "index": 8424,
+    "subject": "应变",
+    "relation": "定义为",
+    "object": "单位长度或单位体积的变形"
+  },
+  {
+    "index": 8425,
+    "subject": "应变",
+    "relation": "由",
+    "object": "伸长量与原始长度的比值"
+  },
+  {
+    "index": 8426,
+    "subject": "载荷",
+    "relation": "作用于",
+    "object": "杆"
+  },
+  {
+    "index": 8427,
+    "subject": "载荷",
+    "relation": "导致",
+    "object": "伸长量"
+  },
+  {
+    "index": 8428,
+    "subject": "载荷",
+    "relation": "与",
+    "object": "伸长量"
+  },
+  {
+    "index": 8429,
+    "subject": "应力",
+    "relation": "定义为",
+    "object": "单位面积上的载荷"
+  },
+  {
+    "index": 8430,
+    "subject": "应力",
+    "relation": "通过",
+    "object": "载荷除以横截面积计算"
+  },
+  {
+    "index": 8431,
+    "subject": "弹性极限",
+    "relation": "是",
+    "object": "应力-应变曲线中应力与应变成比例的范围的上限"
+  },
+  {
+    "index": 8432,
+    "subject": "弹性极限",
+    "relation": "超过",
+    "object": "材料将发生塑性变形"
+  },
+  {
+    "index": 8433,
+    "subject": "低碳钢",
+    "relation": "用于",
+    "object": "焊接"
+  },
+  {
+    "index": 8434,
+    "subject": "低碳钢",
+    "relation": "用于",
+    "object": "船体结构"
+  },
+  {
+    "index": 8435,
+    "subject": "低碳钢",
+    "relation": "需要",
+    "object": "进行拉伸试验和冲击试验"
+  },
+  {
+    "index": 8436,
+    "subject": "试验",
+    "relation": "用于",
+    "object": "验证材料性能"
+  },
+  {
+    "index": 8444,
+    "subject": "工作应力",
+    "relation": "低于",
+    "object": "材料的极限拉伸强度"
+  },
+  {
+    "index": 8445,
+    "subject": "船体材料",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 8446,
+    "subject": "低碳钢",
+    "relation": "生产",
+    "object": "船级社批准的工艺"
+  },
+  {
+    "index": 8447,
+    "subject": "高强度钢板",
+    "relation": "生产",
+    "object": "船级社批准的工艺"
+  },
+  {
+    "index": 8448,
+    "subject": "型钢",
+    "relation": "生产",
+    "object": "船级社批准的工艺"
+  },
+  {
+    "index": 8449,
+    "subject": "锻钢",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 8450,
+    "subject": "铸钢",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 8451,
+    "subject": "材料",
+    "relation": "分析",
+    "object": "船级社"
+  },
+  {
+    "index": 8452,
+    "subject": "轧材",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 8453,
+    "subject": "拉伸试验",
+    "relation": "获得",
+    "object": "最小屈服应力"
+  },
+  {
+    "index": 8454,
+    "subject": "拉伸试验",
+    "relation": "获得",
+    "object": "极限拉伸应力"
+  },
+  {
+    "index": 8455,
+    "subject": "拉伸试验",
+    "relation": "获得",
+    "object": "伸长量"
+  },
+  {
+    "index": 8456,
+    "subject": "试样",
+    "relation": "具有",
+    "object": "横截面积"
+  },
+  {
+    "index": 8457,
+    "subject": "试样",
+    "relation": "具有",
+    "object": "计算长度"
+  },
+  {
+    "index": 8458,
+    "subject": "计算长度",
+    "relation": "等于",
+    "object": "横截面积的平方根的5.65倍"
+  },
+  {
+    "index": 8459,
+    "subject": "计算长度",
+    "relation": "等于",
+    "object": "试样直径的5倍"
+  },
+  {
+    "index": 8460,
+    "subject": "冲击试验",
+    "relation": "形式",
+    "object": "拉伸试验"
+  },
+  {
+    "index": 8490,
+    "subject": "船甲板材料",
+    "relation": "承受",
+    "object": "拉力"
+  },
+  {
+    "index": 8491,
+    "subject": "船底材料",
+    "relation": "承受",
+    "object": "压缩力"
+  },
+  {
+    "index": 9015,
+    "subject": "船厂",
+    "relation": "关注",
+    "object": "库存式设计建造"
+  },
+  {
+    "index": 9016,
+    "subject": "船东",
+    "relation": "雇佣",
+    "object": "技术人员"
+  },
+  {
+    "index": 9017,
+    "subject": "技术人员",
+    "relation": "准备",
+    "object": "招标说明书"
+  },
+  {
+    "index": 9018,
+    "subject": "船厂",
+    "relation": "准备",
+    "object": "建造规格书"
+  },
+  {
+    "index": 9019,
+    "subject": "建造规格书",
+    "relation": "认可",
+    "object": "船东或船东代表"
+  },
+  {
+    "index": 9020,
+    "subject": "船东",
+    "relation": "雇佣",
+    "object": "顾问公司"
+  },
+  {
+    "index": 9021,
+    "subject": "顾问公司",
+    "relation": "协助",
+    "object": "初步设计研究"
+  },
+  {
+    "index": 9022,
+    "subject": "顾问公司",
+    "relation": "准备",
+    "object": "招标说明书"
+  },
+  {
+    "index": 9023,
+    "subject": "顾问公司",
+    "relation": "代表",
+    "object": "船东监督船舶建造过程"
+  },
+  {
+    "index": 9024,
+    "subject": "船东代表",
+    "relation": "监督",
+    "object": "船舶建造过程"
+  },
+  {
+    "index": 9025,
+    "subject": "船东代表",
+    "relation": "认可",
+    "object": "船厂的图纸和计算书"
+  },
+  {
+    "index": 9026,
+    "subject": "建造规格书",
+    "relation": "包含",
+    "object": "信息"
+  },
+  {
+    "index": 10281,
+    "subject": "船厂设计部门",
+    "relation": "指定",
+    "object": "主要设备"
+  },
+  {
+    "index": 10282,
+    "subject": "船厂设计部门",
+    "relation": "满足",
+    "object": "所有受欢迎的需求"
+  },
+  {
+    "index": 10514,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "1969年国际船舶吨位丈量公约"
+  },
+  {
+    "index": 10515,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "1966年国际载重线公约"
+  },
+  {
+    "index": 10516,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "1974年国际海上人命安全公约"
+  },
+  {
+    "index": 10517,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "IMO决议MSC.287（87）"
+  },
+  {
+    "index": 10518,
+    "subject": "IMO决议MSC.287（87）",
+    "relation": "适用于",
+    "object": "散货船"
+  },
+  {
+    "index": 10519,
+    "subject": "IMO决议MSC.287（87）",
+    "relation": "适用于",
+    "object": "油轮"
+  },
+  {
+    "index": 10520,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "国际防止船舶造成污染公约"
+  },
+  {
+    "index": 10521,
+    "subject": "国际防止船舶造成污染公约",
+    "relation": "涉及",
+    "object": "油轮"
+  },
+  {
+    "index": 11000,
+    "subject": "船厂",
+    "relation": "关注",
+    "object": "库存式设计建造"
+  },
+  {
+    "index": 11001,
+    "subject": "船东",
+    "relation": "吸引",
+    "object": "库存式设计建造"
+  },
+  {
+    "index": 11002,
+    "subject": "船东",
+    "relation": "雇佣",
+    "object": "技术人员"
+  },
+  {
+    "index": 11003,
+    "subject": "技术人员",
+    "relation": "准备",
+    "object": "招标说明书"
+  },
+  {
+    "index": 11004,
+    "subject": "船厂",
+    "relation": "接收",
+    "object": "招标说明书"
+  },
+  {
+    "index": 11005,
+    "subject": "船厂",
+    "relation": "合作",
+    "object": "船东的技术人员"
+  },
+  {
+    "index": 11006,
+    "subject": "船东的技术人员",
+    "relation": "监督",
+    "object": "船舶的建造过程"
+  },
+  {
+    "index": 11007,
+    "subject": "船东的技术人员",
+    "relation": "认可",
+    "object": "船厂的图纸和计算书"
+  },
+  {
+    "index": 11008,
+    "subject": "船东",
+    "relation": "雇佣",
+    "object": "顾问公司"
+  },
+  {
+    "index": 11009,
+    "subject": "顾问公司",
+    "relation": "协助",
+    "object": "初步设计研究"
+  },
+  {
+    "index": 11010,
+    "subject": "顾问公司",
+    "relation": "准备",
+    "object": "招标说明书"
+  },
+  {
+    "index": 11011,
+    "subject": "顾问公司",
+    "relation": "代表",
+    "object": "船东主持招标"
+  },
+  {
+    "index": 11012,
+    "subject": "顾问",
+    "relation": "帮助",
+    "object": "船东评估标书"
+  },
+  {
+    "index": 11013,
+    "subject": "顾问",
+    "relation": "代表",
+    "object": "船东监督船舶的建造过程"
+  },
+  {
+    "index": 11014,
+    "subject": "竞标成功的船舶建造方",
+    "relation": "准备",
+    "object": "建造规格书"
+  },
+  {
+    "index": 11015,
+    "subject": "建造规格书",
+    "relation": "认可",
+    "object": "船东或船东代表"
+  },
+  {
+    "index": 11016,
+    "subject": "建造规格书",
+    "relation": "成为",
+    "object": "合同中必不可少的一部分"
+  },
+  {
+    "index": 11017,
+    "subject": "建造规格书",
+    "relation": "具有",
+    "object": "法律效力"
+  },
+  {
+    "index": 11517,
+    "subject": "船级社",
+    "relation": "颁布",
+    "object": "规章制度"
+  },
+  {
+    "index": 11518,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "船舶强度"
+  },
+  {
+    "index": 11519,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "结构完整性"
+  },
+  {
+    "index": 11520,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "装备"
+  },
+  {
+    "index": 11521,
+    "subject": "船级社",
+    "relation": "考虑",
+    "object": "主机"
+  },
+  {
+    "index": 11522,
+    "subject": "船级社",
+    "relation": "允许",
+    "object": "船舶"
+  },
+  {
+    "index": 11523,
+    "subject": "船级社",
+    "relation": "允许",
+    "object": "入级"
+  },
+  {
+    "index": 11524,
+    "subject": "IACS",
+    "relation": "主办",
+    "object": "发展"
+  },
+  {
+    "index": 11525,
+    "subject": "IACS",
+    "relation": "启动",
+    "object": "IACS CSR数据追踪"
+  },
+  {
+    "index": 11526,
+    "subject": "IACS CSR数据追踪",
+    "relation": "提供",
+    "object": "CSR规则修改历史"
+  },
+  {
+    "index": 11527,
+    "subject": "IACS",
+    "relation": "发展",
+    "object": "通用规则"
+  },
+  {
+    "index": 11528,
+    "subject": "通用规则",
+    "relation": "适用于",
+    "object": "散货船"
+  },
+  {
+    "index": 11529,
+    "subject": "通用规则",
+    "relation": "适用于",
+    "object": "油船"
+  },
+  {
+    "index": 11530,
+    "subject": "通用规则",
+    "relation": "添加进",
+    "object": "规则手册"
+  },
+  {
+    "index": 11531,
+    "subject": "IAC成员",
+    "relation": "发展",
+    "object": "通用规则"
+  },
+  {
+    "index": 11532,
+    "subject": "国际海事组织",
+    "relation": "提议",
+    "object": "基于目标的新船建造标准"
+  },
+  {
+    "index": 11533,
+    "subject": "劳氏船级社",
+    "relation": "制定",
+    "object": "规则"
+  },
+  {
+    "index": 11627,
+    "subject": "船坞检验",
+    "relation": "关注",
+    "object": "船壳板"
+  },
+  {
+    "index": 11628,
+    "subject": "船坞检验",
+    "relation": "关注",
+    "object": "船尾框架"
+  },
+  {
+    "index": 11629,
+    "subject": "船坞检验",
+    "relation": "关注",
+    "object": "舵"
+  },
+  {
+    "index": 11630,
+    "subject": "船坞检验",
+    "relation": "关注",
+    "object": "外部和全船装置"
+  },
+  {
+    "index": 11631,
+    "subject": "船坞检验",
+    "relation": "关注",
+    "object": "容易腐蚀和磨损的部位"
+  },
+  {
+    "index": 11632,
+    "subject": "船坞检验",
+    "relation": "关注",
+    "object": "船底不平整部位"
+  },
+  {
+    "index": 11633,
+    "subject": "下水检验",
+    "relation": "代替",
+    "object": "船坞检验"
+  },
+  {
+    "index": 11634,
+    "subject": "下水检验",
+    "relation": "提供信息",
+    "object": "船坞检验"
+  },
+  {
+    "index": 11635,
+    "subject": "下水检验",
+    "relation": "考虑进行",
+    "object": "船体水下部分涂有高阻力油漆"
+  },
+  {
+    "index": 11636,
+    "subject": "特殊检验",
+    "relation": "服从",
+    "object": "劳氏船级社"
+  },
+  {
+    "index": 11637,
+    "subject": "特殊检验",
+    "relation": "进行",
+    "object": "船体"
+  },
+  {
+    "index": 11638,
+    "subject": "特殊检验",
+    "relation": "按",
+    "object": "船龄"
+  },
+  {
+    "index": 11639,
+    "subject": "特殊检验",
+    "relation": "分为",
+    "object": "4组"
+  },
+  {
+    "index": 11640,
+    "subject": "特殊检验",
+    "relation": "包含",
+    "object": "船龄5年"
+  },
+  {
+    "index": 11641,
+    "subject": "特殊检验",
+    "relation": "包含",
+    "object": "船龄10年"
+  },
+  {
+    "index": 11642,
+    "subject": "特殊检验",
+    "relation": "包含",
+    "object": "船龄15年"
+  },
+  {
+    "index": 11643,
+    "subject": "特殊检验",
+    "relation": "包含",
+    "object": "船龄20年并且在此后每年进行一次特殊检验"
+  },
+  {
+    "index": 15938,
+    "subject": "货物定位",
+    "relation": "占",
+    "object": "起重机总循环时间"
+  },
+  {
+    "index": 16147,
+    "subject": "劳氏船级社",
+    "relation": "颁布",
+    "object": "暂行条例"
+  },
+  {
+    "index": 16346,
+    "subject": "应变",
+    "relation": "定义为",
+    "object": "单位长度或单位体积的变形"
+  },
+  {
+    "index": 16347,
+    "subject": "应变",
+    "relation": "由",
+    "object": "伸长量与原始长度的比值"
+  },
+  {
+    "index": 16348,
+    "subject": "载荷",
+    "relation": "作用于",
+    "object": "杆"
+  },
+  {
+    "index": 16349,
+    "subject": "载荷",
+    "relation": "导致",
+    "object": "伸长量"
+  },
+  {
+    "index": 16350,
+    "subject": "载荷",
+    "relation": "与",
+    "object": "伸长量"
+  },
+  {
+    "index": 16351,
+    "subject": "应力",
+    "relation": "定义为",
+    "object": "单位面积上的载荷"
+  },
+  {
+    "index": 16352,
+    "subject": "应力",
+    "relation": "通过",
+    "object": "载荷除以横截面积计算"
+  },
+  {
+    "index": 16353,
+    "subject": "弹性极限",
+    "relation": "是",
+    "object": "应力-应变曲线中应力与应变成比例的范围的上限"
+  },
+  {
+    "index": 16354,
+    "subject": "弹性极限",
+    "relation": "超过",
+    "object": "材料将发生塑性变形"
+  },
+  {
+    "index": 16355,
+    "subject": "低碳钢",
+    "relation": "用于",
+    "object": "焊接"
+  },
+  {
+    "index": 16356,
+    "subject": "低碳钢",
+    "relation": "用于",
+    "object": "制造船体结构"
+  },
+  {
+    "index": 16357,
+    "subject": "低碳钢",
+    "relation": "需",
+    "object": "进行拉伸试验和冲击试验"
+  },
+  {
+    "index": 16358,
+    "subject": "试验",
+    "relation": "用于",
+    "object": "确认使用性能是否恢复、改善或提高"
+  },
+  {
+    "index": 16366,
+    "subject": "工作应力",
+    "relation": "低于",
+    "object": "材料的极限拉伸强度"
+  },
+  {
+    "index": 16367,
+    "subject": "船体材料",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 16368,
+    "subject": "低碳钢",
+    "relation": "生产",
+    "object": "船级社批准的工艺"
+  },
+  {
+    "index": 16369,
+    "subject": "高强度钢板",
+    "relation": "生产",
+    "object": "船级社批准的工艺"
+  },
+  {
+    "index": 16370,
+    "subject": "型钢",
+    "relation": "生产",
+    "object": "船级社批准的工艺"
+  },
+  {
+    "index": 16371,
+    "subject": "锻钢",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 16372,
+    "subject": "铸钢",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 16373,
+    "subject": "材料",
+    "relation": "分析",
+    "object": "船级社"
+  },
+  {
+    "index": 16374,
+    "subject": "轧材",
+    "relation": "试验",
+    "object": "船级社"
+  },
+  {
+    "index": 16375,
+    "subject": "样本",
+    "relation": "破坏试验",
+    "object": "船级社"
+  },
+  {
+    "index": 16376,
+    "subject": "拉伸试验",
+    "relation": "形式",
+    "object": "拉伸试验"
+  },
+  {
+    "index": 16377,
+    "subject": "拉伸试验",
+    "relation": "获得",
+    "object": "最小屈服应力"
+  },
+  {
+    "index": 16378,
+    "subject": "拉伸试验",
+    "relation": "获得",
+    "object": "极限拉伸应力"
+  },
+  {
+    "index": 16379,
+    "subject": "拉伸试验",
+    "relation": "获得",
+    "object": "伸长量"
+  },
+  {
+    "index": 16380,
+    "subject": "试样",
+    "relation": "具有",
+    "object": "相同的横截面积"
+  },
+  {
+    "index": 16381,
+    "subject": "试样",
+    "relation": "具有",
+    "object": "相同的计算长度"
+  },
+  {
+    "index": 16382,
+    "subject": "计算长度",
+    "relation": "等于",
+    "object": "横截面积的平方根的5.65倍"
+  },
+  {
+    "index": 16383,
+    "subject": "计算长度",
+    "relation": "等于",
+    "object": "试样直径的5倍"
+  },
+  {
+    "index": 16384,
+    "subject": "冲击试验",
+    "relation": "形式",
+    "object": "拉伸试验"
+  },
+  {
+    "index": 16411,
+    "subject": "船甲板材料",
+    "relation": "承受",
+    "object": "拉力"
+  },
+  {
+    "index": 16412,
+    "subject": "船底材料",
+    "relation": "承受",
+    "object": "压缩力"
+  },
+  {
+    "index": 16781,
+    "subject": "水密舱壁",
+    "relation": "布置",
+    "object": "均匀"
+  },
+  {
+    "index": 17459,
+    "subject": "前支架",
+    "relation": "承受",
+    "object": "载荷"
+  },
+  {
+    "index": 17460,
+    "subject": "载荷",
+    "relation": "等于",
+    "object": "船舶重量"
+  },
+  {
+    "index": 17461,
+    "subject": "前支架",
+    "relation": "承受",
+    "object": "滑道反力"
+  },
+  {
+    "index": 17462,
+    "subject": "前支架",
+    "relation": "位于",
+    "object": "船舶首部"
+  },
+  {
+    "index": 17463,
+    "subject": "肘板",
+    "relation": "临时固定",
+    "object": "外板"
+  },
+  {
+    "index": 17464,
+    "subject": "肘板",
+    "relation": "连接",
+    "object": "支架"
+  },
+  {
+    "index": 17465,
+    "subject": "滑动座板",
+    "relation": "位于",
+    "object": "船舶首部底部"
+  },
+  {
+    "index": 17466,
+    "subject": "滑动座板",
+    "relation": "与",
+    "object": "衬垫"
+  },
+  {
+    "index": 17467,
+    "subject": "外板",
+    "relation": "传递",
+    "object": "载荷"
+  },
+  {
+    "index": 17468,
+    "subject": "外板",
+    "relation": "传递",
+    "object": "前支架"
+  },
+  {
+    "index": 17469,
+    "subject": "外板",
+    "relation": "传递",
+    "object": "滑道"
+  },
+  {
+    "index": 17470,
+    "subject": "船舶首部",
+    "relation": "设计",
+    "object": "丰满"
+  },
+  {
+    "index": 17471,
+    "subject": "滑动导轨",
+    "relation": "需要",
+    "object": "更少的支持力"
+  },
+  {
+    "index": 17472,
+    "subject": "肘板",
+    "relation": "焊接",
+    "object": "外板"
+  },
+  {
+    "index": 17473,
+    "subject": "肘板",
+    "relation": "焊接",
+    "object": "厚板"
+  },
+  {
+    "index": 17474,
+    "subject": "厚板",
+    "relation": "位于",
+    "object": "楔子顶端"
+  },
+  {
+    "index": 17475,
+    "subject": "船舶前支架",
+    "relation": "设计",
+    "object": "抵挡压力"
+  },
+  {
+    "index": 17476,
+    "subject": "滑道导轨",
+    "relation": "承受",
+    "object": "润滑剂压力"
+  },
+  {
+    "index": 17477,
+    "subject": "船舶",
+    "relation": "具有",
+    "object": "动量"
+  },
+  {
+    "index": 17478,
+    "subject": "尾部下水架",
+    "relation": "需要",
+    "object": "衬垫"
+  },
+  {
+    "index": 17479,
+    "subject": "尾部下水架",
+    "relation": "使用",
+    "object": "垂向木材结构"
+  },
+  {
+    "index": 17480,
+    "subject": "尾部下水架",
+    "relation": "使用",
+    "object": "肘板"
+  },
+  {
+    "index": 17481,
+    "subject": "肘板",
+    "relation": "维持",
+    "object": "尾部支架"
+  },
+  {
+    "index": 17482,
+    "subject": "润滑剂",
+    "relation": "作用于",
+    "object": "滑道导轨"
+  },
+  {
+    "index": 19121,
+    "subject": "麦克格雷戈·纳维尔公司",
+    "relation": "制造",
+    "object": "Rotolocker"
+  },
+  {
+    "index": 19122,
+    "subject": "Rotolocker",
+    "relation": "属于",
+    "object": "设备"
+  },
+  {
+    "index": 19123,
+    "subject": "Rotolocker",
+    "relation": "安装于",
+    "object": "舷侧"
+  },
+  {
+    "index": 19124,
+    "subject": "单位负荷",
+    "relation": "被提升到",
+    "object": "舷侧"
+  },
+  {
+    "index": 19125,
+    "subject": "单位负荷",
+    "relation": "通过",
+    "object": "舱口"
+  },
+  {
+    "index": 19126,
+    "subject": "活动甲板",
+    "relation": "安装于",
+    "object": "货舱"
+  },
+  {
+    "index": 19127,
+    "subject": "活动甲板",
+    "relation": "属于",
+    "object": "部件"
+  },
+  {
+    "index": 19128,
+    "subject": "活动甲板",
+    "relation": "用于",
+    "object": "装载设备"
+  },
+  {
+    "index": 19129,
+    "subject": "活动甲板",
+    "relation": "属于",
+    "object": "甲板"
+  },
+  {
+    "index": 19130,
+    "subject": "可折叠甲板",
+    "relation": "属于",
+    "object": "甲板"
+  },
+  {
+    "index": 19131,
+    "subject": "可折叠甲板",
+    "relation": "安装于",
+    "object": "船舶末端"
+  },
+  {
+    "index": 19132,
+    "subject": "可折叠甲板",
+    "relation": "通过",
+    "object": "液压设备"
+  },
+  {
+    "index": 19133,
+    "subject": "劳氏船级社",
+    "relation": "规范",
+    "object": "可移动甲板"
+  },
+  {
+    "index": 19134,
+    "subject": "可移动甲板",
+    "relation": "需要",
+    "object": "入级标志"
+  },
+  {
+    "index": 19135,
+    "subject": "剪式升降机",
+    "relation": "属于",
+    "object": "设备"
+  },
+  {
+    "index": 19136,
+    "subject": "剪式升降机",
+    "relation": "用于",
+    "object": "甲板间升降"
+  },
+  {
+    "index": 20121,
+    "subject": "纵向翻身吊环",
+    "relation": "安装时必须垂直于",
+    "object": "横剖面"
+  },
+  {
+    "index": 20122,
+    "subject": "横向翻身吊环",
+    "relation": "安装时必须垂直于",
+    "object": "纵剖面"
+  },
+  {
+    "index": 20123,
+    "subject": "吊环反面的纵横结构",
+    "relation": "强度达不到要求的",
+    "object": "采用局部加短横梁或肘板的方法进行加强"
+  },
+  {
+    "index": 20124,
+    "subject": "吊环反面的纵横结构",
+    "relation": "防止损坏",
+    "object": "局部加短横梁或肘板"
+  },
+  {
+    "index": 20125,
+    "subject": "A、B、E、F、H、I、J型七种吊环",
+    "relation": "可以重复使用",
+    "object": "三次"
+  },
+  {
+    "index": 20126,
+    "subject": "C型吊环",
+    "relation": "可以重复使用",
+    "object": "两次"
+  },
+  {
+    "index": 20127,
+    "subject": "D型吊环",
+    "relation": "可以重复使用",
+    "object": "四次"
+  },
+  {
+    "index": 20128,
+    "subject": "所有能再次使用的吊环",
+    "relation": "必须修正",
+    "object": "打磨光顺"
+  },
+  {
+    "index": 20129,
+    "subject": "船舶上层建筑",
+    "relation": "整体吊装",
+    "object": "是当前深化造船生产设计的重要内容之一"
+  },
+  {
+    "index": 20130,
+    "subject": "船舶上层建筑",
+    "relation": "整体吊装",
+    "object": "是缩短造船周期的一个重要手段"
+  },
+  {
+    "index": 20131,
+    "subject": "船舶上层建筑",
+    "relation": "整体吊装",
+    "object": "是实现壳、舾、涂一体化造船法的前提条件"
+  },
+  {
+    "index": 20132,
+    "subject": "上层建筑",
+    "relation": "要求达到",
+    "object": "完整性状态"
+  },
+  {
+    "index": 20133,
+    "subject": "上层建筑",
+    "relation": "区域内的舾装工作",
+    "object": "要全部完成"
+  },
+  {
+    "index": 20134,
+    "subject": "上层建筑整体吊装",
+    "relation": "对结构变形",
+    "object": "提出了更高的要求"
+  },
+  {
+    "index": 20269,
+    "subject": "规范",
+    "relation": "规定",
+    "object": "密性试验"
+  },
+  {
+    "index": 20270,
+    "subject": "规范",
+    "relation": "规定",
+    "object": "水密焊缝"
+  },
+  {
+    "index": 20271,
+    "subject": "规范",
+    "relation": "规定",
+    "object": "涂刷油漆"
+  },
+  {
+    "index": 20272,
+    "subject": "规范",
+    "relation": "规定",
+    "object": "敷设绝缘材料"
+  },
+  {
+    "index": 20273,
+    "subject": "分段建造工艺",
+    "relation": "影响",
+    "object": "涂装效率"
+  },
+  {
+    "index": 20274,
+    "subject": "分段建造工艺",
+    "relation": "影响",
+    "object": "涂装质量"
+  },
+  {
+    "index": 20275,
+    "subject": "密性试验",
+    "relation": "进行",
+    "object": "船台"
+  },
+  {
+    "index": 20276,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "建造周期"
+  },
+  {
+    "index": 20277,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "建造成本"
+  },
+  {
+    "index": 20278,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "脚手架"
+  },
+  {
+    "index": 20279,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "照明"
+  },
+  {
+    "index": 20280,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "天气"
+  },
+  {
+    "index": 20281,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "温度"
+  },
+  {
+    "index": 20282,
+    "subject": "密性试验",
+    "relation": "影响",
+    "object": "湿度"
+  },
+  {
+    "index": 20283,
+    "subject": "分段建造",
+    "relation": "应用",
+    "object": "密性试验"
+  },
+  {
+    "index": 20284,
+    "subject": "日本",
+    "relation": "采用",
+    "object": "负压密性试验法"
+  },
+  {
+    "index": 20285,
+    "subject": "日本",
+    "relation": "采用",
+    "object": "空气检验的密性试验法"
+  },
+  {
+    "index": 20286,
+    "subject": "分段",
+    "relation": "进行",
+    "object": "密性试验"
+  },
+  {
+    "index": 20287,
+    "subject": "分段",
+    "relation": "进行",
+    "object": "除锈"
+  },
+  {
+    "index": 20288,
+    "subject": "分段",
+    "relation": "进行",
+    "object": "涂漆"
+  },
+  {
+    "index": 20289,
+    "subject": "分段大接头",
+    "relation": "保留",
+    "object": "不涂油漆"
+  },
+  {
+    "index": 20290,
+    "subject": "分段",
+    "relation": "进行",
+    "object": "涂装"
+  },
+  {
+    "index": 20291,
+    "subject": "分段",
+    "relation": "进行",
+    "object": "大合拢"
+  },
+  {
+    "index": 20292,
+    "subject": "分段",
+    "relation": "进行",
+    "object": "密性试验"
+  },
+  {
+    "index": 20293,
+    "subject": "分段",
+    "relation": "提高",
+    "object": "涂装效率"
+  },
+  {
+    "index": 20294,
+    "subject": "分段",
+    "relation": "减少",
+    "object": "除锈、涂装工时"
+  },
+  {
+    "index": 20295,
+    "subject": "密性试验",
+    "relation": "减少",
+    "object": "船台周期"
+  },
+  {
+    "index": 21192,
+    "subject": "船厂设计部门",
+    "relation": "指定",
+    "object": "主要设备"
+  },
+  {
+    "index": 21193,
+    "subject": "船厂设计部门",
+    "relation": "满足",
+    "object": "所有受欢迎的需求"
+  },
+  {
+    "index": 23298,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "压载舱涂层性能标准(PSPC)"
+  },
+  {
+    "index": 23299,
+    "subject": "国际海事组织",
+    "relation": "制定",
+    "object": "专用海水压载舱防腐系统的选择应用和指南"
+  },
+  {
+    "index": 23300,
+    "subject": "国际海事组织",
+    "relation": "引用",
+    "object": "专用海水压载舱防腐系统的选择应用和指南"
+  },
+  {
+    "index": 23301,
+    "subject": "国际海事组织",
+    "relation": "指定",
+    "object": "船舶设计设备分委会(DE)"
+  },
+  {
+    "index": 23302,
+    "subject": "国际船级社协会",
+    "relation": "参与",
+    "object": "《涂层性能标准》草案起草"
+  },
+  {
+    "index": 23303,
+    "subject": "航运工业界",
+    "relation": "参与",
+    "object": "《涂层性能标准》草案起草"
+  },
+  {
+    "index": 23304,
+    "subject": "《专用海水压载舱防腐系统的选择应用和指南》",
+    "relation": "作为基础",
+    "object": "《涂层性能标准》草案"
+  },
+  {
+    "index": 23305,
+    "subject": "油轮结构论坛",
+    "relation": "提供基础",
+    "object": "《涂层性能标准》草案"
+  },
+  {
+    "index": 23306,
+    "subject": "海安会(MSC)",
+    "relation": "通过",
+    "object": "制定强制性的国际涂层性能标准"
+  },
+  {
+    "index": 23720,
+    "subject": "下水方式",
+    "relation": "适用于",
+    "object": "不同下水重量和船型的船舶"
+  },
+  {
+    "index": 23721,
+    "subject": "下水方式",
+    "relation": "具有",
+    "object": "下水设备简单"
+  },
+  {
+    "index": 23722,
+    "subject": "下水方式",
+    "relation": "具有",
+    "object": "建造成本较低"
+  },
+  {
+    "index": 23723,
+    "subject": "下水方式",
+    "relation": "具有",
+    "object": "维护管理方便"
+  },
+  {
+    "index": 23724,
+    "subject": "下水方式",
+    "relation": "使用",
+    "object": "油脂"
+  },
+  {
+    "index": 23725,
+    "subject": "油脂",
+    "relation": "难以",
+    "object": "重复利用"
+  },
+  {
+    "index": 23726,
+    "subject": "油脂",
+    "relation": "污染",
+    "object": "作业环境"
+  },
+  {
+    "index": 23727,
+    "subject": "油脂",
+    "relation": "污染",
+    "object": "周围水域"
+  },
+  {
+    "index": 23728,
+    "subject": "油脂",
+    "relation": "受",
+    "object": "环境温度"
+  },
+  {
+    "index": 23729,
+    "subject": "油脂",
+    "relation": "影响",
+    "object": "润滑能力"
+  },
+  {
+    "index": 23730,
+    "subject": "环境保护意识",
+    "relation": "加强",
+    "object": "下水方式"
+  },
+  {
+    "index": 23731,
+    "subject": "政策",
+    "relation": "改变",
+    "object": "下水方式"
+  },
+  {
+    "index": 23732,
+    "subject": "下水方式",
+    "relation": "有",
+    "object": "被淘汰的趋势"
+  },
+  {
+    "index": 23733,
+    "subject": "纵向钢珠滑道下水",
+    "relation": "采用",
+    "object": "钢珠"
+  },
+  {
+    "index": 23734,
+    "subject": "纵向钢珠滑道下水",
+    "relation": "替代",
+    "object": "下水油脂"
+  },
+  {
+    "index": 23735,
+    "subject": "纵向钢珠滑道下水",
+    "relation": "变",
+    "object": "滑动摩擦"
+  },
+  {
+    "index": 23736,
+    "subject": "纵向钢珠滑道下水",
+    "relation": "为",
+    "object": "滚动摩擦"
+  },
+  {
+    "index": 23737,
+    "subject": "纵向钢珠滑道下水",
+    "relation": "减少",
+    "object": "滑板和滑道之间的摩擦力"
+  },
+  {
+    "index": 23738,
+    "subject": "钢珠",
+    "relation": "可以",
+    "object": "重复利用"
+  },
+  {
+    "index": 23739,
+    "subject": "钢珠",
+    "relation": "对",
+    "object": "环境的污染"
+  },
+  {
+    "index": 23740,
+    "subject": "钢珠下水装置",
+    "relation": "由",
+    "object": "滑道"
+  },
+  {
+    "index": 23741,
+    "subject": "钢珠下水装置",
+    "relation": "由",
+    "object": "钢珠"
+  },
+  {
+    "index": 23742,
+    "subject": "钢珠下水装置",
+    "relation": "由",
+    "object": "保距器"
+  },
+  {
+    "index": 23743,
+    "subject": "钢珠下水装置",
+    "relation": "由",
+    "object": "组合滑板"
+  },
+  {
+    "index": 23744,
+    "subject": "钢珠",
+    "relation": "材料",
+    "object": "高铬钢"
+  },
+  {
+    "index": 23745,
+    "subject": "钢珠",
+    "relation": "材料",
+    "object": "铸铁"
+  },
+  {
+    "index": 23746,
+    "subject": "钢珠",
+    "relation": "必须保证",
+    "object": "承载能力"
+  },
+  {
+    "index": 23747,
+    "subject": "纵向下水",
+    "relation": "船体首端压力较大",
+    "object": "钢珠"
+  },
+  {
+    "index": 23748,
+    "subject": "船厂",
+    "relation": "使用",
+    "object": "承载能力较强的钢珠"
+  },
+  {
+    "index": 23749,
+    "subject": "船厂",
+    "relation": "使用",
+    "object": "承载能力较弱的钢珠"
+  },
+  {
+    "index": 23750,
+    "subject": "保距器",
+    "relation": "用来控制",
+    "object": "钢珠滚动时的相互间距和位置"
+  },
+  {
+    "index": 23751,
+    "subject": "滑道末端",
+    "relation": "设置有",
+    "object": "回收坑"
+  },
+  {
+    "index": 23752,
+    "subject": "滑道末端",
+    "relation": "设置有",
+    "object": "钢架网袋"
+  },
+  {
+    "index": 23753,
+    "subject": "钢架网袋",
+    "relation": "用于",
+    "object": "收集下水时落下的钢珠和保距器"
+  },
+  {
+    "index": 24393,
+    "subject": "动力工具打磨处理",
+    "relation": "不适合",
+    "object": "高性能涂料"
+  },
+  {
+    "index": 25188,
+    "subject": "零件编码",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25189,
+    "subject": "零件代码排序",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25190,
+    "subject": "零件代码排序",
+    "relation": "产生",
+    "object": "零件代码顺序表"
+  },
+  {
+    "index": 25191,
+    "subject": "零件结构特征统计分析",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25192,
+    "subject": "零件结构特征统计分析",
+    "relation": "用于",
+    "object": "特征矩阵"
+  },
+  {
+    "index": 25193,
+    "subject": "特征矩阵",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25194,
+    "subject": "特征矩阵",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25195,
+    "subject": "零件编码",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25196,
+    "subject": "零件编码",
+    "relation": "用于",
+    "object": "零件分类"
+  },
+  {
+    "index": 25197,
+    "subject": "零件结构信息分布",
+    "relation": "用于",
+    "object": "统计分析"
+  },
+  {
+    "index": 25198,
+    "subject": "零件结构信息分布",
+    "relation": "用于",
+    "object": "零件分组"
+  },
+  {
+    "index": 25199,
+    "subject": "特征矩阵",
+    "relation": "用于",
+    "object": "划分零件组"
+  },
+  {
+    "index": 25200,
+    "subject": "零件代码",
+    "relation": "匹配",
+    "object": "特征矩阵"
+  },
+  {
+    "index": 25201,
+    "subject": "零件代码",
+    "relation": "不匹配",
+    "object": "特征矩阵"
+  },
+  {
+    "index": 25202,
+    "subject": "零件分组",
+    "relation": "需要",
+    "object": "人工干预"
+  },
+  {
+    "index": 25203,
+    "subject": "零件编码",
+    "relation": "用于",
+    "object": "计算机处理"
+  },
+  {
+    "index": 25204,
+    "subject": "零件编码",
+    "relation": "用于",
+    "object": "排序"
+  },
+  {
+    "index": 25205,
+    "subject": "零件编码",
+    "relation": "用于",
+    "object": "统计分析"
+  },
+  {
+    "index": 25556,
+    "subject": "生产节拍",
+    "relation": "组织",
+    "object": "单件流水作业"
+  },
+  {
+    "index": 25557,
+    "subject": "分段",
+    "relation": "需要",
+    "object": "预舾装"
+  },
+  {
+    "index": 25558,
+    "subject": "A分段",
+    "relation": "安装",
+    "object": "管子"
+  },
+  {
+    "index": 25559,
+    "subject": "B分段",
+    "relation": "安装",
+    "object": "结构件"
+  },
+  {
+    "index": 25560,
+    "subject": "交货次序",
+    "relation": "导致",
+    "object": "前道工序忙闲不均"
+  },
+  {
+    "index": 25561,
+    "subject": "分段装配次序",
+    "relation": "调整为",
+    "object": "A,A,B,A,A,B,A,A,B"
+  },
+  {
+    "index": 25562,
+    "subject": "管子",
+    "relation": "实现",
+    "object": "均衡有节拍的生产"
+  },
+  {
+    "index": 25563,
+    "subject": "结构件",
+    "relation": "实现",
+    "object": "均衡有节拍的生产"
+  },
+  {
+    "index": 25564,
+    "subject": "A分段",
+    "relation": "实现",
+    "object": "均衡有节拍的生产"
+  },
+  {
+    "index": 25565,
+    "subject": "B分段",
+    "relation": "实现",
+    "object": "均衡有节拍的生产"
+  },
+  {
+    "index": 25566,
+    "subject": "分段制造",
+    "relation": "组织",
+    "object": "节拍生产"
+  },
+  {
+    "index": 25567,
+    "subject": "劳动组织形式",
+    "relation": "按照",
+    "object": "阶段、类型、区域"
+  },
+  {
+    "index": 25568,
+    "subject": "内业",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25569,
+    "subject": "构件",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25570,
+    "subject": "分段装配",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25571,
+    "subject": "外业",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25572,
+    "subject": "管子",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25573,
+    "subject": "机装",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25574,
+    "subject": "船装",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25575,
+    "subject": "电装",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25576,
+    "subject": "内装",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25577,
+    "subject": "涂装",
+    "relation": "属于",
+    "object": "劳动组织形式"
+  },
+  {
+    "index": 25578,
+    "subject": "一工多能",
+    "relation": "属于",
+    "object": "岗位技能制度"
+  },
+  {
+    "index": 25579,
+    "subject": "劳动力",
+    "relation": "合理使用",
+    "object": "一工多能"
+  },
+  {
+    "index": 25580,
+    "subject": "作业量",
+    "relation": "合理调整",
+    "object": "一工多能"
+  },
+  {
+    "index": 25581,
+    "subject": "5S管理",
+    "relation": "属于",
+    "object": "管理方法"
+  },
+  {
+    "index": 26628,
+    "subject": "前支架",
+    "relation": "承受",
+    "object": "载荷"
+  },
+  {
+    "index": 26629,
+    "subject": "前支架",
+    "relation": "承受",
+    "object": "船舶重量"
+  },
+  {
+    "index": 26630,
+    "subject": "前支架",
+    "relation": "承受",
+    "object": "滑道反力"
+  },
+  {
+    "index": 26631,
+    "subject": "前支架",
+    "relation": "位于",
+    "object": "船舶首部"
+  },
+  {
+    "index": 26632,
+    "subject": "滑动座板",
+    "relation": "位于",
+    "object": "船舶首部底部"
+  },
+  {
+    "index": 26633,
+    "subject": "滑动座板",
+    "relation": "连接",
+    "object": "衬垫"
+  },
+  {
+    "index": 26634,
+    "subject": "外板",
+    "relation": "传递",
+    "object": "载荷"
+  },
+  {
+    "index": 26635,
+    "subject": "外板",
+    "relation": "传递",
+    "object": "载荷"
+  },
+  {
+    "index": 26636,
+    "subject": "肘板",
+    "relation": "临时固定",
+    "object": "外板"
+  },
+  {
+    "index": 26637,
+    "subject": "肘板",
+    "relation": "临时固定",
+    "object": "支架"
+  },
+  {
+    "index": 26638,
+    "subject": "肘板",
+    "relation": "安装",
+    "object": "船舶前部底部"
+  },
+  {
+    "index": 26639,
+    "subject": "肘板",
+    "relation": "安装",
+    "object": "支架前端"
+  },
+  {
+    "index": 26640,
+    "subject": "滑动导轨",
+    "relation": "需要",
+    "object": "衬垫"
+  },
+  {
+    "index": 26641,
+    "subject": "滑动导轨",
+    "relation": "防止",
+    "object": "石油基油脂渗透"
+  },
+  {
+    "index": 26642,
+    "subject": "润滑剂",
+    "relation": "减少",
+    "object": "摩擦力"
+  },
+  {
+    "index": 26643,
+    "subject": "润滑剂",
+    "relation": "减少",
+    "object": "滑道与滑板之间摩擦力"
+  },
+  {
+    "index": 26644,
+    "subject": "尾部下水架",
+    "relation": "需要",
+    "object": "衬垫"
+  },
+  {
+    "index": 26645,
+    "subject": "尾部下水架",
+    "relation": "使用",
+    "object": "垂向木材结构"
+  },
+  {
+    "index": 26646,
+    "subject": "尾部下水架",
+    "relation": "使用",
+    "object": "肘板"
+  },
+  {
+    "index": 26647,
+    "subject": "船舶首部",
+    "relation": "设计",
+    "object": "丰满"
+  },
+  {
+    "index": 26648,
+    "subject": "滑动导轨前端",
+    "relation": "需要",
+    "object": "更少的支持力"
+  },
+  {
+    "index": 26649,
+    "subject": "肘板",
+    "relation": "焊接",
+    "object": "外板"
+  },
+  {
+    "index": 26650,
+    "subject": "肘板",
+    "relation": "焊接",
+    "object": "厚板"
+  },
+  {
+    "index": 26651,
+    "subject": "船舶前支架",
+    "relation": "设计",
+    "object": "抵挡很大的压力"
+  },
+  {
+    "index": 26652,
+    "subject": "船舶前支架",
+    "relation": "设计",
+    "object": "维持一段时间"
+  },
+  {
+    "index": 26653,
+    "subject": "滑道导轨",
+    "relation": "承受",
+    "object": "润滑剂的压力"
+  },
+  {
+    "index": 26654,
+    "subject": "船舶",
+    "relation": "具有",
+    "object": "动量"
+  },
+  {
+    "index": 26655,
+    "subject": "船舶",
+    "relation": "防止",
+    "object": "被卡住"
+  },
+  {
+    "index": 27302,
+    "subject": "麦克格雷戈·纳维尔公司",
+    "relation": "制造",
+    "object": "Rotolocker"
+  },
+  {
+    "index": 27303,
+    "subject": "Rotolocker",
+    "relation": "属于",
+    "object": "设备"
+  },
+  {
+    "index": 27304,
+    "subject": "Rotolocker",
+    "relation": "作用于",
+    "object": "单位负荷"
+  },
+  {
+    "index": 27305,
+    "subject": "单位负荷",
+    "relation": "被提升到",
+    "object": "舷侧"
+  },
+  {
+    "index": 27306,
+    "subject": "单位负荷",
+    "relation": "被旋转",
+    "object": "180°"
+  },
+  {
+    "index": 27307,
+    "subject": "单位负荷",
+    "relation": "被降到",
+    "object": "货舱"
+  },
+  {
+    "index": 27308,
+    "subject": "单位负荷",
+    "relation": "被降到",
+    "object": "甲板间"
+  },
+  {
+    "index": 27309,
+    "subject": "活动甲板",
+    "relation": "属于",
+    "object": "部件"
+  },
+  {
+    "index": 27310,
+    "subject": "活动甲板",
+    "relation": "安装在",
+    "object": "船舶"
+  },
+  {
+    "index": 27311,
+    "subject": "活动甲板",
+    "relation": "允许",
+    "object": "灵活装载设备"
+  },
+  {
+    "index": 27312,
+    "subject": "活动甲板",
+    "relation": "用于",
+    "object": "不同航行"
+  },
+  {
+    "index": 27313,
+    "subject": "活动甲板",
+    "relation": "携带",
+    "object": "不同类型货物"
+  },
+  {
+    "index": 27314,
+    "subject": "活动甲板",
+    "relation": "安装在",
+    "object": "散货船"
+  },
+  {
+    "index": 27315,
+    "subject": "活动甲板",
+    "relation": "位于",
+    "object": "舷顶边舱"
+  },
+  {
+    "index": 27316,
+    "subject": "活动甲板",
+    "relation": "可收放",
+    "object": "汽车甲板"
+  },
+  {
+    "index": 27317,
+    "subject": "汽车甲板",
+    "relation": "属于",
+    "object": "活动甲板"
+  },
+  {
+    "index": 27318,
+    "subject": "汽车甲板",
+    "relation": "用于",
+    "object": "运输矿石"
+  },
+  {
+    "index": 27319,
+    "subject": "汽车甲板",
+    "relation": "用于",
+    "object": "运输汽车"
+  },
+  {
+    "index": 27320,
+    "subject": "汽车甲板",
+    "relation": "常见于",
+    "object": "滚装船"
+  },
+  {
+    "index": 27321,
+    "subject": "可升降甲板",
+    "relation": "属于",
+    "object": "活动甲板"
+  },
+  {
+    "index": 27322,
+    "subject": "可升降甲板",
+    "relation": "被降低",
+    "object": "天花板"
+  },
+  {
+    "index": 27323,
+    "subject": "可升降甲板",
+    "relation": "通过",
+    "object": "起重机"
+  },
+  {
+    "index": 27324,
+    "subject": "可升降甲板",
+    "relation": "通过",
+    "object": "吊索"
+  },
+  {
+    "index": 27325,
+    "subject": "可升降甲板",
+    "relation": "安装在",
+    "object": "天花板"
+  },
+  {
+    "index": 27326,
+    "subject": "可升降甲板",
+    "relation": "引入",
+    "object": "液压的滑动索小绞车"
+  },
+  {
+    "index": 27327,
+    "subject": "可折叠甲板",
+    "relation": "属于",
+    "object": "活动甲板"
+  },
+  {
+    "index": 27328,
+    "subject": "可折叠甲板",
+    "relation": "被卷放",
+    "object": "船舶末端"
+  },
+  {
+    "index": 27329,
+    "subject": "可折叠甲板",
+    "relation": "被卷放",
+    "object": "船舶两侧"
+  },
+  {
+    "index": 27330,
+    "subject": "可折叠甲板",
+    "relation": "通过",
+    "object": "液压设备"
+  },
+  {
+    "index": 27331,
+    "subject": "可折叠甲板",
+    "relation": "被降低",
+    "object": "水平位置"
+  },
+  {
+    "index": 27332,
+    "subject": "劳氏船级社",
+    "relation": "规范",
+    "object": "可移动甲板"
+  },
+  {
+    "index": 27333,
+    "subject": "可移动甲板",
+    "relation": "安装在",
+    "object": "货舱"
+  },
+  {
+    "index": 27334,
+    "subject": "可移动甲板",
+    "relation": "需要",
+    "object": "入级标志"
+  },
+  {
+    "index": 27335,
+    "subject": "船东",
+    "relation": "要求",
+    "object": "分配入级标志"
+  },
+  {
+    "index": 27336,
+    "subject": "剪式升降机",
+    "relation": "属于",
+    "object": "设备"
+  },
+  {
+    "index": 27337,
+    "subject": "剪式升降机",
+    "relation": "用于",
+    "object": "甲板间升降"
+  },
+  {
+    "index": 27338,
+    "subject": "剪式升降机",
+    "relation": "用于",
+    "object": "移动货物"
+  },
+  {
+    "index": 27339,
+    "subject": "剪式升降机",
+    "relation": "作为",
+    "object": "跳板的替代品"
+  },
+  {
+    "index": 27340,
+    "subject": "剪式升降机",
+    "relation": "占用空间",
+    "object": "较小"
+  },
+  {
+    "index": 27663,
+    "subject": "侵蚀",
+    "relation": "属于",
+    "object": "腐蚀类型"
+  },
+  {
+    "index": 27664,
+    "subject": "冲击腐蚀",
+    "relation": "属于",
+    "object": "腐蚀类型"
+  },
+  {
+    "index": 27665,
+    "subject": "空泡腐蚀",
+    "relation": "属于",
+    "object": "腐蚀类型"
+  },
+  {
+    "index": 27666,
+    "subject": "空泡腐蚀",
+    "relation": "属于",
+    "object": "腐蚀现象"
+  },
+  {
+    "index": 27667,
+    "subject": "侵蚀",
+    "relation": "导致",
+    "object": "金属劣化"
+  },
+  {
+    "index": 27668,
+    "subject": "冲击腐蚀",
+    "relation": "导致",
+    "object": "金属劣化"
+  },
+  {
+    "index": 27669,
+    "subject": "流动的水",
+    "relation": "作用于",
+    "object": "金属表面"
+  },
+  {
+    "index": 27670,
+    "subject": "气泡",
+    "relation": "打击",
+    "object": "金属表面"
+  },
+  {
+    "index": 27671,
+    "subject": "侵蚀",
+    "relation": "导致",
+    "object": "保护膜侵蚀"
+  },
+  {
+    "index": 27672,
+    "subject": "被侵蚀的表面",
+    "relation": "成为",
+    "object": "阳极"
+  },
+  {
+    "index": 27673,
+    "subject": "腐蚀",
+    "relation": "开始",
+    "object": "阳极区"
+  },
+  {
+    "index": 27674,
+    "subject": "流动的水",
+    "relation": "发生于",
+    "object": "金属表面"
+  },
+  {
+    "index": 27675,
+    "subject": "湍流",
+    "relation": "引起",
+    "object": "侵蚀"
+  },
+  {
+    "index": 27676,
+    "subject": "船体",
+    "relation": "发生于",
+    "object": "侵蚀"
+  },
+  {
+    "index": 27677,
+    "subject": "温暖海水",
+    "relation": "加剧",
+    "object": "腐蚀"
+  },
+  {
+    "index": 27678,
+    "subject": "空泡腐蚀",
+    "relation": "发生于",
+    "object": "快速流动的液体环境"
+  },
+  {
+    "index": 27679,
+    "subject": "局部压力",
+    "relation": "降低",
+    "object": "绝对蒸汽压力"
+  },
+  {
+    "index": 27680,
+    "subject": "蒸汽空泡",
+    "relation": "形成于",
+    "object": "局部"
+  },
+  {
+    "index": 27681,
+    "subject": "蒸汽空泡",
+    "relation": "破裂",
+    "object": "金属表面"
+  },
+  {
+    "index": 27682,
+    "subject": "气泡破裂",
+    "relation": "释放",
+    "object": "能量"
+  },
+  {
+    "index": 27683,
+    "subject": "能量释放",
+    "relation": "导致",
+    "object": "金属表面损坏"
+  },
+  {
+    "index": 27684,
+    "subject": "金属表面损坏",
+    "relation": "表现为",
+    "object": "点蚀"
+  },
+  {
+    "index": 27685,
+    "subject": "点蚀",
+    "relation": "归因于",
+    "object": "机械损伤"
+  },
+  {
+    "index": 27686,
+    "subject": "电化学作用",
+    "relation": "导致",
+    "object": "损害"
+  },
+  {
+    "index": 27687,
+    "subject": "腐蚀余量",
+    "relation": "属于",
+    "object": "设计参数"
+  },
+  {
+    "index": 27688,
+    "subject": "船级社",
+    "relation": "规定",
+    "object": "腐蚀余量"
+  },
+  {
+    "index": 27689,
+    "subject": "船级社",
+    "relation": "基于",
+    "object": "25年服务期"
+  },
+  {
+    "index": 27704,
+    "subject": "锌板",
+    "relation": "用于",
+    "object": "保护铜质螺旋桨"
+  },
+  {
+    "index": 27705,
+    "subject": "锌板",
+    "relation": "用于",
+    "object": "保护沉浸在海水中的装置"
+  },
+  {
+    "index": 27706,
+    "subject": "锌合金",
+    "relation": "用于",
+    "object": "牺牲阳极保护系统"
+  },
+  {
+    "index": 27707,
+    "subject": "铝",
+    "relation": "用于",
+    "object": "牺牲阳极保护系统"
+  },
+  {
+    "index": 27708,
+    "subject": "镁",
+    "relation": "用于",
+    "object": "牺牲阳极保护系统"
+  },
+  {
+    "index": 27709,
+    "subject": "镁阳极",
+    "relation": "不能用于",
+    "object": "油船压载舱"
+  },
+  {
+    "index": 27710,
+    "subject": "镁阳极",
+    "relation": "不能用于",
+    "object": "油船货舱"
+  },
+  {
+    "index": 27711,
+    "subject": "铝阳极",
+    "relation": "用于",
+    "object": "油船"
+  },
+  {
+    "index": 27712,
+    "subject": "铝阳极",
+    "relation": "安装于",
+    "object": "势能小于 $28mathrm{kg}cdot mathrm{m}$ 的位置"
+  },
+  {
+    "index": 27713,
+    "subject": "牺牲阳极",
+    "relation": "安装于",
+    "object": "船体"
+  },
+  {
+    "index": 27714,
+    "subject": "牺牲阳极",
+    "relation": "安装于",
+    "object": "压载舱"
+  },
+  {
+    "index": 27715,
+    "subject": "外加电流保护系统",
+    "relation": "使用",
+    "object": "非消耗性贵金属阳极"
+  },
+  {
+    "index": 27772,
+    "subject": "氯化橡胶",
+    "relation": "属于",
+    "object": "材料"
+  },
+  {
+    "index": 27773,
+    "subject": "氯化橡胶",
+    "relation": "属于",
+    "object": "材料部件"
+  },
+  {
+    "index": 27774,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "船底防锈漆"
+  },
+  {
+    "index": 27775,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "水线漆"
+  },
+  {
+    "index": 27776,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "船壳漆"
+  },
+  {
+    "index": 27777,
+    "subject": "氯化橡胶",
+    "relation": "用于",
+    "object": "甲板漆"
+  },
+  {
+    "index": 27778,
+    "subject": "氯化橡胶",
+    "relation": "属于",
+    "object": "媒介物"
+  },
+  {
+    "index": 27779,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "耐水性"
+  },
+  {
+    "index": 27780,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "耐化学性"
+  },
+  {
+    "index": 27781,
+    "subject": "氯化橡胶",
+    "relation": "具有",
+    "object": "耐久性"
+  },
+  {
+    "index": 27782,
+    "subject": "异构化橡胶",
+    "relation": "属于",
+    "object": "材料"
+  },
+  {
+    "index": 27783,
+    "subject": "异构化橡胶",
+    "relation": "由",
+    "object": "天然橡胶"
+  },
+  {
+    "index": 27784,
+    "subject": "异构化橡胶",
+    "relation": "具有",
+    "object": "相同的化学成分"
+  },
+  {
+    "index": 27785,
+    "subject": "异构化橡胶",
+    "relation": "具有",
+    "object": "不同的分子结构"
+  },
+  {
+    "index": 27786,
+    "subject": "异构化橡胶",
+    "relation": "属于",
+    "object": "媒介物"
+  },
+  {
+    "index": 27787,
+    "subject": "异构化橡胶",
+    "relation": "具有",
+    "object": "有机溶剂溶解度"
+  },
+  {
+    "index": 27788,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "属于",
+    "object": "材料"
+  },
+  {
+    "index": 27789,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "由",
+    "object": "异氰酸酯"
+  },
+  {
+    "index": 27790,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "由",
+    "object": "羟基混合物"
+  },
+  {
+    "index": 27791,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "水线以上船体涂装系统"
+  },
+  {
+    "index": 27792,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐候性"
+  },
+  {
+    "index": 27793,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "化学稳定性"
+  },
+  {
+    "index": 27794,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "油漆膜"
+  },
+  {
+    "index": 27795,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "纤维"
+  },
+  {
+    "index": 27796,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "黏合剂"
+  },
+  {
+    "index": 27797,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "韧性"
+  },
+  {
+    "index": 27798,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "硬度"
+  },
+  {
+    "index": 27799,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "光泽度"
+  },
+  {
+    "index": 27800,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐磨性"
+  },
+  {
+    "index": 27801,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐化学性"
+  },
+  {
+    "index": 27802,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "耐风化性"
+  },
+  {
+    "index": 27803,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "游艇"
+  },
+  {
+    "index": 27804,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "具有",
+    "object": "光泽度"
+  },
+  {
+    "index": 27805,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "单成分聚氨基甲酸油漆"
+  },
+  {
+    "index": 27806,
+    "subject": "聚氨基甲酸乙酯树脂",
+    "relation": "用于",
+    "object": "双成分聚氨基甲酸油漆"
+  }
+]
